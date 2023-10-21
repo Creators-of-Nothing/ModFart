@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ABC",
+      "DED",
+      "FGF"
+    ],
+    "key": {
+      "A": {
+        "item": "refinedstorage:advanced_processor"
+      },
+      "B": {
+        "item": "deeperdarker:heart_of_the_deep"
+      },
+      "C": {
+        "item": "refinedstorage:improved_processor"
+      },
+      "D": {
+        "item": "refinedstorage:silicon"
+      },
+      "E": {
+        "item": "refinedstorage:machine_casing"
+      },
+      "F": {
+        "item": "refinedstorage:quartz_enriched_iron"
+      },
+      "G": {
+        "item": "extradisks:withering_processor"
+      }
+    },
+    "result": {
+      "item": "refinedstorage:controller"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:basic_table"
+    },
+    {
+      "item": "extendedcrafting:advanced_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:advanced_table"
+    }
+  ]
+}

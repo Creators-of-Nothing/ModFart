@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:oxidizing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:pellets/polonium"
+        }
+    },
+    "output": {
+        "amount": 1000,
+        "gas": "mekanism:polonium"
+    }
+}

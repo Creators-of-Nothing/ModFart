@@ -1,0 +1,50 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    },
+    {
+      "item": "undergarden:shiverstone"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.015625,
+      "item": "kubejs:raw_coal"
+    },
+    {
+      "chance": 0.015625,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 0.015625,
+      "item": "kubejs:raw_diamond"
+    },
+    {
+      "chance": 0.015625,
+      "item": "undergarden:raw_cloggrum"
+    },
+    {
+      "chance": 0.015625,
+      "item": "undergarden:raw_froststeel"
+    },
+    {
+      "chance": 0.015625,
+      "item": "kubejs:raw_utherium"
+    },
+    {
+      "chance": 0.015625,
+      "item": "kubejs:raw_regalium"
+    },
+    {
+      "chance": 0.015625,
+      "item": "undergarden:forgotten_nugget"
+    },
+    {
+      "chance": 0.015625,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

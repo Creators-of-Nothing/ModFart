@@ -1,0 +1,63 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_brass_mesh"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.25,
+      "item": "minecraft:fire_coral_block"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:fire_coral_fan"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:brain_coral_block"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:brain_coral_fan"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:bubble_coral_block"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:bubble_coral"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:bubble_coral_fan"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:kelp"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:experience_nugget"
+    }
+  ],
+  "waterlogged": true
+}

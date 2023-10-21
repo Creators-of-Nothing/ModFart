@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:brass_casing"
+    },
+    {
+      "item": "createchromaticreturn:industrium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "createchromaticreturn:brass_component"
+    }
+  ]
+}

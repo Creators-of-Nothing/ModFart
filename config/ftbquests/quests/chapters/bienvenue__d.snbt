@@ -1,0 +1,192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bienvenue__d"
+	group: ""
+	icon: "paraglider:heart_container"
+	id: "1BC4F0BE553BFA35"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "kubejs:textures/ftbquests/modfart.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bienvenue à vous !"
+				""
+				""
+				""
+				"Vous voici sur le modpack de la communauté &l&6Gradu&bProut&r. Ce livre de quête est un petit guide pour vous vous montrer ce qu'il est possible de faire sur ce modpack."
+				""
+				""
+				"Nous espérons que vous apprécierez votre séjour parmi nous :)"
+			]
+			icon: "minecraft:bamboo_hanging_sign"
+			id: "4FC2E0F9C883FA41"
+			rewards: [{
+				count: 10
+				id: "0FB3E7C7A71D11EA"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22A674C105CBE937"
+				title: "Bienvenue !"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F065F2761125377"]
+			description: ["Un petit village de départ a été créé pour le plaisir des yeux. Il y est &4interdit&r d'y construire ou y récupérer des ressources, mais vous pouvez vous en inspirer pour faire votre propre base :)"]
+			icon: "easy_villagers:villager"
+			id: "690E751CEE0EE273"
+			tasks: [{
+				id: "282CF8F556B8B34E"
+				title: "Village"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1672232E77007B5F"]
+			description: [
+				"Pour quitter le village, et même au cours de ton aventure, tu peux utiliser la commande &4&l/rtp&r&r pour te téléporter loin d'ici !"
+				""
+				"Cette fois-ci, vous serez à l'heure pour votre rendez-vous !"
+			]
+			icon: "mekanism:teleportation_core"
+			id: "4C85B1EFC1349D0A"
+			tasks: [{
+				id: "06F6F04583A7FA05"
+				title: "Coop ?"
+				type: "checkmark"
+			}]
+			title: "R(A)TP"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C85B1EFC1349D0A"]
+			description: [
+				"&l&2FTB Team&r vous permettra de &3claim et chunk loader&r vos bases. N'oubliez pas de permettre de pouvoir interagir avec les blocs."
+				""
+				"Dans l'inventaire, tout en haut à gauche, cliquez sur &2My Team&r. Créez votre team, puis configurez la pour pouvoir permettre l'interaction avec les blocs. Cela permettra aux personnes d'utiliser les waystones."
+			]
+			icon: "nifty:crossroad_sign"
+			id: "2D6EE4C17B11BA8E"
+			tasks: [{
+				id: "694C378B9CA39CC2"
+				title: "FTB Team"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06FCED8DD4B1E13D"]
+			description: [
+				"Les &2&lWaystones&r&r sont un bloc qui vous permet de vous téléporter d'une &4&lwaystone&r&r à une autre. De même avec les &4&lsharestones&r&r. Les &4&lwaystones&r&r et &l&4sharestones&r&r &ncolorés&r interagissent entre celles de même couleur."
+				""
+				"&nPetit cadeau&r : une sharestone pour votre base ! "
+			]
+			icon: {
+				Count: 1b
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "03EE5F5F01D746A8"
+			rewards: [{
+				id: "1730F859807ED97D"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "692D2EF7840B97E9"
+				type: "checkmark"
+			}]
+			title: "Waystone et Sharestone"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D6EE4C17B11BA8E"]
+			description: [
+				"&l&2JEI&r est le mod qui vous permet de voir tout les crafts sur la droite de votre inventaire. En passant votre souris sur l'item :"
+				""
+				"- appuyez sur &l&4R&r ou &l&4clic gauche&r pour voir la recette de l'objet si il y a."
+				"- appuyez sur &l&4U&r ou &l&4clic droit&r pour voir l'utilisation de l'objet si il y a."
+				"- appuyez sur &l&4A&r pour placer l'objet en bookmark sur la gauche de votre inventaire."
+			]
+			icon: "itemfilters:weak_nbt"
+			id: "05FD702600B8C791"
+			tasks: [{
+				id: "6D6E8246FBF68D39"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4FC2E0F9C883FA41"]
+			description: [
+				"Il s'agit de notre &npremier&r modpack ! N'hésitez pas à nous faire des  retours !"
+				""
+				""
+				"Ce modpack est un kitchen sink, vous pouvez donc faire à peu près tout dans l'ordre que vous voulez. Cependant, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure :p N'hésitez pas à consulter ce livre de quête et JEI pour vous aider !"
+			]
+			icon: "nifty:crosswalk_sign"
+			id: "6F065F2761125377"
+			tasks: [{
+				id: "0401068D4B9F1180"
+				type: "checkmark"
+			}]
+			title: "Type de modpack"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["690E751CEE0EE273"]
+			description: ["Vous êtes un habitant du village Graduprout. Par besoin d'aventure, par ennui, ou pour éviter la corvée de patate, vous décidez de quitter le village. Mais dehors, le monde sera sans pitié avec vos nerfs ! Vous mourrez.. souvent, mais n'ayez crainte, votre cadavre vous attendra toujours avec vos items à l'intérieur :)"]
+			icon: "fantasyfurniture:decorations/bone_skeleton_pile"
+			id: "1672232E77007B5F"
+			tasks: [{
+				id: "0D3D340F61A58668"
+				title: "Aventure"
+				type: "checkmark"
+			}]
+			title: "No Mercy !"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["05FD702600B8C791"]
+			description: ["&l&2Simple Voice Chat&r permet de parler en vocal en jeu ! Appuyez sur la touche &l&4V&r (par défaut) pour configurer vos setups son."]
+			icon: "moa_decor_art:microfono"
+			id: "06FCED8DD4B1E13D"
+			tasks: [{
+				id: "2CBC161B9B3CF977"
+				title: "Simple Voice Chat"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Bienvenue ! :D"
+}

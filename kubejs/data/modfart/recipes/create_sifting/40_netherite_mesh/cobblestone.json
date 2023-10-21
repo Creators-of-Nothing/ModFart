@@ -1,0 +1,62 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_coal"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:raw_copper"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_redstone"
+    },
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_emerald"
+    },
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_lapis_lazuli"
+    },
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_diamond"
+    },
+    {
+      "chance": 0.0625,
+      "item": "create:raw_zinc"
+    },
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_dimensionalshard"
+    },
+    {
+      "chance": 0.0625,
+      "item": "kubejs:raw_endumium"
+    },
+    {
+      "chance": 0.0625,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

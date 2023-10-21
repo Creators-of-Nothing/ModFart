@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " B ",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:bamboo"
+    },
+    "B": {
+      "item": "createchromaticreturn:shadow_steel_blade"
+    }
+  },
+  "result": {
+    "item": "createchromaticreturn:bamboo_shadow_steel_sword"
+  }
+}

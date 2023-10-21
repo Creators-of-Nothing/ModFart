@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " E ",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "createchromaticreturn:multiplite_handle"
+    },
+    "B": {
+      "item": "createchromaticreturn:shadow_steel_paxel_head"
+    }
+  },
+  "result": {
+    "item": "createchromaticreturn:multiplite_shadow_steel_paxel"
+  }
+}

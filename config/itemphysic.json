@@ -1,0 +1,25 @@
+{
+  "general": {
+    "customThrow": false,
+    "fallSounds": true,
+    "disableCactusDamage": false,
+    "swimmingItems": {
+      "entries": [],
+      "isWhitelist": false
+    },
+    "burningItems": {
+      "entries": [],
+      "isWhitelist": true
+    },
+    "undestroyableItems": {
+      "entries": [],
+      "isWhitelist": true
+    }
+  },
+  "pickup": {
+    "customPickup": false,
+    "pickupWhenSneaking": true,
+    "pickupNormally": false,
+    "maximumPickupRange": 5.0
+  }
+}

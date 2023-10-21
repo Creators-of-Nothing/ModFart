@@ -1,0 +1,16 @@
+{
+    "parent": "modfart:root",
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_spawn_egg"
+        },
+        "title": "Vanilla Killer",
+        "description": "Vous avez tué",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {},
+    "requirements": []
+}

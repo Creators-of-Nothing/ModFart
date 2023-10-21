@@ -1,0 +1,22 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "minecraft:fern"
+    },
+    "categories": [
+        "dirt",
+        "all"
+    ],
+    "growthTicks": 1200,
+    "display": {
+        "block": "minecraft:fern"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "minecraft:fern"
+            }
+        }
+    ]
+}

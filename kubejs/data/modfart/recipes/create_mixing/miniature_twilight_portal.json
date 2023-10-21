@@ -1,0 +1,37 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "twilightforest:alpha_yeti_trophy"
+      },
+      {
+        "item": "twilightforest:snow_queen_trophy"
+      },
+      {
+        "item": "twilightforest:quest_ram_trophy"
+      },
+      {
+        "item": "twilightforest:hydra_trophy"
+      },
+      {
+        "item": "twilightforest:knight_phantom_trophy"
+      },
+      {
+        "item": "twilightforest:ur_ghast_trophy"
+      },
+      {
+        "item": "twilightforest:naga_trophy"
+      },
+      {
+        "item": "twilightforest:lich_trophy"
+      },
+      {
+        "item": "twilightforest:minoshroom_trophy"
+      }
+    ],
+    "results": [
+      {
+        "item": "twilightforest:twilight_portal_miniature_structure"
+      }
+    ]
+  }

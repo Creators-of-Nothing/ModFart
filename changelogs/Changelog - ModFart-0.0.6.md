@@ -1,0 +1,156 @@
+# Changelog - ModFart-0.0.6
+
+## [A venir]
+- 
+
+### [Mods]
+- ***Add*** - Canary
+- ***Add*** - Connectivity
+- ***Add*** - Create Confectionery
+- ***Add*** - Enlighend
+- ***Add*** - Fastload
+- ***Add*** - FerriteCore
+- ***Add*** - ImmediatelyFast
+- ***Add*** - Macaw Furniture
+- ***Add*** - Smooth Boot
+
+- ***Del*** - Angel Ring 2
+- ***Del*** - Aquamirae
+- ***Del*** - Bagus Lib
+- ***Del*** - Bartering Station
+- ***Del*** - Crafting on a stick
+- ***Del*** - Create: Diesel Generators
+- ***Del*** - Dreadsteel
+- ***Del*** - Dynamic Lights
+- ***Del*** - Earth Mobs
+- ***Del*** - Eternal Tales
+- ***Del*** - Geode+
+- ***Del*** - GeOre
+- ***Del*** - GeOre Nouveau
+- ***Del*** - Inventorio
+- ***Del*** - Iron Jetpack
+- ***Del*** - Just Enough Breeding
+- ***Del*** - Just Enough Profession
+- ***Del*** - L2 Completements
+- ***Del*** - L2 Weaponry
+- ***Del*** - Maturi Delight
+- ***Del*** - Mindful Darkness
+- ***Del*** - Mini Utilities
+- ***Del*** - Modern Startup QOL
+- ***Del*** - Nosiphus Furniture Mod
+- ***Del*** - Obscure API
+- ***Del*** - Obscure Tooltips
+- ***Del*** - Occultism
+- ***Del*** - Oreberries Replanted
+- ***Del*** - QuestAPI
+- ***Del*** - Serene Seasons
+- ***Del*** - Serene Seasons Fix
+- ***Del*** - Simply Swords
+- ***Del*** - Spice of Life: Apple Pie Edition
+- ***Del*** - Starlight
+- ***Del*** - Tofu Delight
+- ***Del*** - TofuCraftReload
+- ***Del*** - Trading Post
+- ***Del*** - Regions Unexplored
+
+- ***V*** - [Let's Do] API
+- ***V*** - [Let's Do] Bakery
+- ***V*** - [Let's Do] Beachparty
+- ***V*** - [Let's Do] Candlelight
+- ***V*** - [Let's Do] Meadow
+- ***V*** - [Let's Do] Vinery
+- ***V*** - Ad Astra
+- ***V*** - Advanced Chimneys
+- ***V*** - Advancement Plaques
+- ***V*** - AI Improvements
+- ***V*** - Apotheosis
+- ***V*** - AppleSkin
+- ***V*** - Arcane Lanterns
+- ***V*** - AttributeFix
+- ***V*** - Audio Extension for FancyMenu
+- ***V*** - Better Advancements
+- ***V*** - BetterF3
+- ***V*** - Bookshelf
+- ***V*** - Botany Pots
+- ***V*** - Botany Pots Tiers
+- ***V*** - Bow Infinity Fix
+- ***V*** - Catalogue
+- ***V*** - cat_jam
+- ***V*** - Chat Heads
+- ***V*** - Chimes
+- ***V*** - Chipped
+- ***V*** - Corpse
+- ***V*** - Cupboard
+- ***V*** - Create : Misc & Things
+- ***V*** - Create Crafts & Additions
+- ***V*** - Create Enchantment Industry
+- ***V*** - Create Mechanical Extruder
+- ***V*** - Create Mechanical Spawner
+- ***V*** - Create Ore Excavation
+- ***V*** - Create Sifting
+- ***V*** - Create Slice & Dice
+- ***V*** - Create: Steam 'n' Rails
+- ***V*** - Cull Leaves
+- ***V*** - Dark Utilities
+- ***V*** - Dungeons and Taverns
+- ***V*** - Enchantment Descriptions
+- ***V*** - Epic Samurai's
+- ***V*** - Every Compat
+- ***V*** - Extra Disks
+- ***V*** - ExtraStorage
+- ***V*** - Fantasy's Furniture
+- ***V*** - FastFurnace
+- ***V*** - FastSuite
+- ***V*** - FastWorkbench
+- ***V*** - Festive Delight
+- ***V*** - Fluid Drawers Legacy
+- ***V*** - Flux Networks
+- ***V*** - FTB Essentials
+- ***V*** - FTB Chunks
+- ***V*** - FTB Teams
+- ***V*** - FTB Ultimine
+- ***V*** - FTB Library
+- ***V*** - Immersive Melodies
+- ***V*** - Item Borders
+- ***V*** - JourneyMap Integration
+- ***V*** - Legendary Tooltips
+- ***V*** - Macaw's Bridges
+- ***V*** - Macaw's Trapdoors
+- ***V*** - MidnightLib
+- ***V*** - Mini Utilities
+- ***V*** - Modonomicon
+- ***V*** - Pam's HarvestCraft 2 - Crops
+- ***V*** - Pam's HarvestCraft 2 - Food Core
+- ***V*** - Pam's HarvestCraft 2 - Trees
+- ***V*** - Pam's HarvestCraft 2 - Food Extended
+- ***V*** - Silverwolf's Currency
+- ***V*** - Sound Physics
+- ***V*** - Toast Control
+- ***V*** - WATERFrAMES
+- ***V*** - WATERMeDIa: Multimedia API
+
+- ***X*** - Iris & Oculus Flywheel Compat
+- ***X*** - Magnesium/Rubidium Extras
+- ***X*** - Oculus
+- ***X*** - Rubidium
+
+- ***MaJ*** - Rubidium <sub>(0.7.0a -> 0.6.5)</sub>
+
+### [Ajouts]
+- Changement de la taille des stacks (4096 pour les objets normaux, 64 pour les potions et les livres enchantés)
+- Aucune abilité de EverlastingAbilites n'est perdu à la mort d'un joueur
+- Réduction des chances pour un mob d'avoir un totem de EverlastingAbilities (50% -> 10%)
+- Changement de JEI pour afficher 10 objets par lignes et centrer la barre de recherche
+
+### [Suppressions]
+- 
+
+### [Changements]
+- Retrait du message de SebastrnLib au lancement d'un monde
+- Retrait du livre de Alex Mobs au lancement d'un monde
+- Retrait des Blueprints de Silent Gear au lancement d'un monde
+- Retrait de l'option de décraft avec Twilight Forest
+- Retrait du livre d'Apotheosis au lancement d'un monde
+- Retrait du bouton de Create du Menu Principal et en jeu
+- Retrait des notifications de Obscuria dans le chat
+- Les spawners ne drop plus lorsqu'on les mine

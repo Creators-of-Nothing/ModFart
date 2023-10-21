@@ -1,0 +1,13 @@
+
+["Config for Enderite"]
+
+	["Config for Enderite"."Enderite Misc"]
+
+		["Config for Enderite"."Enderite Misc".enderite]
+
+			["Config for Enderite"."Enderite Misc".enderite.end]
+
+				["Config for Enderite"."Enderite Misc".enderite.end.city]
+					#boolean - default | true
+					loot = true
+

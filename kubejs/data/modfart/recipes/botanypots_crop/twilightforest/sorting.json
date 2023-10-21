@@ -1,0 +1,38 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "twilightforest:sorting_sapling"
+    },
+    "categories": [
+        "dirt",
+        "all"
+    ],
+    "growthTicks": 1000,
+    "display": {
+        "block": "twilightforest:sorting_sapling"
+    },
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "twilightforest:sorting_log"
+            },
+            "minRolls": 1,
+            "maxRolls": 3
+        },
+        {
+            "chance": 0.05,
+            "output": {
+                "item": "twilightforest:liveroot"
+            }
+        },
+        {
+            "chance": 0.20,
+            "output": {
+                "item": "minecraft:stick"
+            },
+            "minRolls": 1,
+            "maxRolls": 2
+        }
+    ]
+}

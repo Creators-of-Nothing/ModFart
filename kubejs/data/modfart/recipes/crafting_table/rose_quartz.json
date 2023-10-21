@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+      {
+          "item": "biomesoplenty:rose_quartz_cluster"
+      }
+  ],
+  "result": {
+      "item": "create:rose_quartz"
+  }
+}

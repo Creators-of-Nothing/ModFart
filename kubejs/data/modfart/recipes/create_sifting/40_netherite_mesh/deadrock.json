@@ -1,0 +1,42 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "twilightforest:deadrock"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.0625,
+      "item": "twilightforest:raw_ironwood"
+    },
+    {
+      "chance": 0.0625,
+      "item": "twilightforest:steeleaf_ingot"
+    },
+    {
+      "chance": 0.0625,
+      "item": "twilightforest:armor_shard"
+    },
+    {
+      "chance": 0.0625,
+      "item": "twilightforest:fiery_ingot"
+    },
+    {
+      "chance": 0.0625,
+      "item": "twilightforest:arctic_fur"
+    },
+    {
+      "chance": 0.0625,
+      "item": "twilightforest:carminite"
+    },
+    {
+      "chance": 0.0625,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

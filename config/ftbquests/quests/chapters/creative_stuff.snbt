@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative_stuff"
+	group: "330F5450D49BBA54"
+	icon: "extendedcrafting:the_ultimate_catalyst"
+	id: "312AABFDFC6561E0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "71A65EC3DCA7252B"
+			tasks: [{
+				id: "70C9783EF1FEC17D"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0D853F4EC0684BBC"
+			tasks: [{
+				id: "4BEC5AA23335FA66"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "04CFEE49932154E8"
+			tasks: [{
+				id: "60189CE4FA2BC110"
+				item: "extradisks:infinite_fluid_storage_part"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "3CB615989E930BE3"
+			tasks: [{
+				id: "1366D2E957D58C7C"
+				item: "extendedcrafting:basic_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "453637AD487584A4"
+			tasks: [{
+				id: "4A093F45EDD4BE87"
+				item: "extendedcrafting:advanced_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "3426F5F20A4A63C5"
+			tasks: [{
+				id: "45D07756F7D30568"
+				item: "extendedcrafting:elite_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "483A2067080528BC"
+			tasks: [{
+				id: "715241340059C8E1"
+				item: "extendedcrafting:ultimate_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: ["Cette section est en WIP."]
+			id: "2869ACD711450FC7"
+			size: 5.0d
+			tasks: [
+				{
+					id: "0CEE3CD4111BD531"
+					title: "WIP"
+					type: "checkmark"
+				}
+				{
+					id: "64994384D39A8E9C"
+					item: {
+						Count: 1b
+						id: "minecraft:barrier"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+	]
+	title: "Creative Stuff"
+}
