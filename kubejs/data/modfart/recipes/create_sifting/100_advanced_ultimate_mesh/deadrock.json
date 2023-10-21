@@ -1,0 +1,35 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_custom_mesh"
+    },
+    {
+      "item": "twilightforest:deadrock"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "twilightforest:raw_ironwood"
+    },
+    {
+      "item": "twilightforest:steeleaf_ingot"
+    },
+    {
+      "item": "twilightforest:armor_shard"
+    },
+    {
+      "item": "twilightforest:fiery_ingot"
+    },
+    {
+      "item": "twilightforest:arctic_fur"
+    },
+    {
+      "item": "twilightforest:carminite"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ]
+}

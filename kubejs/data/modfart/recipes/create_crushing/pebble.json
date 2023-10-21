@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "minecraft:cobblestone"
+      }
+    ],
+    "processingTime": 200,
+    "results": [
+      {
+        "count": 8,
+        "item": "twigs:pebble"
+      }
+    ]
+  }

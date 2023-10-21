@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "extendedcrafting:the_ultimate_catalyst"
+    },
+    "B": {
+      "item": "createsifter:advanced_brass_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:custom_mesh",
+    "count": 1
+  }
+}

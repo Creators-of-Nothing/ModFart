@@ -1,0 +1,33 @@
+{
+    "type": "botanypots:crop",
+    "seed": {
+        "item": "minecraft:peony"
+    },
+    "categories": [
+        "dirt",
+        "all"
+    ],
+    "growthTicks": 1200,
+    "display": [
+        {
+            "block": "minecraft:peony",
+            "properties": {
+                "half": "lower"
+            }
+        },
+        {
+            "block": "minecraft:peony",
+            "properties": {
+                "half": "upper"
+            }
+        }
+    ],
+    "drops": [
+        {
+            "chance": 1.00,
+            "output": {
+                "item": "minecraft:peony"
+            }
+        }
+    ]
+}

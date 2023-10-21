@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " E ",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "createchromaticreturn:shadow_steel_paxel_head"
+    }
+  },
+  "result": {
+    "item": "createchromaticreturn:bone_shadow_steel_paxel"
+  }
+}

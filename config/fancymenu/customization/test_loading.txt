@@ -1,0 +1,32 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/gui/menu_1.png
+  wideformat = true
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 8
+}
+
+customization {
+  baseheight = 2160
+  action = autoscale
+  basewidth = 3840
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+

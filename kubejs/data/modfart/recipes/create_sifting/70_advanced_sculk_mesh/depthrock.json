@@ -1,0 +1,50 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_brass_mesh"
+    },
+    {
+      "item": "undergarden:depthrock"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.25,
+      "item": "kubejs:raw_coal"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "chance": 0.25,
+      "item": "kubejs:raw_diamond"
+    },
+    {
+      "chance": 0.25,
+      "item": "undergarden:raw_cloggrum"
+    },
+    {
+      "chance": 0.25,
+      "item": "kubejs:raw_utherium"
+    },
+    {
+      "chance": 0.25,
+      "item": "kubejs:raw_regalium"
+    },
+    {
+      "chance": 0.25,
+      "item": "undergarden:forgotten_nugget"
+    },
+    {
+      "chance": 0.25,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

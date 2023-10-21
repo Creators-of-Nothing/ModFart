@@ -1,0 +1,62 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.125,
+      "item": "kubejs:raw_ruby"
+    },
+    {
+      "chance": 0.125,
+      "item": "kubejs:raw_jade"
+    },
+    {
+      "chance": 0.125,
+      "item": "kubejs:raw_aquamarine"
+    },
+    {
+      "chance": 0.125,
+      "item": "kubejs:raw_onyx"
+    },
+    {
+      "chance": 0.125,
+      "item": "epicsamurai:raw_silver"
+    },
+    {
+      "chance": 0.125,
+      "item": "kubejs:raw_endumium"
+    },
+    {
+      "chance": 0.125,
+      "item": "mekanism:raw_tin"
+    },
+    {
+      "chance": 0.125,
+      "item": "mekanism:raw_osmium"
+    },
+    {
+      "chance": 0.125,
+      "item": "mekanism:raw_uranium"
+    },
+    {
+      "chance": 0.125,
+      "item": "kubejs:raw_fluorite"
+    },
+    {
+      "chance": 0.125,
+      "item": "mekanism:raw_lead"
+    },
+    {
+      "chance": 0.125,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

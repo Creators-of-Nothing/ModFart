@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "extendedcrafting:frame"
+    },
+    {
+      "item": "extendedcrafting:elite_catalyst"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:crafting_core"
+    }
+  ]
+}

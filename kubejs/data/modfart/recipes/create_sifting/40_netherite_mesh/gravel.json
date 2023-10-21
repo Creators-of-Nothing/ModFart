@@ -1,0 +1,30 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "chance": 0.0625,
+      "item": "minecraft:flint"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "chance": 0.0625,
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "chance": 0.0625,
+      "item": "create:experience_nugget"
+    }
+  ]
+}

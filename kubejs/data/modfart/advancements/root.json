@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "kubejs:blank_template_upgrade"
+        },
+        "title": "ModFart",
+        "description": "Les succès de ModFart",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/sculk.png"
+    },
+    "criteria": {
+        "always_true": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "always_true"
+        ]
+    ]
+}

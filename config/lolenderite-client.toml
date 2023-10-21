@@ -1,0 +1,15 @@
+
+["Config for Enderite"]
+
+	["Config for Enderite"."Enderite Plated Elytra"]
+
+		["Config for Enderite"."Enderite Plated Elytra".allow]
+
+			["Config for Enderite"."Enderite Plated Elytra".allow.cape]
+				#boolean - default | true
+				texture = true
+
+		["Config for Enderite"."Enderite Plated Elytra".recolour]
+			#boolean - default | false
+			elytra = false
+

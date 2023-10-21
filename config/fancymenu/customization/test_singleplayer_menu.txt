@@ -1,0 +1,231 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 8
+}
+
+customization {
+  baseheight = 3840
+  action = autoscale
+  basewidth = 2160
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=40%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374282%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  path = kubejs/assets/gui/diamond_chain.png
+  orientation = mid-centered
+  x = 66
+  width = 5
+  action = addtexture
+  actionid = b92986b6-5345-4a34-943d-bcb82e115a6b1695670954765
+  y = -394
+  height = 320
+}
+
+customization {
+  path = kubejs/assets/gui/ingame_menu.png
+  orientation = mid-centered
+  x = -128
+  width = 256
+  action = addtexture
+  actionid = 50e0b394-1e13-463c-b362-99b0023ce7c71695670064456
+  y = -79
+  height = 160
+}
+
+customization {
+  path = kubejs/assets/gui/diamond_chain.png
+  orientation = mid-centered
+  x = -72
+  width = 5
+  action = addtexture
+  actionid = 6b97459a-9e97-4e54-bb76-35d2623187ca1695670945231
+  y = -399
+  height = 320
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_return_to_game_button%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/retour_au_jeu_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -88
+  width = 175
+  action = addbutton
+  actionid = aae3488d-faef-4f7b-a0d9-045bfb105aab1695575949526
+  y = -73
+  backgroundnormal = kubejs/assets/gui/retour_au_jeu.png
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_disconnect_button%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/menu_principal_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -88
+  width = 175
+  action = addbutton
+  actionid = 24090366-cfa9-4274-9279-2be0457605051695579148599
+  y = 50
+  backgroundnormal = kubejs/assets/gui/menu_principal.png
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_lan_button%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/lan_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -111
+  width = 55
+  action = addbutton
+  actionid = ad49591d-aa55-4f85-ae92-0c1202a098241695579153823
+  y = 7
+  backgroundnormal = kubejs/assets/gui/lan.png
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_options_button%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/options_ingame_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 11
+  width = 100
+  action = addbutton
+  actionid = ae43b7d0-fa1a-49d9-9e5c-7fb3d13023771695579154273
+  y = -30
+  backgroundnormal = kubejs/assets/gui/options_ingame.png
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_stats_button%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/stats_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -31
+  width = 62
+  action = addbutton
+  actionid = 8875140b-273d-49fc-a6fa-6f0551a7e0311695579154601
+  y = 7
+  backgroundnormal = kubejs/assets/gui/stats.png
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.screens.PauseScreen:button_compatibility_id:mc_pausescreen_advancements_button%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/succes_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -111
+  width = 100
+  action = addbutton
+  actionid = 4f6a6ffd-2ff2-49c4-af30-550d2fc8326d1695579154925
+  y = -30
+  backgroundnormal = kubejs/assets/gui/succes.png
+  height = 25
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui;com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/gui/mods_hover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 56
+  width = 55
+  action = addbutton
+  actionid = aa835308-0dfc-47ab-bdf3-4c318e3066081697663379125
+  y = 7
+  backgroundnormal = kubejs/assets/gui/mods.png
+  height = 25
+}
+
+customization {
+  identifier = %id=504324%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398348%
+  action = hidebutton
+}
+

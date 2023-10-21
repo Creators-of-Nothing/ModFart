@@ -1,0 +1,26 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_custom_mesh"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ]
+}

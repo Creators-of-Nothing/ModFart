@@ -1,0 +1,50 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:advanced_custom_mesh"
+    },
+    {
+      "item": "minecraft:deepslate"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "kubejs:raw_ruby"
+    },
+    {
+      "item": "kubejs:raw_jade"
+    },
+    {
+      "item": "kubejs:raw_aquamarine"
+    },
+    {
+      "item": "kubejs:raw_onyx"
+    },
+    {
+      "item": "epicsamurai:raw_silver"
+    },
+    {
+      "item": "kubejs:raw_endumium"
+    },
+    {
+      "item": "mekanism:raw_tin"
+    },
+    {
+      "item": "mekanism:raw_osmium"
+    },
+    {
+      "item": "mekanism:raw_uranium"
+    },
+    {
+      "item": "kubejs:raw_fluorite"
+    },
+    {
+      "item": "mekanism:raw_lead"
+    },
+    {
+      "item": "create:experience_nugget"
+    }
+  ]
+}

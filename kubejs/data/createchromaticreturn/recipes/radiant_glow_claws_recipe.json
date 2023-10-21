@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "B B",
+    "EXE",
+    "GXG",
+    "A A"
+  ],
+  "key": {
+    "E": {
+      "item": "createchromaticreturn:radiant_glow_saber"
+    },
+    "B": {
+      "item": "createchromaticreturn:refined_radiance"
+    },
+    "X": {
+      "item": "createchromaticreturn:refined_mechanism"
+    },
+    "G": {
+      "item": "createchromaticreturn:cyber_plating"
+    },
+    "A": {
+      "item": "moreplates:steel_rod"
+    }
+  },
+  "result": {
+    "item": "createchromaticreturn:radiant_glow_claws"
+  }
+}

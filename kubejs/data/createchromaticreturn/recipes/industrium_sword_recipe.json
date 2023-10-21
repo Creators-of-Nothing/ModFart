@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " B ",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "createchromaticreturn:industrium_handle"
+    },
+    "B": {
+      "item": "createchromaticreturn:shadow_steel_blade"
+    }
+  },
+  "result": {
+    "item": "createchromaticreturn:industrium_shadow_steel_sword"
+  }
+}

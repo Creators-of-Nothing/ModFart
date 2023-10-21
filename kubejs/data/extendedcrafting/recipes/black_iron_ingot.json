@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "extendedcrafting:black_iron_ingot"
+    }
+  ]
+}

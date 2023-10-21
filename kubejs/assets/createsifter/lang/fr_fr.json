@@ -1,0 +1,13 @@
+{
+  "block.createsifter.sifter": "Tamis",
+  "create.recipe.sifting": "Tamisage",
+  "createsifter.recipe.sifting": "Tamisage",
+  "item.createsifter.advanced_brass_mesh": "Maille en sculk renforcée",
+  "item.createsifter.advanced_custom_mesh": "Maille ultime renforcée",
+  "item.createsifter.andesite_mesh": "Maille en laiton",
+  "item.createsifter.brass_mesh": "Maille en sculk",
+  "item.createsifter.custom_mesh": "Maille ultime",
+  "item.createsifter.string_mesh": "Maille en ficelle",
+  "item.createsifter.zinc_mesh": "Maille en netherite",
+  "itemGroup.createsifter:main": "Tamis Create"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "key": {
+    "A": {
+      "item": "moreplates:brass_rod"
+    },
+    "B": {
+      "item": "createsifter:string_mesh"
+    }
+  },
+  "result": {
+    "item": "createsifter:andesite_mesh",
+    "count": 1
+  }
+}
