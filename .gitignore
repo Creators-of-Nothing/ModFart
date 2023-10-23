@@ -1,4 +1,6 @@
+# Directories
 /backups/
+/config/jei/world/
 /coremods/
 /crash-reports/
 /downloads/
@@ -20,6 +22,9 @@
 /server-resource-packs/
 /shaderpacks/
 /texturepacks/
+
+# Files
+bookmarks.ini
 /.curseclient
 /icon.png
 /knownkeys.txt

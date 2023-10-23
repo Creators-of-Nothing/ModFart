@@ -2106,13 +2106,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'stalwart_dungeons:tungsten_ingot_recipe_2' })
     e.remove({ id: 'enlightened_end:smelt_raw_irradium' })
     e.remove({ id: 'enlightened_end:blast_raw_irradium' })
-    // e.replaceInput({ input: 'mekanism:dust_lapis_lazuli' }, 'mekanism:dust_lapis_lazuli', 'minecraft:lapis_lazuli')
-    // e.replaceInput({ input: 'mekanism:dust_diamond' }, 'mekanism:dust_diamond', 'minecraft:diamond')
-    // e.replaceInput({ input: 'mekanism:dust_steel' }, 'mekanism:dust_steel', 'mekanism:ingot_steel')
-    // e.replaceInput({ input: 'mekanism:dust_iron' }, 'mekanism:dust_iron', 'minecraft:iron_ingot')
-    // e.replaceInput({ input: 'mekanism:dust_gold' }, 'mekanism:dust_gold', 'minecraft:gold_ingot')
-    // e.replaceInput({ input: 'mekanism:dust_osmium' }, 'mekanism:dust_osmium', 'mekanism:ingot_osmium')
-    // e.replaceInput({ input: 'mekanism:dust_tin' }, 'mekanism:dust_tin', 'mekanism:ingot_tin')
 
     // Rods
     e.remove({ id: 'createaddition:rolling/brass_ingot' })
@@ -2128,7 +2121,7 @@ ServerEvents.recipes(e => {
     e.replaceInput({ input: 'createaddition:electrum_rod' }, 'createaddition:electrum_rod', 'moreplates:electrum_rod')
     e.remove({ id: 'mekanism:hdpe_rod' })
     e.replaceInput({ input: 'mekanism:hdpe_rod' }, 'mekanism:hdpe_rod', 'kubejs:hdpe_rod')
-    e.remove({ id: 'useless_sword:emerald_stick' })
+    e.remove({ id: 'useless_sword:emeraldstickcraft' })
     e.replaceInput({ input: 'useless_sword:emerald_stick' }, 'useless_sword:emerald_stick', 'moreplates:emerald_rod')
 
     // Sophisticated Backpacks
