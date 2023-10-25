@@ -1,41 +1,3 @@
-// Botany Pots - Crops
-ServerEvents.recipes(e => {
-    // Trees
-    let potting = (crop, category, output1) => {
-        e.custom({
-            "type": "botanypots:crop",
-            "seed": {
-                "item": crop
-            },
-            "categories": [
-                category
-            ],
-            "growthTicks": 1000,
-            "display": {
-                "block": crop
-            },
-            "drops": [
-                {
-                    "chance": 1.00,
-                    "output": {
-                        "item": output1
-                    },
-                    "minRolls": 2,
-                    "maxRolls": 4
-                },
-                {
-                    "chance": 0.01,
-                    "output": {
-                        "item": crop
-                    }
-                }
-            ]
-        })
-        potting('ars_nouveau:red_archwood_sapling', 'dirt', 'ars_nouveau:red_archwood_log')
-    }
-})
-
-
 // Botany Pots - Soils
 ServerEvents.recipes(e => {
     let potting = (soil, category, modif) => {
@@ -53,7 +15,28 @@ ServerEvents.recipes(e => {
             "growthModifier": modif
         })
     }
-    potting('farmersdelight:rich_soil', 'dirt', '2.00')
+    potting('farmersdelight:rich_soil', 'alld', 1.75)
+    potting('farmersdelight:rich_soil_farmland', 'alld', 2.00)
+})
+ServerEvents.recipes(e => {
+    let potting = (soil, display, category, modif) => {
+        e.custom({
+            "type": "botanypots:soil",
+            "input": {
+                "item": soil
+            },
+            "display": {
+                "block": display,
+                "renderFluid": true
+            },
+            "categories": [
+                category
+            ],
+            "growthModifier": modif
+        })
+    }
+    potting('mekanism:lithium_bucket', 'mekanism:lithium', 'allf', 1.75)
+    potting('mekanism:ethene_bucket', 'mekanism:ethene', 'allf', 2.00)
 })
 
 
@@ -175,6 +158,57 @@ ServerEvents.recipes(e => {
             }
         ]
     })
+})
+
+
+// Cutting
+ServerEvents.recipes(e => {
+    let potting = (input, count, output) => {
+        e.custom({
+            "type": "farmersdelight:cutting",
+            "ingredients": [
+                {
+                    "item": input
+                }
+            ],
+            "result": [
+                {
+                    "count": count,
+                    "item": output
+                }
+            ],
+            "tool": {
+                "tag": "forge:tools/knives"
+            }
+        })
+    }
+    potting('minecraft:dragon_head', 2, 'useless_sword:dragon_scale')
+})
+
+
+// Duplication
+ServerEvents.recipes(e => {
+    let potting = (duplication) => {
+        e.custom({
+            "type": "create:mixing",
+            "heatRequirement": "superheated",
+            "ingredients": [
+                {
+                    "item": "createchromaticreturn:industrium_ingot"
+                },
+                {
+                    "item": duplication
+                }
+            ],
+            "results": [
+                {
+                    "count": 2,
+                    "item": duplication
+                }
+            ]
+        })
+    }
+    potting('minecraft:nether_star')
 })
 
 
@@ -1490,6 +1524,51 @@ ServerEvents.recipes(e => {
     potting('kubejs:dust_enderite', 'minecraft:tuff', 'lolenderite:primordial_remnants')
 })
 
+// Processing - Dust Recreation
+ServerEvents.recipes(e => {
+    let potting = (input, output) => {
+        e.custom({
+            "type": "mekanism:enriching",
+            "input": {
+                "amount": 6,
+                "ingredient": {
+                    "item": input
+                }
+            },
+            "output": {
+                "item": output
+            }
+        })
+    }
+    potting('minecraft:emerald', 'mekanism:dust_emerald')
+    potting('mekanism:ingot_tin', 'mekanism:dust_tin')
+    potting('minecraft:copper_ingot', 'mekanism:dust_copper')
+    potting('mekanism:ingot_osmium', 'mekanism:dust_osmium')
+    potting('minecraft:gold_ingot', 'mekanism:dust_gold')
+    potting('minecraft:iron_ingot', 'mekanism:dust_iron')
+    potting('minecraft:diamond', 'mekanism:dust_diamond')
+    potting('minecraft:lapis_lazuli', 'mekanism:dust_lapis_lazuli')
+    potting('minecraft:coal', 'mekanism:dust_coal')
+    potting('minecraft:netherite_scrap', 'mekanism:dust_netherite')
+})
+ServerEvents.recipes(e => {
+    let potting = (input, output) => {
+        e.custom({
+            "type": "mekanism:enriching",
+            "input": {
+                "amount": 2,
+                "ingredient": {
+                    "item": input
+                }
+            },
+            "output": {
+                "item": output
+            }
+        })
+    }
+    potting('minecraft:netherite_ingot', 'mekanism:dust_netherite')
+})
+
 
 // Rings
 ServerEvents.recipes(e => {
@@ -1536,7 +1615,7 @@ ServerEvents.recipes(e => {
     potting('ringsofascension:ring_dolphin', 'beachparty:beach_hat', 'moa_decor_toys:guardian', 'beachparty:bikini', 'beachparty:rubber_ring_blue', 'beachparty:swim_wings', 'beachparty:rubber_ring_pink', 'alexsmobs:crocodile_chestplate', 'moa_decor_toys:delfin')
     potting('ringsofascension:ring_experience', 'vinery:cristel_wine', 'sophisticatedbackpacks:xp_pump_upgrade', 'ars_nouveau:greater_experience_gem', 'mob_grinding_utils:solid_xp_block', 'kubejs:experience_plate', 'create:experience_block', 'create_enchantment_industry:experience_rotor', 'sophisticatedstorage:xp_pump_upgrade')
     potting('ringsofascension:ring_fire_resistance', 'twilightdelight:tear_drink', 'additional_lights:soul_fire_for_standing_torch_s', 'mob_grinding_utils:saw_upgrade_fire', 'mcwlights:lava_lamp', 'minecraft:fire_charge', 'alexsmobs:lava_bottle', 'ars_nouveau:fire_essence', 'additional_lights:fire_for_standing_torch_s')
-    potting('ringsofascension:ring_flight', 'alexsmobs:void_worm_eye', 'deeperdarker:soul_elytra', 'create_jetpack:jetpack', 'twilightforest:firefly', 'ars_nouveau:ritual_flight', 'create_sa:brass_jetpack_chestplate', 'lolenderite:enderite_plated_elytra', 'twilightforest:raven_feather')
+    potting('ringsofascension:ring_flight', 'alexsmobs:void_worm_eye', 'create_jetpack:jetpack', 'deeperdarker:soul_elytra', 'the_bumblezone:pollen_puff', 'ars_nouveau:ritual_flight', 'twilightforest:raven_feather', 'lolenderite:enderite_plated_elytra', 'mekanism:jetpack_armored')
     potting('ringsofascension:ring_growth', 'vinery:straw_hat', 'pamhc2foodcore:freshwateritem', 'vinery:vinemaker_leggings', 'ars_nouveau:ritual_overgrowth', 'vinery:vinemaker_boots', 'meadow:watering_can', 'vinery:vinemaker_apron', 'arcanelanterns:life_lantern')
     potting('ringsofascension:ring_health', 'paraglider:heart_container', 'minecraft:heart_of_the_sea', 'arcanelanterns:love_lantern', 'twilightforest:charm_of_life_2', 'deeperdarker:heart_of_the_deep', 'alexsmobs:soul_heart', 'paraglider:anti_vessel', 'candlelight:hearth')
     potting('ringsofascension:ring_hungerless', 'candlelight:cooking_hat', 'sophisticatedbackpacks:advanced_feeding_upgrade', 'candlelight:chefs_pants', 'pamhc2foodextended:spaghettidinneritem', 'candlelight:chefs_boots', 'pamhc2foodextended:cookoutmealitem', 'candlelight:chefs_jacket', 'sophisticatedstorage:advanced_feeding_upgrade')
@@ -1545,7 +1624,7 @@ ServerEvents.recipes(e => {
     potting('ringsofascension:ring_knockback_resistance', 'enlightened_end:adamantite_armor_helmet', 'suppsquared:heavy_key', 'enlightened_end:adamantite_armor_leggings', 'moa_decor_toys:golemdehierro', 'enlightened_end:adamantite_armor_boots', 'arcanelanterns:warding_lantern', 'enlightened_end:adamantite_armor_chestplate', 'ars_nouveau:glyph_gust')
     potting('ringsofascension:ring_lava_sponge', 'moa_decor_bath:esponjadebano', 'minecraft:blackstone', 'create_things_and_misc:spout_gun_lava', 'trashcans:liquid_trash_can', 'ars_nouveau:fire_essence', 'minecraft:lava_bucket', 'permanentsponges:magmatic_sponge_on_a_stick', 'minecraft:netherrack')
     potting('ringsofascension:ring_luck', 'betterarcheology:villager_fossil', 'beachparty:melon_cocktail', 'betterarcheology:unidentified_artifact', 'moa_decor_science:mapadeltesoro', 'ars_nouveau:glyph_fortune', 'mcwpaths:dark_prismarine_clover_paving', 'candlelight:gold_ring', 'vinery:bolvar_wine')
-    potting('ringsofascension:ring_magnetism','vinery:magnetic_wine', 'sophisticatedbackpacks:advanced_magnet_upgrade', 'create_sa:copper_magnet', 'minecraft:compass', 'minecraft:lodestone', 'moa_decor_science:brujula', 'simplemagnets:advancedmagnet', 'sophisticatedstorage:advanced_magnet_upgrade')
+    potting('ringsofascension:ring_magnetism', 'vinery:magnetic_wine', 'sophisticatedbackpacks:advanced_magnet_upgrade', 'create_sa:copper_magnet', 'minecraft:compass', 'minecraft:lodestone', 'moa_decor_science:brujula', 'simplemagnets:advancedmagnet', 'sophisticatedstorage:advanced_magnet_upgrade')
     potting('ringsofascension:ring_mining', 'twilightforest:mining_leaves', 'drinkbeer:beer_mug', 'vinery:bolvar_wine', 'apotheosis:diamond_mining_arrow', 'apotheosis:pickaxe_tome', 'apotheosis:iron_mining_arrow', 'create_confectionery:candy_cane', 'beachparty:honey_cocktail')
     potting('ringsofascension:ring_night_vision', 'vinery:aegis_wine', 'cataclysm:void_eye', 'cataclysm:flame_eye', 'cataclysm:monstrous_eye', 'biomesoplenty:eyebulb', 'cataclysm:mech_eye', 'minecraft:ender_eye', 'cataclysm:abyss_eye')
     potting('ringsofascension:ring_poison_resistance', 'minecraft:spider_eye', 'chipped:poisonous_mushroom_stem', 'chipped:poisonous_vine', 'alexsmobs:centipede_leg', 'moa_decor_toys:bruja', 'minecraft:poisonous_potato', 'chipped:ivy_vine', 'moa_decor_science:veneno')
@@ -1954,10 +2033,21 @@ ServerEvents.recipes(e => {
         ]
     })
 })
-
-
-// Remove unused crafts
 ServerEvents.recipes(e => {
+    let potting = (input, output) => {
+        e.shapeless(output, input)
+    }
+    potting('mob_grinding_utils:fan_upgrade_height', 'mob_grinding_utils:fan_upgrade_width')
+    potting('mob_grinding_utils:fan_upgrade_width', 'mob_grinding_utils:fan_upgrade_height')
+})
+
+
+// Changed crafts
+ServerEvents.recipes(e => {
+    //--- Global Suppression
+    e.remove({ input: '#forge:unused' })
+    e.remove({ output: '#forge:unused' })
+
     // Aether
     e.remove({ id: 'aether:skyroot_tripwire_hook' })
     e.remove({ id: 'aether:skyroot_grindstone' })
@@ -2048,64 +2138,114 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'dimdungeons:recipe_block_portal_keyhole' })
 
     // Processing
-    e.remove({ id: 'mekanism:processing/coal/to_ore' })
-    e.remove({ id: 'mekanism:processing/coal/to_deepslate_ore' })
-    e.remove({ id: 'mekanism:processing/coal/from_dust' })
-    e.remove({ id: 'mekanism:processing/iron/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/iron/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/iron/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/iron/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/copper/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/copper/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/copper/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/copper/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/gold/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/gold/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/gold/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/gold/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/gold/ore/nether_from_raw' })
-    e.remove({ id: 'mekanism:processing/redstone/to_ore' })
-    e.remove({ id: 'mekanism:processing/redstone/to_deepslate_ore' })
-    e.remove({ id: 'mekanism:processing/emerald/to_ore' })
-    e.remove({ id: 'mekanism:processing/emerald/to_deepslate_ore' })
-    e.remove({ id: 'mekanism:processing/emerald/from_dust' })
-    e.remove({ id: 'mekanism:processing/lapis_lazuli/to_ore' })
-    e.remove({ id: 'mekanism:processing/lapis_lazuli/to_deepslate_ore' })
-    e.remove({ id: 'mekanism:processing/lapis_lazuli/from_dust' })
-    e.remove({ id: 'mekanism:processing/diamond/to_ore' })
-    e.remove({ id: 'mekanism:processing/diamond/to_deepslate_ore' })
-    e.remove({ id: 'createaddition:crushing/diamond' })
-    e.remove({ id: 'mekanism:processing/diamond/from_dust' })
+    e.remove({ id: /minecraft:iron_ingot_from_blasting/ })
+    e.remove({ id: /minecraft:iron_ingot_from_smelting/ })
+    e.remove({ id: /minecraft:copper_ingot_from_blasting/ })
+    e.remove({ id: /minecraft:copper_ingot_from_smelting/ })
+    e.remove({ id: /minecraft:gold_ingot_from_blasting/ })
+    e.remove({ id: /minecraft:gold_ingot_from_smelting/ })
+    e.remove({ id: /minecraft:lapis_lazuli_from_blasting/ })
+    e.remove({ id: /minecraft:lapis_lazuli_from_smelting/ })
+    e.remove({ id: /minecraft:coal_from_blasting/ })
+    e.remove({ id: /minecraft:coal_from_smelting/ })
+    e.remove({ id: /minecraft:redstone_from_blasting/ })
+    e.remove({ id: /minecraft:redstone_from_smelting/ })
+    e.remove({ id: /minecraft:emerald_from_blasting/ })
+    e.remove({ id: /minecraft:emerald_from_smelting/ })
+    e.remove({ id: /minecraft:diamond_from_blasting/ })
+    e.remove({ id: /minecraft:diamond_from_smelting/ })
+    e.remove({ id: /minecraft:quartz_from_blasting/ })
+    e.remove({ id: /minecraft:quartz_from_smelting/ })
+    e.remove({ id: /minecraft:netherite_scrap_from_blasting/ })
+    e.remove({ id: /minecraft:netherite_scrap_from_smelting/ })
+    e.remove({ id: /aether:quartz_from_blasting/ })
+    e.remove({ id: /aether:quartz_from_smelting/ })
+    e.remove({ id: /aether:ambrosium_shard_from_blasting/ })
+    e.remove({ id: /aether:ambrosium_shard_from_smelting/ })
+    e.remove({ id: /aether:zanite_gemstone_from_blasting/ })
+    e.remove({ id: /aether:zanite_gemstone_from_smelting/ })
+    e.remove({ id: /aether:enchanted_gravitite_enchanting/ })
+    e.remove({ id: /alexscaves:furnace\/iron_from/ })
+    e.remove({ id: /alexscaves:furnace\/uranium_from/ })
+    e.remove({ id: /alexscaves:furnace\/redstone_from/ })
+    e.remove({ id: /alexscaves:furnace\/coal_from/ })
+    e.remove({ id: /create:blasting\/zinc_ingot/ })
+    e.remove({ id: /create:smelting\/zinc_ingot/ })
+    e.remove({ id: /create:crushing\/deepslate_/ })
+    e.remove({ id: /create:crushing\/gloomslate_/ })
+    e.remove({ id: /create:crushing\/nether_/ })
+    e.remove({ id: /create:crushing\/sculk_stone_/ })
+    e.remove({ id: /create:crushing\/redstone_ore/ })
+    e.remove({ id: /create:crushing\/lead_ore/ })
+    e.remove({ id: /create:crushing\/uranium_ore/ })
+    e.remove({ id: /create:crushing\/emerald_ore/ })
+    e.remove({ id: /create:crushing\/diamond_ore/ })
+    e.remove({ id: /create:crushing\/lapis_ore/ })
+    e.remove({ id: /create:crushing\/tin_ore/ })
+    e.remove({ id: /create:crushing\/copper_ore/ })
+    e.remove({ id: /create:crushing\/silver_ore/ })
+    e.remove({ id: /create:crushing\/coal_ore/ })
+    e.remove({ id: /create:crushing\/iron_ore/ })
+    e.remove({ id: /create:crushing\/osmium_ore/ })
+    e.remove({ id: /create:crushing\/gold_ore/ })
+    e.remove({ id: /create:crushing\/zinc_ore/ })
+    e.remove({ id: /create:crushing\/raw_/ })
+    e.remove({ id: /deeperdarker:coal_from_blasting/ })
+    e.remove({ id: /deeperdarker:coal_from_smelting/ })
+    e.remove({ id: /deeperdarker:raw_iron_from_blasting/ })
+    e.remove({ id: /deeperdarker:raw_iron_from_smelting/ })
+    e.remove({ id: /deeperdarker:raw_copper_from_blasting/ })
+    e.remove({ id: /deeperdarker:raw_copper_from_smelting/ })
+    e.remove({ id: /deeperdarker:raw_gold_from_blasting/ })
+    e.remove({ id: /deeperdarker:raw_gold_from_smelting/ })
+    e.remove({ id: /deeperdarker:redstone_from_blasting/ })
+    e.remove({ id: /deeperdarker:redstone_from_smelting/ })
+    e.remove({ id: /deeperdarker:emerald_from_blasting/ })
+    e.remove({ id: /deeperdarker:emerald_from_smelting/ })
+    e.remove({ id: /deeperdarker:lapis_lazuli_from_blasting/ })
+    e.remove({ id: /deeperdarker:lapis_lazuli_from_smelting/ })
+    e.remove({ id: /deeperdarker:diamond_from_blasting/ })
+    e.remove({ id: /deeperdarker:diamond_from_smelting/ })
+    e.remove({ id: /lolenderite:enderite_fragment_from_blasting/ })
+    e.remove({ id: /lolenderite:enderite_fragment_from_smelting/ })
+    e.remove({ id: /enlightened_end:blast_/ })
+    e.remove({ id: /enlightened_end:smelt_/ })
+    e.remove({ id: /eidolon:blast_/ })
+    e.remove({ id: /eidolon:smelt_/ })
+    e.remove({ id: /mekanism:processing\/coal/ })
+    e.remove({ not: { id: /mekanism:processing\/iron/ }, id: 'mekanism:processing/iron/enriched' })
+    e.remove({ id: /mekanism:processing\/copper/ })
+    e.remove({ id: /mekanism:processing\/gold/ })
+    e.remove({ id: /mekanism:processing\/redstone/ })
+    e.remove({ id: /mekanism:processing\/emerald/ })
+    e.remove({ id: /mekanism:processing\/lapis_lazuli/ })
+    e.remove({ id: /mekanism:processing\/diamond/ })
+    e.remove({ id: /mekanism:processing\/quartz/ })
+    e.remove({ id: /mekanism:processing\/tin/ })
+    e.remove({ id: /mekanism:processing\/osmium/ })
+    e.remove({ id: /mekanism:processing\/uranium/ })
+    e.remove({ id: /mekanism:processing\/fluorite/ })
+    e.remove({ id: /mekanism:processing\/lead/ })
+    e.remove({ id: /mekanism:processing\/netherite/ })
+    e.remove({ id: /createaddition:crushing\/diamond/ })
+    e.remove({ id: /undergarden:shard_to_crystal/ })
+    e.remove({ id: /stalwart_dungeons:tungsten_ingot_recipe/ })
+    e.remove({ id: /stalwart_dungeons:tungsten_ingot_recipe_2/ })
+    e.remove({ id: /undergarden:blast_shiverstone_/ })
+    e.remove({ id: /undergarden:smelt_shiverstone_/ })
+    e.remove({ id: /undergarden:blast_depthrock_/ })
+    e.remove({ id: /undergarden:smelt_depthrock_/ })
+    e.remove({ id: /mastersword:recycle_alloy/ })
     e.replaceInput({ input: 'createaddition:diamond_grit' }, 'createaddition:diamond_grit', 'mekanism:dust_diamond')
-    e.remove({ id: 'mekanism:processing/quartz/to_ore' })
-    e.remove({ id: 'mekanism:processing/quartz/from_dust' })
-    e.remove({ id: 'mekanism:processing/tin/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/tin/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/tin/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/tin/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/osmium/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/osmium/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/osmium/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/osmium/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/uranium/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/uranium/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/uranium/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/uranium/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/fluorite/to_ore' })
-    e.remove({ id: 'mekanism:processing/fluorite/to_deepslate_ore' })
-    e.remove({ id: 'mekanism:processing/fluorite/from_dust' })
-    e.remove({ id: 'mekanism:processing/lead/ore/from_raw' })
-    e.remove({ id: 'mekanism:processing/lead/ore/deepslate_from_raw' })
-    e.remove({ id: 'mekanism:processing/lead/ingot/from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/lead/ingot/from_dust_blasting' })
-    e.remove({ id: 'mekanism:processing/netherite/dust_to_ancient_debris' })
-    e.remove({ id: 'mekanism:processing/netherite/ingot_from_dust_smelting' })
-    e.remove({ id: 'mekanism:processing/netherite/ingot_from_dust_blasting' })
-    e.remove({ id: 'undergarden:shard_to_crystal' })
-    e.remove({ id: 'stalwart_dungeons:tungsten_ingot_recipe' })
-    e.remove({ id: 'stalwart_dungeons:tungsten_ingot_recipe_2' })
-    e.remove({ id: 'enlightened_end:smelt_raw_irradium' })
-    e.remove({ id: 'enlightened_end:blast_raw_irradium' })
+    e.remove({ output: 'epicsamurai:steel_nugget' })
+    e.replaceInput({ input: 'epicsamurai:steel_nugget' }, 'epicsamurai:steel_nugget', 'mekanism:nugget_steel')
+    e.remove({ output: 'epicsamurai:steel_ingot' })
+    e.replaceInput({ input: 'epicsamurai:steel_ingot' }, 'epicsamurai:steel_ingot', 'mekanism:ingot_steel')
+    e.remove({ output: 'epicsamurai:steel_block' })
+    e.replaceInput({ input: 'epicsamurai:steel_block' }, 'epicsamurai:steel_block', 'mekanism:block_steel')
+    e.remove({ output: 'epicsamurai:silver_ingot' })
+    e.replaceInput({ input: 'epicsamurai:silver_ingot' }, 'epicsamurai:silver_ingot', 'mekanism:ingot_silver')
+    e.replaceOutput({ output: 'moremekanismprocessing:zinc_ingot' }, 'moremekanismprocessing:zinc_ingot', 'create:zinc_ingot')
 
     // Rods
     e.remove({ id: 'createaddition:rolling/brass_ingot' })
@@ -2171,6 +2311,10 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'mctb:echo_planks_crafting_table' })
     e.remove({ id: 'farmersdelight:cake_from_milk_bottle' })
     e.remove({ id: 'create:create/curiosities/cake' })
+    e.remove({ id: 'waystones:warp_stone' })
+    e.remove({ id: 'apotheosis:scrap_tome' })
+    e.replaceInput({ input: 'minecraft:crafting_table' }, 'minecraft:crafting_table', '#forge:workbench')
+    e.replaceInput({ input: 'useless_sword:silvillager' }, 'useless_sword:silvillager', '#forge:ingots/silver')
 })
 
 
