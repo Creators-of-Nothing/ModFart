@@ -1,12 +1,5 @@
 {
-    "bookshelf:load_conditions": [
-        {
-            "type": "bookshelf:item_exists",
-            "values": [
-                "farmersdelight:rich_soil_farmland"
-            ]
-        }
-    ],
+    "condition": false,
     "type": "botanypots:soil",
     "input": {
         "item": "farmersdelight:rich_soil_farmland"

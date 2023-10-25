@@ -1,9 +1,9 @@
 
-[Gameplay]
+[Worldgen]
 	#The weighting of Ancient Aether regions in the Aether
-	"Ancient Aether Region Weight" = 20
+	"Ancient Aether Region Weight" = 30
 	#Enables the Default Biome Improvement Datapack by default
-	"Enable Biome Improvement Datapack by default" = true
+	"Enables Biome Improvement Datapack by default" = true
 	#Enables the New Worldgen Datapack by default
-	"Enable Biome New Worldgen by default" = true
+	"Enables New Worldgen by default" = true
 

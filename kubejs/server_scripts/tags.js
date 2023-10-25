@@ -133,6 +133,11 @@ ServerEvents.tags('item', e => {
         'cyclic:generator_solar',
         'cyclic:no_soliciting',
         'cyclic:altar_destruction',
+        'cyclic:doorbell',
+        'cyclic:apple_ender',
+        'cyclic:chorus_spectral',
+        'cyclic:wireless_receiver',
+        'cyclic:wireless_transmitter',
         // Mekanism
         'mekanism:antiprotonic_nucleosynthesizer',
         'mekanism:solar_neutron_activator',
@@ -169,6 +174,7 @@ ServerEvents.tags('item', e => {
         'mekanismgenerators:hohlraum',
         'mekanismgenerators:fusion_fuel',
         'mekanismgenerators:fusion_fuel',
+        'mekanism:dust_bronze',
         /deuterium/,
         /fusion_fuel/,
         /tritium/,
@@ -288,7 +294,17 @@ ServerEvents.tags('item', e => {
         'aether:aether_portal_frame',
         'apotheosis:boss_summoner',
         'mekanism:hdpe_elytra',
-        /libraryferret/
+        /libraryferret/,
+        'vct:stripped_bamboo_crafting_table',
+        'vct:verdant_crafting_table',
+        'vct:congealed_crafting_table',
+        'vct:ash_crafting_table',
+        'alexscaves:nuclear_furnace_component',
+        'apotheosis:scrap_tome',
+        'apotheosis:improved_scrap_tome',
+        'apotheosis:extraction_tome',
+        'epicsamurai:steel_ingot',
+        'epicsamurai:steel_nugget'
     ])
 
     e.add('forge:hiding', [
@@ -403,7 +419,8 @@ ServerEvents.tags('item', e => {
         'manyideas_core:plate_gold',
         'manyideas_core:plate_iron',
         'manyideas_core:plate_quartz',
-        'createaddition:diamond_grit'
+        'createaddition:diamond_grit',
+        /eidolon:spawn_/
     ])
 
     e.add('forge:ores/coal', /coal_ore/)
@@ -444,6 +461,8 @@ ServerEvents.tags('item', e => {
     e.add('forge:ores/enderite', 'lolenderite:primordial_remnants')
 
     e.remove('forge:dusts/diamond', 'createaddition:diamond_grit')
+    e.remove('forge:ingots/steel', 'epicsamurai:steel_ingot')
+    e.remove('forge:ingots/silver', 'useless_sword:silvillager')
     
     e.add('minecraft:planks', '#aether_genesis:ancient_aether_plank_crafting')
     e.add('candlelight:milk', '#aether:milk_bucket_crafting')

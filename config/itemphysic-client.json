@@ -5,6 +5,10 @@
     "rotateSpeed": 1.0,
     "showPickupTooltip": true,
     "showPickupTooltipKeybind": false,
-    "disableThrowHUD": false
+    "disableThrowHUD": false,
+    "vanillaRendered": {
+      "entries": [],
+      "isWhitelist": true
+    }
   }
 }
