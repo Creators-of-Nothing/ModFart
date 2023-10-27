@@ -765,7 +765,7 @@
 				value: 1L
 			}]
 			x: 3.0d
-			y: -5.0d
+			y: -4.75d
 		}
 		{
 			id: "1357ADB20D7175AD"
@@ -781,7 +781,7 @@
 				value: 1L
 			}]
 			x: 5.0d
-			y: -5.0d
+			y: -4.75d
 		}
 		{
 			id: "6DF3E6E7564D3016"
@@ -1430,7 +1430,17 @@
 			y: 4.5d
 		}
 		{
-			description: ["Pour avoir cette pioche, tu dois réaliser un petit \"rituel\" après avoir vaincu le Void Worm de Alex's Mobs. Aides toi du livre du mod !"]
+			description: [
+				"Pour avoir cette pioche, tu peux t'aider du livre du mod, et sinon, voici les explications :"
+				""
+				"- Tuez des mouches pour avoir des maggots."
+				"- Craftez un Crimson Moskito Larva"
+				"- Posez un bloc de Capsid (trouvable sur les Enderiophages dans l'End) et placez y la Larva, puis patientez."
+				"- Vous obtiendrez un Void Worm, que vous devrez jetez dans le Void de l'End, puis affrontez le Void Worm."
+				"- Lorsque vous l'aurez vaincu, il y aura une zone où il fera spawn son loot."
+				"- Avec ça, vous pourrez vous craft la pickaxe, et pour l'améliorer, placez la dans un Capsid comme vous avez fait avec la Larva."
+				"- Bravo, vous avez une pioche qui ne sert pas à miner, mais qui vous téléportera dans les Farland (à la limite du monde Minecraft). &4&l&nAttention&r :&r&r 20 utilisations seulement."
+			]
 			id: "5C57D2B3CC112476"
 			rewards: [{
 				id: "1DFCC4F72E8EED35"

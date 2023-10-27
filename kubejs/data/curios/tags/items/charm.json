@@ -1,8 +1,13 @@
 {
-    "replace": false,
-    "values": [
-        "create_sa:copper_magnet",
-        "simplemagnets:basicmagnet",
-        "simplemagnets:advancedmagnet"
-    ]
+  "replace": true,
+  "values": [
+    "eidolon:prestigious_palm",
+    "twilightforest:charm_of_life_1",
+    "twilightforest:charm_of_life_2",
+    "twilightforest:charm_of_keeping_1",
+    "twilightforest:charm_of_keeping_2",
+    "twilightforest:charm_of_keeping_3",
+    "simplemagnets:basicmagnet",
+    "simplemagnets:advancedmagnet"
+  ]
 }

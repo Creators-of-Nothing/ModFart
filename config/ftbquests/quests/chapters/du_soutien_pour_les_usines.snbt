@@ -603,6 +603,68 @@
 			x: -6.25d
 			y: -2.25d
 		}
+		{
+			description: [""]
+			id: "50C7867DD0528A7F"
+			rewards: [{
+				id: "0F721ECC8F39970B"
+				item: "cyclic:placer_fluid"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E80C716BDC5A175"
+					item: "cyclic:placer"
+					type: "item"
+				}
+				{
+					id: "0B36C012C7A7247E"
+					item: "cyclic:breaker"
+					type: "item"
+				}
+			]
+			x: -1.25d
+			y: -3.5d
+		}
+		{
+			description: ["L'item user permet de simuler le clic d'un joueur."]
+			id: "5673FDBAF14778E1"
+			rewards: [{
+				id: "5052A059FCC736AD"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A474D5E5B173576"
+				item: "cyclic:user"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: ["Un clock pour répéter des signals redstone en boucle."]
+			id: "4CCDE498FB683140"
+			rewards: [{
+				id: "477C3D515C522932"
+				item: "minecraft:redstone"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "664542C478649752"
+				item: "cyclic:clock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
 	]
 	title: "Soutien pour usines"
 }

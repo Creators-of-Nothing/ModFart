@@ -225,7 +225,7 @@
 				item: "ars_nouveau:drygmy_shard"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -242,7 +242,7 @@
 				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -259,7 +259,7 @@
 				item: "ars_nouveau:whirlisprig_shards"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -276,7 +276,7 @@
 				item: "ars_nouveau:wixie_shards"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -294,7 +294,7 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -9.0d
 			y: 1.5d
 		}
 		{
@@ -312,7 +312,7 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
@@ -334,7 +334,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -352,7 +352,7 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -464,6 +464,7 @@
 				"720666C1780AB8A9"
 				"009D6F6447336592"
 			]
+			dependency_requirement: "one_completed"
 			description: ["Permet de setup des machines ou des relays et des Jars entre eux. Un simple clic droit sur les machines permet de les liés entre eux. Pour défaire un lien, il faut Sneak - clic droit."]
 			id: "7C735AE024C68B9F"
 			rewards: [{
@@ -655,6 +656,11 @@
 				{
 					id: "70B991B4F566CDA1"
 					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "2271364B486D2A90"
+					item: "ars_elemental:yellow_archwood_sapling"
 					type: "item"
 				}
 			]
@@ -979,8 +985,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -1.0d
+			x: 9.25d
+			y: 0.25d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -1117,8 +1123,8 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 9.25d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1E60CBB244E7D995"]
@@ -1259,7 +1265,7 @@
 				item: "ars_elemental:siren_shards"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -1277,7 +1283,7 @@
 				item: "ars_elemental:siren_charm"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -11.0d
 			y: 1.5d
 		}
 		{
@@ -1289,7 +1295,7 @@
 				item: "ars_elemental:firenando_charm"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 1.5d
 		}
 	]

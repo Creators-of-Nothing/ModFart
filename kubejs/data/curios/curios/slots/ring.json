@@ -1,3 +1,5 @@
 {
-  "size": 10
+  "order": 160,
+  "size": 10,
+  "icon": "kubejs:slot/empty_ring_slot"
 }

@@ -1,0 +1,42 @@
+{
+  "group": "useless_sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "quark:ravager_hide"
+    },
+    "1": {
+      "item": "minecraft:emerald"
+    },
+    "2": {
+      "item": "quark:ravager_hide"
+    },
+    "3": {
+      "item": "quark:ravager_hide"
+    },
+    "4": {
+      "item": "minecraft:emerald"
+    },
+    "5": {
+      "item": "quark:ravager_hide"
+    },
+    "6": {
+      "item": "epicsamurai:silver_ingot"
+    },
+    "7": {
+      "item": "minecraft:iron_sword"
+    },
+    "8": {
+      "item": "epicsamurai:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "useless_sword:ravager_sword",
+    "count": 1
+  }
+}

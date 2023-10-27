@@ -1,3 +1,5 @@
 {
-  "size": 5
+  "order": 80,
+  "size": 5,
+  "icon": "kubejs:slot/empty_back_slot"
 }

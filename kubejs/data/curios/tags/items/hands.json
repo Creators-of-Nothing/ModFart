@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    "aether:leather_gloves",
+    "aether:chainmail_gloves",
+    "aether:iron_gloves",
+    "aether:golden_gloves",
+    "aether:diamond_gloves",
+    "aether:netherite_gloves",
+    "aether:zanite_gloves",
+    "aether:gravitite_gloves",
+    "aether:neptune_gloves",
+    "aether:valkyrie_gloves",
+    "aether:phoenix_gloves",
+    "aether:obsidian_gloves",
+    "umbral_skies:naga_gloves",
+    "umbral_skies:ironwood_gloves",
+    "umbral_skies:fiery_gloves",
+    "umbral_skies:steeleaf_gloves",
+    "umbral_skies:knightmetal_gloves",
+    "umbral_skies:phantom_gloves",
+    "umbral_skies:arctic_gloves",
+    "umbral_skies:yeti_gloves"
+  ]
+}

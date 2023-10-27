@@ -1,3 +1,5 @@
 {
-  "size": 3
+  "order": 40,
+  "size": 3,
+  "icon": "kubejs:slot/empty_head_slot"
 }

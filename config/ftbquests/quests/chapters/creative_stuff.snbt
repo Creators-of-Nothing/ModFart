@@ -81,6 +81,7 @@
 		{
 			description: ["Cette section est en WIP."]
 			id: "2869ACD711450FC7"
+			shape: "gear"
 			size: 5.0d
 			tasks: [
 				{

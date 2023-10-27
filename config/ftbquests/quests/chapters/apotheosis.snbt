@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.625d
+			y: 3.375d
 		}
 		{
 			dependencies: ["3C91A000741ADF08"]
@@ -143,7 +143,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.125d
+			y: 1.875d
 		}
 		{
 			description: [
@@ -165,11 +165,11 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.125d
+			y: 1.875d
 		}
 		{
 			dependencies: ["77BC8A845F25EA92"]
-			description: ["Cette table permet de transférer les enchantements d'un équipement vers un livre."]
+			description: ["Cette table permet de transférer les enchantements d'un équipement vers un livre. Nécessite de l'énergie et du liquid XP pour fonctionner."]
 			id: "3CA285E77AC6CC75"
 			rewards: [{
 				id: "0C8A1E28618A7E54"
@@ -180,7 +180,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "27DA281002FD6271"
-				item: "disenchanting:disenchanter"
+				item: "cyclic:disenchanter"
 				type: "item"
 			}]
 			x: -3.0d

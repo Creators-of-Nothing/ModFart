@@ -1,3 +1,5 @@
 {
-  "size": 3
+  "order": 60,
+  "size": 3,
+  "icon": "kubejs:slot/empty_necklace_slot"
 }

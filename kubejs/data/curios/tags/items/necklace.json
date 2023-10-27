@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "values": [
+    "ancient_aether:ancient_pendant",
+    "ancient_aether:health_pendant",
+    "ars_nouveau:amulet_of_mana_boost",
+    "ars_nouveau:amulet_of_mana_regen",
+    "eidolon:basic_amulet",
+    "eidolon:void_amulet",
+    "eidolon:sanguine_amulet",
+    "eidolon:glass_hand",
+    "eidolon:terminus_mirror",
+    "eidolon:soulbone_amulet",
+    "aether:iron_pendant",
+    "aether:golden_pendant",
+    "aether:zanite_pendant",
+    "aether:ice_pendant"
+  ]
+}

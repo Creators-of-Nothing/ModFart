@@ -18,6 +18,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [{
 				id: "1BD6DB0DF06BE11E"
 				item: "refinedstorage:controller"
@@ -279,8 +280,8 @@
 				item: "refinedstorage:fluid_grid"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -1.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1533F1C288682A1F"]
@@ -298,7 +299,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1533F1C288682A1F"]
@@ -349,8 +350,8 @@
 				item: "refinedstorage:crafting_grid"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 1.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["025E028C2CE6AE79"]

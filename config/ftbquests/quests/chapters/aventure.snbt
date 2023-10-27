@@ -216,6 +216,52 @@
 			x: 0.0d
 			y: -4.0d
 		}
+		{
+			description: [
+				"La Magma Anvil permet de réparer vos équipements avec de la lave."
+				""
+				"La Powered Diamond Anvil permet de réparer vos équipements avec de l'énergie."
+			]
+			id: "5D73015443A6E5FF"
+			rewards: [{
+				id: "2D22CA324718DB75"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D73A0203ECCB86B"
+					item: "cyclic:anvil_magma"
+					type: "item"
+				}
+				{
+					id: "2F750FBDEFDF5714"
+					item: "cyclic:anvil"
+					type: "item"
+				}
+			]
+			title: "Réparation"
+			x: -3.0d
+			y: -4.25d
+		}
+		{
+			description: ["C'est un bloc qui, si vous faites clic droit dessus avec de la redstone, devient de la bedrock. Un autre clic droit avec de la redstone le retransforme en bloc minable."]
+			id: "7EEC96E20047589E"
+			rewards: [{
+				count: 4
+				id: "7E3597D0046FF7A0"
+				item: "cyclic:unbreakable_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "08BBA270164CE7D7"
+				item: "cyclic:unbreakable_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.25d
+		}
 	]
 	title: "Equipements"
 }
