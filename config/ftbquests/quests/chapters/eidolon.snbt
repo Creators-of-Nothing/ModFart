@@ -46,7 +46,7 @@
 		}
 		{
 			description: ["Eidolon est un mod de magie qui utilise les morts vivants pour fonctionner. &l&4&nPrécision&r :&r&r ce mod est en Work in Progress, mais est suffisament complet déjà pour vous proposer une bonne expérience :) Des majs seront faites régulièrement, donc cette section changera probablement à l'avenir !"]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "14CCDBB76C3D0623"
 			rewards: [{
 				id: "4386AB4360CE0872"

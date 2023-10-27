@@ -80,25 +80,15 @@
 		}
 		{
 			description: ["Cette section est en WIP."]
+			icon: "nifty:construction_sign"
 			id: "2869ACD711450FC7"
 			shape: "gear"
 			size: 5.0d
-			tasks: [
-				{
-					id: "0CEE3CD4111BD531"
-					title: "WIP"
-					type: "checkmark"
-				}
-				{
-					id: "64994384D39A8E9C"
-					item: {
-						Count: 1b
-						id: "minecraft:barrier"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0CEE3CD4111BD531"
+				title: "WIP"
+				type: "checkmark"
+			}]
 			x: -2.5d
 			y: -5.0d
 		}

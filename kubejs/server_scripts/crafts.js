@@ -2258,7 +2258,7 @@ ServerEvents.recipes(e => {
     e.remove({ not: { id: /eidolon:blast_/}, id: 'eidolon:blast_enchanted_ash', id: 'eidolon:blast_pewter_blend'  })
     e.remove({ not: { id: /eidolon:smelt_/}, id: 'eidolon:smelt_pewter_blend' })
     e.remove({ id: /mekanism:processing\/coal/ })
-    e.remove({ id: /mekanism:processing\/iron/ })
+    e.remove({ not: { id: /mekanism:processing\/iron/}, id: 'mekanism:processing/iron/enriched' })
     e.remove({ id: /mekanism:processing\/copper/ })
     e.remove({ id: /mekanism:processing\/gold/ })
     e.remove({ id: /mekanism:processing\/redstone/ })

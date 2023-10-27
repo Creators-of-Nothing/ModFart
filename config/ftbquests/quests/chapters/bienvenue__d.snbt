@@ -145,10 +145,12 @@
 		{
 			dependencies: ["4FC2E0F9C883FA41"]
 			description: [
-				"Il s'agit de notre &npremier&r modpack ! N'hésitez pas à nous faire des  retours !"
+				"Il s'agit de notre &4&npremier&r modpack ! N'hésitez pas à nous faire des  retours !"
 				""
 				""
 				"Ce modpack est un kitchen sink, vous pouvez donc faire à peu près tout dans l'ordre que vous voulez. Cependant, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure :p N'hésitez pas à consulter ce livre de quête et JEI pour vous aider !"
+				""
+				"Egalement, des mises à jour régulières surviendront, n'hésitez donc pas à lire le &4changelog&r et à réaliser une &4sauvegarde&r de votre monde avant chaque mise à jour."
 			]
 			icon: "nifty:crosswalk_sign"
 			id: "6F065F2761125377"
@@ -186,6 +188,20 @@
 			}]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			description: ["Ces quêtes, indiquées par le petit symbole I, sont des quêtes explicatives. Elles sont là pour vous guider sur certaines spécificités du mod, ou si des sections sont en WIP."]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "5B10B3822722E441"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "05736D1F5C587AAE"
+				title: "Quête à engrenage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "Bienvenue ! :D"
