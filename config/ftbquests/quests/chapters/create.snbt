@@ -827,7 +827,7 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Voici une sélection basique de machines Create. Lorsque tu regarderas le craft de ces machines, certaines d'entre elles sont en version Brass. Au delà d'être plus chères, elles te permettront d'ajouter des filtres ! Idéal pour pouvoir sélectionner les opérations que tu veux faire."]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "044A732DB52C6B8C"
 			rewards: [{
 				id: "38FB55891D5E104C"
@@ -847,7 +847,7 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Create, c'est aussi envoyer des items, de la force cinétique, des animaux, ... D'un point A à un point B. Voici différents outils qui pourront t'aider."]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "3B75B51AD1DE7D9D"
 			rewards: [{
 				id: "523E7941D7770A54"
@@ -868,7 +868,7 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Juste une série d'outils qui pourront t'être utile dans ta découverte de Create."]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "6827E33B6A9C1252"
 			rewards: [{
 				id: "4D7D7046076D5AFC"
@@ -888,7 +888,7 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Pour fonctionner, les machines et outils de Create ont besoin d'énergie cinétique, que tu peux produire grâce à divers outils proposés dans ce chapitre. "]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "59B7D5A631C63F72"
 			rewards: [{
 				id: "008ADC281F845978"

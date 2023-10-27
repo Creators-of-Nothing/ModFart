@@ -31,7 +31,7 @@
 		}
 		{
 			dependencies: ["68E7C6523CC197C8"]
-			description: ["Tues un Wilden Stalker."]
+			description: ["Tues un Wilden Stalker. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Wilden Den&r."]
 			id: "6B9B376A7043C727"
 			rewards: [{
 				id: "472F837578789F24"
@@ -51,7 +51,7 @@
 		}
 		{
 			dependencies: ["68E7C6523CC197C8"]
-			description: ["Tues un Wilden Defender."]
+			description: ["Tues un Wilden Defender. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Wilden Den&r."]
 			id: "5DA1694B9BF2B14A"
 			rewards: [{
 				id: "02C5D300DE9482A2"
@@ -71,7 +71,7 @@
 		}
 		{
 			dependencies: ["68E7C6523CC197C8"]
-			description: ["Tues un Wilden Hunter."]
+			description: ["Tues un Wilden Hunter. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Wilden Den&r."]
 			id: "715B3F8FF5F8E69C"
 			rewards: [{
 				id: "0FCF83724DEE99CF"
@@ -1079,8 +1079,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["58BCF1DFEE225223"]
@@ -1105,8 +1105,8 @@
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 8.75d
+			y: 4.75d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]

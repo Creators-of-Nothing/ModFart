@@ -486,6 +486,7 @@
 					type: "item"
 				}
 			]
+			title: "Les meilleurs câbles"
 			x: 8.0d
 			y: 2.0d
 		}
@@ -727,7 +728,7 @@
 				""
 				"Toutes les machines de ce mod fonctionne avec de l'énergie, mais vous aurez moyen d'en produire (éoliennes / panneaux solaires)"
 			]
-			icon: "nifty:crosswalk_sign"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "4BDBD03959AB441E"
 			rewards: [{
 				id: "51FF2F41D94B0412"
@@ -749,9 +750,9 @@
 			description: [
 				"Le crusher permet de briser vos items. "
 				""
-				"C'est également la première étape pour &4&lSEXTUPLER&r vos minerais."
+				"C'est également la première étape pour &4&lSEXTUPLER&r&r vos minerais."
 				""
-				"&o&3nb : Le Dimensional et l'Ambrosium s'arrêtent après cette étape et ne peuvent qu'être doubler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+				"&n&o&o&3nb&r : Le Dimensional et l'Ambrosium s'arrêtent après cette étape et ne peuvent qu'être doubler! Vous pouvez donc les cuire une fois arrivé ici.&r"
 			]
 			id: "2F4AF8E2571E2384"
 			rewards: [{
@@ -781,7 +782,7 @@
 			description: [
 				"Il s'agit de la quatrième étape de duplication de minerais. Pour se faire, vous devez injecter de l'oxygen sur vos Dirty Dust. Pour avoir de l'oxygen, craftez-vous l'Electrolytic Separator et donnez lui de l'eau."
 				""
-				"&o&3nb : L'Utherium, le Regalium et l'Endumium s'arrêtent après cette étape et ne peuvent qu'être quintupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+				"&n&o&o&3nb&r : L'Utherium, le Regalium et l'Endumium s'arrêtent après cette étape et ne peuvent qu'être quintupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
 			]
 			id: "12FB3BFF34220211"
 			rewards: [{
@@ -1299,9 +1300,9 @@
 		{
 			dependencies: ["1755BE2626105917"]
 			description: [
-				"Pour cette troisième étape, il vous faudra injecter de la vapeur d'eau ( = Water Vapor) sur vos Shards. Pour avoir de la Water Vapor, utilisez le Rotary Condencentrator et donnez lui de l'eau."
+				"Pour cette troisième étape, il vous faudra injecter de la vapeur d'eau    ( = Water Vapor) sur vos Shards. Pour avoir de la Water Vapor, utilisez le Rotary Condencentrator et donnez lui de l'eau."
 				""
-				"&o&3nb : La Redstone s'arrête après cette étape et ne peut qu'être quadrupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+				"&o&n&o&3nb&r : La Redstone s'arrête après cette étape et ne peut qu'être quadrupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
 			]
 			id: "31319053678AA8B4"
 			rewards: [{

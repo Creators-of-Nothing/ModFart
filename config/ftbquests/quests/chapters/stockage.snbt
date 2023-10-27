@@ -344,8 +344,13 @@
 		}
 		{
 			description: ["Ars Nouveau possède un système de stockage similaire à Refined Storage, mais qui arrive plus tôt en jeu. Je vous invite à aller voir le chapitre Ars Nouveau, partie Storage Lectern pour en savoir plus, et à consulter le livre de Ars Nouveau."]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "19F198E6CD85EEA1"
+			rewards: [{
+				id: "306F139077F20E21"
+				type: "xp"
+				xp: 200
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

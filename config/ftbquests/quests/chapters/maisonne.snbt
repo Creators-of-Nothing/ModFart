@@ -47,7 +47,7 @@
 				"- Trofers"
 				"- Twigs"
 			]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "2276E6E36CE4E6D3"
 			rewards: [{
 				id: "41FA978C6EB391BB"
@@ -75,7 +75,7 @@
 				""
 				"Vous pouvez manger même si vous n'avez pas faim !"
 			]
-			icon: "eidolon:prestigious_palm"
+			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "2AB324048647901F"
 			rewards: [{
 				id: "4109287EE6D290DB"
