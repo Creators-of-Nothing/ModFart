@@ -727,12 +727,14 @@
 				""
 				"Toutes les machines de ce mod fonctionne avec de l'énergie, mais vous aurez moyen d'en produire (éoliennes / panneaux solaires)"
 			]
+			icon: "nifty:crosswalk_sign"
 			id: "4BDBD03959AB441E"
 			rewards: [{
 				id: "51FF2F41D94B0412"
 				type: "xp"
 				xp: 200
 			}]
+			shape: "gear"
 			size: 3.0d
 			tasks: [{
 				id: "0D6BDCF85078983F"
@@ -740,14 +742,16 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -4.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6D9D6A91D39E0AB5"]
 			description: [
 				"Le crusher permet de briser vos items. "
 				""
-				"C'est également la première étape pour &4&lSEXTUPLER&r&r vos minerais."
+				"C'est également la première étape pour &4&lSEXTUPLER&r vos minerais."
+				""
+				"&o&3nb : Le Dimensional et l'Ambrosium s'arrêtent après cette étape et ne peuvent qu'être doubler! Vous pouvez donc les cuire une fois arrivé ici.&r"
 			]
 			id: "2F4AF8E2571E2384"
 			rewards: [{
@@ -774,7 +778,11 @@
 		}
 		{
 			dependencies: ["31319053678AA8B4"]
-			description: ["Il s'agit de la quatrième étape de duplication de minerais. Pour se faire, vous devez injecter de l'oxygen sur vos Dirty Dust. Pour avoir de l'oxygen, craftez-vous l'Electrolytic Separator et donnez lui de l'eau."]
+			description: [
+				"Il s'agit de la quatrième étape de duplication de minerais. Pour se faire, vous devez injecter de l'oxygen sur vos Dirty Dust. Pour avoir de l'oxygen, craftez-vous l'Electrolytic Separator et donnez lui de l'eau."
+				""
+				"&o&3nb : L'Utherium, le Regalium et l'Endumium s'arrêtent après cette étape et ne peuvent qu'être quintupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+			]
 			id: "12FB3BFF34220211"
 			rewards: [{
 				id: "5D215D9AEED5B4AD"
@@ -831,7 +839,7 @@
 			description: [
 				"C'est juste un gros four."
 				""
-				"C'est la quatrième et dernière étape pour &4&lSEXTUPLER&r&r vos minerais."
+				"C'est la sixième et dernière étape pour &4&lSEXTUPLER&r&r vos minerais."
 			]
 			id: "385FFB651F7ACC4B"
 			rewards: [{
@@ -1290,7 +1298,11 @@
 		}
 		{
 			dependencies: ["1755BE2626105917"]
-			description: ["Pour cette troisième étape, il vous faudra injecter de la vapeur d'eau ( = Water Vapor) sur vos Shards. Pour avoir de la Water Vapor, utilisez le Rotary Condencentrator et donnez lui de l'eau."]
+			description: [
+				"Pour cette troisième étape, il vous faudra injecter de la vapeur d'eau ( = Water Vapor) sur vos Shards. Pour avoir de la Water Vapor, utilisez le Rotary Condencentrator et donnez lui de l'eau."
+				""
+				"&o&3nb : La Redstone s'arrête après cette étape et ne peut qu'être quadrupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+			]
 			id: "31319053678AA8B4"
 			rewards: [{
 				id: "0FBB0EFBB08A86A1"

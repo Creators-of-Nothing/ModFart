@@ -212,6 +212,53 @@ ServerEvents.recipes(e => {
 })
 
 
+// Extended Crafting
+ServerEvents.recipes(e => {
+    let potting = (input, catalyst, output) => {
+        e.custom({
+            "type": "create:item_application",
+            "ingredients": [
+                {
+                    "tag": input
+                },
+                {
+                    "item": catalyst
+                }
+            ],
+            "results": [
+                {
+                    "item": output
+                }
+            ]
+        })
+    }
+    potting('forge:workbench', 'extendedcrafting:basic_catalyst', 'extendedcrafting:basic_table')
+})
+ServerEvents.recipes(e => {
+    let potting = (input, catalyst, output) => {
+        e.custom({
+            "type": "create:item_application",
+            "ingredients": [
+                {
+                    "item": input
+                },
+                {
+                    "item": catalyst
+                }
+            ],
+            "results": [
+                {
+                    "item": output
+                }
+            ]
+        })
+    }
+    potting('extendedcrafting:basic_table', 'extendedcrafting:advanced_catalyst', 'extendedcrafting:advanced_table')
+    potting('extendedcrafting:advanced_table', 'extendedcrafting:elite_catalyst', 'extendedcrafting:elite_table')
+    potting('extendedcrafting:elite_table', 'extendedcrafting:ultimate_catalyst', 'extendedcrafting:ultimate_table')
+})
+
+
 // Furnaces
 ServerEvents.recipes(e => {
     let potting = (output, input, plate) => {
@@ -1409,7 +1456,7 @@ ServerEvents.recipes(e => {
 
 // Processing - Ore Recreation
 ServerEvents.recipes(e => {
-    let potting = (input, mineral, output) => {
+    let potting = (input, amount, mineral, output) => {
         e.custom({
             "type": "mekanism:combining",
             "extraInput": {
@@ -1418,7 +1465,7 @@ ServerEvents.recipes(e => {
                 }
             },
             "mainInput": {
-                "amount": 10,
+                "amount": amount,
                 "ingredient": {
                     "item": input
                 }
@@ -1428,109 +1475,114 @@ ServerEvents.recipes(e => {
             }
         })
     }
-    potting('mekanism:dust_coal', 'minecraft:stone', 'minecraft:coal_ore')
-    potting('mekanism:dust_coal', 'minecraft:deepslate', 'minecraft:deepslate_coal_ore')
-    potting('mekanism:dust_coal', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_coal_ore')
-    potting('mekanism:dust_coal', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_coal_ore')
-    potting('mekanism:dust_coal', 'meadow:limestone', 'meadow:alpine_coal_ore')
-    potting('mekanism:dust_coal', 'undergarden:depthrock', 'undergarden:depthrock_coal_ore')
-    potting('mekanism:dust_coal', 'undergarden:shiverstone', 'undergarden:shiverstone_coal_ore')
-    potting('mekanism:dust_iron', 'minecraft:stone', 'minecraft:iron_ore')
-    potting('mekanism:dust_iron', 'minecraft:deepslate', 'minecraft:deepslate_iron_ore')
-    potting('mekanism:dust_iron', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_iron_ore')
-    potting('mekanism:dust_iron', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_iron_ore')
-    potting('mekanism:dust_iron', 'meadow:limestone', 'meadow:alpine_iron_ore')
-    potting('mekanism:dust_iron', 'undergarden:depthrock', 'undergarden:depthrock_iron_ore')
-    potting('mekanism:dust_iron', 'undergarden:shiverstone', 'undergarden:shiverstone_iron_ore')
-    potting('mekanism:dust_copper', 'minecraft:stone', 'minecraft:copper_ore')
-    potting('mekanism:dust_copper', 'minecraft:deepslate', 'minecraft:deepslate_copper_ore')
-    potting('mekanism:dust_copper', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_copper_ore')
-    potting('mekanism:dust_copper', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_copper_ore')
-    potting('mekanism:dust_copper', 'meadow:limestone', 'meadow:alpine_copper_ore')
-    potting('mekanism:dust_gold', 'minecraft:stone', 'minecraft:gold_ore')
-    potting('mekanism:dust_gold', 'minecraft:deepslate', 'minecraft:deepslate_gold_ore')
-    potting('mekanism:dust_gold', 'minecraft:netherrack', 'minecraft:nether_gold_ore')
-    potting('mekanism:dust_gold', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_gold_ore')
-    potting('mekanism:dust_gold', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_gold_ore')
-    potting('mekanism:dust_gold', 'meadow:limestone', 'meadow:alpine_gold_ore')
-    potting('mekanism:dust_gold', 'undergarden:depthrock', 'undergarden:depthrock_gold_ore')
-    potting('minecraft:redstone', 'minecraft:stone', 'minecraft:redstone_ore')
-    potting('minecraft:redstone', 'minecraft:deepslate', 'minecraft:deepslate_redstone_ore')
-    potting('minecraft:redstone', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_redstone_ore')
-    potting('minecraft:redstone', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_redstone_ore')
-    potting('minecraft:redstone', 'meadow:limestone', 'meadow:alpine_redstone_ore')
-    potting('mekanism:dust_emerald', 'minecraft:stone', 'minecraft:emerald_ore')
-    potting('mekanism:dust_emerald', 'minecraft:deepslate', 'minecraft:deepslate_emerald_ore')
-    potting('mekanism:dust_emerald', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_emerald_ore')
-    potting('mekanism:dust_emerald', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_emerald_ore')
-    potting('mekanism:dust_emerald', 'meadow:limestone', 'meadow:alpine_emerald_ore')
-    potting('mekanism:dust_lapis_lazuli', 'minecraft:stone', 'minecraft:lapis_ore')
-    potting('mekanism:dust_lapis_lazuli', 'minecraft:deepslate', 'minecraft:deepslate_lapis_ore')
-    potting('mekanism:dust_lapis_lazuli', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_lapis_ore')
-    potting('mekanism:dust_lapis_lazuli', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_lapis_ore')
-    potting('mekanism:dust_lapis_lazuli', 'meadow:limestone', 'meadow:alpine_lapis_ore')
-    potting('mekanism:dust_diamond', 'minecraft:stone', 'minecraft:diamond_ore')
-    potting('mekanism:dust_diamond', 'minecraft:deepslate', 'minecraft:deepslate_diamond_ore')
-    potting('mekanism:dust_diamond', 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_diamond_ore')
-    potting('mekanism:dust_diamond', 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_diamond_ore')
-    potting('mekanism:dust_diamond', 'meadow:limestone', 'meadow:alpine_diamond_ore')
-    potting('mekanism:dust_diamond', 'undergarden:depthrock', 'undergarden:depthrock_diamond_ore')
-    potting('mekanism:dust_diamond', 'undergarden:shiverstone', 'undergarden:shiverstone_diamond_ore')
-    potting('mekanism:dust_quartz', 'minecraft:netherrack', 'minecraft:nether_quartz_ore')
-    potting('mekanism:dust_quartz', 'aether:holystone', 'ancient_aether:aether_quartz_ore')
-    potting('kubejs:dust_zinc', 'minecraft:stone', 'create:zinc_ore')
-    potting('kubejs:dust_zinc', 'minecraft:deepslate', 'create:deepslate_zinc_ore')
-    potting('kubejs:dust_malachite', 'minecraft:end_stone', 'enlightened_end:malachite_ore')
-    potting('kubejs:dust_irradium', 'minecraft:end_stone', 'enlightened_end:irradium_ore')
-    potting('kubejs:dust_bismuth', 'minecraft:end_stone', 'enlightened_end:bismuth_ore')
-    potting('kubejs:dust_ruby', 'minecraft:stone', 'epicsamurai:ruby_ore')
-    potting('kubejs:dust_ruby', 'minecraft:deepslate', 'epicsamurai:deepslate_ruby_ore')
-    potting('kubejs:dust_jade', 'minecraft:stone', 'epicsamurai:jade_ore')
-    potting('kubejs:dust_jade', 'minecraft:deepslate', 'epicsamurai:deepslate_jade_ore')
-    potting('kubejs:dust_aquamarine', 'minecraft:stone', 'epicsamurai:aquamarine_ore')
-    potting('kubejs:dust_aquamarine', 'minecraft:deepslate', 'epicsamurai:deepslate_aquamarine_ore')
-    potting('kubejs:dust_onyx', 'minecraft:stone', 'epicsamurai:onyx_ore')
-    potting('kubejs:dust_onyx', 'minecraft:deepslate', 'epicsamurai:deepslate_onyx_ore')
-    potting('kubejs:dust_silver', 'minecraft:stone', 'epicsamurai:silver_ore')
-    potting('kubejs:dust_silver', 'minecraft:deepslate', 'epicsamurai:deepslate_silver_ore')
-    potting('rftoolsbase:dimensionalshard', 'minecraft:stone', 'rftoolsbase:dimensionalshard_overworld')
-    potting('rftoolsbase:dimensionalshard', 'minecraft:netherrack', 'rftoolsbase:dimensionalshard_nether')
-    potting('rftoolsbase:dimensionalshard', 'minecraft:end_stone', 'rftoolsbase:dimensionalshard_end')
-    potting('kubejs:dust_tungsten', 'stalwart_dungeons:soul_bricks', 'stalwart_dungeons:tungsten_ore')
-    potting('kubejs:dust_chorundum', 'stalwart_dungeons:purpur_bricks', 'stalwart_dungeons:chorundum_ore')
-    potting('aether:ambrosium_shard', 'aether:holystone', 'aether:ambrosium_ore')
-    potting('kubejs:dust_zanite', 'aether:holystone', 'aether:zanite_ore')
-    potting('kubejs:dust_gravitite', 'aether:holystone', 'aether:gravitite_ore')
-    potting('kubejs:dust_cloggrum', 'undergarden:depthrock', 'undergarden:depthrock_cloggrum_ore')
-    potting('kubejs:dust_cloggrum', 'undergarden:shiverstone', 'undergarden:shiverstone_cloggrum_ore')
-    potting('kubejs:dust_froststeel', 'undergarden:shiverstone', 'undergarden:shiverstone_froststeel_ore')
-    potting('kubejs:dust_utherium', 'undergarden:depthrock', 'undergarden:depthrock_utherium_ore')
-    potting('kubejs:dust_utherium', 'undergarden:shiverstone', 'undergarden:shiverstone_utherium_ore')
-    potting('kubejs:dust_regalium', 'undergarden:depthrock', 'undergarden:depthrock_regalium_ore')
-    potting('kubejs:dust_regalium', 'undergarden:shiverstone', 'undergarden:shiverstone_regalium_ore')
-    potting('kubejs:dust_endumium', 'minecraft:stone', 'farlanders:endumium_ore')
-    potting('kubejs:dust_endumium', 'minecraft:deepslate', 'farlanders:deepslate_endumium_ore')
-    potting('mekanism:dust_tin', 'minecraft:stone', 'mekanism:tin_ore')
-    potting('mekanism:dust_tin', 'minecraft:deepslate', 'mekanism:deepslate_tin_ore')
-    potting('mekanism:dust_osmium', 'minecraft:stone', 'mekanism:osmium_ore')
-    potting('mekanism:dust_osmium', 'minecraft:deepslate', 'mekanism:deepslate_osmium_ore')
-    potting('mekanism:dust_uranium', 'minecraft:stone', 'mekanism:uranium_ore')
-    potting('mekanism:dust_uranium', 'minecraft:deepslate', 'mekanism:deepslate_uranium_ore')
-    potting('mekanism:dust_fluorite', 'minecraft:stone', 'mekanism:fluorite_ore')
-    potting('mekanism:dust_fluorite', 'minecraft:deepslate', 'mekanism:deepslate_fluorite_ore')
-    potting('mekanism:dust_lead', 'minecraft:stone', 'mekanism:lead_ore')
-    potting('mekanism:dust_lead', 'minecraft:deepslate', 'mekanism:deepslate_lead_ore')
-    potting('mekanism:dust_netherite', 'minecraft:tuff', 'minecraft:ancient_debris')
-    potting('kubejs:dust_enderite', 'minecraft:tuff', 'lolenderite:primordial_remnants')
+    potting('minecraft:coal', 15, 'minecraft:stone', 'minecraft:coal_ore')
+    potting('minecraft:coal', 15, 'minecraft:deepslate', 'minecraft:deepslate_coal_ore')
+    potting('minecraft:coal', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_coal_ore')
+    potting('minecraft:coal', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_coal_ore')
+    potting('minecraft:coal', 15, 'meadow:limestone', 'meadow:alpine_coal_ore')
+    potting('minecraft:coal', 15, 'undergarden:depthrock', 'undergarden:depthrock_coal_ore')
+    potting('minecraft:coal', 15, 'undergarden:shiverstone', 'undergarden:shiverstone_coal_ore')
+    potting('minecraft:coal', 15, 'alexscaves:coprolith', 'alexscaves:coprolith_coal_ore')
+    potting('minecraft:iron_ingot', 15, 'minecraft:stone', 'minecraft:iron_ore')
+    potting('minecraft:iron_ingot', 15, 'minecraft:deepslate', 'minecraft:deepslate_iron_ore')
+    potting('minecraft:iron_ingot', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_iron_ore')
+    potting('minecraft:iron_ingot', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_iron_ore')
+    potting('minecraft:iron_ingot', 15, 'meadow:limestone', 'meadow:alpine_iron_ore')
+    potting('minecraft:iron_ingot', 15, 'undergarden:depthrock', 'undergarden:depthrock_iron_ore')
+    potting('minecraft:iron_ingot', 15, 'undergarden:shiverstone', 'undergarden:shiverstone_iron_ore')
+    potting('minecraft:iron_ingot', 15, 'alexscaves:galena', 'alexscaves:galena_iron_ore')
+    potting('minecraft:copper_ingot', 15, 'minecraft:stone', 'minecraft:copper_ore')
+    potting('minecraft:copper_ingot', 15, 'minecraft:deepslate', 'minecraft:deepslate_copper_ore')
+    potting('minecraft:copper_ingot', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_copper_ore')
+    potting('minecraft:copper_ingot', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_copper_ore')
+    potting('minecraft:copper_ingot', 15, 'meadow:limestone', 'meadow:alpine_copper_ore')
+    potting('minecraft:gold_ingot', 15, 'minecraft:stone', 'minecraft:gold_ore')
+    potting('minecraft:gold_ingot', 15, 'minecraft:deepslate', 'minecraft:deepslate_gold_ore')
+    potting('minecraft:gold_ingot', 15, 'minecraft:netherrack', 'minecraft:nether_gold_ore')
+    potting('minecraft:gold_ingot', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_gold_ore')
+    potting('minecraft:gold_ingot', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_gold_ore')
+    potting('minecraft:gold_ingot', 15, 'meadow:limestone', 'meadow:alpine_gold_ore')
+    potting('minecraft:gold_ingot', 15, 'undergarden:depthrock', 'undergarden:depthrock_gold_ore')
+    potting('minecraft:redstone', 9, 'minecraft:stone', 'minecraft:redstone_ore')
+    potting('minecraft:redstone', 9, 'minecraft:deepslate', 'minecraft:deepslate_redstone_ore')
+    potting('minecraft:redstone', 9, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_redstone_ore')
+    potting('minecraft:redstone', 9, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_redstone_ore')
+    potting('minecraft:redstone', 9, 'meadow:limestone', 'meadow:alpine_redstone_ore')
+    potting('minecraft:redstone', 9, 'alexscaves:guanostone', 'alexscaves:guanostone_redstone_ore')
+    potting('minecraft:emerald', 15, 'minecraft:stone', 'minecraft:emerald_ore')
+    potting('minecraft:emerald', 15, 'minecraft:deepslate', 'minecraft:deepslate_emerald_ore')
+    potting('minecraft:emerald', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_emerald_ore')
+    potting('minecraft:emerald', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_emerald_ore')
+    potting('minecraft:emerald', 15, 'meadow:limestone', 'meadow:alpine_emerald_ore')
+    potting('minecraft:lapis_lazuli', 15, 'minecraft:stone', 'minecraft:lapis_ore')
+    potting('minecraft:lapis_lazuli', 15, 'minecraft:deepslate', 'minecraft:deepslate_lapis_ore')
+    potting('minecraft:lapis_lazuli', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_lapis_ore')
+    potting('minecraft:lapis_lazuli', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_lapis_ore')
+    potting('minecraft:lapis_lazuli', 15, 'meadow:limestone', 'meadow:alpine_lapis_ore')
+    potting('minecraft:diamond', 15, 'minecraft:stone', 'minecraft:diamond_ore')
+    potting('minecraft:diamond', 15, 'minecraft:deepslate', 'minecraft:deepslate_diamond_ore')
+    potting('minecraft:diamond', 15, 'deeperdarker:sculk_stone', 'deeperdarker:sculk_stone_diamond_ore')
+    potting('minecraft:diamond', 15, 'deeperdarker:gloomslate', 'deeperdarker:gloomslate_diamond_ore')
+    potting('minecraft:diamond', 15, 'meadow:limestone', 'meadow:alpine_diamond_ore')
+    potting('minecraft:diamond', 15, 'undergarden:depthrock', 'undergarden:depthrock_diamond_ore')
+    potting('minecraft:diamond', 15, 'undergarden:shiverstone', 'undergarden:shiverstone_diamond_ore')
+    potting('minecraft:quartz', 15, 'minecraft:netherrack', 'minecraft:nether_quartz_ore')
+    potting('minecraft:quartz', 15, 'aether:holystone', 'ancient_aether:aether_quartz_ore')
+    potting('create:zinc_ingot', 15, 'minecraft:stone', 'create:zinc_ore')
+    potting('create:zinc_ingot', 15, 'minecraft:deepslate', 'create:deepslate_zinc_ore')
+    potting('enlightened_end:malachite', 15, 'minecraft:end_stone', 'enlightened_end:malachite_ore')
+    potting('enlightened_end:irradium_bar', 15, 'minecraft:end_stone', 'enlightened_end:irradium_ore')
+    potting('enlightened_end:bismuth_ingot', 15, 'minecraft:end_stone', 'enlightened_end:bismuth_ore')
+    potting('epicsamurai:ruby', 15, 'minecraft:stone', 'epicsamurai:ruby_ore')
+    potting('epicsamurai:ruby', 15, 'minecraft:deepslate', 'epicsamurai:deepslate_ruby_ore')
+    potting('epicsamurai:jade', 15, 'minecraft:stone', 'epicsamurai:jade_ore')
+    potting('epicsamurai:jade', 15, 'minecraft:deepslate', 'epicsamurai:deepslate_jade_ore')
+    potting('epicsamurai:aquamarine', 15, 'minecraft:stone', 'epicsamurai:aquamarine_ore')
+    potting('epicsamurai:aquamarine', 15, 'minecraft:deepslate', 'epicsamurai:deepslate_aquamarine_ore')
+    potting('epicsamurai:onyx', 15, 'minecraft:stone', 'epicsamurai:onyx_ore')
+    potting('epicsamurai:onyx', 15, 'minecraft:deepslate', 'epicsamurai:deepslate_onyx_ore')
+    potting('epicsamurai:silver_ingot', 15, 'minecraft:stone', 'epicsamurai:silver_ore')
+    potting('epicsamurai:silver_ingot', 15, 'minecraft:deepslate', 'epicsamurai:deepslate_silver_ore')
+    potting('rftoolsbase:dimensionalshard', 3, 'minecraft:stone', 'rftoolsbase:dimensionalshard_overworld')
+    potting('rftoolsbase:dimensionalshard', 3, 'minecraft:netherrack', 'rftoolsbase:dimensionalshard_nether')
+    potting('rftoolsbase:dimensionalshard', 3, 'minecraft:end_stone', 'rftoolsbase:dimensionalshard_end')
+    potting('stalwart_dungeons:tungsten_ingot', 15, 'stalwart_dungeons:soul_bricks', 'stalwart_dungeons:tungsten_ore')
+    potting('stalwart_dungeons:chorundum', 15, 'stalwart_dungeons:purpur_bricks', 'stalwart_dungeons:chorundum_ore')
+    potting('aether:ambrosium_shard', 3, 'aether:holystone', 'aether:ambrosium_ore')
+    potting('aether:zanite_gemstone', 15, 'aether:holystone', 'aether:zanite_ore')
+    potting('aether:enchanted_gravitite', 15, 'aether:holystone', 'aether:gravitite_ore')
+    potting('undergarden:cloggrum_ingot', 15, 'undergarden:depthrock', 'undergarden:depthrock_cloggrum_ore')
+    potting('undergarden:cloggrum_ingot', 15, 'undergarden:shiverstone', 'undergarden:shiverstone_cloggrum_ore')
+    potting('undergarden:froststeel_ingot', 15, 'undergarden:shiverstone', 'undergarden:shiverstone_froststeel_ore')
+    potting('undergarden:utherium_crystal', 12, 'undergarden:depthrock', 'undergarden:depthrock_utherium_ore')
+    potting('undergarden:utherium_crystal', 12, 'undergarden:shiverstone', 'undergarden:shiverstone_utherium_ore')
+    potting('undergarden:regalium_crystal', 12, 'undergarden:depthrock', 'undergarden:depthrock_regalium_ore')
+    potting('undergarden:regalium_crystal', 12, 'undergarden:shiverstone', 'undergarden:shiverstone_regalium_ore')
+    potting('farlanders:endumium_crystal', 12, 'minecraft:stone', 'farlanders:endumium_ore')
+    potting('farlanders:endumium_crystal', 12, 'minecraft:deepslate', 'farlanders:deepslate_endumium_ore')
+    potting('mekanism:ingot_tin', 15, 'minecraft:stone', 'mekanism:tin_ore')
+    potting('mekanism:ingot_tin', 15, 'minecraft:deepslate', 'mekanism:deepslate_tin_ore')
+    potting('mekanism:ingot_osmium', 15, 'minecraft:stone', 'mekanism:osmium_ore')
+    potting('mekanism:ingot_osmium', 15, 'minecraft:deepslate', 'mekanism:deepslate_osmium_ore')
+    potting('mekanism:ingot_uranium', 15, 'minecraft:stone', 'mekanism:uranium_ore')
+    potting('mekanism:ingot_uranium', 15, 'minecraft:deepslate', 'mekanism:deepslate_uranium_ore')
+    potting('mekanism:ingot_uranium', 15, 'alexscaves:radrock', 'alexscaves:radrock_uranium_ore')
+    potting('mekanism:fluorite_gem', 15, 'minecraft:stone', 'mekanism:fluorite_ore')
+    potting('mekanism:fluorite_gem', 15, 'minecraft:deepslate', 'mekanism:deepslate_fluorite_ore')
+    potting('mekanism:ingot_lead', 15, 'minecraft:stone', 'mekanism:lead_ore')
+    potting('mekanism:ingot_lead', 15, 'minecraft:deepslate', 'mekanism:deepslate_lead_ore')
+    potting('minecraft:netherite_ingot', 15, 'minecraft:tuff', 'minecraft:ancient_debris')
+    potting('lolenderite:enderite_ingot', 15, 'minecraft:tuff', 'lolenderite:primordial_remnants')
 })
+
 
 // Processing - Dust Recreation
 ServerEvents.recipes(e => {
-    let potting = (input, output) => {
+    let potting = (input, amount, output) => {
         e.custom({
-            "type": "mekanism:enriching",
+            "type": "mekanism:crushing",
             "input": {
-                "amount": 6,
+                "amount": amount,
                 "ingredient": {
                     "item": input
                 }
@@ -1540,33 +1592,17 @@ ServerEvents.recipes(e => {
             }
         })
     }
-    potting('minecraft:emerald', 'mekanism:dust_emerald')
-    potting('mekanism:ingot_tin', 'mekanism:dust_tin')
-    potting('minecraft:copper_ingot', 'mekanism:dust_copper')
-    potting('mekanism:ingot_osmium', 'mekanism:dust_osmium')
-    potting('minecraft:gold_ingot', 'mekanism:dust_gold')
-    potting('minecraft:iron_ingot', 'mekanism:dust_iron')
-    potting('minecraft:diamond', 'mekanism:dust_diamond')
-    potting('minecraft:lapis_lazuli', 'mekanism:dust_lapis_lazuli')
-    potting('minecraft:coal', 'mekanism:dust_coal')
-    potting('minecraft:netherite_scrap', 'mekanism:dust_netherite')
-})
-ServerEvents.recipes(e => {
-    let potting = (input, output) => {
-        e.custom({
-            "type": "mekanism:enriching",
-            "input": {
-                "amount": 2,
-                "ingredient": {
-                    "item": input
-                }
-            },
-            "output": {
-                "item": output
-            }
-        })
-    }
-    potting('minecraft:netherite_ingot', 'mekanism:dust_netherite')
+    potting('minecraft:emerald', 6, 'mekanism:dust_emerald')
+    potting('mekanism:ingot_tin', 6, 'mekanism:dust_tin')
+    potting('minecraft:copper_ingot', 6, 'mekanism:dust_copper')
+    potting('mekanism:ingot_osmium', 6, 'mekanism:dust_osmium')
+    potting('minecraft:gold_ingot', 6, 'mekanism:dust_gold')
+    potting('minecraft:iron_ingot', 6, 'mekanism:dust_iron')
+    potting('minecraft:diamond', 6, 'mekanism:dust_diamond')
+    potting('minecraft:lapis_lazuli', 6, 'mekanism:dust_lapis_lazuli')
+    potting('minecraft:coal', 6, 'mekanism:dust_coal')
+    potting('minecraft:netherite_scrap', 6, 'mekanism:dust_netherite')
+    potting('minecraft:netherite_ingot', 2, 'mekanism:dust_netherite')
 })
 
 
@@ -1615,7 +1651,7 @@ ServerEvents.recipes(e => {
     potting('ringsofascension:ring_dolphin', 'beachparty:beach_hat', 'moa_decor_toys:guardian', 'beachparty:bikini', 'beachparty:rubber_ring_blue', 'beachparty:swim_wings', 'beachparty:rubber_ring_pink', 'alexsmobs:crocodile_chestplate', 'moa_decor_toys:delfin')
     potting('ringsofascension:ring_experience', 'vinery:cristel_wine', 'sophisticatedbackpacks:xp_pump_upgrade', 'ars_nouveau:greater_experience_gem', 'mob_grinding_utils:solid_xp_block', 'kubejs:experience_plate', 'create:experience_block', 'create_enchantment_industry:experience_rotor', 'sophisticatedstorage:xp_pump_upgrade')
     potting('ringsofascension:ring_fire_resistance', 'twilightdelight:tear_drink', 'additional_lights:soul_fire_for_standing_torch_s', 'mob_grinding_utils:saw_upgrade_fire', 'mcwlights:lava_lamp', 'minecraft:fire_charge', 'alexsmobs:lava_bottle', 'ars_nouveau:fire_essence', 'additional_lights:fire_for_standing_torch_s')
-    potting('ringsofascension:ring_flight', 'alexsmobs:void_worm_eye', 'create_jetpack:jetpack', 'deeperdarker:soul_elytra', 'the_bumblezone:pollen_puff', 'ars_nouveau:ritual_flight', 'twilightforest:raven_feather', 'lolenderite:enderite_plated_elytra', 'mekanism:jetpack_armored')
+    potting('ringsofascension:ring_flight', 'alexsmobs:void_worm_eye', 'create_jetpack:jetpack', 'deeperdarker:soul_elytra', 'the_bumblezone:pollen_puff', 'eidolon:raven_cloak', 'ars_nouveau:ritual_flight', 'lolenderite:enderite_plated_elytra', 'mekanism:jetpack_armored')
     potting('ringsofascension:ring_growth', 'vinery:straw_hat', 'pamhc2foodcore:freshwateritem', 'vinery:vinemaker_leggings', 'ars_nouveau:ritual_overgrowth', 'vinery:vinemaker_boots', 'meadow:watering_can', 'vinery:vinemaker_apron', 'arcanelanterns:life_lantern')
     potting('ringsofascension:ring_health', 'paraglider:heart_container', 'minecraft:heart_of_the_sea', 'arcanelanterns:love_lantern', 'twilightforest:charm_of_life_2', 'deeperdarker:heart_of_the_deep', 'alexsmobs:soul_heart', 'paraglider:anti_vessel', 'candlelight:hearth')
     potting('ringsofascension:ring_hungerless', 'candlelight:cooking_hat', 'sophisticatedbackpacks:advanced_feeding_upgrade', 'candlelight:chefs_pants', 'pamhc2foodextended:spaghettidinneritem', 'candlelight:chefs_boots', 'pamhc2foodextended:cookoutmealitem', 'candlelight:chefs_jacket', 'sophisticatedstorage:advanced_feeding_upgrade')
@@ -2083,6 +2119,12 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'morecoal:netherite_coal_from_diamond_coal' })
     e.remove({ id: 'morecoal:omni_coal' })
 
+    // Extended Crafting
+    e.remove({ id: 'extendedcrafting:basic_table' })
+    e.remove({ id: 'extendedcrafting:advanced_table' })
+    e.remove({ id: 'extendedcrafting:elite_table' })
+    e.remove({ id: 'extendedcrafting:ultimate_table' })
+
     // Furnaces
     e.remove({ id: 'ironfurnaces:furnaces/copper_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/iron_furnace' })
@@ -2155,9 +2197,9 @@ ServerEvents.recipes(e => {
     e.remove({ id: /minecraft:diamond_from_blasting/ })
     e.remove({ id: /minecraft:diamond_from_smelting/ })
     e.remove({ id: /minecraft:quartz_from_blasting/ })
-    e.remove({ id: /minecraft:quartz_from_smelting/ })
+    e.remove({ id: 'minecraft:quartz' })
     e.remove({ id: /minecraft:netherite_scrap_from_blasting/ })
-    e.remove({ id: /minecraft:netherite_scrap_from_smelting/ })
+    e.remove({ id: 'minecraft:netherite_scrap' })
     e.remove({ id: /aether:quartz_from_blasting/ })
     e.remove({ id: /aether:quartz_from_smelting/ })
     e.remove({ id: /aether:ambrosium_shard_from_blasting/ })
@@ -2190,6 +2232,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: /create:crushing\/gold_ore/ })
     e.remove({ id: /create:crushing\/zinc_ore/ })
     e.remove({ id: /create:crushing\/raw_/ })
+    e.remove({ not: { id: /cyclic:copper_/}, id: 'cyclic:copper_bars'  })
     e.remove({ id: /deeperdarker:coal_from_blasting/ })
     e.remove({ id: /deeperdarker:coal_from_smelting/ })
     e.remove({ id: /deeperdarker:raw_iron_from_blasting/ })
@@ -2206,14 +2249,16 @@ ServerEvents.recipes(e => {
     e.remove({ id: /deeperdarker:lapis_lazuli_from_smelting/ })
     e.remove({ id: /deeperdarker:diamond_from_blasting/ })
     e.remove({ id: /deeperdarker:diamond_from_smelting/ })
+    e.remove({ id: /epicsamurai:silver_ingot_from_blasting/ })
+    e.remove({ id: /epicsamurai:silver_ingot_from_smelting/ })
     e.remove({ id: /lolenderite:enderite_fragment_from_blasting/ })
     e.remove({ id: /lolenderite:enderite_fragment_from_smelting/ })
     e.remove({ id: /enlightened_end:blast_/ })
     e.remove({ id: /enlightened_end:smelt_/ })
-    e.remove({ id: /eidolon:blast_/ })
-    e.remove({ id: /eidolon:smelt_/ })
+    e.remove({ not: { id: /eidolon:blast_/}, id: 'eidolon:blast_enchanted_ash', id: 'eidolon:blast_pewter_blend'  })
+    e.remove({ not: { id: /eidolon:smelt_/}, id: 'eidolon:smelt_pewter_blend' })
     e.remove({ id: /mekanism:processing\/coal/ })
-    e.remove({ not: { id: /mekanism:processing\/iron/ }, id: 'mekanism:processing/iron/enriched' })
+    e.remove({ id: /mekanism:processing\/iron/ })
     e.remove({ id: /mekanism:processing\/copper/ })
     e.remove({ id: /mekanism:processing\/gold/ })
     e.remove({ id: /mekanism:processing\/redstone/ })
@@ -2221,11 +2266,11 @@ ServerEvents.recipes(e => {
     e.remove({ id: /mekanism:processing\/lapis_lazuli/ })
     e.remove({ id: /mekanism:processing\/diamond/ })
     e.remove({ id: /mekanism:processing\/quartz/ })
-    e.remove({ id: /mekanism:processing\/tin/ })
-    e.remove({ id: /mekanism:processing\/osmium/ })
-    e.remove({ id: /mekanism:processing\/uranium/ })
-    e.remove({ id: /mekanism:processing\/fluorite/ })
-    e.remove({ id: /mekanism:processing\/lead/ })
+    e.remove({ not: { id: /mekanism:processing\/tin/}, id: 'mekanism:processing/tin/ingot/from_block', id: 'mekanism:processing/tin/ingot/from_nuggets', id: 'mekanism:processing/tin/nugget/from_ingot', id: 'mekanism:processing/tin/raw/from_raw_block', id: 'mekanism:processing/tin/raw_storage_blocks/from_raw', id: 'mekanism:processing/tin/storage_blocks/from_ingots' })
+    e.remove({ not: { id: /mekanism:processing\/osmium/}, id: 'mekanism:processing/osmium/ingot/from_block', id: 'mekanism:processing/osmium/ingot/from_nuggets', id: 'mekanism:processing/osmium/nugget/from_ingot', id: 'mekanism:processing/osmium/raw/from_raw_block', id: 'mekanism:processing/osmium/raw_storage_blocks/from_raw', id: 'mekanism:processing/osmium/storage_blocks/from_ingots' })
+    e.remove({ not: { id: /mekanism:processing\/uranium/}, id: 'mekanism:processing/uranium/ingot/from_block', id: 'mekanism:processing/uranium/ingot/from_nuggets', id: 'mekanism:processing/uranium/nugget/from_ingot', id: 'mekanism:processing/uranium/raw/from_raw_block', id: 'mekanism:processing/uranium/raw_storage_blocks/from_raw', id: 'mekanism:processing/uranium/storage_blocks/from_ingots' })
+    e.remove({ not: { id: /mekanism:processing\/fluorite/}, id: 'mekanism:processing/fluorite/from_block' })
+    e.remove({ not: { id: /mekanism:processing\/lead/}, id: 'mekanism:processing/lead/ingot/from_block', id: 'mekanism:processing/lead/ingot/from_nuggets', id: 'mekanism:processing/lead/nugget/from_ingot', id: 'mekanism:processing/lead/raw/from_raw_block', id: 'mekanism:processing/lead/raw_storage_blocks/from_raw', id: 'mekanism:processing/lead/storage_blocks/from_ingots' })
     e.remove({ id: /mekanism:processing\/netherite/ })
     e.remove({ id: /createaddition:crushing\/diamond/ })
     e.remove({ id: /undergarden:shard_to_crystal/ })
@@ -2237,15 +2282,16 @@ ServerEvents.recipes(e => {
     e.remove({ id: /undergarden:smelt_depthrock_/ })
     e.remove({ id: /mastersword:recycle_alloy/ })
     e.replaceInput({ input: 'createaddition:diamond_grit' }, 'createaddition:diamond_grit', 'mekanism:dust_diamond')
-    e.remove({ output: 'epicsamurai:steel_nugget' })
     e.replaceInput({ input: 'epicsamurai:steel_nugget' }, 'epicsamurai:steel_nugget', 'mekanism:nugget_steel')
-    e.remove({ output: 'epicsamurai:steel_ingot' })
     e.replaceInput({ input: 'epicsamurai:steel_ingot' }, 'epicsamurai:steel_ingot', 'mekanism:ingot_steel')
-    e.remove({ output: 'epicsamurai:steel_block' })
     e.replaceInput({ input: 'epicsamurai:steel_block' }, 'epicsamurai:steel_block', 'mekanism:block_steel')
-    e.remove({ output: 'epicsamurai:silver_ingot' })
-    e.replaceInput({ input: 'epicsamurai:silver_ingot' }, 'epicsamurai:silver_ingot', 'mekanism:ingot_silver')
+    e.replaceInput({ input: 'mekanism:ingot_silver' }, 'mekanism:ingot_silver', 'epicsamurai:silver_ingot')
     e.replaceOutput({ output: 'moremekanismprocessing:zinc_ingot' }, 'moremekanismprocessing:zinc_ingot', 'create:zinc_ingot')
+
+    // Refined Storage
+    e.remove({ id: /extrastorage:disk\// })
+    e.remove({ id: /extrastorage:storage_block\// })
+    e.remove({ id: /extrastorage:part\// })
 
     // Rods
     e.remove({ id: 'createaddition:rolling/brass_ingot' })

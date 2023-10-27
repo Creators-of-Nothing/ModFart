@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "ars_nouveau:belt_of_levitation",
+    "ars_nouveau:belt_of_unstable_gifts",
+    "eidolon:basic_belt",
+    "eidolon:gravity_belt",
+    "eidolon:resolute_belt"
+  ]
+}

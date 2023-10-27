@@ -47,12 +47,14 @@
 				"- Trofers"
 				"- Twigs"
 			]
+			icon: "eidolon:prestigious_palm"
 			id: "2276E6E36CE4E6D3"
 			rewards: [{
 				id: "41FA978C6EB391BB"
 				type: "xp"
 				xp: 200
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "7913DD041752DC78"
@@ -73,12 +75,14 @@
 				""
 				"Vous pouvez manger même si vous n'avez pas faim !"
 			]
+			icon: "eidolon:prestigious_palm"
 			id: "2AB324048647901F"
 			rewards: [{
 				id: "4109287EE6D290DB"
 				item: "solcarrot:food_book"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "5FA118AE0B76F1B2"
@@ -239,7 +243,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec @Magnum."]
+			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec @Torchmaster."]
 			id: "2D3AB5E2D9D753EA"
 			rewards: [{
 				id: "6A654C89AE119C7F"
@@ -249,7 +253,7 @@
 			}]
 			tasks: [{
 				id: "695247E050B0E9BF"
-				item: "magnumtorch:diamond_magnum_torch"
+				item: "torchmaster:megatorch"
 				type: "item"
 			}]
 			x: 2.0d
@@ -414,6 +418,22 @@
 			}]
 			x: 3.75d
 			y: 2.0d
+		}
+		{
+			description: ["La Postbox vous permettra d'envoyer des objets ou des messages à toutes personnes qui possèdent une Mailbox. Le destinataire n'aura qu'à ouvrir sa Mailbox pour voir votre message et recevoir ses cadeaux !"]
+			id: "4CD97A9F6DD0BF6B"
+			rewards: [{
+				id: "1F1CAF5EF142383F"
+				item: "mighty_mail:spruce_mail_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37404B15ECA39249"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -2.0d
 		}
 	]
 	title: "Maisonnée"

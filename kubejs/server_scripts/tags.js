@@ -1,23 +1,16 @@
-// Adding Item tags
+// Unused Items
 ServerEvents.tags('item', e => {
+
+    // Create
+    e.removeAllTagsFrom([
+        /create:crushed_raw_/
+    ])
     e.add('forge:unused', [
-        // Extended Crafting
-        'extendedcrafting:basic_component',
-        'extendedcrafting:advanced_component',
-        'extendedcrafting:elite_component',
-        'extendedcrafting:ultimate_component',
-        'extendedcrafting:redstone_component',
-        'extendedcrafting:enhanced_redstone_component',
-        'extendedcrafting:ender_component',
-        'extendedcrafting:enhanced_ender_component',
-        'extendedcrafting:crystaltine_component',
-        'extendedcrafting:the_ultimate_component',
-        // Iron Furnaces
-        /ironfurnaces:upgrade_/,
-        'ironfurnaces:crystal_furnace',
-        'ironfurnaces:rainbow_core',
-        'ironfurnaces:rainbow_plating',
-        // Cyclic
+        /create:crushed_raw_/
+    ])
+
+    // Cyclic
+    e.removeAllTagsFrom([
         'cyclic:cable_wrench',
         'cyclic:mattock',
         'cyclic:mattock_nether',
@@ -138,7 +131,202 @@ ServerEvents.tags('item', e => {
         'cyclic:chorus_spectral',
         'cyclic:wireless_receiver',
         'cyclic:wireless_transmitter',
-        // Mekanism
+        'cyclic:copper_nugget',
+        'cyclic:copper_pickaxe',
+        'cyclic:copper_axe',
+        'cyclic:copper_hoe',
+        'cyclic:copper_shovel',
+        'cyclic:copper_sword',
+        'cyclic:copper_chain',
+        'cyclic:copper_lantern',
+        'cyclic:copper_soul_lantern'
+    ])
+    e.add('forge:unused', [
+        'cyclic:cable_wrench',
+        'cyclic:mattock',
+        'cyclic:mattock_nether',
+        'cyclic:mattock_stone',
+        'cyclic:peat_fuel',
+        'cyclic:peat_fuel_enriched',
+        'cyclic:biomass',
+        'cyclic:wand_missile',
+        'cyclic:ender_fishing',
+        'cyclic:ender_book',
+        'cyclic:build_scepter',
+        'cyclic:replace_scepter',
+        'cyclic:offset_scepter',
+        'cyclic:randomize_scepter',
+        'cyclic:spawn_inspector',
+        'cyclic:netherite_nugget',
+        'cyclic:crafting_bag',
+        'cyclic:crafting_stick',
+        'cyclic:mob_container',
+        'cyclic:tile_transporter_empty',
+        'cyclic:tile_transporter',
+        'cyclic:magic_net',
+        'cyclic:spawner_seeker',
+        'cyclic:heart',
+        'cyclic:heart_empty',
+        'cyclic:ender_bag',
+        'cyclic:torch_launcher',
+        'cyclic:charm_home',
+        'cyclic:charm_world',
+        'cyclic:elevation_wand',
+        'cyclic:teleport_wand',
+        'cyclic:scythe_harvest',
+        'cyclic:scythe_brush',
+        'cyclic:scythe_forage',
+        'cyclic:scythe_leaves',
+        'cyclic:sleeping_mat',
+        'cyclic:generator_item',
+        'cyclic:packager',
+        'cyclic:terra_preta',
+        'cyclic:light_camo',
+        'cyclic:soil',
+        'cyclic:workbench',
+        'cyclic:obsidian_pressure_plate',
+        'cyclic:copper_pressure_plate',
+        'cyclic:netherite_pressure_plate',
+        'cyclic:fireball',
+        'cyclic:laser_cannon',
+        'cyclic:entity_data',
+        'cyclic:spark',
+        'cyclic:fireball_dark',
+        'cyclic:lunchbox',
+        'cyclic:ender_torch',
+        'cyclic:biomass_bucket',
+        'cyclic:spikes_iron',
+        'cyclic:spikes_fire',
+        'cyclic:spikes_curse',
+        'cyclic:spikes_diamond',
+        'cyclic:hopper_fluid',
+        'cyclic:hopper',
+        'cyclic:hopper_gold',
+        'cyclic:fan_slab',
+        'cyclic:rotator',
+        'cyclic:terra_glass',
+        'cyclic:sprinkler',
+        'cyclic:shearing',
+        'cyclic:ender_item_shelf',
+        'cyclic:wireless_energy',
+        'cyclic:wireless_item',
+        'cyclic:wireless_fluid',
+        'cyclic:generator_fuel',
+        'cyclic:generator_food',
+        'cyclic:generator_fluid',
+        'cyclic:fisher',
+        'cyclic:experience_pylon',
+        'cyclic:fan',
+        'cyclic:trash',
+        'cyclic:energy_pipe',
+        'cyclic:item_pipe',
+        'cyclic:fluid_pipe',
+        'cyclic:battery_infinite',
+        'cyclic:item_infinite',
+        'cyclic:sponge_lava',
+        'cyclic:crusher',
+        'cyclic:peace_candle',
+        'cyclic:water_candle',
+        'cyclic:teleport',
+        'cyclic:computer_shape',
+        'cyclic:peat_unbaked',
+        'cyclic:peat_baked',
+        'cyclic:peat_farm',
+        'cyclic:battery',
+        'cyclic:cask',
+        'cyclic:crate',
+        'cyclic:crate_mini',
+        'cyclic:eye_teleport',
+        'cyclic:forester',
+        'cyclic:miner',
+        'cyclic:collector',
+        'cyclic:collector_fluid',
+        'cyclic:structure',
+        'cyclic:uncrafter',
+        'cyclic:crafter',
+        'cyclic:conveyor',
+        'cyclic:tank',
+        'cyclic:beacon',
+        'cyclic:sponge_milk',
+        'cyclic:soundproofing_ghost',
+        'cyclic:soundproofing',
+        'cyclic:ender_shelf',
+        'cyclic:ender_controller',
+        'cyclic:magnet_block',
+        'cyclic:battery_clay',
+        'cyclic:generator_solar',
+        'cyclic:no_soliciting',
+        'cyclic:altar_destruction',
+        'cyclic:doorbell',
+        'cyclic:apple_ender',
+        'cyclic:chorus_spectral',
+        'cyclic:wireless_receiver',
+        'cyclic:wireless_transmitter',
+        'cyclic:copper_nugget',
+        'cyclic:copper_pickaxe',
+        'cyclic:copper_axe',
+        'cyclic:copper_hoe',
+        'cyclic:copper_shovel',
+        'cyclic:copper_sword',
+        'cyclic:copper_chain',
+        'cyclic:copper_lantern',
+        'cyclic:copper_soul_lantern'
+    ])
+
+    // Epic Samurai
+    e.removeAllTagsFrom([
+        /epicsamurai:steel_nugget/,
+        /epicsamurai:steel_ingot/,
+        /epicsamurai:steel_block/
+    ])
+    e.add('forge:unused', [
+        /epicsamurai:steel_nugget/,
+        /epicsamurai:steel_ingot/,
+        /epicsamurai:steel_block/
+    ])
+
+    // Extended Crafting
+    e.removeAllTagsFrom([
+        'extendedcrafting:basic_component',
+        'extendedcrafting:advanced_component',
+        'extendedcrafting:elite_component',
+        'extendedcrafting:ultimate_component',
+        'extendedcrafting:redstone_component',
+        'extendedcrafting:enhanced_redstone_component',
+        'extendedcrafting:ender_component',
+        'extendedcrafting:enhanced_ender_component',
+        'extendedcrafting:crystaltine_component',
+        'extendedcrafting:the_ultimate_component'
+    ])
+    e.add('forge:unused', [
+        'extendedcrafting:basic_component',
+        'extendedcrafting:advanced_component',
+        'extendedcrafting:elite_component',
+        'extendedcrafting:ultimate_component',
+        'extendedcrafting:redstone_component',
+        'extendedcrafting:enhanced_redstone_component',
+        'extendedcrafting:ender_component',
+        'extendedcrafting:enhanced_ender_component',
+        'extendedcrafting:crystaltine_component',
+        'extendedcrafting:the_ultimate_component'
+    ])
+
+    // Iron Furnaces
+    e.removeAllTagsFrom([
+        /ironfurnaces:upgrade_/,
+        'ironfurnaces:crystal_furnace',
+        'ironfurnaces:rainbow_core',
+        'ironfurnaces:rainbow_plating'
+    ])
+    e.add('forge:unused', [
+        /ironfurnaces:upgrade_/,
+        'ironfurnaces:crystal_furnace',
+        'ironfurnaces:rainbow_core',
+        'ironfurnaces:rainbow_plating'
+    ])
+
+    // Mekanism
+    e.removeAllTagsFrom([
         'mekanism:antiprotonic_nucleosynthesizer',
         'mekanism:solar_neutron_activator',
         'mekanism:boiler_valve',
@@ -197,8 +385,72 @@ ServerEvents.tags('item', e => {
         'mekanism:dirty_lead',
         'mekanism:dirty_osmium',
         'mekanism:dirty_tin',
-        'mekanism:dirty_uranium',
-        // More Plates
+        'mekanism:dirty_uranium'
+    ])
+    e.add('forge:unused', [
+        'mekanism:antiprotonic_nucleosynthesizer',
+        'mekanism:solar_neutron_activator',
+        'mekanism:boiler_valve',
+        'mekanism:boiler_casing',
+        'mekanism:pressure_disperser',
+        'mekanism:superheating_element',
+        'mekanism:supercharged_coil',
+        'mekanism:sps_port',
+        'mekanism:sps_casing',
+        'mekanism:chemical_dissolution_chamber',
+        'mekanism:chemical_washer',
+        'mekanismgenerators:fusion_reactor_controller',
+        'mekanismgenerators:fusion_reactor_frame',
+        'mekanismgenerators:fusion_reactor_port',
+        'mekanismgenerators:fusion_reactor_logic_adapter',
+        'mekanismgenerators:laser_focus_matrix',
+        'mekanismgenerators:deuterium_bucket',
+        'mekanismgenerators:fusion_fuel_bucket',
+        'mekanismgenerators:tritium_bucket',
+        'mekanismgenerators:control_rod_assembly',
+        'mekanismgenerators:fission_fuel_assembly',
+        'mekanismgenerators:fission_reactor_logic_adapter',
+        'mekanismgenerators:fission_reactor_port',
+        'mekanismgenerators:fission_reactor_casing',
+        'mekanismgenerators:reactor_glass',
+        'mekanismgenerators:saturating_condenser',
+        'mekanismgenerators:turbine_vent',
+        'mekanismgenerators:turbine_casing',
+        'mekanismgenerators:electromagnetic_coil',
+        'mekanismgenerators:rotational_complex',
+        'mekanismgenerators:turbine_rotor',
+        'mekanismgenerators:turbine_blade',
+        'mekanismgenerators:hohlraum',
+        'mekanismgenerators:fusion_fuel',
+        'mekanismgenerators:fusion_fuel',
+        'mekanism:dust_bronze',
+        /deuterium/,
+        /fusion_fuel/,
+        /tritium/,
+        /heavy_water/,
+        /fissile_fuel/,
+        /hydrofluoric_acid/,
+        /nuclear_waste/,
+        /sodium/,
+        /spent_nuclear_waste/,
+        /sulfur_dioxide/,
+        /sulfur_trioxide/,
+        /sulfuric_acid/,
+        /superheated_sodium/,
+        /uranium:hexafluoride/,
+        /uranium_oxide/,
+        /mekanism:clean/,
+        'mekanism:dirty_copper',
+        'mekanism:dirty_gold',
+        'mekanism:dirty_iron',
+        'mekanism:dirty_lead',
+        'mekanism:dirty_osmium',
+        'mekanism:dirty_tin',
+        'mekanism:dirty_uranium'
+    ])
+
+    // More Plates
+    e.removeAllTagsFrom([
         '#moreplates:mods/allthemodium',
         '#moreplates:mods/ae2',
         '#moreplates:mods/aquaculture2',
@@ -228,16 +480,63 @@ ServerEvents.tags('item', e => {
         /moreplates:enderium_/,
         /moreplates:constantan_/,
         /moreplates:chromium_/,
-        /moreplates:aluminium_/,
-        // Pam's Harvestcraft
+        /moreplates:aluminium_/
+    ])
+    e.add('forge:unused', [
+        '#moreplates:mods/allthemodium',
+        '#moreplates:mods/ae2',
+        '#moreplates:mods/aquaculture2',
+        '#moreplates:mods/assemblylinemachines',
+        '#moreplates:mods/astralsorcery',
+        '#moreplates:mods/avaritia',
+        '#moreplates:mods/bluepower',
+        '#moreplates:mods/botania',
+        '#moreplates:mods/enderio',
+        '#moreplates:mods/iceandfire',
+        '#moreplates:mods/infusedcrystals',
+        '#moreplates:mods/mysticalagriculture',
+        '#moreplates:mods/pneumaticraft',
+        '#moreplates:mods/powah',
+        '#moreplates:mods/projecte',
+        '#moreplates:mods/projectred',
+        '#moreplates:mods/psi',
+        '#moreplates:mods/draconicevolution',
+        /moreplates:titanium_/,
+        /moreplates:signalum_/,
+        /moreplates:sapphire_/,
+        /moreplates:platinum_/,
+        /moreplates:nickel_/,
+        /moreplates:lumium_/,
+        /moreplates:invar_/,
+        /moreplates:green_sapphire_/,
+        /moreplates:enderium_/,
+        /moreplates:constantan_/,
+        /moreplates:chromium_/,
+        /moreplates:aluminium_/
+    ])
+
+    // Pam's Harvestcraft
+    e.removeAllTagsFrom([
         /pamhc2trees:pam/,
         'pamhc2crops:aridgarden',
         'pamhc2crops:frostgarden',
         'pamhc2crops:shadedgarden',
         'pamhc2crops:soggygarden',
         'pamhc2crops:tropicalgarden',
-        'pamhc2crops:windygarden',
-        // Refined Storage
+        'pamhc2crops:windygarden'
+    ])
+    e.add('forge:unused', [
+        /pamhc2trees:pam/,
+        'pamhc2crops:aridgarden',
+        'pamhc2crops:frostgarden',
+        'pamhc2crops:shadedgarden',
+        'pamhc2crops:soggygarden',
+        'pamhc2crops:tropicalgarden',
+        'pamhc2crops:windygarden'
+    ])
+
+    // Refined Storage
+    e.removeAllTagsFrom([
         /refinedstorage:creative_storage/,
         /refinedstorage:creative_fluid_storage/,
         'extradisks:16384k_storage_part',
@@ -264,12 +563,48 @@ ServerEvents.tags('item', e => {
         'extradisks:1048576k_fluid_storage_part',
         'extradisks:1048576k_fluid_storage_block',
         'extradisks:1048576k_fluid_storage_disk',
-        /extrastorage:storagepart/,
-        /extrastorage:block/,
-        /extrastorage:disk/,
-        // Sophisticated Storage
-        'sophisticatedstorage:debug_tool',
-        // Twilight Forest
+        /extrastorage:storagepart_/
+    ])
+    e.add('forge:unused', [
+        /refinedstorage:creative_storage/,
+        /refinedstorage:creative_fluid_storage/,
+        'extradisks:16384k_storage_part',
+        'extradisks:16384k_storage_block',
+        'extradisks:16384k_storage_disk',
+        'extradisks:65536k_storage_part',
+        'extradisks:65536k_storage_block',
+        'extradisks:65536k_storage_disk',
+        'extradisks:262144k_storage_part',
+        'extradisks:262144k_storage_block',
+        'extradisks:262144k_storage_disk',
+        'extradisks:1048576k_storage_part',
+        'extradisks:1048576k_storage_block',
+        'extradisks:1048576k_storage_disk',
+        'extradisks:16384k_fluid_storage_part',
+        'extradisks:16384k_fluid_storage_block',
+        'extradisks:16384k_fluid_storage_disk',
+        'extradisks:65536k_fluid_storage_part',
+        'extradisks:65536k_fluid_storage_block',
+        'extradisks:65536k_fluid_storage_disk',
+        'extradisks:262144k_fluid_storage_part',
+        'extradisks:262144k_fluid_storage_block',
+        'extradisks:262144k_fluid_storage_disk',
+        'extradisks:1048576k_fluid_storage_part',
+        'extradisks:1048576k_fluid_storage_block',
+        'extradisks:1048576k_fluid_storage_disk',
+        /extrastorage:storagepart_/
+    ])
+
+    // Sophisticated Storage
+    e.removeAllTagsFrom([
+        'sophisticatedstorage:debug_tool'
+    ])
+    e.add('forge:unused', [
+        'sophisticatedstorage:debug_tool'
+    ])
+
+    // Twilight Forest
+    e.removeAllTagsFrom([
         'twilightforest:naga_boss_spawner',
         'twilightforest:lich_boss_spawner',
         'twilightforest:minoshroom_boss_spawner',
@@ -278,8 +613,22 @@ ServerEvents.tags('item', e => {
         'twilightforest:ur_ghast_boss_spawner',
         'twilightforest:alpha_yeti_boss_spawner',
         'twilightforest:snow_queen_boss_spawner',
-        'twilightforest:final_boss_boss_spawner',
-        // Others
+        'twilightforest:final_boss_boss_spawner'
+    ])
+    e.add('forge:unused', [
+        'twilightforest:naga_boss_spawner',
+        'twilightforest:lich_boss_spawner',
+        'twilightforest:minoshroom_boss_spawner',
+        'twilightforest:hydra_boss_spawner',
+        'twilightforest:knight_phantom_boss_spawner',
+        'twilightforest:ur_ghast_boss_spawner',
+        'twilightforest:alpha_yeti_boss_spawner',
+        'twilightforest:snow_queen_boss_spawner',
+        'twilightforest:final_boss_boss_spawner'
+    ])
+
+    // Others
+    e.removeAllTagsFrom([
         'stalwart_dungeons:awful_dungeon_spawner',
         'stalwart_dungeons:keeping_castle_spawner',
         'stalwart_dungeons:end_dungeon_spawner',
@@ -303,13 +652,54 @@ ServerEvents.tags('item', e => {
         'apotheosis:scrap_tome',
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
-        'epicsamurai:steel_ingot',
-        'epicsamurai:steel_nugget'
+        'useless_sword:silvillager',
+        'eidolon:raw_silver',
+        'eidolon:raw_silver_block',
+        'eidolon:silver_nugget',
+        'eidolon:silver_ingot',
+        'eidolon:silver_block'
     ])
+    e.add('forge:unused', [
+        'stalwart_dungeons:awful_dungeon_spawner',
+        'stalwart_dungeons:keeping_castle_spawner',
+        'stalwart_dungeons:end_dungeon_spawner',
+        'minecraft:debug_stick',
+        'ars_nouveau:debug',
+        'waystones:warp_stone',
+        'twilightforest:uncrafting_table',
+        'useless_sword:message_in_a_sword',
+        'useless_sword:neptunium_grab_sword',
+        'useless_sword:rotten_fish_rapier',
+        /itemfilters:/,
+        'aether:aether_portal_frame',
+        'apotheosis:boss_summoner',
+        'mekanism:hdpe_elytra',
+        /libraryferret/,
+        'vct:stripped_bamboo_crafting_table',
+        'vct:verdant_crafting_table',
+        'vct:congealed_crafting_table',
+        'vct:ash_crafting_table',
+        'alexscaves:nuclear_furnace_component',
+        'apotheosis:scrap_tome',
+        'apotheosis:improved_scrap_tome',
+        'apotheosis:extraction_tome',
+        'useless_sword:silvillager',
+        'eidolon:raw_silver',
+        'eidolon:raw_silver_block',
+        'eidolon:silver_nugget',
+        'eidolon:silver_ingot',
+        'eidolon:silver_block'
+    ])
+})
 
+
+// Hiding Items
+ServerEvents.tags('item', e => {
     e.add('forge:hiding', [
+
         // Apotheosis
         /apotheosis:gem/,
+
         // BotanyPots
         /botanypots:white_/,
         /botanypots:orange_/,
@@ -327,6 +717,7 @@ ServerEvents.tags('item', e => {
         /botanypots:green_/,
         /botanypots:red_/,
         /botanypots:black_/,
+
         // Refined Storage
         /refinedstorage:white_/,
         /refinedstorage:orange_/,
@@ -343,6 +734,7 @@ ServerEvents.tags('item', e => {
         /refinedstorage:green_/,
         /refinedstorage:red_/,
         /refinedstorage:black_/,
+
         // Sophisticated Backpack
         /sophisticatedbackpacks:backpack/,
         /sophisticatedstorage:gold_chest/,
@@ -380,6 +772,7 @@ ServerEvents.tags('item', e => {
         /sophisticatedstorage:gold_shulker_box/,
         /sophisticatedstorage:diamond_shulker_box/,
         /sophisticatedstorage:netherite_shulker_box/,
+
         // Others
         /spawn_egg/,
         'ars_nouveau:drygmy_se',
@@ -422,7 +815,11 @@ ServerEvents.tags('item', e => {
         'createaddition:diamond_grit',
         /eidolon:spawn_/
     ])
+})
 
+
+// Items Tags
+ServerEvents.tags('item', e => {
     e.add('forge:ores/coal', /coal_ore/)
     e.add('forge:ores/iron', /iron_ore/)
     e.add('forge:ores/copper', /copper_ore/)
@@ -462,13 +859,18 @@ ServerEvents.tags('item', e => {
 
     e.remove('forge:dusts/diamond', 'createaddition:diamond_grit')
     e.remove('forge:ingots/steel', 'epicsamurai:steel_ingot')
-    e.remove('forge:ingots/silver', 'useless_sword:silvillager')
-    
+    e.remove('refinedstorage:parts', /extrastorage:storagepart_/)
+    e.remove('refinedstorage:parts/items', /extrastorage:storagepart_/)
+    e.remove('refinedstorage:parts/items/256k', /extrastorage:storagepart_/)
+    e.remove('refinedstorage:parts/items/1024k', /extrastorage:storagepart_/)
+    e.remove('refinedstorage:parts/items/4096k', /extrastorage:storagepart_/)
+
     e.add('minecraft:planks', '#aether_genesis:ancient_aether_plank_crafting')
     e.add('candlelight:milk', '#aether:milk_bucket_crafting')
 })
 
-// Adding Block tags
+
+// Blocks Tags
 ServerEvents.tags('block', e => {
     e.add('forge:ores/coal', /coal_ore/)
     e.add('forge:ores/iron', /iron_ore/)

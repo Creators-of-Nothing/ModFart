@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "values": [
+    "pizzacraft:red_pizza_bag",
+    "sophisticatedbackpacks:backpack",
+    "sophisticatedbackpacks:iron_backpack",
+    "sophisticatedbackpacks:gold_backpack",
+    "sophisticatedbackpacks:diamond_backpack",
+    "sophisticatedbackpacks:netherite_backpack",
+    "aether:white_cape",
+    "aether:yellow_cape",
+    "aether:red_cape",
+    "aether:blue_cape",
+    "aether:agility_cape",
+    "aether:swet_cape",
+    "aether:invisibility_cloak",
+    "aether:valkyrie_cape"
+  ]
+}

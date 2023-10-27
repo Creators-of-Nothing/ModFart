@@ -5,7 +5,7 @@
       "item": "minecraft:redstone"
     },
     {
-      "item": "endlessbiomes:shattered_obsidian"
+      "item": "twilightforest:giant_obsidian"
     }
   ],
   "keepHeldItem": true,

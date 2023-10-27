@@ -1280,12 +1280,14 @@
 		{
 			dependencies: ["4E50245930CB138C"]
 			description: ["Ce mod possède énormément d'explication sur les différents items. N'hésitez pas à utiliser la touche R sur les différents objets pour les obtenir!"]
+			icon: "eidolon:prestigious_palm"
 			id: "699975256EE9607D"
 			rewards: [{
 				id: "1C746518DE5579C8"
 				type: "xp"
 				xp: 200
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "3CDB618C945F6160"
 				title: "La touche R"
@@ -1305,12 +1307,14 @@
 				""
 				"Voilà, cet ajout a été créé par le créateur du mod, merci à lui ! :)"
 			]
+			icon: "eidolon:prestigious_palm"
 			id: "4ADEC7E7E543BA32"
 			rewards: [{
 				id: "22CBB46E9E288557"
 				type: "xp"
 				xp: 200
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "7BC1EC90F8A17BEC"
 				title: "La Trypophobie"
