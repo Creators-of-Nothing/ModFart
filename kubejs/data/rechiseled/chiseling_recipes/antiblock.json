@@ -1,0 +1,33 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        {
+            "item": "antiblocksrechiseled:bright_black"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_blue"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_cyan"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_green"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_magenta"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_orange"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_red"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_white"
+        },
+        {
+            "item": "antiblocksrechiseled:bright_yellow"
+        }
+    ],
+    "overwrite": false
+}

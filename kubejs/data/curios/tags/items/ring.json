@@ -39,6 +39,7 @@
     "aether:iron_ring",
     "aether:golden_ring",
     "aether:zanite_ring",
-    "aether:ice_ring"
+    "aether:ice_ring",
+    "candlelight:gold_ring"
   ]
 }

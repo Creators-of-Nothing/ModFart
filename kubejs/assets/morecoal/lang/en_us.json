@@ -1,0 +1,14 @@
+{
+  "item.morecoal.copper_coal": "Copper Coal",
+  "item.morecoal.iron_coal": "Iron Coal",
+  "item.morecoal.lapis_coal": "Lapis Coal",
+  "item.morecoal.redstone_coal": "Redstone Coal",
+  "item.morecoal.gold_coal": "Gold Coal",
+  "item.morecoal.amethyst_coal": "Obsidian Coal",
+  "item.morecoal.emerald_coal": "Emerald Coal",
+  "item.morecoal.diamond_coal": "Diamond Coal",
+  "item.morecoal.netherite_coal": "Netherite Coal",
+  "item.morecoal.omni_coal": "OMNI Coal",
+
+  "creativetab.tutorial_tab": "More Coals"
+}
