@@ -665,6 +665,58 @@
 			x: 0.5d
 			y: -2.0d
 		}
+		{
+			description: [
+				"Les Mobs Caged sont des blocs qui permettent de farmer passivement et virtuellement toutes les entités. Vous pouvez savoir ce que vous donnera une entité en appuyant sur la touche U sur la Mob Caged par exemple. "
+				""
+				"Pour insérer un mob dans une Caged Mob, il vous faudra une seringue. Selon le mob, il vous faudra une seringue plus ou moins puissante :"
+				""
+				"- La blanche sert pour les animaux passifs"
+				"- La Diamond sert pour quasi tout les mobs sauf boss"
+				"- La Netherite sert à capturer les boss"
+				""
+				"Un simple coup sur le mob avec la seringue vous permettra d'obtenir son ADN. Ensuite, placez le bloc qu'il aime bien à l'intérieur. Selon le bloc utilisé, la croissance du mob sera plus ou moins rapide."
+				""
+				"Il existe également des upgrades. Vous pouvez en mettre jusqu'à trois, et certaines sont cumulables !"
+			]
+			id: "032411FBA0FE5E2F"
+			rewards: [{
+				id: "6953A2C40E0D62FF"
+				item: "cagedmobs:cooking_upgrade"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75A505C39DB79257"
+					item: "cagedmobs:hopping_mob_cage"
+					type: "item"
+				}
+				{
+					id: "261AEC8AD6E4F926"
+					item: "cagedmobs:netherite_dna_sampler"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			description: ["Un moyen de récupérer les items qui trainent au sol. Il est configurable !"]
+			id: "035D6332C94A32F8"
+			rewards: [{
+				id: "73003AC31A70DA2F"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C39CEA66BADAF0"
+				item: "itemcollectors:advanced_collector"
+				type: "item"
+			}]
+			x: -4.25d
+			y: 0.0d
+		}
 	]
 	title: "Soutien pour usines"
 }

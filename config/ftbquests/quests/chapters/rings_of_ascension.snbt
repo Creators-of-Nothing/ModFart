@@ -200,7 +200,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 2.25d
 		}
 		{
 			id: "4F0B54F99C1BCE13"
@@ -381,7 +381,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -2.25d
 		}
 		{
 			id: "43E7C7C45777EEC8"

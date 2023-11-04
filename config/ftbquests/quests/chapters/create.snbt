@@ -28,8 +28,8 @@
 				type: "item"
 			}]
 			title: "Clipboard"
-			x: 0.0d
-			y: -6.0d
+			x: -1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
@@ -47,7 +47,7 @@
 				type: "item"
 			}]
 			title: "Manuel ?!"
-			x: -4.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -106,7 +106,7 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -134,8 +134,8 @@
 				}
 			]
 			title: "Un bon début"
-			x: -5.5d
-			y: -1.5d
+			x: -5.0d
+			y: -1.75d
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
@@ -163,7 +163,7 @@
 			]
 			title: "Des moulins à vent"
 			x: -6.0d
-			y: 0.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
@@ -181,8 +181,8 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -6.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
@@ -193,8 +193,8 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -5.0d
+			y: 1.75d
 		}
 		{
 			dependencies: ["044A732DB52C6B8C"]
@@ -409,8 +409,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.25d
-			y: -6.75d
+			x: 0.5d
+			y: -6.25d
 		}
 		{
 			dependencies: ["3B75B51AD1DE7D9D"]
@@ -609,7 +609,7 @@
 				item: "create:redstone_link"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: -5.0d
 		}
 		{
@@ -659,7 +659,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -702,8 +702,8 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
-			y: -6.75d
+			x: -0.5d
+			y: -6.25d
 		}
 		{
 			dependencies: ["044A732DB52C6B8C"]
@@ -1064,6 +1064,46 @@
 			}]
 			x: -0.5d
 			y: 11.25d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Le Void Motor est, comme les Enders Chests / Tanks, définissable par une fréquence. Il permet, si vous le reliez à une source d'énergie mécanique, de transmettre cette même énergie depuis un autre Void Motor. Un même Void Motor peut accumuler l'énergie mécanique de plusieurs autres Void Motors."]
+			id: "1AB10E85D15C7E1E"
+			rewards: [{
+				id: "3FC58759250B238C"
+				item: "createutilities:void_steel_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "79CF2B93C84DC193"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: [
+				"Les Voids Chests et Tanks sont des Ender Chests auxquels vous pouvez appliqués une fréquence, et peuvent être liés au joueur ou non. Deux Ender Chests / Tanks qui ont la même fréquence contiennent la même chose."
+				""
+				"Les changements de fréquence se font par l'arrière."
+			]
+			id: "02DC6F864329FAC2"
+			rewards: [{
+				id: "059B357CC207D091"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38624E1D1E7DBE7C"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			title: "Transport d'item et de fluid interdimension"
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	title: "Create"
