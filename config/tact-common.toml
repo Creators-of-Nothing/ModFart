@@ -1,0 +1,26 @@
+#----------------------------------
+#
+# Whether to activate an internal datapack to add Alex's Caves biomes and blocks to certain tags for better mod compat.
+#
+applyTagAdjustments = true
+#----------------------------------
+#
+# Whether to make Underweed, Tree Star, Fiddlehead, and Curly Fern be replaceable by
+# another block when right clicking them while holding a block in your hands.
+#
+replaceableSmallPlants = true
+#----------------------------------
+#
+# Minimum amount of time that Primative Club can stun a mob.
+# Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
+#
+#Range: 0 ~ 1000000
+primitiveClubBaseStunTime = 150
+#----------------------------------
+#
+# Random amount of extra time that Primative Club can stun a mob.
+# Full stun time calculation is (Base Time) + (a random number between 0 and Random Extra Time)
+#
+#Range: 0 ~ 1000000
+primitiveClubRandomExtraStunTime = 150
+

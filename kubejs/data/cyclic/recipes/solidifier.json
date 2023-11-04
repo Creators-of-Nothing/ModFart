@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:quartz"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/lapis"
+    },
+    "C": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "item": "mob_grinding_utils:tank"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/redstone"
+    }
+  },
+  "result": {
+    "item": "cyclic:solidifier"
+  }
+}
