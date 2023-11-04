@@ -1325,6 +1325,20 @@
 		}
 		{
 			dependencies: ["4E50245930CB138C"]
+			description: [
+				"A la base, il a deux utilités :"
+				""
+				"- un clic droit dans les airs, et il vous mènera vers la structure la plus proche"
+				"- un clic sur une Beehive ou une Bee nest, et il vous mènera vers elle !"
+				""
+				"Cependant, les Honey Compass qui se trouvent dans les Honey Cocoon peuvent avoir trois autres utilités :"
+				""
+				"- une qui vous mènera vers les structures classiques -> Cell Maze, Battle Cubes, et Honitel Structures"
+				"- une qui vous mènera vers le Throne Pillar -> c'est là où la reine vit !"
+				"- une qui vous indiquera \"Mystery Structure\""
+				""
+				"Pour savoir à quelle structure il vous mènera, il faut que vous l'ayez sur vous."
+			]
 			id: "53545C81C3A00A64"
 			rewards: [{
 				id: "48C51A9480267C70"
@@ -1371,7 +1385,7 @@
 				"- Craft 12 Bee Nests ou Beehives"
 				"- Tues 64 Spiders"
 				"- Bois 16 bouteilles de miel"
-				"- Projette sur une (ou plusieurs) entités du Pollen Puff"
+				"- Projette sur une (ou plusieurs) entités 48 fois du Pollen Puff"
 				"- Tues 16 Silverfish"
 				"- Tire 64 Bee Stingers avec un arc ou une arbalète"
 				"- Reproduit 6 Honeyslime (ils aiment le sucre)"
