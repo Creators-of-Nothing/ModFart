@@ -37,18 +37,5 @@
       "type": "url",
       "value": "https://spark.lucko.me/QFk6X7rNaP"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "Afkafe",
-      "uniqueId": "922894fd-e490-4022-89b9-d1fb57960cae"
-    },
-    "time": 1694046545174,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/2WvIIl0dmE"
-    }
   }
 ]

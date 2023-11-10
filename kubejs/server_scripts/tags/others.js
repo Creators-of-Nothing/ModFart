@@ -15,7 +15,7 @@ ServerEvents.tags('item', e => {
         'createchromaticreturn:silkstrum_book'
     ])
 
-    // Cyclic
+    /*// Cyclic
     e.removeAllTagsFrom([
         'cyclic:cable_wrench',
         'cyclic:mattock',
@@ -277,7 +277,7 @@ ServerEvents.tags('item', e => {
         'cyclic:copper_chain',
         'cyclic:copper_lantern',
         'cyclic:copper_soul_lantern'
-    ])
+    ])*/
 
     // Epic Samurai
     e.removeAllTagsFrom([
@@ -659,11 +659,20 @@ ServerEvents.tags('item', e => {
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
         'useless_sword:silvillager',
+        'eidolon:silver_ore',
+        'eidolon:deep_silver_ore',
         'eidolon:raw_silver',
         'eidolon:raw_silver_block',
         'eidolon:silver_nugget',
         'eidolon:silver_ingot',
-        'eidolon:silver_block'
+        'eidolon:silver_block',
+        'eidolon:lead_ore',
+        'eidolon:deep_lead_ore',
+        'eidolon:raw_lead',
+        'eidolon:raw_lead_block',
+        'eidolon:lead_nugget',
+        'eidolon:lead_ingot',
+        'eidolon:lead_block'
     ])
     e.add('forge:unused', [
         'stalwart_dungeons:awful_dungeon_spawner',
@@ -690,11 +699,20 @@ ServerEvents.tags('item', e => {
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
         'useless_sword:silvillager',
+        'eidolon:silver_ore',
+        'eidolon:deep_silver_ore',
         'eidolon:raw_silver',
         'eidolon:raw_silver_block',
         'eidolon:silver_nugget',
         'eidolon:silver_ingot',
-        'eidolon:silver_block'
+        'eidolon:silver_block',
+        'eidolon:lead_ore',
+        'eidolon:deep_lead_ore',
+        'eidolon:raw_lead',
+        'eidolon:raw_lead_block',
+        'eidolon:lead_nugget',
+        'eidolon:lead_ingot',
+        'eidolon:lead_block'
     ])
 })
 

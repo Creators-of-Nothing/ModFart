@@ -17,7 +17,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'minecraft:wayfinder_armor_trim_smithing_template' })
     e.remove({ id: 'minecraft:raiser_armor_trim_smithing_template' })
     e.remove({ id: 'minecraft:shaper_armor_trim_smithing_template' })
-    e.remove({ id: 'kobolds:kobold_trim_template' })
     e.remove({ id: 'minecraft:snout_armor_trim_smithing_template' })
 
     // Smithing Template - Upgrade
@@ -99,7 +98,6 @@ ServerEvents.recipes(e => {
     potting('minecraft:wayfinder_armor_trim_smithing_template')
     potting('minecraft:raiser_armor_trim_smithing_template')
     potting('minecraft:shaper_armor_trim_smithing_template')
-    potting('kobolds:kobold_template')
     potting('minecraft:snout_armor_trim_smithing_template')
 })
 

@@ -1,7 +1,7 @@
-# Changelog - ModFart-1.0.19
+# Changelog - ModFart-1.0.20
 
 ## [Résumé]
-- 
+- Equilibrage de beaucoup de crafts et mise à jour des quêtes
 
 ## [A_venir]
 - ***Bug*** - Feeding Upgrade dans le sac qui déconnecte le personnage
@@ -62,3 +62,4 @@
 - Proportions des pigments dans le Pigment Extractor
 - Fix du craft de l'Explorer Compass
 - Spawner récupérable avec un niveau 1 de Silk Touch
+- Mise à jour des quêtes
