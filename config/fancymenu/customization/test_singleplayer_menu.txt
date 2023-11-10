@@ -229,3 +229,8 @@ customization {
   action = hidebutton
 }
 
+customization {
+  identifier = %id=504330%
+  action = hidebutton
+}
+

@@ -1680,26 +1680,6 @@
 			description: [
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
-				"Ce template est un cosmétique."
-			]
-			id: "2F5B28537A41D0D1"
-			rewards: [{
-				id: "777F0E6FBC63B186"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4E3C88762949EA92"
-				item: "kobolds:kobold_template"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
 				"Ce template permet d'upgrader votre équipement."
 			]
 			id: "60EBB617FA5BC728"
@@ -1821,8 +1801,8 @@
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.5d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -1841,7 +1821,7 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: -2.0d
 		}
 		{
@@ -2162,7 +2142,6 @@
 				"2076B31BBA5E0E7B"
 				"0A6E6401C7D23DF4"
 				"238AB378DEBBD67B"
-				"2F5B28537A41D0D1"
 				"2A817959EE93B5C4"
 			]
 			icon: "ars_nouveau:blank_glyph"

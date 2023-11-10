@@ -38,6 +38,7 @@ ServerEvents.recipes(e => {
 
     // Pigment Extracting
     e.remove({ id: /mekanism:pigment_extracting\// })
+    e.remove({ id: /mekanism:compat\/biomesoplenty\/pigment_extracting\// })
 
     // Portals
     e.remove({ id: 'jamd:portal_block' })
@@ -65,7 +66,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'create:create/curiosities/cake' })
     e.remove({ id: 'waystones:warp_stone' })
     e.remove({ id: 'apotheosis:scrap_tome' })
-    e.replaceInput({ input: 'minecraft:crafting_table' }, 'minecraft:crafting_table', '#forge:workbench')
     e.remove({ id: 'createchromaticreturn:antimatter_recipe' })
     e.remove({ id: 'createchromaticreturn:basic_induction_cell' })
     e.remove({ id: 'createchromaticreturn:basic_induction_provider' })
@@ -74,6 +74,14 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'createchromaticreturn:polonium_nugget_recipe' })
     e.remove({ id: 'createchromaticreturn:polonium_pellet' })
     e.remove({ id: 'creativecrafter:creative_crafter' })
+    e.remove({ id: 'cagedmobs:crafting/nether_star_from_fragments' })
+    e.remove({ id: 'cagedmobs:crafting/nether_star_from_fragments' })
+    e.remove({ id: 'useless_sword:dragonscalecraft' })
+    e.remove({ id: 'useless_sword:dragoneggcraft' })
+    e.remove({ id: 'editenchanting:enchantment_edit_table' })
+    e.replaceInput({ input: 'minecraft:crafting_table' }, 'minecraft:crafting_table', '#forge:workbench')
+    e.replaceInput({ input: 'cagedmobs:warden_receptor' }, 'cagedmobs:warden_receptor', 'apotheosis:warden_tendril')
+    e.replaceInput({ input: 'useless_sword:dragon_scale' }, 'useless_sword:dragon_scale', 'cagedmobs:dragon_scale')
 })
 
 
@@ -162,31 +170,6 @@ ServerEvents.recipes(e => {
     }
     potting('minecraft:andesite', 'create:andesite_alloy')
     potting('minecraft:amethyst_shard', 'createutilities:polished_amethyst')
-})
-
-
-// Cutting
-ServerEvents.recipes(e => {
-    let potting = (input, count, output) => {
-        e.custom({
-            "type": "farmersdelight:cutting",
-            "ingredients": [
-                {
-                    "item": input
-                }
-            ],
-            "result": [
-                {
-                    "count": count,
-                    "item": output
-                }
-            ],
-            "tool": {
-                "tag": "forge:tools/knives"
-            }
-        })
-    }
-    potting('minecraft:dragon_head', 2, 'useless_sword:dragon_scale')
 })
 
 
@@ -423,35 +406,34 @@ ServerEvents.recipes(e => {
 // Others
 ServerEvents.recipes(e => {
     e.custom({
-        "type": "create:compacting",
+        "type": "create:filling",
         "ingredients": [
             {
-                "item": "farmersdelight:organic_compost"
+                "item": "minecraft:mycelium"
             },
             {
                 "amount": 1000,
-                "fluid": "minecraft:water",
-                "nbt": {}
-            },
-            {
-                "item": "nethersdelight:soul_compost"
-            },
-            {
-                "item": "minecraft:mud"
-            },
-            {
-                "item": "nourished_nether:rich_soul_sludge"
-            },
-            {
-                "item": "minecraft:moss_block"
+                "fluid": "sliceanddice:fertilizer"
             }
         ],
         "results": [
             {
-                "count": 8,
                 "item": "farmersdelight:rich_soil"
             }
         ]
+    })
+})
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "mekanism:crushing",
+        "input": {
+            "ingredient": {
+                "item": "minecraft:granite"
+            }
+        },
+        "output": {
+            "item": "minecraft:red_sand"
+        }
     })
 })
 ServerEvents.recipes(e => {
@@ -461,4 +443,46 @@ ServerEvents.recipes(e => {
     potting('mob_grinding_utils:fan_upgrade_height', 'mob_grinding_utils:fan_upgrade_width')
     potting('mob_grinding_utils:fan_upgrade_width', 'mob_grinding_utils:fan_upgrade_height')
     potting('minecraft:honeycomb_block', '4x minecraft:honeycomb')
+    potting('minecraft:nether_star', '9x cagedmobs:nether_star_fragment')
+    potting('minecraft:dragon_egg', '9x cagedmobs:dragon_scale')
+    potting('minecraft:sponge', '9x cagedmobs:sponge_fragment')
+})
+ServerEvents.recipes(e => {
+    let potting = (element, output) => {
+        e.shaped(output, [
+            'AAA',
+            'AAA',
+            'AAA'
+        ], {
+            A: element
+        })
+    }
+    potting('cagedmobs:nether_star_fragment', 'minecraft:nether_star')
+})
+ServerEvents.recipes(e => {
+    let potting = (element1, element2, output) => {
+        e.shaped(output, [
+            ' A ',
+            'ABA',
+            ' A '
+        ], {
+            A: element1,
+            B: element2
+        })
+    }
+    potting('cagedmobs:nether_star_fragment', 'nourished_nether:netherite_nugget', 'cagedmobs:star_infused_netherite_nugget')
+    potting('extendedcrafting:nether_star_block', 'minecraft:netherite_block', 'cagedmobs:star_infused_netherite_block')
+})
+ServerEvents.recipes(e => {
+    e.shaped('editenchanting:enchantment_edit_table', [
+        ' A ',
+        'BCB',
+        'DED'
+    ], {
+        A: 'moa_decor_science:libroabierto',
+        B: 'moreplates:diamond_plate',
+        C: 'moreplates:lapis_lazuli_plate',
+        D: 'moreplates:nether_quartz_plate',
+        E: 'minecraft:enchanting_table'
+    })
 })

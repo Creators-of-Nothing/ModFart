@@ -77,7 +77,7 @@ ServerEvents.recipes(e => {
 
     // Lead
     e.remove({ id: /create:crushing\/lead_ore/ })
-    e.remove({ not: { id: 'mekanism:processing/lead/ingot/from_block', id: 'mekanism:processing/lead/ingot/from_nuggets', id: 'mekanism:processing/lead/nugget/from_ingot', id: 'mekanism:processing/lead/raw/from_raw_block', id: 'mekanism:processing/lead/raw_storage_blocks/from_raw', id: 'mekanism:processing/lead/storage_blocks/from_ingots' }, id: /mekanism:processing\/lead/ })
+    e.remove({ not: [{ id: 'mekanism:processing/lead/ingot/from_block'}, { id: 'mekanism:processing/lead/ingot/from_nuggets'}, { id: 'mekanism:processing/lead/nugget/from_ingot'}, { id: 'mekanism:processing/lead/raw/from_raw_block'}, { id: 'mekanism:processing/lead/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/lead/storage_blocks/from_ingots' }], id: /mekanism:processing\/lead/ })
     e.replaceInput({ input: 'eidolon:lead_block' }, 'eidolon:lead_block', 'mekanism:block_lead')
     e.replaceInput({ input: 'eidolon:lead_ingot' }, 'eidolon:lead_ingot', 'mekanism:ingot_lead')
     e.replaceInput({ input: 'eidolon:lead_nugget' }, 'eidolon:lead_nugget', 'mekanism:nugget_lead')
@@ -91,7 +91,7 @@ ServerEvents.recipes(e => {
 
     // Osmium
     e.remove({ id: /create:crushing\/osmium_ore/ })
-    e.remove({ not: { id: 'mekanism:processing/osmium/ingot/from_block', id: 'mekanism:processing/osmium/ingot/from_nuggets', id: 'mekanism:processing/osmium/nugget/from_ingot', id: 'mekanism:processing/osmium/raw/from_raw_block', id: 'mekanism:processing/osmium/raw_storage_blocks/from_raw', id: 'mekanism:processing/osmium/storage_blocks/from_ingots' }, id: /mekanism:processing\/osmium/ })
+    e.remove({ not: [{ id: 'mekanism:processing/osmium/ingot/from_block'}, { id: 'mekanism:processing/osmium/ingot/from_nuggets'}, { id: 'mekanism:processing/osmium/nugget/from_ingot'}, { id: 'mekanism:processing/osmium/raw/from_raw_block'}, { id: 'mekanism:processing/osmium/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/osmium/storage_blocks/from_ingots' }], id: /mekanism:processing\/osmium/ })
 
     // Quartz
     e.remove({ id: /aether:quartz_from_blasting/ })
@@ -122,7 +122,7 @@ ServerEvents.recipes(e => {
 
     // Tin
     e.remove({ id: /create:crushing\/tin_ore/ })
-    e.remove({ not: { id: 'mekanism:processing/tin/ingot/from_block', id: 'mekanism:processing/tin/ingot/from_nuggets', id: 'mekanism:processing/tin/nugget/from_ingot', id: 'mekanism:processing/tin/raw/from_raw_block', id: 'mekanism:processing/tin/raw_storage_blocks/from_raw', id: 'mekanism:processing/tin/storage_blocks/from_ingots' }, id: /mekanism:processing\/tin/ })
+    e.remove({ not: [{ id: 'mekanism:processing/tin/ingot/from_block' }, { id: 'mekanism:processing/tin/ingot/from_nuggets' }, { id: 'mekanism:processing/tin/nugget/from_ingot'}, { id: 'mekanism:processing/tin/raw/from_raw_block'}, { id: 'mekanism:processing/tin/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/tin/storage_blocks/from_ingots' }], id: /mekanism:processing\/tin/ })
 
     // Tungsten
     e.remove({ id: /stalwart_dungeons:tungsten_ingot_recipe/ })
@@ -131,7 +131,7 @@ ServerEvents.recipes(e => {
     // Uranium
     e.remove({ id: /alexscaves:furnace\/uranium_from/ })
     e.remove({ id: /create:crushing\/uranium_ore/ })
-    e.remove({ not: { id: 'mekanism:processing/uranium/ingot/from_block', id: 'mekanism:processing/uranium/ingot/from_nuggets', id: 'mekanism:processing/uranium/nugget/from_ingot', id: 'mekanism:processing/uranium/raw/from_raw_block', id: 'mekanism:processing/uranium/raw_storage_blocks/from_raw', id: 'mekanism:processing/uranium/storage_blocks/from_ingots' }, id: /mekanism:processing\/uranium/ })
+    e.remove({ not: [{ id: 'mekanism:processing/uranium/ingot/from_block'}, { id: 'mekanism:processing/uranium/ingot/from_nuggets'}, { id: 'mekanism:processing/uranium/nugget/from_ingot'}, { id: 'mekanism:processing/uranium/raw/from_raw_block'}, { id: 'mekanism:processing/uranium/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/uranium/storage_blocks/from_ingots' }], id: /mekanism:processing\/uranium/ })
 
     // Zanite
     e.remove({ id: /aether:zanite_gemstone_from_blasting/ })
@@ -1133,6 +1133,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:diamond', 6, 'mekanism:dust_diamond')
     potting('minecraft:lapis_lazuli', 6, 'mekanism:dust_lapis_lazuli')
     potting('minecraft:coal', 6, 'mekanism:dust_coal')
+    potting('mekanism:ingot_uranium', 6, 'mekanism:dust_uranium')
     potting('minecraft:netherite_scrap', 6, 'mekanism:dust_netherite')
     potting('minecraft:netherite_ingot', 2, 'mekanism:dust_netherite')
 })

@@ -26,6 +26,8 @@
 	#How long (in game ticks) it usually takes for an amber monolith to spawn an animal.
 	#Range: > 1000
 	amber_monolith_mean_time = 32000
+	#True if the Nuclear Furnace only uses 'Blasting' recipes, false to use all smelting recipes.
+	nuclear_furnace_blasting_only = true
 
 [item-behavior]
 	#How far away for cave biomes the Cave Map will search for.
@@ -39,6 +41,12 @@
 	#The scale of nuclear bomb destruction. multiply this by 16 to get the radius of a nuclear bomb explosion.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	nuclear_explosion_size_modifier = 3.0
+	#The amount of time (in ticks) it takes to charge up the Cloak of Darkness ability.
+	#Range: > 20
+	darkness_cloak_charge_time = 1000
+	#The amount of time (in ticks) that players can fly with the Cloak of Darkness ability.
+	#Range: > 20
+	darkness_cloak_fly_time = 200
 
 [vanilla-changes]
 	#percent chance of bastion having a cave tablet for magnetic caves in its loot table:
