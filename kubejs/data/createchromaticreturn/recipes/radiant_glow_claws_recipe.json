@@ -4,7 +4,7 @@
     "B B",
     "B B",
     "EXE",
-    "GXG",
+    "GMG",
     "A A"
   ],
   "key": {
@@ -19,6 +19,9 @@
     },
     "G": {
       "item": "createchromaticreturn:cyber_plating"
+    },
+    "M": {
+      "item": "mekanism:meka_tool"
     },
     "A": {
       "item": "moreplates:steel_rod"

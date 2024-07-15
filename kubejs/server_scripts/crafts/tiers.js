@@ -22,6 +22,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'ironfurnaces:furnaces/silver_furnace2' })
     e.remove({ id: 'ironfurnaces:furnaces/diamond_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/obsidian_furnace' })
+    e.remove({ id: 'ironfurnaces:furnaces/obsidian_furnace2' })
     e.remove({ id: 'ironfurnaces:furnaces/emerald_furnace' })
     e.remove({ id: 'ironfurnaces:furnaces/netherite_furnace' })
 
@@ -74,6 +75,7 @@ ServerEvents.recipes(e => {
     potting('morecoal:emerald_coal', 'morecoal:amethyst_coal', 'mekanism:dust_emerald')
     potting('morecoal:diamond_coal', 'morecoal:emerald_coal', 'mekanism:dust_diamond')
     potting('morecoal:netherite_coal', 'morecoal:diamond_coal', 'mekanism:dust_netherite')
+    potting('ironfurnaces:rainbow_coal', 'morecoal:omni_coal', 'createchromaticreturn:creative_flour')
 })
 ServerEvents.recipes(e => {
     e.custom({
@@ -164,6 +166,7 @@ ServerEvents.recipes(e => {
     potting('pipez:improved_upgrade', 'pipez:basic_upgrade', 'minecraft:gold_ingot')
     potting('pipez:advanced_upgrade', 'pipez:improved_upgrade', 'minecraft:diamond')
     potting('pipez:ultimate_upgrade', 'pipez:advanced_upgrade', 'minecraft:netherite_ingot')
+    potting('pipez:infinity_upgrade', 'pipez:ultimate_upgrade', 'extendedcrafting:the_ultimate_ingot')
 })
 ServerEvents.recipes(e => {
     let potting = (output, input, plate) => {
@@ -180,6 +183,7 @@ ServerEvents.recipes(e => {
     potting('pipez:improved_upgrade', 'pipez:basic_upgrade', 'moreplates:gold_plate')
     potting('pipez:advanced_upgrade', 'pipez:improved_upgrade', 'moreplates:diamond_plate')
     potting('pipez:ultimate_upgrade', 'pipez:advanced_upgrade', 'moreplates:netherite_plate')
+    potting('pipez:infinity_upgrade', 'pipez:ultimate_upgrade', 'extendedcrafting:the_ultimate_catalyst')
 })
 ServerEvents.recipes(e => {
     let potting = (output, input, plate) => {
@@ -204,6 +208,7 @@ ServerEvents.recipes(e => {
     potting('pipez:improved_upgrade', 'pipez:basic_upgrade', 'moreplates:gold_plate')
     potting('pipez:advanced_upgrade', 'pipez:improved_upgrade', 'moreplates:diamond_plate')
     potting('pipez:ultimate_upgrade', 'pipez:advanced_upgrade', 'moreplates:netherite_plate')
+    potting('pipez:infinity_upgrade', 'pipez:ultimate_upgrade', 'extendedcrafting:the_ultimate_catalyst')
 })
 
 

@@ -20,6 +20,9 @@
     "umbral_skies:knightmetal_gloves",
     "umbral_skies:phantom_gloves",
     "umbral_skies:arctic_gloves",
-    "umbral_skies:yeti_gloves"
+    "umbral_skies:yeti_gloves",
+    "cyclic:charm_attack_speed",
+    "cyclic:charm_starvation",
+    "cyclic:glove_climb"
   ]
 }

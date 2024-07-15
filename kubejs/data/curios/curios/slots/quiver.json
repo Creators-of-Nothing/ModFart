@@ -1,5 +1,8 @@
 {
-  "order": 60,
-  "size": 3,
+  "replace": true,
+  "render_toggle":true,
+  "operation": "SET",
+  "order": 8,
+  "size": 1,
   "icon": "kubejs:slot/empty_quiver_slot"
 }

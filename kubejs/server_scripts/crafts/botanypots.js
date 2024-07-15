@@ -61,7 +61,7 @@ ServerEvents.recipes(e => {
 })
 
 
-// Botany Pots - interactions
+// Botany Pots - Interactions
 ServerEvents.recipes(e => {
     let potting = (input, output) => {
         e.custom({
@@ -81,7 +81,10 @@ ServerEvents.recipes(e => {
             }
         })
     }
+    potting('minecraft:dirt', 'minecraft:farmland')
     potting('farmersdelight:rich_soil', 'farmersdelight:rich_soil_farmland')
+    potting('aether:aether_dirt', 'aether:aether_farmland')
+    potting('undergarden:deepsoil', 'undergarden:deepsoil_farmland')
 })
 
 
@@ -224,6 +227,7 @@ ServerEvents.recipes(e => {
     potting('alexscaves:pewen_sapling', 'alexscaves:pewen_log', 'alexscaves:pine_nuts', 'alexscaves:pewen_branch', 'alexscaves:pewen_pines')
     potting('twilightforest:mangrove_sapling', 'twilightforest:mangrove_log', 'twilightforest:firefly', 'twilightforest:mangrove_leaves', 'minecraft:vine')
     potting('endlessbiomes:penumbral_fungus', 'endlessbiomes:penumbra_stem', 'endlessbiomes:penumbral_vines', 'endlessbiomes:penumbral_leaves', 'endlessbiomes:glowing_penumbral_leaves')
+    potting('pamhc2trees:olive_sapling', 'minecraft:oak_log', 'pamhc2trees:oliveitem', 'minecraft:oak_leaves', 'pizzacraft:fruit_olive_leaves')
 })
 ServerEvents.recipes(e => {
     let potting = (sapling, log, extralog, leaves) => {
@@ -272,6 +276,7 @@ ServerEvents.recipes(e => {
         })
     }
     potting('aether:golden_oak_sapling', 'aether:skyroot_log', 'aether:golden_oak_log', 'aether:golden_oak_leaves')
+    potting('minecraft:acacia_sapling', 'minecraft:acacia_log', 'alexsmobs:acacia_blossom', 'minecraft:acacia_leaves')
     potting('twilightforest:time_sapling', 'twilightforest:time_log', 'twilightforest:time_log_core', 'twilightforest:time_leaves')
     potting('twilightforest:transformation_sapling', 'twilightforest:transformation_log', 'twilightforest:transformation_log_core', 'twilightforest:transformation_leaves')
     potting('twilightforest:mining_sapling', 'twilightforest:mining_log', 'twilightforest:mining_log_core', 'twilightforest:mining_leaves')
@@ -327,6 +332,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:jungle_sapling', 'minecraft:jungle_log', 'minecraft:cocoa_beans', 'minecraft:jungle_leaves')
     potting('minecraft:cherry_sapling', 'minecraft:cherry_log', 'pamhc2trees:cherryitem', 'minecraft:cherry_leaves')
     potting('ancient_aether:crystal_sapling', 'aether:skyroot_log', 'ancient_aether:crystal_fruit', 'ancient_aether:crystal_leaves')
+    potting('ancient_aether:sakura_sapling', 'ancient_aether:sakura_log', 'ancient_aether:sakura_blossoms', 'ancient_aether:sakura_leaves')
     potting('lost_aether_content:holiday_sapling', 'aether:skyroot_log', 'aether:decorated_holiday_leaves', 'aether:holiday_leaves')
     potting('alexscaves:ancient_sapling', 'minecraft:jungle_log', 'alexscaves:tree_star', 'alexscaves:ancient_leaves')
     potting('pamhc2trees:apple_sapling', 'minecraft:oak_log', 'minecraft:apple', 'minecraft:oak_leaves')
@@ -360,7 +366,6 @@ ServerEvents.recipes(e => {
     potting('pamhc2trees:grapefruit_sapling', 'minecraft:oak_log', 'pamhc2trees:grapefruititem', 'minecraft:oak_leaves')
     potting('pamhc2trees:lime_sapling', 'minecraft:oak_log', 'pamhc2trees:limeitem', 'minecraft:oak_leaves')
     potting('pamhc2trees:mango_sapling', 'minecraft:oak_log', 'pamhc2trees:mangoitem', 'minecraft:oak_leaves')
-    potting('pamhc2trees:olive_sapling', 'minecraft:oak_log', 'pamhc2trees:oliveitem', 'minecraft:oak_leaves')
     potting('pamhc2trees:papaya_sapling', 'minecraft:oak_log', 'pamhc2trees:papayaitem', 'minecraft:oak_leaves')
     potting('pamhc2trees:paperbark_sapling', 'minecraft:oak_log', 'minecraft:paper', 'minecraft:oak_leaves')
     potting('pamhc2trees:pecan_sapling', 'minecraft:oak_log', 'pamhc2trees:pecanitem', 'minecraft:oak_leaves')
@@ -480,13 +485,14 @@ ServerEvents.recipes(e => {
     }
     potting('minecraft:spruce_sapling', 'minecraft:spruce_log', 'minecraft:spruce_leaves')
     potting('minecraft:birch_sapling', 'minecraft:birch_log', 'minecraft:birch_leaves')
-    potting('minecraft:acacia_sapling', 'minecraft:acacia_log', 'minecraft:acacia_leaves')
     potting('minecraft:dark_oak_sapling', 'minecraft:dark_oak_log', 'minecraft:dark_oak_leaves')
     potting('minecraft:mangrove_propagule', 'minecraft:mangrove_log', 'minecraft:mangrove_leaves')
+    potting('ancient_aether:crystal_skyroot_sapling', 'aether:skyroot_log', 'ancient_aether:crystal_skyroot_leaves')
+    potting('ancient_aether:enchanted_skyroot_sapling', 'aether:skyroot_log', 'ancient_aether:enchanted_skyroot_leaves')
+    potting('ancient_aether:skyroot_pine_sapling', 'aether:skyroot_log', 'ancient_aether:skyroot_pine_leaves')
     potting('ancient_aether:frosted_highsproot_sapling', 'ancient_aether:highsproot_log', 'ancient_aether:frosted_highsproot_leaves')
     potting('ancient_aether:divine_skyroot_sapling', 'aether:skyroot_log', 'ancient_aether:divine_skyroot_leaves')
     potting('ancient_aether:highsproot_sapling', 'ancient_aether:highsproot_log', 'ancient_aether:highsproot_leaves')
-    potting('ancient_aether:sakura_sapling', 'ancient_aether:sakura_log', 'ancient_aether:sakura_leaves')
     potting('aether:skyroot_sapling', 'aether:skyroot_log', 'aether:skyroot_leaves')
     potting('alexscaves:thornwood_sapling', 'alexscaves:thornwood_log', 'alexscaves:thornwood_branch')
     potting('ars_elemental:yellow_archwood_sapling', 'ars_elemental:yellow_archwood_log', 'ars_elemental:yellow_archwood_leaves')
@@ -509,6 +515,8 @@ ServerEvents.recipes(e => {
     potting('biomesoplenty:magic_sapling', 'biomesoplenty:magic_log', 'biomesoplenty:magic_leaves')
     potting('biomesoplenty:umbran_sapling', 'biomesoplenty:umbran_log', 'biomesoplenty:umbran_leaves')
     potting('biomesoplenty:hellbark_sapling', 'biomesoplenty:hellbark_log', 'biomesoplenty:hellbark_leaves')
+    potting('farmersdelight:wild_potatoes', 'minecraft:potato', 'minecraft:poisonous_potato')
+    potting('farmersdelight:wild_rice', 'farmersdelight:rice_panicle', 'farmersdelight:rice')
     potting('eidolon:illwood_sapling', 'eidolon:illwood_log', 'eidolon:illwood_leaves')
     potting('meadow:pine_sapling', 'meadow:pine_log', 'meadow:pine_leaves')
     potting('nifty:redoak_sapling', 'nifty:redoak_log', 'nifty:redoak_leaves')
@@ -525,7 +533,7 @@ ServerEvents.recipes(e => {
     potting('undergarden:ink_mushroom', 'undergarden:ink_mushroom_stem', 'undergarden:ink_mushroom_cap')
 })
 ServerEvents.recipes(e => {
-    let potting = (sapling, leaves) => {
+    let potting = (sapling, leaves, fruit) => {
         e.custom({
             "type": "botanypots:crop",
             "seed": {
@@ -540,6 +548,13 @@ ServerEvents.recipes(e => {
                 "block": sapling
             },
             "drops": [{
+                "chance": 0.50,
+                "output": {
+                    "item": fruit
+                },
+                "minRolls": 1,
+                "maxRolls": 2
+            }, {
                 "chance": 0.25,
                 "output": {
                     "item": leaves
@@ -556,8 +571,8 @@ ServerEvents.recipes(e => {
             }]
         })
     }
-    potting('minecraft:azalea', 'minecraft:azalea_leaves')
-    potting('minecraft:flowering_azalea', 'minecraft:flowering_azalea_leaves')
+    potting('minecraft:azalea', 'minecraft:azalea_leaves', 'twigs:azalea_flowers')
+    potting('minecraft:flowering_azalea', 'minecraft:flowering_azalea_leaves', 'twigs:azalea_flowers')
 })
 ServerEvents.recipes(e => {
     let potting = (seed, veggie, display) => {
@@ -725,6 +740,11 @@ ServerEvents.recipes(e => {
     potting('minecraft:fern', 'minecraft:large_fern')
     potting('minecraft:big_dripleaf', 'minecraft:small_dripleaf')
     potting('ars_nouveau:magebloom_crop', 'ars_nouveau:magebloom')
+    potting('farmersdelight:wild_beetroots', 'minecraft:beetroot')
+    potting('farmersdelight:wild_cabbages', 'farmersdelight:cabbage')
+    potting('farmersdelight:wild_carrots', 'minecraft:carrot')
+    potting('farmersdelight:wild_onions', 'farmersdelight:onion')
+    potting('farmersdelight:wild_tomatoes', 'farmersdelight:tomato')
 })
 ServerEvents.recipes(e => {
     let potting = (seed) => {
@@ -775,9 +795,57 @@ ServerEvents.recipes(e => {
     potting('minecraft:rose_bush')
     potting('minecraft:peony')
     potting('minecraft:sugar_cane')
+    potting('aether:purple_flower')
+    potting('aether:white_flower')
+    potting('ancient_aether:highland_viola')
+    potting('ancient_aether:sky_blues')
+    potting('ancient_aether:wynd_thistle')
+    potting('betterarcheology:growth_totem')
+    potting('biomesoplenty:blue_hydrangea')
+    potting('biomesoplenty:burning_blossom')
+    potting('biomesoplenty:clover')
+    potting('biomesoplenty:glowflower')
+    potting('biomesoplenty:goldenrod')
+    potting('biomesoplenty:icy_iris')
+    potting('biomesoplenty:lavender')
+    potting('biomesoplenty:orange_cosmos')
+    potting('biomesoplenty:pink_daffodil')
+    potting('biomesoplenty:pink_hibiscus')
+    potting('biomesoplenty:rose')
+    potting('biomesoplenty:sprout')
+    potting('biomesoplenty:tall_lavender')
+    potting('biomesoplenty:violet')
+    potting('biomesoplenty:waterlily')
+    potting('biomesoplenty:white_petals')
+    potting('biomesoplenty:wildflower')
+    potting('biomesoplenty:wilted_lily')
+    potting('candlelight:rose')
+    potting('corn_delight:wild_corn')
+    potting('cyclic:flower_cyan')
+    potting('cyclic:flower_lime_carnation')
+    potting('cyclic:flower_absalon_tulip')
     potting('deeperdarker:sculk_tendrils')
     potting('deeperdarker:sculk_vines')
+    potting('endlessbiomes:reaching_vines')
+    potting('enlightened_end:cradling_flower')
+    potting('enlightened_end:cerulean_vine')
+    potting('meadow:alpine_poppy')
+    potting('meadow:delphinium')
+    potting('meadow:enzian')
+    potting('meadow:eriophorum')
+    potting('meadow:eriophorum_tall')
+    potting('meadow:fire_lily')
+    potting('meadow:saxifrage')
+    potting('naturalist:cattail')
+    potting('nethersdelight:mimicarnation')
+    potting('supplementaries:wild_flax')
+    potting('twilightforest:mayapple')
     potting('twilightforest:thorn_rose')
+    potting('undergarden:amorous_bristle')
+    potting('undergarden:butterbunch')
+    potting('undergarden:miserabell')
+    potting('undergarden:shimmerweed')
+    potting('undergarden:tall_shimmerweed')
 })
 
 

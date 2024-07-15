@@ -1,5 +1,8 @@
 {
-  "order": 180,
+  "replace": true,
+  "render_toggle":true,
+  "operation": "SET",
+  "order": 14,
   "size": 2,
   "icon": "kubejs:slot/empty_belt_slot"
 }

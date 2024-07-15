@@ -6,12 +6,12 @@
 /config/awesomedungeonocean_1.properties
 /config/bettervillage_1.properties
 /config/libraryferret_1.properties
-/config/jei/*/bookmarks.ini
 /config/sound_physics_remastered/allowed_sounds.properties
 /config/sound_physics_remastered/occlusion.properties
 /config/sound_physics_remastered/reflectivity.properties
 /coremods/
 /crash-reports/
+/data/
 /downloads/
 /ESM/
 /fancymenu_data/
@@ -25,6 +25,7 @@
 /patchouli_books/
 /profileImage/
 /resourcepacks/
+/resources/
 /saves/
 /schematics/
 /screenshots/

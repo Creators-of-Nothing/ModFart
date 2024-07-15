@@ -5,6 +5,14 @@
 	group: "3CA4B0CAAB94EE6B"
 	icon: "refinedstorage:creative_controller"
 	id: "62F70B4B1E06DE57"
+	images: [{
+		height: 8.0d
+		image: "kubejs:textures/ftbquests/refined.png"
+		rotation: 0.0d
+		width: 14.48d
+		x: -0.25d
+		y: -8.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -204,6 +212,7 @@
 					type: "item"
 				}
 			]
+			title: "Network"
 			x: -2.0d
 			y: -2.0d
 		}
@@ -591,6 +600,51 @@
 			}]
 			x: -2.5d
 			y: -4.0d
+		}
+		{
+			dependencies: [
+				"40435063ED5A28AE"
+				"743C350FD24A22C4"
+				"0A6EFB728EFCB628"
+				"1F81E5C7F23F7FF1"
+				"25A4E57D7819AA75"
+				"697E1AD03F3B4C06"
+				"68AF62439DBF1558"
+				"08FC2787B7BEB7B9"
+				"7D4809DBDA508FF3"
+				"23353F96C45F63B2"
+				"2C3538C18AE7A3D9"
+				"03BE8B51D2CC2A08"
+				"5DA70298474694C7"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "5DE3BC5FD22C52AC"
+			rewards: [{
+				id: "306ABFA301DF9C53"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:refined"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "51BA6937600B3FD0"
+				title: "Refined finie !"
+				type: "checkmark"
+			}]
+			title: "Refined complété !"
+			x: 0.0d
+			y: -7.0d
 		}
 	]
 	title: "Refined Storage"

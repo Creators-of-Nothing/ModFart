@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " II",
+    " B ",
+    "BR "
+  ],
+  "key": {
+    "I": { "tag": "forge:ingots/iron" },
+    "R": { "tag": "forge:dyes/red" },
+    "B": { "tag": "forge:rods/iron" }
+  },
+  "result": { "item": "platforms:wrench" }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " AA",
+        " A ",
+        "B  "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:gold_ingot"
+        },
+        "B": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "nethersdelight:gold_machete"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CA",
+        "BC"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:diamond"
+        },
+        "B": {
+            "item": "minecraft:stick"
+        },
+        "C": {
+            "item": "moreplates:diamond_rod"
+        }
+    },
+    "result": {
+        "item": "simplyswords:diamond_sai"
+    }
+}

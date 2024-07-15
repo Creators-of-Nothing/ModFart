@@ -8,6 +8,23 @@
     "twilightforest:charm_of_keeping_2",
     "twilightforest:charm_of_keeping_3",
     "simplemagnets:basicmagnet",
-    "simplemagnets:advancedmagnet"
+    "simplemagnets:advancedmagnet",
+    "cyclic:charm_speed",
+    "cyclic:charm_void",
+    "cyclic:charm_antidote",
+    "cyclic:charm_wither",
+    "cyclic:charm_creeper",
+    "cyclic:charm_fire",
+    "cyclic:charm_magicdefense",
+    "cyclic:charm_water",
+    "cyclic:charm_starvation",
+    "cyclic:charm_wing",
+    "cyclic:soulstone",
+    "cyclic:charm_torch_cave",
+    "cyclic:charm_torch",
+    "cyclic:charm_ultimate",
+    "cyclic:charm_stealthpotion",
+    "cyclic:charm_stone",
+    "cyclic:antigravity"
   ]
 }

@@ -29,6 +29,41 @@ primitiveClubRandomExtraStunTime = 150
 # Alex's Caves replaces this story with their own. This config puts it back to normal if enabled.
 #
 restoreEndStory = false
+#----------------------------------
+#
+# If enabled, this config makes the Compendium have all biomes and their info unlocked immediately on log-in.
+#
+unlockAllCompendiumInfo = false
+#----------------------------------
+#
+# Allows setting overrides for how many arrows to spawn with Dreadbow's rain-like attack.
+# Format is the arrow item registry name. Then an equal sign =. And ends with the arrow amount.
+# Separate multiple entries with a comma , and whitespace will be ignored.
+# Example: "alexscaves:seeking_arrow=5, alexscaves:burrowing_arrow=100"
+#
+# Otherwise, will default to Alex's Caves original code for determining arrow amount for
+# the attack which is 30 arrows for dark colored arrows and 5 arrows for all other arrows.
+#
+dreadbowArrowRainOverrides = ""
+#----------------------------------
+#
+# How quickly the flight meter will recharge for Subterranodon.
+# Putting 2 will recharge twice as fast. Putting 0.5 will halve the recharge rate.
+#
+#Range: 0.0 ~ 1000.0
+subterranodonFlightMeterRechargeSpeed = 1.0
+#----------------------------------
+#
+# How quickly the flight meter will be depleted when flying with Subterranodon.
+# Putting 2 will deplete the meter twice as fast. Putting 0.5 will slow the meter's usage rate.
+#
+#Range: 0.0 ~ 1000.0
+subterranodonFlightMeterUsageSpeed = 1.0
+#----------------------------------
+#
+# Whether to activate an internal datapack to remove Spelunkery mod's wall mushrooms from Alex's Caves's Primordial Cave biome due to the mushrooms not having safe generation.
+#
+applySpelunkeryCompatAdjustments = true
 
 ["Mob Attack/Health Options"]
 	#Range: 1.0 ~ 1000000.0
@@ -141,4 +176,30 @@ restoreEndStory = false
 	watcherMaxHealth = 30.0
 	#Range: 1.0 ~ 1000000.0
 	watcherAttackDamage = 4.0
+	#Range: 1.0 ~ 1000000.0
+	luxtructosaurusMaxHealth = 600.0
+	#Range: 1.0 ~ 1000000.0
+	luxtructosaurusAttackDamage = 12.0
+	#Range: 1.0 ~ 1000000.0
+	atlatitanMaxHealth = 400.0
+	#Range: 1.0 ~ 1000000.0
+	atlatitanAttackDamage = 8.0
+	#Range: 1.0 ~ 1000000.0
+	tremorzillaMaxHealth = 500.0
+	#Range: 1.0 ~ 1000000.0
+	tremorzillaAttackDamage = 30.0
+
+["Raygun Options"]
+	#----------------------------------
+	#
+	# Rate of damage for Raygun normally.
+	#
+	#Range: 0.0 ~ 1000.0
+	raygunNormalDamage = 1.5
+	#----------------------------------
+	#
+	# Rate of damage for Raygun when gamma enchanted.
+	#
+	#Range: 0.0 ~ 1000.0
+	raygunGammaDamage = 2.0
 

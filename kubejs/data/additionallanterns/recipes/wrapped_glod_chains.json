@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "additionallanterns:gold_chain"
+        }
+    },
+    "result": {
+        "item": "dustrial_decor:wrapped_gold_chains"
+    }
+}

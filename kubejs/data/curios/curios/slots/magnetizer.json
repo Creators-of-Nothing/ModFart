@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "render_toggle":true,
+    "operation": "SET",
+    "order": 7,
+    "size": 1,
+    "icon": "kubejs:slot/empty_magnetizer_slot"
+}

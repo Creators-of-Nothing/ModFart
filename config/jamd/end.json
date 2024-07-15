@@ -2,11 +2,11 @@
   "oreMultiplier": 1,
   "ores": [
     {
-      "ore_size": 3,
+      "ore_size": 100,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 2,
+          "count": 100,
           "type": "minecraft:count"
         },
         {
@@ -15,49 +15,10 @@
         {
           "height": {
             "min_inclusive": {
-              "absolute": 10
+              "above_bottom": 1
             },
             "max_inclusive": {
-              "absolute": 30
-            },
-            "type": "minecraft:trapezoid"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "block": "minecraft:end_stone",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "lolenderite:primordial_remnants"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 10,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 8,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "absolute": 2
-            },
-            "max_inclusive": {
-              "absolute": 80
+              "absolute": 16
             },
             "type": "minecraft:uniform"
           },
@@ -70,7 +31,202 @@
       "targets": [
         {
           "target": {
-            "tag": "minecraft:end_stones",
+            "tag": "forge:jamd/end_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "stalwart_dungeons:purpur_bricks"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 1
+            },
+            "max_inclusive": {
+              "absolute": 16
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:jamd/purpur_bricks",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "stalwart_dungeons:chorundum_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 17
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:jamd/end_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "enlightened_end:malachite_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 17
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:jamd/end_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "enlightened_end:irradium_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 17
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:jamd/end_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "enlightened_end:bismuth_ore"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 17
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:jamd/end_stone",
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
@@ -80,11 +236,11 @@
       ]
     },
     {
-      "ore_size": 50,
+      "ore_size": 5,
       "discard_on_air_chance": 0.0,
       "modifiers": [
         {
-          "count": 60,
+          "count": 10,
           "type": "minecraft:count"
         },
         {
@@ -93,10 +249,10 @@
         {
           "height": {
             "min_inclusive": {
-              "above_bottom": 0
+              "above_bottom": 17
             },
             "max_inclusive": {
-              "below_top": 0
+              "absolute": 128
             },
             "type": "minecraft:uniform"
           },
@@ -109,101 +265,11 @@
       "targets": [
         {
           "target": {
-            "block": "minecraft:calcite",
-            "predicate_type": "minecraft:block_match"
+            "tag": "forge:jamd/end_stone",
+            "predicate_type": "minecraft:tag_match"
           },
           "state": {
-            "Name": "minecraft:snow_block"
-          }
-        },
-        {
-          "target": {
-            "block": "minecraft:end_stone",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "minecraft:snow_block"
-          }
-        },
-        {
-          "target": {
-            "block": "minecraft:diorite",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "minecraft:snow_block"
-          }
-        },
-        {
-          "target": {
-            "block": "minecraft:netherrack",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "minecraft:snow_block"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 50,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 45,
-          "type": "minecraft:count"
-        },
-        {
-          "type": "minecraft:in_square"
-        },
-        {
-          "height": {
-            "min_inclusive": {
-              "above_bottom": 0
-            },
-            "max_inclusive": {
-              "below_top": 0
-            },
-            "type": "minecraft:uniform"
-          },
-          "type": "minecraft:height_range"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "block": "minecraft:packed_ice",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "minecraft:blue_ice"
-          }
-        }
-      ]
-    },
-    {
-      "ore_size": 64,
-      "discard_on_air_chance": 0.0,
-      "modifiers": [
-        {
-          "count": 100,
-          "type": "minecraft:count_on_every_layer"
-        },
-        {
-          "type": "minecraft:biome"
-        }
-      ],
-      "targets": [
-        {
-          "target": {
-            "block": "minecraft:sculk_shrieker",
-            "predicate_type": "minecraft:block_match"
-          },
-          "state": {
-            "Name": "minecraft:air"
+            "Name": "lolenderite:primordial_remnants"
           }
         }
       ]

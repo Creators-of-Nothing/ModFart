@@ -11,6 +11,32 @@
 		}
 	}
 	id: "10BE70FF8569C51A"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/anvil.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -4.0d
+			y: -1.25d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/ftbquests/wand.png"
+			rotation: 0.0d
+			width: 3.45d
+			x: 2.25d
+			y: -6.0d
+		}
+		{
+			height: 5.5d
+			image: "kubejs:textures/ftbquests/villager.png"
+			rotation: 0.0d
+			width: 3.7d
+			x: 3.5d
+			y: -1.5d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -261,6 +287,83 @@
 			}]
 			x: 3.0d
 			y: -4.25d
+		}
+		{
+			description: ["Cette baguette te permet de poser des blocs à la chaîne sur une grande surface : idéale pour build ! Pour annuler un coup de baguette malencontreux, appuyes sur &4Alt + Control&r. Attention : ne fonctionne que deux fois."]
+			id: "341EAB267F91C70B"
+			rewards: [{
+				count: 64
+				id: "4073816B271BB5B9"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FAD2C3B4F2E92CB"
+					item: {
+						Count: 1b
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1BCC0B53CAC227"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "252785244CA47CD4"
+					item: "constructionwand:core_destruction"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: [
+				"341EAB267F91C70B"
+				"02CAD17DA73B67C6"
+				"1ADE002FF1A2811B"
+				"5D73015443A6E5FF"
+				"1B8BED215FB7A447"
+				"7EEC96E20047589E"
+				"6F2671D1818FA24B"
+				"0EC9680E91930C3E"
+				"268C4D813699ECC7"
+				"7B3FA67EA5888E95"
+				"261DCE49E3922679"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "300C409F8D74BDA2"
+			rewards: [{
+				id: "722BB7726318CCE5"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:equipements"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4FB01A4652554257"
+				title: "Equipements complété !"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.0d
 		}
 	]
 	title: "Equipements"

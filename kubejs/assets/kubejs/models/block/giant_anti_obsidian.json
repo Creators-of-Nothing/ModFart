@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "twilightforest:giant_block",
+  "parent_block": "minecraft:stone",
+  "textures": {
+    "all": "kubejs:block/giant_anti_obsidian",
+    "particle": "kubejs:block/giant_anti_obsidian"
+  }
+}

@@ -14,6 +14,10 @@
     "aether:iron_pendant",
     "aether:golden_pendant",
     "aether:zanite_pendant",
-    "aether:ice_pendant"
+    "aether:ice_pendant",
+    "cyclic:charm_ultimate",
+    "cyclic:charm_venom",
+    "cyclic:charm_antipotion",
+    "cyclic:charm_boostpotion"
   ]
 }

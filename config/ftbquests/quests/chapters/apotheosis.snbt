@@ -5,6 +5,24 @@
 	group: "6FCD3535E8BFAB91"
 	icon: "apotheosis:ender_library"
 	id: "45D523E39BAB6C92"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/table.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 5.75d
+			y: -4.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/spawner.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: 1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -212,6 +230,43 @@
 			}]
 			x: 0.0d
 			y: -4.875d
+		}
+		{
+			dependencies: [
+				"3CA285E77AC6CC75"
+				"502AA55EC4B9198F"
+				"62DADAA12BE5D319"
+				"5FD97281F8C6C964"
+				"6F76EC6447329F85"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "5071C07F4B71FB31"
+			rewards: [{
+				id: "45A23115012CC442"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:apotheosis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "578052F0B1C98274"
+				title: "Apotheosis fini !"
+				type: "checkmark"
+			}]
+			title: "Apotheosis complété !"
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 	title: "Apotheosis"

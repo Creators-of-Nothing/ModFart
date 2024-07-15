@@ -5,6 +5,24 @@
 	group: "6FCD3535E8BFAB91"
 	icon: "eidolon:research_table"
 	id: "733ED6B00434BF56"
+	images: [
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/necro.png"
+			rotation: 0.0d
+			width: 12.39d
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/wraith.png"
+			rotation: 0.0d
+			width: 4.76d
+			x: 10.0d
+			y: -1.25d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -391,6 +409,7 @@
 				item: "eidolon:planter"
 				type: "item"
 			}]
+			subtitle: "C'est moi qui les ai planté ! Planté !!"
 			tasks: [{
 				id: "5E8D8EC7B4E61F41"
 				item: "eidolon:planter"
@@ -659,6 +678,7 @@
 					type: "item"
 				}
 			]
+			title: "Tenue de Warlock"
 			x: 6.25d
 			y: -0.5d
 		}
@@ -865,6 +885,62 @@
 			title: "Altar"
 			x: 3.5d
 			y: -2.75d
+		}
+		{
+			dependencies: [
+				"380F9FB68C68CB1A"
+				"36E8FBC562A3152B"
+				"4F7C26B76998FCBB"
+				"33ED17964C649450"
+				"0F43B376D52632C4"
+				"523696BEF0B2A7F2"
+				"6A6D995D5B05B0EA"
+				"3D6BBE3F4DF81077"
+				"5CDA3E28F6E8B8BD"
+				"2ADA6FBE65619311"
+				"54220E132720CC53"
+				"317F7BBD34AFD810"
+				"0867D34E600BDEDA"
+				"08BE5730A5032B49"
+				"6C7F5E38D40A1C5F"
+				"5F20886483DF1D6F"
+				"53192DD8FF157CB2"
+				"7627CCA9632833D9"
+				"3C555FCF91A35FE0"
+				"19D1203A792EADCF"
+				"7CEB343BD90109FF"
+				"480141C6B970672E"
+				"17475692FB24750E"
+				"0A075A71FA5F7FE7"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "63D0CA801B0BA5E6"
+			rewards: [{
+				id: "4D5087FD1231B7D5"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:eidolon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4D4276B18572EBAA"
+				title: "Eidolon fini !"
+				type: "checkmark"
+			}]
+			title: "Eidolon complété !"
+			x: 0.0d
+			y: -7.25d
 		}
 	]
 	title: "Eidolon"

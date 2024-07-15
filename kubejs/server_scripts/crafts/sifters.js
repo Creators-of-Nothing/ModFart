@@ -1,3 +1,9 @@
+// Changed crafts
+ServerEvents.recipes(e => {
+    e.remove({ id: /createsifter:sifting/ })
+})
+
+
 // Sifter - Cobblestone
 ServerEvents.recipes(e => {
     let potting = (mesh, chance) => {
@@ -51,7 +57,7 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "chance": chance,
-                    "item": "kubejs:raw_dimensionalshard"
+                    "item": "kubejs:raw_dimensional"
                 },
                 {
                     "chance": chance,
@@ -451,7 +457,7 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "chance": chance,
-                    "item": "kubejs:raw_dimensionalshard"
+                    "item": "kubejs:raw_dimensional"
                 },
                 {
                     "chance": chance,
@@ -518,12 +524,6 @@ ServerEvents.recipes(e => {
 })
 
 
-// Changed crafts
-ServerEvents.recipes(e => {
-    e.remove({ id: /createsifter:sifting/ })
-})
-
-
 // Sifter - Netherrack
 ServerEvents.recipes(e => {
     let potting = (mesh, chance) => {
@@ -557,7 +557,7 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "chance": chance,
-                    "item": "kubejs:raw_dimensionalshard"
+                    "item": "kubejs:raw_dimensional"
                 },
                 {
                     "chance": chance,
