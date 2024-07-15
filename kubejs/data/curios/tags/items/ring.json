@@ -40,6 +40,11 @@
     "aether:golden_ring",
     "aether:zanite_ring",
     "aether:ice_ring",
-    "candlelight:gold_ring"
+    "candlelight:gold_ring",
+    "cyclic:charm_ultimate",
+    "cyclic:charm_luck",
+    "cyclic:charm_xp_speed",
+    "cyclic:charm_xp_blocker",
+    "cyclic:antigravity"
   ]
 }

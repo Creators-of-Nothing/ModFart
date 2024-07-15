@@ -5,6 +5,72 @@
 	group: "6FCD3535E8BFAB91"
 	icon: "ars_nouveau:archmage_spell_book"
 	id: "2F9EAA2D7BD1F8C3"
+	images: [
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/familiers.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -3.25d
+			y: -5.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -9.0d
+			y: -0.25d
+		}
+		{
+			height: 14.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 14.5d
+			x: -9.0d
+			y: 7.25d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/nature.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/ftbquests/monstre.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.75d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/ftbquests/grimoire.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 4.25d
+			y: -1.25d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/source.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -8.25d
+			y: 11.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/machine.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.75d
+			y: 3.75d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -21,6 +87,8 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "13C9FB1C81AF2045"
 				item: "ars_nouveau:worn_notebook"
@@ -30,7 +98,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Tues un Wilden Stalker. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Wilden Den&r."]
 			id: "6B9B376A7043C727"
 			rewards: [{
@@ -46,11 +113,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Tues un Wilden Defender. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Wilden Den&r."]
 			id: "5DA1694B9BF2B14A"
 			rewards: [{
@@ -66,11 +132,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -4.5d
+			x: -11.25d
+			y: 1.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Tues un Wilden Hunter. Ils se trouvent dans une structure qui ressemble à une colline ouverte et que vous pouvez trouver avec votre &4Explorer's Compass&r sous le nom de &4Wilden Den&r."]
 			id: "715B3F8FF5F8E69C"
 			rewards: [{
@@ -86,11 +151,10 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -6.75d
+			y: 1.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: [
 				"Invoque et tues une Wilden Chimera. Pour l'invoquer, tu vas devoir faire un rituel avec la Tablet Summon Wilden, et donner au Brazier un Wilden Horn, un Wilden Wing, et un Wilden Spike, puis activer le rituel. "
 				""
@@ -109,14 +173,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: -6.0d
+			x: -6.75d
+			y: -1.0d
 		}
 		{
-			dependencies: [
-				"32B05767159912E2"
-				"1346620FBEF42E79"
-			]
+			dependencies: ["1346620FBEF42E79"]
 			description: ["Encore mieux ! Il te permet de lancer tout les sorts que tu veux !"]
 			id: "0EDE325A1E08EC4D"
 			rewards: [{
@@ -130,8 +191,8 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68E7C6523CC197C8"]
@@ -152,7 +213,7 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -170,8 +231,8 @@
 				item: "ars_nouveau:apprentice_spell_book"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["396AD3760E38C080"]
@@ -187,11 +248,10 @@
 				item: "ars_nouveau:scribes_table"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["396AD3760E38C080"]
 			description: [
 				"Il s'agit du stockage de la Source. La Source sert à faire fonctionner vos machines."
 				""
@@ -208,11 +268,10 @@
 				item: "ars_nouveau:source_jar"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: -9.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Donnez une Wilden Horn à un Drygmy."]
 			id: "7FAD444CAA0A13C3"
 			rewards: [{
@@ -226,10 +285,9 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Donnez un gold nugget à un Starbuncle."]
 			id: "27FCBB2F0294B701"
 			rewards: [{
@@ -242,11 +300,10 @@
 				item: "ars_nouveau:starbuncle_shards"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -8.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Faites pousser un arbre à côté d'un Whirlispring."]
 			id: "026E7E41ABF9AD88"
 			rewards: [{
@@ -260,11 +317,10 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 0.0d
+			y: -6.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
-			description: ["Utilisez le sort Dispel sur une sorcière qui boit une potion lorsqu'elle la moins de la moitié de sa vie."]
+			description: ["Utilisez le sort Dispel sur une sorcière qui boit une potion lorsqu'elle a moins de la moitié de sa vie."]
 			id: "46FA2563F9171D37"
 			rewards: [{
 				id: "1EFA8523CF3AC64B"
@@ -276,8 +332,8 @@
 				item: "ars_nouveau:wixie_shards"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["46FA2563F9171D37"]
@@ -294,8 +350,8 @@
 				item: "ars_nouveau:wixie_charm"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["026E7E41ABF9AD88"]
@@ -312,8 +368,8 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["27FCBB2F0294B701"]
@@ -334,8 +390,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 1.5d
+			x: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["7FAD444CAA0A13C3"]
@@ -352,8 +408,8 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["05B1F9222C0D715E"]
@@ -370,8 +426,8 @@
 				item: "ars_nouveau:agronomic_sourcelink"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["05B1F9222C0D715E"]
@@ -400,8 +456,8 @@
 				item: "ars_nouveau:mycelial_sourcelink"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: -11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["05B1F9222C0D715E"]
@@ -417,8 +473,8 @@
 				item: "ars_nouveau:volcanic_sourcelink"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: -13.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["05B1F9222C0D715E"]
@@ -435,8 +491,8 @@
 				item: "ars_nouveau:alchemical_sourcelink"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["05B1F9222C0D715E"]
@@ -453,8 +509,8 @@
 				item: "ars_nouveau:vitalic_sourcelink"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: -5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -482,8 +538,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.5d
+			x: -9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7C735AE024C68B9F"]
@@ -503,8 +559,8 @@
 				item: "ars_nouveau:relay"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: -13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C735AE024C68B9F"]
@@ -520,8 +576,8 @@
 				item: "ars_nouveau:relay_collector"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.5d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C735AE024C68B9F"]
@@ -537,8 +593,8 @@
 				item: "ars_nouveau:relay_deposit"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.5d
+			x: -7.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C735AE024C68B9F"]
@@ -554,8 +610,8 @@
 				item: "ars_nouveau:relay_splitter"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.5d
+			x: -9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C735AE024C68B9F"]
@@ -571,12 +627,11 @@
 				item: "ars_nouveau:relay_warp"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 7.5d
+			x: -11.0d
+			y: 10.5d
 		}
 		{
-			dependencies: ["05B1F9222C0D715E"]
-			description: ["L'Imbuement Chamber vous permet d'obtenir vos Sources Gems. Si vous lui donnez de la Source, il ira plus vite. Pour faire de plus gros crafts, il faut l'entouré de piedestaux."]
+			description: ["L'&cImbuement Chamber&r vous permet d'obtenir vos &4Sources Gems&r. Si vous lui donnez de la Source, il ira plus vite. Pour faire de plus gros crafts, il faut l'entouré de piedestaux."]
 			id: "2A3508ABFB6D2F68"
 			rewards: [{
 				id: "2CD767DBE4170DB7"
@@ -584,18 +639,19 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "2D7B6E2762DFF702"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["2A3508ABFB6D2F68"]
 			description: [
-				"Cet objet possède un grand nombre de craft possible (Armure, Enchantement, et Crafts divers), tous indiqué sur JEI. Il n'a pas besoin de Source pour fonctionner. Vous pouvez mettre n'importe quel Pedestals autour de lui dans un rayon de 3 blocs. Pour le faire fonctionner, il a besoin du Arcane Core en dessous de l'Enchanting Apparatus."
+				"Cet objet possède un grand nombre de craft possible (Armure, Enchantement, et Crafts divers), tous indiqué sur JEI. Vous pouvez mettre n'importe quels Pedestals autour de lui dans un rayon de 3 blocs. Pour le faire fonctionner, il a besoin du Arcane Core en dessous de l'Enchanting Apparatus."
 				""
 				"Il peut également créer des livres et outils enchantés ! Mais par exemple, si vous voulez tranchant 3, il faudra commencer par le 1, puis le 2, et enfin le 3 !"
 			]
@@ -606,6 +662,8 @@
 				item: "ars_nouveau:arcane_pedestal"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [
 				{
 					id: "536EF348FF914F96"
@@ -624,8 +682,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 1.5d
+			x: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["68E7C6523CC197C8"]
@@ -664,8 +722,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["68E7C6523CC197C8"]
@@ -681,7 +739,7 @@
 				item: "ars_nouveau:sourceberry_bush"
 				type: "item"
 			}]
-			x: 5.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -717,8 +775,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 5.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -746,8 +804,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 4.25d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -771,8 +829,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.0d
+			x: 2.0d
+			y: 11.75d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -796,8 +854,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: -1.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -820,8 +878,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -7.0d
+			x: -1.25d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -843,8 +901,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.5d
+			x: 2.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -861,8 +919,8 @@
 				item: "ars_nouveau:ring_of_greater_discount"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.0d
+			x: 5.25d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -878,8 +936,8 @@
 				item: "ars_nouveau:amulet_of_mana_boost"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -11.5d
+			x: 3.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -902,8 +960,8 @@
 				item: "ars_nouveau:void_jar"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 3.0d
+			x: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -921,8 +979,8 @@
 				item: "ars_nouveau:jar_of_light"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.5d
+			x: 11.0d
+			y: 11.75d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -938,8 +996,8 @@
 				item: "ars_nouveau:belt_of_levitation"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -1.0d
+			x: 11.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -955,8 +1013,8 @@
 				item: "ars_nouveau:belt_of_unstable_gifts"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 0.0d
+			x: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["74D5CCC7092C9653"]
@@ -985,8 +1043,8 @@
 					type: "item"
 				}
 			]
-			x: 9.25d
-			y: 0.25d
+			x: 6.25d
+			y: 11.5d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -1010,13 +1068,18 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: -13.0d
+			x: 0.5d
+			y: 11.25d
 		}
 		{
 			dependencies: ["5D8C20CAA0F7D716"]
 			description: ["Il permet, après avoir fait un clic droit avec, de partager toutes les connaissances des glyphes. Pratique pour les équipes !"]
 			id: "05EC953F90ED4341"
+			rewards: [{
+				id: "70CE824633B0B784"
+				type: "xp"
+				xp: 200
+			}]
 			tasks: [{
 				id: "25C5E9E44B3625DA"
 				item: {
@@ -1026,8 +1089,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -1043,8 +1106,8 @@
 				item: "ars_nouveau:magebloom_crop"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.0d
+			x: 13.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -1061,13 +1124,18 @@
 				item: "ars_nouveau:summon_focus"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.0d
+			x: 7.75d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5D8C20CAA0F7D716"]
 			description: ["Permet de poser une rune au sol qui pourra s'activer en marchant dessus. Cette rune peut accueillir un sort. Pour se faire, il faut créer un parchemin de sort avec la table de scribe."]
 			id: "217649C8E81207B8"
+			rewards: [{
+				id: "2E1B01895D5DD115"
+				type: "xp"
+				xp: 200
+			}]
 			tasks: [{
 				id: "15372500D95806BA"
 				item: {
@@ -1079,8 +1147,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["58BCF1DFEE225223"]
@@ -1105,8 +1173,8 @@
 				item: "ars_nouveau:magebloom_fiber"
 				type: "item"
 			}]
-			x: 8.75d
-			y: 4.75d
+			x: 15.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2A3508ABFB6D2F68"]
@@ -1123,8 +1191,8 @@
 				item: "ars_nouveau:sourcestone"
 				type: "item"
 			}]
-			x: 9.25d
-			y: 3.0d
+			x: -0.25d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1E60CBB244E7D995"]
@@ -1142,8 +1210,8 @@
 				item: "ars_nouveau:mob_jar"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 3.5d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7301F2456540A830"]
@@ -1170,12 +1238,11 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: 5.0d
+			x: 14.25d
+			y: 8.5d
 		}
 		{
-			dependencies: ["7301F2456540A830"]
-			description: ["Permet de faire des rituels à partir de tablette. Lorsque vous déposez une tablette sur le brazier, le rituel est en attente. Selon le rituel et votre bon vouloir, vous pouvez ajouté des items supplémentaires pour améliorer ou modifier le rituel. Tout est indiqué dans le livre du mod. Pour activer le rituel, faites un clic droit avec la main vide dessus."]
+			description: ["Permet de faire des rituels à partir de tablettes. Lorsque vous déposez une tablette sur le brazier, le rituel est en attente. Selon le rituel et votre bon vouloir, vous pouvez ajouté des items supplémentaires pour améliorer ou modifier le rituel. Tout est indiqué dans le livre du mod. Pour activer le rituel, faites un clic droit avec la main vide dessus."]
 			id: "1E60CBB244E7D995"
 			rewards: [{
 				id: "78E9FE95147557AD"
@@ -1183,12 +1250,14 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "36A2A9970EE6D6B0"
 				item: "ars_nouveau:ritual_brazier"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -1206,8 +1275,8 @@
 				item: "ars_nouveau:alchemists_crown"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1E60CBB244E7D995"]
@@ -1230,11 +1299,10 @@
 				item: "ars_nouveau:ritual_animal_summon"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -0.5d
+			x: 13.75d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1E60CBB244E7D995"]
 			description: ["Ce petit golem va collecter l'Améthyste qui se trouve dans les géodes ! De quoi faire une petite ferme automatique !"]
 			id: "56BD3836C8DFBA3E"
 			rewards: [{
@@ -1248,11 +1316,10 @@
 				item: "ars_nouveau:amethyst_golem_charm"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Donne un Sea Pickel à une Siren. Elles se trouvent dans les Warm Ocean."]
 			id: "55A273D2258CC93D"
 			rewards: [{
@@ -1265,8 +1332,8 @@
 				item: "ars_elemental:siren_shards"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 0.0d
+			x: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["55A273D2258CC93D"]
@@ -1283,11 +1350,10 @@
 				item: "ars_elemental:siren_charm"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 1.5d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
-			dependencies: ["68E7C6523CC197C8"]
 			description: ["Il s'agit d'un monstre qui agit comme une tourelle vivante. La Dominion Wand permet de limiter sa zone de patrouille. Si il est vaincu, il peut être réactiver en lui donnant de la Blaze Powder ou de la magma cream."]
 			id: "1077DC57D3B1CED2"
 			tasks: [{
@@ -1295,8 +1361,86 @@
 				item: "ars_elemental:firenando_charm"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"56BD3836C8DFBA3E"
+				"021D50A4A0D65EDF"
+				"1077DC57D3B1CED2"
+				"70982BBB3A99A593"
+				"5D88BF4459207F12"
+				"150AADE3EB49F686"
+				"16CCC5BFB5B243C0"
+				"32B05767159912E2"
+				"5DA1694B9BF2B14A"
+				"715B3F8FF5F8E69C"
+				"6B9B376A7043C727"
+				"5000E70B88157424"
+				"6949845EDB95CA06"
+				"5070F9748FE9B4D0"
+				"720666C1780AB8A9"
+				"009D6F6447336592"
+				"1AE7AD3826091096"
+				"3A6CED0EF1B4009A"
+				"202DEE8207FF1F7E"
+				"279F16D6F78C75DE"
+				"19CD6F3B116BC39E"
+				"6D272AD8C1AA9F11"
+				"350B1C192B396520"
+				"05EC953F90ED4341"
+				"217649C8E81207B8"
+				"0EDE325A1E08EC4D"
+				"7268BB480EDAA2D3"
+				"4EA686735B200331"
+				"5E81AEA72A450DA1"
+				"6C0F7E5CD316CD80"
+				"5FE7E27ADE26A236"
+				"21BEFD11A00565CF"
+				"24FAE067394B0DD5"
+				"601B083E9F23A26F"
+				"77CDD7E385E7F66F"
+				"226C110FA351D02B"
+				"3C9E53CD4E08301C"
+				"416E83EC971D9DF3"
+				"1515D05868AF3D85"
+				"36A443EEBE70C83D"
+				"02BE7191BFA34897"
+				"3AC7C5A246C8609A"
+				"2FBB33E6EB27BF57"
+				"1022B2AE562AC4D6"
+				"41C846E09719B367"
+				"181A3DF2DA3BB765"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "68C46241A23C03D9"
+			rewards: [{
+				id: "25EF7D188E6BE9D0"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:ars"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6C35EC175401A3A8"
+				title: "Ars Nouveau fini !"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau complété !"
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "Ars Nouveau"

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "## ",
+        "##R",
+        "## "
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:wool"
+        },
+        "R": {
+            "item": "supplementaries:rope"
+        }
+    },
+    "result": {
+        "item": "beachparty:beach_towel",
+        "count": 2
+    }
+}

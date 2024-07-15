@@ -14,6 +14,9 @@
     "aether:agility_cape",
     "aether:swet_cape",
     "aether:invisibility_cloak",
-    "aether:valkyrie_cape"
+    "aether:valkyrie_cape",
+    "cyclic:charm_magicdefense",
+    "cyclic:charm_wing",
+    "cyclic:charm_invisible"
   ]
 }

@@ -6,11 +6,7 @@
 	icon: "paraglider:heart_container"
 	id: "1BC4F0BE553BFA35"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 5.0d
-		hover: [ ]
 		image: "kubejs:textures/ftbquests/modfart.png"
 		rotation: 0.0d
 		width: 5.0d
@@ -66,6 +62,13 @@
 				"Pour quitter le village, et même au cours de ton aventure, tu peux utiliser la commande &4&l/rtp&r&r pour te téléporter loin d'ici !"
 				""
 				"Cette fois-ci, vous serez à l'heure pour votre rendez-vous !"
+				""
+				"Lorsque tu seras installé ou si tu trouves un coin qui te plaît, différentes commandes existent :"
+				""
+				"- &4&n/sethome + nom :&r&r te permet de définir un point de téléportation"
+				"- &4&n/delhome + nom :&r&r te permet de supprimer un home"
+				"- &4&n/listhomes :&r&r permet de lister tes homes."
+				"- &4&n/home + nom :&r&r permet de te téléporter à la destination du dit home"
 			]
 			icon: "mekanism:teleportation_core"
 			id: "4C85B1EFC1349D0A"
@@ -74,7 +77,7 @@
 				title: "Coop ?"
 				type: "checkmark"
 			}]
-			title: "R(A)TP"
+			title: "R(A)TP et home"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -190,7 +193,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["Ces quêtes, indiquées par le petit symbole I, sont des quêtes explicatives. Elles sont là pour vous guider sur certaines spécificités du mod, ou si des sections sont en WIP."]
+			description: ["Ces quêtes, indiquées par le petit symbole \"I\", sont des quêtes explicatives. Elles sont là pour vous guider sur certaines spécificités du mod, ou si des sections sont en WIP."]
 			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "5B10B3822722E441"
 			shape: "gear"
@@ -200,7 +203,134 @@
 				title: "Quête à engrenage"
 				type: "checkmark"
 			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5071C07F4B71FB31"
+				"68C46241A23C03D9"
+				"0A494C9B538D82F4"
+				"10D11C9AF21F216A"
+				"4BAE8105E427FBF1"
+				"63D0CA801B0BA5E6"
+				"300C409F8D74BDA2"
+				"2B9069629B5A6ABA"
+				"130D15BCF3A4AFC8"
+				"5DE3BC5FD22C52AC"
+				"6F5E6255C287938E"
+				"6A0E7A7CE252E086"
+				"00DEA1892E788E39"
+			]
+			description: [
+				"Vous avez réussi à aller jusque là ! Toute l'équipe vous félicite et espère que vous avez passé un agréable moment sur ce modpack. Il s'agissait pour nous de notre première expérience en tant que Créateurs, et espérons que vous le recommanderez à vos amis ! "
+				""
+				"A très bientôt, pour un prochain modpack !"
+				""
+				""
+				"Creators of Nothing."
+			]
+			hide: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "543088258D2EA27A"
+			rewards: [
+				{
+					id: "36F0AFDB40CD295E"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-afkafe"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CA3B47B3D42D492"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-glaedr"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "063A3FE7707FC0D5"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-gradulos"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D5AB62DC79F8436"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-proutegaz"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B06C793A9857C4F"
+					item: {
+						Count: 1b
+						id: "trofers:large_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "modfart:head-robina"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "2B379714D60501FC"
+				title: "Merci !"
+				type: "checkmark"
+			}]
 			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"Ce type de quête n'apparaît que lorsque vous complétez un chapitre. Une petite récompense vous y attend !"
+				""
+				"Si vous complétez tout les chapitres, alors une ULTIME récompense vous attendra dans ce chapitre !"
+			]
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "0870E6F2F5C3759D"
+			rewards: [{
+				id: "0A280EE026A79936"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "62E68DE15A2F3827"
+				title: "Complétions"
+				type: "checkmark"
+			}]
+			x: 1.5d
 			y: 3.0d
 		}
 	]

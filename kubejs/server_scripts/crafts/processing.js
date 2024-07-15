@@ -4,6 +4,9 @@ ServerEvents.recipes(e => {
     e.remove({ id: /aether:ambrosium_shard_from_blasting/ })
     e.remove({ id: /aether:ambrosium_shard_from_smelting/ })
 
+    // Bronze
+    e.remove({ id: /mekanism:processing\/bronze\/ingot\/from_dust_/ })
+
     // Coal
     e.remove({ id: /alexscaves:furnace\/coal_from/ })
     e.remove({ id: /create:crushing\/coal_ore/ })
@@ -17,7 +20,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'createchromaticreturn:copper_doubling' })
     e.remove({ id: 'createchromaticreturn:copper_fortunite' })
     e.remove({ id: /mekanism:processing\/copper/ })
-    // e.remove({ not: { id: 'cyclic:copper_bars' }, id: /cyclic:copper_/ })
+    e.remove({ not: { id: 'cyclic:copper_bars' }, id: /cyclic:copper_/ })
     e.remove({ id: /minecraft:copper_ingot_from_blasting/ })
     e.remove({ id: /minecraft:copper_ingot_from_smelting/ })
 
@@ -77,7 +80,7 @@ ServerEvents.recipes(e => {
 
     // Lead
     e.remove({ id: /create:crushing\/lead_ore/ })
-    e.remove({ not: [{ id: 'mekanism:processing/lead/ingot/from_block'}, { id: 'mekanism:processing/lead/ingot/from_nuggets'}, { id: 'mekanism:processing/lead/nugget/from_ingot'}, { id: 'mekanism:processing/lead/raw/from_raw_block'}, { id: 'mekanism:processing/lead/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/lead/storage_blocks/from_ingots' }], id: /mekanism:processing\/lead/ })
+    e.remove({ not: [{ id: 'mekanism:processing/lead/ingot/from_block' }, { id: 'mekanism:processing/lead/ingot/from_nuggets' }, { id: 'mekanism:processing/lead/nugget/from_ingot' }, { id: 'mekanism:processing/lead/raw/from_raw_block' }, { id: 'mekanism:processing/lead/raw_storage_blocks/from_raw' }, { id: 'mekanism:processing/lead/storage_blocks/from_ingots' }], id: /mekanism:processing\/lead/ })
     e.replaceInput({ input: 'eidolon:lead_block' }, 'eidolon:lead_block', 'mekanism:block_lead')
     e.replaceInput({ input: 'eidolon:lead_ingot' }, 'eidolon:lead_ingot', 'mekanism:ingot_lead')
     e.replaceInput({ input: 'eidolon:lead_nugget' }, 'eidolon:lead_nugget', 'mekanism:nugget_lead')
@@ -91,7 +94,7 @@ ServerEvents.recipes(e => {
 
     // Osmium
     e.remove({ id: /create:crushing\/osmium_ore/ })
-    e.remove({ not: [{ id: 'mekanism:processing/osmium/ingot/from_block'}, { id: 'mekanism:processing/osmium/ingot/from_nuggets'}, { id: 'mekanism:processing/osmium/nugget/from_ingot'}, { id: 'mekanism:processing/osmium/raw/from_raw_block'}, { id: 'mekanism:processing/osmium/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/osmium/storage_blocks/from_ingots' }], id: /mekanism:processing\/osmium/ })
+    e.remove({ not: [{ id: 'mekanism:processing/osmium/ingot/from_block' }, { id: 'mekanism:processing/osmium/ingot/from_nuggets' }, { id: 'mekanism:processing/osmium/nugget/from_ingot' }, { id: 'mekanism:processing/osmium/raw/from_raw_block' }, { id: 'mekanism:processing/osmium/raw_storage_blocks/from_raw' }, { id: 'mekanism:processing/osmium/storage_blocks/from_ingots' }], id: /mekanism:processing\/osmium/ })
 
     // Quartz
     e.remove({ id: /aether:quartz_from_blasting/ })
@@ -113,7 +116,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: /epicsamurai:silver_ingot_from_blasting/ })
     e.remove({ id: /epicsamurai:silver_ingot_from_smelting/ })
     e.replaceInput({ input: 'mekanism:ingot_silver' }, 'mekanism:ingot_silver', 'epicsamurai:silver_ingot')
-    e.replaceInput({ input: 'useless_sword:silvillager' }, 'useless_sword:silvillager', '#forge:ingots/silver')
 
     // Steel
     e.replaceInput({ input: 'epicsamurai:steel_nugget' }, 'epicsamurai:steel_nugget', 'mekanism:nugget_steel')
@@ -122,7 +124,7 @@ ServerEvents.recipes(e => {
 
     // Tin
     e.remove({ id: /create:crushing\/tin_ore/ })
-    e.remove({ not: [{ id: 'mekanism:processing/tin/ingot/from_block' }, { id: 'mekanism:processing/tin/ingot/from_nuggets' }, { id: 'mekanism:processing/tin/nugget/from_ingot'}, { id: 'mekanism:processing/tin/raw/from_raw_block'}, { id: 'mekanism:processing/tin/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/tin/storage_blocks/from_ingots' }], id: /mekanism:processing\/tin/ })
+    e.remove({ not: [{ id: 'mekanism:processing/tin/ingot/from_block' }, { id: 'mekanism:processing/tin/ingot/from_nuggets' }, { id: 'mekanism:processing/tin/nugget/from_ingot' }, { id: 'mekanism:processing/tin/raw/from_raw_block' }, { id: 'mekanism:processing/tin/raw_storage_blocks/from_raw' }, { id: 'mekanism:processing/tin/storage_blocks/from_ingots' }], id: /mekanism:processing\/tin/ })
 
     // Tungsten
     e.remove({ id: /stalwart_dungeons:tungsten_ingot_recipe/ })
@@ -131,7 +133,7 @@ ServerEvents.recipes(e => {
     // Uranium
     e.remove({ id: /alexscaves:furnace\/uranium_from/ })
     e.remove({ id: /create:crushing\/uranium_ore/ })
-    e.remove({ not: [{ id: 'mekanism:processing/uranium/ingot/from_block'}, { id: 'mekanism:processing/uranium/ingot/from_nuggets'}, { id: 'mekanism:processing/uranium/nugget/from_ingot'}, { id: 'mekanism:processing/uranium/raw/from_raw_block'}, { id: 'mekanism:processing/uranium/raw_storage_blocks/from_raw'}, { id: 'mekanism:processing/uranium/storage_blocks/from_ingots' }], id: /mekanism:processing\/uranium/ })
+    e.remove({ not: [{ id: 'mekanism:processing/uranium/ingot/from_block' }, { id: 'mekanism:processing/uranium/ingot/from_nuggets' }, { id: 'mekanism:processing/uranium/nugget/from_ingot' }, { id: 'mekanism:processing/uranium/raw/from_raw_block' }, { id: 'mekanism:processing/uranium/raw_storage_blocks/from_raw' }, { id: 'mekanism:processing/uranium/storage_blocks/from_ingots' }], id: /mekanism:processing\/uranium/ })
 
     // Zanite
     e.remove({ id: /aether:zanite_gemstone_from_blasting/ })
@@ -146,7 +148,6 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'createchromaticreturn:zinc_recipe' })
     e.replaceOutput({ output: 'moremekanismprocessing:zinc_ingot' }, 'moremekanismprocessing:zinc_ingot', 'create:zinc_ingot')
 
-
     // Global
     e.remove({ id: /create:crushing\/deepslate_/ })
     e.remove({ id: /create:crushing\/gloomslate_/ })
@@ -159,13 +160,131 @@ ServerEvents.recipes(e => {
     e.remove({ id: /enlightened_end:blast_/ })
     e.remove({ not: { id: 'enlightened_end:smelt_end_stone_bricks', id: 'enlightened_end:smelt_end_stone_tiles', id: 'enlightened_end:smelt_ennegel_block', id: 'enlightened_end:smelt_palerock_bricks', id: 'enlightened_end:smelt_palerock_tiles', id: 'enlightened_end:smelt_purpur', id: 'enlightened_end:smelt_void_shale_bricks', id: 'enlightened_end:smelt_void_shale_tiles' }, id: /enlightened_end:smelt_/ })
     e.remove({ id: /mastersword:recycle_alloy/ })
+    e.remove({ id: /stalwart_dungeons:chorundum_ore_smelting/ })
     e.remove({ id: /undergarden:blast_depthrock_/ })
     e.remove({ id: /undergarden:blast_shiverstone_/ })
     e.remove({ id: /undergarden:shard_to_crystal/ })
     e.remove({ id: /undergarden:smelt_depthrock_/ })
     e.remove({ id: /undergarden:smelt_shiverstone_/ })
+    e.remove({ id: "undergarden:blast_raw_cloggrum" })
+    e.remove({ id: "undergarden:smelt_raw_cloggrum" })
+    e.remove({ mod: "oregrowth" })
 })
 
+// Processing - Ore Growth
+ServerEvents.recipes(e => {
+    let potting = (ore, raw) => {
+        e.custom({
+            "type": "oregrowth:ore_growth",
+            "base": ore,
+            "stages": 4,
+            "spawn_chance": 0.25,
+            "growth_chance": 0.10,
+            "result": {
+                "item": raw,
+                "count": 1
+            }
+        })
+    }
+    potting('minecraft:coal_ore', 'kubejs:raw_coal')
+    potting('minecraft:deepslate_coal_ore', 'kubejs:raw_coal')
+    potting('alexscaves:coprolith_coal_ore', 'kubejs:raw_coal')
+    potting('deeperdarker:sculk_stone_coal_ore', 'kubejs:raw_coal')
+    potting('deeperdarker:gloomslate_coal_ore', 'kubejs:raw_coal')
+    potting('meadow:alpine_coal_ore', 'kubejs:raw_coal')
+    potting('undergarden:depthrock_coal_ore', 'kubejs:raw_coal')
+    potting('undergarden:shiverstone_coal_ore', 'kubejs:raw_coal')
+    potting('minecraft:iron_ore', 'minecraft:raw_iron')
+    potting('minecraft:deepslate_iron_ore', 'minecraft:raw_iron')
+    potting('alexscaves:galena_iron_ore', 'minecraft:raw_iron')
+    potting('deeperdarker:sculk_stone_iron_ore', 'minecraft:raw_iron')
+    potting('deeperdarker:gloomslate_iron_ore', 'minecraft:raw_iron')
+    potting('meadow:alpine_iron_ore', 'minecraft:raw_iron')
+    potting('undergarden:depthrock_iron_ore', 'minecraft:raw_iron')
+    potting('undergarden:shiverstone_iron_ore', 'minecraft:raw_iron')
+    potting('minecraft:copper_ore', 'minecraft:raw_copper')
+    potting('minecraft:deepslate_copper_ore', 'minecraft:raw_copper')
+    potting('deeperdarker:sculk_stone_copper_ore', 'minecraft:raw_copper')
+    potting('deeperdarker:gloomslate_copper_ore', 'minecraft:raw_copper')
+    potting('meadow:alpine_copper_ore', 'minecraft:raw_copper')
+    potting('minecraft:gold_ore', 'minecraft:raw_gold')
+    potting('minecraft:deepslate_gold_ore', 'minecraft:raw_gold')
+    potting('minecraft:nether_gold_ore', 'minecraft:raw_gold')
+    potting('deeperdarker:sculk_stone_gold_ore', 'minecraft:raw_gold')
+    potting('deeperdarker:gloomslate_gold_ore', 'minecraft:raw_gold')
+    potting('meadow:alpine_gold_ore', 'minecraft:raw_gold')
+    potting('undergarden:depthrock_gold_ore', 'minecraft:raw_gold')
+    potting('minecraft:redstone_ore', 'kubejs:raw_redstone')
+    potting('minecraft:deepslate_redstone_ore', 'kubejs:raw_redstone')
+    potting('alexscaves:guanostone_redstone_ore', 'kubejs:raw_redstone')
+    potting('deeperdarker:sculk_stone_redstone_ore', 'kubejs:raw_redstone')
+    potting('deeperdarker:gloomslate_redstone_ore', 'kubejs:raw_redstone')
+    potting('meadow:alpine_redstone_ore', 'kubejs:raw_redstone')
+    potting('minecraft:emerald_ore', 'kubejs:raw_emerald')
+    potting('minecraft:deepslate_emerald_ore', 'kubejs:raw_emerald')
+    potting('deeperdarker:sculk_stone_emerald_ore', 'kubejs:raw_emerald')
+    potting('deeperdarker:gloomslate_emerald_ore', 'kubejs:raw_emerald')
+    potting('meadow:alpine_emerald_ore', 'kubejs:raw_emerald')
+    potting('minecraft:lapis_ore', 'kubejs:raw_lapis_lazuli')
+    potting('minecraft:deepslate_lapis_ore', 'kubejs:raw_lapis_lazuli')
+    potting('deeperdarker:sculk_stone_lapis_ore', 'kubejs:raw_lapis_lazuli')
+    potting('deeperdarker:gloomslate_lapis_ore', 'kubejs:raw_lapis_lazuli')
+    potting('meadow:alpine_lapis_ore', 'kubejs:raw_lapis_lazuli')
+    potting('minecraft:diamond_ore', 'kubejs:raw_diamond')
+    potting('minecraft:deepslate_diamond_ore', 'kubejs:raw_diamond')
+    potting('deeperdarker:sculk_stone_diamond_ore', 'kubejs:raw_diamond')
+    potting('deeperdarker:gloomslate_diamond_ore', 'kubejs:raw_diamond')
+    potting('meadow:alpine_diamond_ore', 'kubejs:raw_diamond')
+    potting('undergarden:depthrock_diamond_ore', 'kubejs:raw_diamond')
+    potting('undergarden:shiverstone_diamond_ore', 'kubejs:raw_diamond')
+    potting('minecraft:nether_quartz_ore', 'kubejs:raw_quartz')
+    potting('ancient_aether:aether_quartz_ore', 'kubejs:raw_quartz')
+    potting('create:zinc_ore', 'create:raw_zinc')
+    potting('create:deepslate_zinc_ore', 'create:raw_zinc')
+    potting('enlightened_end:malachite_ore', 'kubejs:raw_malachite')
+    potting('enlightened_end:irradium_ore', 'enlightened_end:raw_irradium')
+    potting('enlightened_end:bismuth_ore', 'enlightened_end:raw_bismuth')
+    potting('epicsamurai:ruby_ore', 'kubejs:raw_ruby')
+    potting('epicsamurai:deepslate_ruby_ore', 'kubejs:raw_ruby')
+    potting('epicsamurai:jade_ore', 'kubejs:raw_jade')
+    potting('epicsamurai:deepslate_jade_ore', 'kubejs:raw_jade')
+    potting('epicsamurai:aquamarine_ore', 'kubejs:raw_aquamarine')
+    potting('epicsamurai:deepslate_aquamarine_ore', 'kubejs:raw_aquamarine')
+    potting('epicsamurai:onyx_ore', 'kubejs:raw_onyx')
+    potting('epicsamurai:deepslate_onyx_ore', 'kubejs:raw_onyx')
+    potting('epicsamurai:silver_ore', 'epicsamurai:raw_silver')
+    potting('epicsamurai:deepslate_silver_ore', 'epicsamurai:raw_silver')
+    potting('rftoolsbase:dimensionalshard_overworld', 'kubejs:raw_dimensional')
+    potting('rftoolsbase:dimensionalshard_nether', 'kubejs:raw_dimensional')
+    potting('rftoolsbase:dimensionalshard_end', 'kubejs:raw_dimensional')
+    potting('stalwart_dungeons:tungsten_ore', 'stalwart_dungeons:raw_tungsten')
+    potting('stalwart_dungeons:chorundum_ore', 'kubejs:raw_chorundum')
+    potting('aether:ambrosium_ore', 'kubejs:raw_ambrosium')
+    potting('aether:zanite_ore', 'kubejs:raw_zanite')
+    potting('aether:gravitite_ore', 'kubejs:raw_gravitite')
+    potting('undergarden:depthrock_cloggrum_ore', 'undergarden:raw_cloggrum')
+    potting('undergarden:shiverstone_cloggrum_ore', 'undergarden:raw_cloggrum')
+    potting('undergarden:shiverstone_froststeel_ore', 'undergarden:raw_froststeel')
+    potting('undergarden:depthrock_utherium_ore', 'kubejs:raw_utherium')
+    potting('undergarden:shiverstone_utherium_ore', 'kubejs:raw_utherium')
+    potting('undergarden:depthrock_regalium_ore', 'kubejs:raw_regalium')
+    potting('undergarden:shiverstone_regalium_ore', 'kubejs:raw_regalium')
+    potting('farlanders:endumium_ore', 'kubejs:raw_endumium')
+    potting('farlanders:deepslate_endumium_ore', 'kubejs:raw_endumium')
+    potting('mekanism:tin_ore', 'mekanism:raw_tin')
+    potting('mekanism:deepslate_tin_ore', 'mekanism:raw_tin')
+    potting('mekanism:osmium_ore', 'mekanism:raw_osmium')
+    potting('mekanism:deepslate_osmium_ore', 'mekanism:raw_osmium')
+    potting('mekanism:uranium_ore', 'mekanism:raw_uranium')
+    potting('mekanism:deepslate_uranium_ore', 'mekanism:raw_uranium')
+    potting('alexscaves:radrock_uranium_ore', 'mekanism:raw_uranium')
+    potting('mekanism:fluorite_ore', 'kubejs:raw_fluorite')
+    potting('mekanism:deepslate_fluorite_ore', 'kubejs:raw_fluorite')
+    potting('mekanism:lead_ore', 'mekanism:raw_lead')
+    potting('mekanism:deepslate_lead_ore', 'mekanism:raw_lead')
+    potting('minecraft:ancient_debris', 'kubejs:raw_netherite')
+    potting('lolenderite:primordial_remnants', 'kubejs:raw_enderite')
+})
 
 // Processing - Ores -> Raw Material
 ServerEvents.recipes(e => {
@@ -201,7 +320,7 @@ ServerEvents.recipes(e => {
     potting('forge:ores/aquamarine', 'kubejs:raw_aquamarine')
     potting('forge:ores/onyx', 'kubejs:raw_onyx')
     potting('forge:ores/silver', 'epicsamurai:raw_silver')
-    potting('forge:ores/dimensional_shard', 'kubejs:raw_dimensionalshard')
+    potting('forge:ores/dimensional_shard', 'kubejs:raw_dimensional')
     potting('forge:ores/tungsten', 'stalwart_dungeons:raw_tungsten')
     potting('forge:ores/chorundum', 'kubejs:raw_chorundum')
     potting('forge:ores/ambrosium', 'kubejs:raw_ambrosium')
@@ -253,7 +372,7 @@ ServerEvents.recipes(e => {
     potting('forge:ores/aquamarine', 'kubejs:raw_aquamarine')
     potting('forge:ores/onyx', 'kubejs:raw_onyx')
     potting('forge:ores/silver', 'epicsamurai:raw_silver')
-    potting('forge:ores/dimensional_shard', 'kubejs:raw_dimensionalshard')
+    potting('forge:ores/dimensional_shard', 'kubejs:raw_dimensional')
     potting('forge:ores/tungsten', 'stalwart_dungeons:raw_tungsten')
     potting('forge:ores/chorundum', 'kubejs:raw_chorundum')
     potting('forge:ores/ambrosium', 'kubejs:raw_ambrosium')
@@ -307,7 +426,7 @@ ServerEvents.recipes(e => {
     potting('kubejs:raw_aquamarine', 'kubejs:clump_aquamarine')
     potting('kubejs:raw_onyx', 'kubejs:clump_onyx')
     potting('epicsamurai:raw_silver', 'kubejs:clump_silver')
-    potting('kubejs:raw_dimensionalshard', 'kubejs:clump_dimensionalshard')
+    potting('kubejs:raw_dimensional', 'kubejs:clump_dimensional')
     potting('stalwart_dungeons:raw_tungsten', 'kubejs:clump_tungsten')
     potting('kubejs:raw_chorundum', 'kubejs:clump_chorundum')
     potting('kubejs:raw_ambrosium', 'kubejs:clump_ambrosium')
@@ -667,8 +786,8 @@ ServerEvents.recipes(e => {
     potting('kubejs:dirty_dust_silver', '4', 2.8, 'epicsamurai:silver_ingot')
     potting('kubejs:dust_silver', '5', 3.5, 'epicsamurai:silver_ingot')
     potting('kubejs:crystal_silver', '6', 4.2, 'epicsamurai:silver_ingot')
-    potting('kubejs:raw_dimensionalshard', '1', 0.7, 'rftoolsbase:dimensionalshard')
-    potting('kubejs:clump_dimensionalshard', '2', 1.4, 'rftoolsbase:dimensionalshard')
+    potting('kubejs:raw_dimensional', '1', 0.7, 'rftoolsbase:dimensionalshard')
+    potting('kubejs:clump_dimensional', '2', 1.4, 'rftoolsbase:dimensionalshard')
     potting('stalwart_dungeons:raw_tungsten', '1', 0.7, 'stalwart_dungeons:tungsten_ingot')
     potting('kubejs:clump_tungsten', '2', 1.4, 'stalwart_dungeons:tungsten_ingot')
     potting('kubejs:shard_tungsten', '3', 2.1, 'stalwart_dungeons:tungsten_ingot')
@@ -886,8 +1005,8 @@ ServerEvents.recipes(e => {
     potting('kubejs:dirty_dust_silver', '4', 2.8, 'epicsamurai:silver_ingot')
     potting('kubejs:dust_silver', '5', 3.5, 'epicsamurai:silver_ingot')
     potting('kubejs:crystal_silver', '6', 4.2, 'epicsamurai:silver_ingot')
-    potting('kubejs:raw_dimensionalshard', '1', 0.7, 'rftoolsbase:dimensionalshard')
-    potting('kubejs:clump_dimensionalshard', '2', 1.4, 'rftoolsbase:dimensionalshard')
+    potting('kubejs:raw_dimensional', '1', 0.7, 'rftoolsbase:dimensionalshard')
+    potting('kubejs:clump_dimensional', '2', 1.4, 'rftoolsbase:dimensionalshard')
     potting('stalwart_dungeons:raw_tungsten', '1', 0.7, 'stalwart_dungeons:tungsten_ingot')
     potting('kubejs:clump_tungsten', '2', 1.4, 'stalwart_dungeons:tungsten_ingot')
     potting('kubejs:shard_tungsten', '3', 2.1, 'stalwart_dungeons:tungsten_ingot')

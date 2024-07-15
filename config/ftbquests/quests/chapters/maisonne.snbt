@@ -5,6 +5,32 @@
 	group: "7B8630C608C42520"
 	icon: "fantasyfurniture:venthyr/bed_single"
 	id: "40B633D69B85E403"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/ftbquests/ame.png"
+			rotation: 0.0d
+			width: 1.83d
+			x: -0.75d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/bed.png"
+			rotation: 0.0d
+			width: 5.95d
+			x: -4.75d
+			y: 2.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/dum.png"
+			rotation: 0.0d
+			width: 3.7d
+			x: 3.25d
+			y: -2.75d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -15,6 +41,7 @@
 				"- Additional Lanterns"
 				"- Additionl Lights"
 				"- Alex's Caves"
+				"- Amendments"
 				"- AntiBlocksReChiseled"
 				"- Arcane Lanterns"
 				"- Better Archeology"
@@ -23,6 +50,7 @@
 				"- Connected Glass"
 				"- Create"
 				"- Domum Ornamentum"
+				"- 'Dustrial Decor"
 				"- Enlightend"
 				"- Even Better Amethyst"
 				"- Fantasy's Furniture"
@@ -99,27 +127,6 @@
 		{
 			dependencies: ["2AB324048647901F"]
 			description: [
-				"Littéralement un moyen d'automatiser tout ce qui concerne les plantes. Selon le terreau utilisé, cela peut produire plus ou moins vite. La version avec hopper permet de transmettre la production automatiquement dans l'inventaire en dessous de lui."
-				""
-				"Peut être coloré avec un colorant en cliquant dessus."
-			]
-			id: "0096FAF6BE84BCAC"
-			rewards: [{
-				id: "1E3778A23FDE8D2A"
-				item: "botanypots:terracotta_hopper_botany_pot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "593C00DF2C24266B"
-				item: "botanypots:terracotta_hopper_botany_pot"
-				type: "item"
-			}]
-			x: 3.75d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2AB324048647901F"]
-			description: [
 				"Un mod de cuisine. Pour avoir la Cow in a Jar, placez une Jar sous une vache, et écrasez la avec une enclume. Vous aurez une production de lait infinie qui peut être extrait via un câble."
 				""
 				"Le sink permet d'avoir de l'eau à l'infini. Peut être extrait via un câble."
@@ -145,42 +152,6 @@
 			title: "CookingForBlockheads"
 			x: 0.25d
 			y: -2.0d
-		}
-		{
-			dependencies: ["2276E6E36CE4E6D3"]
-			description: ["Un moyen pratique de poser des blocs."]
-			id: "762E6F003CDDCFC0"
-			rewards: [{
-				count: 64
-				id: "1EBF117CF1A23767"
-				item: "minecraft:dirt"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5D0A494689738A28"
-					item: {
-						Count: 1b
-						id: "constructionwand:infinity_wand"
-						tag: {
-							wand_options: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "471DA8BCEECD1B3D"
-					item: "constructionwand:core_angel"
-					type: "item"
-				}
-				{
-					id: "116B5FC00B3FE9E2"
-					item: "constructionwand:core_destruction"
-					type: "item"
-				}
-			]
-			x: -3.75d
-			y: 2.0d
 		}
 		{
 			dependencies: ["2276E6E36CE4E6D3"]
@@ -322,7 +293,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			description: ["Un moyen de téléportation verticale."]
@@ -438,6 +409,108 @@
 			}]
 			x: -3.75d
 			y: -2.0d
+		}
+		{
+			description: ["Un bloc que vous pouvez poser dans les airs. Idéal pour construire une base volante par exemple !"]
+			id: "5C7A4A40F0C1C0BE"
+			rewards: [{
+				id: "049C5B877AE56854"
+				item: "moa_decor_toys:gallinayzombie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "302C93DB815ECAC6"
+				item: "angelblockrenewed:angel_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"4CD97A9F6DD0BF6B"
+				"2655A092B94CC321"
+				"1C153A9705DF6EC5"
+				"2D3AB5E2D9D753EA"
+				"266845707E978BD1"
+				"6C0A31162D1F5832"
+				"6B27CB3F6A4CAEE6"
+				"33D071362877DCA7"
+				"2D6CD92D46483B29"
+				"5C7A4A40F0C1C0BE"
+				"5E276DFF3E4A4FE5"
+				"698FF2B2C0249395"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "2B9069629B5A6ABA"
+			rewards: [{
+				id: "0AA697A056D13EC4"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:maison"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "11ADB523C0235E5E"
+				title: "Maisonnées complété !"
+				type: "checkmark"
+			}]
+			title: "Maisonnée complété !"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Vous rêvez d'avoir votre propre vignoble ? Et bien c'est possible ! "
+				""
+				"Pour commencer, vous devrez trouver des graines : vous pouvez les avoir, soit en explorant, soit avec un PNJ qui viendra vous rendre visite de temps en temps. "
+				""
+				"Avec ce résin, vous pourrez le jeter dans le Grapvine Pot, puis l'écraser en sautant dessus. Utilisez une Vine Bottle lorsque cela est fait. Voilà, vous avez votre premier vin ! Vous pouvez le transformer en le plaçant dans un Agin Barrel (voir JEI). "
+				""
+				"La Apple Press permet d'avoir du Apple Mash."
+			]
+			id: "74F49B8BE298582A"
+			rewards: [{
+				id: "7A21CE3C9BB8FCA9"
+				item: "vinery:calendar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "536E613273B89504"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "4A7C605417D20DEA"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					id: "2EA66340AF2BA95E"
+					item: "vinery:wine_press"
+					type: "item"
+				}
+				{
+					id: "17F252D5383AF39D"
+					item: "vinery:wine_bottle"
+					type: "item"
+				}
+			]
+			title: "Vinery"
+			x: 5.0d
+			y: 1.0d
 		}
 	]
 	title: "Maisonnée"

@@ -5,6 +5,40 @@
 	group: "7798244B59ABC64D"
 	icon: "create:wrench"
 	id: "3D71719278E5606A"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:item/arcane_gold_gear"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.25d
+			y: -4.25d
+		}
+		{
+			height: 3.0d
+			image: "create:item/blaze_cake"
+			rotation: 20.0d
+			width: 3.0d
+			x: -5.75d
+			y: 4.25d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/potato.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.75d
+			y: -4.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/blaze.png"
+			rotation: 15.0d
+			width: 8.85d
+			x: 6.25d
+			y: 5.75d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -28,8 +62,8 @@
 				type: "item"
 			}]
 			title: "Clipboard"
-			x: -1.5d
-			y: -2.5d
+			x: -1.75d
+			y: -2.75d
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
@@ -81,7 +115,7 @@
 				}
 			]
 			title: "Les bases"
-			x: -2.0d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -106,8 +140,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: -5.5d
+			x: 2.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
@@ -409,8 +443,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -6.25d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3B75B51AD1DE7D9D"]
@@ -609,8 +643,8 @@
 				item: "create:redstone_link"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.0d
+			x: -2.0d
+			y: -5.25d
 		}
 		{
 			dependencies: ["6827E33B6A9C1252"]
@@ -660,7 +694,7 @@
 				}
 			]
 			x: 2.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6827E33B6A9C1252"]
@@ -702,8 +736,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -6.25d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["044A732DB52C6B8C"]
@@ -777,8 +811,8 @@
 				item: "create:wrench"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 1.75d
+			y: -2.75d
 		}
 		{
 			dependencies: ["6827E33B6A9C1252"]
@@ -795,8 +829,8 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: 0.0d
+			y: -5.25d
 		}
 		{
 			description: [
@@ -1084,26 +1118,94 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6827E33B6A9C1252"]
-			description: [
-				"Les Voids Chests et Tanks sont des Ender Chests auxquels vous pouvez appliqués une fréquence, et peuvent être liés au joueur ou non. Deux Ender Chests / Tanks qui ont la même fréquence contiennent la même chose."
-				""
-				"Les changements de fréquence se font par l'arrière."
+			dependencies: [
+				"30FE9B8E85F5C991"
+				"7E51EE75825ED530"
+				"0A5BA5686ADD6AD0"
+				"1A98268B9FBDE257"
+				"5F64CCE2106FEA61"
+				"1AB10E85D15C7E1E"
+				"33560AAD94EE5A55"
+				"03D8746ACE4DF78A"
+				"3CCB0B40B7272B28"
+				"76B5A6667B09CF5C"
+				"22788C9FBCA5F376"
+				"7BEB742299606DC1"
+				"63AF0964A44899CD"
+				"2680653B5BBF4CDC"
+				"02F97B175F30CDB0"
+				"4DF4BF839C774278"
+				"2D1338443588FD6A"
+				"4753123B6345601C"
+				"67C52B580FF8229C"
+				"02372505F3A5574D"
+				"2FE5B07B3D72E1B3"
+				"1873C0E0BEDDC008"
+				"6DD5F2B95CCE54E6"
+				"24AB33D36230AFD1"
+				"2C4EB289C5FECE47"
+				"2C023A27F5760468"
+				"6AEAEA8B9CF60C4C"
+				"326D2ACE50925864"
+				"4C1664069B886599"
+				"5625B06235EE3EDC"
+				"3C1868D46F599D2D"
+				"5C1DF396430009E4"
+				"169485A6CE91F6B5"
 			]
-			id: "02DC6F864329FAC2"
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "0A494C9B538D82F4"
 			rewards: [{
-				id: "059B357CC207D091"
-				item: "createutilities:void_tank"
+				id: "4F66DBF0AE5BC953"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:create"
+						}
+					}
+				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
-				id: "38624E1D1E7DBE7C"
-				item: "createutilities:void_chest"
+				id: "5355F4B231C45CF9"
+				title: "Create complété !"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34BEBBD8E21C2D8F"]
+			id: "2EDAD0BB0913EAE0"
+			tasks: [{
+				id: "0160DE0432F6CDF6"
+				item: {
+					Count: 1b
+					id: "createsifter:custom_mesh"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "Transport d'item et de fluid interdimension"
-			x: 1.5d
-			y: -2.5d
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2EDAD0BB0913EAE0"]
+			id: "6AEAEA8B9CF60C4C"
+			tasks: [{
+				id: "18E7D123D8149663"
+				item: "createsifter:advanced_custom_mesh"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.75d
 		}
 	]
 	title: "Create"

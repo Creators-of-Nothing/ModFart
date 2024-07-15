@@ -1,5 +1,8 @@
 {
-  "order": 120,
+  "replace": true,
+  "render_toggle":true,
+  "operation": "SET",
+  "order": 13,
   "size": 1,
   "icon": "kubejs:slot/empty_bundle_slot"
 }

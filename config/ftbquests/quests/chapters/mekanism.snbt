@@ -16,6 +16,56 @@
 		}
 	}
 	id: "5FC69B5B2DA36977"
+	images: [
+		{
+			height: 4.0d
+			image: "kubejs:textures/ftbquests/outils.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 6.0d
+			y: -4.75d
+		}
+		{
+			height: 12.0d
+			image: "kubejs:textures/ftbquests/dupli.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -10.75d
+			y: -8.25d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/ftbquests/energie.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: 4.25d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/ftbquests/machines.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -11.0d
+			y: -3.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/solar.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: -9.75d
+			y: 6.0d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/armor.png"
+			rotation: 0.0d
+			width: 4.55d
+			x: -0.25d
+			y: -7.75d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -33,12 +83,11 @@
 				item: "mekanism:metallurgic_infuser"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -18.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D9D6A91D39E0AB5"]
-			description: ["Ces tiers Installers permettent d'améliorer la plupart des machines pour leur donner plus d'inputs et d'outputs."]
+			description: ["Ces tier Installers permettent d'améliorer la plupart des machines pour leur donner plus d'inputs et d'outputs. Il suffit de cliquer sur une machine avec pour l'améliorer sans la casser."]
 			id: "5594F5956C67CF07"
 			rewards: [{
 				id: "2A18BFE1A936A859"
@@ -67,11 +116,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -2.0d
+			title: "Tier Installers"
+			x: -4.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6D9D6A91D39E0AB5"]
 			description: ["Ces upgrades permettent d'améliorer vos machines. L'Anchor upgrade permet de chunkload votre digital miner sans avoir à utiliser FTB Chunk."]
 			id: "5A267EF072657B24"
 			rewards: [
@@ -112,11 +161,11 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			title: "Upgrades"
+			x: -6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["1E93FC8FDCA0FFCB"]
 			description: [
 				"Génère de l'énergie le jour. Un panneau solaire quoi."
 				""
@@ -134,8 +183,8 @@
 				item: "mekanismgenerators:solar_generator"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3FBE4D8CC6305FA1"]
@@ -151,8 +200,8 @@
 				item: "solarpanels:advanced_solar_panel"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["345E9FDAEF8BE9F4"]
@@ -168,8 +217,8 @@
 				item: "solarpanels:hybrid_solar_panel"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 6.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6A9FDCEA9156DA14"]
@@ -185,8 +234,8 @@
 				item: "solarpanels:ultimate_hybrid_solar_panel"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["42733526B0307AE7"]
@@ -202,8 +251,8 @@
 				item: "solarpanels:quantum_solar_panel"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["39A9BFE9BB7A7D96"]
@@ -219,8 +268,8 @@
 				item: "solarpanels:spectral_solar_panel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4D2D30AE63404ADB"]
@@ -236,8 +285,8 @@
 				item: "solarpanels:singular_solar_panel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["585B4F03431EC3BA"]
@@ -253,8 +302,8 @@
 				item: "solarpanels:light_absorbing_solar_panel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.0d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6168774DCAE05AB0"]
@@ -271,11 +320,10 @@
 				item: "solarpanels:photonic_solar_panel"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 8.5d
+			y: 7.75d
 		}
 		{
-			dependencies: ["1E93FC8FDCA0FFCB"]
 			description: ["Une génération d'énergie. Plus il est placé haut dans le monde, plus il génère !"]
 			id: "05F30877B3C1A61C"
 			rewards: [{
@@ -288,11 +336,10 @@
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -5.5d
+			y: 7.75d
 		}
 		{
-			dependencies: ["6D9D6A91D39E0AB5"]
 			description: ["Du stockage d'énergie."]
 			id: "1E93FC8FDCA0FFCB"
 			rewards: [{
@@ -306,8 +353,8 @@
 				item: "mekanism:basic_energy_cube"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -3.5d
+			y: 7.75d
 		}
 		{
 			dependencies: ["1E93FC8FDCA0FFCB"]
@@ -324,8 +371,8 @@
 				item: "mekanism:advanced_energy_cube"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: -1.5d
+			y: 7.75d
 		}
 		{
 			dependencies: ["13C690AC2BD21411"]
@@ -342,8 +389,8 @@
 				item: "mekanism:elite_energy_cube"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 0.5d
+			y: 7.75d
 		}
 		{
 			dependencies: ["64F915AC528B8FCF"]
@@ -360,8 +407,8 @@
 				item: "mekanism:ultimate_energy_cube"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.5d
+			x: 2.5d
+			y: 7.75d
 		}
 		{
 			dependencies: ["4B2ED6BA58E4AF90"]
@@ -377,8 +424,8 @@
 				item: "mekanism:quantum_entangloporter"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -3.0d
+			x: -6.0d
+			y: -2.25d
 		}
 		{
 			description: ["Un tank qui peut accueillir n'importe quel liquide."]
@@ -394,8 +441,8 @@
 				item: "mekanism:basic_fluid_tank"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2C947536349333A1"]
@@ -412,8 +459,8 @@
 				item: "mekanism:advanced_fluid_tank"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["369302AC6E2B2275"]
@@ -430,8 +477,8 @@
 				item: "mekanism:elite_fluid_tank"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 7.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4E4434F3B2121A65"]
@@ -448,8 +495,8 @@
 				item: "mekanism:ultimate_fluid_tank"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.5d
+			x: 9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7A7203562ADB2231"]
@@ -487,8 +534,8 @@
 				}
 			]
 			title: "Les meilleurs câbles"
-			x: 8.0d
-			y: 2.0d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			description: ["Cet outils permet de configurer les câbles. Faites clic droit avec le configurator sur le câble pour le mettre en mode extration ou insertion."]
@@ -504,8 +551,8 @@
 				item: "mekanism:configurator"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			description: ["Un outil configurable qui peut remplacer vos pioches, hâches, et pelles."]
@@ -521,11 +568,10 @@
 				item: "mekanism:atomic_disassembler"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 5.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["49E810B9ACB96135"]
 			description: ["Un Jetpack qui fonctionne à l'hydrogen. Très bon déplacement vertical, assez mauvais déplacement horizontal."]
 			id: "2EDE31B304F870BF"
 			rewards: [{
@@ -539,8 +585,8 @@
 				item: "mekanism:jetpack"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2EDE31B304F870BF"]
@@ -557,8 +603,8 @@
 				item: "mekanism:jetpack_armored"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6A3EB1C208652E8A"]
@@ -575,11 +621,10 @@
 				item: "mekanism:meka_tool"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 7.0d
+			y: -1.25d
 		}
 		{
-			dependencies: ["6D9D6A91D39E0AB5"]
 			description: [
 				"Permet de copier coller les configurations des machines."
 				""
@@ -596,8 +641,8 @@
 				item: "mekanism:configuration_card"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.5d
+			x: 9.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["1450F3CB3D0F9BD3"]
@@ -613,11 +658,10 @@
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -10.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6D9D6A91D39E0AB5"]
 			description: ["Une machine qui permet de miner tout ce que vous lui demandez de miner. Penser à lui donner un Anchor Upgrad pour qu'elle reste chunk loader. Attention, elle est gourmande en énergie, surtout en activant le mode Silk Touch."]
 			id: "1FBF7D650A3A30AC"
 			rewards: [{
@@ -631,8 +675,8 @@
 				item: "mekanism:digital_miner"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 3.0d
+			y: -1.25d
 		}
 		{
 			description: ["Cette table permet d'ajouter des upgrades à votre MekaSuit et MekaTool."]
@@ -648,8 +692,8 @@
 				item: "mekanism:modification_station"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 3.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["04EE5424A1754765"]
@@ -665,8 +709,8 @@
 				item: "mekanism:module_base"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 7.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["542AA485877BAE73"]
@@ -701,8 +745,8 @@
 				}
 			]
 			title: "MekaSuit"
-			x: 6.0d
-			y: 5.0d
+			x: 5.0d
+			y: 2.25d
 		}
 		{
 			dependencies: ["50A8E4BE6D498D42"]
@@ -719,8 +763,8 @@
 				item: "mekanism:module_gravitational_modulating_unit"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 9.0d
+			y: 2.25d
 		}
 		{
 			description: [
@@ -742,11 +786,10 @@
 				title: "Mekanism mais version SIMPLE"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.75d
+			x: -0.75d
+			y: 0.75d
 		}
 		{
-			dependencies: ["6D9D6A91D39E0AB5"]
 			description: [
 				"Le crusher permet de briser vos items. "
 				""
@@ -774,8 +817,8 @@
 				}
 			]
 			title: "Crusher et duplication de minerais"
-			x: 2.0d
-			y: 0.0d
+			x: -16.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["31319053678AA8B4"]
@@ -803,8 +846,8 @@
 					type: "item"
 				}
 			]
-			x: 8.25d
-			y: 0.0d
+			x: -10.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2F4AF8E2571E2384"]
@@ -832,8 +875,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.0d
+			x: -14.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4EEE056734D491B1"]
@@ -861,12 +904,13 @@
 					type: "item"
 				}
 			]
-			x: 12.75d
-			y: 0.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6D9D6A91D39E0AB5"]
 			description: ["A besoin d'un input de gaz pour fonctionner."]
+			hide_dependency_lines: true
 			id: "169978E6DFD877F0"
 			rewards: [{
 				id: "310D4981087F7190"
@@ -879,8 +923,8 @@
 				item: "mekanism:osmium_compressor"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.0d
+			x: -10.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["6D9D6A91D39E0AB5"]
@@ -896,12 +940,13 @@
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: -16.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["6D9D6A91D39E0AB5"]
 			description: ["Un moyen de scier automatiquement des choses."]
+			hide_dependency_lines: true
 			id: "1450F3CB3D0F9BD3"
 			rewards: [{
 				id: "52C2AF1CC60E8CF6"
@@ -914,8 +959,8 @@
 				item: "mekanism:precision_sawmill"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 0.0d
+			x: -12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["169978E6DFD877F0"]
@@ -948,8 +993,8 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: -1.5d
+			x: -8.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["6130E471BF7A0BC3"]
@@ -966,12 +1011,13 @@
 				item: "mekanism:chemical_crystallizer"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6D9D6A91D39E0AB5"]
 			description: ["Permet de transformer des liquides en gaz et inversement."]
+			hide_dependency_lines: true
 			id: "2771B615A59BC723"
 			rewards: [{
 				id: "25374219DD7F62E1"
@@ -984,8 +1030,8 @@
 				item: "mekanism:rotary_condensentrator"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6D9D6A91D39E0AB5"]
@@ -1009,7 +1055,7 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
+			x: -16.0d
 			y: 0.0d
 		}
 		{
@@ -1027,8 +1073,8 @@
 				item: "mekanism:painting_machine"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 1.5d
+			x: -14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7F5D3CDEE2A23E6C"]
@@ -1062,8 +1108,8 @@
 				}
 			]
 			title: "Plutonium et Polonium"
-			x: -10.5d
-			y: 3.0d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["26BFFE303C1847FD"]
@@ -1117,8 +1163,8 @@
 				}
 			]
 			title: "Le plus gros stockage d'énergie"
-			x: 1.5d
-			y: 6.5d
+			x: 4.5d
+			y: 7.75d
 		}
 		{
 			dependencies: ["49E810B9ACB96135"]
@@ -1135,8 +1181,8 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -14.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["1796B532B7EB70CB"]
@@ -1153,8 +1199,8 @@
 				item: "mekanism:hdpe_pellet"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -12.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["68E9F42AF74C76E6"]
@@ -1169,10 +1215,11 @@
 				item: "mekanism:pellet_antimatter"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["6D9D6A91D39E0AB5"]
 			description: [
 				"Cette machine peut être comprise entre 3 et 18 blocs de haut. Elle fonctionne avec la chaleur, donc mettre ces advanced solar panels ou placer la machine dans un désert. Elle n'a pas besoin d'énergie. "
 				""
@@ -1210,7 +1257,7 @@
 				}
 			]
 			title: "Thermal Evaporation Plant"
-			x: -6.5d
+			x: -16.0d
 			y: 2.0d
 		}
 		{
@@ -1229,8 +1276,8 @@
 				item: "mekanism:dust_lithium"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.0d
+			x: -14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19C20E7238BDC578"]
@@ -1247,8 +1294,8 @@
 				item: "mekanism:chemical_infuser"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.5d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50E2B85A6AF866A3"]
@@ -1265,8 +1312,8 @@
 				item: "mekanism:chemical_oxidizer"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 4.5d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["12FB3BFF34220211"]
@@ -1294,8 +1341,8 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
-			y: 0.0d
+			x: -8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1755BE2626105917"]
@@ -1323,8 +1370,60 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"385FFB651F7ACC4B"
+				"0E881B17DA00A255"
+				"6095614E1DE77BD9"
+				"0299884A3DDED2F3"
+				"21ED667CF2F61329"
+				"10D59EE499A0A3A4"
+				"2771B615A59BC723"
+				"5A267EF072657B24"
+				"5594F5956C67CF07"
+				"358EBA8422B2D26C"
+				"00211C90AB5057D1"
+				"448DE38F50B3E8A5"
+				"1FBF7D650A3A30AC"
+				"4BDBD03959AB441E"
+				"627068FF38A9DD38"
+				"5BE9A75A8FCF79F0"
+				"27F087C19108286C"
+				"05F30877B3C1A61C"
+				"38C9BB5ADCFD458F"
+				"25D45827D4E64E53"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "130D15BCF3A4AFC8"
+			rewards: [{
+				id: "5EAE218525EA9244"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:mekanism"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "614F096E0E2ECED3"
+				title: "Mekanism fini !"
+				type: "checkmark"
+			}]
+			title: "Mekanism complété !"
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 	title: "Mekanism"

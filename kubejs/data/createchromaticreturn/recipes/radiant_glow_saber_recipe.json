@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " B ",
-    " B ",
-    "GEG",
+    " E ",
     "GXG",
+    "GMG",
     " A "
   ],
   "key": {
@@ -19,6 +19,9 @@
     },
     "G": {
       "item": "createchromaticreturn:cyber_plating"
+    },
+    "M": {
+      "item": "mekaweapons:mekatana"
     },
     "A": {
       "item": "moreplates:steel_rod"

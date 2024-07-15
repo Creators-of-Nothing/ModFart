@@ -5,6 +5,32 @@
 	group: "330F5450D49BBA54"
 	icon: "minecraft:wither_skeleton_skull"
 	id: "2679C9FE65696F7B"
+	images: [
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/abeille.png"
+			rotation: 0.0d
+			width: 12.39d
+			x: -14.25d
+			y: -5.25d
+		}
+		{
+			height: 10.0d
+			image: "kubejs:textures/ftbquests/warden.png"
+			rotation: 0.0d
+			width: 6.7d
+			x: 20.0d
+			y: -3.25d
+		}
+		{
+			height: 20.0d
+			image: "kubejs:textures/ftbquests/worm.png"
+			rotation: 0.0d
+			width: 35.5555d
+			x: 4.0d
+			y: 12.25d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -21,8 +47,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -5.75d
-			y: 5.25d
+			x: -4.25d
+			y: 1.25d
 		}
 		{
 			id: "5A6914E9F9911989"
@@ -37,8 +63,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -7.75d
+			y: 1.25d
 		}
 		{
 			id: "17A5E0FC97DDAB69"
@@ -53,8 +79,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -2.75d
-			y: 4.25d
+			x: -7.25d
+			y: -1.25d
 		}
 		{
 			id: "439ADADC43D3A709"
@@ -69,8 +95,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			id: "66FA155F6DBD3699"
@@ -85,8 +111,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
 			id: "0BA0004780B8DEEA"
@@ -101,8 +127,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -4.5d
-			y: 3.5d
+			x: -8.0d
+			y: 0.0d
 		}
 		{
 			id: "3F015B9F62C140E1"
@@ -118,8 +144,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -4.0d
-			y: -5.5d
+			x: -6.25d
+			y: -6.75d
 		}
 		{
 			id: "1B75E54AC2CB0986"
@@ -135,8 +161,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -5.75d
+			y: -5.5d
 		}
 		{
 			id: "7BF3A35950838CB4"
@@ -152,8 +178,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -9.75d
+			y: -6.75d
 		}
 		{
 			id: "69D0F6CD3B7AF70E"
@@ -169,8 +195,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -3.25d
-			y: -3.75d
+			x: -10.25d
+			y: -5.5d
 		}
 		{
 			description: ["Les mutants sont trouvables dans la nature. Ils peuvent être spawné de force en jetant une potion Chemical X sur le mob approprié (50% de chance de succès). "]
@@ -187,8 +213,8 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -4.75d
-			y: -3.75d
+			x: -8.0d
+			y: -6.5d
 		}
 		{
 			id: "0CA9AF7B9CF7ABC0"
@@ -204,8 +230,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -6.75d
+			x: 2.25d
+			y: -4.0d
 		}
 		{
 			id: "7BBFCE25EF2973D6"
@@ -221,8 +247,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: -9.25d
+			x: -3.0d
+			y: -7.0d
 		}
 		{
 			id: "7231BE710A7046BC"
@@ -238,8 +264,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.0d
-			y: -8.25d
+			x: 3.0d
+			y: -5.0d
 		}
 		{
 			id: "22D7387DBF855794"
@@ -255,8 +281,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: -9.75d
+			x: 2.25d
+			y: -8.0d
 		}
 		{
 			id: "20FD77D0C95B84AE"
@@ -272,8 +298,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: -9.25d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			icon: {
@@ -294,8 +320,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: -10.75d
+			x: 1.25d
+			y: -8.75d
 		}
 		{
 			id: "20D5CA9D3A935A4C"
@@ -311,8 +337,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: -5.75d
+			x: -1.25d
+			y: -3.25d
 		}
 		{
 			icon: "creeperoverhaul:hills_creeper_spawn_egg"
@@ -330,7 +356,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -10.25d
+			y: -9.25d
 		}
 		{
 			id: "22E6B707C101DF5A"
@@ -346,8 +372,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: -10.75d
+			x: -2.25d
+			y: -8.0d
 		}
 		{
 			id: "74044A100128CA3F"
@@ -363,8 +389,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: -9.75d
+			x: -1.25d
+			y: -8.75d
 		}
 		{
 			id: "30C17B0649735CA8"
@@ -380,8 +406,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: -6.75d
+			x: -2.25d
+			y: -4.0d
 		}
 		{
 			id: "777FED10750AF15F"
@@ -397,8 +423,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.0d
-			y: -8.25d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			id: "4A880DC08E0EE190"
@@ -414,8 +440,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: -7.25d
+			x: 3.5d
+			y: -6.0d
 		}
 		{
 			id: "6BA747ED07C4ADEC"
@@ -431,8 +457,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -2.5d
-			y: -7.25d
+			x: -3.5d
+			y: -6.0d
 		}
 		{
 			id: "25BC8B23C93C097B"
@@ -449,7 +475,7 @@
 				value: 1L
 			}]
 			x: 0.0d
-			y: -6.25d
+			y: -2.75d
 		}
 		{
 			id: "334B8F4F3E54E525"
@@ -464,8 +490,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: -5.75d
+			x: 1.25d
+			y: -3.25d
 		}
 		{
 			dependencies: [
@@ -486,29 +512,30 @@
 				"25BC8B23C93C097B"
 				"334B8F4F3E54E525"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "5CBD70AD79940EA5"
 			rewards: [{
-				id: "64C5974A1E49BBB1"
+				id: "3F2744DA9902DC7D"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						display: {
-							Name: "{\"text\":\"Tueur de Creeper\",\"italic\":false}"
-						}
-					}
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Tueur de Creeper\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:creeper"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5EBBE59D70CF4107"
+				type: "checkmark"
+			}]
 			title: "Creeper-Killer !"
 			x: 0.0d
-			y: -8.25d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -523,24 +550,30 @@
 				"66143128B65A1E41"
 				"69B3D608CE068A9A"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "45052C8138D36392"
 			rewards: [{
-				id: "453323330FE9C010"
+				id: "7ECAAEAAEDBA041A"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Vanille !\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:piglin"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "570FDDDE79C1585C"
+				type: "checkmark"
+			}]
 			title: "Vanille !"
-			x: -4.0d
-			y: 5.25d
+			x: -6.0d
+			y: 0.25d
 		}
 		{
 			dependencies: [
@@ -550,23 +583,29 @@
 				"5F85BA796A387101"
 				"69D0F6CD3B7AF70E"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "53E4AF44DAFC5D84"
 			rewards: [{
-				id: "4A2D315B2B034971"
+				id: "7CC1595779B94C40"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Magnéto !\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:chemical"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "53097ACED3BB66BB"
+				type: "checkmark"
+			}]
 			title: "Magneto !"
-			x: -4.0d
+			x: -8.0d
 			y: -4.5d
 		}
 		{
@@ -585,8 +624,8 @@
 				value: 1728000
 			}]
 			title: "Un vrai Geek !"
-			x: -1.0d
-			y: -2.5d
+			x: 12.75d
+			y: -4.75d
 		}
 		{
 			description: ["Frappe 100 fois une cloche !"]
@@ -604,8 +643,8 @@
 				value: 100
 			}]
 			title: "Sonnez les matines !"
-			x: 0.0d
-			y: -5.0d
+			x: 16.5d
+			y: -4.75d
 		}
 		{
 			description: ["Pêche 100 poissons !"]
@@ -622,8 +661,8 @@
 				type: "stat"
 				value: 100
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 14.5d
+			y: -3.5d
 		}
 		{
 			description: ["Fais 50 reproductions d'animaux"]
@@ -640,8 +679,8 @@
 				type: "stat"
 				value: 50
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 11.5d
+			y: -6.5d
 		}
 		{
 			description: ["Saute 10 000 fois"]
@@ -658,8 +697,8 @@
 				type: "stat"
 				value: 10000
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 16.25d
+			y: -8.25d
 		}
 		{
 			description: ["Accroupi toi sur 1000 blocs de distance !"]
@@ -682,8 +721,8 @@
 				type: "stat"
 				value: 100000
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: 17.5d
+			y: -6.5d
 		}
 		{
 			description: ["Tu ne dois pas mourir pendant 12h !"]
@@ -700,8 +739,8 @@
 				type: "stat"
 				value: 864000
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: 12.75d
+			y: -8.25d
 		}
 		{
 			description: ["Gagne 5 raids"]
@@ -718,8 +757,8 @@
 				type: "stat"
 				value: 5
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: 14.5d
+			y: -9.5d
 		}
 		{
 			dependencies: [
@@ -732,24 +771,30 @@
 				"79784CDDD678F116"
 				"1D1C938C5A0CA4B1"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "033211D20B09E80F"
 			rewards: [{
-				id: "2AD59FE3BFADB195"
+				id: "15D22B14B6228DB7"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Pro des stats\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:stats"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "361622E56B93EF44"
+				type: "checkmark"
+			}]
 			title: "Où est mon chat ?!"
-			x: 0.0d
-			y: -3.5d
+			x: 14.5d
+			y: -6.5d
 		}
 		{
 			id: "6E2F11FC7F157E77"
@@ -764,8 +809,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.0d
-			y: -4.75d
+			x: 10.25d
+			y: -7.0d
 		}
 		{
 			id: "1357ADB20D7175AD"
@@ -780,7 +825,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
+			x: 9.25d
 			y: -4.75d
 		}
 		{
@@ -796,8 +841,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.75d
-			y: -3.75d
+			x: 6.25d
+			y: -4.75d
 		}
 		{
 			description: [
@@ -818,8 +863,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.25d
-			y: -3.75d
+			x: 7.75d
+			y: -8.5d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -839,8 +884,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Sunbird"
-			x: -6.0d
-			y: 0.0d
+			x: 6.0d
+			y: -2.75d
 		}
 		{
 			dependencies: [
@@ -850,24 +895,30 @@
 				"2316B0B134E239A0"
 				"163A8FD79B8EF495"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "5C2CF905C87DDC4D"
 			rewards: [{
-				id: "6F1F4FB4B53CF8E6"
+				id: "167BD422A5A4963C"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Des Boss inutiles ?!\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:boss"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4230893A3AE32629"
+				type: "checkmark"
+			}]
 			title: "Like a Boss !"
-			x: 4.0d
-			y: -4.5d
+			x: 7.75d
+			y: -6.5d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -886,8 +937,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Laviathan"
-			x: -5.5d
-			y: 1.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -906,8 +957,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Comb Jelly"
-			x: -4.0d
-			y: 2.0d
+			x: 7.25d
+			y: -2.5d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -926,7 +977,7 @@
 				type: "observation"
 			}]
 			title: "Observe une Nether Bat"
-			x: -2.0d
+			x: 3.25d
 			y: 0.0d
 		}
 		{
@@ -946,8 +997,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Acencia"
-			x: -5.5d
-			y: -1.5d
+			x: 3.75d
+			y: 2.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -966,8 +1017,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Direwolf"
-			x: -2.5d
-			y: 1.5d
+			x: 8.5d
+			y: 1.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -986,8 +1037,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Geckotoalizard"
-			x: -5.0d
-			y: 2.5d
+			x: 6.0d
+			y: 2.75d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1006,8 +1057,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Nudibranch"
-			x: -1.5d
-			y: 1.0d
+			x: 4.75d
+			y: 2.5d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1026,8 +1077,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Archelon"
-			x: -5.0d
-			y: -2.5d
+			x: 8.5d
+			y: -1.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1046,8 +1097,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Dragon"
-			x: -3.0d
-			y: -2.5d
+			x: 8.25d
+			y: -2.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1066,8 +1117,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Griffon"
-			x: -6.5d
-			y: 1.0d
+			x: 8.75d
+			y: 0.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1087,8 +1138,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Moth"
-			x: -1.5d
-			y: -1.0d
+			x: 8.25d
+			y: 2.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1107,8 +1158,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Colelytra"
-			x: -2.5d
-			y: -1.5d
+			x: 3.75d
+			y: -2.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1127,8 +1178,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Zar-Ptak"
-			x: -6.5d
-			y: -1.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1147,8 +1198,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Courierbird"
-			x: -3.0d
-			y: 2.5d
+			x: 4.75d
+			y: -2.5d
 		}
 		{
 			description: ["C'est un mob de MythicMounts"]
@@ -1167,8 +1218,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Nightmare"
-			x: -4.0d
-			y: -2.0d
+			x: 7.25d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1189,23 +1240,29 @@
 				"342CCCB6C46ACC0E"
 				"0DEAD4296A4BF3E3"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "37FA06C893269367"
 			rewards: [{
-				id: "6AA8E3D3BAEED479"
+				id: "3FEA9CC733B6A834"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Expert zoologiste\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:zoologiste"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "47F103CD317D4BAD"
+				type: "checkmark"
+			}]
 			title: "My Horse is Amazing !"
-			x: -4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -1214,24 +1271,30 @@
 				"516311292ADE209F"
 				"0C4A894C5F5DE9E0"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "0EAF3BCFDBB219C3"
 			rewards: [{
-				id: "7D1728D5F53F4948"
+				id: "0E27A9ED8EA02286"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"JAPOOOOON !!!\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:japon"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "24F9DECF2F36147B"
+				type: "checkmark"
+			}]
 			title: "JAPOOOOON !!!"
-			x: 0.0d
-			y: 6.75d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			id: "212BB3A053902287"
@@ -1247,8 +1310,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.25d
-			y: 6.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			id: "516311292ADE209F"
@@ -1264,8 +1327,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.25d
-			y: 6.0d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			id: "0C4A894C5F5DE9E0"
@@ -1281,8 +1344,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 5.25d
+			x: -8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1298,25 +1361,30 @@
 				"6375843F4F3B6930"
 				"691B08559A86147F"
 			]
-			description: ["Vous avez vaincu tout les challenges de cet page, félicitations !"]
+			description: ["Vous avez vaincu tout les challenges de cette page, félicitations !"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "037C630630DCBD36"
 			rewards: [{
-				id: "6E1869E9062E6EC9"
+				id: "0EC6DAE002BD5AA8"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"C'EST QUI LE PATRON ?!\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:challenges"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
 			size: 3.0d
+			tasks: [{
+				id: "489506A678FBE951"
+				type: "checkmark"
+			}]
 			title: "L'Heure des Prouts !"
 			x: 0.0d
 			y: 0.0d
@@ -1336,8 +1404,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: 4.75d
+			y: 7.0d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1354,8 +1422,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: 9.25d
+			y: 5.0d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1372,8 +1440,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 8.5d
+			y: 8.25d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1390,8 +1458,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 6.0d
+			y: 8.25d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1408,8 +1476,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: 5.25d
+			y: 5.0d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1426,8 +1494,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: 4.5d
+			x: 9.75d
+			y: 7.0d
 		}
 		{
 			description: [
@@ -1458,8 +1526,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 7.25d
+			y: 4.25d
 		}
 		{
 			dependencies: [
@@ -1471,23 +1539,30 @@
 				"58E544C6EEEC746D"
 				"27D6D63776DEF23A"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "70C995C59CD6464D"
 			rewards: [{
-				id: "1C1559504A6F93B0"
+				id: "3A285DE6C73CB1D3"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Prends ça Alex !\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:alex"
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3B1679A37CD7E770"
+				type: "checkmark"
+			}]
+			title: "Prends ça Alex !"
+			x: 7.25d
+			y: 6.5d
 		}
 		{
 			id: "6895EFF473715679"
@@ -1503,8 +1578,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.25d
-			y: 3.75d
+			x: -12.75d
+			y: 8.0d
 		}
 		{
 			id: "112763B797FE0168"
@@ -1520,8 +1595,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 3.25d
-			y: 6.25d
+			x: -14.0d
+			y: 6.0d
 		}
 		{
 			id: "4C1804CF919BD546"
@@ -1537,8 +1612,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.75d
-			y: 6.25d
+			x: -10.25d
+			y: 8.0d
 		}
 		{
 			id: "46319736BE60D669"
@@ -1554,8 +1629,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.75d
-			y: 5.0d
+			x: -12.75d
+			y: 4.0d
 		}
 		{
 			id: "00F954DA26E51550"
@@ -1571,8 +1646,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.75d
-			y: 3.75d
+			x: -9.0d
+			y: 6.0d
 		}
 		{
 			id: "579E442B72717AA9"
@@ -1588,8 +1663,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.25d
-			y: 5.0d
+			x: -10.25d
+			y: 4.0d
 		}
 		{
 			id: "163A8FD79B8EF495"
@@ -1605,8 +1680,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 5.25d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -1617,24 +1692,30 @@
 				"46319736BE60D669"
 				"579E442B72717AA9"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "24F4C7D8E36DA731"
 			rewards: [{
-				id: "247021ECFF5E8268"
+				id: "1450005CA2C1A091"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Cataclysmique !\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:cataclysm"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "5DA5B9B775C1D51D"
+				type: "checkmark"
+			}]
 			title: "Cataclysmique !"
-			x: 4.0d
-			y: 5.0d
+			x: -11.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -1653,8 +1734,8 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -7.75d
-			y: -1.0d
+			x: -14.25d
+			y: -2.5d
 		}
 		{
 			description: [
@@ -1673,8 +1754,8 @@
 				item: "lolenderite:enderite_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -9.75d
-			y: -1.0d
+			x: -12.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -1693,8 +1774,8 @@
 				item: "cataclysm:ignitium_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -8.75d
-			y: -1.5d
+			x: -10.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1713,8 +1794,8 @@
 				item: "deeperdarker:warden_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -7.75d
-			y: 1.0d
+			x: -15.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1733,28 +1814,8 @@
 				item: "undergarden:forgotten_upgrade_smithing_template"
 				type: "item"
 			}]
-			x: -8.75d
-			y: 1.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template permet d'upgrader votre équipement."
-			]
-			id: "14D1EB51E07C88EE"
-			rewards: [{
-				id: "198FC7B56AE51050"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "67706C040D546692"
-				item: "enlightened_end:ender_smithing_template"
-				type: "item"
-			}]
-			x: -9.75d
-			y: 1.0d
+			x: -10.75d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1763,25 +1824,30 @@
 				"19E7C2651910B421"
 				"6ED202D409F56C17"
 				"60EBB617FA5BC728"
-				"14D1EB51E07C88EE"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "6375843F4F3B6930"
 			rewards: [{
-				id: "5B8A827C11823164"
+				id: "0BF93E785A1307FE"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Amélioré à fond !\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:utile"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "3567D6CA3ECC2EFB"
+				type: "checkmark"
+			}]
 			title: "Pro des Templates !"
-			x: -8.75d
+			x: -12.5d
 			y: 0.0d
 		}
 		{
@@ -1801,8 +1867,8 @@
 				item: "minecraft:sentry_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.0d
+			x: 19.75d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -1821,8 +1887,8 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 19.0d
+			y: 5.0d
 		}
 		{
 			description: [
@@ -1841,8 +1907,8 @@
 				item: "minecraft:wild_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 11.75d
-			y: 1.5d
+			x: 10.25d
+			y: 3.5d
 		}
 		{
 			description: [
@@ -1861,8 +1927,8 @@
 				item: "minecraft:coast_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.0d
+			x: 13.5d
+			y: 7.25d
 		}
 		{
 			description: [
@@ -1881,8 +1947,8 @@
 				item: "minecraft:dune_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 8.25d
-			y: 2.5d
+			x: 17.0d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1901,8 +1967,8 @@
 				item: "minecraft:wayfinder_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 12.0d
+			y: 6.25d
 		}
 		{
 			description: [
@@ -1921,8 +1987,8 @@
 				item: "minecraft:raiser_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 8.25d
-			y: 1.5d
+			x: 16.5d
+			y: 7.25d
 		}
 		{
 			description: [
@@ -1941,8 +2007,8 @@
 				item: "minecraft:shaper_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 14.0d
+			y: -1.25d
 		}
 		{
 			description: [
@@ -1961,8 +2027,8 @@
 				item: "minecraft:host_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -1981,8 +2047,8 @@
 				item: "minecraft:ward_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: 18.0d
+			y: 0.75d
 		}
 		{
 			description: [
@@ -2001,8 +2067,8 @@
 				item: "minecraft:silence_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 19.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2021,8 +2087,8 @@
 				item: "minecraft:tide_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 10.75d
-			y: 2.75d
+			x: 11.75d
+			y: 0.75d
 		}
 		{
 			description: [
@@ -2041,8 +2107,8 @@
 				item: "minecraft:snout_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.0d
+			x: 18.0d
+			y: 6.25d
 		}
 		{
 			description: [
@@ -2061,8 +2127,8 @@
 				item: "minecraft:rib_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 15.0d
+			y: 7.75d
 		}
 		{
 			description: [
@@ -2081,8 +2147,8 @@
 				item: "minecraft:eye_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 11.75d
-			y: 2.5d
+			x: 16.0d
+			y: -1.25d
 		}
 		{
 			description: [
@@ -2101,8 +2167,8 @@
 				item: "minecraft:spire_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.25d
+			x: 12.75d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -2121,8 +2187,8 @@
 				item: "lost_aether_content:noble_armor_trim_smithing_template"
 				type: "item"
 			}]
-			x: 9.25d
-			y: 2.75d
+			x: 11.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -2144,24 +2210,30 @@
 				"238AB378DEBBD67B"
 				"2A817959EE93B5C4"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "691B08559A86147F"
 			rewards: [{
-				id: "20EE453AF9416344"
+				id: "5352D2B852531180"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Inutile, donc indispensable\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:inutile"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4C34AD7CF155E581"
+				type: "checkmark"
+			}]
 			title: "Inutile, donc indispensable !"
-			x: 10.0d
-			y: 0.0d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			id: "69B3D608CE068A9A"
@@ -2176,8 +2248,8 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -2.25d
-			y: 5.25d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			id: "48918F8B2191AC52"
@@ -2192,8 +2264,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -2.75d
-			y: 6.25d
+			x: -4.75d
+			y: -1.25d
 		}
 		{
 			id: "66143128B65A1E41"
@@ -2208,8 +2280,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -5.25d
-			y: 6.25d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			id: "3E5F98A5A9D57EED"
@@ -2224,8 +2296,8 @@
 				type: "kill"
 				value: 100L
 			}]
-			x: -5.25d
-			y: 4.25d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			id: "1A5FD544CB531F72"
@@ -2243,8 +2315,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Allay"
-			x: 4.0d
-			y: -2.0d
+			x: -2.25d
+			y: 8.0d
 		}
 		{
 			id: "174E31516EFF5467"
@@ -2262,8 +2334,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Axolotl"
-			x: 3.0d
-			y: -2.5d
+			x: -1.25d
+			y: 8.5d
 		}
 		{
 			id: "1AEBB44BD399101E"
@@ -2281,8 +2353,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Abeille"
-			x: 5.0d
-			y: -2.5d
+			x: 2.25d
+			y: 4.0d
 		}
 		{
 			id: "34B928BED2417453"
@@ -2300,8 +2372,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Dromadaire"
-			x: 2.0d
-			y: 0.0d
+			x: 2.75d
+			y: 6.0d
 		}
 		{
 			id: "6C31FA1AF1517803"
@@ -2319,8 +2391,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Renard"
-			x: 5.5d
-			y: -1.5d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
 			id: "0AAB15E871C99965"
@@ -2338,8 +2410,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Grenouille"
-			x: 3.0d
-			y: 2.5d
+			x: 0.0d
+			y: 8.75d
 		}
 		{
 			id: "6CDBC1DB1FF83755"
@@ -2357,8 +2429,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Chèvre"
-			x: 6.5d
-			y: -1.0d
+			x: -2.75d
+			y: 6.0d
 		}
 		{
 			id: "504200B83DAB56E4"
@@ -2376,8 +2448,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Champimeuh"
-			x: 1.5d
-			y: 1.0d
+			x: 2.25d
+			y: 8.0d
 		}
 		{
 			description: ["Pour réaliser ceci, tu dois reproduire un cheval avec un âne !"]
@@ -2396,8 +2468,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Mule"
-			x: 6.0d
-			y: 0.0d
+			x: -1.25d
+			y: 3.5d
 		}
 		{
 			id: "71853D44F0B76DCE"
@@ -2415,8 +2487,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Panda"
-			x: 2.5d
-			y: 1.5d
+			x: 0.0d
+			y: 3.25d
 		}
 		{
 			id: "48D91D6B2D1E823A"
@@ -2434,8 +2506,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Perroquet"
-			x: 6.5d
-			y: 1.0d
+			x: 1.25d
+			y: 3.5d
 		}
 		{
 			id: "2B3D07F85B6A377B"
@@ -2453,8 +2525,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Ours Polaire"
-			x: 4.0d
-			y: 2.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			description: ["Pour avoir un oeuf de Sniffer, tu dois procéder à de l'archéologie (feature Vanilla de la 1.20)."]
@@ -2473,8 +2545,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Sniffer"
-			x: 5.5d
-			y: 1.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -2495,24 +2567,30 @@
 				"60EA0434B7635560"
 				"00488E8EFB4B5870"
 			]
-			icon: "ars_nouveau:blank_glyph"
+			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "4F5CA2714BD5C73A"
 			rewards: [{
-				id: "59B9D7E822E25588"
+				id: "11E7F794A8494865"
 				item: {
 					Count: 1b
-					id: "ars_nouveau:blank_glyph"
+					id: "trofers:large_pillar"
 					tag: {
-						display: {
-							Name: "{\"text\":\"Christophe Colomb\",\"bold\":true,\"color\":\"dark_purple\"}"
+						BlockEntityTag: {
+							Trophy: "modfart:vu"
 						}
 					}
 				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "77F14D7234D1EFC9"
+				type: "checkmark"
+			}]
 			title: "Avez-vous déjà vu.. ?"
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			id: "45EBAC90AA6DAA1D"
@@ -2530,8 +2608,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Strider"
-			x: 5.0d
-			y: 2.5d
+			x: 1.25d
+			y: 8.5d
 		}
 		{
 			id: "00488E8EFB4B5870"
@@ -2544,8 +2622,8 @@
 				type: "observation"
 			}]
 			title: "Observe une Chauve-Souris"
-			x: 1.5d
-			y: -1.0d
+			x: -2.5d
+			y: 5.0d
 		}
 		{
 			id: "60EA0434B7635560"
@@ -2558,8 +2636,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Dauphin"
-			x: 2.5d
-			y: -1.5d
+			x: -2.25d
+			y: 4.0d
 		}
 	]
 	title: "Challenges"

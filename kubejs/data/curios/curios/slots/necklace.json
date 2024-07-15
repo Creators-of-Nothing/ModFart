@@ -1,5 +1,8 @@
 {
-  "order": 60,
+  "replace": true,
+  "render_toggle":true,
+  "operation": "SET",
+  "order": 3,
   "size": 3,
   "icon": "kubejs:slot/empty_necklace_slot"
 }

@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "render_toggle":true,
+  "operation": "SET",
+  "order": 1,
+  "size": 1,
+  "icon": "kubejs:slot/empty_wireless_slot"
+}

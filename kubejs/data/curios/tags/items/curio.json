@@ -1,16 +1,6 @@
 {
   "replace": true,
   "values": [
-    "refinedstorage:wireless_grid",
-    "refinedstorage:creative_wireless_grid",
-    "refinedstorage:wireless_fluid_grid",
-    "refinedstorage:creative_wireless_fluid_grid",
-    "refinedstorage:wireless_crafting_monitor",
-    "refinedstorage:creative_wireless_crafting_monitor",
-    "refinedstorageaddons:wireless_crafting_grid",
-    "refinedstorageaddons:creative_wireless_crafting_grid",
-    "supplementaries:key",
-    "universalgrid:wireless_universal_grid",
-    "universalgrid:creative_wireless_universal_grid"
+    "supplementaries:key"
   ]
 }

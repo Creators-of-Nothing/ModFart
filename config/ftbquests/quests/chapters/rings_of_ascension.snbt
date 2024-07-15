@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "rings_of_ascension"
 	group: "330F5450D49BBA54"
+	icon: "ringsofascension:ring_flight"
 	id: "09FDBC2471BB814A"
 	order_index: 0
 	quest_links: [ ]
@@ -369,6 +370,7 @@
 			y: -4.5d
 		}
 		{
+			description: ["Cet anneau vous empêche de mourir, mais à un cooldown de 20min."]
 			id: "4BA79256D302E8C9"
 			rewards: [{
 				id: "0BAA0D67C42F3589"
@@ -412,6 +414,65 @@
 			}]
 			x: -6.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4F0B54F99C1BCE13"
+				"059BEB58FB3FC0BE"
+				"383B04404B89D590"
+				"099D0FE0FAA03003"
+				"6EC732A089E5CD17"
+				"4079C7932F157ED3"
+				"2EFF282A128795B7"
+				"4868ED2E31D3176D"
+				"0D6D491F39548B2B"
+				"6271296096BCCA9E"
+				"5DF0C2F68E697CE0"
+				"26D39E06E8465892"
+				"0925D630B3664052"
+				"43E7C7C45777EEC8"
+				"2356585E6A5D9F40"
+				"5F7E9B912BECF808"
+				"1AD67F2DA6567C4B"
+				"2DD6870878DD4EB9"
+				"3FC2670D3737E0C1"
+				"068C7694CEE6F3A9"
+				"37D2C5346F1E2268"
+				"4BA79256D302E8C9"
+				"20195D0EA93EBC9D"
+				"424DB1F193535D62"
+				"1E4A0D9CD15A7A76"
+				"24E1735F38706CB8"
+				"12E57F1F1A098459"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "6F5E6255C287938E"
+			rewards: [{
+				id: "4004B3523B77719A"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:rings"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "24521D4CCB671272"
+				title: "Rings finie !"
+				type: "checkmark"
+			}]
+			title: "Rings complété !"
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Rings of Ascension"

@@ -1,0 +1,20 @@
+{
+  "parent": "kubejs:block/giant_anti_obsidian",
+  "base": {
+    "parent": "twilightforest:item/giant_block_base",
+    "textures": {
+      "all": "kubejs:block/giant_anti_obsidian",
+      "top": "kubejs:block/giant_anti_obsidian"
+    }
+  },
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "gui": {
+      "parent": "twilightforest:item/giant_block_gui",
+      "textures": {
+        "all": "kubejs:block/giant_anti_obsidian",
+        "top": "kubejs:block/giant_anti_obsidian"
+      }
+    }
+  }
+}

@@ -5,6 +5,24 @@
 	group: "3CA4B0CAAB94EE6B"
 	icon: "minecraft:chest"
 	id: "4B660318AEF02264"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/chest.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/back.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.5d
+			y: -3.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -580,6 +598,50 @@
 			}]
 			x: -3.0d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"19F198E6CD85EEA1"
+				"77D0CD6057550E0B"
+				"661401765F8D4699"
+				"77AACAAA81BADAE6"
+				"7595F623ED5E0C2C"
+				"3688A0670E4B581A"
+				"152A7E3B71EBCA57"
+				"6AD9DE7B5EBB032C"
+				"136D3E13AEC47642"
+				"08487397C34A3DF6"
+				"207BE6DA7699CF77"
+				"39BE83A9946B3DEF"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "00DEA1892E788E39"
+			rewards: [{
+				id: "2CCB088CC69A8A1A"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:stockage"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "6523B9CB5B79C4C5"
+				title: "Storage fini !"
+				type: "checkmark"
+			}]
+			title: "Storage complété !"
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 	title: "Stockages Early"

@@ -1,0 +1,132 @@
+
+["Master Sword Configs - Sword Damage Bonus"]
+	#
+	#
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#
+	#
+	# (2 + the defined value = sword total damage. (e.g. Goddess Sword does 2 + 2.5 = 4.5 damage by default))
+	#
+	# Defines the damage bonus for Goddess Sword
+	goddess_sword_damage = 2.5
+	#
+	# Defines the damage bonus for Goddess Longsword
+	goddess_longsword_damage = 3.5
+	#
+	# Defines the damage bonus for White Goddess Sword
+	white_goddess_sword_damage = 4.5
+	#
+	# Defines the damage bonus for Master Sword
+	master_sword_damage = 5.5
+	#
+	# Defines the damage bonus for Tempered Master Sword
+	tempered_master_sword_damage = 6.5
+	#
+	# Defines the damage bonus for Golden Master Sword
+	golden_master_sword_damage = 7.5
+	#
+	# Defines the damage bonus for Fierce Deity Sword
+	fierce_deity_sword_damage = 8.0
+	#
+	# Defines the damage bonus for True Master Sword
+	true_master_sword_damage = 9.0
+
+["Master Sword Configs - Sword Durability"]
+	#
+	#
+	#**THE DURABILITY VALUES MUST BE A WHOLE NUMBER/INTEGER. (e.g. 2500)**
+	#
+	#
+	# Defines the durability for Goddess Sword
+	goddess_sword_durability = 1300
+	#
+	# Defines the durability for Goddess Longsword
+	goddess_longsword_durability = 1500
+	#
+	# Defines the durability for White Goddess Sword
+	white_goddess_sword_durability = 1700
+	#
+	# Defines the durability for Master Sword
+	master_sword_durability = 1900
+	#
+	# Defines the durability for Tempered Master Sword
+	tempered_master_sword_durability = 2200
+	#
+	# Defines the durability for Golden Master Sword
+	golden_master_sword_durability = 2500
+	#
+	# Defines the durability for Fierce Deity Sword
+	fierce_deity_sword_durability = 3000
+	#
+	# Defines the durability for True Master Sword
+	true_master_sword_durability = 3000
+
+["Master Sword Configs - Sword Spin Ability Damage"]
+	#
+	#
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#
+	#
+	# Defines the spin attack damage for Master Sword
+	spin_damage_master_sword = 10.0
+	#
+	# Defines the spin attack damage for Tempered Master Sword
+	spin_damage_tempered_master_sword = 14.0
+	#
+	# Defines the spin attack damage for Golden Master Sword
+	spin_damage_golden_master_sword = 18.0
+	#
+	# Defines the spin attack damage for Fierce Deity Sword
+	spin_damage_fierce_deity_sword = 20.0
+
+["Master Sword Configs - Enable/Disable Song of Storms"]
+	#
+	#
+	# Defines if the Song of Storms in enabled
+	enable_song_of_storms = true
+
+["Master Sword Configs - Skyward Stike/Sword Beam - True Master Sword's Ability Damage"]
+	#
+	#
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#
+	#
+	# Defines the base beam damage
+	base_beam_damage = 10.0
+	#
+	# Defines the base beam damage vs undead
+	base_beam_damage_undead = 14.0
+	#
+	# Defines the fully charged beam damage
+	charged_beam_damage = 16.0
+	#
+	# Defines the fully charged beam damage vs undead
+	charged_beam_damage_undead = 22.0
+
+["Master Sword Configs - Magic Staff Configs"]
+	#
+	#
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#
+	#
+	# Defines the Fire Rod's magic damage
+	fire_rod_damage = 16.0
+	#
+	# Defines the durability for Fire Rod
+	fire_rod_durability = 50
+	#
+	# Defines the explosion modifier for Fire Rod
+	fire_rod_explosion = 1.0
+	#
+	# Defines if the Fire Rod explosion can cause fires
+	fire_rod_cause_fires = true
+	#
+	# Defines the Ice Rod's magic damage
+	ice_rod_damage = 2.0
+	#
+	# Defines the durability for Ice Rod
+	ice_rod_durability = 50
+	#
+	# Defines if the Ice Rod creates snow on hit blocks
+	ice_rod_leave_snow = true
+

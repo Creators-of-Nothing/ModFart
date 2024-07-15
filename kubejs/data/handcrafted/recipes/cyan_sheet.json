@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "W": {
+            "item": "minecraft:cyan_wool"
+        }
+    },
+    "pattern": [
+        "WW ",
+        "W  "
+    ],
+    "result": {
+        "count": 8,
+        "item": "handcrafted:cyan_sheet"
+    },
+    "show_notification": true
+}

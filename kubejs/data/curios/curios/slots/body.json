@@ -1,5 +1,8 @@
 {
-  "order": 100,
+  "replace": true,
+  "render_toggle":true,
+  "operation": "SET",
+  "order": 9,
   "size": 1,
   "icon": "kubejs:slot/empty_body_slot"
 }

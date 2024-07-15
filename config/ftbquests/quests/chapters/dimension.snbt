@@ -5,6 +5,32 @@
 	group: "7B8630C608C42520"
 	icon: "minecraft:end_portal_frame"
 	id: "69134C09A36EFA96"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/portal.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/twilight.png"
+			rotation: 0.0d
+			width: 4.45d
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/bee.png"
+			rotation: 0.0d
+			width: 12.39d
+			x: 12.0d
+			y: -6.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -1117,7 +1143,7 @@
 				}
 			]
 			title: "Dimensional Dungeon"
-			x: 5.0d
+			x: 4.5d
 			y: 7.0d
 		}
 		{
@@ -1135,8 +1161,8 @@
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			description: ["Différents mondes de minage en éternal day, pour éviter d'abimer votre jolie base !"]
@@ -1166,7 +1192,7 @@
 				}
 			]
 			x: 4.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2B9BC42F4B9526DD"]
@@ -1415,6 +1441,80 @@
 			}]
 			x: 14.0d
 			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6BF7BF307D879B27"
+				"3E2325728707E342"
+				"2F8A9AE6648BC0A4"
+				"1E20644C2835B418"
+				"2F0BE54F49E6505A"
+				"798EBFBF52C2974D"
+				"537CAD231AA69727"
+				"101EFE607C8C32A9"
+				"124DCC1A1FCD9CBA"
+				"773EF5E50A2FCE0B"
+				"1B39E76FBF60DE52"
+				"489698E694DDE098"
+				"70163F1C9E463C30"
+				"699975256EE9607D"
+				"4ADEC7E7E543BA32"
+				"53545C81C3A00A64"
+				"464B7A7AC2E1FE4F"
+				"55A26A7EF3CF4706"
+				"3110C06656AAB88A"
+				"258F93FE86EDF127"
+				"1D1557F8AB5AB248"
+				"2AEEF806598FE4FD"
+				"0F3548B65EA5EC31"
+				"539BE1CD89DE92A3"
+				"029E028D7FE92FC7"
+				"37A4B7655F1F2685"
+				"263AA57BCAD4DBE0"
+				"2551113A8C70F913"
+				"69D83891C3CDD8D4"
+				"42EFD8706DCAC44E"
+				"71CBBA25CACC4E17"
+				"30DFDA27659EA4CB"
+				"5189A0FD522ED5F9"
+				"1815F8A8224185E7"
+				"5C96F2D3B60E2692"
+				"01EFD5A1FC58FFF5"
+				"5513E5C6CD22AF09"
+				"6FA631077CEEC570"
+				"53F43B68C5582B7E"
+				"2A7383A6D8EB9665"
+				"21542C0BBE0F243D"
+				"1E5BB1CEF0757AF6"
+				"395CD0576023F021"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "4BAE8105E427FBF1"
+			rewards: [{
+				id: "4ECD2A31270EB94D"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:dimensions"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "246BC20725A681AA"
+				title: "Dimensions complété !"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
 		}
 	]
 	title: "Dimensions"

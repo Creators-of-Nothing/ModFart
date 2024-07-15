@@ -13,6 +13,32 @@
 		}
 	}
 	id: "235AB90CD226C9B0"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/furnace.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -11.75d
+			y: 3.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/seed.png"
+			rotation: 0.0d
+			width: 8.85d
+			x: -7.0d
+			y: -8.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/chicken.png"
+			rotation: 0.0d
+			width: 8.85d
+			x: -2.5d
+			y: -6.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -29,8 +55,8 @@
 				item: "trashcans:item_trash_can"
 				type: "item"
 			}]
-			x: -1.25d
-			y: 2.0d
+			x: -2.5d
+			y: 3.25d
 		}
 		{
 			description: ["Cette Wrench permet d'interagir avec les tuyaux du mod &4PipeZ&r. Accroupissez vous et clic droit avec la Wrench pour interagir avec les Pipes."]
@@ -186,6 +212,7 @@
 					type: "item"
 				}
 			]
+			title: "Pipe Upgrade"
 			x: -2.5d
 			y: 0.0d
 		}
@@ -227,7 +254,7 @@
 			]
 			title: "Entangled"
 			x: -1.25d
-			y: -2.0d
+			y: 1.5d
 		}
 		{
 			description: ["Un bête autoclicker réglable."]
@@ -242,8 +269,8 @@
 				item: "clickmachine:auto_clicker"
 				type: "item"
 			}]
-			x: -3.75d
-			y: 2.0d
+			x: -0.5d
+			y: 3.25d
 		}
 		{
 			description: [
@@ -279,8 +306,8 @@
 				}
 			]
 			title: "Mob Grinding Utils"
-			x: -3.75d
-			y: -2.0d
+			x: -6.5d
+			y: -3.25d
 		}
 		{
 			description: [
@@ -302,8 +329,8 @@
 				item: "ironfurnaces:copper_furnace"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.5d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3D4CA50A72A5AFD7"]
@@ -320,8 +347,8 @@
 				item: "ironfurnaces:silver_furnace"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.75d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2DD4FA4D77F87660"]
@@ -338,7 +365,7 @@
 				item: "ironfurnaces:iron_furnace"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 0.0d
 		}
 		{
@@ -356,8 +383,8 @@
 				item: "ironfurnaces:gold_furnace"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.75d
+			x: -9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6CFBF0B71B4C42EF"]
@@ -374,8 +401,8 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.5d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["11B721239FE2BEF3"]
@@ -391,8 +418,8 @@
 				item: "ironfurnaces:obsidian_furnace"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.5d
+			x: -12.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["61137F37F39794EC"]
@@ -409,8 +436,8 @@
 				item: "ironfurnaces:emerald_furnace"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6336E6168B09B260"]
@@ -427,35 +454,8 @@
 				item: "ironfurnaces:netherite_furnace"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["22508E1E980CF54D"]
-			description: ["Ce four cuit un stack d'items en 2 ticks, soit 1/10 de secondes."]
-			id: "26D40A238BD05519"
-			rewards: [{
-				count: 32
-				id: "7931CB8585017392"
-				item: "minecraft:coal_block"
-				random_bonus: 32
-				type: "item"
-			}]
-			tasks: [{
-				id: "01DB74CED643B110"
-				item: {
-					Count: 1b
-					id: "ironfurnaces:million_furnace"
-					tag: {
-						display: {
-							Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"yellow\",\"text\":\"o\"},{\"color\":\"aqua\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"blue\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"yellow\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.5d
+			x: -12.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3D4CA50A72A5AFD7"]
@@ -500,8 +500,9 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: -3.5d
+			title: "Augments"
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3D4CA50A72A5AFD7"]
@@ -531,7 +532,7 @@
 				}
 			]
 			x: -3.5d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -565,8 +566,8 @@
 				}
 			]
 			title: "Flux Network"
-			x: -5.5d
-			y: -1.0d
+			x: -2.5d
+			y: -3.25d
 		}
 		{
 			dependencies: ["11D9AEA65CF56FF8"]
@@ -583,8 +584,8 @@
 				item: "fluxnetworks:gargantuan_flux_storage"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.0d
+			x: -0.5d
+			y: -3.25d
 		}
 		{
 			dependencies: ["3D4CA50A72A5AFD7"]
@@ -600,8 +601,8 @@
 				item: "morecoal:omni_coal"
 				type: "item"
 			}]
-			x: -6.25d
-			y: -2.25d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			description: [""]
@@ -623,8 +624,8 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
-			y: -3.5d
+			x: -8.5d
+			y: 3.25d
 		}
 		{
 			description: ["L'item user permet de simuler le clic d'un joueur."]
@@ -645,8 +646,8 @@
 				item: "cyclic:user"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.5d
+			x: -4.5d
+			y: 3.25d
 		}
 		{
 			description: ["Un clock pour répéter des signals redstone en boucle."]
@@ -662,8 +663,8 @@
 				item: "cyclic:clock"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -2.0d
+			x: -6.5d
+			y: 3.25d
 		}
 		{
 			description: [
@@ -697,8 +698,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 2.0d
+			x: -10.5d
+			y: -3.25d
 		}
 		{
 			description: ["Un moyen de récupérer les items qui trainent au sol. Il est configurable !"]
@@ -714,8 +715,102 @@
 				item: "itemcollectors:advanced_collector"
 				type: "item"
 			}]
-			x: -4.25d
-			y: 0.0d
+			x: -4.5d
+			y: -3.25d
+		}
+		{
+			description: [
+				"Littéralement un moyen d'automatiser tout ce qui concerne les plantes. Selon le terreau utilisé, cela peut produire plus ou moins vite. La version avec hopper permet de transmettre la production automatiquement dans l'inventaire en dessous de lui."
+				""
+				"Peut être coloré avec un colorant en cliquant dessus."
+				""
+				"Le &4Rich Soil&r, quant à lui, est la meilleure terre utilisable (hors créatif). Pour obtenir la version farmland, faites un clic droit avec une hoe sur le Rich Soil dans le Botany Pot."
+			]
+			id: "1DEA45302E47535C"
+			rewards: [{
+				id: "326E9C039830CDCB"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42BD8DD312A9B501"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+				{
+					id: "702B4AFE788E6381"
+					item: "farmersdelight:rich_soil"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -3.25d
+		}
+		{
+			description: ["Si vous avez de Chunk Load votre base gigantesque, vous pouvez utiliser les chunk loads de ce mod. Un clic droit dessus vous ouvrira une interface."]
+			id: "40EB7601B8019E09"
+			rewards: [{
+				id: "210D4168D6157B45"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A9F5EA7003D9C2"
+				item: "chunkloaders:ultimate_chunk_loader"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1DEA45302E47535C"
+				"032411FBA0FE5E2F"
+				"4D68067906944EC9"
+				"035D6332C94A32F8"
+				"7BD5C98F43E5BE5D"
+				"68782FB8C9E045EC"
+				"609152026FB10BB6"
+				"43162806F60C5AD0"
+				"3DB9ED12D1FF7F7B"
+				"6973D3E1F2496A0B"
+				"5E1934E1199BD9B5"
+				"22508E1E980CF54D"
+				"60331D3EC5C0E535"
+				"00DDE2EAFB75E375"
+				"5673FDBAF14778E1"
+				"4CCDE498FB683140"
+				"50C7867DD0528A7F"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "6A0E7A7CE252E086"
+			rewards: [{
+				id: "7915D7E30D243B39"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:support"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "02F27E689B0F4D62"
+				title: "Soutien complété !"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: -5.5d
 		}
 	]
 	title: "Soutien pour usines"

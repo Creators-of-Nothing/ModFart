@@ -27,18 +27,86 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'aether:moa_egg_cake' })
     e.remove({ id: 'aether:skyroot_milk_bucket_moa_egg_cake' })
 
+    // Crayfish
+    e.remove({ id: 'cfm:light_gray_picket_fence' })
+    e.remove({ id: 'cfm:gray_picket_fence' })
+    e.remove({ id: 'cfm:black_picket_fence' })
+    e.remove({ id: 'cfm:brown_picket_fence' })
+    e.remove({ id: 'cfm:red_picket_fence' })
+    e.remove({ id: 'cfm:orange_picket_fence' })
+    e.remove({ id: 'cfm:yellow_picket_fence' })
+    e.remove({ id: 'cfm:lime_picket_fence' })
+    e.remove({ id: 'cfm:green_picket_fence' })
+    e.remove({ id: 'cfm:cyan_picket_fence' })
+    e.remove({ id: 'cfm:light_blue_picket_fence' })
+    e.remove({ id: 'cfm:blue_picket_fence' })
+    e.remove({ id: 'cfm:purple_picket_fence' })
+    e.remove({ id: 'cfm:magenta_picket_fence' })
+    e.remove({ id: 'cfm:pink_picket_fence' })
+
     // Create - Alloy
     e.remove({ id: 'mekanism:enriching/conversion/andesite/to_polished' })
+
+    // Cyclic
+    e.remove({ id: 'cyclic:netherite_ingot' })
 
     // Extended Crafting
     e.remove({ id: 'extendedcrafting:basic_table' })
     e.remove({ id: 'extendedcrafting:advanced_table' })
     e.remove({ id: 'extendedcrafting:elite_table' })
     e.remove({ id: 'extendedcrafting:ultimate_table' })
+    e.remove({ id: 'extendedcrafting:enhanced_redstone_ingot' })
+    e.remove({ id: 'extendedcrafting:flux_star' })
 
-    // Pigment Extracting
+    // Meadow
+    e.remove({ id: 'meadow:diamond_from_blasting_alpine_diamond_ore' })
+    e.remove({ id: 'meadow:iron_ingot_from_blasting_alpine_iron_ore' })
+    e.remove({ id: 'meadow:gold_ingot_from_blasting_alpine_gold_ore' })
+    e.remove({ id: 'meadow:emerald_from_blasting_alpine_emerald_ore' })
+    e.remove({ id: 'meadow:lapis_lazuli_from_blasting_alpine_lapis_ore' })
+    e.remove({ id: 'meadow:redstone_from_blasting_alpine_redstone_ore' })
+    e.remove({ id: 'meadow:coal_from_blasting_alpine_coal_ore' })
+    e.remove({ id: 'meadow:copper_ingot_from_blasting_alpine_copper_ore' })
+    e.remove({ id: 'meadow:diamond_from_smelting_alpine_diamond_ore' })
+    e.remove({ id: 'meadow:iron_ingot_from_smelting_alpine_iron_ore' })
+    e.remove({ id: 'meadow:gold_ingot_from_smelting_alpine_gold_ore' })
+    e.remove({ id: 'meadow:emerald_from_smelting_alpine_emerald_ore' })
+    e.remove({ id: 'meadow:lapis_lazuli_from_smelting_alpine_lapis_ore' })
+    e.remove({ id: 'meadow:redstone_from_smelting_alpine_redstone_ore' })
+    e.remove({ id: 'meadow:coal_from_smelting_alpine_coal_ore' })
+    e.remove({ id: 'meadow:copper_ingot_from_smelting_alpine_copper_ore' })
+
+    // Mekanism
     e.remove({ id: /mekanism:pigment_extracting\// })
     e.remove({ id: /mekanism:compat\/biomesoplenty\/pigment_extracting\// })
+
+    // Pam's
+    e.remove({ id: 'pamhc2crops:bakedsweetpotatoitem_forge' })
+    e.remove({ id: 'pamhc2crops:bakedsweetpotatoitem_smoker' })
+    e.remove({ id: 'pamhc2foodcore:glowberryjuiceitemitem' })
+    e.remove({ id: "pamhc2foodcore:cookingoilitem_x2_nuts"})
+    e.remove({ id: "pamhc2crops:cookingoil_x4_canola_x2"})
+    e.remove({ id: "pamhc2foodextended:mixedsaladitem"})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+    e.remove({ id: ""})
+
+    // Phantasmic
+    e.remove({ id: 'nourished_nether:smelt_soul_sand'})
 
     // Portals
     e.remove({ id: 'jamd:portal_block' })
@@ -55,6 +123,10 @@ ServerEvents.recipes(e => {
     // Stone Recreation
     e.remove({ id: 'twigs:cobblestone_from_pebble' })
     e.remove({ id: 'twigs:rocky_dirt' })
+
+    // Undergarden
+    e.remove({ id: 'undergarden:blast_raw_froststeel' })
+    e.remove({ id: 'undergarden:smelt_raw_froststeel' })
 
     // Others
     e.remove({ id: 'mctb:twilight_to_oak_crafting_table' })
@@ -76,12 +148,11 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'creativecrafter:creative_crafter' })
     e.remove({ id: 'cagedmobs:crafting/nether_star_from_fragments' })
     e.remove({ id: 'cagedmobs:crafting/nether_star_from_fragments' })
-    e.remove({ id: 'useless_sword:dragonscalecraft' })
-    e.remove({ id: 'useless_sword:dragoneggcraft' })
-    e.remove({ id: 'editenchanting:enchantment_edit_table' })
+    e.remove({ id: 'festive_delight:cinnamon_craft_fabric' })
+    e.remove({ id: 'ars_elemental:quartz_crush' })
+    e.remove({ id: 'enlightened_end:cerulean_planks' })
     e.replaceInput({ input: 'minecraft:crafting_table' }, 'minecraft:crafting_table', '#forge:workbench')
     e.replaceInput({ input: 'cagedmobs:warden_receptor' }, 'cagedmobs:warden_receptor', 'apotheosis:warden_tendril')
-    e.replaceInput({ input: 'useless_sword:dragon_scale' }, 'useless_sword:dragon_scale', 'cagedmobs:dragon_scale')
 })
 
 
@@ -217,6 +288,23 @@ ServerEvents.recipes(e => {
     potting('extendedcrafting:basic_table', 'extendedcrafting:advanced_catalyst', 'extendedcrafting:advanced_table')
     potting('extendedcrafting:advanced_table', 'extendedcrafting:elite_catalyst', 'extendedcrafting:elite_table')
     potting('extendedcrafting:elite_table', 'extendedcrafting:ultimate_catalyst', 'extendedcrafting:ultimate_table')
+})
+ServerEvents.recipes(e => {
+    let potting = (input, output) => {
+        e.custom({
+            "type": "createaddition:charging",
+            "input": {
+                "item": input
+            },
+            "result": {
+                "item": output
+            },
+            "energy": 10000,
+            "maxChargeRate": 1000
+        })
+    }
+    potting('minecraft:nether_star', 'extendedcrafting:flux_star')
+    potting('extendedcrafting:redstone_ingot', 'extendedcrafting:enhanced_redstone_ingot')
 })
 
 
@@ -402,6 +490,33 @@ ServerEvents.recipes(e => {
     potting('undergarden:depthrock_pebble', 'undergarden:depthrock')
 })
 
+// Flux Dust
+ServerEvents.recipes(e => {
+    let potting = (input, deploy, count) => {
+        e.custom({
+            "type": "create:deploying",
+            "ingredients": [
+                {
+                    "item": input
+                },
+                {
+                    "item": deploy
+                }
+            ],
+            "keepHeldItem": true,
+            "results": [
+                {
+                    "item": "fluxnetworks:flux_dust",
+                    "count": count
+                }
+            ]
+        })
+    }
+    potting('minecraft:redstone', 'twilightforest:giant_obsidian', 1)
+    potting('minecraft:redstone', 'kubejs:giant_anti_obsidian', 2)
+    potting('minecraft:amethyst_shard', 'kubejs:giant_anti_obsidian', 4)
+    potting('kubejs:amethyst_dust', 'kubejs:giant_anti_obsidian', 8)
+})
 
 // Others
 ServerEvents.recipes(e => {
@@ -446,6 +561,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:nether_star', '9x cagedmobs:nether_star_fragment')
     potting('minecraft:dragon_egg', '9x cagedmobs:dragon_scale')
     potting('minecraft:sponge', '9x cagedmobs:sponge_fragment')
+    potting('create_things_and_misc:powdered_obsidian_block', '9x mekanism:dust_obsidian')
 })
 ServerEvents.recipes(e => {
     let potting = (element, output) => {
@@ -472,17 +588,59 @@ ServerEvents.recipes(e => {
     }
     potting('cagedmobs:nether_star_fragment', 'nourished_nether:netherite_nugget', 'cagedmobs:star_infused_netherite_nugget')
     potting('extendedcrafting:nether_star_block', 'minecraft:netherite_block', 'cagedmobs:star_infused_netherite_block')
+    potting('extendedcrafting:nether_star_block', 'minecraft:netherite_block', 'cagedmobs:star_infused_netherite_block')
 })
 ServerEvents.recipes(e => {
-    e.shaped('editenchanting:enchantment_edit_table', [
-        ' A ',
-        'BCB',
-        'DED'
+    let potting = (input, output) => {
+        e.custom({
+            "type": "mekanism:crushing",
+            "input": {
+                "ingredient": {
+                    "item": input
+                }
+            },
+            "output": {
+                "item": output
+            }
+        })
+    }
+    potting('minecraft:amethyst_shard', 'kubejs:amethyst_dust')
+})
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "cyclic:solidifier",
+        "ingredients": [
+            {
+                "item": "minecraft:netherite_ingot"
+            },
+            {
+                "item": "cyclic:gem_obsidian"
+            },
+            {
+                "item": "cagedmobs:star_infused_netherite_block"
+            }
+        ],
+        "energy": {
+            "rfpertick": 5000,
+            "ticks": 1000
+        },
+        "mix": {
+            "fluid": "create_enchantment_industry:hyper_experience",
+            "count": 1000
+        },
+        "result": {
+            "item": "extendedcrafting:crystaltine_ingot",
+            "count": 1
+        }
+    })
+})
+ServerEvents.recipes(e => {
+    e.shaped("kubejs:giant_anti_obsidian", [
+        'AAA',
+        ' B ',
+        'AAA'
     ], {
-        A: 'moa_decor_science:libroabierto',
-        B: 'moreplates:diamond_plate',
-        C: 'moreplates:lapis_lazuli_plate',
-        D: 'moreplates:nether_quartz_plate',
-        E: 'minecraft:enchanting_table'
+        A: "kubejs:antimatter_rod",
+        B: "twilightforest:giant_obsidian"
     })
 })

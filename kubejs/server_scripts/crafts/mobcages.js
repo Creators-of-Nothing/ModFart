@@ -2,18 +2,20 @@
 ServerEvents.recipes(e => {
     e.remove({ id: /alexsmobs:bosses/ })
     e.remove({ id: /alexsmobs:environments/ })
-    e.remove({ id: /alexsmobs:mobs/ })
-    e.remove({ id: /aquaculture:mobs/ })
+    e.remove({ id: /alexsmobs:entities/ })
+    e.remove({ id: /aquaculture:entities/ })
+    e.remove({ id: /botania:bosses/ })
+    e.remove({ id: /botania:environments/ })
     e.remove({ id: 'cagedmobs:additional_loot/brown_mushroom' })
     e.remove({ id: 'cagedmobs:additional_loot/dragon_head' })
     e.remove({ id: 'cagedmobs:additional_loot/red_mushroom' })
     /*e.remove({ id: 'cagedmobs:additional_loot/wither_rose' })*/
     e.remove({ id: /cagedmobs:bosses/ })
     e.remove({ id: /cagedmobs:environments/ })
-    e.remove({ id: /cagedmobs:mobs/ })
+    e.remove({ id: /cagedmobs:entities/ })
     e.remove({ id: /twilightforest:bosses/ })
     e.remove({ id: /twilightforest:environments/ })
-    e.remove({ id: /twilightforest:mobs/ })
+    e.remove({ id: /twilightforest:entities/ })
 })
 
 
@@ -382,8 +384,6 @@ ServerEvents.recipes(e => {
     potting('beachparty:pelican', 1, 'minecraft:feather', 'beachparty:raw_pelican', 'beachparty:cooked_pelican')
     potting('creeperoverhaul:dark_oak_creeper', 2, 'minecraft:gunpowder', 'minecraft:dark_oak_log', 'minecraft:cobweb')
     potting('eidolon:zombie_brute', 2, 'minecraft:rotten_flesh', 'minecraft:bone', 'eidolon:zombie_heart')
-    potting('farlanders:classic_enderman', 2, 'minecraft:ender_pearl', 'useless_sword:enderman_scale', 'minecraft:chorus_fruit')
-    potting('farlanders:fanmade_enderman', 2, 'minecraft:ender_pearl', 'useless_sword:enderman_scale', 'minecraft:chorus_fruit')
     potting('minecraft:frog', 1, 'minecraft:pearlescent_froglight', 'minecraft:verdant_froglight', 'minecraft:ochre_froglight')
     potting('minecraft:skeleton', 2, 'minecraft:bone', 'minecraft:arrow', 'minecraft:bow')
     potting('minecraft:sniffer', 1, 'minecraft:pitcher_pod', 'minecraft:torchflower_seeds', 'minecraft:sniffer_egg')
@@ -541,6 +541,8 @@ ServerEvents.recipes(e => {
     potting('epicsamurai:kitsune', 2, 'epicsamurai:kitsune_tail', 'epicsamurai:kitsune_hide')
     potting('epicsamurai:oni', 2, 'epicsamurai:oni_horn', 'epicsamurai:ruby')
     potting('epicsamurai:twotailed', 2, 'epicsamurai:kitsune_tail', 'epicsamurai:kitsune_hide')
+    potting('farlanders:classic_enderman', 2, 'minecraft:ender_pearl', 'minecraft:chorus_fruit')
+    potting('farlanders:fanmade_enderman', 2, 'minecraft:ender_pearl', 'minecraft:chorus_fruit')
     potting('minecraft:bee', 2, 'minecraft:honeycomb', 'cagedmobs:honey_drop')
     potting('minecraft:cave_spider', 2, 'minecraft:string', 'minecraft:spider_eye')
     potting('minecraft:evoker', 2, 'minecraft:emerald', 'minecraft:totem_of_undying')
@@ -623,7 +625,7 @@ ServerEvents.recipes(e => {
     potting('alexsmobs:centipede_head', 2, 'alexsmobs:centipede_leg')
     potting('alexsmobs:centipede_body', 2, 'alexsmobs:centipede_leg')
     potting('alexsmobs:centipede_tail', 2, 'alexsmobs:centipede_leg')
-    potting('alexsmobs:crow', 1, 'minecraft:feather')
+    potting('alexsmobs:crow', 1, 'eidolon:raven_feather')
     potting('alexsmobs:dropbear', 2, 'alexsmobs:dropbear_claw')
     potting('alexsmobs:farseer', 3, 'alexsmobs:farseer_arm')
     potting('alexsmobs:flutter', 2, 'minecraft:spore_blossom')
@@ -958,6 +960,7 @@ ServerEvents.recipes(e => {
     potting('endermanoverhaul:snowy_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:icy_pearl', 'minecraft:snowball')
     potting('endermanoverhaul:soulsand_valley_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:soul_pearl', 'minecraft:bone')
     potting('endermanoverhaul:warped_forest_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:warped_pearl', 'minecraft:warped_fungus')
+    potting('realmrpg_wyrms:ender_wyrm', 2, 'minecraft:obsidian', 'minecraft:dragon_breath', 'minecraft:dragon_head')
     potting('stalwart_dungeons:incomplete_wither', 2, 'minecraft:coal', 'minecraft:bone', 'minecraft:wither_skeleton_skull')
 })
 ServerEvents.recipes(e => {
@@ -1036,7 +1039,7 @@ ServerEvents.recipes(e => {
     potting('endermanoverhaul:end_islands_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:ancient_pearl')
     potting('endermanoverhaul:mushroom_fields_enderman', 2, 'minecraft:ender_pearl', 'minecraft:red_mushroom')
     potting('endermanoverhaul:nether_wastes_enderman', 2, 'minecraft:ender_pearl', 'minecraft:bone')
-    potting('endermanoverhaul:ocean_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:bubble_pearl')
+    potting('endermanoverhaul:coral_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:bubble_pearl')
     potting('endermanoverhaul:savanna_enderman', 2, 'minecraft:ender_pearl', 'minecraft:acacia_log')
     potting('endermanoverhaul:swamp_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:summoner_pearl')
     potting('endermanoverhaul:windswept_hills_enderman', 2, 'minecraft:ender_pearl', 'endermanoverhaul:summoner_pearl')
@@ -1079,7 +1082,6 @@ ServerEvents.recipes(e => {
     potting('endermanoverhaul:flower_fields_enderman', 2, 'minecraft:ender_pearl')
     potting('minecraft:enderman', 2, 'minecraft:ender_pearl')
     potting('minecraft:shulker', 2, 'minecraft:shulker_shell')
-    potting('realmrpg_wyrms:ender_wyrm', 2, 'minecraft:obsidian', 'minecraft:dragon_breath')
     potting('stalwart_dungeons:shelterer', 2, 'stalwart_dungeons:void_crystal')
     potting('stalwart_dungeons:shelterer_without_armor', 2, 'stalwart_dungeons:void_crystal')
 })
@@ -1967,7 +1969,7 @@ ServerEvents.recipes(e => {
     potting('twilightforest:lower_goblin_knight', 2, 'twilightforest:armor_shard')
     potting('twilightforest:naga', 3, 'twilightforest:naga_scale')
     potting('twilightforest:penguin', 1, 'minecraft:feather')
-    potting('twilightforest:raven', 1, 'twilightforest:raven_feather')
+    potting('twilightforest:raven', 1, 'eidolon:raven_feather')
     potting('twilightforest:redcap', 2, 'minecraft:coal')
     potting('twilightforest:redcap_sapper', 2, 'minecraft:coal')
     potting('twilightforest:slime_beetle', 2, 'minecraft:slime_ball')
@@ -2336,7 +2338,119 @@ ServerEvents.recipes(e => {
     }
     potting('overworld', 'alexsmobs:leafcutter_ant', 1)
 })
-
+ServerEvents.recipes(e => {
+    let potting = (env, entity, tier) => {
+        e.custom({
+            "type": "cagedmobs:entity_data",
+            "entity": entity,
+            "samplerTier": tier,
+            "environments": [
+                env,
+                "allenv"
+            ],
+            "growTicks": 1200,
+            "results": [
+                {
+                    "chance": 1,
+                    "output": {
+                        "item": "minecraft:netherite_ingot"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 2
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:heart_of_the_sea"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:nether_star"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:wither_skeleton_skull"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.5,
+                    "output": {
+                        "item": "minecraft:ancient_debris"
+                    },
+                    "minAmount": 8,
+                    "maxAmount": 8
+                },
+                {
+                    "chance": 0.25,
+                    "output": {
+                        "item": "minecraft:wither_skeleton_spawn_egg"
+                    },
+                    "minAmount": 16,
+                    "maxAmount": 16
+                },
+                {
+                    "chance": 0.25,
+                    "output": {
+                        "item": "minecraft:blaze_spawn_egg"
+                    },
+                    "minAmount": 16,
+                    "maxAmount": 16
+                },
+                {
+                    "chance": 0.25,
+                    "output": {
+                        "item": "minecraft:zombified_piglin_spawn_egg"
+                    },
+                    "minAmount": 16,
+                    "maxAmount": 16
+                },
+                {
+                    "chance": 0.1,
+                    "output": {
+                        "item": "minecraft:elder_guardian_spawn_egg"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.1,
+                    "output": {
+                        "item": "minecraft:warden_spawn_egg"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.1,
+                    "output": {
+                        "item": "minecraft:wither_skeleton_spawn_egg"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.1,
+                    "output": {
+                        "item": "minecraft:spawner"
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                }
+            ]
+        })
+    }
+    potting('overworld', 'netherite_warden:netheritewarden', 3)
+})
 
 /*//// Caged Mobs - En Attente
 // Aether
@@ -2399,11 +2513,6 @@ potting('cataclysm:endermaptera_has_jaws')
 
 // Deeper and Darker
 potting('deeperdarker:shriek_worm')
-
-// Eldritch End
-potting('eldritch_end:aberration')
-potting('eldritch_end:tentacle')
-potting('eldritch_end:undead_tentacle')
 
 // Enlightend
 potting('enlightened_end:exhauster')
@@ -2471,9 +2580,6 @@ potting('mutantmonsters:mutant_enderman_continuous')
 potting('mutantmonsters:mutant_skeleton')
 potting('mutantmonsters:mutant_snow_golem')
 potting('mutantmonsters:mutant_zombie')
-
-// Netherite Warden
-potting('netherite_warden:netheritewarden')
 
 // Snuffles
 potting('snuffles:snuffle')

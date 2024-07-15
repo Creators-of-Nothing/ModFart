@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "W": {
+            "item": "minecraft:black_wool"
+        }
+    },
+    "pattern": [
+        "WW ",
+        "W  "
+    ],
+    "result": {
+        "count": 8,
+        "item": "handcrafted:black_sheet"
+    },
+    "show_notification": true
+}

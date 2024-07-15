@@ -1,21 +1,29 @@
 // Unused Items
 ServerEvents.tags('item', e => {
-
+    
     // Create
     e.removeAllTagsFrom([
         /create:crushed_raw_/,
         'createchromaticreturn:industrium_book',
         'createchromaticreturn:durasteel_book',
-        'createchromaticreturn:silkstrum_book'
+        'createchromaticreturn:silkstrum_book',
+        'create:powdered_obsidian',
+        'createutilities:void_chest',
+        'createutilities:void_tank',
+        'create:handheld_worldshaper'
     ])
     e.add('forge:unused', [
         /create:crushed_raw_/,
         'createchromaticreturn:industrium_book',
         'createchromaticreturn:durasteel_book',
-        'createchromaticreturn:silkstrum_book'
+        'createchromaticreturn:silkstrum_book',
+        'create:powdered_obsidian',
+        'createutilities:void_chest',
+        'createutilities:void_tank',
+        'create:handheld_worldshaper'
     ])
 
-    /*// Cyclic
+    // Cyclic
     e.removeAllTagsFrom([
         'cyclic:cable_wrench',
         'cyclic:mattock',
@@ -277,7 +285,7 @@ ServerEvents.tags('item', e => {
         'cyclic:copper_chain',
         'cyclic:copper_lantern',
         'cyclic:copper_soul_lantern'
-    ])*/
+    ])
 
     // Epic Samurai
     e.removeAllTagsFrom([
@@ -302,7 +310,9 @@ ServerEvents.tags('item', e => {
         'extendedcrafting:ender_component',
         'extendedcrafting:enhanced_ender_component',
         'extendedcrafting:crystaltine_component',
-        'extendedcrafting:the_ultimate_component'
+        'extendedcrafting:the_ultimate_component',
+        'extendedcrafting:flux_crafter',
+        'extendedcrafting:flux_alternator'
     ])
     e.add('forge:unused', [
         'extendedcrafting:basic_component',
@@ -314,7 +324,9 @@ ServerEvents.tags('item', e => {
         'extendedcrafting:ender_component',
         'extendedcrafting:enhanced_ender_component',
         'extendedcrafting:crystaltine_component',
-        'extendedcrafting:the_ultimate_component'
+        'extendedcrafting:the_ultimate_component',
+        'extendedcrafting:flux_crafter',
+        'extendedcrafting:flux_alternator'
     ])
 
     // Iron Furnaces
@@ -391,7 +403,8 @@ ServerEvents.tags('item', e => {
         'mekanism:dirty_lead',
         'mekanism:dirty_osmium',
         'mekanism:dirty_tin',
-        'mekanism:dirty_uranium'
+        'mekanism:dirty_uranium',
+        'mekanism:electric_bow'
     ])
     e.add('forge:unused', [
         'mekanism:antiprotonic_nucleosynthesizer',
@@ -452,7 +465,16 @@ ServerEvents.tags('item', e => {
         'mekanism:dirty_lead',
         'mekanism:dirty_osmium',
         'mekanism:dirty_tin',
-        'mekanism:dirty_uranium'
+        'mekanism:dirty_uranium',
+        'mekanism:electric_bow'
+    ])
+
+    // Minecraft
+    e.removeAllTagsFrom([
+        'minecraft:structure_void'
+    ])
+    e.add('forge:unused', [
+        'minecraft:structure_void'
     ])
 
     // More Plates
@@ -521,6 +543,14 @@ ServerEvents.tags('item', e => {
         /moreplates:aluminium_/
     ])
 
+    // Naturalist
+    e.removeAllTagsFrom([
+        'naturalist:cooked_egg'
+    ])
+    e.add('forge:unused', [
+        'naturalist:cooked_egg'
+    ])
+
     // Pam's Harvestcraft
     e.removeAllTagsFrom([
         /pamhc2trees:pam/,
@@ -529,7 +559,15 @@ ServerEvents.tags('item', e => {
         'pamhc2crops:shadedgarden',
         'pamhc2crops:soggygarden',
         'pamhc2crops:tropicalgarden',
-        'pamhc2crops:windygarden'
+        'pamhc2crops:windygarden',
+        'pamhc2foodextended:blackberrycobbleritem',
+        'pamhc2foodextended:peachcobbleritem',
+        'pamhc2foodcore:applejuiceitem',
+        'pamhc2foodcore:chorusjuiceitem',
+        'pamhc2foodcore:melonjuiceitem',
+        'pamhc2foodcore:sweetberryjuiceitem',
+        'pamhc2foodcore:glowberryjuiceitem',
+        'pamhc2foodcore:p8juiceitem'
     ])
     e.add('forge:unused', [
         /pamhc2trees:pam/,
@@ -538,7 +576,15 @@ ServerEvents.tags('item', e => {
         'pamhc2crops:shadedgarden',
         'pamhc2crops:soggygarden',
         'pamhc2crops:tropicalgarden',
-        'pamhc2crops:windygarden'
+        'pamhc2crops:windygarden',
+        'pamhc2foodextended:blackberrycobbleritem',
+        'pamhc2foodextended:peachcobbleritem',
+        'pamhc2foodcore:applejuiceitem',
+        'pamhc2foodcore:chorusjuiceitem',
+        'pamhc2foodcore:melonjuiceitem',
+        'pamhc2foodcore:sweetberryjuiceitem',
+        'pamhc2foodcore:glowberryjuiceitem',
+        'pamhc2foodcore:p8juiceitem'
     ])
 
     // Refined Storage
@@ -619,7 +665,9 @@ ServerEvents.tags('item', e => {
         'twilightforest:ur_ghast_boss_spawner',
         'twilightforest:alpha_yeti_boss_spawner',
         'twilightforest:snow_queen_boss_spawner',
-        'twilightforest:final_boss_boss_spawner'
+        'twilightforest:final_boss_boss_spawner',
+        'twilightforest:uncrafting_table',
+        'twilightforest:raven_feather'
     ])
     e.add('forge:unused', [
         'twilightforest:naga_boss_spawner',
@@ -630,7 +678,99 @@ ServerEvents.tags('item', e => {
         'twilightforest:ur_ghast_boss_spawner',
         'twilightforest:alpha_yeti_boss_spawner',
         'twilightforest:snow_queen_boss_spawner',
-        'twilightforest:final_boss_boss_spawner'
+        'twilightforest:final_boss_boss_spawner',
+        'twilightforest:uncrafting_table',
+        'twilightforest:raven_feather'
+    ])
+
+    // Variant Crafting Tables
+    e.removeAllTagsFrom([
+        'vct:bop_willow_crafting_table_minecart',
+        'vct:congealed_crafting_table_minecart',
+        'vct:verdant_crafting_table_minecart',
+        'vct:stripped_bamboo_crafting_table_minecart',
+        'vct:canopy_crafting_table_minecart',
+        'vct:darkwood_crafting_table_minecart',
+        'vct:twilight_mangrove_crafting_table_minecart',
+        'vct:minewood_crafting_table_minecart',
+        'vct:sortingwood_crafting_table_minecart',
+        'vct:oak_crafting_table_minecart',
+        'vct:spruce_crafting_table_minecart',
+        'vct:birch_crafting_table_minecart',
+        'vct:jungle_crafting_table_minecart',
+        'vct:acacia_crafting_table_minecart',
+        'vct:dark_oak_crafting_table_minecart',
+        'vct:mangrove_crafting_table_minecart',
+        'vct:bamboo_crafting_table_minecart',
+        'vct:cherry_crafting_table_minecart',
+        'vct:crimson_crafting_table_minecart',
+        'vct:warped_crafting_table_minecart',
+        'vct:soulblight_crafting_table_minecart',
+        'vct:whistlecane_crafting_table_minecart',
+        'vct:penumbra_crafting_table_minecart',
+        'vct:twisted_crafting_table_minecart',
+        'vct:echo_crafting_table_minecart',
+        'vct:aether_skyroot_crafting_table_minecart',
+        'vct:archwood_crafting_table_minecart',
+        'vct:bop_dead_crafting_table_minecart',
+        'vct:bop_fir_crafting_table_minecart',
+        'vct:bop_hellbark_crafting_table_minecart',
+        'vct:bop_jacaranda_crafting_table_minecart',
+        'vct:bop_magic_crafting_table_minecart',
+        'vct:bop_mahogany_crafting_table_minecart',
+        'vct:bop_palm_crafting_table_minecart',
+        'vct:bop_redwood_crafting_table_minecart',
+        'vct:bop_umbran_crafting_table_minecart',
+        'vct:timewood_crafting_table_minecart',
+        'vct:transwood_crafting_table_minecart',
+        'vct:twilight_oak_crafting_table_minecart',
+        'vct:grongle_crafting_table_minecart',
+        'vct:smogstem_crafting_table_minecart',
+        'vct:wigglewood_crafting_table_minecart'
+    ])
+    e.add('forge:unused', [
+        'vct:bop_willow_crafting_table_minecart',
+        'vct:congealed_crafting_table_minecart',
+        'vct:verdant_crafting_table_minecart',
+        'vct:stripped_bamboo_crafting_table_minecart',
+        'vct:canopy_crafting_table_minecart',
+        'vct:darkwood_crafting_table_minecart',
+        'vct:twilight_mangrove_crafting_table_minecart',
+        'vct:minewood_crafting_table_minecart',
+        'vct:sortingwood_crafting_table_minecart',
+        'vct:oak_crafting_table_minecart',
+        'vct:spruce_crafting_table_minecart',
+        'vct:birch_crafting_table_minecart',
+        'vct:jungle_crafting_table_minecart',
+        'vct:acacia_crafting_table_minecart',
+        'vct:dark_oak_crafting_table_minecart',
+        'vct:mangrove_crafting_table_minecart',
+        'vct:bamboo_crafting_table_minecart',
+        'vct:cherry_crafting_table_minecart',
+        'vct:crimson_crafting_table_minecart',
+        'vct:warped_crafting_table_minecart',
+        'vct:soulblight_crafting_table_minecart',
+        'vct:whistlecane_crafting_table_minecart',
+        'vct:penumbra_crafting_table_minecart',
+        'vct:twisted_crafting_table_minecart',
+        'vct:echo_crafting_table_minecart',
+        'vct:aether_skyroot_crafting_table_minecart',
+        'vct:archwood_crafting_table_minecart',
+        'vct:bop_dead_crafting_table_minecart',
+        'vct:bop_fir_crafting_table_minecart',
+        'vct:bop_hellbark_crafting_table_minecart',
+        'vct:bop_jacaranda_crafting_table_minecart',
+        'vct:bop_magic_crafting_table_minecart',
+        'vct:bop_mahogany_crafting_table_minecart',
+        'vct:bop_palm_crafting_table_minecart',
+        'vct:bop_redwood_crafting_table_minecart',
+        'vct:bop_umbran_crafting_table_minecart',
+        'vct:timewood_crafting_table_minecart',
+        'vct:transwood_crafting_table_minecart',
+        'vct:twilight_oak_crafting_table_minecart',
+        'vct:grongle_crafting_table_minecart',
+        'vct:smogstem_crafting_table_minecart',
+        'vct:wigglewood_crafting_table_minecart'
     ])
 
     // Others
@@ -641,10 +781,6 @@ ServerEvents.tags('item', e => {
         'minecraft:debug_stick',
         'ars_nouveau:debug',
         'waystones:warp_stone',
-        'twilightforest:uncrafting_table',
-        'useless_sword:message_in_a_sword',
-        'useless_sword:neptunium_grab_sword',
-        'useless_sword:rotten_fish_rapier',
         /itemfilters:/,
         'aether:aether_portal_frame',
         'apotheosis:boss_summoner',
@@ -658,7 +794,6 @@ ServerEvents.tags('item', e => {
         'apotheosis:scrap_tome',
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
-        'useless_sword:silvillager',
         'eidolon:silver_ore',
         'eidolon:deep_silver_ore',
         'eidolon:raw_silver',
@@ -672,7 +807,9 @@ ServerEvents.tags('item', e => {
         'eidolon:raw_lead_block',
         'eidolon:lead_nugget',
         'eidolon:lead_ingot',
-        'eidolon:lead_block'
+        'eidolon:lead_block',
+        'dustrial_decor:gold_chain',
+        'cyclic:gold_chain'
     ])
     e.add('forge:unused', [
         'stalwart_dungeons:awful_dungeon_spawner',
@@ -681,10 +818,6 @@ ServerEvents.tags('item', e => {
         'minecraft:debug_stick',
         'ars_nouveau:debug',
         'waystones:warp_stone',
-        'twilightforest:uncrafting_table',
-        'useless_sword:message_in_a_sword',
-        'useless_sword:neptunium_grab_sword',
-        'useless_sword:rotten_fish_rapier',
         /itemfilters:/,
         'aether:aether_portal_frame',
         'apotheosis:boss_summoner',
@@ -698,7 +831,6 @@ ServerEvents.tags('item', e => {
         'apotheosis:scrap_tome',
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
-        'useless_sword:silvillager',
         'eidolon:silver_ore',
         'eidolon:deep_silver_ore',
         'eidolon:raw_silver',
@@ -712,7 +844,9 @@ ServerEvents.tags('item', e => {
         'eidolon:raw_lead_block',
         'eidolon:lead_nugget',
         'eidolon:lead_ingot',
-        'eidolon:lead_block'
+        'eidolon:lead_block',
+        'dustrial_decor:gold_chain',
+        'cyclic:gold_chain'
     ])
 })
 
@@ -831,13 +965,14 @@ ServerEvents.tags('item', e => {
         'createaddition:gold_rod',
         'createaddition:electrum_rod',
         'mekanism:hdpe_rod',
-        'useless_sword:emerald_stick',
         'manyideas_core:plate_copper',
         'manyideas_core:plate_gold',
         'manyideas_core:plate_iron',
         'manyideas_core:plate_quartz',
         'createaddition:diamond_grit',
-        /eidolon:spawn_/
+        /eidolon:spawn_/,
+        'fluxnetworks:admin_configurator',
+        "ars_elemental:debug"
     ])
 })
 
