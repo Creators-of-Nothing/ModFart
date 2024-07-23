@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "cyclic:flippers",
-    "cyclic:charm_longfall"
+    "cyclic:charm_longfall",
+    "cyclic:flippers"
   ]
 }

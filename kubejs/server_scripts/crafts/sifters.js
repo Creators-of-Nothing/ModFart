@@ -449,6 +449,10 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "chance": chance,
+                    "item": "kubejs:raw_chorundum"
+                },
+                {
+                    "chance": chance,
                     "item": "enlightened_end:raw_irradium"
                 },
                 {
@@ -523,6 +527,53 @@ ServerEvents.recipes(e => {
     potting('createsifter:advanced_custom_mesh', 1)
 })
 
+// Sifter - Holystone
+ServerEvents.recipes(e => {
+    let potting = (mesh, chance) => {
+        e.custom({
+            "type": "createsifter:sifting",
+            "ingredients": [
+                {
+                    "item": mesh
+                },
+                {
+                    "item": "aether:holystone"
+                }
+            ],
+            "processingTime": 100,
+            "results": [
+                {
+                    "chance": chance,
+                    "item": "kubejs:raw_ambrosium"
+                },
+                {
+                    "chance": chance,
+                    "item": "kubejs:raw_gravitite"
+                },
+                {
+                    "chance": chance,
+                    "item": "kubejs:raw_quartz"
+                },
+                {
+                    "chance": chance,
+                    "item": "kubejs:raw_zanite"
+                },
+                {
+                    "chance": chance,
+                    "item": "ancient_aether:valkyrum"
+                }
+            ]
+        })
+    }
+    potting('createsifter:string_mesh', 0.015625)
+    potting('createsifter:andesite_mesh', 0.03125)
+    potting('createsifter:zinc_mesh', 0.0625)
+    potting('createsifter:brass_mesh', 0.125)
+    potting('createsifter:advanced_brass_mesh', 0.25)
+    potting('createsifter:custom_mesh', 0.5)
+    potting('createsifter:advanced_custom_mesh', 1)
+})
+
 
 // Sifter - Netherrack
 ServerEvents.recipes(e => {
@@ -562,10 +613,6 @@ ServerEvents.recipes(e => {
                 {
                     "chance": chance,
                     "item": "stalwart_dungeons:raw_tungsten"
-                },
-                {
-                    "chance": chance,
-                    "item": "kubejs:raw_chorundum"
                 },
                 {
                     "chance": chance,

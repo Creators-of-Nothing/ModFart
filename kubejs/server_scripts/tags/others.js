@@ -1,6 +1,6 @@
 // Unused Items
 ServerEvents.tags('item', e => {
-    
+
     // Create
     e.removeAllTagsFrom([
         /create:crushed_raw_/,
@@ -10,7 +10,55 @@ ServerEvents.tags('item', e => {
         'create:powdered_obsidian',
         'createutilities:void_chest',
         'createutilities:void_tank',
-        'create:handheld_worldshaper'
+        'create:handheld_worldshaper',
+        'createchromaticreturn:durasteel_charm_cast',
+        'createchromaticreturn:blade_cast',
+        'createchromaticreturn:handle_cast',
+        'createchromaticreturn:shovel_cast',
+        'createchromaticreturn:hoe_cast',
+        'createchromaticreturn:axe_cast',
+        'createchromaticreturn:pickaxe_cast',
+        'createchromaticreturn:paxel_cast',
+        'createchromaticreturn:silkstrum_shadow_steel_paxel',
+        'createchromaticreturn:durasteel_shadow_steel_paxel',
+        'createchromaticreturn:bone_shadow_steel_paxel',
+        'createchromaticreturn:bamboo_shadow_steel_paxel',
+        'createchromaticreturn:blazing_shadow_steel_paxel',
+        'createchromaticreturn:refined_shadow_steel_paxel',
+        'createchromaticreturn:shadow_steel_paxel',
+        'createchromaticreturn:industrium_shadow_steel_paxel',
+        'createchromaticreturn:multiplite_shadow_steel_paxel',
+        'createchromaticreturn:shadow_steel_paxel_head',
+        'createchromaticreturn:silkstrum_shadow_steel_sword',
+        'createchromaticreturn:durasteel_shadow_steel_sword',
+        'createchromaticreturn:bone_shadow_steel_sword',
+        'createchromaticreturn:bamboo_shadow_steel_sword',
+        'createchromaticreturn:blazing_shadow_steel_sword',
+        'createchromaticreturn:refined_shadow_steel_sword',
+        'createchromaticreturn:shadow_steel_sword',
+        'createchromaticreturn:industrium_shadow_steel_sword',
+        'createchromaticreturn:multiplite_shadow_steel_sword',
+        'createchromaticreturn:shadow_steel_blade',
+        'createchromaticreturn:silkstrum_handle',
+        'createchromaticreturn:durasteel_handle',
+        'createchromaticreturn:industrium_handle',
+        'createchromaticreturn:plutonium_nugget',
+        'createchromaticreturn:polonium_nugget',
+        'createchromaticreturn:multiplite_handle',
+        'createchromaticreturn:refined_handle',
+        'createchromaticreturn:charm_base',
+        'createchromaticreturn:refined_charm',
+        'createchromaticreturn:shadow_charm',
+        'createchromaticreturn:industrium_charm',
+        'createchromaticreturn:multiplite_charm',
+        'createchromaticreturn:antiplite_charm',
+        'createchromaticreturn:silkstrum_charm',
+        'createchromaticreturn:bedrock_charm_base',
+        'createchromaticreturn:durasteel_ingot',
+        'createchromaticreturn:antiplite_ingot',
+        'createchromaticreturn:silkstrum',
+        'createchromaticreturn:fortunite_bar',
+        'createchromaticreturn:four_leaf_clover'
     ])
     e.add('forge:unused', [
         /create:crushed_raw_/,
@@ -20,7 +68,55 @@ ServerEvents.tags('item', e => {
         'create:powdered_obsidian',
         'createutilities:void_chest',
         'createutilities:void_tank',
-        'create:handheld_worldshaper'
+        'create:handheld_worldshaper',
+        'createchromaticreturn:durasteel_charm_cast',
+        'createchromaticreturn:blade_cast',
+        'createchromaticreturn:handle_cast',
+        'createchromaticreturn:shovel_cast',
+        'createchromaticreturn:hoe_cast',
+        'createchromaticreturn:axe_cast',
+        'createchromaticreturn:pickaxe_cast',
+        'createchromaticreturn:paxel_cast',
+        'createchromaticreturn:silkstrum_shadow_steel_paxel',
+        'createchromaticreturn:durasteel_shadow_steel_paxel',
+        'createchromaticreturn:bone_shadow_steel_paxel',
+        'createchromaticreturn:bamboo_shadow_steel_paxel',
+        'createchromaticreturn:blazing_shadow_steel_paxel',
+        'createchromaticreturn:refined_shadow_steel_paxel',
+        'createchromaticreturn:shadow_steel_paxel',
+        'createchromaticreturn:industrium_shadow_steel_paxel',
+        'createchromaticreturn:multiplite_shadow_steel_paxel',
+        'createchromaticreturn:shadow_steel_paxel_head',
+        'createchromaticreturn:silkstrum_shadow_steel_sword',
+        'createchromaticreturn:durasteel_shadow_steel_sword',
+        'createchromaticreturn:bone_shadow_steel_sword',
+        'createchromaticreturn:bamboo_shadow_steel_sword',
+        'createchromaticreturn:blazing_shadow_steel_sword',
+        'createchromaticreturn:refined_shadow_steel_sword',
+        'createchromaticreturn:shadow_steel_sword',
+        'createchromaticreturn:industrium_shadow_steel_sword',
+        'createchromaticreturn:multiplite_shadow_steel_sword',
+        'createchromaticreturn:shadow_steel_blade',
+        'createchromaticreturn:silkstrum_handle',
+        'createchromaticreturn:durasteel_handle',
+        'createchromaticreturn:industrium_handle',
+        'createchromaticreturn:plutonium_nugget',
+        'createchromaticreturn:polonium_nugget',
+        'createchromaticreturn:multiplite_handle',
+        'createchromaticreturn:refined_handle',
+        'createchromaticreturn:charm_base',
+        'createchromaticreturn:refined_charm',
+        'createchromaticreturn:shadow_charm',
+        'createchromaticreturn:industrium_charm',
+        'createchromaticreturn:multiplite_charm',
+        'createchromaticreturn:antiplite_charm',
+        'createchromaticreturn:silkstrum_charm',
+        'createchromaticreturn:bedrock_charm_base',
+        'createchromaticreturn:durasteel_ingot',
+        'createchromaticreturn:antiplite_ingot',
+        'createchromaticreturn:silkstrum',
+        'createchromaticreturn:fortunite_bar',
+        'createchromaticreturn:four_leaf_clover'
     ])
 
     // Cyclic
@@ -404,7 +500,8 @@ ServerEvents.tags('item', e => {
         'mekanism:dirty_osmium',
         'mekanism:dirty_tin',
         'mekanism:dirty_uranium',
-        'mekanism:electric_bow'
+        'mekanism:electric_bow',
+        'mekanism:dust_charcoal'
     ])
     e.add('forge:unused', [
         'mekanism:antiprotonic_nucleosynthesizer',
@@ -466,7 +563,8 @@ ServerEvents.tags('item', e => {
         'mekanism:dirty_osmium',
         'mekanism:dirty_tin',
         'mekanism:dirty_uranium',
-        'mekanism:electric_bow'
+        'mekanism:electric_bow',
+        'mekanism:dust_charcoal'
     ])
 
     // Minecraft
@@ -508,7 +606,11 @@ ServerEvents.tags('item', e => {
         /moreplates:enderium_/,
         /moreplates:constantan_/,
         /moreplates:chromium_/,
-        /moreplates:aluminium_/
+        /moreplates:aluminium_/,
+        /moreplates:brick_/,
+        /moreplates:nether_brick_/,
+        /moreplates:ironwood_/,
+        /moreplates:knightmetal_/
     ])
     e.add('forge:unused', [
         '#moreplates:mods/allthemodium',
@@ -540,7 +642,12 @@ ServerEvents.tags('item', e => {
         /moreplates:enderium_/,
         /moreplates:constantan_/,
         /moreplates:chromium_/,
-        /moreplates:aluminium_/
+        /moreplates:aluminium_/,
+        /moreplates:aquamarine_/,
+        /moreplates:brick_/,
+        /moreplates:nether_brick_/,
+        /moreplates:ironwood_/,
+        /moreplates:knightmetal_/
     ])
 
     // Naturalist
@@ -645,14 +752,6 @@ ServerEvents.tags('item', e => {
         'extradisks:1048576k_fluid_storage_block',
         'extradisks:1048576k_fluid_storage_disk',
         /extrastorage:storagepart_/
-    ])
-
-    // Sophisticated Storage
-    e.removeAllTagsFrom([
-        'sophisticatedstorage:debug_tool'
-    ])
-    e.add('forge:unused', [
-        'sophisticatedstorage:debug_tool'
     ])
 
     // Twilight Forest
@@ -794,22 +893,21 @@ ServerEvents.tags('item', e => {
         'apotheosis:scrap_tome',
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
-        'eidolon:silver_ore',
-        'eidolon:deep_silver_ore',
         'eidolon:raw_silver',
         'eidolon:raw_silver_block',
         'eidolon:silver_nugget',
         'eidolon:silver_ingot',
         'eidolon:silver_block',
-        'eidolon:lead_ore',
-        'eidolon:deep_lead_ore',
         'eidolon:raw_lead',
         'eidolon:raw_lead_block',
         'eidolon:lead_nugget',
         'eidolon:lead_ingot',
         'eidolon:lead_block',
         'dustrial_decor:gold_chain',
-        'cyclic:gold_chain'
+        'cyclic:gold_chain',
+        'alexscaves:block_of_uranium',
+        'alexscaves:uranium',
+        'alexscaves:uranium_shard'
     ])
     e.add('forge:unused', [
         'stalwart_dungeons:awful_dungeon_spawner',
@@ -831,22 +929,21 @@ ServerEvents.tags('item', e => {
         'apotheosis:scrap_tome',
         'apotheosis:improved_scrap_tome',
         'apotheosis:extraction_tome',
-        'eidolon:silver_ore',
-        'eidolon:deep_silver_ore',
         'eidolon:raw_silver',
         'eidolon:raw_silver_block',
         'eidolon:silver_nugget',
         'eidolon:silver_ingot',
         'eidolon:silver_block',
-        'eidolon:lead_ore',
-        'eidolon:deep_lead_ore',
         'eidolon:raw_lead',
         'eidolon:raw_lead_block',
         'eidolon:lead_nugget',
         'eidolon:lead_ingot',
         'eidolon:lead_block',
         'dustrial_decor:gold_chain',
-        'cyclic:gold_chain'
+        'cyclic:gold_chain',
+        'alexscaves:block_of_uranium',
+        'alexscaves:uranium',
+        'alexscaves:uranium_shard'
     ])
 })
 
@@ -972,7 +1069,13 @@ ServerEvents.tags('item', e => {
         'createaddition:diamond_grit',
         /eidolon:spawn_/,
         'fluxnetworks:admin_configurator',
-        "ars_elemental:debug"
+        "ars_elemental:debug",
+        'trofers:small_pillar',
+        'trofers:medium_pillar',
+        'trofers:large_pillar',
+        'trofers:small_plate',
+        'trofers:medium_plate',
+        'trofers:large_plate'
     ])
 })
 
@@ -987,6 +1090,29 @@ ServerEvents.tags('item', e => {
     e.remove('refinedstorage:parts/items/1024k', /extrastorage:storagepart_/)
     e.remove('refinedstorage:parts/items/4096k', /extrastorage:storagepart_/)
 
-    e.add('minecraft:planks', '#aether_genesis:ancient_aether_plank_crafting')
     e.add('candlelight:milk', '#aether:milk_bucket_crafting')
+
+    // Planks
+    e.add('modfart/planks/spruce', [/spruce_planks/, /seamless_spruce/])
+    e.add('modfart/planks/birch', [/birch_planks/, /seamless_birch/])
+    e.add('modfart/planks/jungle', [/jungle_planks/, /seamless_jungle/])
+    e.add('modfart/planks/acacia', [/acacia_planks/, /seamless_acacia/])
+    e.add('modfart/planks/dark_oak', [/dark_oak_planks/, /seamless_dark_oak/])
+    e.add('modfart/planks/mangrove', /mangrove_planks/)
+    e.add('modfart/planks/cherry', /cherry_planks/)
+    e.add('modfart/planks/bamboo', /bamboo_planks/)
+    e.add('modfart/planks/crimson', [/crimson_planks/, /seamless_crimson/])
+    e.add('modfart/planks/warped', [/warped_planks/, /seamless_warped/])
+    e.remove('modfart/planks/spruce', [/mcw/, /additional_lights:/])
+    e.remove('modfart/planks/birch', [/mcw/, /additional_lights:/])
+    e.remove('modfart/planks/jungle', [/mcw/, /additional_lights:/])
+    e.remove('modfart/planks/acacia', [/mcw/, /additional_lights:/])
+    e.remove('modfart/planks/dark_oak', [/mcw/, /additional_lights:/])
+    e.remove('modfart/planks/mangrove', [/mcw/, /twilightforest:/])
+    e.remove('modfart/planks/cherry', [/mcw/, /vinery:/])
+    e.remove('modfart/planks/bamboo', /mcw/)
+    e.remove('modfart/planks/crimson', [/mcw/, /additional_lights:/])
+    e.remove('modfart/planks/warped', [/mcw/, /additional_lights:/])
+    e.add('modfart/planks/other', /planks/)
+    e.remove('modfart/planks/other', ['#modfart/planks/spruce', '#modfart/planks/birch', '#modfart/planks/jungle', '#modfart/planks/acacia', '#modfart/planks/dark_oak', '#modfart/planks/mangrove', '#modfart/planks/cherry', '#modfart/planks/bamboo', '#modfart/planks/crimson', '#modfart/planks/warped', /chipped:/, /rechiseled:/, /additional_lights:/, /mcw/, /macaw/, /planks_seamless/, /planks_stairs/, /planks_slab/, /planks_fence/, 'gardens_of_the_dead:soulblight_planks', 'gardens_of_the_dead:whistlecane_block', 'endlessbiomes:penumbra_planks', 'endlessbiomes:twisted_planks', 'aether:skyroot_planks', 'ars_nouveau:archwood_planks', 'biomesoplenty:dead_planks', 'biomesoplenty:fir_planks', 'biomesoplenty:hellbark_planks', 'biomesoplenty:jacaranda_planks', 'biomesoplenty:magic_planks', 'biomesoplenty:mahogany_planks', 'biomesoplenty:palm_planks', 'biomesoplenty:redwood_planks', 'biomesoplenty:umbran_planks', 'biomesoplenty:willow_planks', 'twilightforest:canopy_planks', 'twilightforest:dark_planks', 'twilightforest:mangrove_planks', 'twilightforest:mining_planks', 'twilightforest:sorting_planks', 'twilightforest:time_planks', 'twilightforest:transformation_planks', 'twilightforest:twilight_oak_planks', 'undergarden:grongle_planks', 'undergarden:smogstem_planks', 'undergarden:wigglewood_planks'])
 })

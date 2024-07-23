@@ -389,15 +389,15 @@ ServerEvents.recipes(e => {
                 { "item": "extradisks:withering_processor" },
                 { "item": "moreplates:quartz_enriched_gear" },
                 { "item": "extradisks:withering_processor" },
-                { "item": "moreplates:quartz_enriched_plate" },
+                { "item": "moreplates:silicon_plate" },
                 { "item": "moreplates:ender_plate" },
-                { "item": "moreplates:quartz_enriched_plate" },
+                { "item": "moreplates:silicon_plate" },
                 { "item": "extradisks:withering_processor" },
                 { "item": A },
                 { "item": "extradisks:withering_processor" },
-                { "item": "moreplates:quartz_enriched_plate" },
+                { "item": "moreplates:silicon_plate" },
                 { "item": "moreplates:ender_plate" },
-                { "item": "moreplates:quartz_enriched_plate" }
+                { "item": "moreplates:silicon_plate" }
             ],
             "result": { "item": output }
         })
@@ -422,7 +422,7 @@ ServerEvents.recipes(e => {
         ],
         "key": {
             "A": {
-                "item": "moreplates:quartz_enriched_plate"
+                "item": "moreplates:silicon_plate"
             },
             "B": {
                 "item": "kubejs:deep_gear"
@@ -487,24 +487,6 @@ ServerEvents.recipes(e => {
 })
 
 // Mekanism
-ServerEvents.recipes(e => {
-    let potting = (input, amount, output) => {
-        e.custom({
-            "type": "mekanism:infusion_conversion",
-            "input": {
-                "ingredient": {
-                    "item": input
-                }
-            },
-            "output": {
-                "amount": amount,
-                "infuse_type": output
-            }
-        })
-    }
-    potting('createchromaticreturn:multiplite_ingot', 10, 'kubejs:creative')
-    potting('createchromaticreturn:creative_flour', 80, 'kubejs:creative')
-})
 ServerEvents.recipes(e => {
     e.shaped("solarpanels:creative_solar_element", [
         'AAA',
@@ -747,7 +729,7 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:bedrock"
             },
             {
-                "chance": 0.01,
+                "chance": 0.1,
                 "count": 1,
                 "item": "createchromaticreturn:bedrock_shard"
             }

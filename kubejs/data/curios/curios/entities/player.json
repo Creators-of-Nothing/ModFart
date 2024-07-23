@@ -6,9 +6,9 @@
   "slots": [
     "wireless",
     "head",
+    "mask",
     "necklace",
     "an_focus",
-    "talisman",
     "back",
     "magnetizer",
     "quiver",
@@ -19,7 +19,6 @@
     "bundle",
     "belt",
     "feet",
-    "charm",
-    "curio"
+    "charm"
   ]
 }

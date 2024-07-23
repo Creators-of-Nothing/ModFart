@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "7798244B59ABC64D"
-	icon: "create:wrench"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "create:block/brass_casing"
+		}
+	}
 	id: "3D71719278E5606A"
 	images: [
 		{
@@ -222,6 +228,12 @@
 			dependencies: ["59B7D5A631C63F72"]
 			description: ["Un bon moteur qui peut remplacer tes Water Wheels ou tes Moulins. Attention, il supporte très mal le stress, mais ils sont cumulables."]
 			id: "5F64CCE2106FEA61"
+			rewards: [{
+				id: "3E5FE799DDC49063"
+				item: "create:brass_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D54DCAA6B52A548"
 				item: "createaddition:electric_motor"
@@ -424,7 +436,7 @@
 			rewards: [{
 				id: "576EF3C77A177840"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -435,7 +447,7 @@
 			tasks: [{
 				id: "4DCD1A907E5AD10D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -664,7 +676,7 @@
 				{
 					id: "163271669202EAC4"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_jetpack:jetpack"
 						tag: {
 							Air: 900.0f
@@ -675,7 +687,7 @@
 				{
 					id: "7D705991159597F3"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sa:slime_boots"
 						tag: {
 							Damage: 0
@@ -686,7 +698,7 @@
 				{
 					id: "6AA34AFED6EB0548"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sa:grapplin_whisk"
 						tag: { }
 					}
@@ -711,7 +723,7 @@
 				{
 					id: "1EB2A3ADF8B46D87"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sa:portable_drill"
 						tag: { }
 					}
@@ -720,7 +732,7 @@
 				{
 					id: "071ACD5366282C1E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sa:large_filling_tank"
 						tag: { }
 					}
@@ -729,7 +741,7 @@
 				{
 					id: "2263E053DE6DAB2D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create_sa:large_fueling_tank"
 						tag: { }
 					}
@@ -769,7 +781,7 @@
 			rewards: [{
 				id: "292C5A39A6DD6E23"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -951,7 +963,6 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 16L
 				id: "09694E87E086C9A4"
 				item: "create:blaze_cake"
 				type: "item"
@@ -997,7 +1008,7 @@
 			tasks: [{
 				id: "79EA6253AF4E6D31"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:string_mesh"
 					tag: { }
 				}
@@ -1012,7 +1023,7 @@
 			rewards: [{
 				id: "19401DCAB152AAF4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:string_mesh"
 					tag: { }
 				}
@@ -1021,7 +1032,7 @@
 			tasks: [{
 				id: "15B1402CACABBF2C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:andesite_mesh"
 					tag: { }
 				}
@@ -1036,7 +1047,7 @@
 			rewards: [{
 				id: "24900376044ABC70"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:andesite_mesh"
 					tag: { }
 				}
@@ -1045,7 +1056,7 @@
 			tasks: [{
 				id: "62ED8323DA628D19"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:zinc_mesh"
 					tag: { }
 				}
@@ -1060,7 +1071,7 @@
 			rewards: [{
 				id: "2D04AA67FF7C21A8"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:zinc_mesh"
 					tag: { }
 				}
@@ -1069,7 +1080,7 @@
 			tasks: [{
 				id: "244629120C4A0D43"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:brass_mesh"
 					tag: { }
 				}
@@ -1085,7 +1096,7 @@
 			rewards: [{
 				id: "3D381A02651D28BA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:brass_mesh"
 					tag: { }
 				}
@@ -1154,14 +1165,14 @@
 				"169485A6CE91F6B5"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "0A494C9B538D82F4"
 			rewards: [{
 				id: "4F66DBF0AE5BC953"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -1173,11 +1184,12 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "5355F4B231C45CF9"
-				title: "Create complété !"
 				type: "checkmark"
 			}]
+			title: "Create terminé !"
 			x: -5.0d
 			y: 6.5d
 		}
@@ -1187,7 +1199,7 @@
 			tasks: [{
 				id: "0160DE0432F6CDF6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "createsifter:custom_mesh"
 					tag: { }
 				}

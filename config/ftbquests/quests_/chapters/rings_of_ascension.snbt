@@ -453,7 +453,7 @@
 			rewards: [{
 				id: "4004B3523B77719A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {

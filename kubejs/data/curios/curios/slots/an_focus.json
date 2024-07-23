@@ -2,7 +2,7 @@
   "replace": true,
   "render_toggle":true,
   "operation": "SET",
-  "order": 4,
+  "order": 5,
   "size": 1,
   "icon": "kubejs:slot/empty_an_focus_slot"
 }

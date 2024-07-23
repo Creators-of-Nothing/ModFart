@@ -36,6 +36,7 @@ ServerEvents.tags('item', e => {
     e.add('forge:ores/lead', /lead_ore/)
     e.add('forge:ores/netherite', 'minecraft:ancient_debris')
     e.add('forge:ores/enderite', 'lolenderite:primordial_remnants')
+    e.add('forge:ores/valkyrum', /valkyrum_ore/)
 })
 
 
@@ -77,4 +78,5 @@ ServerEvents.tags('block', e => {
     e.add('forge:ores/lead', /lead_ore/)
     e.add('forge:ores/netherite', 'minecraft:ancient_debris')
     e.add('forge:ores/enderite', 'lolenderite:primordial_remnants')
+    e.add('forge:ores/valkyrum', /valkyrum_ore/)
 })

@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "donjons"
+	group: "1BF794ED3A9B4457"
+	icon: "cataclysm:sandstone_poison_dart_trap"
+	id: "4441CF753DBD176C"
+	order_index: 9
+	quest_links: [ ]
+	quests: [{
+		id: "6499760AE40F1BC5"
+		tasks: [{
+			id: "754D6F5A05EDDBC5"
+			item: "minecraft:birch_planks"
+			type: "item"
+		}]
+		x: 0.5d
+		y: 0.75d
+	}]
+	title: "Donjons"
+}

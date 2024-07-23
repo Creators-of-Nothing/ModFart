@@ -3,6 +3,6 @@
   "render_toggle":true,
   "operation": "SET",
   "order": 14,
-  "size": 2,
+  "size": 1,
   "icon": "kubejs:slot/empty_belt_slot"
 }

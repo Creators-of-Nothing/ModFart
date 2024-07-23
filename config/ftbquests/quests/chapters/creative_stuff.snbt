@@ -2,8 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "creative_stuff"
-	group: "330F5450D49BBA54"
-	icon: "extendedcrafting:the_ultimate_catalyst"
+	group: "7B4A59D3B1EC7332"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "create:block/creative_casing"
+		}
+	}
 	id: "312AABFDFC6561E0"
 	images: [
 		{
@@ -39,7 +45,7 @@
 			y: -4.75d
 		}
 	]
-	order_index: 2
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -284,7 +290,7 @@
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
-			description: ["Produit jusqu'à 3.76 millions de RF par tick."]
+			description: ["Produit jusqu'à 3.52 millions de RF par tick."]
 			id: "3880CEAC873F56E4"
 			rewards: [{
 				id: "48D714D15974D169"
@@ -311,7 +317,7 @@
 			tasks: [{
 				id: "388E8BD73CD6A2B3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironfurnaces:million_furnace"
 					tag: {
 						display: {
@@ -370,7 +376,7 @@
 			tasks: [{
 				id: "505653B516CA80A2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "refinedstorage:creative_portable_grid"
 					tag: { }
 				}
@@ -685,7 +691,7 @@
 			tasks: [{
 				id: "56DFF4AF5C348B4E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mekanism:creative_energy_cube"
 					tag: {
 						mekData: {
@@ -772,15 +778,14 @@
 				"617DED9427A6E3B5"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "10D11C9AF21F216A"
-			invisible: true
 			rewards: [{
 				id: "495B30F5E8678372"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -792,14 +797,15 @@
 			}]
 			shape: "rsquare"
 			size: 3.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "0CB86CB15CA19B7C"
 				type: "checkmark"
 			}]
-			title: "Creative complété !"
+			title: "Chapitre 5 terminé !"
 			x: 0.0d
 			y: -22.5d
 		}
 	]
-	title: "Creative Stuff"
+	title: "Ch. 5 - Fin"
 }

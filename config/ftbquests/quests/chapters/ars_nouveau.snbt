@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "6FCD3535E8BFAB91"
-	icon: "ars_nouveau:archmage_spell_book"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ars_nouveau:block/falseweave"
+		}
+	}
 	id: "2F9EAA2D7BD1F8C3"
 	images: [
 		{
@@ -255,7 +261,7 @@
 			description: [
 				"Il s'agit du stockage de la Source. La Source sert à faire fonctionner vos machines."
 				""
-				"Si un générateur de Source se trouvent à proximité (5 blocs max), il remplira la Jar."
+				"Si un générateur de Source se trouvent à proximité (5 blocs max), il remplira la Jar. Cette dernière peut contenir jusqu'à 10.000 de Source."
 			]
 			id: "05B1F9222C0D715E"
 			rewards: [{
@@ -384,7 +390,7 @@
 			tasks: [{
 				id: "4811E4F4767760FE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:starbuncle_charm"
 					tag: { }
 				}
@@ -532,7 +538,7 @@
 			tasks: [{
 				id: "5580A33F25EA219B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:dominion_wand"
 					tag: { }
 				}
@@ -753,7 +759,7 @@
 			rewards: [{
 				id: "32F64C5A18C009CD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -767,7 +773,7 @@
 			tasks: [{
 				id: "69A53A6CF833F65D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_sword"
 					tag: {
 						Damage: 0
@@ -789,7 +795,7 @@
 			rewards: [{
 				id: "51352DD2775410CC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_crossbow"
 					tag: { }
 				}
@@ -798,7 +804,7 @@
 			tasks: [{
 				id: "050A5D95AFB64BBA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:spell_bow"
 					tag: { }
 				}
@@ -823,7 +829,7 @@
 			tasks: [{
 				id: "0460C9506FCE0C40"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:wand"
 					tag: { }
 				}
@@ -839,7 +845,7 @@
 			rewards: [{
 				id: "5E575D2F29D68C7A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:splash_flask_cannon"
 					tag: { }
 				}
@@ -848,7 +854,7 @@
 			tasks: [{
 				id: "0F777DDBF9EC9976"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:lingering_flask_cannon"
 					tag: { }
 				}
@@ -870,7 +876,7 @@
 			tasks: [{
 				id: "196D120B98B84D77"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:dowsing_rod"
 					tag: {
 						Damage: 0
@@ -893,7 +899,7 @@
 			tasks: [{
 				id: "5A5C8E82B4D1FA95"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_shield"
 					tag: {
 						Damage: 0
@@ -1062,7 +1068,7 @@
 			tasks: [{
 				id: "46C1AB32720535B1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:enchanters_mirror"
 					tag: { }
 				}
@@ -1083,7 +1089,7 @@
 			tasks: [{
 				id: "25C5E9E44B3625DA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:annotated_codex"
 					tag: { }
 				}
@@ -1139,7 +1145,7 @@
 			tasks: [{
 				id: "15372500D95806BA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ars_nouveau:runic_chalk"
 					tag: {
 						Damage: 0
@@ -1414,14 +1420,14 @@
 				"181A3DF2DA3BB765"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "68C46241A23C03D9"
 			rewards: [{
 				id: "25EF7D188E6BE9D0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -1433,9 +1439,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "6C35EC175401A3A8"
-				title: "Ars Nouveau fini !"
 				type: "checkmark"
 			}]
 			title: "Ars Nouveau complété !"

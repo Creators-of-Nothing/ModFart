@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "stockage"
 	group: "3CA4B0CAAB94EE6B"
-	icon: "minecraft:chest"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "sophisticatedstorage:block/controller_side"
+		}
+	}
 	id: "4B660318AEF02264"
 	images: [
 		{
@@ -212,7 +218,7 @@
 				{
 					id: "74733B6DFB5E8B86"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "sophisticatedstorage:barrel"
 						tag: {
 							woodType: "oak"
@@ -223,7 +229,7 @@
 				{
 					id: "6818B1F80752C6A2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "sophisticatedstorage:limited_barrel_1"
 						tag: {
 							woodType: "oak"
@@ -234,7 +240,7 @@
 				{
 					id: "53FE8F9F36AC422F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "sophisticatedstorage:limited_barrel_2"
 						tag: {
 							woodType: "oak"
@@ -245,7 +251,7 @@
 				{
 					id: "529AEC8292546CDC"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "sophisticatedstorage:limited_barrel_3"
 						tag: {
 							woodType: "oak"
@@ -256,7 +262,7 @@
 				{
 					id: "23D0A1F4BC0AAF6E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "sophisticatedstorage:limited_barrel_4"
 						tag: {
 							woodType: "oak"
@@ -280,7 +286,7 @@
 			tasks: [{
 				id: "17F634ECD3FB1170"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:iron_barrel"
 					tag: {
 						woodType: "oak"
@@ -303,7 +309,7 @@
 			tasks: [{
 				id: "419AA50151F37338"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:gold_barrel"
 					tag: {
 						woodType: "oak"
@@ -326,7 +332,7 @@
 			tasks: [{
 				id: "05617452CD19DA3F"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:diamond_barrel"
 					tag: {
 						woodType: "oak"
@@ -349,7 +355,7 @@
 			tasks: [{
 				id: "781284AC371A87D1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "sophisticatedstorage:netherite_barrel"
 					tag: {
 						woodType: "oak"
@@ -431,7 +437,7 @@
 			rewards: [{
 				id: "63498AAD54AF81AF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "enderchests:ender_pouch"
 					tag: {
 						open: 0b
@@ -442,7 +448,7 @@
 			tasks: [{
 				id: "5FFF0BFF3E13193E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "enderchests:ender_chest"
 					tag: {
 						code: "000"
@@ -460,7 +466,7 @@
 			rewards: [{
 				id: "3FB70C83160EE207"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endertanks:ender_bucket"
 					tag: {
 						code: "000"
@@ -473,7 +479,7 @@
 			tasks: [{
 				id: "6DDAEAD10AB5BE37"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "endertanks:ender_tank"
 					tag: {
 						code: "000"
@@ -488,6 +494,12 @@
 		{
 			dependencies: ["6AF04F01DC2D3C66"]
 			id: "7EF5312119536AD0"
+			rewards: [{
+				id: "71EB8B74244B82B6"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "130C742BF5AD18B0"
 				item: "sophisticatedstorage:stack_upgrade_tier_1"
@@ -499,6 +511,12 @@
 		{
 			dependencies: ["7EF5312119536AD0"]
 			id: "0A7ACE8C206BD73E"
+			rewards: [{
+				id: "6DE1365B99494AFB"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "2ED25AD025F411A2"
 				item: "sophisticatedstorage:stack_upgrade_tier_2"
@@ -510,6 +528,12 @@
 		{
 			dependencies: ["0A7ACE8C206BD73E"]
 			id: "54A1EBF53738934F"
+			rewards: [{
+				id: "68259909B4189073"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B243EB1788050CE"
 				item: "sophisticatedstorage:stack_upgrade_tier_3"
@@ -521,6 +545,12 @@
 		{
 			dependencies: ["54A1EBF53738934F"]
 			id: "136D3E13AEC47642"
+			rewards: [{
+				id: "244A72DCAC6F83E9"
+				item: "minecraft:netherite_scrap"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F876A74E3722373"
 				item: "sophisticatedstorage:stack_upgrade_tier_4"
@@ -615,14 +645,14 @@
 				"39BE83A9946B3DEF"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "00DEA1892E788E39"
 			rewards: [{
 				id: "2CCB088CC69A8A1A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -634,9 +664,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "6523B9CB5B79C4C5"
-				title: "Storage fini !"
 				type: "checkmark"
 			}]
 			title: "Storage complété !"

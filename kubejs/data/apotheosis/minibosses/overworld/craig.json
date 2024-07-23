@@ -3,7 +3,7 @@
 	"weight": 10,
 	"quality": 0,
 	"name": "Craig the Eternal",
-	"chance": 0.0005,
+	"chance": 0.000000001,
 	"entities": [
 		"minecraft:goat"
 	],

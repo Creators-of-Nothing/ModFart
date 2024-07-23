@@ -78,30 +78,9 @@
 	#
 	# Defines the spin attack damage for Fierce Deity Sword
 	spin_damage_fierce_deity_sword = 20.0
-
-["Master Sword Configs - Enable/Disable Song of Storms"]
 	#
-	#
-	# Defines if the Song of Storms in enabled
-	enable_song_of_storms = true
-
-["Master Sword Configs - Skyward Stike/Sword Beam - True Master Sword's Ability Damage"]
-	#
-	#
-	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
-	#
-	#
-	# Defines the base beam damage
-	base_beam_damage = 10.0
-	#
-	# Defines the base beam damage vs undead
-	base_beam_damage_undead = 14.0
-	#
-	# Defines the fully charged beam damage
-	charged_beam_damage = 16.0
-	#
-	# Defines the fully charged beam damage vs undead
-	charged_beam_damage_undead = 22.0
+	# Defines the spin attack damage for True Master Sword
+	spin_damage_true_master_sword = 19.0
 
 ["Master Sword Configs - Magic Staff Configs"]
 	#
@@ -129,4 +108,26 @@
 	#
 	# Defines if the Ice Rod creates snow on hit blocks
 	ice_rod_leave_snow = true
+
+["Master Sword Configs - Enable/Disable Songs"]
+	#
+	#
+	# Defines if the Song of Storms in enabled
+	enable_song_of_storms = true
+	#
+	#
+	# Defines if the Sun's Song in enabled
+	enable_suns_song = true
+
+["Master Sword Configs - Sword Beam Damage"]
+	#
+	#
+	#**THE DAMAGE VALUES MUST CONTAIN A DECIMAL PLACE. (e.g. 1.0)**
+	#
+	#
+	# Defines the base beam damage
+	base_beam_damage = 5.0
+	#
+	# Defines the Ciela enhanced beam damage
+	enhanced_beam_damage = 8.0
 

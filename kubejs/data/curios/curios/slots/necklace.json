@@ -2,7 +2,7 @@
   "replace": true,
   "render_toggle":true,
   "operation": "SET",
-  "order": 3,
+  "order": 4,
   "size": 3,
   "icon": "kubejs:slot/empty_necklace_slot"
 }
