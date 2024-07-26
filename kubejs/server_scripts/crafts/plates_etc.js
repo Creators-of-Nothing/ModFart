@@ -59,7 +59,6 @@ ServerEvents.recipes(e => {
     }
     // Vanilla
     potting('moreplates:amethyst_gear', 'minecraft:amethyst_shard')
-    potting('moreplates:brick_gear', 'minecraft:brick')
     potting('moreplates:charcoal_gear', 'minecraft:charcoal')
     potting('moreplates:coal_gear', 'minecraft:coal')
     potting('moreplates:copper_gear', 'minecraft:copper_ingot')
@@ -73,7 +72,6 @@ ServerEvents.recipes(e => {
     potting('kubejs:honey_gear', 'minecraft:honeycomb')
     potting('moreplates:iron_gear', 'minecraft:iron_ingot')
     potting('moreplates:lapis_lazuli_gear', 'minecraft:lapis_lazuli')
-    potting('moreplates:nether_brick_gear', 'minecraft:nether_brick')
     potting('moreplates:nether_quartz_gear', 'minecraft:quartz')
     potting('kubejs:nether_star_gear', 'minecraft:nether_star')
     potting('moreplates:netherite_gear', 'minecraft:netherite_ingot')
@@ -87,8 +85,6 @@ ServerEvents.recipes(e => {
     potting('moreplates:wood_gear', '#minecraft:planks')
     // Alex's Mobs
     potting('kubejs:straddlite_gear', 'alexsmobs:straddlite')
-    // Aquaculture
-    potting('kubejs:neptunium_gear', 'aquaculture:neptunium_ingot')
     // Ars Nouveau
     potting('kubejs:drygmy_gear', 'ars_nouveau:drygmy_shard')
     potting('kubejs:source_gear', 'ars_nouveau:source_gem')
@@ -115,11 +111,9 @@ ServerEvents.recipes(e => {
     // Enderite
     potting('kubejs:enderite_gear', 'lolenderite:enderite_ingot')
     // Enlightend
-    potting('kubejs:adamantite_gear', 'enlightened_end:adamantite_ingot')
     potting('moreplates:bismuth_gear', 'enlightened_end:bismuth_ingot')
     potting('kubejs:malachite_gear', 'enlightened_end:malachite')
     // Epic Samurai
-    potting('moreplates:aquamarine_gear', 'epicsamurai:aquamarine')
     potting('moreplates:ruby_gear', 'epicsamurai:ruby')
     potting('moreplates:silver_gear', 'epicsamurai:silver_ingot')
     // Extended Crafting
@@ -146,8 +140,6 @@ ServerEvents.recipes(e => {
     potting('moreplates:steel_gear', 'mekanism:ingot_steel')
     potting('moreplates:tin_gear', 'mekanism:ingot_tin')
     potting('moreplates:uranium_gear', 'mekanism:ingot_uranium')
-    // Phantasmic
-    potting('kubejs:necronium_gear', 'nourished_nether:necronium_ingot')
     // Refined Storage
     potting('moreplates:quartz_enriched_gear', 'refinedstorage:quartz_enriched_iron')
     potting('moreplates:silicon_gear', 'refinedstorage:silicon')
@@ -161,8 +153,6 @@ ServerEvents.recipes(e => {
     // Twilight Forest
     potting('kubejs:arctic_gear', 'twilightforest:arctic_fur')
     potting('moreplates:fiery_gear', 'twilightforest:fiery_ingot')
-    potting('moreplates:ironwood_gear', 'twilightforest:ironwood_ingot')
-    potting('moreplates:knightmetal_gear', 'twilightforest:knightmetal_ingot')
 })
 
 
@@ -185,7 +175,6 @@ ServerEvents.recipes(e => {
     }
     // Vanilla
     potting('moreplates:amethyst_plate', 'minecraft:amethyst_shard')
-    potting('moreplates:brick_plate', 'minecraft:brick')
     potting('moreplates:charcoal_plate', 'minecraft:charcoal')
     potting('moreplates:coal_plate', 'minecraft:coal')
     potting('moreplates:copper_plate', 'minecraft:copper_ingot')
@@ -199,7 +188,6 @@ ServerEvents.recipes(e => {
     potting('kubejs:honey_plate', 'minecraft:honeycomb')
     potting('moreplates:iron_plate', 'minecraft:iron_ingot')
     potting('moreplates:lapis_lazuli_plate', 'minecraft:lapis_lazuli')
-    potting('moreplates:nether_brick_plate', 'minecraft:nether_brick')
     potting('moreplates:nether_quartz_plate', 'minecraft:quartz')
     potting('kubejs:nether_star_plate', 'minecraft:nether_star')
     potting('moreplates:netherite_plate', 'minecraft:netherite_ingot')
@@ -212,8 +200,6 @@ ServerEvents.recipes(e => {
     potting('kubejs:sea_plate', 'minecraft:heart_of_the_sea')
     // Alex's Mobs
     potting('kubejs:straddlite_plate', 'alexsmobs:straddlite')
-    // Aquaculture
-    potting('kubejs:neptunium_plate', 'aquaculture:neptunium_ingot')
     // Ars Nouveau
     potting('kubejs:drygmy_plate', 'ars_nouveau:drygmy_shard')
     potting('kubejs:source_plate', 'ars_nouveau:source_gem')
@@ -240,11 +226,9 @@ ServerEvents.recipes(e => {
     // Enderite
     potting('kubejs:enderite_plate', 'lolenderite:enderite_ingot')
     // Enlightend
-    potting('kubejs:adamantite_plate', 'enlightened_end:adamantite_ingot')
     potting('moreplates:bismuth_plate', 'enlightened_end:bismuth_ingot')
     potting('kubejs:malachite_plate', 'enlightened_end:malachite')
     // Epic Samurai
-    potting('moreplates:aquamarine_plate', 'epicsamurai:aquamarine')
     potting('moreplates:ruby_plate', 'epicsamurai:ruby')
     potting('moreplates:silver_plate', 'epicsamurai:silver_ingot')
     // Extended Crafting
@@ -271,8 +255,6 @@ ServerEvents.recipes(e => {
     potting('moreplates:steel_plate', 'mekanism:ingot_steel')
     potting('moreplates:tin_plate', 'mekanism:ingot_tin')
     potting('moreplates:uranium_plate', 'mekanism:ingot_uranium')
-    // Phantasmic
-    potting('kubejs:necronium_plate', 'nourished_nether:necronium_ingot')
     // Refined Storage
     potting('moreplates:quartz_enriched_plate', 'refinedstorage:quartz_enriched_iron')
     potting('moreplates:silicon_plate', 'refinedstorage:silicon')
@@ -286,8 +268,6 @@ ServerEvents.recipes(e => {
     // Twilight Forest
     potting('kubejs:arctic_plate', 'twilightforest:arctic_fur')
     potting('moreplates:fiery_plate', 'twilightforest:fiery_ingot')
-    potting('moreplates:ironwood_plate', 'twilightforest:ironwood_ingot')
-    potting('moreplates:knightmetal_plate', 'twilightforest:knightmetal_ingot')
 })
 ServerEvents.recipes(e => {
     let potting = (output, element) => {
@@ -326,7 +306,6 @@ ServerEvents.recipes(e => {
     }
     // Vanilla
     potting('moreplates:amethyst_rod', 'minecraft:amethyst_shard')
-    potting('moreplates:brick_rod', 'minecraft:brick')
     potting('moreplates:charcoal_rod', 'minecraft:charcoal')
     potting('moreplates:coal_rod', 'minecraft:coal')
     potting('moreplates:copper_rod', 'minecraft:copper_ingot')
@@ -340,7 +319,6 @@ ServerEvents.recipes(e => {
     potting('kubejs:honey_rod', 'minecraft:honeycomb')
     potting('moreplates:iron_rod', 'minecraft:iron_ingot')
     potting('moreplates:lapis_lazuli_rod', 'minecraft:lapis_lazuli')
-    potting('moreplates:nether_brick_rod', 'minecraft:nether_brick')
     potting('moreplates:nether_quartz_rod', 'minecraft:quartz')
     potting('kubejs:nether_star_rod', 'minecraft:nether_star')
     potting('moreplates:netherite_rod', 'minecraft:netherite_ingot')
@@ -353,8 +331,6 @@ ServerEvents.recipes(e => {
     potting('kubejs:sea_rod', 'minecraft:heart_of_the_sea')
     // Alex's Mobs
     potting('kubejs:straddlite_rod', 'alexsmobs:straddlite')
-    // Aquaculture
-    potting('kubejs:neptunium_rod', 'aquaculture:neptunium_ingot')
     // Ars Nouveau
     potting('kubejs:drygmy_rod', 'ars_nouveau:drygmy_shard')
     potting('kubejs:source_rod', 'ars_nouveau:source_gem')
@@ -381,11 +357,9 @@ ServerEvents.recipes(e => {
     // Enderite
     potting('kubejs:enderite_rod', 'lolenderite:enderite_ingot')
     // Enlightend
-    potting('kubejs:adamantite_rod', 'enlightened_end:adamantite_ingot')
     potting('moreplates:bismuth_rod', 'enlightened_end:bismuth_ingot')
     potting('kubejs:malachite_rod', 'enlightened_end:malachite')
     // Epic Samurai
-    potting('moreplates:aquamarine_rod', 'epicsamurai:aquamarine')
     potting('moreplates:ruby_rod', 'epicsamurai:ruby')
     potting('moreplates:silver_rod', 'epicsamurai:silver_ingot')
     // Extended Crafting
@@ -412,8 +386,6 @@ ServerEvents.recipes(e => {
     potting('moreplates:steel_rod', 'mekanism:ingot_steel')
     potting('moreplates:tin_rod', 'mekanism:ingot_tin')
     potting('moreplates:uranium_rod', 'mekanism:ingot_uranium')
-    // Phantasmic
-    potting('kubejs:necronium_rod', 'nourished_nether:necronium_ingot')
     // Refined Storage
     potting('moreplates:quartz_enriched_rod', 'refinedstorage:quartz_enriched_iron')
     potting('moreplates:silicon_rod', 'refinedstorage:silicon')
@@ -427,8 +399,6 @@ ServerEvents.recipes(e => {
     // Twilight Forest
     potting('kubejs:arctic_rod', 'twilightforest:arctic_fur')
     potting('kubejs:fiery_rod', 'twilightforest:fiery_ingot')
-    potting('kubejs:ironwood_rod', 'twilightforest:ironwood_ingot')
-    potting('kubejs:knightmetal_rod', 'twilightforest:knightmetal_ingot')
 })
 ServerEvents.recipes(e => {
     let potting = (output, element) => {

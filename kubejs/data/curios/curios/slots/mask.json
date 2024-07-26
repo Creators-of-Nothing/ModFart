@@ -2,7 +2,7 @@
   "replace": true,
   "render_toggle":true,
   "operation": "SET",
-  "order": 17,
+  "order": 3,
   "size": 1,
-  "icon": "kubejs:slot/empty_curio_slot"
+  "icon": "kubejs:slot/empty_mask_slot"
 }

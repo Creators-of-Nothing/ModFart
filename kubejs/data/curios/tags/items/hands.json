@@ -13,6 +13,11 @@
     "aether:valkyrie_gloves",
     "aether:phoenix_gloves",
     "aether:obsidian_gloves",
+    "ancient_aether:valkyrum_gloves",
+    "cataclysm:sticky_gloves",
+    "cyclic:charm_attack_speed",
+    "cyclic:glove_climb",
+    "lost_aether_content:power_gloves",
     "umbral_skies:naga_gloves",
     "umbral_skies:ironwood_gloves",
     "umbral_skies:fiery_gloves",
@@ -20,9 +25,6 @@
     "umbral_skies:knightmetal_gloves",
     "umbral_skies:phantom_gloves",
     "umbral_skies:arctic_gloves",
-    "umbral_skies:yeti_gloves",
-    "cyclic:charm_attack_speed",
-    "cyclic:charm_starvation",
-    "cyclic:glove_climb"
+    "umbral_skies:yeti_gloves"
   ]
 }

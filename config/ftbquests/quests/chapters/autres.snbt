@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "autres"
+	group: "1BF794ED3A9B4457"
+	icon: "dimdungeons:block_portal_keyhole"
+	id: "4984CA081EE41334"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Différents mondes de minage en éternal day, pour éviter d'abimer votre jolie base !"]
+			id: "263AA57BCAD4DBE0"
+			rewards: [{
+				id: "53D61351823FE9ED"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5C2A528FE186D258"
+					item: "jamd:portal_block"
+					type: "item"
+				}
+				{
+					id: "458AEBD797302E34"
+					item: "jamd:nether_portal"
+					type: "item"
+				}
+				{
+					id: "030263E9E89A194F"
+					item: "jamd:end_portal"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			description: ["Un moyen d'aller dans le void, où il fait éternellement jour."]
+			id: "2551113A8C70F913"
+			rewards: [{
+				id: "66106C61AE788BCA"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "64962B58952F7660"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Un donjon qui vous mènera à un donjon, qui vous mènera à un donjon ..."
+				""
+				"Lorsque vous avez votre clef, il faut l'utiliser sur un End Portal vide. Si le votre est ouvert, vous pouvez utiliser la clef sur un End Portal plein : cela enlèvera l'oeil, mais n'éteindra pas le portail."
+				"{image:kubejs:textures/ftbquests/donjon.png width:160 height:100 align:1}"
+			]
+			id: "69D83891C3CDD8D4"
+			rewards: [{
+				id: "296AC9C0737B7AA5"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7127D8E57E29A64F"
+					item: "dimdungeons:block_portal_keyhole"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1D3EC534BC2B4302"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4583613D6A6829F5"
+					item: "dimdungeons:block_gilded_portal"
+					type: "item"
+				}
+				{
+					id: "43507BD411705AF5"
+					item: "dimdungeons:item_portal_key"
+					type: "item"
+				}
+			]
+			title: "Dimensional Dungeon"
+			x: -5.5d
+			y: 1.5d
+		}
+	]
+	title: "Autres Dimensions"
+}

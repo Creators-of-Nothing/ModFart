@@ -381,7 +381,8 @@ ServerEvents.recipes(e => {
     potting('alexsmobs:platypus', 2, 'alexsmobs:maggot', 'minecraft:clay_ball', 'alexsmobs:fedora')
     potting('alexsmobs:rocky_roller', 2, 'alexsmobs:rocky_shell', 'minecraft:pointed_dripstone', 'minecraft:tuff')
     potting('ars_nouveau:wilden_boss', 3, 'ars_nouveau:wilden_spike', 'ars_nouveau:wilden_horn', 'ars_nouveau:wilden_wing')
-    potting('beachparty:pelican', 1, 'minecraft:feather', 'beachparty:raw_pelican', 'beachparty:cooked_pelican')
+    potting('cataclysm:kobolediator', 2, 'cataclysm:ancient_metal_ingot', 'cataclysm:koboleton_bone', 'cataclysm:kobolediator_skull')
+    potting('cataclysm:koboleton', 2, 'cataclysm:ancient_metal_ingot', 'cataclysm:ancient_metal_nugget', 'cataclysm:koboleton_bone')
     potting('creeperoverhaul:dark_oak_creeper', 2, 'minecraft:gunpowder', 'minecraft:dark_oak_log', 'minecraft:cobweb')
     potting('eidolon:zombie_brute', 2, 'minecraft:rotten_flesh', 'minecraft:bone', 'eidolon:zombie_heart')
     potting('minecraft:frog', 1, 'minecraft:pearlescent_froglight', 'minecraft:verdant_froglight', 'minecraft:ochre_froglight')
@@ -474,7 +475,6 @@ ServerEvents.recipes(e => {
     potting('alexsmobs:kangaroo', 1, 'alexsmobs:kangaroo_hide', 'alexsmobs:kangaroo_meat', 'alexsmobs:cooked_kangaroo_meat')
     potting('alexsmobs:moose', 1, 'alexsmobs:moose_antler', 'alexsmobs:moose_ribs', 'alexsmobs:cooked_moose_ribs')
     potting('alexsmobs:tusklin', 2, 'minecraft:snowball', 'minecraft:porkchop', 'minecraft:cooked_porkchop')
-    potting('meadow:brown_bear', 2, 'minecraft:leather', 'meadow:raw_bear_meat', 'meadow:cooked_bear_meat')
     potting('meadow:water_buffalo', 2, 'minecraft:leather', 'minecraft:beef', 'minecraft:cooked_beef')
     potting('minecraft:mooshroom', 1, 'minecraft:leather', 'minecraft:beef', 'minecraft:cooked_beef')
     potting('mutantmonsters:spider_pig', 2, 'minecraft:string', 'minecraft:porkchop', 'minecraft:cooked_porkchop')
@@ -640,9 +640,17 @@ ServerEvents.recipes(e => {
     potting('alexsmobs:skreecher', 2, 'alexsmobs:skreecher_soul')
     potting('alexsmobs:tarantula_hawk', 1, 'alexsmobs:tarantula_hawk_wing_fragment')
     potting('alexsmobs:toucan', 1, 'minecraft:feather')
+    potting('ars_nouveau:amethyst_golem', 2, 'minecraft:amethyst_shard')
+    potting('ars_nouveau:drygmy', 1, 'ars_nouveau:drygmy_shard')
+    potting('ars_nouveau:starbuncle', 1, 'ars_nouveau:starbuncle_shards')
+    potting('ars_nouveau:whirlisprig', 1, 'ars_nouveau:whirlisprig_shards')
+    potting('ars_nouveau:wixie', 1, 'ars_nouveau:wixie_shards')
     potting('ars_nouveau:wilden_guardian', 2, 'ars_nouveau:wilden_spike')
     potting('ars_nouveau:wilden_hunter', 2, 'ars_nouveau:wilden_horn')
     potting('ars_nouveau:wilden_stalker', 2, 'ars_nouveau:wilden_wing')
+    potting('ars_elemental:siren_entity', 1, 'ars_elemental:siren_shards')
+    potting('cataclysm:ancient_remnant', 3, 'cataclysm:ancient_metal_block')
+    potting('cataclysm:wadjet', 2, 'cataclysm:ancient_metal_ingot')
     potting('creeperoverhaul:bamboo_creeper', 2, 'minecraft:bamboo')
     potting('creeperoverhaul:hills_creeper', 2, 'minecraft:gunpowder')
     potting('creeperoverhaul:jungle_creeper', 2, 'minecraft:gunpowder')
@@ -2021,9 +2029,6 @@ ServerEvents.recipes(e => {
     potting('aether:sentry', 2, 'aether:carved_stone', 'aether:sentry_stone')
     potting('aether:slider', 2, 'aether:carved_stone', 'aether:bronze_dungeon_key')
     potting('aether:sun_spirit', 2, 'aether:sun_altar', 'aether:gold_dungeon_key')
-    potting('ancient_aether:aeronautic_leaper', 2, 'ancient_aether:aerotic_stone', 'aether:aerogel')
-    potting('ancient_aether:ancient_core', 2, 'aether:enchanted_gravitite', 'ancient_aether:ancient_dungeon_key')
-    potting('ancient_aether:roothyrn', 1, 'ancient_aether:sakura_blossoms', 'aether:skyroot_stick')
     potting('lost_aether_content:aerwhale_king', 3, 'aether:blue_aercloud', 'lost_aether_content:platinum_key')
 })
 ServerEvents.recipes(e => {
@@ -2062,7 +2067,6 @@ ServerEvents.recipes(e => {
     }
     potting('aether:flying_cow', 1, 'minecraft:beef', 'minecraft:cooked_beef', 'minecraft:leather')
     potting('aether:phyg', 1, 'minecraft:porkchop', 'minecraft:cooked_porkchop', 'minecraft:feather')
-    potting('ancient_aether:highland_buffalo', 1, 'ancient_aether:buffalo_ribs', 'ancient_aether:cooked_buffalo_ribs', 'minecraft:leather')
 })
 ServerEvents.recipes(e => {
     let potting = (entity, tier, loot) => {
@@ -2094,7 +2098,7 @@ ServerEvents.recipes(e => {
     potting('aether:valkyrie', 2, 'aether:victory_medal')
     potting('aether:valkyrie_queen', 3, 'aether:silver_dungeon_key')
     potting('aether:zephyr', 1, 'aether:cold_aercloud')
-    potting('ancient_aether:wynd_zephyr', 2, 'aether:blue_aercloud')
+    potting('ancient_aether:aeronautic_leaper', 2, 'ancient_aether:corrupted_aeronautic_stone')
 })
 
 
@@ -2433,7 +2437,7 @@ ServerEvents.recipes(e => {
                 {
                     "chance": 0.1,
                     "output": {
-                        "item": "minecraft:wither_skeleton_spawn_egg"
+                        "item": "minecraft:wither_spawn_egg"
                     },
                     "minAmount": 1,
                     "maxAmount": 1
@@ -2506,10 +2510,6 @@ potting('alexsmobs:terrapin')
 potting('alexsmobs:tiger')
 potting('alexsmobs:triops')
 potting('alexsmobs:void_worm_splitter')
-
-// Cataclysm
-potting('cataclysm:endermaptera')
-potting('cataclysm:endermaptera_has_jaws')
 
 // Deeper and Darker
 potting('deeperdarker:shriek_worm')

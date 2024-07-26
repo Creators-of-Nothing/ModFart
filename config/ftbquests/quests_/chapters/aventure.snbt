@@ -4,7 +4,7 @@
 	filename: "aventure"
 	group: "7B8630C608C42520"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "everlastingabilities:ability_bottle"
 		tag: {
 			"everlastingabilities:abilityStoreStack": [ ]
@@ -51,7 +51,7 @@
 			tasks: [{
 				id: "0A3F2FCAAE63032A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "everlastingabilities:ability_bottle"
 					tag: {
 						"everlastingabilities:abilityStoreStack": [ ]
@@ -125,7 +125,7 @@
 			tasks: [{
 				id: "5D6FAD2B90918B3A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "simplemagnets:advancedmagnet"
 					tag: { }
 				}
@@ -170,7 +170,7 @@
 			tasks: [{
 				id: "3682F71083016DCC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -191,7 +191,7 @@
 			tasks: [{
 				id: "6CFCA472A3449F1C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "explorerscompass:explorerscompass"
 					tag: { }
 				}
@@ -301,7 +301,7 @@
 				{
 					id: "4FAD2C3B4F2E92CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "constructionwand:infinity_wand"
 						tag: {
 							wand_options: { }
@@ -345,7 +345,7 @@
 			rewards: [{
 				id: "722BB7726318CCE5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {

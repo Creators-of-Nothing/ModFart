@@ -128,7 +128,7 @@
 			rewards: [{
 				id: "3F71D1E257D1A69A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "enderchests:ender_pouch"
 					tag: {
 						open: 0b
@@ -243,7 +243,7 @@
 				advancement: "minecraft:nether/netherite_armor"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:netherite_chestplate"
 					tag: {
 						Damage: 0
@@ -282,7 +282,7 @@
 			rewards: [{
 				id: "490BD909E6BDD787"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -309,7 +309,7 @@
 			rewards: [{
 				id: "2B0AB7DE72735E04"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -321,7 +321,7 @@
 				advancement: "minecraft:end/elytra"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -335,6 +335,13 @@
 		}
 		{
 			dependencies: ["3A58E2FE8C566938"]
+			description: [
+				"Pour les obtenir, il faut tuer le Shelterer. Lorsque vous l'aurez trouvé, il faut l'invoquer en donnant une Nether Star à l'Altar qui se trouve au centre de la structure en obsidienne."
+				""
+				"Ensuite, faites un clic droit avec des TNTs sur les TNTs noires pour casser le bouclier du boss. Lorsque cela est fait, vous n'avez plus qu'à tuer le boss pour obtenir les cristaux."
+				""
+				"Le Chorudum est un minerais qui se trouve sur les murs de la structure."
+			]
 			id: "773EF5E50A2FCE0B"
 			rewards: [{
 				count: 4
@@ -343,13 +350,19 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			tasks: [{
-				entity: "stalwart_dungeons:shelterer"
-				icon: "stalwart_dungeons:shelterer_spawn_egg"
-				id: "2FB23DF5E24FFBDE"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					id: "1493E7B43DBED6AA"
+					item: "stalwart_dungeons:void_crystal"
+					type: "item"
+				}
+				{
+					id: "6E801D9817A17B33"
+					item: "stalwart_dungeons:chorundum"
+					type: "item"
+				}
+			]
+			title: "Shelterer"
 			x: 2.0d
 			y: -3.0d
 		}
@@ -378,7 +391,7 @@
 			rewards: [{
 				id: "5F8D9296A3E53CD4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "stalwart_dungeons:ancient_fire"
 					tag: {
 						Damage: 0
@@ -624,7 +637,7 @@
 			rewards: [{
 				id: "32F8910A4A488FDD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "twilightforest:giant_pickaxe"
 					tag: {
 						Damage: 0
@@ -635,7 +648,7 @@
 			tasks: [{
 				id: "15241F6A7CB744AE"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "twilightforest:giant_sword"
 					tag: {
 						Damage: 0
@@ -675,7 +688,7 @@
 			tasks: [{
 				id: "14E1159188AF931C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "twilightforest:lamp_of_cinders"
 					tag: {
 						Damage: 0
@@ -929,7 +942,7 @@
 			rewards: [{
 				id: "0CFA206066C35920"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -940,7 +953,7 @@
 			tasks: [{
 				id: "7175195743AED661"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:soul_elytra"
 					tag: {
 						Damage: 0
@@ -958,7 +971,7 @@
 			rewards: [{
 				id: "064A3CE08D776FD6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:potion"
 					tag: {
 						Potion: "deeperdarker:long_sculk_affinity"
@@ -970,7 +983,7 @@
 				advancement: "deeperdarker:main/warden_armor"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "deeperdarker:warden_chestplate"
 					tag: {
 						Damage: 0
@@ -1215,7 +1228,7 @@
 			tasks: [{
 				id: "5026045B8AB90EC4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "twilightforest:mazebreaker_pickaxe"
 					tag: {
 						Damage: 0
@@ -1290,7 +1303,7 @@
 				{
 					id: "74EF8493C835A028"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "the_bumblezone:flower_headwear"
 						tag: {
 							Damage: 0
@@ -1374,7 +1387,7 @@
 			tasks: [{
 				id: "128D9D1D66F8F119"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "the_bumblezone:honey_compass"
 					tag: { }
 				}
@@ -1408,7 +1421,7 @@
 			description: [
 				"Pour accomplir cet advancement, vous devrez en accomplir 16 autres, les voici :"
 				""
-				"- Craft 12 Bee Nests ou Beehives"
+				"- Craft 12 Bee Nests ou Beehives dans une &n&l&4table de craft&r&r&r !"
 				"- Tues 64 Spiders"
 				"- Bois 16 bouteilles de miel"
 				"- Projette sur une (ou plusieurs) entités 48 fois du Pollen Puff"
@@ -1496,7 +1509,7 @@
 			rewards: [{
 				id: "4ECD2A31270EB94D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {

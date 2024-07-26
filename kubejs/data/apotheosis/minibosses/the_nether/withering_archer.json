@@ -3,7 +3,7 @@
 	"weight": 100,
 	"quality": 0,
 	"name": "Withering Archer",
-	"chance": 0.02,
+	"chance": 0.000000001,
 	"entities": [
 		"minecraft:wither_skeleton",
 		"minecraft:skeleton"

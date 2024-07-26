@@ -26,6 +26,20 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'aether:skyroot_milk_bucket_cake' })
     e.remove({ id: 'aether:moa_egg_cake' })
     e.remove({ id: 'aether:skyroot_milk_bucket_moa_egg_cake' })
+    e.remove({ id: 'ancient_aether:valkyrum' })
+
+    // Crafting Tables
+    e.remove({ id: 'minecraft:crafting_table' })
+    e.remove({ id: 'vct:spruce_crafting_table' })
+    e.remove({ id: 'vct:birch_crafting_table' })
+    e.remove({ id: 'vct:jungle_crafting_table' })
+    e.remove({ id: 'vct:acacia_crafting_table' })
+    e.remove({ id: 'vct:dark_oak_crafting_table' })
+    e.remove({ id: 'vct:mangrove_crafting_table' })
+    e.remove({ id: 'vct:cherry_crafting_table' })
+    e.remove({ id: 'vct:bamboo_crafting_table' })
+    e.remove({ id: 'vct:crimson_crafting_table' })
+    e.remove({ id: 'vct:warped_crafting_table' })
 
     // Crayfish
     e.remove({ id: 'cfm:light_gray_picket_fence' })
@@ -44,11 +58,15 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'cfm:magenta_picket_fence' })
     e.remove({ id: 'cfm:pink_picket_fence' })
 
+    // Create
+    e.remove({ id: 'create_jetpack:netherite_jetpack' })
+
     // Create - Alloy
     e.remove({ id: 'mekanism:enriching/conversion/andesite/to_polished' })
 
     // Cyclic
     e.remove({ id: 'cyclic:netherite_ingot' })
+    e.remove({ id: 'cyclic:crafting/amethyst' })
 
     // Extended Crafting
     e.remove({ id: 'extendedcrafting:basic_table' })
@@ -57,6 +75,9 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'extendedcrafting:ultimate_table' })
     e.remove({ id: 'extendedcrafting:enhanced_redstone_ingot' })
     e.remove({ id: 'extendedcrafting:flux_star' })
+
+    // Farmer's Delight
+    e.remove({ id: 'farmersdelight:cutting/amethyst_block' })
 
     // Meadow
     e.remove({ id: 'meadow:diamond_from_blasting_alpine_diamond_ore' })
@@ -79,34 +100,19 @@ ServerEvents.recipes(e => {
     // Mekanism
     e.remove({ id: /mekanism:pigment_extracting\// })
     e.remove({ id: /mekanism:compat\/biomesoplenty\/pigment_extracting\// })
+    e.remove({ id: 'mekanism:reaction/wood_gasification/logs' })
+    e.remove({ id: 'mekanism:reaction/wood_gasification/planks' })
 
     // Pam's
     e.remove({ id: 'pamhc2crops:bakedsweetpotatoitem_forge' })
     e.remove({ id: 'pamhc2crops:bakedsweetpotatoitem_smoker' })
     e.remove({ id: 'pamhc2foodcore:glowberryjuiceitemitem' })
-    e.remove({ id: "pamhc2foodcore:cookingoilitem_x2_nuts"})
-    e.remove({ id: "pamhc2crops:cookingoil_x4_canola_x2"})
-    e.remove({ id: "pamhc2foodextended:mixedsaladitem"})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
-    e.remove({ id: ""})
+    e.remove({ id: "pamhc2foodcore:cookingoilitem_x2_nuts" })
+    e.remove({ id: "pamhc2crops:cookingoil_x4_canola_x2" })
+    e.remove({ id: "pamhc2foodextended:mixedsaladitem" })
 
     // Phantasmic
-    e.remove({ id: 'nourished_nether:smelt_soul_sand'})
+    e.remove({ id: 'nourished_nether:smelt_soul_sand' })
 
     // Portals
     e.remove({ id: 'jamd:portal_block' })
@@ -119,6 +125,17 @@ ServerEvents.recipes(e => {
     e.remove({ id: /extrastorage:disk\// })
     e.remove({ id: /extrastorage:storage_block\// })
     e.remove({ id: /extrastorage:part\// })
+
+    // Sophisticated Backpacks and Storage
+    e.remove({ id: 'sophisticatedbackpacks:stack_upgrade_tier_1_from_starter' })
+    e.remove({ id: 'sophisticatedstorage:backpack_stack_upgrade_tier_1_from_storage_stack_upgrade_tier_2' })
+    e.remove({ id: 'sophisticatedstorage:backpack_stack_upgrade_tier_2_from_storage_stack_upgrade_tier_3' })
+    e.remove({ id: 'sophisticatedstorage:backpack_stack_upgrade_tier_3_from_storage_stack_upgrade_tier_4' })
+    e.remove({ id: 'sophisticatedstorage:backpack_stack_upgrade_tier_4_from_storage_stack_upgrade_tier_5' })
+    e.remove({ id: 'sophisticatedstorage:stack_upgrade_tier_2_from_tier_1_plus' })
+    e.remove({ id: 'sophisticatedstorage:storage_stack_upgrade_tier_2_from_backpack_stack_upgrade_tier_1' })
+    e.remove({ id: 'sophisticatedstorage:storage_stack_upgrade_tier_3_from_backpack_stack_upgrade_tier_2' })
+    e.remove({ id: 'sophisticatedstorage:storage_stack_upgrade_tier_4_from_backpack_stack_upgrade_tier_3' })
 
     // Stone Recreation
     e.remove({ id: 'twigs:cobblestone_from_pebble' })
@@ -343,6 +360,30 @@ ServerEvents.recipes(e => {
 })
 
 
+// Planks
+ServerEvents.recipes(e => {
+    let potting = (element, output) => {
+        e.shaped(output, [
+            'AA',
+            'AA'
+        ], {
+            A: element
+        })
+    }
+    potting('#modfart/planks/other', 'minecraft:crafting_table')
+    potting('#modfart/planks/spruce', 'vct:spruce_crafting_table')
+    potting('#modfart/planks/birch', 'vct:birch_crafting_table')
+    potting('#modfart/planks/jungle', 'vct:jungle_crafting_table')
+    potting('#modfart/planks/acacia', 'vct:acacia_crafting_table')
+    potting('#modfart/planks/dark_oak', 'vct:dark_oak_crafting_table')
+    potting('#modfart/planks/mangrove', 'vct:mangrove_crafting_table')
+    potting('#modfart/planks/bamboo', 'vct:bamboo_crafting_table')
+    potting('#modfart/planks/cherry', 'vct:cherry_crafting_table')
+    potting('#modfart/planks/crimson', 'vct:crimson_crafting_table')
+    potting('#modfart/planks/warped', 'vct:warped_crafting_table')
+})
+
+
 // Portals
 ServerEvents.recipes(e => {
     let potting = (output, plate1, plate2, plate3, plate4) => {
@@ -483,12 +524,14 @@ ServerEvents.recipes(e => {
     potting('minecraft:red_dye', 'minecraft:granite')
     potting('minecraft:chorus_fruit', 'minecraft:end_stone')
     potting('minecraft:dirt', 'twigs:rocky_dirt')
+    potting('cyclic:cloud', 'aether:holystone')
     potting('mekanism:dust_obsidian', 'minecraft:cobbled_deepslate')
     potting('deeperdarker:sculk_tendrils', 'deeperdarker:cobbled_sculk_stone')
     potting('twilightforest:thorn_rose', 'twilightforest:deadrock')
     potting('minecraft:ice', 'undergarden:shiverstone')
     potting('undergarden:depthrock_pebble', 'undergarden:depthrock')
 })
+
 
 // Flux Dust
 ServerEvents.recipes(e => {
@@ -517,6 +560,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:amethyst_shard', 'kubejs:giant_anti_obsidian', 4)
     potting('kubejs:amethyst_dust', 'kubejs:giant_anti_obsidian', 8)
 })
+
 
 // Others
 ServerEvents.recipes(e => {
@@ -588,7 +632,6 @@ ServerEvents.recipes(e => {
     }
     potting('cagedmobs:nether_star_fragment', 'nourished_nether:netherite_nugget', 'cagedmobs:star_infused_netherite_nugget')
     potting('extendedcrafting:nether_star_block', 'minecraft:netherite_block', 'cagedmobs:star_infused_netherite_block')
-    potting('extendedcrafting:nether_star_block', 'minecraft:netherite_block', 'cagedmobs:star_infused_netherite_block')
 })
 ServerEvents.recipes(e => {
     let potting = (input, output) => {
@@ -643,4 +686,22 @@ ServerEvents.recipes(e => {
         A: "kubejs:antimatter_rod",
         B: "twilightforest:giant_obsidian"
     })
+})
+ServerEvents.recipes(e => {
+    let potting = (type, cooktime, input, count, xp, output) => {
+        e.custom({
+            "type": type,
+            "ingredient": {
+                "item": input
+            },
+            "result": {
+                "item": output,
+                "count": count
+            },
+            "experience": xp,
+            "cookingtime": cooktime
+        })
+    }
+    potting('minecraft:smelting', 200, 'enlightened_end:adamantite_node', '8', 0.7, 'enlightened_end:adamantite_nugget')
+    potting('minecraft:blasting', 100, 'enlightened_end:adamantite_node', '8', 0.7, 'enlightened_end:adamantite_nugget')
 })

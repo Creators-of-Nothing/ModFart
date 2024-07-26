@@ -4,7 +4,6 @@
     "furnace": true,
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
-    "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
     "item_storage": true,
     "item_storage.normal_amount": 9,
@@ -159,6 +158,9 @@
   "refinedcooking": {
     "kitchen_access_point": true,
     "kitchen_station": true
+  },
+  "modularrouters": {
+    "router": true
   },
   "ars_nouveau": {
     "mob_jar": true

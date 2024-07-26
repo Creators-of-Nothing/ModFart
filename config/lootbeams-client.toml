@@ -149,11 +149,11 @@
 		#If vanilla rarities should be rendered.
 		vanilla_rarities = true
 		#If vanilla tooltips should be rendered on items in world.
-		advanced_tooltips = true
+		advanced_tooltips = false
 		#If tooltips should be rendered in world.
-		worldspace_tooltips = false
+		worldspace_tooltips = true
 		#If the player should be crouching to see extended advanced tooltips.
-		screen_tooltips_require_crouch = true
+		screen_tooltips_require_crouch = false
 		#If the name and rarity should be combined into one tooltip.
 		combine_name_and_rarity = false
 

@@ -1,8 +1,20 @@
 {
   "replace": true,
   "values": [
+    "ancient_aether:shield_of_inebriation",
+    "ancient_aether:shield_of_remediation",
+    "aether:shield_of_repulsion",
+    "create_jetpack:jetpack", 
+    "create_jetpack:netherite_jetpack", 
+    "create_sa:brass_jetpack_chestplate", 
+    "create_sa:andesite_jetpack_chestplate", 
+    "create_sa:copper_jetpack_chestplate",
     "eidolon:warded_mail",
-    "eidolon:raven_cloak",
-    "aether:shield_of_repulsion"
+    "lost_aether_content:zanite_shield",
+    "lost_aether_content:gravitite_shield",
+    "lost_aether_content:shield_of_emile",
+    "lost_aether_content:sentry_shield",
+    "mekanism:jetpack",
+    "mekanism:jetpack_armored"
   ]
 }

@@ -1,11 +1,22 @@
 {
   "replace": true,
   "values": [
+    "aether:iron_ring",
+    "aether:golden_ring",
+    "aether:zanite_ring",
+    "aether:ice_ring",
+    "ancient_aether:valkyrum_ring",
+    "ancient_aether:hermes_ring",
+    "ancient_aether:warrior_ring",
+    "ancient_aether:growth_ring",
     "ancient_aether:ancient_ring",
-    "ancient_aether:health_ring",
     "ars_nouveau:ring_of_lesser_discount",
     "ars_nouveau:ring_of_greater_discount",
     "ars_nouveau:jump_ring",
+    "candlelight:gold_ring",
+    "cyclic:charm_luck",
+    "cyclic:charm_xp_speed",
+    "cyclic:charm_xp_blocker",
     "eidolon:basic_ring",
     "eidolon:enervating_ring",
     "eidolon:angels_sight",
@@ -35,16 +46,6 @@
     "ringsofascension:ring_wither",
     "ringsofascension:ring_undying",
     "ringsofascension:ring_slow_resistance",
-    "ringsofascension:ring_steadfast_steps",
-    "aether:iron_ring",
-    "aether:golden_ring",
-    "aether:zanite_ring",
-    "aether:ice_ring",
-    "candlelight:gold_ring",
-    "cyclic:charm_ultimate",
-    "cyclic:charm_luck",
-    "cyclic:charm_xp_speed",
-    "cyclic:charm_xp_blocker",
-    "cyclic:antigravity"
+    "ringsofascension:ring_steadfast_steps"
   ]
 }

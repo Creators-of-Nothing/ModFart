@@ -3,7 +3,7 @@
 	"weight": 100,
 	"quality": 0,
 	"name": "Undead Knight",
-	"chance": 0.01,
+	"chance": 0.000000001,
 	"entities": [
 		"minecraft:skeleton",
 		"minecraft:stray"

@@ -4,12 +4,10 @@
 	filename: "du_soutien_pour_les_usines"
 	group: "7798244B59ABC64D"
 	icon: {
-		Count: 1b
-		id: "ironfurnaces:million_furnace"
+		Count: 1
+		id: "ftbquests:custom_icon"
 		tag: {
-			display: {
-				Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"green\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
-			}
+			Icon: "ironfurnaces:block/million_furnace_front_on_smoke"
 		}
 	}
 	id: "235AB90CD226C9B0"
@@ -226,7 +224,7 @@
 			rewards: [{
 				id: "52B4E818D4BD0A16"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "entangled:block"
 					tag: { }
 				}
@@ -236,7 +234,7 @@
 				{
 					id: "036A503A1DCA9D97"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:block"
 						tag: { }
 					}
@@ -245,7 +243,7 @@
 				{
 					id: "69131AA0D85A1DD2"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:item"
 						tag: { }
 					}
@@ -633,7 +631,7 @@
 			rewards: [{
 				id: "5052A059FCC736AD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:iron_sword"
 					tag: {
 						Damage: 0
@@ -785,14 +783,14 @@
 				"50C7867DD0528A7F"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "6A0E7A7CE252E086"
 			rewards: [{
 				id: "7915D7E30D243B39"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -804,11 +802,12 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "02F27E689B0F4D62"
-				title: "Soutien complété !"
 				type: "checkmark"
 			}]
+			title: "Usines terminées !"
 			x: -9.5d
 			y: -5.5d
 		}

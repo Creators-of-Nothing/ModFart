@@ -1,0 +1,210 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "1BF794ED3A9B4457"
+	icon: "aether:aether_grass_block"
+	id: "71749376FEDEAF60"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Pour compléter cette quête vous devez créer un des minerais du mod."
+				""
+				"Vous pouvez également récupérer un de ces blocs en le minant avec Toucher de Soie."
+			]
+			id: "17342D9E8D4AAEFD"
+			rewards: [
+				{
+					id: "34AC04677BF4E953"
+					item: "ancient_aether:aether_quartz_ore"
+					type: "item"
+				}
+				{
+					id: "54FD8E8A4C20F5B8"
+					item: "ancient_aether:valkyrum_ore"
+					type: "item"
+				}
+				{
+					id: "73F7CE382C76D5DD"
+					item: "aether:ambrosium_ore"
+					type: "item"
+				}
+				{
+					id: "1FF9FAA22CD6D31B"
+					item: "aether:zanite_ore"
+					type: "item"
+				}
+				{
+					id: "3566E64339CD060E"
+					item: "aether:gravitite_ore"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C2F9F28CEB7F689"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:aether/ores"
+					}
+				}
+				title: "Any #forge:aether/ores"
+				type: "item"
+			}]
+			title: "Minerais"
+			x: -6.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "6BF7BF307D879B27"
+			rewards: [{
+				id: "0F4895E76193DB47"
+				item: "aether:gravitite_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "30C9CF754C23867F"
+				item: "aether:gravitite_ore"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "3E2325728707E342"
+			rewards: [{
+				id: "764E767804C6567B"
+				item: "ancient_aether:aether_quartz_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E2140B10B5BD558"
+				item: "ancient_aether:aether_quartz_ore"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "2F8A9AE6648BC0A4"
+			rewards: [{
+				id: "293878D25D9989C0"
+				item: "aether:zanite_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "71226C33A01A4463"
+				item: "aether:zanite_ore"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			description: ["Pour se rendre dans l'Aether, tu dois créer un portail de la taille d'un portail du Nether classique, mais en blocs de glowstone. Ensuite, clic droit avec un sceau d'eau sur le portail comme si tu utilisais un briquet."]
+			id: "27B68158D18F8BC9"
+			rewards: [{
+				id: "4897199A8D525333"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: "minecraft:glowstone"
+				id: "749A435AF197D96F"
+				type: "dimension"
+			}]
+			title: "L'Aether !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "1E20644C2835B418"
+			rewards: [{
+				id: "384B3346F49007DD"
+				item: "aether:ambrosium_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7916422B9DDBFF24"
+				item: "aether:ambrosium_ore"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: ["Tu ne peux le vaincre qu'en le tapant avec une pioche."]
+			icon: "aether:slider_spawn_egg"
+			id: "2F0BE54F49E6505A"
+			rewards: [{
+				id: "47DCA2A8D47A3CD5"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:slider"
+				icon: "aether:slider_spawn_egg"
+				id: "653C24C39239CACA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: ["Après l'avoir ennuyé avec des banalités, tu dois lui renvoyer ses boules sur lui."]
+			id: "798EBFBF52C2974D"
+			rewards: [{
+				id: "36DD4E7E05372854"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				icon: "aether:sun_spirit_spawn_egg"
+				id: "32F379EC358C2C4B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: ["Pour pouvoir lui parler et la vaincre, tu dois lui ramener 10 médailles que tu récupères sur les autres Valkyries."]
+			id: "537CAD231AA69727"
+			rewards: [{
+				id: "2F7663E0BD7F8857"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				icon: "aether:valkyrie_spawn_egg"
+				id: "0E3848EDE0332B18"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+	]
+	title: "Aether"
+}

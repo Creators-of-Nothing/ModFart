@@ -3,7 +3,7 @@
 	"weight": 100,
 	"quality": 0,
 	"name": "Honeyed Archer",
-	"chance": 0.008,
+	"chance": 0.000000001,
 	"entities": [
 		"minecraft:skeleton",
 		"minecraft:stray"

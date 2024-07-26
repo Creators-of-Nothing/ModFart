@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "refined_storage"
 	group: "3CA4B0CAAB94EE6B"
-	icon: "refinedstorage:creative_controller"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "refinedstorage:block/disk_drive"
+		}
+	}
 	id: "62F70B4B1E06DE57"
 	images: [{
 		height: 8.0d
@@ -123,7 +129,7 @@
 				"39FFD46F6C703FB0"
 				"0DA58DABB3FD815C"
 			]
-			description: ["Une télécommande tout en un ! Il vous faudra de l'énergie (je vous conseille d'utiliser le mod Flux Network pour avoir de l'énergie en wifi). Pour la setup, faites un shift clic droit avec sur le controller vec la télécommande."]
+			description: ["Une télécommande tout en un ! Il vous faudra de l'énergie (je vous conseille d'utiliser le mod Flux Network pour avoir de l'énergie en wifi). Pour la setup, faites un shift clic droit avec la télécommande sur le controller."]
 			id: "697E1AD03F3B4C06"
 			rewards: [{
 				id: "07B96B7FF6E82F4A"
@@ -259,7 +265,7 @@
 		}
 		{
 			dependencies: ["1EB29B928FB14FBC"]
-			description: ["La meilleure upgrade de distance, mais qui coûte&4 ENORMEMENT&r d'énergie !"]
+			description: ["La meilleure upgrade de distance, mais qui coûte&4 8.000 RF/t&r pour l'utiliser !"]
 			id: "5DA70298474694C7"
 			rewards: [{
 				id: "6A4DD26A556A0165"
@@ -618,14 +624,14 @@
 				"5DA70298474694C7"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "5DE3BC5FD22C52AC"
 			rewards: [{
 				id: "306ABFA301DF9C53"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -637,9 +643,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "51BA6937600B3FD0"
-				title: "Refined finie !"
 				type: "checkmark"
 			}]
 			title: "Refined complété !"

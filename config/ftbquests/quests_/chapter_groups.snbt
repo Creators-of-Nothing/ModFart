@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "7B8630C608C42520", title: "Aventures" }
+		{ id: "7798244B59ABC64D", title: "Techniques" }
+		{ id: "6FCD3535E8BFAB91", title: "Magies" }
+		{ id: "3CA4B0CAAB94EE6B", title: "Stockages" }
+		{ id: "330F5450D49BBA54", title: "Défis" }
+	]
+}

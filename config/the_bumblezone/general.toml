@@ -184,6 +184,12 @@
 	# Whether to allow special trades to activate during certain days of the year.
 	#
 	beeQueenSpecialDayTrades = true
+	# 
+	#-----------------------------------------------------
+	#
+	# Allow Bee Queen to respawn in Throne Pillar when located with fresh Throne Honey Compass.
+	#
+	beeQueenRespawning = true
 
 ["Essence Options"]
 	# 
@@ -392,4 +398,12 @@
 	#
 	#Range: 0 ~ 1000000
 	musicDiscTimeAFirstALast = 652
+	# 
+	#-----------------------------------------------------
+	#
+	# How long in seconds this music disc will be playing music.
+	# This is used for the server to know when to make Allays stop dancing when Jukebox stops playing this music disc.
+	#
+	#Range: 0 ~ 1000000
+	musicDiscDrowningInDespair = 570
 

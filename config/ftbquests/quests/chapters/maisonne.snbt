@@ -2,8 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "maisonne"
-	group: "7B8630C608C42520"
-	icon: "fantasyfurniture:venthyr/bed_single"
+	group: "7B4A59D3B1EC7332"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "the_bumblezone:block/essence/blue_backup"
+		}
+	}
 	id: "40B633D69B85E403"
 	images: [
 		{
@@ -31,7 +37,7 @@
 			y: -2.75d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -100,8 +106,7 @@
 			description: [
 				"Ce pack contient le mod Spice of Life : Carrot Edition. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
 				""
-				"- Il vous faudra 10 nourritures différentes pour gagner un coeur les 100 premiers coeurs (1000 nourritures)"
-				"- Puis il vous faudra 20 nourritures pour gagner 1 coeur."
+				"- Il vous faudra 10 nourritures différentes pour gagner un coeur !"
 				""
 				"Si vous faites #yet dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
 				""
@@ -167,7 +172,7 @@
 				{
 					id: "18C7B5914BA37EF7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "patchouli:guide_book"
 						tag: {
 							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
@@ -190,7 +195,7 @@
 				{
 					id: "044F1F6F99275E62"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_copy_paste"
 						tag: { }
 					}
@@ -199,7 +204,7 @@
 				{
 					id: "5FB99F0BC762F310"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "buildinggadgets2:gadget_cut_paste"
 						tag: {
 							pastereplace: 1b
@@ -232,35 +237,6 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn."
-				""
-				"Le Hammoc permet de passer le jour."
-			]
-			id: "2655A092B94CC321"
-			rewards: [{
-				count: 2
-				id: "4855051EEBC19939"
-				item: "comforts:rope_and_nail"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "640BDC3609F3AEFB"
-					item: "comforts:sleeping_bag_white"
-					type: "item"
-				}
-				{
-					id: "05BC39EFC963EE27"
-					item: "comforts:hammock_white"
-					type: "item"
-				}
-			]
-			title: "Nous rompichâmes"
-			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -344,7 +320,7 @@
 				{
 					id: "4265C992237A4197"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wormhole:portal_stabilizer"
 						tag: { }
 					}
@@ -358,7 +334,7 @@
 				{
 					id: "4E48593B3369AB65"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wormhole:advanced_energy_cell"
 						tag: { }
 					}
@@ -367,7 +343,7 @@
 				{
 					id: "03D98931B805E1CB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "wormhole:advanced_target_device"
 						tag: { }
 					}
@@ -428,28 +404,35 @@
 		}
 		{
 			dependencies: [
-				"4CD97A9F6DD0BF6B"
-				"2655A092B94CC321"
-				"1C153A9705DF6EC5"
+				"2D6CD92D46483B29"
+				"2276E6E36CE4E6D3"
+				"341EAB267F91C70B"
+				"5C7A4A40F0C1C0BE"
 				"2D3AB5E2D9D753EA"
-				"266845707E978BD1"
+				"02CAD17DA73B67C6"
+				"698FF2B2C0249395"
+				"74F49B8BE298582A"
+				"2AB324048647901F"
 				"6C0A31162D1F5832"
 				"6B27CB3F6A4CAEE6"
 				"33D071362877DCA7"
-				"2D6CD92D46483B29"
-				"5C7A4A40F0C1C0BE"
 				"5E276DFF3E4A4FE5"
-				"698FF2B2C0249395"
+				"7EEC96E20047589E"
+				"1C153A9705DF6EC5"
+				"7B3FA67EA5888E95"
+				"4CD97A9F6DD0BF6B"
+				"5D73015443A6E5FF"
+				"266845707E978BD1"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "2B9069629B5A6ABA"
 			rewards: [{
 				id: "0AA697A056D13EC4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -461,12 +444,13 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette Méta-Quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "11ADB523C0235E5E"
 				title: "Maisonnées complété !"
 				type: "checkmark"
 			}]
-			title: "Maisonnée complété !"
+			title: "Chapitre 2 terminé !"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -499,7 +483,7 @@
 				}
 				{
 					id: "2EA66340AF2BA95E"
-					item: "vinery:wine_press"
+					item: "vinery:apple_press"
 					type: "item"
 				}
 				{
@@ -512,6 +496,136 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			description: [
+				"La Magma Anvil permet de réparer vos équipements avec de la lave."
+				""
+				"La Powered Diamond Anvil permet de réparer vos équipements avec de l'énergie."
+			]
+			id: "5D73015443A6E5FF"
+			rewards: [{
+				id: "2D22CA324718DB75"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D73A0203ECCB86B"
+					item: "cyclic:anvil_magma"
+					type: "item"
+				}
+				{
+					id: "2F750FBDEFDF5714"
+					item: "cyclic:anvil"
+					type: "item"
+				}
+			]
+			title: "Réparation"
+			x: -0.25d
+			y: 3.75d
+		}
+		{
+			description: ["Des éponges inépuisables. Une pour l'eau, l'autre pour la lave."]
+			id: "7B3FA67EA5888E95"
+			rewards: [{
+				id: "6DF8B3E4B56415B6"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EC0FA0F96FDB42A"
+					item: "permanentsponges:aqueous_sponge"
+					type: "item"
+				}
+				{
+					id: "0DC34766009C08AF"
+					item: "permanentsponges:magmatic_sponge"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Le Neptunium est un lingot qui se pêche. Il existe tout un tas d'équipements et de nourriture lié à ce mod. Pour upgrader votre canne à pêche, il faut poser puis utiliser la Tackle Box. Cette dernière servira de stockage pour tout vos équipements de pêche ! "
+				""
+				"Le Bobber et la Fishing Line sont deux items cosmétiques, que vous pouvez colorer dans une table de craft avec un colorant, et qui changera l'aspect respectivement du bouchon et de la ligne de votre canne à pêche."
+				""
+				"Selon le crochet utilisé, vous gagnerez des effets supplémentaires."
+				""
+				"Si vous souhaitez farmer les poissons, vous pouvez vous faire une ferme à vers en mettant des végétaux dans la Worm Farm. Lorsqu'arrivé à maturation, faites clic droit dessus pour les récupérer."
+			]
+			id: "02CAD17DA73B67C6"
+			rewards: [{
+				id: "5FD19A95251E6D1D"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			subtitle: "Pêcher comme un Dieu !"
+			tasks: [{
+				id: "1DE73CA0E9E52CD3"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "Aquaculture 2"
+			x: 2.25d
+			y: 4.25d
+		}
+		{
+			description: ["C'est un bloc qui, si vous faites clic droit dessus avec de la redstone, devient de la bedrock. Un autre clic droit avec de la redstone le retransforme en bloc minable."]
+			id: "7EEC96E20047589E"
+			rewards: [{
+				count: 4
+				id: "7E3597D0046FF7A0"
+				item: "cyclic:unbreakable_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "08BBA270164CE7D7"
+				item: "cyclic:unbreakable_block"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			description: ["Cette baguette te permet de poser des blocs à la chaîne sur une grande surface : idéale pour build ! Pour annuler un coup de baguette malencontreux, appuyes sur &4Alt + Control&r. Attention : ne fonctionne que deux fois."]
+			id: "341EAB267F91C70B"
+			rewards: [{
+				count: 64
+				id: "4073816B271BB5B9"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FAD2C3B4F2E92CB"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1BCC0B53CAC227"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "252785244CA47CD4"
+					item: "constructionwand:core_destruction"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.25d
+		}
 	]
-	title: "Maisonnée"
+	title: "Ch. 2 - Maison"
 }

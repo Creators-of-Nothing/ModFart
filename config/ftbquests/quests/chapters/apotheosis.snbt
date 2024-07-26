@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "apotheosis"
 	group: "6FCD3535E8BFAB91"
-	icon: "apotheosis:ender_library"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "apotheosis:blocks/augmenting/top"
+		}
+	}
 	id: "45D523E39BAB6C92"
 	images: [
 		{
@@ -240,14 +246,14 @@
 				"6F76EC6447329F85"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "5071C07F4B71FB31"
 			rewards: [{
 				id: "45A23115012CC442"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -259,9 +265,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "578052F0B1C98274"
-				title: "Apotheosis fini !"
 				type: "checkmark"
 			}]
 			title: "Apotheosis complété !"

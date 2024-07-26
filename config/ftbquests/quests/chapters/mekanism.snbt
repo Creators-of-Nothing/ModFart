@@ -4,15 +4,10 @@
 	filename: "mekanism"
 	group: "7798244B59ABC64D"
 	icon: {
-		Count: 1b
-		id: "mekanism:mekasuit_helmet"
+		Count: 1
+		id: "ftbquests:custom_icon"
 		tag: {
-			mekData: {
-				EnergyContainers: [{
-					Container: 0b
-					stored: "16000000"
-				}]
-			}
+			Icon: "mekanism:block/crusher/front_active"
 		}
 	}
 	id: "5FC69B5B2DA36977"
@@ -46,8 +41,8 @@
 			image: "kubejs:textures/ftbquests/machines.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -11.0d
-			y: -3.75d
+			x: -10.5d
+			y: -3.5d
 		}
 		{
 			height: 5.0d
@@ -167,7 +162,7 @@
 		}
 		{
 			description: [
-				"Génère de l'énergie le jour. Un panneau solaire quoi."
+				"Génère jusqu'à 17,81 RF/t."
 				""
 				"Peut s'upgrader."
 			]
@@ -188,6 +183,7 @@
 		}
 		{
 			dependencies: ["3FBE4D8CC6305FA1"]
+			description: ["Génère jusqu'à 52,80 RF/t."]
 			id: "345E9FDAEF8BE9F4"
 			rewards: [{
 				id: "18AF3BA5A9EB3BD3"
@@ -205,6 +201,7 @@
 		}
 		{
 			dependencies: ["345E9FDAEF8BE9F4"]
+			description: ["Génère jusqu'à 158,40 RF/t."]
 			id: "6A9FDCEA9156DA14"
 			rewards: [{
 				id: "55F2793B1CDF8F5B"
@@ -222,6 +219,7 @@
 		}
 		{
 			dependencies: ["6A9FDCEA9156DA14"]
+			description: ["Génère jusqu'à 475,20 RF/t."]
 			id: "42733526B0307AE7"
 			rewards: [{
 				id: "19E5B8D11E1867C3"
@@ -239,6 +237,7 @@
 		}
 		{
 			dependencies: ["42733526B0307AE7"]
+			description: ["Génère jusqu'à 1.420 RF/t."]
 			id: "39A9BFE9BB7A7D96"
 			rewards: [{
 				id: "7FD7B81772EB4264"
@@ -256,6 +255,7 @@
 		}
 		{
 			dependencies: ["39A9BFE9BB7A7D96"]
+			description: ["Génère jusqu'à 4.270 RF/t."]
 			id: "4D2D30AE63404ADB"
 			rewards: [{
 				id: "62F3E6489DE35C1C"
@@ -273,6 +273,7 @@
 		}
 		{
 			dependencies: ["4D2D30AE63404ADB"]
+			description: ["Génère jusqu'à 12.830 RF/t."]
 			id: "585B4F03431EC3BA"
 			rewards: [{
 				id: "5CF47F2BA6398AB6"
@@ -290,6 +291,7 @@
 		}
 		{
 			dependencies: ["585B4F03431EC3BA"]
+			description: ["Génère jusqu'à 38.490 RF/t."]
 			id: "6168774DCAE05AB0"
 			rewards: [{
 				id: "064DECE6D740ED42"
@@ -307,7 +309,7 @@
 		}
 		{
 			dependencies: ["6168774DCAE05AB0"]
-			description: ["La meilleure source d'énergie hors créatif."]
+			description: ["La meilleure source d'énergie hors créatif. Génère jusqu'à 115.470 RF/t."]
 			id: "25D45827D4E64E53"
 			rewards: [{
 				id: "14F2DC8E7F8735B8"
@@ -811,8 +813,15 @@
 					type: "item"
 				}
 				{
-					id: "40FD56DC47EB7BD2"
-					item: "mekanism:clump_iron"
+					id: "3976C6C178A3429D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:clumps"
+						}
+					}
+					title: "Any #mekanism:clumps"
 					type: "item"
 				}
 			]
@@ -842,7 +851,14 @@
 				}
 				{
 					id: "50F69F06781FC0E2"
-					item: "mekanism:dust_iron"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts"
+						}
+					}
+					title: "Any #forge:dusts"
 					type: "item"
 				}
 			]
@@ -871,7 +887,14 @@
 				}
 				{
 					id: "51D492D2921753E5"
-					item: "mekanism:shard_iron"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:shards"
+						}
+					}
+					title: "Any #mekanism:shards"
 					type: "item"
 				}
 			]
@@ -1337,7 +1360,14 @@
 				}
 				{
 					id: "45F3341134C77FC3"
-					item: "mekanism:crystal_iron"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:crystals"
+						}
+					}
+					title: "Any #mekanism:crystals"
 					type: "item"
 				}
 			]
@@ -1366,7 +1396,14 @@
 				}
 				{
 					id: "2123F91ACECF4E10"
-					item: "mekanism:dirty_dust_iron"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:dirty_dusts"
+						}
+					}
+					title: "Any #mekanism:dirty_dusts"
 					type: "item"
 				}
 			]
@@ -1397,14 +1434,14 @@
 				"25D45827D4E64E53"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
+			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "130D15BCF3A4AFC8"
 			rewards: [{
 				id: "5EAE218525EA9244"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
@@ -1416,9 +1453,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "614F096E0E2ECED3"
-				title: "Mekanism fini !"
 				type: "checkmark"
 			}]
 			title: "Mekanism complété !"

@@ -6,9 +6,6 @@
     "ars_elemental:water_bangle",
     "ars_elemental:air_bangle",
     "ars_elemental:earth_bangle",
-    "cyclic:charm_knockback_resistance",
-    "cyclic:charm_crit",
-    "cyclic:charm_creeper",
-    "cyclic:antigravity"
+    "cyclic:charm_knockback_resistance"
   ]
 }

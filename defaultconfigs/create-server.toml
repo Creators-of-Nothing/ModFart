@@ -81,7 +81,7 @@
 	#.
 	#Select what mobs should ignore Deployers when attacked by them.
 	#Allowed Values: ALL, CREEPERS, NONE
-	ignoreDeployerAttacks = "CREEPERS"
+	ignoreDeployerAttacks = "NONE"
 	#.
 	#Game ticks between Kinetic Blocks checking whether their source is still valid.
 	#Range: > 5
@@ -89,7 +89,7 @@
 	#.
 	#multiplier used for calculating exhaustion from speed when a crank is turned.
 	#Range: 0.0 ~ 1.0
-	crankHungerMultiplier = 0.009999999776482582
+	crankHungerMultiplier = 0.01
 	#.
 	#Amount of sail-type blocks required for a windmill to assemble successfully.
 	#Range: > 0
@@ -294,13 +294,13 @@
 			#[in Stress Units]
 			#Configure how much stress a source can accommodate for.
 			[kinetics.stressValues.v2.capacity]
-				copper_valve_handle = 8.0
-				hand_crank = 8.0
-				steam_engine = 1024.0
-				creative_motor = 16384.0
-				large_water_wheel = 128.0
-				water_wheel = 32.0
-				windmill_bearing = 512.0
+				copper_valve_handle = 16.0
+				hand_crank = 16.0
+				steam_engine = 2048.0
+				creative_motor = 32768.0
+				large_water_wheel = 256.0
+				water_wheel = 64.0
+				windmill_bearing = 1024.0
 
 #.
 #Create's liquid manipulation tools

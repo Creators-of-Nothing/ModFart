@@ -2,8 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bienvenue__d"
-	group: ""
-	icon: "paraglider:heart_container"
+	group: "7B4A59D3B1EC7332"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:textures/ftbquests/modfart.png"
+		}
+	}
 	id: "1BC4F0BE553BFA35"
 	images: [{
 		height: 5.0d
@@ -20,12 +26,11 @@
 			description: [
 				"Bienvenue à vous !"
 				""
+				"Vous voici sur le modpack de la communauté &l&6Gradu&bProut&r. Ce livre de quête est un petit guide pour vous montrer ce qu'il est possible de faire sur ce modpack."
 				""
+				"Vous remarquerez dans les quêtes de cette page qu'il y a un petit lore, celui-ci ne concerne que le serveur communautaire de Graduprout, vous n'avez donc pas à préter attention au lore si vous jouez en dehors de ce cadre. Cependant il reste des infos intéressantes dans ces quêtes si vous débutez le moddé, n'hésitez donc pas à les lire."
 				""
-				"Vous voici sur le modpack de la communauté &l&6Gradu&bProut&r. Ce livre de quête est un petit guide pour vous vous montrer ce qu'il est possible de faire sur ce modpack."
-				""
-				""
-				"Nous espérons que vous apprécierez votre séjour parmi nous :)"
+				"Nous espérons que vous apprécierez votre séjour parmi nous !"
 			]
 			icon: "minecraft:bamboo_hanging_sign"
 			id: "4FC2E0F9C883FA41"
@@ -45,7 +50,7 @@
 		}
 		{
 			dependencies: ["6F065F2761125377"]
-			description: ["Un petit village de départ a été créé pour le plaisir des yeux. Il y est &4interdit&r d'y construire ou y récupérer des ressources, mais vous pouvez vous en inspirer pour faire votre propre base :)"]
+			description: ["Un petit village de départ a été créé par Glaedr Kaosu. Il y est &4interdit&r d'y construire ou d'y récupérer des ressources, mais vous pouvez vous en inspirer pour faire votre propre base."]
 			icon: "easy_villagers:villager"
 			id: "690E751CEE0EE273"
 			tasks: [{
@@ -59,16 +64,16 @@
 		{
 			dependencies: ["1672232E77007B5F"]
 			description: [
-				"Pour quitter le village, et même au cours de ton aventure, tu peux utiliser la commande &4&l/rtp&r&r pour te téléporter loin d'ici !"
+				"Pour quitter le village, et même au cours de votre aventure, vous pouvez utiliser la commande &4&l/rtp&r&r pour vous téléporter loin d'ici !"
 				""
 				"Cette fois-ci, vous serez à l'heure pour votre rendez-vous !"
 				""
-				"Lorsque tu seras installé ou si tu trouves un coin qui te plaît, différentes commandes existent :"
+				"Lorsque vous serez installé ou si vous trouvez un coin qui vous plaît, différentes commandes existent :"
 				""
-				"- &4&n/sethome + nom :&r&r te permet de définir un point de téléportation"
-				"- &4&n/delhome + nom :&r&r te permet de supprimer un home"
-				"- &4&n/listhomes :&r&r permet de lister tes homes."
-				"- &4&n/home + nom :&r&r permet de te téléporter à la destination du dit home"
+				"- &4&n/sethome + nom :&r&r permet de définir un point de téléportation (appellé également \"home\")"
+				"- &4&n/delhome + nom :&r&r permet de supprimer un home"
+				"- &4&n/listhomes :&r&r permet de lister tes homes"
+				"- &4&n/home + nom :&r&r permet de te téléporter à la destination dudit home"
 			]
 			icon: "mekanism:teleportation_core"
 			id: "4C85B1EFC1349D0A"
@@ -106,7 +111,7 @@
 				"&nPetit cadeau&r : une sharestone pour votre base ! "
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "waystones:warp_stone"
 				tag: {
 					Damage: 0
@@ -129,11 +134,12 @@
 		{
 			dependencies: ["2D6EE4C17B11BA8E"]
 			description: [
-				"&l&2JEI&r est le mod qui vous permet de voir tout les crafts sur la droite de votre inventaire. En passant votre souris sur l'item :"
+				"&l&2JEI&r est le mod qui vous permet de voir tout les crafts sur la droite de votre inventaire. Vous pouvez vous aider de la barre de recherche se trouvant en dessous de la liste des objets pour chercher une chose en particulier."
 				""
-				"- appuyez sur &l&4R&r ou &l&4clic gauche&r pour voir la recette de l'objet si il y a."
-				"- appuyez sur &l&4U&r ou &l&4clic droit&r pour voir l'utilisation de l'objet si il y a."
-				"- appuyez sur &l&4A&r pour placer l'objet en bookmark sur la gauche de votre inventaire."
+				"En passant votre souris sur un objet &o(touches par défaut)&r:"
+				"- Appuyez sur &l&4R&r ou &l&4Clic Gauche&r pour voir les manières de créer l'objet."
+				"- Appuyez sur &l&4U&r ou &l&4Clic Droit&r pour voir les recettes utilisant l'objet."
+				"- Appuyez sur &l&4A&r pour placer l'objet en bookmark sur la gauche de votre inventaire et le retrouver plus rapidement."
 			]
 			icon: "itemfilters:weak_nbt"
 			id: "05FD702600B8C791"
@@ -148,10 +154,9 @@
 		{
 			dependencies: ["4FC2E0F9C883FA41"]
 			description: [
-				"Il s'agit de notre &4&npremier&r modpack ! N'hésitez pas à nous faire des  retours !"
+				"Il s'agit du &4&npremier&r modpack de notre team, les &lCreators of Nothing&r! N'hésitez pas à nous faire des retours !"
 				""
-				""
-				"Ce modpack est un kitchen sink, vous pouvez donc faire à peu près tout dans l'ordre que vous voulez. Cependant, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure :p N'hésitez pas à consulter ce livre de quête et JEI pour vous aider !"
+				"Ce modpack est un kitchen sink, vous pouvez donc faire à peu près tout dans l'ordre que vous voulez. Cependant, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure. N'hésitez pas à consulter ce livre de quête et JEI pour vous aider !"
 				""
 				"Egalement, des mises à jour régulières surviendront, n'hésitez donc pas à lire le &4changelog&r et à réaliser une &4sauvegarde&r de votre monde avant chaque mise à jour."
 			]
@@ -167,7 +172,12 @@
 		}
 		{
 			dependencies: ["690E751CEE0EE273"]
-			description: ["Vous êtes un habitant du village Graduprout. Par besoin d'aventure, par ennui, ou pour éviter la corvée de patate, vous décidez de quitter le village. Mais dehors, le monde sera sans pitié avec vos nerfs ! Vous mourrez.. souvent, mais n'ayez crainte, votre cadavre vous attendra toujours avec vos items à l'intérieur :)"]
+			description: [
+				"Vous êtes un habitant du village Graduprout. Par besoin d'aventure, par ennui, ou pour éviter la corvée de patate, vous décidez de quitter le village."
+				"Mais dehors, le monde sera sans pitié avec vos nerfs ! Vous mourrez.. souvent, mais n'ayez crainte, à votre mort un cadavre spawnera et vous attendra avec vos items à l'intérieur."
+				""
+				"Après votre mort, pour retourner rapidement à votre cadavre vous pouvez utiliser la commande &4&l/back&r."
+			]
 			icon: "fantasyfurniture:decorations/bone_skeleton_pile"
 			id: "1672232E77007B5F"
 			tasks: [{
@@ -181,7 +191,11 @@
 		}
 		{
 			dependencies: ["05FD702600B8C791"]
-			description: ["&l&2Simple Voice Chat&r permet de parler en vocal en jeu ! Appuyez sur la touche &l&4V&r (par défaut) pour configurer vos setups son."]
+			description: [
+				"&l&2Simple Voice Chat&r permet de parler en vocal en jeu !"
+				""
+				"Appuyez sur la touche &l&4V&r &o(par défaut)&r pour configurer vos setups son."
+			]
 			icon: "moa_decor_art:microfono"
 			id: "06FCED8DD4B1E13D"
 			tasks: [{
@@ -193,7 +207,11 @@
 			y: 0.0d
 		}
 		{
-			description: ["Ces quêtes, indiquées par le petit symbole \"I\", sont des quêtes explicatives. Elles sont là pour vous guider sur certaines spécificités du mod, ou si des sections sont en WIP."]
+			description: [
+				"Ces quêtes, indiquées par le petit symbole \"I\" et une forme d'engrenage, sont des quêtes explicatives."
+				""
+				"Elles sont là pour vous guider ou vous donner des informations supplémentaires."
+			]
 			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "5B10B3822722E441"
 			shape: "gear"
@@ -207,114 +225,14 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"5071C07F4B71FB31"
-				"68C46241A23C03D9"
-				"0A494C9B538D82F4"
-				"10D11C9AF21F216A"
-				"4BAE8105E427FBF1"
-				"63D0CA801B0BA5E6"
-				"300C409F8D74BDA2"
-				"2B9069629B5A6ABA"
-				"130D15BCF3A4AFC8"
-				"5DE3BC5FD22C52AC"
-				"6F5E6255C287938E"
-				"6A0E7A7CE252E086"
-				"00DEA1892E788E39"
-			]
 			description: [
-				"Vous avez réussi à aller jusque là ! Toute l'équipe vous félicite et espère que vous avez passé un agréable moment sur ce modpack. Il s'agissait pour nous de notre première expérience en tant que Créateurs, et espérons que vous le recommanderez à vos amis ! "
+				"Ce type de quête se finit lorsque vous complétez de gros objectifs. Une petite récompense vous y attend !"
 				""
-				"A très bientôt, pour un prochain modpack !"
+				"Vous ne pouvez pas voir les informations de ces quêtes mais la phrase qui s'affiche quand vous survolez la quête vous donnera toutes les informations qu'il vous faut pour savoir ce qu'il faut faire pour débloquer cette quête."
 				""
+				"Toutes ces quêtes sont des &l&3Méta-Quêtes&r&r qui demandent uniquement la complétion d'autres quêtes."
 				""
-				"Creators of Nothing."
-			]
-			hide: true
-			icon: "ars_elemental:glyph_conjure_terrain"
-			id: "543088258D2EA27A"
-			rewards: [
-				{
-					id: "36F0AFDB40CD295E"
-					item: {
-						Count: 1b
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "modfart:head-afkafe"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6CA3B47B3D42D492"
-					item: {
-						Count: 1b
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "modfart:head-glaedr"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "063A3FE7707FC0D5"
-					item: {
-						Count: 1b
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "modfart:head-gradulos"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5D5AB62DC79F8436"
-					item: {
-						Count: 1b
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "modfart:head-proutegaz"
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2B06C793A9857C4F"
-					item: {
-						Count: 1b
-						id: "trofers:large_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "modfart:head-robina"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "2B379714D60501FC"
-				title: "Merci !"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			description: [
-				"Ce type de quête n'apparaît que lorsque vous complétez un chapitre. Une petite récompense vous y attend !"
-				""
-				"Si vous complétez tout les chapitres, alors une ULTIME récompense vous attendra dans ce chapitre !"
+				"Tentez de débloquer la Méta-Quête qui se trouve en haut de cette page pour voir comment ça fonctionne !"
 			]
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "0870E6F2F5C3759D"
@@ -333,6 +251,36 @@
 			x: 1.5d
 			y: 3.0d
 		}
+		{
+			dependencies: [
+				"2D6EE4C17B11BA8E"
+				"5B10B3822722E441"
+				"05FD702600B8C791"
+				"1672232E77007B5F"
+				"6F065F2761125377"
+				"4C85B1EFC1349D0A"
+				"4FC2E0F9C883FA41"
+				"0870E6F2F5C3759D"
+				"06FCED8DD4B1E13D"
+				"03EE5F5F01D746A8"
+				"690E751CEE0EE273"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "594CDBEC048F6DA0"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Cette Méta-Quête se débloque une fois toutes les quêtes de cette page complétées !"
+			tasks: [{
+				id: "04CB86FC0E5014EA"
+				type: "checkmark"
+			}]
+			title: "Chapitre 0 terminé !"
+			x: 0.0d
+			y: -5.0d
+		}
 	]
-	title: "Bienvenue ! :D"
+	title: "Ch. 0 - Bienvenue"
 }

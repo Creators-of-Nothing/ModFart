@@ -342,7 +342,7 @@
 	"minecraft:witch" = "DEFAULT"
 	#minecraft:wither mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"minecraft:wither" = "DEFAULT"
+	"minecraft:wither" = "FALSE"
 	#minecraft:wither_skeleton mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"minecraft:wither_skeleton" = "FALSE"
@@ -567,7 +567,7 @@
 	"mutantmonsters:body_part" = "DEFAULT"
 	#mutantmonsters:creeper_minion_egg mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"mutantmonsters:creeper_minion_egg" = "DEFAULT"
+	"mutantmonsters:creeper_minion_egg" = "FALSE"
 	#mutantmonsters:endersoul_clone mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"mutantmonsters:endersoul_clone" = "DEFAULT"
@@ -1026,7 +1026,7 @@
 	"aether:floating_block" = "DEFAULT"
 	#aether:tnt_present mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"aether:tnt_present" = "DEFAULT"
+	"aether:tnt_present" = "FALSE"
 	#aether:zephyr_snowball mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"aether:zephyr_snowball" = "DEFAULT"
@@ -2301,49 +2301,49 @@
 	"endlessbiomes:projectile_penumbral_disk" = "DEFAULT"
 	#creeperoverhaul:jungle_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:jungle_creeper" = "DEFAULT"
+	"creeperoverhaul:jungle_creeper" = "FALSE"
 	#creeperoverhaul:bamboo_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:bamboo_creeper" = "DEFAULT"
+	"creeperoverhaul:bamboo_creeper" = "FALSE"
 	#creeperoverhaul:desert_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:desert_creeper" = "DEFAULT"
+	"creeperoverhaul:desert_creeper" = "FALSE"
 	#creeperoverhaul:badlands_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:badlands_creeper" = "DEFAULT"
+	"creeperoverhaul:badlands_creeper" = "FALSE"
 	#creeperoverhaul:hills_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:hills_creeper" = "DEFAULT"
+	"creeperoverhaul:hills_creeper" = "FALSE"
 	#creeperoverhaul:savannah_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:savannah_creeper" = "DEFAULT"
+	"creeperoverhaul:savannah_creeper" = "FALSE"
 	#creeperoverhaul:mushroom_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:mushroom_creeper" = "DEFAULT"
+	"creeperoverhaul:mushroom_creeper" = "FALSE"
 	#creeperoverhaul:swamp_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:swamp_creeper" = "DEFAULT"
+	"creeperoverhaul:swamp_creeper" = "FALSE"
 	#creeperoverhaul:dripstone_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:dripstone_creeper" = "DEFAULT"
+	"creeperoverhaul:dripstone_creeper" = "FALSE"
 	#creeperoverhaul:cave_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:cave_creeper" = "DEFAULT"
+	"creeperoverhaul:cave_creeper" = "FALSE"
 	#creeperoverhaul:dark_oak_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:dark_oak_creeper" = "DEFAULT"
+	"creeperoverhaul:dark_oak_creeper" = "FALSE"
 	#creeperoverhaul:spruce_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:spruce_creeper" = "DEFAULT"
+	"creeperoverhaul:spruce_creeper" = "FALSE"
 	#creeperoverhaul:beach_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:beach_creeper" = "DEFAULT"
+	"creeperoverhaul:beach_creeper" = "FALSE"
 	#creeperoverhaul:snowy_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:snowy_creeper" = "DEFAULT"
+	"creeperoverhaul:snowy_creeper" = "FALSE"
 	#creeperoverhaul:ocean_creeper mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"creeperoverhaul:ocean_creeper" = "DEFAULT"
+	"creeperoverhaul:ocean_creeper" = "FALSE"
 	#apexcore:seat mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"apexcore:seat" = "DEFAULT"
