@@ -1,6 +1,5 @@
 // Unused Items
 ServerEvents.tags('item', e => {
-
     // Create
     e.removeAllTagsFrom([
         /create:crushed_raw_/,
@@ -579,7 +578,6 @@ ServerEvents.tags('item', e => {
     e.removeAllTagsFrom([
         '#moreplates:mods/allthemodium',
         '#moreplates:mods/ae2',
-        '#moreplates:mods/aquaculture2',
         '#moreplates:mods/assemblylinemachines',
         '#moreplates:mods/astralsorcery',
         '#moreplates:mods/avaritia',
@@ -610,12 +608,60 @@ ServerEvents.tags('item', e => {
         /moreplates:brick_/,
         /moreplates:nether_brick_/,
         /moreplates:ironwood_/,
-        /moreplates:knightmetal_/
+        /moreplates:knightmetal_/,
+        'moreplates:neptunium_gear',
+        'moreplates:neptunium_plate',
+        'moreplates:aquamarine_gear',
+        'moreplates:aquamarine_plate',
+        'moreplates:aquamarine_rod',
+        'moreplates:silicon_gear',
+        'moreplates:silicon_rod',
+        'moreplates:black_iron_gear',
+        'moreplates:black_iron_rod',
+        'moreplates:ender_gear',
+        'moreplates:redstone_ingot_gear',
+        'moreplates:redstone_ingot_plate',
+        'moreplates:osmium_plate',
+        'moreplates:osmium_rod',
+        'moreplates:amethyst_gear',
+        'moreplates:bismuth_gear',
+        'moreplates:bismuth_rod',
+        'moreplates:bronze_plate',
+        'moreplates:electrum_gear',
+        'moreplates:lead_plate',
+        'moreplates:lead_rod',
+        'moreplates:ruby_gear',
+        'moreplates:ruby_rod',
+        'moreplates:silver_gear',
+        'moreplates:silver_rod',
+        'moreplates:tin_plate',
+        'moreplates:tin_rod',
+        'moreplates:tungsten_gear',
+        'moreplates:tungsten_rod',
+        'moreplates:uranium_plate',
+        'moreplates:uranium_rod',
+        'moreplates:zinc_gear',
+        'moreplates:zinc_rod',
+        'moreplates:charcoal_gear',
+        'moreplates:charcoal_rod',
+        'moreplates:flint_gear',
+        'moreplates:flint_plate',
+        'moreplates:glowstone_gear',
+        'moreplates:glowstone_plate',
+        'moreplates:nether_quartz_gear',
+        'moreplates:paper_gear',
+        'moreplates:paper_rod',
+        'moreplates:redstone_gear',
+        'moreplates:wood_gear',
+        'moreplates:wood_plate',
+        'moreplates:quartz_enriched_plate',
+        'moreplates:quartz_enriched_rod',
+        'moreplates:fiery_gear',
+        'moreplates:fiery_plate'
     ])
     e.add('forge:unused', [
         '#moreplates:mods/allthemodium',
         '#moreplates:mods/ae2',
-        '#moreplates:mods/aquaculture2',
         '#moreplates:mods/assemblylinemachines',
         '#moreplates:mods/astralsorcery',
         '#moreplates:mods/avaritia',
@@ -643,11 +689,59 @@ ServerEvents.tags('item', e => {
         /moreplates:constantan_/,
         /moreplates:chromium_/,
         /moreplates:aluminium_/,
-        /moreplates:aquamarine_/,
         /moreplates:brick_/,
         /moreplates:nether_brick_/,
         /moreplates:ironwood_/,
-        /moreplates:knightmetal_/
+        /moreplates:knightmetal_/,
+        'moreplates:neptunium_gear',
+        'moreplates:neptunium_plate',
+        'moreplates:aquamarine_gear',
+        'moreplates:aquamarine_plate',
+        'moreplates:aquamarine_rod',
+        'moreplates:silicon_gear',
+        'moreplates:silicon_rod',
+        'moreplates:black_iron_gear',
+        'moreplates:black_iron_rod',
+        'moreplates:ender_gear',
+        'moreplates:redstone_ingot_gear',
+        'moreplates:redstone_ingot_plate',
+        'moreplates:osmium_plate',
+        'moreplates:osmium_rod',
+        'moreplates:amethyst_gear',
+        'moreplates:bismuth_gear',
+        'moreplates:bismuth_rod',
+        'moreplates:bronze_plate',
+        'moreplates:electrum_gear',
+        'moreplates:lead_plate',
+        'moreplates:lead_rod',
+        'moreplates:ruby_gear',
+        'moreplates:ruby_rod',
+        'moreplates:silver_gear',
+        'moreplates:silver_rod',
+        'moreplates:tin_plate',
+        'moreplates:tin_rod',
+        'moreplates:tungsten_gear',
+        'moreplates:tungsten_rod',
+        'moreplates:uranium_plate',
+        'moreplates:uranium_rod',
+        'moreplates:zinc_gear',
+        'moreplates:zinc_rod',
+        'moreplates:charcoal_gear',
+        'moreplates:charcoal_rod',
+        'moreplates:flint_gear',
+        'moreplates:flint_plate',
+        'moreplates:glowstone_gear',
+        'moreplates:glowstone_plate',
+        'moreplates:nether_quartz_gear',
+        'moreplates:paper_gear',
+        'moreplates:paper_rod',
+        'moreplates:redstone_gear',
+        'moreplates:wood_gear',
+        'moreplates:wood_plate',
+        'moreplates:quartz_enriched_plate',
+        'moreplates:quartz_enriched_rod',
+        'moreplates:fiery_gear',
+        'moreplates:fiery_plate'
     ])
 
     // Naturalist
@@ -1115,4 +1209,10 @@ ServerEvents.tags('item', e => {
     e.remove('modfart/planks/warped', [/mcw/, /additional_lights:/])
     e.add('modfart/planks/other', /planks/)
     e.remove('modfart/planks/other', ['#modfart/planks/spruce', '#modfart/planks/birch', '#modfart/planks/jungle', '#modfart/planks/acacia', '#modfart/planks/dark_oak', '#modfart/planks/mangrove', '#modfart/planks/cherry', '#modfart/planks/bamboo', '#modfart/planks/crimson', '#modfart/planks/warped', /chipped:/, /rechiseled:/, /additional_lights:/, /mcw/, /macaw/, /planks_seamless/, /planks_stairs/, /planks_slab/, /planks_fence/, 'gardens_of_the_dead:soulblight_planks', 'gardens_of_the_dead:whistlecane_block', 'endlessbiomes:penumbra_planks', 'endlessbiomes:twisted_planks', 'aether:skyroot_planks', 'ars_nouveau:archwood_planks', 'biomesoplenty:dead_planks', 'biomesoplenty:fir_planks', 'biomesoplenty:hellbark_planks', 'biomesoplenty:jacaranda_planks', 'biomesoplenty:magic_planks', 'biomesoplenty:mahogany_planks', 'biomesoplenty:palm_planks', 'biomesoplenty:redwood_planks', 'biomesoplenty:umbran_planks', 'biomesoplenty:willow_planks', 'twilightforest:canopy_planks', 'twilightforest:dark_planks', 'twilightforest:mangrove_planks', 'twilightforest:mining_planks', 'twilightforest:sorting_planks', 'twilightforest:time_planks', 'twilightforest:transformation_planks', 'twilightforest:twilight_oak_planks', 'undergarden:grongle_planks', 'undergarden:smogstem_planks', 'undergarden:wigglewood_planks'])
+
+    // Meka-Tool
+    e.add('minecraft:pickaxes', 'mekanism:meka_tool')
+    e.add('forge:tools/pickaxes', 'mekanism:meka_tool')
+    e.add('stellarity:tools/pickaxes', 'mekanism:meka_tool')
+    e.add('c:pickaxes', 'mekanism:meka_tool')
 })

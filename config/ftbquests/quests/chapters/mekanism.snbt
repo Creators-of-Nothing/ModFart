@@ -5,9 +5,14 @@
 	group: "7798244B59ABC64D"
 	icon: {
 		Count: 1
-		id: "ftbquests:custom_icon"
+		id: "mekanism:mekasuit_helmet"
 		tag: {
-			Icon: "mekanism:block/crusher/front_active"
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "16000000"
+				}]
+			}
 		}
 	}
 	id: "5FC69B5B2DA36977"
@@ -41,8 +46,8 @@
 			image: "kubejs:textures/ftbquests/machines.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -10.5d
-			y: -3.5d
+			x: -11.0d
+			y: -3.75d
 		}
 		{
 			height: 5.0d
@@ -84,11 +89,28 @@
 		{
 			description: ["Ces tier Installers permettent d'améliorer la plupart des machines pour leur donner plus d'inputs et d'outputs. Il suffit de cliquer sur une machine avec pour l'améliorer sans la casser."]
 			id: "5594F5956C67CF07"
-			rewards: [{
-				id: "2A18BFE1A936A859"
-				item: "mekanism:basic_tier_installer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A18BFE1A936A859"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+				{
+					id: "76E8DD8799BE173E"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+				{
+					id: "1847E290C73FADBF"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+				{
+					id: "28CD82E19B2AA948"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "64620DBCB4527C97"
@@ -813,15 +835,15 @@
 					type: "item"
 				}
 				{
-					id: "3976C6C178A3429D"
+					id: "40FD56DC47EB7BD2"
 					item: {
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "mekanism:clumps"
+							value: "forge:modfart/clumps"
 						}
 					}
-					title: "Any #mekanism:clumps"
+					title: "Any #forge:modfart/clumps"
 					type: "item"
 				}
 			]
@@ -855,10 +877,10 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "forge:dusts"
+							value: "forge:modfart/dusts"
 						}
 					}
-					title: "Any #forge:dusts"
+					title: "Any #forge:modfart/dusts"
 					type: "item"
 				}
 			]
@@ -891,10 +913,10 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "mekanism:shards"
+							value: "forge:modfart/shards"
 						}
 					}
-					title: "Any #mekanism:shards"
+					title: "Any #forge:modfart/shards"
 					type: "item"
 				}
 			]
@@ -923,7 +945,14 @@
 				}
 				{
 					id: "7E7E91FAB638A291"
-					item: "minecraft:iron_ingot"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:modfart/final_resources"
+						}
+					}
+					title: "Any #forge:modfart/final_resources"
 					type: "item"
 				}
 			]
@@ -1364,10 +1393,10 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "mekanism:crystals"
+							value: "forge:modfart/crystals"
 						}
 					}
-					title: "Any #mekanism:crystals"
+					title: "Any #forge:modfart/crystals"
 					type: "item"
 				}
 			]
@@ -1400,10 +1429,10 @@
 						Count: 1
 						id: "itemfilters:tag"
 						tag: {
-							value: "mekanism:dirty_dusts"
+							value: "forge:modfart/dirty_dusts"
 						}
 					}
-					title: "Any #mekanism:dirty_dusts"
+					title: "Any #forge:modfart/dirty_dusts"
 					type: "item"
 				}
 			]
@@ -1434,8 +1463,8 @@
 				"25D45827D4E64E53"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "130D15BCF3A4AFC8"
 			rewards: [{
@@ -1453,9 +1482,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "614F096E0E2ECED3"
+				title: "Mekanism fini !"
 				type: "checkmark"
 			}]
 			title: "Mekanism complété !"

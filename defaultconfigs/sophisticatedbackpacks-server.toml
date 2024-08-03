@@ -20,7 +20,7 @@
 	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
 	canBePlacedInContainerItems = false
 	#Maximum number of upgrades of type per backpack in format of "UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
-	maxUpgradesPerStorage = ["jukebox_upgrade|1", "furnace_upgrades|1"]
+	maxUpgradesPerStorage = ["jukebox_upgrade|1", "furnace_upgrades|1", "stack_upgrades|7"]
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]

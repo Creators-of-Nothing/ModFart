@@ -5,9 +5,11 @@
 	group: "7798244B59ABC64D"
 	icon: {
 		Count: 1
-		id: "ftbquests:custom_icon"
+		id: "ironfurnaces:million_furnace"
 		tag: {
-			Icon: "ironfurnaces:block/million_furnace_front_on_smoke"
+			display: {
+				Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"green\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
 		}
 	}
 	id: "235AB90CD226C9B0"
@@ -783,8 +785,8 @@
 				"50C7867DD0528A7F"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "6A0E7A7CE252E086"
 			rewards: [{
@@ -802,12 +804,11 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "02F27E689B0F4D62"
+				title: "Soutien complété !"
 				type: "checkmark"
 			}]
-			title: "Usines terminées !"
 			x: -9.5d
 			y: -5.5d
 		}

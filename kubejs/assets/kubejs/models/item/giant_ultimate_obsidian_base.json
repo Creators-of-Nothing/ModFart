@@ -1,0 +1,7 @@
+{
+  "parent": "twilightforest:item/giant_block_base",
+  "textures": {
+    "all": "kubejs:block/giant_ultimate_obsidian",
+    "top": "kubejs:block/giant_ultimate_obsidian"
+  }
+}

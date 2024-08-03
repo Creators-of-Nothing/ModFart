@@ -4,6 +4,8 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'createchromaticreturn:motor_recipe' })
     e.remove({ id: 'createchromaticreturn:generator_recipe' })
     e.remove({ id: 'createchromaticreturn:bedrock_shard_crushing' })
+    e.remove({ id: 'createchromaticreturn:multiplite_tube_recipe' })
+    e.remove({ id: 'createchromaticreturn:refined_mixture_recipe' })
     // Extended Crafting
     e.remove({ id: 'extendedcrafting:crystaltine_ingot' })
     // Refined Storage
@@ -687,31 +689,100 @@ ServerEvents.recipes(e => {
         'mekanism:ultimate_chemical_tank',
         'moreplates:bronze_gear',
         'twilightforest:giant_log')
-    potting('mekanism:creative_energy_cube',
-        'mekanism:upgrade_filter',
-        'moreplates:osmium_gear',
-        'kubejs:hdpe_gear',
-        'mekanism:ultimate_universal_cable',
-        'moreplates:tin_gear',
-        'twilightforest:giant_leaves',
-        'mekanism:ultimate_energy_cube',
-        'kubejs:polonium_gear',
-        'mekanism:ultimate_energy_cube',
-        'moreplates:lead_gear',
-        'kubejs:plutonium_gear',
-        'fluxnetworks:gargantuan_flux_storage',
-        'moreplates:the_ultimate_gear',
-        'moreplates:uranium_gear',
-        'twilightforest:giant_obsidian',
-        'mekanism:ultimate_energy_cube',
-        'kubejs:antimatter_gear',
-        'createaddition:creative_energy',
-        'mekanism:ultimate_energy_cube',
-        'twilightforest:giant_cobblestone',
-        'wormhole:creative_energy_cell',
-        'moreplates:bronze_gear',
-        'twilightforest:giant_log')
 })
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "extendedcrafting:shaped_table",
+        "tier": 4,
+        "pattern": [
+            "AAAABAAAA",
+            "ACDEFEDCA",
+            "ADGHIHGDA",
+            "AJKLMLKNA",
+            "BOPQRQSTB",
+            "AJKLMLKNA",
+            "ADGHUHGDA",
+            "ACDVWVDCA",
+            "AAAABAAAA"
+        ],
+        "key": {
+            "A": {
+                "item": "mekanism:upgrade_filter"
+            },
+            "B": {
+                "item": "moreplates:osmium_gear"
+            },
+            "C": {
+                "item": "kubejs:hdpe_gear"
+            },
+            "D": {
+                "item": "mekanism:ultimate_universal_cable"
+            },
+            "E": {
+                "item": "moreplates:tin_gear"
+            },
+            "F": {
+                "item": "twilightforest:giant_leaves"
+            },
+            "G": {
+                "item": "mekanism:ultimate_induction_cell"
+            },
+            "H": {
+                "item": "kubejs:polonium_gear"
+            },
+            "I": {
+                "item": "mekanism:ultimate_induction_provider"
+            },
+            "J": {
+                "item": "moreplates:lead_gear"
+            },
+            "K": {
+                "item": "kubejs:plutonium_gear"
+            },
+            "L": {
+                "item": "fluxnetworks:gargantuan_flux_storage"
+            },
+            "M": {
+                "item": "moreplates:the_ultimate_gear"
+            },
+            "N": {
+                "item": "moreplates:uranium_gear"
+            },
+            "O": {
+                "item": "twilightforest:giant_obsidian"
+            },
+            "P": {
+                "item": "mekanism:ultimate_induction_provider"
+            },
+            "Q": {
+                "item": "kubejs:antimatter_gear"
+            },
+            "R": {
+                "item": "createaddition:creative_energy"
+            },
+            "S": {
+                "item": "mekanism:ultimate_induction_provider"
+            },
+            "T": {
+                "item": "twilightforest:giant_cobblestone"
+            },
+            "U": {
+                "item": "wormhole:creative_energy_cell"
+            },
+            "V": {
+                "item": "moreplates:bronze_gear"
+            },
+            "W": {
+                "item": "twilightforest:giant_log"
+            }
+        },
+        "result": {
+            "item": "mekanism:creative_energy_cube",
+            "nbt": "{mekData:{EnergyContainers:[{Container:0b,stored:\"18446744073709551615.9999\"}]}}"
+        }
+    })
+})
+
 
 // Create
 ServerEvents.recipes(e => {
@@ -798,7 +869,7 @@ ServerEvents.recipes(e => {
             ],
             "key": {
                 "A": { "item": "antiblocksrechiseled:bright_black" },
-                "B": { "item": "antiblocksrechiseled:bright_magenta" },
+                "B": { "item": "kubejs:block_creative" },
                 "C": { "item": "createchromaticreturn:multiplite_tube" },
                 "D": { "item": "kubejs:alloy_creative" },
                 "E": { "item": E },
@@ -842,6 +913,38 @@ ServerEvents.recipes(e => {
         }
     })
 })
+ServerEvents.recipes(e => {
+    e.shaped("kubejs:block_creative", [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: "kubejs:alloy_creative"
+    })
+})
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "minecraft:crafting_shaped",
+        "key": {
+            "A": {
+                "item": "kubejs:alloy_creative"
+            },
+            "B": {
+                "item": "moreplates:silver_plate"
+            }
+        },
+        "pattern": [
+            "A",
+            "B"
+        ],
+        "result": {
+            "item": "createchromaticreturn:multiplite_tube"
+        }
+    })
+})
+ServerEvents.recipes(e => {
+    e.shapeless('9x kubejs:alloy_creative', 'kubejs:block_creative')
+})
 
 // Wormhole
 ServerEvents.recipes(e => {
@@ -854,5 +957,67 @@ ServerEvents.recipes(e => {
         B: "create:rose_quartz",
         C: "create:pulse_repeater",
         D: "wormhole:advanced_energy_cell"
+    })
+})
+
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "create:mixing",
+        "heatRequirement": "superheated",
+        "ingredients": [
+            {
+                "item": "kubejs:block_creative"
+            }
+        ],
+        "results": [
+            {
+                "amount": 1000,
+                "fluid": "kubejs:fluid_creative"
+            }
+        ]
+    })
+})
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "create:filling",
+        "ingredients": [
+            {
+                "item": "dustrial_decor:industrial_iron_block"
+            },
+            {
+                "amount": 1000,
+                "fluid": "kubejs:fluid_creative"
+            }
+        ],
+        "results": [
+            {
+                "item": "kubejs:block_creative"
+            }
+        ]
+    })
+})
+
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "create:mixing",
+        "heatRequirement": "superheated",
+        "ingredients": [
+            {
+                "count": 8,
+                "item": "mekanism:block_refined_glowstone"
+            }, {
+                "count": 8,
+                "item": "nourished_nether:glowing_obsidian"
+            }, {
+                "amount": 1000,
+                "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "amount": 1000,
+                "fluid": "createchromaticreturn:refined_mixture"
+            }
+        ]
     })
 })

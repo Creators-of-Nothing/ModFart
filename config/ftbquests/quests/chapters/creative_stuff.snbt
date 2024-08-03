@@ -2,14 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "creative_stuff"
-	group: "7B4A59D3B1EC7332"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "create:block/creative_casing"
-		}
-	}
+	group: "330F5450D49BBA54"
+	icon: "extendedcrafting:the_ultimate_catalyst"
 	id: "312AABFDFC6561E0"
 	images: [
 		{
@@ -45,7 +39,7 @@
 			y: -4.75d
 		}
 	]
-	order_index: 5
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -129,6 +123,11 @@
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Ce lingot permet de crafter les derniers items créatifs. "]
 			id: "436F92AF12A490E3"
+			rewards: [{
+				id: "7A287A1048071926"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.75d
 			tasks: [{
@@ -144,8 +143,9 @@
 			description: ["Un bloc de bedrock, idéal pour les pranks ou pour crafter le dernier item du modpack. Il vous suffit d'en avoir un seul pour le dupliquer à l'aide Create."]
 			id: "164B095AA0EAFE38"
 			rewards: [{
+				count: 4
 				id: "5A76CE9BD10A8F82"
-				item: "minecraft:bedrock"
+				item: "createchromaticreturn:bedrock_shard"
 				type: "item"
 			}]
 			subtitle: "Comment ça ?!"
@@ -778,10 +778,11 @@
 				"617DED9427A6E3B5"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "10D11C9AF21F216A"
+			invisible: true
 			rewards: [{
 				id: "495B30F5E8678372"
 				item: {
@@ -797,15 +798,14 @@
 			}]
 			shape: "rsquare"
 			size: 3.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "0CB86CB15CA19B7C"
 				type: "checkmark"
 			}]
-			title: "Chapitre 5 terminé !"
+			title: "Creative complété !"
 			x: 0.0d
 			y: -22.5d
 		}
 	]
-	title: "Ch. 5 - Fin"
+	title: "Creative Stuff"
 }

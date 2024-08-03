@@ -25,14 +25,12 @@ ServerEvents.recipes(e => {
     potting('minecraft:dirt', 'dirt', 1.00)
     potting('minecraft:netherrack', 'nether', 1.00)
     potting('minecraft:end_stone', 'end', 1.00)
-    potting('minecraft:grass_block', 'dirt', 1.25)
-    potting('minecraft:glowstone', 'nether', 1.25)
-    potting('minecraft:purpur_block', 'end', 1.25)
-    potting('minecraft:mycelium', 'dirt', 1.50)
-    potting('minecraft:soul_soil', 'nether', 1.50)
-    potting('stalwart_dungeons:purpur_bricks_and_endstone', 'end', 1.50)
-    potting('farmersdelight:rich_soil', 'allsoil', 1.75)
-    potting('farmersdelight:rich_soil_farmland', 'allsoil', 2.00)
+    potting('minecraft:grass_block', 'dirt', 1.50)
+    potting('minecraft:glowstone', 'nether', 1.50)
+    potting('minecraft:purpur_block', 'end', 1.50)
+    potting('farmersdelight:rich_soil', 'allsoil', 2.00)
+    potting('farmersdelight:rich_soil_farmland', 'allsoil', 4.00)
+    potting('kubejs:block_creative', 'allsoil', 1200.00)
 })
 ServerEvents.recipes(e => {
     let potting = (soil, display, category, modif) => {
@@ -53,11 +51,10 @@ ServerEvents.recipes(e => {
     }
     potting('minecraft:water_bucket', 'minecraft:water', 'water', 1.00)
     potting('minecraft:lava_bucket', 'minecraft:lava', 'lava', 1.00)
-    potting('create:honey_bucket', 'create:honey', 'water', 1.25)
-    potting('undergarden:virulent_mix_bucket', 'undergarden:virulent_mix', 'lava', 1.25)
     potting('mob_grinding_utils:fluid_xp_bucket', 'mob_grinding_utils:fluid_xp', 'allfluid', 1.50)
-    potting('mekanism:lithium_bucket', 'mekanism:lithium', 'allfluid', 1.75)
-    potting('mekanism:ethene_bucket', 'mekanism:ethene', 'allfluid', 2.00)
+    potting('mekanism:lithium_bucket', 'mekanism:lithium', 'allfluid', 2.00)
+    potting('mekanism:ethene_bucket', 'mekanism:ethene', 'allfluid', 4.00)
+    potting('kubejs:fluid_creative_bucket', 'kubejs:fluid_creative', 'allfluid', 1200.00)
 })
 
 
@@ -742,6 +739,34 @@ ServerEvents.recipes(e => {
     potting('farmersdelight:wild_carrots', 'minecraft:carrot')
     potting('farmersdelight:wild_onions', 'farmersdelight:onion')
     potting('farmersdelight:wild_tomatoes', 'farmersdelight:tomato')
+})
+
+ServerEvents.recipes(e => {
+    let potting = (seed, display) => {
+        e.custom({
+            "type": "botanypots:crop",
+            "seed": {
+                "item": seed
+            },
+            "categories": [
+                "dirt",
+                "allsoil"
+            ],
+            "growthTicks": 1200,
+            "display": {
+                "block": display
+            },
+            "drops": [{
+                "chance": 1.00,
+                "output": {
+                    "item": seed
+                },
+                "minRolls": 2,
+                "maxRolls": 4
+            }]
+        })
+    }
+    potting('undergarden:droopvine_item', 'undergarden:droopvine_plant')
 })
 ServerEvents.recipes(e => {
     let potting = (seed) => {

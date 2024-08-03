@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "eidolon"
 	group: "6FCD3535E8BFAB91"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "eidolon:block/worktable_top"
-		}
-	}
+	icon: "eidolon:research_table"
 	id: "733ED6B00434BF56"
 	images: [
 		{
@@ -920,8 +914,8 @@
 				"0A075A71FA5F7FE7"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "63D0CA801B0BA5E6"
 			rewards: [{
@@ -939,9 +933,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "4D4276B18572EBAA"
+				title: "Eidolon fini !"
 				type: "checkmark"
 			}]
 			title: "Eidolon complété !"

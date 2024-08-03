@@ -5,7 +5,7 @@
 	#Range: 0 ~ 1000
 	tooManyItemEntityDrops = 200
 	#Limit of maximum number of upgrades of type per storage in format of "StorageType|UpgradeRegistryName[or UpgradeGroup]|MaxNumber"
-	maxUpgradesPerStorage = ["chest|jukebox_upgrade|1", "chest|furnace_upgrades|1", "shulker_box|jukebox_upgrade|1", "shulker_box|furnace_upgrades|1", "barrel|jukebox_upgrade|1", "barrel|furnace_upgrades|1", "limited_barrel|jukebox_upgrade|1", "limited_barrel|furnace_upgrades|1"]
+	maxUpgradesPerStorage = ["chest|jukebox_upgrade|1", "chest|furnace_upgrades|1", "shulker_box|jukebox_upgrade|1", "shulker_box|furnace_upgrades|1", "barrel|jukebox_upgrade|1", "barrel|furnace_upgrades|1", "limited_barrel|jukebox_upgrade|1", "limited_barrel|furnace_upgrades|1", "barrel|stack_upgrades|7", "limited_barrel|stack_upgrades|3", "chest|stack_upgrades|7", "shulker_box|stack_upgrades|7"]
 
 	#Wood Barrel Settings
 	[server.WoodBarrel]

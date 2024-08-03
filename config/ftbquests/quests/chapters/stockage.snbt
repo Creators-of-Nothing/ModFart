@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "stockage"
 	group: "3CA4B0CAAB94EE6B"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "sophisticatedstorage:block/controller_side"
-		}
-	}
+	icon: "minecraft:chest"
 	id: "4B660318AEF02264"
 	images: [
 		{
@@ -645,8 +639,8 @@
 				"39BE83A9946B3DEF"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "00DEA1892E788E39"
 			rewards: [{
@@ -664,9 +658,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "6523B9CB5B79C4C5"
+				title: "Storage fini !"
 				type: "checkmark"
 			}]
 			title: "Storage complété !"

@@ -3,7 +3,7 @@ StartupEvents.registry('item', e => {
     // Interne à ModFart
     e.create('blank_template_trim').displayName('Blank Template Trim')
     e.create('blank_template_upgrade').displayName('Blank Template Upgrade')
-    e.create('amethyst_dust').displayName('Amethyst Dust')
+    e.create('dust_amethyst').displayName('Amethyst Dust')
     e.create('basical_apparatus').displayName('Basical Apparatus')
     e.create('magical_apparatus').displayName('Magical Apparatus')
     e.create('mechanical_apparatus').displayName('Mechanical Apparatus')
@@ -278,4 +278,12 @@ StartupEvents.registry('item', e => {
 StartupEvents.registry('block', e => {
     // Interne à ModFart
     e.create('giant_anti_obsidian').displayName('Giant Anti-Obsidian').resistance(6000).requiresTool(true).tagBlock('minecraft:mineable/pickaxe').renderType('solid')
+    e.create('giant_ultimate_obsidian').displayName('Giant Ultimate Obsidian').resistance(6000).requiresTool(true).tagBlock('minecraft:mineable/pickaxe').renderType('solid')
+    e.create('block_creative').displayName('Creative Block').resistance(6000).requiresTool(true).tagBlock('minecraft:mineable/pickaxe').renderType('solid')
+})
+
+// Custom Fluids for ModFart
+StartupEvents.registry('fluid', e => {
+    // Interne à ModFart
+    e.create('fluid_creative').displayName('Creative Fluid').thickTexture(0xFF00FF).bucketColor(0xFF00FF)
 })

@@ -230,6 +230,45 @@
             "predicate_type": "minecraft:tag_match"
           },
           "state": {
+            "Name": "enlightened_end:adamantite_node"
+          }
+        }
+      ]
+    },
+    {
+      "ore_size": 5,
+      "discard_on_air_chance": 0.0,
+      "modifiers": [
+        {
+          "count": 10,
+          "type": "minecraft:count"
+        },
+        {
+          "type": "minecraft:in_square"
+        },
+        {
+          "height": {
+            "min_inclusive": {
+              "above_bottom": 17
+            },
+            "max_inclusive": {
+              "absolute": 128
+            },
+            "type": "minecraft:uniform"
+          },
+          "type": "minecraft:height_range"
+        },
+        {
+          "type": "minecraft:biome"
+        }
+      ],
+      "targets": [
+        {
+          "target": {
+            "tag": "forge:jamd/end_stone",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
             "Name": "rftoolsbase:dimensionalshard_end"
           }
         }

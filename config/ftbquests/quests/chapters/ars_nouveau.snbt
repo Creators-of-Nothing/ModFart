@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "6FCD3535E8BFAB91"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "ars_nouveau:block/falseweave"
-		}
-	}
+	icon: "ars_nouveau:archmage_spell_book"
 	id: "2F9EAA2D7BD1F8C3"
 	images: [
 		{
@@ -1420,8 +1414,8 @@
 				"181A3DF2DA3BB765"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "68C46241A23C03D9"
 			rewards: [{
@@ -1439,9 +1433,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "6C35EC175401A3A8"
+				title: "Ars Nouveau fini !"
 				type: "checkmark"
 			}]
 			title: "Ars Nouveau complété !"

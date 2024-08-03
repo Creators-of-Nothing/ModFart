@@ -1,7 +1,13 @@
 {
+    "criteria": {
+        "0": {
+            "conditions": {},
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
     "display": {
         "icon": {
-            "item": "kubejs:blank_template_upgrade"
+            "item": "kubejs:antimatter_plate"
         },
         "title": "ModFart",
         "description": "Les succès de ModFart",
@@ -11,14 +17,9 @@
         "hidden": false,
         "background": "minecraft:textures/block/sculk.png"
     },
-    "criteria": {
-        "always_true": {
-            "trigger": "minecraft:tick"
-        }
-    },
     "requirements": [
         [
-            "always_true"
+            "0"
         ]
     ]
 }

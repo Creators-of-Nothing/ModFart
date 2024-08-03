@@ -1,0 +1,84 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        {
+            "item": "nifty:letter_a"
+        },
+        {
+            "item": "nifty:letter_b"
+        },
+        {
+            "item": "nifty:letter_c"
+        },
+        {
+            "item": "nifty:letter_d"
+        },
+        {
+            "item": "nifty:letter_e"
+        },
+        {
+            "item": "nifty:letter_f"
+        },
+        {
+            "item": "nifty:letter_g"
+        },
+        {
+            "item": "nifty:letter_h"
+        },
+        {
+            "item": "nifty:letter_i"
+        },
+        {
+            "item": "nifty:letter_j"
+        },
+        {
+            "item": "nifty:letter_k"
+        },
+        {
+            "item": "nifty:letter_l"
+        },
+        {
+            "item": "nifty:letter_m"
+        },
+        {
+            "item": "nifty:letter_n"
+        },
+        {
+            "item": "nifty:letter_o"
+        },
+        {
+            "item": "nifty:letter_p"
+        },
+        {
+            "item": "nifty:letter_q"
+        },
+        {
+            "item": "nifty:letter_r"
+        },
+        {
+            "item": "nifty:letter_s"
+        },
+        {
+            "item": "nifty:letter_t"
+        },
+        {
+            "item": "nifty:letter_u"
+        },
+        {
+            "item": "nifty:letter_v"
+        },
+        {
+            "item": "nifty:letter_w"
+        },
+        {
+            "item": "nifty:letter_x"
+        },
+        {
+            "item": "nifty:letter_y"
+        },
+        {
+            "item": "nifty:letter_z"
+        }
+    ],
+    "overwrite": false
+}

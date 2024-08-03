@@ -19,6 +19,31 @@ ServerEvents.recipes(e => {
 })
 
 
+// Special DNA
+ServerEvents.recipes(e => {
+    let potting = (tier, output) => {
+        e.custom({
+                "type": "crafting_shapeless",
+                "ingredients": [
+                    {
+                        "item": tier
+                    },
+                    {
+                        "item": "create:brass_block"
+                    }
+                ],
+                "result": {
+                    "item": tier,
+                    "nbt": output
+                }
+            })
+    }
+    potting('cagedmobs:dna_sampler', '{entity:\"create_sa:brass_cube_r\"}')
+    potting('cagedmobs:diamond_dna_sampler', '{entity:\"create_sa:brass_cube_r\"}')
+    potting('cagedmobs:netherite_dna_sampler', '{entity:\"create_sa:brass_cube_r\"}')
+})
+
+
 // Caged Mobs - Environments
 ServerEvents.recipes(e => {
     let potting = (block, category, modif) => {
@@ -651,6 +676,7 @@ ServerEvents.recipes(e => {
     potting('ars_elemental:siren_entity', 1, 'ars_elemental:siren_shards')
     potting('cataclysm:ancient_remnant', 3, 'cataclysm:ancient_metal_block')
     potting('cataclysm:wadjet', 2, 'cataclysm:ancient_metal_ingot')
+    potting('create_sa:brass_cube_r', 1, 'create:brass_ingot')
     potting('creeperoverhaul:bamboo_creeper', 2, 'minecraft:bamboo')
     potting('creeperoverhaul:hills_creeper', 2, 'minecraft:gunpowder')
     potting('creeperoverhaul:jungle_creeper', 2, 'minecraft:gunpowder')
@@ -661,6 +687,7 @@ ServerEvents.recipes(e => {
     potting('deeperdarker:sculk_leech', 2, 'deeperdarker:soul_dust')
     potting('deeperdarker:sculk_snapper', 2, 'deeperdarker:soul_dust')
     potting('deeperdarker:shattered', 2, 'deeperdarker:sculk_bone')
+    potting('deeperdarker:shriek_worm', 2, 'deeperdarker:cobbled_sculk_stone')
     potting('deeperdarker:stalker', 2, 'deeperdarker:soul_crystal')
     potting('eidolon:necromancer', 2, 'minecraft:emerald')
     potting('eidolon:raven', 1, 'eidolon:raven_feather')
@@ -682,6 +709,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:parrot', 1, 'minecraft:feather')
     potting('minecraft:phantom', 1, 'minecraft:phantom_membrane')
     potting('minecraft:ravager', 2, 'minecraft:saddle')
+    potting('minecraft:silverfish', 2, 'minecraft:gravel')
     potting('minecraft:skeleton_horse', 1, 'minecraft:bone')
     potting('minecraft:slime', 2, 'minecraft:slime_ball')
     potting('minecraft:snow_golem', 1, 'minecraft:snowball')
@@ -707,7 +735,7 @@ ServerEvents.recipes(e => {
     potting('undergarden:rotling', 2, 'undergarden:utheric_shard')
     potting('undergarden:rotwalker', 2, 'undergarden:utheric_shard')
     potting('undergarden:scintling', 1, 'undergarden:goo_ball')
-    potting('undergarden:sploogie', 1, 'undergarden:depthrock_pebble')
+    potting('undergarden:sploogie', 1, 'undergarden:shiverstone')
     potting('undergarden:stoneborn', 1, 'undergarden:depthrock_pebble')
 })
 
@@ -870,6 +898,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:strider', 1, 'minecraft:string')
     potting('minecraft:zoglin', 2, 'minecraft:rotten_flesh')
     potting('netherskeletons:skelly_ghast', 2, 'minecraft:ghast_tear')
+    potting('netherskeletons:nether_skeleton', 2, 'minecraft:netherrack')
 })
 
 
@@ -1089,6 +1118,7 @@ ServerEvents.recipes(e => {
     potting('endermanoverhaul:dark_oak_enderman', 2, 'minecraft:ender_pearl')
     potting('endermanoverhaul:flower_fields_enderman', 2, 'minecraft:ender_pearl')
     potting('minecraft:enderman', 2, 'minecraft:ender_pearl')
+    potting('minecraft:endermite', 2, 'minecraft:end_stone')
     potting('minecraft:shulker', 2, 'minecraft:shulker_shell')
     potting('stalwart_dungeons:shelterer', 2, 'stalwart_dungeons:void_crystal')
     potting('stalwart_dungeons:shelterer_without_armor', 2, 'stalwart_dungeons:void_crystal')
@@ -1502,11 +1532,13 @@ ServerEvents.recipes(e => {
     potting('aquaculture:box_turtle', 1, 'aquaculture:box_turtle')
     potting('aquaculture:jellyfish', 1, 'aquaculture:jellyfish')
     potting('aquaculture:starshell_turtle', 1, 'aquaculture:starshell_turtle')
-    potting('cataclysm:coralssus', 2, 'cataclysm:crystallized_coral_fragments')
+    potting('cataclysm:coral_golem', 2, 'cataclysm:crystallized_coral_fragments')
+    potting('cataclysm:coralssus', 2, 'cataclysm:coral_chunk')
     potting('cataclysm:deepling', 2, 'minecraft:nautilus_shell')
     potting('cataclysm:deepling_angler', 2, 'minecraft:nautilus_shell')
     potting('cataclysm:deepling_brute', 2, 'minecraft:nautilus_shell')
     potting('cataclysm:deepling_priest', 2, 'cataclysm:athame')
+    potting('cataclysm:deepling_warlock', 2, 'cataclysm:athame')
     potting('minecraft:glow_squid', 1, 'minecraft:glow_ink_sac')
     potting('minecraft:squid', 1, 'minecraft:ink_sac')
     potting('naturalist:bass', 1, 'naturalist:bass')
@@ -1740,6 +1772,63 @@ ServerEvents.recipes(e => {
     potting('twilightforest:lich', 3, 'minecraft:ender_pearl', 'minecraft:bone', 'twilightforest:zombie_scepter', 'twilightforest:lifedrain_scepter', 'twilightforest:twilight_scepter', 'twilightforest:fortification_scepter')
 })
 ServerEvents.recipes(e => {
+    let potting = (entity, tier, loot1, loot2, loot3, loot4, loot5) => {
+        e.custom({
+            "type": "cagedmobs:entity_data",
+            "entity": entity,
+            "samplerTier": tier,
+            "environments": [
+                "twilight",
+                "allenv"
+            ],
+            "growTicks": 1200,
+            "results": [
+                {
+                    "chance": 1,
+                    "output": {
+                        "item": loot1
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 2
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": loot2
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": loot3
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": loot4
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": loot5
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                }
+            ]
+        })
+    }
+    potting('twilightforest:giant_miner', 2, 'twilightforest:giant_pickaxe', 'twilightforest:giant_cobblestone', 'twilightforest:giant_log', 'twilightforest:giant_leaves', 'twilightforest:giant_obsidian')
+})
+ServerEvents.recipes(e => {
     let potting = (entity, tier, loot1, loot2, loot3, loot4) => {
         e.custom({
             "type": "cagedmobs:entity_data",
@@ -1915,6 +2004,7 @@ ServerEvents.recipes(e => {
     potting('twilightforest:minoshroom', 3, 'twilightforest:meef_stroganoff', 'twilightforest:diamond_minotaur_axe')
     potting('twilightforest:skeleton_druid', 2, 'minecraft:bone', 'twilightforest:torchberries')
     potting('twilightforest:swarm_spider', 2, 'minecraft:string', 'minecraft:spider_eye')
+    potting('twilightforest:troll', 2, 'twilightforest:deadrock', 'twilightforest:magic_beans')
     potting('twilightforest:ur_ghast', 3, 'twilightforest:carminite', 'twilightforest:fiery_tears')
 })
 ServerEvents.recipes(e => {
@@ -1972,7 +2062,6 @@ ServerEvents.recipes(e => {
     potting('twilightforest:armored_giant', 2, 'twilightforest:giant_sword')
     potting('twilightforest:blockchain_goblin', 2, 'twilightforest:armor_shard')
     potting('twilightforest:fire_beetle', 2, 'minecraft:gunpowder')
-    potting('twilightforest:giant_miner', 2, 'twilightforest:giant_pickaxe')
     potting('twilightforest:ice_crystal', 1, 'minecraft:snowball')
     potting('twilightforest:lower_goblin_knight', 2, 'twilightforest:armor_shard')
     potting('twilightforest:naga', 3, 'twilightforest:naga_scale')
@@ -1984,7 +2073,6 @@ ServerEvents.recipes(e => {
     potting('twilightforest:stable_ice_core', 1, 'minecraft:snowball')
     potting('twilightforest:tiny_bird', 1, 'minecraft:feather')
     potting('twilightforest:towerwood_borer', 2, 'twilightforest:borer_essence')
-    potting('twilightforest:troll', 2, 'twilightforest:magic_beans')
     potting('twilightforest:unstable_ice_core', 1, 'minecraft:snowball')
     potting('twilightforest:upper_goblin_knight', 2, 'twilightforest:armor_shard')
     potting('twilightforest:winter_wolf', 2, 'twilightforest:arctic_fur')
@@ -2095,6 +2183,7 @@ ServerEvents.recipes(e => {
     potting('aether:aerbunny', 1, 'string')
     potting('aether:cockatrice', 1, 'minecraft:feather')
     potting('aether:golden_swet', 2, 'minecraft:glowstone')
+    potting('aether:moa', 2, 'aether:holystone')
     potting('aether:valkyrie', 2, 'aether:victory_medal')
     potting('aether:valkyrie_queen', 3, 'aether:silver_dungeon_key')
     potting('aether:zephyr', 1, 'aether:cold_aercloud')
@@ -2260,6 +2349,7 @@ ServerEvents.recipes(e => {
     potting('aether', 'aether:sheepuff', 1)
     potting('overworld', 'minecraft:sheep', 1)
     potting('twilight', 'twilightforest:bighorn_sheep', 1)
+    potting('twilight', 'twilightforest:quest_ram', 2)
 })
 ServerEvents.recipes(e => {
     let potting = (env, entity, tier) => {
@@ -2455,14 +2545,111 @@ ServerEvents.recipes(e => {
     }
     potting('overworld', 'netherite_warden:netheritewarden', 3)
 })
+ServerEvents.recipes(e => {
+    let potting = (env, entity, tier) => {
+        e.custom({
+            "type": "cagedmobs:entity_data",
+            "entity": entity,
+            "samplerTier": tier,
+            "environments": [
+                env,
+                "allenv"
+            ],
+            "growTicks": 1200,
+            "results": [
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:ponder_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:sing_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:seek_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:feel_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:admire_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:call_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:yearn_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": "minecraft:goat_horn"
+                    },
+                    "nbtName": "instrument",
+                    "nbtData": "minecraft:dream_goat_horn",
+                    "minAmount": 1,
+                    "maxAmount": 1
+                }
+            ]
+        })
+    }
+    potting('overworld', 'minecraft:goat', 1)
+})
 
-/*//// Caged Mobs - En Attente
+/*
+//// Caged Mobs - En Attente
 // Aether
 potting('aether:aerwhale')
 potting('aether:evil_whirlwind')
 potting('aether:fire_minion')
 potting('aether:mimic')
-potting('aether:moa')
 potting('aether:sheepuff')
 potting('aether:whirlwind')
 
@@ -2511,9 +2698,6 @@ potting('alexsmobs:tiger')
 potting('alexsmobs:triops')
 potting('alexsmobs:void_worm_splitter')
 
-// Deeper and Darker
-potting('deeperdarker:shriek_worm')
-
 // Enlightend
 potting('enlightened_end:exhauster')
 potting('enlightened_end:sacrifice_statue_gift')
@@ -2556,9 +2740,7 @@ potting('minecraft:axolotl')
 potting('minecraft:bat')
 potting('minecraft:camel')
 potting('minecraft:dolphin')
-potting('minecraft:endermite')
 potting('minecraft:fox')
-potting('minecraft:goat')
 potting('minecraft:illusioner')
 potting('minecraft:ocelot')
 potting('minecraft:piglin')
