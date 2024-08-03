@@ -465,6 +465,10 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "chance": chance,
+                    "item": "enlightened_end:adamantite_nugget"
+                },
+                {
+                    "chance": chance,
                     "item": "minecraft:shulker_shell"
                 },
                 {

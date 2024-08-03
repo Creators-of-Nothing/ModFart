@@ -3,13 +3,7 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "7798244B59ABC64D"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "create:block/brass_casing"
-		}
-	}
+	icon: "create:wrench"
 	id: "3D71719278E5606A"
 	images: [
 		{
@@ -1165,8 +1159,8 @@
 				"169485A6CE91F6B5"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
 			hide_dependency_lines: true
-			hide_details_until_startable: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "0A494C9B538D82F4"
 			rewards: [{
@@ -1184,12 +1178,11 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "5355F4B231C45CF9"
+				title: "Create complété !"
 				type: "checkmark"
 			}]
-			title: "Create terminé !"
 			x: -5.0d
 			y: 6.5d
 		}

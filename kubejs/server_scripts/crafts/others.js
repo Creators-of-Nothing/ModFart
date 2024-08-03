@@ -1,6 +1,5 @@
-// Changed crafts
+//--- Global Suppression
 ServerEvents.recipes(e => {
-    //--- Global Suppression
     e.remove({ input: '#forge:unused' })
     e.remove({ output: '#forge:unused' })
 
@@ -60,6 +59,18 @@ ServerEvents.recipes(e => {
 
     // Create
     e.remove({ id: 'create_jetpack:netherite_jetpack' })
+    e.remove({ id: 'create_unbreakable:mechanical_crafting/eternal_modifier' })
+    e.remove({ id: 'create_sa:quartz_gem_crushing' })
+    e.remove({ id: 'create_enchantment_industry:disenchanting/experience_nugget' })
+    e.remove({ id: 'create_enchantment_industry:compat/create_sa/disenchanting/experience_heap' })
+    e.remove({ id: 'create_enchantment_industry:compat/ars_nouveau/disenchanting/experience_gem' })
+    e.remove({ id: 'create_enchantment_industry:disenchanting/enchanted_golden_apple' })
+    e.remove({ id: 'create_enchantment_industry:disenchanting/experience_block' })
+    e.remove({ id: 'create_enchantment_industry:compat/ars_nouveau/disenchanting/greater_experience_gem' })
+    e.remove({ id: 'create_enchantment_industry:compat/sophisticatedcore/mixing/experience_conversion' })
+    e.remove({ id: 'create_enchantment_industry:compat/mob_grinding_utils/mixing/experience_conversion' })
+    e.remove({ id: 'create_enchantment_industry:compat/cyclic/mixing/experience_conversion' })
+    e.remove({ id: 'create_enchantment_industry:mixing/hyper_experience' })
 
     // Create - Alloy
     e.remove({ id: 'mekanism:enriching/conversion/andesite/to_polished' })
@@ -102,6 +113,8 @@ ServerEvents.recipes(e => {
     e.remove({ id: /mekanism:compat\/biomesoplenty\/pigment_extracting\// })
     e.remove({ id: 'mekanism:reaction/wood_gasification/logs' })
     e.remove({ id: 'mekanism:reaction/wood_gasification/planks' })
+    e.remove({ id: /mekanism:reaction\/coal_gasification\// })
+    e.remove({ id: /mekanism:reaction\/wood_gasification\// })
 
     // Pam's
     e.remove({ id: 'pamhc2crops:bakedsweetpotatoitem_forge' })
@@ -556,9 +569,17 @@ ServerEvents.recipes(e => {
         })
     }
     potting('minecraft:redstone', 'twilightforest:giant_obsidian', 1)
-    potting('minecraft:redstone', 'kubejs:giant_anti_obsidian', 2)
-    potting('minecraft:amethyst_shard', 'kubejs:giant_anti_obsidian', 4)
-    potting('kubejs:amethyst_dust', 'kubejs:giant_anti_obsidian', 8)
+    potting('minecraft:redstone', 'kubejs:giant_anti_obsidian', 4)
+    potting('kubejs:dust_amethyst', 'kubejs:giant_anti_obsidian', 16)
+    potting('kubejs:dust_amethyst', 'kubejs:giant_ultimate_obsidian', 64)
+})
+
+
+// Twilight Forest - Giant Blocks
+ServerEvents.recipes(e => {
+    e.remove({ id: 'twilightforest:giant_log_to_oak_planks' })
+    e.shapeless('64x minecraft:oak_log', 'twilightforest:giant_log')
+    e.shapeless('64x minecraft:obsidian', 'twilightforest:giant_obsidian')
 })
 
 
@@ -647,7 +668,7 @@ ServerEvents.recipes(e => {
             }
         })
     }
-    potting('minecraft:amethyst_shard', 'kubejs:amethyst_dust')
+    potting('minecraft:amethyst_shard', 'kubejs:dust_amethyst')
 })
 ServerEvents.recipes(e => {
     e.custom({
@@ -678,14 +699,21 @@ ServerEvents.recipes(e => {
     })
 })
 ServerEvents.recipes(e => {
-    e.shaped("kubejs:giant_anti_obsidian", [
-        'AAA',
-        ' B ',
-        'AAA'
-    ], {
-        A: "kubejs:antimatter_rod",
-        B: "twilightforest:giant_obsidian"
-    })
+    let potting = (A, B, output) => {
+        e.shaped(output, [
+            'AAA',
+            ' B ',
+            'AAA'
+        ], {
+            A: A,
+            B: B
+        })
+    }
+    potting('kubejs:antimatter_rod', 'twilightforest:giant_obsidian', 'kubejs:giant_anti_obsidian')
+    potting('moreplates:the_ultimate_rod', 'kubejs:giant_anti_obsidian', 'kubejs:giant_ultimate_obsidian')
+})
+ServerEvents.recipes(e => {
+    e.shapeless('9x minecraft:ice', 'minecraft:packed_ice')
 })
 ServerEvents.recipes(e => {
     let potting = (type, cooktime, input, count, xp, output) => {
@@ -704,4 +732,253 @@ ServerEvents.recipes(e => {
     }
     potting('minecraft:smelting', 200, 'enlightened_end:adamantite_node', '8', 0.7, 'enlightened_end:adamantite_nugget')
     potting('minecraft:blasting', 100, 'enlightened_end:adamantite_node', '8', 0.7, 'enlightened_end:adamantite_nugget')
+})
+
+
+// Clusters
+ServerEvents.recipes(e => {
+    let potting = (input, output) => {
+        e.custom({
+            "type": "mekanism:crushing",
+            "input": {
+                "ingredient": {
+                    "item": input
+                }
+            },
+            "output": {
+                "item": output
+            }
+        })
+    }
+    potting('minecraft:amethyst_cluster', 'minecraft:large_amethyst_bud')
+    potting('minecraft:large_amethyst_bud', 'minecraft:medium_amethyst_bud')
+    potting('minecraft:medium_amethyst_bud', 'minecraft:small_amethyst_bud')
+    potting('alexscaves:sulfur_cluster', 'alexscaves:sulfur_bud_large')
+    potting('alexscaves:sulfur_bud_large', 'alexscaves:sulfur_bud_medium')
+    potting('alexscaves:sulfur_bud_medium', 'alexscaves:sulfur_bud_small')
+    potting('biomesoplenty:rose_quartz_cluster', 'biomesoplenty:large_rose_quartz_bud')
+    potting('biomesoplenty:large_rose_quartz_bud', 'biomesoplenty:medium_rose_quartz_bud')
+    potting('biomesoplenty:medium_rose_quartz_bud', 'biomesoplenty:small_rose_quartz_bud')
+})
+
+// Irromolding
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": 'create_unbreakable:luminarchy'
+        },
+        "results": [
+            {
+                "item": 'create_unbreakable:irromolding'
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    },
+                    {
+                        "item": 'create_unbreakable:philolite'
+                    }
+                ],
+                "results": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    }
+                ]
+            },
+            {
+                "type": "create:filling",
+                "ingredients": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    },
+                    {
+                        "fluid": "mekanism:sodium",
+                        "amount": 1000
+                    }
+                ],
+                "results": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    }
+                ]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    }
+                ],
+                "results": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    }
+                ]
+            },
+            {
+                "type": "create:filling",
+                "ingredients": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    },
+                    {
+                        "fluid": "create_enchantment_industry:hyper_experience",
+                        "amount": 1000
+                    }
+                ],
+                "results": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    },
+                    {
+                        "item": "experienceobelisk:daydream_bottle"
+                    }
+                ],
+                "results": [
+                    {
+                        "item": 'create_unbreakable:luminarchy'
+                    }
+                ]
+            }
+        ],
+        "transitionalItem": {
+            "item": "create_unbreakable:luminarchy"
+        }
+    })
+})
+
+// NiftyBlocks
+ServerEvents.recipes(e => {
+    e.shaped('nifty:letter_a', [
+        ' A ',
+        'ABA',
+        'A A'
+    ],
+        {
+            A: "antiblocksrechiseled:bright_white",
+            B: "antiblocksrechiseled:slab_white_bright"
+        }
+    )
+})
+ServerEvents.recipes(e => {
+    e.shaped('nifty:letter_z', [
+        'AAB',
+        ' B ',
+        'BAA'
+    ],
+        {
+            A: "antiblocksrechiseled:bright_white",
+            B: "antiblocksrechiseled:slab_white_bright"
+        }
+    )
+})
+ServerEvents.recipes(e => {
+    e.shaped('nifty:number_0', [
+        'BAB',
+        'A A',
+        'BAB'
+    ],
+        {
+            A: "antiblocksrechiseled:bright_white",
+            B: "antiblocksrechiseled:slab_white_bright"
+        }
+    )
+})
+
+// Experience
+ServerEvents.recipes(e => {
+    let potting = (input, amount) => {
+        e.custom({
+            "type": "create_enchantment_industry:disenchanting",
+            "ingredients": [
+                {
+                    "item": input
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "create_enchantment_industry:experience",
+                    "amount": amount
+                }
+            ]
+        })
+    }
+    potting('create:experience_nugget', 100)
+    potting('create_sa:heap_of_experience', 400)
+    potting('create:experience_block', 900)
+    potting('ars_nouveau:experience_gem', 100)
+    potting('ars_nouveau:greater_experience_gem', 400)
+    potting('cagedmobs:crystallized_experience', 100)
+    potting('cagedmobs:crystallized_experience_block', 900)
+    potting('cyclic:experience_food', 1000)
+    potting('mob_grinding_utils:solid_xp_baby', 1000)
+})
+ServerEvents.recipes(e => {
+    let potting = (input) => {
+        e.custom({
+            "type": "create:mixing",
+            "ingredients": [
+                {
+                    "item": "create_enchantment_industry:experience_rotor"
+                },
+                {
+                    "fluid": input,
+                    "amount": 200
+                }
+            ],
+            "results": [
+                {
+                    "item": "create_enchantment_industry:experience_rotor"
+                },
+                {
+                    "fluid": "create_enchantment_industry:experience",
+                    "amount": 100
+                }
+            ]
+        })
+    }
+    potting('sophisticatedcore:xp_still')
+    potting('mob_grinding_utils:fluid_xp')
+    potting('cyclic:xpjuice')
+    potting('experienceobelisk:cognitium')
+})
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            {
+                "item": "minecraft:glow_ink_sac"
+            },
+            {
+                "item": "minecraft:lapis_lazuli"
+            },
+            {
+                "fluid": "create_enchantment_industry:experience",
+                "amount": 1000
+            }
+        ],
+        "results": [
+            {
+                "fluid": "create_enchantment_industry:hyper_experience",
+                "amount": 500
+            }
+        ],
+        "heatRequirement": "superheated"
+    })
+})
+ServerEvents.recipes(e => {
+    e.shapeless('4x create:experience_nugget', 'create_sa:heap_of_experience')
 })

@@ -331,6 +331,8 @@ ServerEvents.recipes(e => {
     potting('kubejs:sea_rod', 'minecraft:heart_of_the_sea')
     // Alex's Mobs
     potting('kubejs:straddlite_rod', 'alexsmobs:straddlite')
+    // Aquaculture
+    potting('moreplates:neptunium_rod', 'aquaculture:neptunium_ingot')
     // Ars Nouveau
     potting('kubejs:drygmy_rod', 'ars_nouveau:drygmy_shard')
     potting('kubejs:source_rod', 'ars_nouveau:source_gem')

@@ -1,0 +1,81 @@
+{
+    "type": "rechiseled:chiseling",
+    "entries": [
+        {
+            "item": "nifty:number_0"
+        },
+        {
+            "item": "nifty:number_1"
+        },
+        {
+            "item": "nifty:number_2"
+        },
+        {
+            "item": "nifty:number_3"
+        },
+        {
+            "item": "nifty:number_4"
+        },
+        {
+            "item": "nifty:number_5"
+        },
+        {
+            "item": "nifty:number_6"
+        },
+        {
+            "item": "nifty:number_7"
+        },
+        {
+            "item": "nifty:number_8"
+        },
+        {
+            "item": "nifty:number_9"
+        },
+        {
+            "item": "nifty:symbol_exclamation"
+        },
+        {
+            "item": "nifty:symbol_question"
+        },
+        {
+            "item": "nifty:symbol_at"
+        },
+        {
+            "item": "nifty:symbol_hash"
+        },
+        {
+            "item": "nifty:symbol_money"
+        },
+        {
+            "item": "nifty:symbol_percent"
+        },
+        {
+            "item": "nifty:symbol_caret"
+        },
+        {
+            "item": "nifty:symbol_and"
+        },
+        {
+            "item": "nifty:symbol_star"
+        },
+        {
+            "item": "nifty:symbol_underscore"
+        },
+        {
+            "item": "nifty:symbol_plus"
+        },
+        {
+            "item": "nifty:symbol_minus"
+        },
+        {
+            "item": "nifty:symbol_equal"
+        },
+        {
+            "item": "nifty:symbol_period"
+        },
+        {
+            "item": "nifty:symbol_apostrophe"
+        }
+    ],
+    "overwrite": false
+}

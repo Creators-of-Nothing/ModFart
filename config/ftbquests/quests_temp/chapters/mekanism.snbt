@@ -1,0 +1,1467 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "7798244B59ABC64D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "mekanism:block/crusher/front_active"
+		}
+	}
+	id: "5FC69B5B2DA36977"
+	images: [
+		{
+			height: 4.0d
+			image: "kubejs:textures/ftbquests/outils.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 6.0d
+			y: -4.75d
+		}
+		{
+			height: 12.0d
+			image: "kubejs:textures/ftbquests/dupli.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -10.75d
+			y: -8.25d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/ftbquests/energie.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.0d
+			y: 4.25d
+		}
+		{
+			height: 4.0d
+			image: "kubejs:textures/ftbquests/machines.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/solar.png"
+			rotation: 0.0d
+			width: 5.5d
+			x: -9.75d
+			y: 6.0d
+		}
+		{
+			height: 7.0d
+			image: "kubejs:textures/ftbquests/armor.png"
+			rotation: 0.0d
+			width: 4.55d
+			x: -0.25d
+			y: -7.75d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Il s'agit de la porte d'entrée du mod. Il permet de transformer des objets en d'autres, à l'aide \"carburant\", comme de la redstone, de l'or, ... Le carburant \"enrichi\" en donne plus."]
+			id: "6D9D6A91D39E0AB5"
+			rewards: [{
+				id: "7ABB43ADFFD9C7EA"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "18345204F50EB325"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.0d
+		}
+		{
+			description: ["Ces tier Installers permettent d'améliorer la plupart des machines pour leur donner plus d'inputs et d'outputs. Il suffit de cliquer sur une machine avec pour l'améliorer sans la casser."]
+			id: "5594F5956C67CF07"
+			rewards: [{
+				id: "2A18BFE1A936A859"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64620DBCB4527C97"
+					item: "mekanism:basic_tier_installer"
+					type: "item"
+				}
+				{
+					id: "45C3685C147E45D3"
+					item: "mekanism:advanced_tier_installer"
+					type: "item"
+				}
+				{
+					id: "307C396E273326D6"
+					item: "mekanism:elite_tier_installer"
+					type: "item"
+				}
+				{
+					id: "716EDF25D140BFDE"
+					item: "mekanism:ultimate_tier_installer"
+					type: "item"
+				}
+			]
+			title: "Tier Installers"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["Ces upgrades permettent d'améliorer vos machines. L'Anchor upgrade permet de chunkload votre digital miner sans avoir à utiliser FTB Chunk."]
+			id: "5A267EF072657B24"
+			rewards: [
+				{
+					count: 8
+					id: "47F9A89B85A66209"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "04C63C85E71FDA7C"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "3350260A9B54B79E"
+					item: "mekanism:upgrade_speed"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1C2A034DD5C5A7B7"
+					item: "mekanism:upgrade_energy"
+					type: "item"
+				}
+				{
+					id: "2BF0A4EBDE28FEA0"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+				{
+					id: "5E1127900A8A1E02"
+					item: "mekanism:upgrade_anchor"
+					type: "item"
+				}
+			]
+			title: "Upgrades"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			description: ["Génère jusqu'à 18,98 RF/t !"]
+			id: "3FBE4D8CC6305FA1"
+			rewards: [{
+				id: "2E7908BA30BB4A77"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A226F1798F4FC1F"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3FBE4D8CC6305FA1"]
+			description: ["Génère jusqu'à 56.40 RF/t !"]
+			id: "345E9FDAEF8BE9F4"
+			rewards: [{
+				id: "18AF3BA5A9EB3BD3"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "071D3E9E6D860D1C"
+				item: "solarpanels:advanced_solar_panel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["345E9FDAEF8BE9F4"]
+			description: ["Génère jusqu'à 169.20 RF/t !"]
+			id: "6A9FDCEA9156DA14"
+			rewards: [{
+				id: "55F2793B1CDF8F5B"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "624C1D8F35409176"
+				item: "solarpanels:hybrid_solar_panel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6A9FDCEA9156DA14"]
+			description: ["Génère jusqu'à 507.60 RF/t !"]
+			id: "42733526B0307AE7"
+			rewards: [{
+				id: "19E5B8D11E1867C3"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AB39BB4C13A0327"
+				item: "solarpanels:ultimate_hybrid_solar_panel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42733526B0307AE7"]
+			description: ["Génère jusqu'à 1.52k RF/t !"]
+			id: "39A9BFE9BB7A7D96"
+			rewards: [{
+				id: "7FD7B81772EB4264"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED847FECB48A78C"
+				item: "solarpanels:quantum_solar_panel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["39A9BFE9BB7A7D96"]
+			description: ["Génère jusqu'à 4.56k RF/t !"]
+			id: "4D2D30AE63404ADB"
+			rewards: [{
+				id: "62F3E6489DE35C1C"
+				item: "mekanism:alloy_infused"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "03E413EC9B19AE8E"
+				item: "solarpanels:spectral_solar_panel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D2D30AE63404ADB"]
+			description: ["Génère jusqu'à 13.70k RF/t !"]
+			id: "585B4F03431EC3BA"
+			rewards: [{
+				id: "5CF47F2BA6398AB6"
+				item: "mekanism:hdpe_pellet"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "00DD92EE9073D4D4"
+				item: "solarpanels:singular_solar_panel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["585B4F03431EC3BA"]
+			description: ["Génère jusqu'à 41.11k RF/t !"]
+			id: "6168774DCAE05AB0"
+			rewards: [{
+				id: "064DECE6D740ED42"
+				item: "mekanism:alloy_atomic"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A59AC84A09D8358"
+				item: "solarpanels:light_absorbing_solar_panel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6168774DCAE05AB0"]
+			description: [
+				"Génère jusqu'à 123.34k RF/t !"
+				""
+				"La meilleure source d'énergie hors créatif !"
+			]
+			id: "25D45827D4E64E53"
+			rewards: [{
+				id: "14F2DC8E7F8735B8"
+				item: "mekanism:pellet_antimatter"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "663FD20FF61E1656"
+				item: "solarpanels:photonic_solar_panel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.75d
+		}
+		{
+			description: ["Une génération d'énergie. Plus il est placé haut dans le monde, plus il génère !"]
+			id: "05F30877B3C1A61C"
+			rewards: [{
+				id: "58B89483F244884C"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E84DAD26BFBF4C9"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.75d
+		}
+		{
+			description: ["Du stockage d'énergie."]
+			id: "1E93FC8FDCA0FFCB"
+			rewards: [{
+				id: "71177123833E0387"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "24D4CB0F5FEFFE6A"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["1E93FC8FDCA0FFCB"]
+			description: ["Du plus gros stockage d'énergie."]
+			id: "13C690AC2BD21411"
+			rewards: [{
+				id: "76477DAD69679774"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CE0D60F296AB618"
+				item: "mekanism:advanced_energy_cube"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["13C690AC2BD21411"]
+			description: ["Encore plus de stockage d'énergie."]
+			id: "64F915AC528B8FCF"
+			rewards: [{
+				id: "3F6B7E66125CCBFA"
+				item: "mekanism:dust_diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "25F8A043D271C332"
+				item: "mekanism:elite_energy_cube"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["64F915AC528B8FCF"]
+			description: ["Stockage maximum !"]
+			id: "26BFFE303C1847FD"
+			rewards: [{
+				id: "3820F893795AB775"
+				item: "mekanism:dust_refined_obsidian"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "180D004E283C4BD7"
+				item: "mekanism:ultimate_energy_cube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["4B2ED6BA58E4AF90"]
+			description: ["Une sorte d'Ender Chest, mais qui transfert tout et interdimension !"]
+			id: "6095614E1DE77BD9"
+			rewards: [{
+				id: "48500454AE066E7D"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B37DE8B6DDCD650"
+				item: "mekanism:quantum_entangloporter"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.25d
+		}
+		{
+			description: ["Un tank qui peut accueillir n'importe quel liquide."]
+			id: "2C947536349333A1"
+			rewards: [{
+				id: "636B61C9424E884D"
+				item: "minecraft:redstone"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "134CDBE7792EC90A"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C947536349333A1"]
+			description: ["Plus de stockage."]
+			id: "369302AC6E2B2275"
+			rewards: [{
+				id: "58FBBB5B15225839"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "776D38206862DE4A"
+				item: "mekanism:advanced_fluid_tank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["369302AC6E2B2275"]
+			description: ["Toujours plus !"]
+			id: "4E4434F3B2121A65"
+			rewards: [{
+				id: "073EFD3E7EEE849C"
+				item: "mekanism:dust_diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7030730353CEB00C"
+				item: "mekanism:elite_fluid_tank"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E4434F3B2121A65"]
+			description: ["MEGA stockage de liquide !"]
+			id: "5BE9A75A8FCF79F0"
+			rewards: [{
+				id: "78805FCF876F6FB3"
+				item: "minecraft:obsidian"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA953E589803E2B"
+				item: "mekanism:ultimate_fluid_tank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A7203562ADB2231"]
+			id: "00211C90AB5057D1"
+			rewards: [{
+				count: 8
+				id: "30DD383D1C905B66"
+				item: "mekanism:ultimate_universal_cable"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "12AD08144EC4D90E"
+					item: "mekanism:ultimate_logistical_transporter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "03CD9FCFEBE6DD7C"
+					item: "mekanism:ultimate_universal_cable"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16C93F9C85DB0633"
+					item: "mekanism:ultimate_pressurized_tube"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "12C25643FAAEECAF"
+					item: "mekanism:ultimate_mechanical_pipe"
+					type: "item"
+				}
+			]
+			title: "Les meilleurs câbles"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: ["Cet outils permet de configurer les câbles. Faites clic droit avec le configurator sur le câble pour le mettre en mode extration ou insertion."]
+			id: "7A7203562ADB2231"
+			rewards: [{
+				id: "0D30A3CC6A480DDC"
+				item: "mekanism:alloy_infused"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "07B18DE12810160D"
+				item: "mekanism:configurator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Un outil configurable qui peut remplacer vos pioches, hâches, et pelles."]
+			id: "6A3EB1C208652E8A"
+			rewards: [{
+				id: "31D796999EEDDC4F"
+				item: "mekanism:alloy_infused"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "48971CA4A4301B55"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			description: ["Un Jetpack qui fonctionne à l'hydrogen. Très bon déplacement vertical, assez mauvais déplacement horizontal."]
+			id: "2EDE31B304F870BF"
+			rewards: [{
+				id: "2B1FE2CB2558DF55"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "207CD82EB425B3E0"
+				item: "mekanism:jetpack"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EDE31B304F870BF"]
+			description: ["Le même, mais qui donne des points d'armure."]
+			id: "448DE38F50B3E8A5"
+			rewards: [{
+				id: "436D075AA31A6470"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "60FC494E7F2C93C9"
+				item: "mekanism:jetpack_armored"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A3EB1C208652E8A"]
+			description: ["Un outil qui fait tout comme l'Atomic Desassembler + arme de corps à corps + configurator."]
+			id: "358EBA8422B2D26C"
+			rewards: [{
+				id: "5C1ED30D9B6D473F"
+				item: "mekanism:alloy_atomic"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "138A721D9F076FE3"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.25d
+		}
+		{
+			description: [
+				"Permet de copier coller les configurations des machines."
+				""
+				"Shift-clic droit pour copier, clic droit pour coller."
+			]
+			id: "627068FF38A9DD38"
+			rewards: [{
+				id: "4F4E9BB7E36AC867"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73C34CB5434C38E7"
+				item: "mekanism:configuration_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["1450F3CB3D0F9BD3"]
+			description: ["Permet de déplacer des blocs comme des spawners."]
+			id: "10D59EE499A0A3A4"
+			rewards: [{
+				id: "27FB1884BA7DDB66"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4676EB68285EAEB0"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			description: ["Une machine qui permet de miner tout ce que vous lui demandez de miner. Penser à lui donner un Anchor Upgrad pour qu'elle reste chunk loader. Attention, elle est gourmande en énergie, surtout en activant le mode Silk Touch."]
+			id: "1FBF7D650A3A30AC"
+			rewards: [{
+				id: "1ADD8E0ADFA0EC81"
+				item: "minecraft:diamond_ore"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "41F36DC0EB635A36"
+				item: "mekanism:digital_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			description: ["Cette table permet d'ajouter des upgrades à votre MekaSuit et MekaTool."]
+			id: "542AA485877BAE73"
+			rewards: [{
+				id: "6A61258701C56CA2"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F4866A9ABCEB56A"
+				item: "mekanism:modification_station"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["04EE5424A1754765"]
+			description: ["Le module de base pour faire tout les autres."]
+			id: "50A8E4BE6D498D42"
+			rewards: [{
+				id: "65D46902673BF46A"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "556751D7AB6EFCC6"
+				item: "mekanism:module_base"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["542AA485877BAE73"]
+			description: ["La meilleure armure du jeu. Tant que vous avez de l'énergie, vous êtes globalement immortel."]
+			id: "04EE5424A1754765"
+			rewards: [{
+				id: "1D6852F0EA9E08B0"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6CDB650F327CFCD8"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "68D1DC262BA1898D"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "365CDF0AEA95D801"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "18C08E3B4B2EF5B6"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+			]
+			title: "MekaSuit"
+			x: 5.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["50A8E4BE6D498D42"]
+			description: ["Ce module vous donne le Fly Créatif."]
+			id: "27F087C19108286C"
+			rewards: [{
+				id: "1D8DCC3050AAFE4E"
+				item: "mekanism:pellet_antimatter"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB79A60F07A5EF6"
+				item: "mekanism:module_gravitational_modulating_unit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.25d
+		}
+		{
+			description: [
+				"Pour rester dans l'esprit de ce pack, Mekanism a été simplifié. Les crafts ont été grandement modifié pour rester dans un esprit Low Tech. Regardez JEI pour faire les crafts."
+				""
+				"Toutes les machines de ce mod fonctionne avec de l'énergie, mais vous aurez moyen d'en produire (éoliennes / panneaux solaires)"
+			]
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "4BDBD03959AB441E"
+			rewards: [{
+				id: "51FF2F41D94B0412"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0D6BDCF85078983F"
+				title: "Mekanism mais version SIMPLE"
+				type: "checkmark"
+			}]
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			description: [
+				"Le crusher permet de briser vos items. "
+				""
+				"C'est également la première étape pour &4&lSEXTUPLER&r&r vos minerais."
+				""
+				"&n&o&o&3nb&r : Le Dimensional et l'Ambrosium s'arrêtent après cette étape et ne peuvent qu'être doubler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+			]
+			id: "2F4AF8E2571E2384"
+			rewards: [{
+				id: "23E464B9D1C6822E"
+				item: "mekanism:clump_iron"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "716F60536214F037"
+					item: "mekanism:crusher"
+					type: "item"
+				}
+				{
+					id: "3976C6C178A3429D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:clumps"
+						}
+					}
+					title: "Any #mekanism:clumps"
+					type: "item"
+				}
+			]
+			title: "Crusher et duplication de minerais"
+			x: -16.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["31319053678AA8B4"]
+			description: [
+				"Il s'agit de la quatrième étape de duplication de minerais. Pour se faire, vous devez injecter de l'oxygen sur vos Dirty Dust. Pour avoir de l'oxygen, craftez-vous l'Electrolytic Separator et donnez lui de l'eau."
+				""
+				"&n&o&o&3nb&r : L'Utherium, le Regalium et l'Endumium s'arrêtent après cette étape et ne peuvent qu'être quintupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+			]
+			id: "12FB3BFF34220211"
+			rewards: [{
+				id: "5D215D9AEED5B4AD"
+				item: "mekanism:dust_iron"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49040B348340002A"
+					item: "mekanism:purification_chamber"
+					type: "item"
+				}
+				{
+					id: "50F69F06781FC0E2"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts"
+						}
+					}
+					title: "Any #forge:dusts"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2F4AF8E2571E2384"]
+			description: [
+				"Permet de transformer des blocs en d'autres. "
+				""
+				"Il s'agit de la deuxième étape pour dupliquer les minerais."
+			]
+			id: "1755BE2626105917"
+			rewards: [{
+				id: "7F3C779AC9A1CFFE"
+				item: "mekanism:shard_iron"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51281987891F1FE0"
+					item: "mekanism:enrichment_chamber"
+					type: "item"
+				}
+				{
+					id: "51D492D2921753E5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:shards"
+						}
+					}
+					title: "Any #mekanism:shards"
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4EEE056734D491B1"]
+			description: [
+				"C'est juste un gros four."
+				""
+				"C'est la sixième et dernière étape pour &4&lSEXTUPLER&r&r vos minerais."
+			]
+			id: "385FFB651F7ACC4B"
+			rewards: [{
+				id: "29E5C6D8A2BDEAFF"
+				item: "minecraft:iron_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B9A4D1ACB29AA73"
+					item: "mekanism:energized_smelter"
+					type: "item"
+				}
+				{
+					id: "7E7E91FAB638A291"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6D9D6A91D39E0AB5"]
+			description: ["A besoin d'un input de gaz pour fonctionner."]
+			hide_dependency_lines: true
+			id: "169978E6DFD877F0"
+			rewards: [{
+				id: "310D4981087F7190"
+				item: "mekanism:ingot_osmium"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "247BE9CACE32EB29"
+				item: "mekanism:osmium_compressor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6D9D6A91D39E0AB5"]
+			description: ["Permet de séparer un liquide selon ses atomes. Par exemple, l'eau, H2O, donne de l'hydrogen H et de           l'oxygen O."]
+			id: "49E810B9ACB96135"
+			rewards: [{
+				id: "0157449B77F04B12"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "336B96542F17AEBE"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6D9D6A91D39E0AB5"]
+			description: ["Un moyen de scier automatiquement des choses."]
+			hide_dependency_lines: true
+			id: "1450F3CB3D0F9BD3"
+			rewards: [{
+				id: "52C2AF1CC60E8CF6"
+				item: "minecraft:oak_log"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "594F962753E5E7CD"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["169978E6DFD877F0"]
+			id: "4B2ED6BA58E4AF90"
+			rewards: [
+				{
+					id: "3A12D3AD5CFCE703"
+					item: "mekanism:ingot_refined_obsidian"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "02A3F473D0268730"
+					item: "mekanism:ingot_refined_glowstone"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "7F9CB3F8593AF62E"
+					item: "mekanism:ingot_refined_obsidian"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6F3FF2F73B51300A"
+					item: "mekanism:ingot_refined_glowstone"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["6130E471BF7A0BC3"]
+			description: ["Transforme des gaz en item."]
+			id: "68E9F42AF74C76E6"
+			rewards: [{
+				id: "3BA154A79231148C"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B0A7F5596EA9BDF"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D9D6A91D39E0AB5"]
+			description: ["Permet de transformer des liquides en gaz et inversement."]
+			hide_dependency_lines: true
+			id: "2771B615A59BC723"
+			rewards: [{
+				id: "25374219DD7F62E1"
+				item: "minecraft:gold_ingot"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "17AF4955F575C9C2"
+				item: "mekanism:rotary_condensentrator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D9D6A91D39E0AB5"]
+			description: ["Ces machines vous permettent d'avoir des pigments liquides. Sur ce modpack, c'est la porte d'entrée pour les Polonium, Plutonium et Antimatter Pellets."]
+			id: "5751C62183453C2A"
+			rewards: [{
+				id: "5950F79E52B80D97"
+				item: "minecraft:red_dye"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2FE8BB913F94CCBF"
+					item: "mekanism:pigment_mixer"
+					type: "item"
+				}
+				{
+					id: "5252769A821777CF"
+					item: "mekanism:pigment_extractor"
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5751C62183453C2A"]
+			description: ["Cette machine permet de colorer des items colorables avec du pigment liquide. C'est avec elle que vous crafterez le polonium et le plutonium pellet."]
+			id: "7F5D3CDEE2A23E6C"
+			rewards: [{
+				id: "41CF5D90202A23F0"
+				item: "minecraft:clay_ball"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BFE70122EE8CEF2"
+				item: "mekanism:painting_machine"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F5D3CDEE2A23E6C"]
+			id: "50E2B85A6AF866A3"
+			rewards: [
+				{
+					id: "3AEED5E2D74276A0"
+					item: "mekanism:pellet_plutonium"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "7F6CFB1FD05E3656"
+					item: "mekanism:pellet_polonium"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "55F3DCB207B471A0"
+					item: "mekanism:pellet_plutonium"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "343581304DF46F8B"
+					item: "mekanism:pellet_polonium"
+					type: "item"
+				}
+			]
+			title: "Plutonium et Polonium"
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26BFFE303C1847FD"]
+			description: [
+				"Il s'agit d'un multiblock qui est un ULTRA MEGA CUBE de stockage d'énergie. Sa taille maximale est de 18x18x18. Les règles de construction sont simples :"
+				""
+				"- Tout les bords doivent être en Induction Casing"
+				"- Toutes les faces (hors bord) doivent être en Induction Casing, Induction Port, Structural Glass"
+				"- Les Inductions Ports servent d'input et d'output à la machine. Pour les configurer, faites un clic droit avec un configurator dessus."
+				"- L'intérieur du cube doit être remplit avec des Inductions Provider, des Induction Cells ou de l'air."
+				"- L'intérieur peut avoir des tiers différents. "
+				"- Le Provider permet d'avoir des Inputs et Output d'énergie : plus il y en a, plus le taux de transfert est grand."
+				"- Plus il y a de Cell de haut niveau, plus le stockage est grand."
+				"{image:kubejs:textures/ftbquests/induction.png width:100 height:100 align:1}"
+			]
+			id: "38C9BB5ADCFD458F"
+			rewards: [{
+				id: "51173C33D02E3079"
+				item: "moa_decor_toys:burro"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "51B66971C604F111"
+					item: "mekanism:ultimate_induction_provider"
+					type: "item"
+				}
+				{
+					count: 26L
+					id: "18D762FD25825FB4"
+					item: "mekanism:ultimate_induction_cell"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "59408CCFA1F6AD2B"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "6427CA57407B5BD9"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					count: 34L
+					id: "5EBE6D7FC5FF263A"
+					item: "mekanism:structural_glass"
+					type: "item"
+				}
+			]
+			title: "Le plus gros stockage d'énergie"
+			x: 4.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["49E810B9ACB96135"]
+			description: ["Utilises des liquides et des items pour produire d'autres items et potentiellement un liquide."]
+			id: "1796B532B7EB70CB"
+			rewards: [{
+				id: "22DB049DFA77D6CC"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "229B1F6042A108A6"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["1796B532B7EB70CB"]
+			id: "0E881B17DA00A255"
+			rewards: [{
+				id: "098E407D0676253C"
+				item: "mekanism:hdpe_pellet"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "67395761A3367A90"
+				item: "mekanism:hdpe_pellet"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["68E9F42AF74C76E6"]
+			id: "0299884A3DDED2F3"
+			rewards: [{
+				id: "0063FD5650E6A551"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1369B131BA16A3A9"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D9D6A91D39E0AB5"]
+			description: [
+				"Cette machine peut être comprise entre 3 et 18 blocs de haut. Elle fonctionne avec la chaleur, donc mettre ces advanced solar panels ou placer la machine dans un désert. Elle n'a pas besoin d'énergie. "
+				""
+				"{image:kubejs:textures/ftbquests/plant.png width:100 height:100 align:1}"
+			]
+			id: "7E12AB9144BD815E"
+			rewards: [{
+				id: "7354AC64D8CF2E31"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "40055BD69D140DDD"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7306D9D2AC3C51A1"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "02CF7F245F1B605D"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D059A79066BF85B"
+					item: "mekanismgenerators:advanced_solar_generator"
+					type: "item"
+				}
+			]
+			title: "Thermal Evaporation Plant"
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E12AB9144BD815E"]
+			id: "21ED667CF2F61329"
+			rewards: [{
+				count: 8
+				id: "0D7DA246C60CEB1B"
+				item: "mekanism:dust_lithium"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "36DA8CAE74925CCA"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19C20E7238BDC578"]
+			description: ["Utilises deux gaz pour en former un nouveau."]
+			id: "6130E471BF7A0BC3"
+			rewards: [{
+				id: "0C60BB4AB137955B"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A69D60BC88DD3B7"
+				item: "mekanism:chemical_infuser"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50E2B85A6AF866A3"]
+			description: ["Transforme des items en gaz."]
+			id: "19C20E7238BDC578"
+			rewards: [{
+				id: "42C826C056C61768"
+				item: "mekanism:ingot_steel"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "513510C92A48DB21"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12FB3BFF34220211"]
+			description: [
+				"Il s'agit de la cinquième étape pour dupliquer efficacement vos minerais ! "
+				""
+				"Le Combiner sert à fusionner des objets entre eux."
+			]
+			id: "4EEE056734D491B1"
+			rewards: [{
+				id: "1B6006D2A8FA77E7"
+				item: "mekanism:crystal_iron"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BFF8DFAD0D37654"
+					item: "mekanism:combiner"
+					type: "item"
+				}
+				{
+					id: "45F3341134C77FC3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:crystals"
+						}
+					}
+					title: "Any #mekanism:crystals"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1755BE2626105917"]
+			description: [
+				"Pour cette troisième étape, il vous faudra injecter de la vapeur d'eau    ( = Water Vapor) sur vos Shards. Pour avoir de la Water Vapor, utilisez le Rotary Condencentrator et donnez lui de l'eau."
+				""
+				"&o&n&o&3nb&r : La Redstone s'arrête après cette étape et ne peut qu'être quadrupler! Vous pouvez donc les cuire une fois arrivé ici.&r"
+			]
+			id: "31319053678AA8B4"
+			rewards: [{
+				id: "0FBB0EFBB08A86A1"
+				item: "mekanism:dirty_dust_iron"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "15E5432C2A20356F"
+					item: "mekanism:chemical_injection_chamber"
+					type: "item"
+				}
+				{
+					id: "2123F91ACECF4E10"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mekanism:dirty_dusts"
+						}
+					}
+					title: "Any #mekanism:dirty_dusts"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"385FFB651F7ACC4B"
+				"0E881B17DA00A255"
+				"6095614E1DE77BD9"
+				"0299884A3DDED2F3"
+				"21ED667CF2F61329"
+				"10D59EE499A0A3A4"
+				"2771B615A59BC723"
+				"5A267EF072657B24"
+				"5594F5956C67CF07"
+				"358EBA8422B2D26C"
+				"00211C90AB5057D1"
+				"448DE38F50B3E8A5"
+				"1FBF7D650A3A30AC"
+				"4BDBD03959AB441E"
+				"627068FF38A9DD38"
+				"5BE9A75A8FCF79F0"
+				"27F087C19108286C"
+				"05F30877B3C1A61C"
+				"38C9BB5ADCFD458F"
+				"25D45827D4E64E53"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "130D15BCF3A4AFC8"
+			rewards: [{
+				id: "5EAE218525EA9244"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:mekanism"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
+			tasks: [{
+				id: "614F096E0E2ECED3"
+				type: "checkmark"
+			}]
+			title: "Mekanism complété !"
+			x: -2.0d
+			y: -3.0d
+		}
+	]
+	title: "Mekanism"
+}

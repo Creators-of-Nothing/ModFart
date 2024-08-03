@@ -2,14 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "challenges"
-	group: "7B4A59D3B1EC7332"
-	icon: {
-		Count: 1
-		id: "ftbquests:custom_icon"
-		tag: {
-			Icon: "alexscaves:block/hazmat_skull_block"
-		}
-	}
+	group: "330F5450D49BBA54"
+	icon: "minecraft:wither_skeleton_skull"
 	id: "2679C9FE65696F7B"
 	images: [
 		{
@@ -36,40 +30,8 @@
 			x: 4.0d
 			y: 12.25d
 		}
-		{
-			height: 2.0d
-			image: "ringsofascension:item/ring_flight"
-			rotation: 0.0d
-			width: 2.0d
-			x: -14.0d
-			y: -11.25d
-		}
-		{
-			height: 10.0d
-			image: "kubejs:item/blank_template_trim"
-			rotation: 0.0d
-			width: 10.0d
-			x: -12.75d
-			y: 0.0d
-		}
-		{
-			height: 10.0d
-			image: "minecraft:textures/misc/spyglass_scope.png"
-			rotation: 0.0d
-			width: 10.0d
-			x: -23.0d
-			y: 4.0d
-		}
-		{
-			height: 10.0d
-			image: "chipped:block/carved_pumpkin/wide_eyed_carved_pumpkin"
-			rotation: 0.0d
-			width: 10.0d
-			x: -15.75d
-			y: 13.75d
-		}
 	]
-	order_index: 6
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -3047,71 +3009,6 @@
 			x: 18.5d
 			y: 3.0d
 		}
-		{
-			dependencies: [
-				"4F0B54F99C1BCE13"
-				"059BEB58FB3FC0BE"
-				"383B04404B89D590"
-				"099D0FE0FAA03003"
-				"6EC732A089E5CD17"
-				"4079C7932F157ED3"
-				"2EFF282A128795B7"
-				"4868ED2E31D3176D"
-				"0D6D491F39548B2B"
-				"6271296096BCCA9E"
-				"5DF0C2F68E697CE0"
-				"26D39E06E8465892"
-				"0925D630B3664052"
-				"43E7C7C45777EEC8"
-				"2356585E6A5D9F40"
-				"5F7E9B912BECF808"
-				"1AD67F2DA6567C4B"
-				"2DD6870878DD4EB9"
-				"3FC2670D3737E0C1"
-				"068C7694CEE6F3A9"
-				"37D2C5346F1E2268"
-				"4BA79256D302E8C9"
-				"20195D0EA93EBC9D"
-				"424DB1F193535D62"
-				"1E4A0D9CD15A7A76"
-				"24E1735F38706CB8"
-				"12E57F1F1A098459"
-			]
-			description: ["Vous avez créé tous les rings, félicitations !"]
-			hide_dependency_lines: true
-			hide_details_until_startable: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "kubejs:textures/ftbquests/modfart.png"
-				}
-			}
-			id: "6F5E6255C287938E"
-			rewards: [{
-				id: "4004B3523B77719A"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "modfart:rings"
-						}
-					}
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			subtitle: "Cette quête se débloque une fois toutes les quêtes des rings complétées !"
-			tasks: [{
-				id: "24521D4CCB671272"
-				type: "checkmark"
-			}]
-			title: "Rings terminé !"
-			x: -11.5d
-			y: -12.0d
-		}
 	]
-	title: "Extra - Défis"
+	title: "Challenges"
 }

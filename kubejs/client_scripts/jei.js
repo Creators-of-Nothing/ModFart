@@ -91,4 +91,17 @@ ItemEvents.tooltip(e => {
     e.add('ironfurnaces:emerald_furnace', '§21024 RF/t')
     e.add('ironfurnaces:netherite_furnace', '§22048 RF/t')
     e.add('ironfurnaces:million_furnace', '§24096 RF/t')
+
+    // Solar Panels
+    e.add('mekanismgenerators:solar_generator', '§218.98 RF/t')
+    e.add('mekanismgenerators:advanced_solar_generator', '§2113.83 RF/t')
+    e.add('solarpanels:advanced_solar_panel', '§256.40 RF/t')
+    e.add('solarpanels:hybrid_solar_panel', '§2169.20 RF/t')
+    e.add('solarpanels:ultimate_hybrid_solar_panel', '§2507.60 RF/t')
+    e.add('solarpanels:quantum_solar_panel', '§21.52k RF/t')
+    e.add('solarpanels:spectral_solar_panel', '§24.56k RF/t')
+    e.add('solarpanels:singular_solar_panel', '§213.70k RF/t')
+    e.add('solarpanels:light_absorbing_solar_panel', '§241.11k RF/t')
+    e.add('solarpanels:photonic_solar_panel', '§2123.34k RF/t')
+    e.add('solarpanels:creative_solar_panel', '§23.76M RF/t')
 })
