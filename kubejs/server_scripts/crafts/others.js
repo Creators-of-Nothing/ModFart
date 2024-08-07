@@ -58,19 +58,21 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'cfm:pink_picket_fence' })
 
     // Create
-    e.remove({ id: 'create_jetpack:netherite_jetpack' })
-    e.remove({ id: 'create_unbreakable:mechanical_crafting/eternal_modifier' })
-    e.remove({ id: 'create_sa:quartz_gem_crushing' })
-    e.remove({ id: 'create_enchantment_industry:disenchanting/experience_nugget' })
-    e.remove({ id: 'create_enchantment_industry:compat/create_sa/disenchanting/experience_heap' })
     e.remove({ id: 'create_enchantment_industry:compat/ars_nouveau/disenchanting/experience_gem' })
+    e.remove({ id: 'create_enchantment_industry:compat/ars_nouveau/disenchanting/greater_experience_gem' })
+    e.remove({ id: 'create_enchantment_industry:compat/create_sa/disenchanting/experience_heap' })
+    e.remove({ id: 'create_enchantment_industry:compat/cyclic/mixing/experience_conversion' })
+    e.remove({ id: 'create_enchantment_industry:compat/mob_grinding_utils/mixing/experience_conversion' })
+    e.remove({ id: 'create_enchantment_industry:compat/sophisticatedcore/mixing/experience_conversion' })
     e.remove({ id: 'create_enchantment_industry:disenchanting/enchanted_golden_apple' })
     e.remove({ id: 'create_enchantment_industry:disenchanting/experience_block' })
-    e.remove({ id: 'create_enchantment_industry:compat/ars_nouveau/disenchanting/greater_experience_gem' })
-    e.remove({ id: 'create_enchantment_industry:compat/sophisticatedcore/mixing/experience_conversion' })
-    e.remove({ id: 'create_enchantment_industry:compat/mob_grinding_utils/mixing/experience_conversion' })
-    e.remove({ id: 'create_enchantment_industry:compat/cyclic/mixing/experience_conversion' })
+    e.remove({ id: 'create_enchantment_industry:disenchanting/experience_nugget' })
     e.remove({ id: 'create_enchantment_industry:mixing/hyper_experience' })
+    e.remove({ id: 'create_jetpack:netherite_jetpack' })
+    e.remove({ id: 'create_sa:quartz_gem_crushing' })
+    e.remove({ id: 'create_unbreakable:mechanical_crafting/eternal_modifier' })
+    e.remove({ id: 'createchromaticreturn:refined_essence_bucket_fill' })
+    e.remove({ id: 'createchromaticreturn:shadow_essence_bucket_fill' })
 
     // Create - Alloy
     e.remove({ id: 'mekanism:enriching/conversion/andesite/to_polished' })
@@ -900,7 +902,7 @@ ServerEvents.recipes(e => {
 
 // Experience
 ServerEvents.recipes(e => {
-    let potting = (input, amount) => {
+    let potting = (input, amount, fluid) => {
         e.custom({
             "type": "create_enchantment_industry:disenchanting",
             "ingredients": [
@@ -910,24 +912,24 @@ ServerEvents.recipes(e => {
             ],
             "results": [
                 {
-                    "fluid": "create_enchantment_industry:experience",
+                    "fluid": fluid,
                     "amount": amount
                 }
             ]
         })
     }
-    potting('create:experience_nugget', 100)
-    potting('create_sa:heap_of_experience', 400)
-    potting('create:experience_block', 900)
-    potting('ars_nouveau:experience_gem', 100)
-    potting('ars_nouveau:greater_experience_gem', 400)
-    potting('cagedmobs:crystallized_experience', 100)
-    potting('cagedmobs:crystallized_experience_block', 900)
-    potting('cyclic:experience_food', 1000)
-    potting('mob_grinding_utils:solid_xp_baby', 1000)
+    potting('create:experience_nugget', 100, 'create_enchantment_industry:experience')
+    potting('create_sa:heap_of_experience', 400, 'create_enchantment_industry:experience')
+    potting('create:experience_block', 900, 'create_enchantment_industry:experience')
+    potting('ars_nouveau:experience_gem', 100, 'sophisticatedcore:xp_still')
+    potting('ars_nouveau:greater_experience_gem', 400, 'sophisticatedcore:xp_still')
+    potting('cagedmobs:crystallized_experience', 100, 'experienceobelisk:cognitium')
+    potting('cagedmobs:crystallized_experience_block', 900, 'experienceobelisk:cognitium')
+    potting('cyclic:experience_food', 1000, 'cyclic:xpjuice')
+    potting('mob_grinding_utils:solid_xp_baby', 1000, 'mob_grinding_utils:fluid_xp')
 })
 ServerEvents.recipes(e => {
-    let potting = (input) => {
+    let potting = (input, output) => {
         e.custom({
             "type": "create:mixing",
             "ingredients": [
@@ -936,7 +938,7 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "fluid": input,
-                    "amount": 200
+                    "amount": 1000
                 }
             ],
             "results": [
@@ -944,16 +946,17 @@ ServerEvents.recipes(e => {
                     "item": "create_enchantment_industry:experience_rotor"
                 },
                 {
-                    "fluid": "create_enchantment_industry:experience",
-                    "amount": 100
+                    "fluid": output,
+                    "amount": 1000
                 }
             ]
         })
     }
-    potting('sophisticatedcore:xp_still')
-    potting('mob_grinding_utils:fluid_xp')
-    potting('cyclic:xpjuice')
-    potting('experienceobelisk:cognitium')
+    potting('create_enchantment_industry:experience', 'cyclic:xpjuice')
+    potting('cyclic:xpjuice', 'experienceobelisk:cognitium')
+    potting('experienceobelisk:cognitium', 'mob_grinding_utils:fluid_xp')
+    potting('mob_grinding_utils:fluid_xp', 'sophisticatedcore:xp_still')
+    potting('sophisticatedcore:xp_still', 'create_enchantment_industry:experience')
 })
 ServerEvents.recipes(e => {
     e.custom({
@@ -981,4 +984,30 @@ ServerEvents.recipes(e => {
 })
 ServerEvents.recipes(e => {
     e.shapeless('4x create:experience_nugget', 'create_sa:heap_of_experience')
+})
+
+// Refined Mixture
+ServerEvents.recipes(e => {
+    e.custom({
+        "type": "create:mixing",
+        "heatRequirement": "superheated",
+        "ingredients": [
+            {
+                "count": 8,
+                "item": "mekanism:block_refined_glowstone"
+            }, {
+                "count": 8,
+                "item": "nourished_nether:glowing_obsidian"
+            }, {
+                "amount": 1000,
+                "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "amount": 1000,
+                "fluid": "createchromaticreturn:refined_mixture"
+            }
+        ]
+    })
 })
