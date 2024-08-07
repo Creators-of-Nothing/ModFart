@@ -846,7 +846,7 @@
 	"ars_nouveau:ritual" = "DEFAULT"
 	#ars_nouveau:wilden_hunter mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"ars_nouveau:wilden_hunter" = "DEFAULT"
+	"ars_nouveau:wilden_hunter" = "FALSE"
 	#ars_nouveau:spell_arrow mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"ars_nouveau:spell_arrow" = "DEFAULT"
@@ -855,7 +855,7 @@
 	"ars_nouveau:summon_wolf" = "DEFAULT"
 	#ars_nouveau:wilden_stalker mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"ars_nouveau:wilden_stalker" = "DEFAULT"
+	"ars_nouveau:wilden_stalker" = "FALSE"
 	#ars_nouveau:summon_horse mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"ars_nouveau:summon_horse" = "DEFAULT"
@@ -864,10 +864,10 @@
 	"ars_nouveau:summon_skeleton" = "DEFAULT"
 	#ars_nouveau:wilden_guardian mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"ars_nouveau:wilden_guardian" = "DEFAULT"
+	"ars_nouveau:wilden_guardian" = "FALSE"
 	#ars_nouveau:wilden_boss mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"ars_nouveau:wilden_boss" = "DEFAULT"
+	"ars_nouveau:wilden_boss" = "FALSE"
 	#ars_nouveau:an_lightning mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"ars_nouveau:an_lightning" = "DEFAULT"
@@ -1755,172 +1755,172 @@
 	"farmersdelight:rotten_tomato" = "DEFAULT"
 	#cataclysm:ender_golem mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ender_golem" = "DEFAULT"
+	"cataclysm:ender_golem" = "FALSE"
 	#cataclysm:ender_guardian mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ender_guardian" = "DEFAULT"
+	"cataclysm:ender_guardian" = "FALSE"
 	#cataclysm:netherite_monstrosity mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:netherite_monstrosity" = "DEFAULT"
+	"cataclysm:netherite_monstrosity" = "FALSE"
 	#cataclysm:lava_bomb mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:lava_bomb" = "DEFAULT"
+	"cataclysm:lava_bomb" = "FALSE"
 	#cataclysm:nameless_sorcerer mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:nameless_sorcerer" = "DEFAULT"
+	"cataclysm:nameless_sorcerer" = "FALSE"
 	#cataclysm:ignis mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ignis" = "DEFAULT"
+	"cataclysm:ignis" = "FALSE"
 	#cataclysm:ender_guardian_bullet mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ender_guardian_bullet" = "DEFAULT"
+	"cataclysm:ender_guardian_bullet" = "FALSE"
 	#cataclysm:void_rune mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:void_rune" = "DEFAULT"
+	"cataclysm:void_rune" = "FALSE"
 	#cataclysm:abyss_mine mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:abyss_mine" = "DEFAULT"
+	"cataclysm:abyss_mine" = "FALSE"
 	#cataclysm:endermaptera mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:endermaptera" = "DEFAULT"
+	"cataclysm:endermaptera" = "FALSE"
 	#cataclysm:deepling mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:deepling" = "DEFAULT"
+	"cataclysm:deepling" = "FALSE"
 	#cataclysm:deepling_brute mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:deepling_brute" = "DEFAULT"
+	"cataclysm:deepling_brute" = "FALSE"
 	#cataclysm:deepling_angler mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:deepling_angler" = "DEFAULT"
+	"cataclysm:deepling_angler" = "FALSE"
 	#cataclysm:deepling_priest mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:deepling_priest" = "DEFAULT"
+	"cataclysm:deepling_priest" = "FALSE"
 	#cataclysm:lionfish mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:lionfish" = "DEFAULT"
+	"cataclysm:lionfish" = "FALSE"
 	#cataclysm:coralssus mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:coralssus" = "DEFAULT"
+	"cataclysm:coralssus" = "FALSE"
 	#cataclysm:ignited_revenant mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ignited_revenant" = "DEFAULT"
+	"cataclysm:ignited_revenant" = "FALSE"
 	#cataclysm:the_harbinger mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:the_harbinger" = "DEFAULT"
+	"cataclysm:the_harbinger" = "FALSE"
 	#cataclysm:the_leviathan mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:the_leviathan" = "DEFAULT"
+	"cataclysm:the_leviathan" = "FALSE"
 	#cataclysm:the_baby_leviathan mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:the_baby_leviathan" = "DEFAULT"
+	"cataclysm:the_baby_leviathan" = "FALSE"
 	#cataclysm:void_scatter_arrow mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:void_scatter_arrow" = "DEFAULT"
+	"cataclysm:void_scatter_arrow" = "FALSE"
 	#cataclysm:poison_dart mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:poison_dart" = "DEFAULT"
+	"cataclysm:poison_dart" = "FALSE"
 	#cataclysm:void_shard mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:void_shard" = "DEFAULT"
+	"cataclysm:void_shard" = "FALSE"
 	#cataclysm:blazing_bone mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:blazing_bone" = "DEFAULT"
+	"cataclysm:blazing_bone" = "FALSE"
 	#cataclysm:lionfish_spike mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:lionfish_spike" = "DEFAULT"
+	"cataclysm:lionfish_spike" = "FALSE"
 	#cataclysm:screen_shake mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:screen_shake" = "DEFAULT"
+	"cataclysm:screen_shake" = "FALSE"
 	#cataclysm:cm_falling_block mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:cm_falling_block" = "DEFAULT"
+	"cataclysm:cm_falling_block" = "FALSE"
 	#cataclysm:ignis_fireball mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ignis_fireball" = "DEFAULT"
+	"cataclysm:ignis_fireball" = "FALSE"
 	#cataclysm:ignis_abyss_fireball mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ignis_abyss_fireball" = "DEFAULT"
+	"cataclysm:ignis_abyss_fireball" = "FALSE"
 	#cataclysm:wither_smoke_effect mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:wither_smoke_effect" = "DEFAULT"
+	"cataclysm:wither_smoke_effect" = "FALSE"
 	#cataclysm:flame_strike mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:flame_strike" = "DEFAULT"
+	"cataclysm:flame_strike" = "FALSE"
 	#cataclysm:ashen_breath mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:ashen_breath" = "DEFAULT"
+	"cataclysm:ashen_breath" = "FALSE"
 	#cataclysm:wall_watcher mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:wall_watcher" = "DEFAULT"
+	"cataclysm:wall_watcher" = "FALSE"
 	#cataclysm:death_laser_beam mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:death_laser_beam" = "DEFAULT"
+	"cataclysm:death_laser_beam" = "FALSE"
 	#cataclysm:abyss_blast mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:abyss_blast" = "DEFAULT"
+	"cataclysm:abyss_blast" = "FALSE"
 	#cataclysm:mini_abyss_blast mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:mini_abyss_blast" = "DEFAULT"
+	"cataclysm:mini_abyss_blast" = "FALSE"
 	#cataclysm:portal_abyss_blast mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:portal_abyss_blast" = "DEFAULT"
+	"cataclysm:portal_abyss_blast" = "FALSE"
 	#cataclysm:laser_beam mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:laser_beam" = "DEFAULT"
+	"cataclysm:laser_beam" = "FALSE"
 	#cataclysm:wither_missile mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:wither_missile" = "DEFAULT"
+	"cataclysm:wither_missile" = "FALSE"
 	#cataclysm:wither_homing_missile mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:wither_homing_missile" = "DEFAULT"
+	"cataclysm:wither_homing_missile" = "FALSE"
 	#cataclysm:wither_howitzer mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:wither_howitzer" = "DEFAULT"
+	"cataclysm:wither_howitzer" = "FALSE"
 	#cataclysm:abyss_orb mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:abyss_orb" = "DEFAULT"
+	"cataclysm:abyss_orb" = "FALSE"
 	#cataclysm:void_howitzer mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:void_howitzer" = "DEFAULT"
+	"cataclysm:void_howitzer" = "FALSE"
 	#cataclysm:eye_of_dungeon mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:eye_of_dungeon" = "DEFAULT"
+	"cataclysm:eye_of_dungeon" = "FALSE"
 	#cataclysm:void_vortex mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:void_vortex" = "DEFAULT"
+	"cataclysm:void_vortex" = "FALSE"
 	#cataclysm:the_leviathan_tongue mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:the_leviathan_tongue" = "DEFAULT"
+	"cataclysm:the_leviathan_tongue" = "FALSE"
 	#cataclysm:tidal_tentacle mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:tidal_tentacle" = "DEFAULT"
+	"cataclysm:tidal_tentacle" = "FALSE"
 	#cataclysm:tidal_hook mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:tidal_hook" = "DEFAULT"
+	"cataclysm:tidal_hook" = "FALSE"
 	#cataclysm:abyss_portal mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:abyss_portal" = "DEFAULT"
+	"cataclysm:abyss_portal" = "FALSE"
 	#cataclysm:abyss_blast_portal mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:abyss_blast_portal" = "DEFAULT"
+	"cataclysm:abyss_blast_portal" = "FALSE"
 	#cataclysm:coral_spear mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:coral_spear" = "DEFAULT"
+	"cataclysm:coral_spear" = "FALSE"
 	#cataclysm:coral_bardiche mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:coral_bardiche" = "DEFAULT"
+	"cataclysm:coral_bardiche" = "FALSE"
 	#cataclysm:dimensional_rift mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:dimensional_rift" = "DEFAULT"
+	"cataclysm:dimensional_rift" = "FALSE"
 	#cataclysm:amethyst_crab mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:amethyst_crab" = "DEFAULT"
+	"cataclysm:amethyst_crab" = "FALSE"
 	#cataclysm:earthquake mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:earthquake" = "DEFAULT"
+	"cataclysm:earthquake" = "FALSE"
 	#cataclysm:amethyst_cluster_projectile mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
-	"cataclysm:amethyst_cluster_projectile" = "DEFAULT"
+	"cataclysm:amethyst_cluster_projectile" = "FALSE"
 	#camera:image_frame mobGriefing
 	#Allowed Values: DEFAULT, TRUE, FALSE
 	"camera:image_frame" = "DEFAULT"

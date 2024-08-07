@@ -996,28 +996,3 @@ ServerEvents.recipes(e => {
         ]
     })
 })
-
-ServerEvents.recipes(e => {
-    e.custom({
-        "type": "create:mixing",
-        "heatRequirement": "superheated",
-        "ingredients": [
-            {
-                "count": 8,
-                "item": "mekanism:block_refined_glowstone"
-            }, {
-                "count": 8,
-                "item": "nourished_nether:glowing_obsidian"
-            }, {
-                "amount": 1000,
-                "fluid": "minecraft:water"
-            }
-        ],
-        "results": [
-            {
-                "amount": 1000,
-                "fluid": "createchromaticreturn:refined_mixture"
-            }
-        ]
-    })
-})

@@ -29,10 +29,6 @@ JEIEvents.addItems(e => {
         Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:the_nether/inferno"}'),
         Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:twilight/forest"}'),
         Item.of('apotheosis:gem', '{affix_data:{rarity:"apotheosis:ancient"},gem:"apotheosis:twilight/queen"}'),
-        // More Plates
-        'moreplates:aquamarine_gear',
-        'moreplates:aquamarine_plate',
-        'moreplates:aquamarine_rod',
         // Sophisticated Backpack
         'sophisticatedbackpacks:backpack',
         // Sophisticated Storage

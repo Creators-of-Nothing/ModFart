@@ -29,7 +29,7 @@ ServerEvents.recipes(e => {
                         "item": tier
                     },
                     {
-                        "item": "create:brass_block"
+                        "item": "create_sa:brass_cube"
                     }
                 ],
                 "result": {
@@ -205,6 +205,7 @@ ServerEvents.recipes(e => {
         })
     }
     potting('minecraft:witch', 2, 'minecraft:glass_bottle', 'minecraft:glowstone_dust', 'minecraft:redstone', 'minecraft:gunpowder', 'minecraft:sugar')
+    potting('mutantmonsters:mutant_skeleton', 2, 'mutantmonsters:mutant_skeleton_limb', 'mutantmonsters:mutant_skeleton_rib', 'mutantmonsters:mutant_skeleton_shoulder_pad', 'mutantmonsters:mutant_skeleton_pelvis', 'mutantmonsters:mutant_skeleton_skull')
 })
 ServerEvents.recipes(e => {
     let potting = (entity, tier, loot1, loot2, loot3, loot4, loot4cook) => {
@@ -309,6 +310,7 @@ ServerEvents.recipes(e => {
     }
     potting('alexsmobs:guster', 2, 'alexsmobs:guster_eye', 'minecraft:sand', 'minecraft:red_sand', 'minecraft:soul_sand')
     potting('alexsmobs:mungus', 2, 'minecraft:red_mushroom', 'minecraft:brown_mushroom', 'minecraft:crimson_fungus', 'minecraft:warped_fungus')
+    potting('farlanders:mystic_enderman', 2, 'farlanders:mystic_wand_ore', 'farlanders:mystic_wand_teleport', 'farlanders:mystic_wand_regen', 'farlanders:mystic_wand_invisible')
     potting('monsterplus:glow_skeleton', 2, 'minecraft:bone', 'minecraft:arrow', 'minecraft:glow_ink_sac', 'minecraft:glowstone_dust')
     potting('monsterplus:overgrown_skeleton', 2, 'minecraft:bone', 'minecraft:arrow', 'minecraft:glow_berries', 'minecraft:vine')
 })
@@ -573,6 +575,7 @@ ServerEvents.recipes(e => {
     potting('minecraft:evoker', 2, 'minecraft:emerald', 'minecraft:totem_of_undying')
     potting('minecraft:iron_golem', 2, 'minecraft:iron_ingot', 'minecraft:poppy')
     potting('minecraft:spider', 2, 'minecraft:string', 'minecraft:spider_eye')
+    potting('mutantmonsters:mutant_enderman', 2, 'minecraft:ender_pearl', 'minecraft:ender_eye')
     potting('naturalist:snail', 1, 'naturalist:snail_shell', 'minecraft:slime_ball')
     potting('the_bumblezone:honey_slime', 2, 'minecraft:sugar', 'minecraft:slime_ball')
     potting('undergarden:mog', 1, 'undergarden:depthrock_pebble', 'undergarden:mogmoss')
@@ -694,9 +697,15 @@ ServerEvents.recipes(e => {
     potting('eidolon:slimy_slug', 1, 'minecraft:slime_ball')
     potting('enlightened_end:eidolon', 2, 'enlightened_end:everglint')
     potting('epicsamurai:akaname', 2, 'epicsamurai:akaname_tongue')
+    potting('epicsamurai:jorogumo', 2, 'epicsamurai:jorogumo_eye')
+    potting('epicsamurai:kawauso', 1, 'epicsamurai:straw_hat')
     potting('epicsamurai:komainu', 1, 'epicsamurai:cloth')
+    potting('epicsamurai:onibi', 2, 'epicsamurai:spirit_flame')
+    potting('epicsamurai:tanuki', 1, 'epicsamurai:straw_hat')
     potting('farlanders:ender_golem', 2, 'farlanders:ender_horn')
     potting('farlanders:ender_guardian', 2, 'minecraft:arrow')
+    potting('farlanders:looter', 2, 'farlanders:looter_hood')
+    potting('farlanders:rebel', 2, 'farlanders:rebel_farlander_helmet')
     potting('farlanders:titan', 3, 'farlanders:titan_hide')
     potting('goblintraders:goblin_trader', 1, 'minecraft:apple')
     potting('minecraft:cat', 1, 'minecraft:string')
@@ -716,6 +725,9 @@ ServerEvents.recipes(e => {
     potting('minecraft:trader_llama', 1, 'minecraft:leather')
     potting('minecraft:vindicator', 2, 'minecraft:emerald')
     potting('minecraft:zombie_horse', 1, 'minecraft:rotten_flesh')
+    potting('mutantmonsters:mutant_creeper', 2, 'minecraft:gunpowder')
+    potting('mutantmonsters:mutant_snow_golem', 2, 'minecraft:snowball')
+    potting('mutantmonsters:mutant_zombie', 2, 'mutantmonsters:hulk_hammer')
     potting('naturalist:bluejay', 1, 'minecraft:feather')
     potting('naturalist:canary', 1, 'minecraft:feather')
     potting('naturalist:cardinal', 1, 'minecraft:feather')
@@ -1522,6 +1534,8 @@ ServerEvents.recipes(e => {
             ]
         })
     }
+    potting('alexsmobs:catfish_large', 1, 'alexsmobs:raw_catfish')
+    potting('alexsmobs:catfish_medium', 1, 'alexsmobs:raw_catfish')
     potting('alexsmobs:comb_jelly', 1, 'alexsmobs:rainbow_jelly')
     potting('alexsmobs:frilled_shark', 2, 'alexsmobs:serrated_shark_tooth')
     potting('alexsmobs:giant_squid', 1, 'minecraft:ink_sac')
@@ -1539,6 +1553,7 @@ ServerEvents.recipes(e => {
     potting('cataclysm:deepling_brute', 2, 'minecraft:nautilus_shell')
     potting('cataclysm:deepling_priest', 2, 'cataclysm:athame')
     potting('cataclysm:deepling_warlock', 2, 'cataclysm:athame')
+    potting('minecraft:dolphin', 1, 'minecraft:cod')
     potting('minecraft:glow_squid', 1, 'minecraft:glow_ink_sac')
     potting('minecraft:squid', 1, 'minecraft:ink_sac')
     potting('naturalist:bass', 1, 'naturalist:bass')
@@ -2082,6 +2097,63 @@ ServerEvents.recipes(e => {
 
 
 // Caged Mobs - Aether
+ServerEvents.recipes(e => {
+    let potting = (entity, tier, loot1, loot2, loot3, loot4, loot5) => {
+        e.custom({
+            "type": "cagedmobs:entity_data",
+            "entity": entity,
+            "samplerTier": tier,
+            "environments": [
+                "aether",
+                "allenv"
+            ],
+            "growTicks": 1200,
+            "results": [
+                {
+                    "chance": 1,
+                    "output": {
+                        "item": loot1
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 2
+                },
+                {
+                    "chance": 0.75,
+                    "output": {
+                        "item": loot2
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.5,
+                    "output": {
+                        "item": loot3
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.25,
+                    "output": {
+                        "item": loot4
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                },
+                {
+                    "chance": 0.25,
+                    "output": {
+                        "item": loot5
+                    },
+                    "minAmount": 1,
+                    "maxAmount": 1
+                }
+            ]
+        })
+        potting('aether:mimic', 2, 'minecraft:chest', 'minecraft:trapped_chest', 'aether:golden_amber', 'aether:zanite_gemstone', 'aether:ambrosium_shard')
+    }
+})
 ServerEvents.recipes(e => {
     let potting = (entity, tier, loot1, loot2) => {
         e.custom({
@@ -2642,135 +2714,3 @@ ServerEvents.recipes(e => {
     }
     potting('overworld', 'minecraft:goat', 1)
 })
-
-/*
-//// Caged Mobs - En Attente
-// Aether
-potting('aether:aerwhale')
-potting('aether:evil_whirlwind')
-potting('aether:fire_minion')
-potting('aether:mimic')
-potting('aether:sheepuff')
-potting('aether:whirlwind')
-
-// Alex's Caves
-potting('alexscaves:deep_one')
-potting('alexscaves:deep_one_knight')
-potting('alexscaves:deep_one_mage')
-potting('alexscaves:magnetron')
-potting('alexscaves:subterranodon')
-potting('alexscaves:vallumraptor')
-
-// Alex's Mobs
-potting('alexsmobs:anaconda')
-potting('alexsmobs:anteater')
-potting('alexsmobs:caiman')
-potting('alexsmobs:catfish_large')
-potting('alexsmobs:catfish_medium')
-potting('alexsmobs:cockroach_maracas')
-potting('alexsmobs:cockroach_maracas_headless')
-potting('alexsmobs:crimson_mosquito_fly')
-potting('alexsmobs:crimson_mosquito_fly_full')
-potting('alexsmobs:crimson_mosquito_full')
-potting('alexsmobs:devils_hole_pupfish')
-potting('alexsmobs:froststalker_spikes')
-potting('alexsmobs:gelada_monkey')
-potting('alexsmobs:ghost_miner')
-potting('alexsmobs:guster_soul')
-potting('alexsmobs:hummingbird')
-potting('alexsmobs:jerboa')
-potting('alexsmobs:laviathan_obsidian')
-potting('alexsmobs:leafcutter_ant_queen')
-potting('alexsmobs:maned_wolf')
-potting('alexsmobs:orca')
-potting('alexsmobs:rain_frog')
-potting('alexsmobs:rhinoceros')
-potting('alexsmobs:sea_bear')
-potting('alexsmobs:skunk')
-potting('alexsmobs:snow_leopard')
-potting('alexsmobs:soul_vulture_heart')
-potting('alexsmobs:spectre')
-potting('alexsmobs:stradpole')
-potting('alexsmobs:sugar_glider')
-potting('alexsmobs:tasmanian_devil')
-potting('alexsmobs:terrapin')
-potting('alexsmobs:tiger')
-potting('alexsmobs:triops')
-potting('alexsmobs:void_worm_splitter')
-
-// Enlightend
-potting('enlightened_end:exhauster')
-potting('enlightened_end:sacrifice_statue_gift')
-
-// Epic Samurai
-potting('epicsamurai:kawauso')
-potting('epicsamurai:tanuki')
-
-// Farlanders
-potting('farlanders:elder_farlander')
-potting('farlanders:enderminion')
-potting('farlanders:farlander')
-potting('farlanders:looter')
-potting('farlanders:mystic_enderman')
-potting('farlanders:mystic_enderman_held_wands')
-potting('farlanders:mystic_enderminion')
-potting('farlanders:rebel')
-potting('farlanders:wanderer')
-
-// Fish of Thieves
-potting('fishofthieves:fish_bone_drop')
-
-// Meadow
-potting('meadow:albino_cow')
-potting('meadow:chicken_1')
-potting('meadow:cookie_cow')
-potting('meadow:cream_cow')
-potting('meadow:dairy_cow')
-potting('meadow:dark_cow')
-potting('meadow:highland_cattle')
-potting('meadow:horned_sheep')
-potting('meadow:pinto_cow')
-potting('meadow:sunset_cow')
-potting('meadow:umbra_cow')
-potting('meadow:warped_cow')
-
-// Minecraft
-potting('minecraft:allay')
-potting('minecraft:axolotl')
-potting('minecraft:bat')
-potting('minecraft:camel')
-potting('minecraft:dolphin')
-potting('minecraft:fox')
-potting('minecraft:illusioner')
-potting('minecraft:ocelot')
-potting('minecraft:piglin')
-potting('minecraft:piglin_brute')
-potting('minecraft:pillager')
-potting('minecraft:silverfish')
-potting('minecraft:tadpole')
-potting('minecraft:vex')
-potting('minecraft:villager')
-potting('minecraft:wandering_trader')
-potting('minecraft:wolf')
-
-// Mutant Monsters
-potting('mutantmonsters:creeper_minion')
-potting('mutantmonsters:endersoul_clone')
-potting('mutantmonsters:mutant_creeper')
-potting('mutantmonsters:mutant_enderman')
-potting('mutantmonsters:mutant_enderman_continuous')
-potting('mutantmonsters:mutant_skeleton')
-potting('mutantmonsters:mutant_snow_golem')
-potting('mutantmonsters:mutant_zombie')
-
-// Snuffles
-potting('snuffles:snuffle')
-
-// The Bumblezone
-potting('the_bumblezone:bee_stinger_drops')
-potting('the_bumblezone:cosmic_crystal')
-
-// The Undergarden
-potting('undergarden:gwib')
-potting('undergarden:nargoyle')
-*/
