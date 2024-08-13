@@ -309,7 +309,7 @@ ServerEvents.recipes(e => {
                 },
                 {
                     "chance": chance,
-                    "item": "epicsamurai:raw_silver"
+                    "item": "samurai_dynasty:raw_silver"
                 },
                 {
                     "chance": chance,

@@ -1,0 +1,12 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Vanilla Flowers",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": []
+}

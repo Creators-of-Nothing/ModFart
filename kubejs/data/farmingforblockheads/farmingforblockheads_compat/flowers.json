@@ -1,0 +1,232 @@
+{
+    "silent": true,
+    "group": {
+        "name": "Flowers",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+        {
+            "output": "minecraft:dandelion"
+        },
+        {
+            "output": "minecraft:poppy"
+        },
+        {
+            "output": "minecraft:blue_orchid"
+        },
+        {
+            "output": "minecraft:allium"
+        },
+        {
+            "output": "minecraft:azure_bluet"
+        },
+        {
+            "output": "minecraft:red_tulip"
+        },
+        {
+            "output": "minecraft:orange_tulip"
+        },
+        {
+            "output": "minecraft:white_tulip"
+        },
+        {
+            "output": "minecraft:pink_tulip"
+        },
+        {
+            "output": "minecraft:oxeye_daisy"
+        },
+        {
+            "output": "minecraft:cornflower"
+        },
+        {
+            "output": "minecraft:lily_of_the_valley"
+        },
+        {
+            "output": "minecraft:torchflower"
+        },
+        {
+            "output": "minecraft:wither_rose"
+        },
+        {
+            "output": "minecraft:pink_petals"
+        },
+        {
+            "output": "minecraft:sunflower"
+        },
+        {
+            "output": "minecraft:lilac"
+        },
+        {
+            "output": "minecraft:rose_bush"
+        },
+        {
+            "output": "minecraft:peony"
+        },
+        {
+            "output": "minecraft:pitcher_plant"
+        },
+        {
+            "output": "minecraft:chorus_flower"
+        },
+        {
+            "output": "meadow:alpine_poppy"
+        },
+        {
+            "output": "meadow:delphinium"
+        },
+        {
+            "output": "meadow:saxifrage"
+        },
+        {
+            "output": "meadow:enzian"
+        },
+        {
+            "output": "meadow:fire_lily"
+        },
+        {
+            "output": "meadow:eriophorum"
+        },
+        {
+            "output": "meadow:eriophorum_tall"
+        },
+        {
+            "output": "alexscaves:tree_star"
+        },
+        {
+            "output": "alexsmobs:acacia_blossom"
+        },
+        {
+            "output": "ancient_aether:sunset_rose"
+        },
+        {
+            "output": "ancient_aether:sky_blues"
+        },
+        {
+            "output": "ancient_aether:wynd_thistle"
+        },
+        {
+            "output": "ancient_aether:elevetia"
+        },
+        {
+            "output": "biomesoplenty:rose"
+        },
+        {
+            "output": "biomesoplenty:violet"
+        },
+        {
+            "output": "biomesoplenty:lavender"
+        },
+        {
+            "output": "biomesoplenty:tall_lavender"
+        },
+        {
+            "output": "biomesoplenty:blue_hydrangea"
+        },
+        {
+            "output": "biomesoplenty:wildflower"
+        },
+        {
+            "output": "biomesoplenty:goldenrod"
+        },
+        {
+            "output": "biomesoplenty:orange_cosmos"
+        },
+        {
+            "output": "biomesoplenty:pink_daffodil"
+        },
+        {
+            "output": "biomesoplenty:pink_hibiscus"
+        },
+        {
+            "output": "biomesoplenty:waterlily"
+        },
+        {
+            "output": "biomesoplenty:white_petals"
+        },
+        {
+            "output": "biomesoplenty:icy_iris"
+        },
+        {
+            "output": "biomesoplenty:glowflower"
+        },
+        {
+            "output": "biomesoplenty:wilted_lily"
+        },
+        {
+            "output": "biomesoplenty:burning_blossom"
+        },
+        {
+            "output": "biomesoplenty:sprout"
+        },
+        {
+            "output": "biomesoplenty:clover"
+        },
+        {
+            "output": "cyclic:flower_cyan"
+        },
+        {
+            "output": "cyclic:flower_purple_tulip"
+        },
+        {
+            "output": "cyclic:flower_lime_carnation"
+        },
+        {
+            "output": "cyclic:flower_absalon_tulip"
+        },
+        {
+            "output": "enlightened_end:cradling_flower"
+        },
+        {
+            "output": "farmersdelight:wild_cabbages"
+        },
+        {
+            "output": "farmersdelight:wild_onions"
+        },
+        {
+            "output": "farmersdelight:wild_tomatoes"
+        },
+        {
+            "output": "farmersdelight:wild_carrots"
+        },
+        {
+            "output": "farmersdelight:wild_potatoes"
+        },
+        {
+            "output": "farmersdelight:wild_beetroots"
+        },
+        {
+            "output": "farmersdelight:wild_rice"
+        },
+        {
+            "output": "naturalist:cattail"
+        },
+        {
+            "output": "nethersdelight:mimicarnation"
+        },
+        {
+            "output": "aether:purple_flower"
+        },
+        {
+            "output": "aether:white_flower"
+        },
+        {
+            "output": "undergarden:amorous_bristle"
+        },
+        {
+            "output": "undergarden:miserabell"
+        },
+        {
+            "output": "undergarden:butterbunch"
+        },
+        {
+            "output": "undergarden:shimmerweed"
+        },
+        {
+            "output": "undergarden:tall_shimmerweed"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "silent": true,
+    "group": {
+        "name": "Mushrooms",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:mushrooms"
+    },
+    "customEntries": [
+        {
+            "output": "minecraft:brown_mushroom"
+        },
+        {
+            "output": "minecraft:crimson_fungus"
+        },
+        {
+            "output": "minecraft:red_mushroom"
+        },
+        {
+            "output": "minecraft:warped_fungus"
+        },
+        {
+            "output": "endlessbiomes:penumbral_fungus"
+        },
+        {
+            "output": "gardens_of_the_dead:soulblight_fungus"
+        },
+        {
+            "output": "nethersdelight:crimson_fungus_colony"
+        },
+        {
+            "output": "nethersdelight:warped_fungus_colony"
+        },
+        {
+            "output": "pamhc2crops:whitemushroomitem"
+        },
+        {
+            "output": "undergarden:indigo_mushroom"
+        },
+        {
+            "output": "undergarden:veil_mushroom"
+        },
+        {
+            "output": "undergarden:ink_mushroom"
+        },
+        {
+            "output": "undergarden:blood_mushroom"
+        }
+    ]
+}

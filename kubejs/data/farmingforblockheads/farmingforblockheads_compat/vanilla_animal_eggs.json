@@ -1,0 +1,12 @@
+{
+  "modId": "minecraft",
+  "group": {
+    "name": "Animal Eggs",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:diamond"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": []
+}

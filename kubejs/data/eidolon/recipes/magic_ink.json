@@ -16,8 +16,8 @@
     },
     {
       "items": [
-      	{ "item": "epicsamurai:silver_nugget" },
-      	{ "item": "epicsamurai:silver_nugget" }
+      	{ "item": "samurai_dynasty:silver_nugget" },
+      	{ "item": "samurai_dynasty:silver_nugget" }
       ],
       "stirs": 1
     },

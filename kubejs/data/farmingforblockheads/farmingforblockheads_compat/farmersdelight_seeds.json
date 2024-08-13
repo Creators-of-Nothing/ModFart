@@ -1,0 +1,13 @@
+{
+  "modId": "farmersdelight",
+  "silent": true,
+  "group": {
+    "name": "Farmers Delight Seeds",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:seeds"
+  },
+  "customEntries": []
+}

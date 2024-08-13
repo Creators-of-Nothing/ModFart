@@ -1,0 +1,13 @@
+{
+  "modId": "twilightforest",
+  "silent": true,
+  "group": {
+    "name": "Twilight Forest Saplings",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": []
+}

@@ -1,0 +1,13 @@
+{
+  "modId": "biomesoplenty",
+  "silent": true,
+  "group": {
+    "name": "BiomesOPlenty Saplings",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": []
+}

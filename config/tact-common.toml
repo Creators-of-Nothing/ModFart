@@ -64,6 +64,11 @@ subterranodonFlightMeterUsageSpeed = 1.0
 # Whether to activate an internal datapack to remove Spelunkery mod's wall mushrooms from Alex's Caves's Primordial Cave biome due to the mushrooms not having safe generation.
 #
 applySpelunkeryCompatAdjustments = true
+#----------------------------------
+#
+# Whether to make Guano, Guano Block, and Guano Layer be able to be used as fuel in Furnaces.
+#
+guanoBurnFuel = true
 
 ["Mob Attack/Health Options"]
 	#Range: 1.0 ~ 1000000.0

@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "epicsamurai:oni_mask",
-    "epicsamurai:kitsune_mask"
+    "samurai_dynasty:oni_mask",
+    "samurai_dynasty:kitsune_mask"
   ]
 }

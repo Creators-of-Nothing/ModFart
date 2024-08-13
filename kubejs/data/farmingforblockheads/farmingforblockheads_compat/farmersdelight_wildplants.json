@@ -1,0 +1,13 @@
+{
+  "modId": "farmersdelight",
+  "silent": true,
+  "group": {
+    "name": "Farmers Delight Wild Crops",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": []
+}
