@@ -1,0 +1,22 @@
+{
+    "silent": true,
+    "group": {
+        "name": "Other",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:other"
+    },
+    "customEntries": [
+        {
+            "output": "minecraft:bone_meal"
+        },
+        {
+            "output": "alexscaves:fertilizer"
+        },
+        {
+            "output": "create:tree_fertilizer"
+        }
+    ]
+}

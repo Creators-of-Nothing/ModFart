@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "epicsamurai:aquamarine_ore"
+              "name": "samurai_dynasty:deepslate_onyx_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "kubejs:raw_aquamarine"
+              "name": "kubejs:raw_onyx"
             }
           ]
         }
@@ -46,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "epicsamurai:blocks/aquamarine_ore"
+  "random_sequence": "samurai_dynasty:blocks/deepslate_onyx_ore"
 }

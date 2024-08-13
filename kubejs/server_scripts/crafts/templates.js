@@ -31,7 +31,7 @@ ServerEvents.recipes(e => {
     e.remove({ id: 'deeperdarker:warden_upgrade_smithing_template' })
     e.remove({ id: 'lolenderite:enderite_upgrade_smithing_template' })
     e.remove({ id: 'endlessbiomes:anklor_upgrade_template_duplication' })
-    e.remove({ id: 'epicsamurai:spirit_upgrade_smithing_template' })
+    e.remove({ id: 'samurai_dynasty:spirit_upgrade_smithing_template' })
     e.remove({ id: 'undergarden:forgotten_upgrade_smithing_template' })
 })
 
@@ -182,6 +182,6 @@ ServerEvents.recipes(e => {
     potting('lolenderite:enderite_upgrade_smithing_template')
     potting('endlessbiomes:anklor_upgrade_template')
     potting('enlightened_end:adamantite_smithing_template')
-    potting('epicsamurai:spirit_upgrade_smithing_template')
+    potting('samurai_dynasty:spirit_upgrade_smithing_template')
     potting('undergarden:forgotten_upgrade_smithing_template')
 })

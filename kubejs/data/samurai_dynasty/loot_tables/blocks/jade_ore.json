@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "epicsamurai:jade_ore"
+              "name": "samurai_dynasty:jade_ore"
             },
             {
               "type": "minecraft:item",
@@ -46,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "epicsamurai:blocks/jade_ore"
+  "random_sequence": "samurai_dynasty:blocks/jade_ore"
 }

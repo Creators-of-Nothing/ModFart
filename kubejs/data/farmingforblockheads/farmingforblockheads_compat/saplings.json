@@ -1,0 +1,361 @@
+{
+    "silent": true,
+    "group": {
+        "name": "Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": {
+            "item": "minecraft:emerald"
+        },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        {
+            "output": "minecraft:oak_sapling"
+        },
+        {
+            "output": "minecraft:spruce_sapling"
+        },
+        {
+            "output": "minecraft:mangrove_propagule"
+        },
+        {
+            "output": "minecraft:birch_sapling"
+        },
+        {
+            "output": "minecraft:jungle_sapling"
+        },
+        {
+            "output": "minecraft:acacia_sapling"
+        },
+        {
+            "output": "minecraft:dark_oak_sapling"
+        },
+        {
+            "output": "minecraft:dead_bush"
+        },
+        {
+            "output": "minecraft:cherry_sapling"
+        },
+        {
+            "output": "beachparty:palm_sapling"
+        },
+        {
+            "output": "meadow:pine_sapling"
+        },
+        {
+            "output": "vinery:dark_cherry_sapling"
+        },
+        {
+            "output": "vinery:apple_tree_sapling"
+        },
+        {
+            "output": "lost_aether_content:crystal_sapling"
+        },
+        {
+            "output": "lost_aether_content:holiday_sapling"
+        },
+        {
+            "output": "alexscaves:pewen_sapling"
+        },
+        {
+            "output": "alexscaves:ancient_sapling"
+        },
+        {
+            "output": "alexscaves:thornwood_sapling"
+        },
+        {
+            "output": "ancient_aether:crystal_skyroot_sapling"
+        },
+        {
+            "output": "ancient_aether:enchanted_skyroot_sapling"
+        },
+        {
+            "output": "ancient_aether:skyroot_pine_sapling"
+        },
+        {
+            "output": "ancient_aether:highsproot_sapling"
+        },
+        {
+            "output": "ancient_aether:sakura_sapling"
+        },
+        {
+            "output": "ars_elemental:yellow_archwood_sapling"
+        },
+        {
+            "output": "ars_nouveau:blue_archwood_sapling"
+        },
+        {
+            "output": "ars_nouveau:red_archwood_sapling"
+        },
+        {
+            "output": "ars_nouveau:purple_archwood_sapling"
+        },
+        {
+            "output": "ars_nouveau:green_archwood_sapling"
+        },
+        {
+            "output": "biomesoplenty:origin_sapling"
+        },
+        {
+            "output": "biomesoplenty:flowering_oak_sapling"
+        },
+        {
+            "output": "biomesoplenty:snowblossom_sapling"
+        },
+        {
+            "output": "biomesoplenty:rainbow_birch_sapling"
+        },
+        {
+            "output": "biomesoplenty:yellow_autumn_sapling"
+        },
+        {
+            "output": "biomesoplenty:orange_autumn_sapling"
+        },
+        {
+            "output": "biomesoplenty:maple_sapling"
+        },
+        {
+            "output": "biomesoplenty:fir_sapling"
+        },
+        {
+            "output": "biomesoplenty:redwood_sapling"
+        },
+        {
+            "output": "biomesoplenty:mahogany_sapling"
+        },
+        {
+            "output": "biomesoplenty:jacaranda_sapling"
+        },
+        {
+            "output": "biomesoplenty:palm_sapling"
+        },
+        {
+            "output": "biomesoplenty:willow_sapling"
+        },
+        {
+            "output": "biomesoplenty:dead_sapling"
+        },
+        {
+            "output": "biomesoplenty:magic_sapling"
+        },
+        {
+            "output": "biomesoplenty:umbran_sapling"
+        },
+        {
+            "output": "biomesoplenty:hellbark_sapling"
+        },
+        {
+            "output": "deeperdarker:echo_sapling"
+        },
+        {
+            "output": "eidolon:illwood_sapling"
+        },
+        {
+            "output": "nifty:redoak_sapling"
+        },
+        {
+            "output": "nifty:maple_sapling"
+        },
+        {
+            "output": "nifty:rubber_sapling"
+        },
+        {
+            "output": "pamhc2trees:apple_sapling"
+        },
+        {
+            "output": "pamhc2trees:avocado_sapling"
+        },
+        {
+            "output": "pamhc2trees:candlenut_sapling"
+        },
+        {
+            "output": "pamhc2trees:cherry_sapling"
+        },
+        {
+            "output": "pamhc2trees:chestnut_sapling"
+        },
+        {
+            "output": "pamhc2trees:gooseberry_sapling"
+        },
+        {
+            "output": "pamhc2trees:lemon_sapling"
+        },
+        {
+            "output": "pamhc2trees:nutmeg_sapling"
+        },
+        {
+            "output": "pamhc2trees:orange_sapling"
+        },
+        {
+            "output": "pamhc2trees:peach_sapling"
+        },
+        {
+            "output": "pamhc2trees:pear_sapling"
+        },
+        {
+            "output": "pamhc2trees:plum_sapling"
+        },
+        {
+            "output": "pamhc2trees:walnut_sapling"
+        },
+        {
+            "output": "pamhc2trees:spiderweb_sapling"
+        },
+        {
+            "output": "pamhc2trees:hazelnut_sapling"
+        },
+        {
+            "output": "pamhc2trees:pawpaw_sapling"
+        },
+        {
+            "output": "pamhc2trees:soursop_sapling"
+        },
+        {
+            "output": "pamhc2trees:acorn_sapling"
+        },
+        {
+            "output": "pamhc2trees:almond_sapling"
+        },
+        {
+            "output": "pamhc2trees:apricot_sapling"
+        },
+        {
+            "output": "pamhc2trees:banana_sapling"
+        },
+        {
+            "output": "pamhc2trees:cashew_sapling"
+        },
+        {
+            "output": "pamhc2trees:cinnamon_sapling"
+        },
+        {
+            "output": "pamhc2trees:coconut_sapling"
+        },
+        {
+            "output": "pamhc2trees:date_sapling"
+        },
+        {
+            "output": "pamhc2trees:dragonfruit_sapling"
+        },
+        {
+            "output": "pamhc2trees:durian_sapling"
+        },
+        {
+            "output": "pamhc2trees:fig_sapling"
+        },
+        {
+            "output": "pamhc2trees:grapefruit_sapling"
+        },
+        {
+            "output": "pamhc2trees:lime_sapling"
+        },
+        {
+            "output": "pamhc2trees:mango_sapling"
+        },
+        {
+            "output": "pamhc2trees:olive_sapling"
+        },
+        {
+            "output": "pamhc2trees:papaya_sapling"
+        },
+        {
+            "output": "pamhc2trees:paperbark_sapling"
+        },
+        {
+            "output": "pamhc2trees:pecan_sapling"
+        },
+        {
+            "output": "pamhc2trees:peppercorn_sapling"
+        },
+        {
+            "output": "pamhc2trees:persimmon_sapling"
+        },
+        {
+            "output": "pamhc2trees:pistachio_sapling"
+        },
+        {
+            "output": "pamhc2trees:pomegranate_sapling"
+        },
+        {
+            "output": "pamhc2trees:starfruit_sapling"
+        },
+        {
+            "output": "pamhc2trees:vanillabean_sapling"
+        },
+        {
+            "output": "pamhc2trees:breadfruit_sapling"
+        },
+        {
+            "output": "pamhc2trees:guava_sapling"
+        },
+        {
+            "output": "pamhc2trees:jackfruit_sapling"
+        },
+        {
+            "output": "pamhc2trees:lychee_sapling"
+        },
+        {
+            "output": "pamhc2trees:passionfruit_sapling"
+        },
+        {
+            "output": "pamhc2trees:rambutan_sapling"
+        },
+        {
+            "output": "pamhc2trees:tamarind_sapling"
+        },
+        {
+            "output": "pamhc2trees:maple_sapling"
+        },
+        {
+            "output": "pamhc2trees:pinenut_sapling"
+        },
+        {
+            "output": "pizzacraft:olive_sapling"
+        },
+        {
+            "output": "aether:skyroot_sapling"
+        },
+        {
+            "output": "aether:golden_oak_sapling"
+        },
+        {
+            "output": "twilightforest:twilight_oak_sapling"
+        },
+        {
+            "output": "twilightforest:canopy_sapling"
+        },
+        {
+            "output": "twilightforest:mangrove_sapling"
+        },
+        {
+            "output": "twilightforest:darkwood_sapling"
+        },
+        {
+            "output": "twilightforest:time_sapling"
+        },
+        {
+            "output": "twilightforest:transformation_sapling"
+        },
+        {
+            "output": "twilightforest:mining_sapling"
+        },
+        {
+            "output": "twilightforest:sorting_sapling"
+        },
+        {
+            "output": "twilightforest:rainbow_oak_sapling"
+        },
+        {
+            "output": "twilightforest:hollow_oak_sapling"
+        },
+        {
+            "output": "undergarden:smogstem_sapling"
+        },
+        {
+            "output": "undergarden:wigglewood_sapling"
+        },
+        {
+            "output": "undergarden:grongle_sapling"
+        }
+    ]
+}

@@ -1,14 +1,8 @@
 // Gears/Plates/Rods
 ServerEvents.tags('item', e => {
-    // Gears
-    e.add('forge:gears', /_gear/)
-    e.remove('forge:gears', [/_gearbox/, /_gearshift/, /_gears/])
-    // Plates
-    e.add('forge:plates', /_plate/)
-    e.remove('forge:plates', [/pressure_/, /_pressure/, /plate_/, /plated/, /plates/, /shell_plate/, /handcrafted:/, /eidolon:/, /candlelight:/])
-    // Rods
-    e.add('forge:rods', /_rod/)
-    e.remove('forge:rods', /end_rod/, /lightning_rod/, /fishing_rod/, /alexscaves:/, /dowsing_rod/, /curtain_rod/, /mastersword/)
+    e.add('forge:modfart/gears', [/moreplates:(.*)_gear/, /kubejs:(.*)_gear/])
+    e.add('forge:modfart/plates', [/moreplates:(.*)_plate/, /kubejs:(.*)_plate/])
+    e.add('forge:modfart/rods', [/moreplates:(.*)_rod/, /kubejs:(.*)_rod/])
 })
 
 

@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "epicsamurai:deepslate_ruby_ore"
+              "name": "samurai_dynasty:silver_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "kubejs:raw_ruby"
+              "name": "samurai_dynasty:raw_silver"
             }
           ]
         }
@@ -46,5 +46,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "epicsamurai:blocks/deepslate_ruby_ore"
+  "random_sequence": "samurai_dynasty:blocks/silver_ore"
 }

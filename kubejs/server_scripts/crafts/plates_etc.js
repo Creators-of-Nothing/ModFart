@@ -188,8 +188,8 @@ ServerEvents.recipes(e => {
     potting('moreplates:bismuth_plate', 'enlightened_end:bismuth_ingot')
     potting('kubejs:malachite_plate', 'enlightened_end:malachite')
     // Epic Samurai
-    potting('moreplates:ruby_plate', 'epicsamurai:ruby')
-    potting('moreplates:silver_plate', 'epicsamurai:silver_ingot')
+    potting('moreplates:ruby_plate', 'samurai_dynasty:ruby')
+    potting('moreplates:silver_plate', 'samurai_dynasty:silver_ingot')
     // Extended Crafting
     potting('moreplates:black_iron_plate', 'extendedcrafting:black_iron_ingot')
     potting('moreplates:crystaltine_plate', 'extendedcrafting:crystaltine_ingot')

@@ -1,0 +1,13 @@
+{
+  "modId": "farmingforblockheads",
+  "silent": true,
+  "group": {
+    "name": "Farming for Blockheads Fertilizer",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": []
+}

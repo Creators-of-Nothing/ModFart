@@ -1,0 +1,13 @@
+{
+  "modId": "biomesoplenty",
+  "silent": true,
+  "group": {
+    "name": "BiomesOPlenty Flowers",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:flowers"
+  },
+  "customEntries": []
+}

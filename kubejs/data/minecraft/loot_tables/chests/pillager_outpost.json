@@ -255,7 +255,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "epicsamurai:silver_ingot",
+          "name": "samurai_dynasty:silver_ingot",
           "weight": 1,
           "functions": [
             {

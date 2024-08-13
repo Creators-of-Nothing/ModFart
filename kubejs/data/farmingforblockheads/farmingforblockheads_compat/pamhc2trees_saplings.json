@@ -1,0 +1,13 @@
+{
+  "modId": "pamhc2trees",
+  "silent": true,
+  "group": {
+    "name": "Pam's HarvestCraft 2 Trees Saplings",
+    "enabledByDefault": false,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": []
+}
