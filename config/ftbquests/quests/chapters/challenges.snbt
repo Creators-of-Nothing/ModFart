@@ -199,7 +199,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Les mutants sont trouvables dans la nature. Ils peuvent être spawné de force en jetant une potion Chemical X sur le mob approprié (50% de chance de succès). "]
+			description: ["Ce mutant n'est pas trouvable dans la nature. Ils peuvent être spawné de force en jetant une potion Chemical X sur le mob approprié (50% de chance de succès). "]
 			id: "5F85BA796A387101"
 			rewards: [{
 				id: "1B18E18B749FD074"
@@ -661,6 +661,7 @@
 				type: "stat"
 				value: 100
 			}]
+			title: "Alors, on pêche ?"
 			x: 14.5d
 			y: -3.5d
 		}
@@ -679,6 +680,7 @@
 				type: "stat"
 				value: 50
 			}]
+			title: "Call PETA !"
 			x: 11.5d
 			y: -6.5d
 		}
@@ -697,6 +699,7 @@
 				type: "stat"
 				value: 10000
 			}]
+			title: "The floor is lava !"
 			x: 16.25d
 			y: -8.25d
 		}
@@ -721,6 +724,7 @@
 				type: "stat"
 				value: 100000
 			}]
+			title: "Peur de tomber ?"
 			x: 17.5d
 			y: -6.5d
 		}
@@ -739,11 +743,12 @@
 				type: "stat"
 				value: 864000
 			}]
+			title: "T'es pas mouru l'âne !"
 			x: 12.75d
 			y: -8.25d
 		}
 		{
-			description: ["Gagne 5 raids"]
+			description: ["Gagne un raid contre les pillagers"]
 			id: "506189E9372F4D54"
 			rewards: [{
 				id: "3F53967688C7D9AB"
@@ -755,8 +760,9 @@
 				id: "5E4D8ED60EBD9757"
 				stat: "minecraft:raid_win"
 				type: "stat"
-				value: 5
+				value: 1
 			}]
+			title: "Didier ?"
 			x: 14.5d
 			y: -9.5d
 		}
@@ -880,16 +886,15 @@
 				xp: 200
 			}]
 			tasks: [{
+				advancement: "alexsmobs:alexsmobs/sunbird_blessing"
+				criterion: ""
 				icon: "alexsmobs:spawn_egg_sunbird"
-				id: "5AFCC507AC1C43A9"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexsmobs:sunbird"
-				type: "observation"
+				id: "1EE5FC979C15E511"
+				type: "advancement"
 			}]
 			title: "Observe un Sunbird"
-			x: 6.0d
-			y: -2.75d
+			x: 9.5d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -945,8 +950,8 @@
 				type: "observation"
 			}]
 			title: "Observe un Laviathan"
-			x: 3.5d
-			y: -1.0d
+			x: 4.75d
+			y: 5.75d
 		}
 		{
 			description: [
@@ -970,13 +975,15 @@
 			}]
 			title: "Observe une Comb Jelly"
 			x: 7.25d
-			y: -2.5d
+			y: 8.75d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Crimson et Warped Forest, dans le Nether."
 			]
 			id: "4FDABD2363A2104D"
 			rewards: [{
@@ -1001,6 +1008,8 @@
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les Taigas enneigées."
 			]
 			id: "1DA21ED6EA26E130"
 			rewards: [{
@@ -1018,13 +1027,15 @@
 			}]
 			title: "Observe un Acencia"
 			x: 3.75d
-			y: 2.0d
+			y: -1.5d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Taigas."
 			]
 			id: "62154805303F170C"
 			rewards: [{
@@ -1049,6 +1060,8 @@
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les cavernes proche de la surface, et les cavernes des montagnes, au dessus de la couche 60."
 			]
 			id: "2AFE3B4B9BD2B189"
 			rewards: [{
@@ -1073,6 +1086,8 @@
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Warm Ocean, près des récifs coraliens."
 			]
 			id: "0DEAD4296A4BF3E3"
 			rewards: [{
@@ -1089,14 +1104,16 @@
 				type: "observation"
 			}]
 			title: "Observe une Nudibranch"
-			x: 4.75d
-			y: 2.5d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les Deep Warm Oceans."
 			]
 			id: "32B9862D480C210C"
 			rewards: [{
@@ -1113,14 +1130,16 @@
 				type: "observation"
 			}]
 			title: "Observe un Archelon"
-			x: 8.5d
-			y: -1.0d
+			x: 8.25d
+			y: -1.5d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les grottes, sous la couche 40."
 			]
 			id: "311C0F3F3CCCF1B3"
 			rewards: [{
@@ -1137,14 +1156,16 @@
 				type: "observation"
 			}]
 			title: "Observe un Dragon"
-			x: 8.25d
-			y: -2.0d
+			x: 7.25d
+			y: -2.5d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Montagnes."
 			]
 			id: "7F73A81678BC407C"
 			rewards: [{
@@ -1169,6 +1190,8 @@
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Dark Forest."
 			]
 			id: "5A6CA1DF61D02009"
 			rewards: [{
@@ -1186,14 +1209,16 @@
 				type: "observation"
 			}]
 			title: "Observe une Moth"
-			x: 8.25d
-			y: 2.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Mushrooms."
 			]
 			id: "5677CE3161771E3A"
 			rewards: [{
@@ -1210,14 +1235,16 @@
 				type: "observation"
 			}]
 			title: "Observe un Colelytra"
-			x: 3.75d
-			y: -2.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			description: [
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve près des villages inhabités."
 			]
 			id: "425E2E2A29864F87"
 			rewards: [{
@@ -1242,6 +1269,8 @@
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Jungle."
 			]
 			id: "5A714DE5FDDC9CDD"
 			rewards: [{
@@ -1266,6 +1295,8 @@
 				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
 				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes Soul Sand Valley et Basalt Delta, dans le Nether."
 			]
 			id: "342CCCB6C46ACC0E"
 			rewards: [{
@@ -1282,14 +1313,11 @@
 				type: "observation"
 			}]
 			title: "Observe un Nightmare"
-			x: 7.25d
-			y: 2.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"6D102AAC93196EE2"
-				"13C4AAA224F8C3C9"
-				"312A27B70CA3D8F5"
 				"1DA21ED6EA26E130"
 				"32B9862D480C210C"
 				"5677CE3161771E3A"
@@ -1303,6 +1331,7 @@
 				"4FDABD2363A2104D"
 				"342CCCB6C46ACC0E"
 				"0DEAD4296A4BF3E3"
+				"2DFEBF804D6BE2EA"
 			]
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "37FA06C893269367"
@@ -1361,6 +1390,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["Vous les trouvez dans le Nether et dans les biomes cerisiers."]
 			id: "212BB3A053902287"
 			rewards: [{
 				id: "74BA1A3487084F58"
@@ -1368,8 +1398,8 @@
 				xp: 200
 			}]
 			tasks: [{
-				entity: "epicsamurai:kitsune"
-				icon: "epicsamurai:kitsune_spawn_egg"
+				entity: "samurai_dynasty:kitsune"
+				icon: "samurai_dynasty:kitsune_spawn_egg"
 				id: "3CC353517C703E1D"
 				type: "kill"
 				value: 1L
@@ -1378,6 +1408,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["Vous pouvez les trouver dans les grottes."]
 			id: "516311292ADE209F"
 			rewards: [{
 				id: "3A6FF6074F70D29E"
@@ -1385,8 +1416,8 @@
 				xp: 200
 			}]
 			tasks: [{
-				entity: "epicsamurai:jorogumo"
-				icon: "epicsamurai:jorogumo_spawn_egg"
+				entity: "samurai_dynasty:jorogumo"
+				icon: "samurai_dynasty:jorogumo_spawn_egg"
 				id: "30F1580295B5BD1B"
 				type: "kill"
 				value: 1L
@@ -1395,6 +1426,7 @@
 			y: 8.5d
 		}
 		{
+			description: ["Vous pouvez les trouver dans le Nether."]
 			id: "0C4A894C5F5DE9E0"
 			rewards: [{
 				id: "6843246056D51F31"
@@ -1402,8 +1434,8 @@
 				xp: 200
 			}]
 			tasks: [{
-				entity: "epicsamurai:oni"
-				icon: "epicsamurai:oni_spawn_egg"
+				entity: "samurai_dynasty:oni"
+				icon: "samurai_dynasty:oni_spawn_egg"
 				id: "42735BDCC76B0D82"
 				type: "kill"
 				value: 1L
@@ -1423,9 +1455,13 @@
 				"24F4C7D8E36DA731"
 				"70C995C59CD6464D"
 				"6375843F4F3B6930"
-				"691B08559A86147F"
+				"1201A9C7A0B403F8"
 			]
-			description: ["Vous avez vaincu tout les challenges de cette page, félicitations !"]
+			description: [
+				"Vous avez vaincu tout les challenges de cette page, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1473,7 +1509,18 @@
 			y: 7.0d
 		}
 		{
-			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
+			description: [
+				"C'est un mob de Alex's Mobs."
+				""
+				"Il n'est pas trouvable naturellement. Pour \"l'invoquer\", il vous faudra :"
+				""
+				"- Trouver des &4Mungus&r (mob d'Alex's Mobs) qui se trouvent sur les îles Champignons. "
+				"- Faire un clic droit avec des Warped Fungus sur les &4Mungus&r qui n'ont pas de champignons sur eux. Vous pouvez leur donner jusqu'à 5 champignons."
+				"- Faire en sorte qu'un &4Crimson Mosquito&r suce le sang du &4Mungus&r que vous avez infecté."
+				"- Lorsque cela est fait, attendez quelques secondes. Le moustique va muter et se transformer en &4Warped Mosquito&r."
+				""
+				"Bonne chance !"
+			]
 			id: "33C3012B95E6538A"
 			rewards: [{
 				id: "30ADCC040E1F697E"
@@ -1487,8 +1534,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 9.25d
-			y: 5.0d
+			x: 8.75d
+			y: 4.75d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1541,8 +1588,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.25d
-			y: 5.0d
+			x: 5.75d
+			y: 4.75d
 		}
 		{
 			description: ["C'est un mob de Alex's Mobs : aide toi du livre du mod !"]
@@ -1564,15 +1611,13 @@
 		}
 		{
 			description: [
-				"Pour avoir cette pioche, tu peux t'aider du livre du mod, et sinon, voici les explications :"
+				"Pour avoir cet oeil, tu peux t'aider du livre du mod &4Alex's Mobs&r, et sinon, voici les explications :"
 				""
-				"- Tuez des mouches pour avoir des maggots."
-				"- Craftez un Crimson Moskito Larva"
-				"- Posez un bloc de Capsid (trouvable sur les Enderiophages dans l'End) et placez y la Larva, puis patientez."
-				"- Vous obtiendrez un Void Worm, que vous devrez jetez dans le Void de l'End, puis affrontez le Void Worm."
+				"- Tuez des mouches (&4Fly&r) pour avoir des maggots."
+				"- Craftez un &4Crimson Moskito Larva&r"
+				"- Posez un bloc de &4Capsid&r (trouvable sur les &4Enderiophages&r dans l'&4End&r) et placez y la &4Larva&r, puis patientez."
+				"- Vous obtiendrez un &4Void Worm&r, que vous devrez jetez dans le &4Void&r de l'&4End&r, puis affrontez le &4Void Worm&r."
 				"- Lorsque vous l'aurez vaincu, il y aura une zone où il fera spawn son loot."
-				"- Avec ça, vous pourrez vous craft la pickaxe, et pour l'améliorer, placez la dans un Capsid comme vous avez fait avec la Larva."
-				"- Bravo, vous avez une pioche qui ne sert pas à miner, mais qui vous téléportera dans les Farland (à la limite du monde Minecraft). &4&l&nAttention&r :&r&r 20 utilisations seulement."
 			]
 			id: "5C57D2B3CC112476"
 			rewards: [{
@@ -1580,19 +1625,14 @@
 				type: "xp"
 				xp: 200
 			}]
+			subtitle: "Tuer le Void Worm"
 			tasks: [{
 				id: "1CBF588C5CA4C010"
-				item: {
-					Count: 1
-					id: "alexsmobs:shattered_dimensional_carver"
-					tag: {
-						Damage: 0
-					}
-				}
+				item: "alexsmobs:void_worm_eye"
 				type: "item"
 			}]
 			x: 7.25d
-			y: 4.25d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -1603,6 +1643,9 @@
 				"33C3012B95E6538A"
 				"58E544C6EEEC746D"
 				"27D6D63776DEF23A"
+				"6D102AAC93196EE2"
+				"13C4AAA224F8C3C9"
+				"312A27B70CA3D8F5"
 			]
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "70C995C59CD6464D"
@@ -1625,111 +1668,180 @@
 				id: "3B1679A37CD7E770"
 				type: "checkmark"
 			}]
-			title: "Prends ça Alex !"
+			title: "Alexandrie ! Alexandra !"
 			x: 7.25d
 			y: 6.5d
 		}
 		{
+			description: [
+				"Ce boss se trouve dans le Nether."
+				""
+				"Si vous n'avez d'Explorer Compass, vous pouvez utiliser les &4Eyes of Flame&r pour le trouver. Cela agit comme des Eyes of Ender pour trouver le Strongold."
+				""
+				"Il faut faire un clic droit avec une &4Burning Ashes&r sur l'&4Altar of Fire&r pour invoquer le boss. La Burning Ashes se craft à partir des &4Dying Embers&r qui sont lootés par les &4Ignited Berserker&r qui se trouve dans le donjon."
+				""
+				"Bonne chance !"
+			]
 			id: "6895EFF473715679"
 			rewards: [{
 				id: "68E703191D57FA95"
 				type: "xp"
 				xp: 200
 			}]
-			tasks: [{
-				entity: "cataclysm:ignis"
-				icon: "cataclysm:ignis_spawn_egg"
-				id: "6B156E48DB739FB5"
-				type: "kill"
-				value: 1L
-			}]
-			x: -12.75d
-			y: 8.0d
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: "cataclysm:ignis_spawn_egg"
+					id: "6B156E48DB739FB5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "3F1A16221044BDC9"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+			]
+			x: -13.25d
+			y: 7.5d
 		}
 		{
+			description: [
+				"Ce boss se trouve en sous-terrain dans l'Overworld."
+				""
+				"Si vous n'avez d'Explorer Compass, vous pouvez utiliser les &4Eyes of Mech&r pour le trouver. Cela agit comme des Eyes of Ender pour trouver le Strongold."
+				""
+				"Lorsque vous l'aurez trouvé, il est désactiver. Faites un clic droit avec une &4Nether Star&r pour l'activer."
+				""
+				"Bonne chance !"
+			]
 			id: "112763B797FE0168"
 			rewards: [{
 				id: "5329FD3D6EAA138C"
 				type: "xp"
 				xp: 200
 			}]
-			tasks: [{
-				entity: "cataclysm:the_harbinger"
-				icon: "cataclysm:the_harbinger_spawn_egg"
-				id: "69C6B3FC9A3063D0"
-				type: "kill"
-				value: 1L
-			}]
-			x: -14.0d
-			y: 6.0d
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:the_harbinger_spawn_egg"
+					id: "69C6B3FC9A3063D0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "76A51EFE3E3FF9F5"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+			]
+			x: -13.25d
+			y: 4.75d
 		}
 		{
+			description: [
+				"Se trouve dans une grande structure, dans les océans. Si vous n'avez d'Explorer Compass, vous pouvez utiliser les &4Eyes of Abyss&r pour le trouver. Cela agit comme des Eyes of Ender pour trouver le Strongold."
+				""
+				"Il faut trouver l'&4Altar of Abyss&r dans la structure et faire un clic droit avec l'&4Abyssal Sacrifice&r."
+				""
+				"Bonne chance !"
+			]
 			id: "4C1804CF919BD546"
 			rewards: [{
 				id: "4119066F9B40EFD3"
 				type: "xp"
 				xp: 200
 			}]
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:the_leviathan_spawn_egg"
-				id: "2950621B26F7EB7F"
-				type: "kill"
-				value: 1L
-			}]
-			x: -10.25d
-			y: 8.0d
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:the_leviathan_spawn_egg"
+					id: "2950621B26F7EB7F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "26BAA18470E5B7D0"
+					item: "cataclysm:abyss_eye"
+					type: "item"
+				}
+				{
+					id: "51A0D0FAA172A67B"
+					item: "cataclysm:abyssal_sacrifice"
+					type: "item"
+				}
+			]
+			x: -9.75d
+			y: 7.5d
 		}
 		{
-			id: "46319736BE60D669"
-			rewards: [{
-				id: "3D8A139F8B7EA260"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				entity: "cataclysm:ender_golem"
-				icon: "cataclysm:ender_golem_spawn_egg"
-				id: "4E33A2190C886DFF"
-				type: "kill"
-				value: 1L
-			}]
-			x: -12.75d
-			y: 4.0d
-		}
-		{
+			description: [
+				"Se trouve dans le Nether."
+				""
+				"Si vous n'avez d'Explorer Compass, vous pouvez utiliser les &4Eyes of Monstrous&r pour le trouver. Cela agit comme des Eyes of Ender pour trouver le Strongold."
+				""
+				"Il s'active lorsque l'on s'approche de lui."
+				""
+				"Bonne chance !"
+			]
 			id: "00F954DA26E51550"
 			rewards: [{
 				id: "049220AC0821C628"
 				type: "xp"
 				xp: 200
 			}]
-			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				icon: "cataclysm:netherite_monstrosity_spawn_egg"
-				id: "584A93F97D5F2A27"
-				type: "kill"
-				value: 1L
-			}]
-			x: -9.0d
-			y: 6.0d
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: "cataclysm:netherite_monstrosity_spawn_egg"
+					id: "584A93F97D5F2A27"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "6FB6275E0EEEA796"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+			]
+			x: -9.75d
+			y: 4.75d
 		}
 		{
+			description: [
+				"C'est un boss qui se trouve dans l'End, accompagné de sous-boss : les &4Ender Golems&r. Ce sont eux qui loot le Void Core."
+				""
+				"Si vous n'avez d'Explorer Compass, vous pouvez utiliser les &4Eyes of Void&r pour le trouver. Cela agit comme des Eyes of Ender pour trouver le Strongold."
+				""
+				"Bonne chance !"
+			]
 			id: "579E442B72717AA9"
 			rewards: [{
 				id: "05D11E864E4BED86"
 				type: "xp"
 				xp: 200
 			}]
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:ender_guardian_spawn_egg"
-				id: "47944962B2C8E234"
-				type: "kill"
-				value: 1L
-			}]
-			x: -10.25d
-			y: 4.0d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:ender_guardian_spawn_egg"
+					id: "47944962B2C8E234"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "468D0623DFA7BB59"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					id: "2F88CAD60C624374"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 3.75d
 		}
 		{
 			id: "163A8FD79B8EF495"
@@ -1754,8 +1866,8 @@
 				"6895EFF473715679"
 				"4C1804CF919BD546"
 				"00F954DA26E51550"
-				"46319736BE60D669"
 				"579E442B72717AA9"
+				"66807B311985D8FB"
 			]
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "24F4C7D8E36DA731"
@@ -1787,6 +1899,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée ou trouvable dans les bastions du Nether."
 			]
 			id: "6ED202D409F56C17"
 			rewards: [{
@@ -1807,6 +1921,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée ou se trouve dans l'End."
 			]
 			id: "0E450A6F80F367BF"
 			rewards: [{
@@ -1827,6 +1943,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template est &nuniquement&r craftable."
 			]
 			id: "60EBB617FA5BC728"
 			rewards: [{
@@ -1847,6 +1965,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée ou se trouve dans le Deep Dark et Dimension Warden, dans son donjon."
 			]
 			id: "19E7C2651910B421"
 			rewards: [{
@@ -1867,6 +1987,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée ou trouvée dans le donjon du mod."
 			]
 			id: "7750FA6FB525FF22"
 			rewards: [{
@@ -1917,401 +2039,6 @@
 			title: "Pro des Templates !"
 			x: -12.5d
 			y: 0.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "2A817959EE93B5C4"
-			rewards: [{
-				id: "3581DDB5DC81D55B"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2B933C1999E7893E"
-				item: "minecraft:sentry_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 19.75d
-			y: 3.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "545A59265DFBE479"
-			rewards: [{
-				id: "6F008E97C45DE7DD"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4A4787A2344AB4BB"
-				item: "minecraft:vex_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 5.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "238AB378DEBBD67B"
-			rewards: [{
-				id: "4456C42C76BEFE56"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "339D14F80B36FF6A"
-				item: "minecraft:wild_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 10.25d
-			y: 3.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "13F15642CC361DF9"
-			rewards: [{
-				id: "1495E6A158EBFF5F"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2BD092FB407D4009"
-				item: "minecraft:coast_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 7.25d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "4E9012CDD90910A7"
-			rewards: [{
-				id: "35B855B0B77B8B07"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3A28A8D6708E53D7"
-				item: "minecraft:dune_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 17.0d
-			y: -0.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "3BB26317CF267253"
-			rewards: [{
-				id: "4A71BAED23355D6E"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "16AD2A4120D7F0AF"
-				item: "minecraft:wayfinder_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 6.25d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "6D78EB5AD15FCA50"
-			rewards: [{
-				id: "33E3E69FD92A992D"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "649B05D56A4B8B72"
-				item: "minecraft:raiser_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 16.5d
-			y: 7.25d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "66E08B3723D1EFF9"
-			rewards: [{
-				id: "5C4FED2370E9D1C7"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4E18CE8A5C83DE42"
-				item: "minecraft:shaper_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 14.0d
-			y: -1.25d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "57B661D7B4FA0855"
-			rewards: [{
-				id: "74D99FF99DD32ECB"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69CC9EE781852EB3"
-				item: "minecraft:host_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "0A6E6401C7D23DF4"
-			rewards: [{
-				id: "02E286501B177192"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3D5E6BCA5AC372B1"
-				item: "minecraft:ward_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 0.75d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "258F6423267E2D27"
-			rewards: [{
-				id: "272891CDEB338FF1"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "69477CF5C64BAB40"
-				item: "minecraft:silence_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 19.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "5C6BD07D09B30029"
-			rewards: [{
-				id: "197FE0C36A18F538"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "12BC95E7291CAA4C"
-				item: "minecraft:tide_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 11.75d
-			y: 0.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "171311274564A725"
-			rewards: [{
-				id: "00DFB931CF0ED91B"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3A112389E8AF0597"
-				item: "minecraft:snout_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 6.25d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "6A93DC468A2C4CEC"
-			rewards: [{
-				id: "4B5C504AE8618468"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7C61AC77A7C36905"
-				item: "minecraft:rib_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 15.0d
-			y: 7.75d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "5E78683D3406FE58"
-			rewards: [{
-				id: "783ED80A9364F1FD"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "20AA24CD3415F26D"
-				item: "minecraft:eye_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -1.25d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "2076B31BBA5E0E7B"
-			rewards: [{
-				id: "082E67A2AC645F06"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "457D97508169D479"
-				item: "minecraft:spire_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 13.0d
-			y: -0.5d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "18064F4A29A31627"
-			rewards: [{
-				id: "18FE743E9253B2E1"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "37A0AB13C3B9DBE9"
-				item: "lost_aether_content:noble_armor_trim_smithing_template"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"258F6423267E2D27"
-				"5C6BD07D09B30029"
-				"5E78683D3406FE58"
-				"3BB26317CF267253"
-				"57B661D7B4FA0855"
-				"545A59265DFBE479"
-				"6A93DC468A2C4CEC"
-				"13F15642CC361DF9"
-				"18064F4A29A31627"
-				"4E9012CDD90910A7"
-				"66E08B3723D1EFF9"
-				"171311274564A725"
-				"6D78EB5AD15FCA50"
-				"2076B31BBA5E0E7B"
-				"0A6E6401C7D23DF4"
-				"238AB378DEBBD67B"
-				"2A817959EE93B5C4"
-				"331C8BEDDCF95A05"
-				"08F4FF5534F21140"
-				"4F4793FF86FA066F"
-				"7CA9B9AE977DC82D"
-				"603BB34530DF2133"
-				"5972093ED69C2F63"
-				"05570ADE7D9B2F16"
-				"2565B5621136B39E"
-				"50D41572C0B7338B"
-				"0140993875763B1B"
-			]
-			icon: "ars_elemental:glyph_conjure_terrain"
-			id: "691B08559A86147F"
-			rewards: [{
-				id: "5352D2B852531180"
-				item: {
-					Count: 1
-					id: "trofers:large_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "modfart:inutile"
-						}
-					}
-				}
-				type: "item"
-			}]
-			shape: "rsquare"
-			size: 2.0d
-			tasks: [{
-				id: "4C34AD7CF155E581"
-				type: "checkmark"
-			}]
-			title: "Inutile, donc indispensable !"
-			x: 15.0d
-			y: 3.5d
 		}
 		{
 			id: "69B3D608CE068A9A"
@@ -2715,7 +2442,7 @@
 			tasks: [{
 				icon: "minecraft:bat_spawn_egg"
 				id: "0CBA24E277F8F1DE"
-				observe_type: 3
+				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:bat"
 				type: "observation"
@@ -2730,7 +2457,7 @@
 			tasks: [{
 				icon: "minecraft:dolphin_spawn_egg"
 				id: "1FC0D5172909392C"
-				observe_type: 3
+				observe_type: 5
 				timer: 0L
 				to_observe: "minecraft:dolphin"
 				type: "observation"
@@ -2744,6 +2471,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée ou dans les structures du mod."
 			]
 			id: "70B16BAFB8FC38B6"
 			rewards: [{
@@ -2764,6 +2493,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée."
 			]
 			id: "71435DC3EE7431F0"
 			rewards: [{
@@ -2773,7 +2504,7 @@
 			}]
 			tasks: [{
 				id: "15BC760A37DE79AC"
-				item: "epicsamurai:spirit_upgrade_smithing_template"
+				item: "samurai_dynasty:spirit_upgrade_smithing_template"
 				type: "item"
 			}]
 			x: -10.75d
@@ -2784,6 +2515,8 @@
 				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
 				""
 				"Ce template permet d'upgrader votre équipement."
+				""
+				"Cette template peut être craftée ou se trouve dans les Superheated Pots."
 			]
 			id: "42C411E4D4BF1D4B"
 			rewards: [{
@@ -2801,213 +2534,350 @@
 		}
 		{
 			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
+				"Ce boss se trouve dans l'Overworld, dans les déserts."
 				""
-				"Ce template est un cosmétique."
+				"Si vous n'avez d'Explorer Compass, vous pouvez utiliser les &4Eyes of Desert&r pour le trouver. Cela agit comme des Eyes of Ender pour trouver le Strongold."
+				""
+				"Lorsque vous l'aurez trouver, pour déclencher le combat, il faut faire un clic droit sur le boss avec un &4Necklace of the Desert&r. Pour le trouver, il vous faudra examiner les &4Suspicious Sands&r avec votre &4Brush&r dans la pyramide."
+				""
+				"Bonne chance !"
 			]
-			id: "2565B5621136B39E"
+			id: "66807B311985D8FB"
 			rewards: [{
-				id: "1338116BABB96098"
-				item: "minecraft:diamond_block"
-				type: "item"
+				id: "380798DF678902FC"
+				type: "xp"
+				xp: 200
 			}]
-			tasks: [{
-				id: "3AE5F0CADBB577A2"
-				item: "ancient_aether:wynd_armor_trim_smithing_template"
-				type: "item"
-			}]
-			title: "Smithing Template"
-			x: 11.5d
-			y: 4.0d
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:ancient_remnant_spawn_egg"
+					id: "1F19914FD5E0CDA5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "0E37EF1F4D8B67DE"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 8.25d
 		}
 		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
+			dependencies: [
+				"494FB87E1AD6B716"
+				"7F9B6DCFAFCCB96C"
+				"187E125685841F77"
 			]
-			id: "7CA9B9AE977DC82D"
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "1201A9C7A0B403F8"
 			rewards: [{
-				id: "2C3BE905A9247E0F"
-				item: "minecraft:diamond_block"
+				id: "279DEB8E5D274330"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:zelda"
+						}
+					}
+				}
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
-				id: "348F8C372F18479F"
-				item: "ancient_aether:whale_armor_trim_smithing_template"
-				type: "item"
+				id: "7500D896078A03BB"
+				title: "Hey Msieur Zelda !"
+				type: "checkmark"
 			}]
-			title: "Smithing Template"
-			x: 16.75d
-			y: 6.0d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "50D41572C0B7338B"
+			description: ["Pour obtenir cette épée, il vous faudra trouver un temple gigantesque où l'épée est enchassée dans un socle."]
+			id: "5B573728D7761AEF"
 			rewards: [{
-				id: "382CA005B26556CA"
-				item: "minecraft:diamond_block"
-				type: "item"
+				id: "014C1D1E64C29B21"
+				type: "xp"
+				xp: 200
 			}]
-			tasks: [{
-				id: "0247E4A21EE74F96"
-				item: "ancient_aether:ascended_armor_trim_smithing_template"
-				type: "item"
-			}]
-			title: "Smithing Template"
-			x: 11.5d
-			y: 3.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
+			tasks: [
+				{
+					id: "41CAD1955CC26178"
+					item: {
+						Count: 1
+						id: "mastersword:goddesssword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "610E5E7A2D73A529"
+					item: "mastersword:sword_shrine"
+					type: "item"
+				}
 			]
-			id: "0140993875763B1B"
-			rewards: [{
-				id: "3B5CE836C3E665C4"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5F752A2C00CC57E4"
-				item: "ancient_aether:mysterious_armor_trim_smithing_template"
-				type: "item"
-			}]
-			title: "Smithing Template"
-			x: 12.25d
-			y: 1.75d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "05570ADE7D9B2F16"
-			rewards: [{
-				id: "7ACF4BC1697B294D"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1EA0FF5BDFC0F6AB"
-				item: "ancient_aether:mechanical_armor_trim_smithing_template"
-				type: "item"
-			}]
-			title: "Smithing Template"
-			x: 13.25d
-			y: 6.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "331C8BEDDCF95A05"
-			rewards: [{
-				id: "68BB86AF7892BEE8"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0AAE35E8C89F1233"
-				item: "ancient_aether:mosaic_armor_trim_smithing_template"
-				type: "item"
-			}]
-			title: "Smithing Template"
 			x: 17.75d
 			y: 1.75d
 		}
 		{
+			dependencies: ["5B573728D7761AEF"]
 			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
+				"Pour créer cette épée, il vous faudra trouver un lieu où se trouve un feu de camp vert indestructible. Faites un clic droit dessus, et vous obtiendrez la Farore's Flame qui vous permettra d'upgrader votre Goddess Sword. "
 				""
-				"Ce template est un cosmétique."
+				"&4&nAttention :&r&r le feu de camp ne donne qu'une Flame, puis se désactive. Vous aurez besoin d'avoir cette Flame à plusieurs reprises, donc, soit vous retrouver un lieu identique, soit vous dupliquer la Flame avec les objets créatifs."
 			]
-			id: "5972093ED69C2F63"
+			id: "37F05D946E31C599"
 			rewards: [{
-				id: "470D2DDC8B0A5237"
-				item: "minecraft:diamond_block"
-				type: "item"
+				id: "727193150A242609"
+				type: "xp"
+				xp: 200
 			}]
 			tasks: [{
-				id: "1251075B18B40D10"
-				item: "ancient_aether:royal_armor_trim_smithing_template"
+				id: "2905F7917E3DE4D9"
+				item: {
+					Count: 1
+					id: "mastersword:goddessswordlong"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "Smithing Template"
+			x: 16.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["37F05D946E31C599"]
+			description: [
+				"Pour créer cette épée, il vous faudra trouver un lieu où se trouve un feu de camp bleu indestructible. Faites un clic droit dessus, et une énigme appararaîtra dans le tchat. Donnez lui l'item qu'il souhaite avec un clic droit, et vous obtiendrez la Nayru's Flame qui vous permettra d'upgrader votre Goddess Longsword. "
+				""
+				"Note : l'énigme ne vous demandera que des items Vanilla."
+				""
+				"&4&nAttention :&r&r le feu de camp ne donne qu'une Flame, puis se désactive. Vous aurez besoin d'avoir cette Flame à plusieurs reprises, donc, soit vous retrouver un lieu identique, soit vous dupliquer la Flame avec les objets créatifs."
+			]
+			id: "226B155B6A07DE8E"
+			rewards: [{
+				id: "652FAACDF891A68A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7F3C6147ADAF8E45"
+				item: {
+					Count: 1
+					id: "mastersword:goddessswordwhite"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			x: 14.5d
-			y: 6.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["226B155B6A07DE8E"]
+			description: [
+				"Pour créer cette épée, il vous faudra trouver un lieu où se trouve un feu de camp rouge indestructible. Faites un clic droit dessus, et un combat difficile s'imposera à vous. Si vous le remportez, vous obtiendrez la Din's Flame qui vous permettra d'upgrader votre White Goddess Sword. "
+				""
+				"&4&nAttention :&r&r le feu de camp ne donne qu'une Flame, puis se désactive. Vous aurez besoin d'avoir cette Flame à plusieurs reprises, donc, soit vous retrouver un lieu identique, soit vous dupliquer la Flame avec les objets créatifs."
+			]
+			id: "7B042E7A4FB50457"
+			rewards: [{
+				id: "5DFD7EC0A5A7C32A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "13D62F902C444322"
+				item: {
+					Count: 1
+					id: "mastersword:mastersword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B042E7A4FB50457"]
+			description: ["Pour créer cette épée, il vous faudra trouver dans le Nether, un minerais très rare nommé &4Block of Mysterious Scrap&r. Ce minerais vous permettra de créer le lingot qui vous servira à upgrader votre Master Sword."]
+			id: "58D99C1AA90B2843"
+			rewards: [{
+				id: "2BF87E59A8352CD9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6083890721ED0198"
+				item: {
+					Count: 1
+					id: "mastersword:temperedmastersword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["58D99C1AA90B2843"]
+			description: ["C'est ici que les Flames supplémentaires, ainsi que les Scraps vous serviront, car il vous faudra crafter la Triforce pour upgrader votre Tempered Master Sword."]
+			id: "638687236646AB09"
+			rewards: [{
+				id: "593F0C5D93AD051F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "6B1AA54EEA4C9CDA"
+				item: {
+					Count: 1
+					id: "mastersword:goldenmastersword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["638687236646AB09"]
+			description: ["Le craft final qui vous permet d'upgrader votre Golden Master Sword."]
+			id: "494FB87E1AD6B716"
+			rewards: [{
+				id: "3675294A5281BFCD"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "241ECF80CF236BBE"
+				item: {
+					Count: 1
+					id: "mastersword:fiercedeitysword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			description: ["Pour créer ce bouclier, il vous faudra trouver dans le Nether, un minerais très rare nommé &4Block of Mysterious Scrap&r. Ce minerais vous permettra de créer le lingot qui vous servira à upgrader votre Master Sword."]
+			id: "187E125685841F77"
+			rewards: [{
+				id: "21FE5C9BE05EC385"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "576AA9C6EA3EA6C0"
+				item: "mastersword:hylianshield"
+				type: "item"
+			}]
+			x: 12.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["638687236646AB09"]
+			description: [
+				"Pour obtenir cette épée, il vous faudra accomplir quelques actions :"
+				""
+				"- &nPremièrement&r : vous rendre dans l'&4End&r et faire un clic droit avec une &4Nether Star&r sur un &4Sword Shrine&r. Puis survivre. Vous obtiendrez la &4Blessed Nether Star&r."
+				""
+				"- &nDeuxièmement&r : placez la &4Golden Master Sword&r dans le &4Sword Shrine&r, puis faites un clic droit dessus avec la &4Blessed Nether Star&r."
+			]
+			id: "7F9B6DCFAFCCB96C"
+			rewards: [{
+				id: "64F9DAE65791B972"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "21696F31B3EF8802"
+					item: {
+						Count: 1
+						id: "mastersword:truemastersword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E871D21BD76DB30"
+					item: "mastersword:blessed_nether_star"
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 0.0d
 		}
 		{
 			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
+				"Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"
 				""
-				"Ce template est un cosmétique."
+				"C'est un mob de MythicMounts"
+				""
+				"Se trouve dans les biomes déserts."
 			]
-			id: "603BB34530DF2133"
+			id: "2DFEBF804D6BE2EA"
 			rewards: [{
-				id: "4771176383E75C3A"
-				item: "minecraft:diamond_block"
-				type: "item"
+				id: "20B187AFD982CE66"
+				type: "xp"
+				xp: 200
 			}]
 			tasks: [{
-				id: "443322204156EB94"
-				item: "ancient_aether:solar_armor_trim_smithing_template"
-				type: "item"
+				icon: "mythicmounts:ridinglizard_spawn_egg"
+				id: "1168E228D163B379"
+				observe_type: 5
+				timer: 0L
+				to_observe: "mythicmounts:ridinglizard"
+				type: "observation"
 			}]
-			title: "Smithing Template"
-			x: 15.5d
-			y: 6.25d
+			title: "Observe un Riding Lizard"
+			x: 6.0d
+			y: -2.75d
 		}
 		{
 			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
+				"Si vous avez du mal à trouver certaines créatures, n'hésitez pas à utiliser la &4Dreadful Dirt&r et la &4Delightful Dirt&r. Pour savoir comment les obtenir, rendez-vous page \"&4Soutien pour Usines&r\", quête \"&4Mob Grinding Utils&r\""
 				""
-				"Ce template est un cosmétique."
+				"Egalement, n'hésitez pas à utiliser le &4Nature's Compass&r et l'&4Explorer's Compass&r pour trouver respectivement les biomes et les structures que vous recherchez (sauf ceux de &2Alex's Cave&r, mais rien de ce mod ne vous ai demandé.)"
 			]
-			id: "4F4793FF86FA066F"
+			icon: "ars_nouveau:glyph_redstone_signal"
+			id: "4B429A7EC8797AD2"
 			rewards: [{
-				id: "2E40341076F939F1"
-				item: "minecraft:diamond_block"
-				type: "item"
+				id: "5BFCE221CB58D3E6"
+				type: "xp"
+				xp: 500
 			}]
+			shape: "gear"
+			size: 3.0d
 			tasks: [{
-				id: "1B4BCE973CC6C418"
-				item: "ancient_aether:ancient_armor_trim_smithing_template"
-				type: "item"
+				id: "7A988AF69984EA5A"
+				title: "Créatures à trouver"
+				type: "checkmark"
 			}]
-			title: "Smithing Template"
-			x: 18.5d
-			y: 4.0d
-		}
-		{
-			description: [
-				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
-				""
-				"Ce template est un cosmétique."
-			]
-			id: "08F4FF5534F21140"
-			rewards: [{
-				id: "5EEF21DEF192D6C2"
-				item: "minecraft:diamond_block"
-				type: "item"
-			}]
-			tasks: [{
-				id: "081C2E74A222639F"
-				item: "alexscaves:polarity_armor_trim_smithing_template"
-				type: "item"
-			}]
-			title: "Smithing Template"
-			x: 18.5d
-			y: 3.0d
+			title: "Difficulté à trouver ce que vous cherchez ?"
+			x: 13.0d
+			y: 6.5d
 		}
 	]
 	title: "Challenges"

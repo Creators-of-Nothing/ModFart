@@ -524,6 +524,11 @@
 		}
 		{
 			dependencies: ["7A7203562ADB2231"]
+			description: [
+				"Voici les meilleurs câbles de &2Mekanism&r. Si vous appuyez sur la touche correspondante (&4shift par défaut&r), vous pourrez voir à quoi ils servent."
+				""
+				"Les &4Covers&r vous permettent de camoufler vos câbles. Il suffit de placer le bloc de &4Cover&r sur le câble, puis de faire un clic droit avec le bloc que vous souhaitez utiliser comme &ncamouflage&r. Pour retirer la &4Cover&r, faites un clic droit avec votre &4configurator&r sur la &4Cover&r."
+			]
 			id: "00211C90AB5057D1"
 			rewards: [{
 				count: 8
@@ -1461,8 +1466,14 @@
 				"05F30877B3C1A61C"
 				"38C9BB5ADCFD458F"
 				"25D45827D4E64E53"
+				"6762153E90C56116"
+				"6762153E90C56116"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
@@ -1490,6 +1501,40 @@
 			title: "Mekanism complété !"
 			x: -2.0d
 			y: -3.0d
+		}
+		{
+			description: [
+				"Il s'agit d'un conteneur modulable, qui a comme taille minimum 3x3x3 et comme taille maximum 18x18x18. Les bords doivent être fait en bloc de &4Dynamic Tank&r et posséder 2 &4Valves&r. Le centre de la structure peut contenir des &4Structural Glass&r. "
+				"{image:kubejs:textures/ftbquests/tank.png width:110 height:100 align:center}"
+			]
+			id: "6762153E90C56116"
+			rewards: [{
+				id: "4099DB10F1BF8A79"
+				item: "mekanism:steam_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 22L
+					id: "1CD2165C65534D35"
+					item: { Count: 22, id: "mekanism:dynamic_tank" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03B03EC1ED98CE0F"
+					item: { Count: 2, id: "mekanism:dynamic_valve" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01C52C15DA421579"
+					item: { Count: 2, id: "mekanism:structural_glass" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.25d
 		}
 	]
 	title: "Mekanism"

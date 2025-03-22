@@ -1,25 +1,21 @@
 {
-    "criteria": {
-        "0": {
-            "conditions": {},
-            "trigger": "minecraft:inventory_changed"
-        }
+  "criteria": {
+    "0": {
+      "conditions": {},
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "kubejs:antimatter_plate"
     },
-    "display": {
-        "icon": {
-            "item": "kubejs:antimatter_plate"
-        },
-        "title": "ModFart",
-        "description": "Les succès de ModFart",
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false,
-        "background": "minecraft:textures/block/sculk.png"
-    },
-    "requirements": [
-        [
-            "0"
-        ]
-    ]
+    "title": "ModFart",
+    "description": "Les succès de ModFart",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/sculk.png"
+  },
+  "requirements": [["0"]]
 }

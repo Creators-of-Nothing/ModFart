@@ -53,7 +53,7 @@
 				"- 'Dustrial Decor"
 				"- Enlightend"
 				"- Even Better Amethyst"
-				"- Fantasy's Furniture"
+				"- Fantasy's Furniture -> tout se craft dans la &4Furniture Station&r avec des planches, de la Cobblestone, et de la Clay"
 				"- Floral Enchantment"
 				"- Forbidden and Arcanus"
 				"- FramedBlocks"
@@ -137,6 +137,7 @@
 				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
+			subtitle: "Du lait et de l'eau à l'infini"
 			tasks: [
 				{
 					id: "713FDD059F86A3D3"
@@ -218,14 +219,21 @@
 			y: 2.0d
 		}
 		{
-			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec @Torchmaster."]
+			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec &4@Torchmaster&r."]
 			id: "2D3AB5E2D9D753EA"
-			rewards: [{
-				id: "6A654C89AE119C7F"
-				item: "minecraft:torch"
-				random_bonus: 3
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6A654C89AE119C7F"
+					item: "minecraft:torch"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5F19FA5BCB3F0F4C"
+					item: "torchmaster:dreadlamp"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "695247E050B0E9BF"
 				item: "torchmaster:megatorch"
@@ -236,7 +244,7 @@
 		}
 		{
 			description: [
-				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn."
+				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn, mais passe quand même la nuit."
 				""
 				"Le Hammoc permet de passer le jour."
 			]
@@ -342,7 +350,19 @@
 			y: 2.0d
 		}
 		{
-			description: ["Vous réviez d'un portail personnalisé pour traverser les dimensions, de la forme, vertical ou horizontal, et de la couleur de votre choix ? C'est parfait, ce mod est fait pour vous ! Il nécessite de l'énergie à l'utilisation. Le Target Device permet de sélectionner l'endroit où vous voulez vous téléporter. Ensuite, il faut rentrer la destination dans le portail. Enfin, lorsque vous l'aurez allumé, cliquez dessus avec un colorant pour le colorer."]
+			description: [
+				"Vous réviez d'un portail personnalisé pour traverser les dimensions, de la forme, qu'il soit vertical ou horizontal, et de la couleur de votre choix ? C'est parfait, ce mod est fait pour vous ! Il nécessite de l'énergie à l'utilisation. "
+				""
+				"Le &4Target Device&r permet de sélectionner l'endroit où vous voulez vous téléporter. Il suffit de vous accroupir et de faire un clic droit pour le configurer. Donnez un nom à votre point de téléportation puis ajouter le à votre &4Device&r."
+				""
+				"Créez ensuite votre portail comme vous le souhaitez (forcément en 2 dimensions), avec une &4Cell&r pour l'énergie, un &4Stabilizer&r qui servira de centre de contrôle, des &4Frames&r et d'une &4Target Cell&r."
+				""
+				"Faites un clic droit sur le &4Stabilizer&r pour l'allumer une première fois. Puis, faites un clic droit avec votre &4Device&r en main sur le &4Stabilizer&r pour configurer le portail. Ajoutez le(s) point(s) de téléportation qui vous intéresse."
+				""
+				"Enfin, activez le portail en faisant un clic droit sur le &4Stabilizer&r. Si vous souhaitez changer de destination sur un portail qui en contient plusieurs, il suffit de cliquer sur le &4Stabilizer&r et de faire &4\"Change Target\"&r. Sélectionnez la destination voulue, et c'est fini."
+				""
+				"&4Note :&r lorsque vous aurez allumé votre portail, allez dans l'onglet \"Change Target\". Cliquez sur le petit carré de couleur (à côté du mot &4\"Random\"&r) pour sélectionner la couleur de votre portail. Vous pouvez également faire un clic droit avec un colorant pour colorer le portail. "
+			]
 			id: "6B27CB3F6A4CAEE6"
 			rewards: [{
 				id: "1DFBA411850B688A"
@@ -455,8 +475,14 @@
 				"5E276DFF3E4A4FE5"
 				"698FF2B2C0249395"
 				"74F49B8BE298582A"
+				"4AF91724424BF371"
+				"781CB2A7EF44EF44"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
@@ -526,6 +552,55 @@
 			title: "Vinery"
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			description: ["Il s'agit d'un magasin. Vous pouvez y obtenir toutes les graines et pousses d'arbre du jeu contre des émeraudes."]
+			id: "781CB2A7EF44EF44"
+			rewards: [{
+				id: "4216F0EB1AC4F7A0"
+				item: "minecraft:emerald"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Avoir toutes les plantes"
+			tasks: [{
+				id: "41AF70CDC2A3F009"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Ce mod permet d'avoir des lanternes qui possèdent différents effets magiques."
+				""
+				"Pour obtenir une lanterne spéciale, il faut cliquer sur le &4Lantern Maker&r avec les ingrédients demandés, puis poser une &4Lantern&r sur la table. Les lanternes possèdent différents effets :"
+				""
+				"- &4La Life Lantern&r : Accélère la pousse des plantes autour de la lanterne."
+				"- &4La Feral Lantern&r : Eclaire une très grande zone avec des étincelles. Une fois la zone éclairée, la lanterne disparaît."
+				"- &4La Love Lantern&r : Rend les créatures proches amoureuses."
+				"- &4La Wailing Lantern&r : Pleure si vous vous approchez, et hurle si vous vous approchez encore plus."
+				"- &4La Boreal Lantern&r : Ralentis les créatures et joueurs à proximité, et éteint également les créatures en feu."
+				"- &4La Brillant Lantern&r : Tues les animaux pour ne donner que de l'xp."
+				"- &4La Warding Lantern&r : Repousse toutes les entités vivantes, sauf les joueurs."
+				"- &4La Containment Lantern&r : Confine toutes les entités vivantes dans une zone, sauf les joueurs."
+				"- &4La Withering Lantern&r : Applique l'effet Wither dans une zone autour de la lantern."
+				"- &4La Cloud Lantern&r : Applique l'effet Chute Lente dans une zone."
+			]
+			id: "4AF91724424BF371"
+			rewards: [{
+				id: "4EDAA11D86BB5CBC"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C99A8475B0994A"
+				item: "arcanelanterns:lantern_maker"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
 		}
 	]
 	title: "Maisonnée"

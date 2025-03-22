@@ -1,22 +1,25 @@
 {
-    "silent": true,
-    "group": {
-        "name": "Other",
-        "enabledByDefault": true,
-        "defaultPayment": {
-            "item": "minecraft:emerald"
-        },
-        "defaultCategory": "farmingforblockheads:other"
+  "silent": true,
+  "group": {
+    "name": "Other",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
     },
-    "customEntries": [
-        {
-            "output": "minecraft:bone_meal"
-        },
-        {
-            "output": "alexscaves:fertilizer"
-        },
-        {
-            "output": "create:tree_fertilizer"
-        }
-    ]
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "minecraft:bone_meal"
+    },
+    {
+      "output": "alexscaves:fertilizer"
+    },
+    {
+      "output": "create:tree_fertilizer"
+    },
+    {
+      "output": "minecraft:cocoa_beans"
+    }
+  ]
 }

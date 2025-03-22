@@ -140,10 +140,10 @@
 		}
 		{
 			dependencies: ["2641FB96F7E3060D"]
-			description: ["Un bloc de bedrock, idéal pour les pranks ou pour crafter le dernier item du modpack. Il vous suffit d'en avoir un seul pour le dupliquer à l'aide Create."]
+			description: ["Un bloc de bedrock, idéal pour les pranks ou pour crafter le dernier item du modpack. Il vous suffit d'en avoir un seul pour le dupliquer à l'aide de Create."]
 			id: "164B095AA0EAFE38"
 			rewards: [{
-				count: 4
+				count: 9
 				id: "5A76CE9BD10A8F82"
 				item: "createchromaticreturn:bedrock_shard"
 				type: "item"
@@ -183,6 +183,8 @@
 				"Pour crafter votre premier lingot, il faudra passer par Create et par ces apparatus. Il suffit d'en craft un de chaque une seule fois avec Create, puis de créer votre premier lingot avec."
 				""
 				"Le Magical Apparatus se craft à partir de ressources de mods magiques."
+				""
+				"&nRappel&r : Le &4Neptunium&r se pêche &n&4uniquement&r&r."
 			]
 			id: "20AF29A72616CEB6"
 			rewards: [{
@@ -239,7 +241,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["C'est une ressource qui se drop sur la Comb Jelly, une méduse qui se trouve uniquement dans la Frozen Ocean la nuit. N'hésitez pas à utiliser le mod Caged Mobs pour farmer cette ressource, ou créer un spawner à l'aide d'Apotheosis et Mob Grinding Utils."]
+			description: ["C'est une ressource qui se drop sur la Comb Jelly, une méduse qui se trouve uniquement dans les Frozen Oceans la nuit. N'hésitez pas à utiliser le mod Caged Mobs pour farmer cette ressource, ou créer un spawner à l'aide d'Apotheosis et Mob Grinding Utils."]
 			id: "22702B4D896430D1"
 			rewards: [{
 				id: "1008C48653E69EE0"
@@ -332,7 +334,11 @@
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
-			description: ["Une Source Jar inépuisable !"]
+			description: [
+				"Une Source Jar inépuisable ! "
+				""
+				"&4Note :&r Pour obtenir le Liquified Source, vous devez utiliser le Source Condenser près d'une Source Jar. Vous n'aurez plus qu'à extraire le liquide via des Fluids Pipes par exemple."
+			]
 			id: "58DD1CF2BB6D7A2A"
 			rewards: [{
 				id: "1923674DD1083E6D"
@@ -438,7 +444,7 @@
 		}
 		{
 			dependencies: ["164B095AA0EAFE38"]
-			description: ["L'item ultime du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la Bin, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une Creative Bin vide, elle le jetera."]
+			description: ["L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."]
 			id: "6012E7A8122073DF"
 			rewards: [{
 				id: "06076F547B40AAFA"
@@ -475,7 +481,7 @@
 		}
 		{
 			dependencies: ["436F92AF12A490E3"]
-			description: ["Permet de recharger les items Create en Fuel et en haut automatiquement et à l'infini."]
+			description: ["Permet de recharger les items Create en Fuel et en eau automatiquement et à l'infini."]
 			id: "3F9FF62EFC1CA52E"
 			rewards: [{
 				id: "72AD4684A11298AF"
@@ -777,7 +783,11 @@
 				"04CFEE49932154E8"
 				"617DED9427A6E3B5"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"

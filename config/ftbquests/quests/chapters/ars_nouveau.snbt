@@ -253,9 +253,9 @@
 		}
 		{
 			description: [
-				"Il s'agit du stockage de la Source. La Source sert à faire fonctionner vos machines."
+				"Il s'agit du stockage de la &4Source&r. La &4Source&r sert à faire fonctionner vos machines."
 				""
-				"Si un générateur de Source se trouvent à proximité (5 blocs max), il remplira la Jar. Cette dernière peut contenir jusqu'à 10.000 de Source."
+				"Si un générateur de &4Source&r se trouvent à proximité (5 blocs max), il remplira la &4Jar&r. Cette dernière peut contenir jusqu'à 10.000 unités de Source."
 			]
 			id: "05B1F9222C0D715E"
 			rewards: [{
@@ -631,7 +631,7 @@
 			y: 10.5d
 		}
 		{
-			description: ["L'&cImbuement Chamber&r vous permet d'obtenir vos &4Sources Gems&r. Si vous lui donnez de la Source, il ira plus vite. Pour faire de plus gros crafts, il faut l'entouré de piedestaux."]
+			description: ["L'&cImbuement Chamber&r vous permet d'obtenir vos &4Sources Gems&r. Si vous lui donnez de la Source, il ira plus vite. Pour faire de plus gros crafts, il faut l'entouré de &4piedestaux&r."]
 			id: "2A3508ABFB6D2F68"
 			rewards: [{
 				id: "2CD767DBE4170DB7"
@@ -651,7 +651,7 @@
 		}
 		{
 			description: [
-				"Cet objet possède un grand nombre de craft possible (Armure, Enchantement, et Crafts divers), tous indiqué sur JEI. Vous pouvez mettre n'importe quels Pedestals autour de lui dans un rayon de 3 blocs. Pour le faire fonctionner, il a besoin du Arcane Core en dessous de l'Enchanting Apparatus."
+				"Cet objet possède un grand nombre de craft possible (Armure, Enchantement, et Crafts divers), tous indiqué sur &4JEI&r. Vous pouvez mettre n'importe quels &4Pedestals&r autour de lui dans un rayon de 3 blocs. Pour le faire fonctionner, il a besoin du &4Arcane Core&r en dessous de l'&4Enchanting Apparatus&r."
 				""
 				"Il peut également créer des livres et outils enchantés ! Mais par exemple, si vous voulez tranchant 3, il faudra commencer par le 1, puis le 2, et enfin le 3 !"
 			]
@@ -1205,6 +1205,11 @@
 				"Et il y en a beaucoup comme ça ! D'autres exemples dans le livre de Ars Nouveau. N'hésitez pas à faire des tests !"
 			]
 			id: "7268BB480EDAA2D3"
+			rewards: [{
+				id: "20E24787A2A0F29B"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3297D992A7C9AF44"
 				item: "ars_nouveau:mob_jar"
@@ -1356,6 +1361,12 @@
 		{
 			description: ["Il s'agit d'un monstre qui agit comme une tourelle vivante. La Dominion Wand permet de limiter sa zone de patrouille. Si il est vaincu, il peut être réactiver en lui donnant de la Blaze Powder ou de la magma cream."]
 			id: "1077DC57D3B1CED2"
+			rewards: [{
+				id: "487E70B9E77F8093"
+				item: "minecraft:magma_cream"
+				random_bonus: 3
+				type: "item"
+			}]
 			tasks: [{
 				id: "677D1C13804D1ACF"
 				item: "ars_elemental:firenando_charm"
@@ -1412,8 +1423,16 @@
 				"1022B2AE562AC4D6"
 				"41C846E09719B367"
 				"181A3DF2DA3BB765"
+				"44979AFBF49F2FDF"
+				"635E5AFD6CDA7521"
+				"44979AFBF49F2FDF"
+				"635E5AFD6CDA7521"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
@@ -1441,6 +1460,35 @@
 			title: "Ars Nouveau complété !"
 			x: -0.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["1E60CBB244E7D995"]
+			description: ["Permet d'ajouter jusqu'à 16.000 mb de liquide. La Jar garde son contenu quand on la casse."]
+			id: "44979AFBF49F2FDF"
+			rewards: [{
+				id: "4744D77416E6FB2C"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53591A19E942B863"
+				item: "starbunclemania:fluid_jar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["44979AFBF49F2FDF"]
+			description: ["Permet de capturer la Source depuis une Source Jar pour la condenser en un liquide que vous pouvez utiliser pour créer votre future &4Creative Source Jar&r. Vous n'aurez plus qu'à extraire le liquide via des Fluids Pipes par exemple."]
+			id: "635E5AFD6CDA7521"
+			tasks: [{
+				id: "02AEE0E89D7CC214"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
 		}
 	]
 	title: "Ars Nouveau"

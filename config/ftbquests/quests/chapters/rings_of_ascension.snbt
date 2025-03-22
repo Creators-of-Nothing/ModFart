@@ -24,6 +24,13 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"L'&4Invisibility Cloak&r s'obtient en récompense du combat contre la &4Valkyrie Queen&r du mod &4Aether&r."
+				""
+				"Pour obtenir l'&4Ectoplasm&r, il faudra que vous craftiez la &4Soul Forge&r. A l'intérieur, l'interface ressemble à celle d'un four. Placez des &4boules de slime&r en comburant et du &4Soul Quartz&r à l'intérieur. Pour obtenir un &4Ectoplasm&r, il vous faut un &4Soul Quartz&r. Cliquez sur le bouton &4Press to Transmutate&r."
+				""
+				"Pour obtenir du &4Soul Quartz&r, il vous faudra trouver du &4Soul Sludge&r dans les &4Souls Sand Valley&r. Il suffit de marcher dessus. Le &4Sludge&r vous infligera des dégâts et deviendra du &4Rich Soul Sludge&r. Cassez le pour obtenir votre &4Soul Quartz&r et des &4Sludge Ball&r pour recréer du &4Soul Sludge&r et recommencer."
+			]
 			id: "099D0FE0FAA03003"
 			rewards: [{
 				id: "162F8B8070F3212E"
@@ -54,6 +61,15 @@
 			y: -3.0d
 		}
 		{
+			description: [
+				"Pour obtenir la &4Cloud Lantern&r, il faut cliquer sur le &4Lantern Maker&r avec les ingrédients demandés, puis poser une &4Lantern&r sur la table."
+				""
+				"L'&4Empty Core&r se trouve dans l'un des deux donjons possibles de &4Endless Biomes&r, dans l'&4End&r."
+				""
+				"Les &4Void-Touched Boots&r se trouve dans un &4Ruinous Altar&r, du mod &4Endless Biomes&r. Il suffit de faire un clic droit dessus pour les obtenir."
+				""
+				"Les &4Clouds&r du mod &4Twilight Forest&r s'obtiennent en minant les nuages où sont situés les &4Géants&r, juste après l'obtentions du &4Haricot Magique&r."
+			]
 			id: "6271296096BCCA9E"
 			rewards: [{
 				id: "5EEF4CA4D3C18FFD"
@@ -99,6 +115,7 @@
 			y: -4.0d
 		}
 		{
+			description: ["Les &4Agility Boots&r s'obtiennent en récompense du combat contre l'&4Aerwhale King&r, dans l'&4Aether&r."]
 			id: "20195D0EA93EBC9D"
 			rewards: [{
 				id: "33B15845832495EC"
@@ -159,6 +176,11 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"Les items du mod &4Better Archeology&r se trouve dans des structures du même mod. Il faudra vous armer de patience et utiliser un Brush sur les &4Suspicious Sand&r et &4Gravel&r que vous trouverez."
+				""
+				"&nAttention&r : l'interface Jade ne vous indique pas si un sable ou un gravier est &4Suspicious&r."
+			]
 			id: "37D2C5346F1E2268"
 			rewards: [{
 				id: "343309FD19AE201E"
@@ -204,6 +226,15 @@
 			y: 2.25d
 		}
 		{
+			description: [
+				"Pour avoir le &4Void Worm Eye&r, tu peux t'aider du livre du mod &4Alex's Mobs&r, et sinon, voici les explications :"
+				""
+				"- Tuez des mouches (&4Fly&r) pour avoir des maggots."
+				"- Craftez un &4Crimson Moskito Larva&r"
+				"- Posez un bloc de &4Capsid&r (trouvable sur les &4Enderiophages&r dans l'&4End&r) et placez y la &4Larva&r, puis patientez."
+				"- Vous obtiendrez un &4Void Worm&r, que vous devrez jetez dans le &4Void&r de l'&4End&r, puis affrontez le &4Void Worm&r."
+				"- Lorsque vous l'aurez vaincu, il y aura une zone où il fera spawn son loot."
+			]
 			id: "4F0B54F99C1BCE13"
 			rewards: [{
 				id: "01E4C9751C507A6C"
@@ -220,6 +251,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Les &4Vines&r s'obtiennent dans la Botanist Workbench en lui donnant des &4Vines Vanilla&r."]
 			id: "5DF0C2F68E697CE0"
 			rewards: [{
 				id: "57845998EE75F5E0"
@@ -250,6 +282,7 @@
 			y: 1.5d
 		}
 		{
+			description: ["Pour obtenir la &4Life Lantern&r, il faut cliquer sur le &4Lantern Maker&r avec les ingrédients demandés, puis poser une &4Lantern&r sur la table."]
 			id: "1E4A0D9CD15A7A76"
 			rewards: [{
 				id: "64C6C3A1E11865E6"
@@ -265,6 +298,17 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"L'&4Adamantite&r est un minerais (&4Adamantite Node&r) qui se trouve dans l'&4End&r. "
+				""
+				"Pour obtenir le &4Template&r, il faut casser des &4Superheated Pot&r. "
+				""
+				"Les Templates sont consommés à l'utilisation, mais sont duplicables !"
+				""
+				"Ce template permet d'upgrader votre équipement."
+				""
+				"Pour obtenir la &4Warding Lantern&r, il faut cliquer sur le &4Lantern Maker&r avec les ingrédients demandés, puis poser une &4Lantern&r sur la table."
+			]
 			id: "0D6D491F39548B2B"
 			rewards: [{
 				id: "1C09CB235DB25E64"
@@ -280,6 +324,11 @@
 			y: -1.5d
 		}
 		{
+			description: [
+				"Le &4Heart Container&r s'obtient lorsque l'on a gagné des coeurs auprès de la &4Goddess Statue&r. Il faut parler à la &4Horned Statue&r. Sacrifiez de la vie max pour récupérer votre &4Heart Container&r."
+				""
+				"Les &4Charm of Life&r s'obtiennent dans les coffres des donjons ou dans les coffres des grandes collines du mod &4Twilight Forest&r. "
+			]
 			id: "0925D630B3664052"
 			rewards: [{
 				id: "5D3E633E589D553A"
@@ -325,6 +374,11 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"Pour obtenir la &4Greater Experience Gem&r, vous devez activer un &4Brazier&r du mod &4Ars Nouveau&r avec une &4Tablet of Desintegration&r. Activez le et amenez des monstres à côté du rituel. Ils seront désintégrer et looteront des &4Experience Gems&r."
+				""
+				"Pour que le rituel fonctionne, vous devez avoir une &4Source Jar pleine&r à proximité."
+			]
 			id: "2DD6870878DD4EB9"
 			rewards: [{
 				id: "5240551B119C4BA0"
@@ -340,6 +394,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["La &4Frosbrun Ice&r se trouve dans les biomes &4Endlighted&r, dans l'&4End&r."]
 			id: "3FC2670D3737E0C1"
 			rewards: [{
 				id: "57E96AB84E00E732"
@@ -355,6 +410,7 @@
 			y: 0.0d
 		}
 		{
+			description: ["Le &4Tungsten&r est un minerais qui se trouve dans le donjon de l'&4Awful Ghast&r, dans le &4Nether&r."]
 			id: "4079C7932F157ED3"
 			rewards: [{
 				id: "02267FEC11BA44DB"
@@ -370,7 +426,17 @@
 			y: -4.5d
 		}
 		{
-			description: ["Cet anneau vous empêche de mourir, mais à un cooldown de 20min."]
+			description: [
+				"Cet anneau vous empêche de mourir, mais à un cooldown de 20min."
+				""
+				"Pour obtenir le &4Raked Gravel&r, il faut utiliser une houe sur du gravier, puis récupérer ce gravier avec un outil qui possède l'enchantement toucher de soie (&4Silk Touch&r)."
+				""
+				"Pour obtenir le &4Necronium&r, il faudra que vous craftiez la &4Soul Forge&r. A l'intérieur, l'interface ressemble à celle d'un four. Placez de l'&4or&r en comburant et du &4Soul Quartz&r à l'intérieur. Cliquez sur le bouton &4Press to Transmutate&r."
+				""
+				"Pour obtenir du &4Soul Quartz&r, il vous faudra trouver du &4Soul Sludge&r dans les &4Souls Sand Valley&r. Il suffit de marcher dessus. Le &4Sludge&r vous infligera des dégâts et deviendra du &4Rich Soul Sludge&r. Cassez le pour obtenir votre &4Soul Quartz&r et des &4Sludge Ball&r pour recréer du &4Soul Sludge&r et recommencer.                "
+				""
+				"La &4Gravestone&r se craft avec des planches, de la cobblestone, et de la clay dans la &4Furniture Station&r."
+			]
 			id: "4BA79256D302E8C9"
 			rewards: [{
 				id: "0BAA0D67C42F3589"
@@ -445,7 +511,11 @@
 				"24E1735F38706CB8"
 				"12E57F1F1A098459"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"

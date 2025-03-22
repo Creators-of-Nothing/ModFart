@@ -41,7 +41,13 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Permet d'accumuler autant de pouvoir différents au détriment d'une consommation de nourriture. Sur ce pack, les effets néfastes qui affectent les autres ont été enlevé, ainsi que le flight pour des raisons d'équilibrages."]
+			description: [
+				"Permet d'accumuler autant de pouvoir différents que vous voulez au détriment de votre consommation de nourriture. Si vous possedez le &4totem de Saturation&r, alors, vous ne perdrez plus jamais de nourriture !"
+				""
+				"Sur ce pack, les effets néfastes qui affectent les autres ont été enlevé, ainsi que le flight pour des raisons d'équilibrages."
+				""
+				"Pour équiper un &4totem&r, il faut faire un clic droit avec. Cela vous ouvrira une interface. Cliquez sur le pouvoir pour le décaller de votre côté. Cependant, cela vous coûtera un peu d'xp pour l'équiper. Pour le déséquiper, faites de même avec votre &4Ability Bottle&r. "
+			]
 			id: "0EC9680E91930C3E"
 			rewards: [{
 				id: "34169B811595DD79"
@@ -159,7 +165,11 @@
 			y: -5.0d
 		}
 		{
-			description: ["Un moyen de trouver les biomes que vous voulez."]
+			description: [
+				"Un moyen de trouver les biomes que vous voulez. Vous pouvez trier les biomes par nom, par source (à quel mod ils appartiennent), par dimension, et par groupe."
+				""
+				"&nAttention&r : Ne fonctionne pas pour les biomes du mod Alex's Caves."
+			]
 			id: "4B5B81DF4334B4A5"
 			rewards: [{
 				id: "4AF67F2C40EB6B5D"
@@ -181,7 +191,11 @@
 		}
 		{
 			dependencies: ["4B5B81DF4334B4A5"]
-			description: ["Permet de trouver des structures."]
+			description: [
+				"Permet de trouver des structures. Vous pouvez trier les structures par nom, par source (à quel mod ils appartiennent), par dimension, et par groupe."
+				""
+				"&nAttention&r : Ne permet pas de trouver les structures du mod Alex's Caves."
+			]
 			id: "268C4D813699ECC7"
 			rewards: [{
 				id: "1CF334607B961495"
@@ -202,7 +216,9 @@
 		}
 		{
 			description: [
-				"Le Neptunium est un lingot qui se pêche. Il existe tout un tas d'équipements et de nourriture lié à ce mod. Pour upgrader votre canne à pêche, il faut poser puis utiliser la Tackle Box. Cette dernière servira de stockage pour tout vos équipements de pêche ! "
+				"Le &4Neptunium&r est un lingot qui se pêche &4&nuniquement&r&r."
+				""
+				"Il existe tout un tas d'équipements et de nourriture lié à ce mod. Pour upgrader votre canne à pêche, il faut poser puis utiliser la Tackle Box. Cette dernière servira de stockage pour tout vos équipements de pêche ! "
 				""
 				"Le Bobber et la Fishing Line sont deux items cosmétiques, que vous pouvez colorer dans une table de craft avec un colorant, et qui changera l'aspect respectivement du bouchon et de la ligne de votre canne à pêche."
 				""
@@ -254,6 +270,7 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
+			subtitle: "Réparer facilement vos équipements"
 			tasks: [
 				{
 					id: "2D73A0203ECCB86B"
@@ -337,7 +354,11 @@
 				"7B3FA67EA5888E95"
 				"261DCE49E3922679"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"

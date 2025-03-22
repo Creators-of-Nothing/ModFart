@@ -220,7 +220,11 @@
 		}
 		{
 			dependencies: ["59B7D5A631C63F72"]
-			description: ["Un bon moteur qui peut remplacer tes Water Wheels ou tes Moulins. Attention, il supporte très mal le stress, mais ils sont cumulables."]
+			description: [
+				"Un bon moteur qui peut remplacer tes Water Wheels ou tes Moulins. Attention, il supporte très mal le stress, mais ils sont cumulables."
+				""
+				"Comme son nom l'indique, il a besoin d'électricité pour fonctionner."
+			]
 			id: "5F64CCE2106FEA61"
 			rewards: [{
 				id: "3E5FE799DDC49063"
@@ -293,9 +297,9 @@
 		{
 			dependencies: ["044A732DB52C6B8C"]
 			description: [
-				"Le Mixer permet de mélanger des items entre eux dans le Basin. Attention, selon les mélanges, il vous faudra une certaine température apportée par le Blaze Burner. Pour le remplir, il suffit de clic droit sur un Blaze ou sur un spawner à blaze avec le Blaze Burner vide."
+				"Le &4Mixer&r permet de mélanger des items entre eux dans le &4Basin&r. Attention, selon les mélanges, il vous faudra une certaine température apportée par le Blaze Burner. Pour le remplir, il suffit de clic droit sur un Blaze ou sur un spawner à blaze avec le Blaze Burner vide."
 				""
-				"Le Blaze Burner mange toute sorte de combustibles, mais si vous voulez le Super Heated, il faudra lui donner des Blazes Cake."
+				"Le &4Blaze Burner&r mange toute sorte de combustibles (ou utiliser un &4Straw&r dessus pour qu'il accepte les liquides), mais si vous voulez le Super Heated, il faudra lui donner des &4Blazes Cake&r."
 			]
 			id: "4E6AAC128C410184"
 			rewards: [{
@@ -570,7 +574,7 @@
 		}
 		{
 			dependencies: ["044A732DB52C6B8C"]
-			description: ["Le Rope Pulley te permet de pomper n'importe quel fluide. Pour se faire, il faut descendre la pompe avec une hand crank par exemple jusqu'à atteindre le fluide. Dans le cas de l'eau, elle sera pompée à l'infini, car elle se régénère, mais pour la lave, si la pompe se trouve dans un lac de lave contenant plus de 10 000 buckets de lave, le jeu considèrera qu'il y en a à l'infini. Pour en être sûr, vous aurez un succès si cela arrive !"]
+			description: ["Le &4Hose Pulley&r te permet de pomper n'importe quel fluide. Pour se faire, il faut descendre la pompe avec une hand crank par exemple jusqu'à atteindre le fluide. Dans le cas de l'eau, elle sera pompée à l'infini, car elle se régénère, mais pour la lave, si la pompe se trouve dans un lac de lave contenant plus de 10 000 buckets de lave, le jeu considèrera qu'il y en a à l'infini. Pour en être sûr, vous aurez un succès si cela arrive !"]
 			id: "6DD5F2B95CCE54E6"
 			rewards: [{
 				id: "6A9F7CBD5FCA3279"
@@ -840,7 +844,7 @@
 		}
 		{
 			description: [
-				"Create est un mod Low Tech, dont les machines fonctionnent à l'énergie cinétique."
+				"&4Create&r est un mod Low Tech, dont les machines fonctionnent à l'énergie cinétique."
 				""
 				"N'oublies pas qu'en passant ta souris sur un objet, et en restant appuyé sur la &4touche Z&r, tu auras une vidéo explicative de chaque item !"
 				""
@@ -961,12 +965,12 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.75d
+			x: -1.75d
+			y: 8.25d
 		}
 		{
 			dependencies: ["044A732DB52C6B8C"]
-			description: ["Les Sifters sont une machines qui permettent d'obtenir tout un tas de minerais entre autre ! Certains crafts nécessitent la version Brass pour fonctionner."]
+			description: ["Les Sifters sont une machines qui permettent d'obtenir tout un tas de minerais, entre autre ! Certains crafts nécessitent la version Brass pour fonctionner."]
 			id: "189D2C3618765111"
 			rewards: [{
 				id: "3E920AA7C6E73D84"
@@ -1157,8 +1161,13 @@
 				"3C1868D46F599D2D"
 				"5C1DF396430009E4"
 				"169485A6CE91F6B5"
+				"7C1C12CE843F3145"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
@@ -1189,6 +1198,11 @@
 		{
 			dependencies: ["34BEBBD8E21C2D8F"]
 			id: "2EDAD0BB0913EAE0"
+			rewards: [{
+				id: "29BE3F3385665475"
+				item: "createsifter:advanced_brass_mesh"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0160DE0432F6CDF6"
 				item: {
@@ -1204,6 +1218,15 @@
 		{
 			dependencies: ["2EDAD0BB0913EAE0"]
 			id: "6AEAEA8B9CF60C4C"
+			rewards: [{
+				id: "0B552E5A3121E991"
+				item: {
+					Count: 1
+					id: "createsifter:custom_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18E7D123D8149663"
 				item: "createsifter:advanced_custom_mesh"
@@ -1211,6 +1234,24 @@
 			}]
 			x: -0.5d
 			y: 12.75d
+		}
+		{
+			dependencies: ["4E6AAC128C410184"]
+			description: ["Un simple clic droit avec cette paille sur un &4Blaze Burner&r pour lui permettre d'accepter de prendre des liquides comme combustible."]
+			id: "7C1C12CE843F3145"
+			rewards: [{
+				id: "5056DB2491F03E26"
+				item: "minecraft:bamboo"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "532D51A61D4F3C2C"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 7.75d
 		}
 	]
 	title: "Create"

@@ -132,7 +132,9 @@
     },
     "dynamicIcons": {
       "Afkafe": "https://mc-heads.net/avatar/922894fde490402289b9d1fb57960cae",
-      "default": "https://via.placeholder.com/256.png"
+      "default": "https://via.placeholder.com/256.png",
+      "AFKafe": "https://mc-heads.net/avatar/922894fde490402289b9d1fb57960cae",
+      "199.115.73.151": "https://api.mcsrvstat.us/icon/199.115.73.151"
     },
     "dynamicVariables": {
       "default": "Example Text",
