@@ -161,7 +161,7 @@ ServerEvents.recipes(e => {
     e.custom({
       type: "create:sequenced_assembly",
       ingredient: {
-        item: "moreplates:black_iron_plate"
+        item: "kubejs:black_iron_plate"
       },
       loops: 4,
       results: [
@@ -174,7 +174,7 @@ ServerEvents.recipes(e => {
           type: "create:deploying",
           ingredients: [
             {
-              item: "moreplates:black_iron_plate"
+              item: "kubejs:black_iron_plate"
             },
             {
               item: rod
@@ -182,26 +182,26 @@ ServerEvents.recipes(e => {
           ],
           results: [
             {
-              item: "moreplates:black_iron_plate"
+              item: "kubejs:black_iron_plate"
             }
           ]
         }
       ],
       transitionalItem: {
-        item: "moreplates:black_iron_plate"
+        item: "kubejs:black_iron_plate"
       }
     })
   }
-  potting("moreplates:iron_rod", "extendedcrafting:basic_catalyst")
-  potting("moreplates:gold_rod", "extendedcrafting:advanced_catalyst")
-  potting("moreplates:diamond_rod", "extendedcrafting:elite_catalyst")
-  potting("moreplates:emerald_rod", "extendedcrafting:ultimate_catalyst")
-  potting("moreplates:redstone_ingot_rod", "extendedcrafting:redstone_catalyst")
+  potting("kubejs:iron_rod", "extendedcrafting:basic_catalyst")
+  potting("kubejs:gold_rod", "extendedcrafting:advanced_catalyst")
+  potting("kubejs:diamond_rod", "extendedcrafting:elite_catalyst")
+  potting("kubejs:emerald_rod", "extendedcrafting:ultimate_catalyst")
+  potting("kubejs:redstone_ingot_rod", "extendedcrafting:redstone_catalyst")
   potting("kubejs:enhanced_redstone_rod", "extendedcrafting:enhanced_redstone_catalyst")
-  potting("moreplates:ender_rod", "extendedcrafting:ender_catalyst")
-  potting("moreplates:enhanced_ender_rod", "extendedcrafting:enhanced_ender_catalyst")
-  potting("moreplates:crystaltine_rod", "extendedcrafting:crystaltine_catalyst")
-  potting("moreplates:the_ultimate_rod", "extendedcrafting:the_ultimate_catalyst")
+  potting("kubejs:ender_rod", "extendedcrafting:ender_catalyst")
+  potting("kubejs:enhanced_ender_rod", "extendedcrafting:enhanced_ender_catalyst")
+  potting("kubejs:crystaltine_rod", "extendedcrafting:crystaltine_catalyst")
+  potting("kubejs:the_ultimate_rod", "extendedcrafting:the_ultimate_catalyst")
 })
 //#endregion
 
@@ -424,38 +424,38 @@ ServerEvents.recipes(e => {
   }
   potting(
     "jamd:portal_block",
-    "moreplates:diamond_plate",
+    "kubejs:diamond_plate",
     "kubejs:dimensional_plate",
-    "moreplates:ruby_plate",
-    "moreplates:zinc_plate"
+    "kubejs:ruby_plate",
+    "kubejs:zinc_plate"
   )
   potting(
     "jamd:nether_portal",
-    "moreplates:netherite_plate",
+    "kubejs:netherite_plate",
     "kubejs:dimensional_plate",
-    "moreplates:tungsten_plate",
-    "moreplates:nether_quartz_plate"
+    "kubejs:tungsten_plate",
+    "kubejs:nether_quartz_plate"
   )
   potting(
     "jamd:end_portal",
     "kubejs:enderite_plate",
     "kubejs:dimensional_plate",
     "kubejs:malachite_plate",
-    "moreplates:bismuth_plate"
+    "kubejs:bismuth_plate"
   )
   potting(
     "javd:portal_block",
     "kubejs:echo_plate",
     "kubejs:dimensional_plate",
-    "moreplates:amethyst_plate",
-    "moreplates:paper_plate"
+    "kubejs:amethyst_plate",
+    "kubejs:paper_plate"
   )
   potting(
     "dimdungeons:block_portal_keyhole",
-    "moreplates:gold_plate",
+    "kubejs:gold_plate",
     "kubejs:dimensional_plate",
-    "moreplates:ender_plate",
-    "moreplates:black_iron_plate"
+    "kubejs:ender_plate",
+    "kubejs:black_iron_plate"
   )
 })
 //#endregion
@@ -473,7 +473,7 @@ ServerEvents.recipes(e => {
       processingTime: 200,
       results: [
         {
-          count: 16,
+          count: 64,
           item: output
         }
       ]
@@ -598,7 +598,7 @@ ServerEvents.recipes(e => {
     })
   }
   potting("kubejs:antimatter_rod", "twilightforest:giant_obsidian", "kubejs:giant_anti_obsidian")
-  potting("moreplates:the_ultimate_rod", "kubejs:giant_anti_obsidian", "kubejs:giant_ultimate_obsidian")
+  potting("kubejs:the_ultimate_rod", "kubejs:giant_anti_obsidian", "kubejs:giant_ultimate_obsidian")
 })
 ServerEvents.recipes(e => {
   let potting = (type, cooktime, input, count, xp, output) => {

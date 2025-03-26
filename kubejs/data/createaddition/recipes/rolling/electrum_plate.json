@@ -1,7 +1,7 @@
 {
 	"type":"createaddition:rolling",
 	"input": {
-      	"item": "moreplates:electrum_plate"
+      	"item": "kubejs:electrum_plate"
 	},
 	"result": {
 		"item": "createaddition:electrum_wire",

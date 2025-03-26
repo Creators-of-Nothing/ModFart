@@ -32,7 +32,7 @@
 		}
 		{
 			height: 3.0d
-			image: "moreplates:item/the_ultimate_gear"
+			image: "kubejs:item/the_ultimate_gear"
 			rotation: 0.0d
 			width: 3.0d
 			x: 4.5d

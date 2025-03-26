@@ -54,6 +54,7 @@ ServerEvents.recipes(e => {
     processingTime: 200,
     results: [
       {
+        count: 8,
         item: "fluxnetworks:flux_dust"
       }
     ]

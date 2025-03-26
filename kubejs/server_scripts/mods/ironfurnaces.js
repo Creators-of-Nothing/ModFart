@@ -77,21 +77,21 @@ ServerEvents.recipes(e => {
       ]
     })
   }
-  potting_furnaces("ironfurnaces:copper_furnace", "minecraft:furnace", "moreplates:copper_plate")
-  potting_furnaces("ironfurnaces:silver_furnace", "ironfurnaces:copper_furnace", "moreplates:silver_plate")
-  potting_furnaces("ironfurnaces:iron_furnace", "ironfurnaces:silver_furnace", "moreplates:iron_plate")
-  potting_furnaces("ironfurnaces:gold_furnace", "ironfurnaces:iron_furnace", "moreplates:gold_plate")
-  potting_furnaces("ironfurnaces:diamond_furnace", "ironfurnaces:gold_furnace", "moreplates:diamond_plate")
+  potting_furnaces("ironfurnaces:copper_furnace", "minecraft:furnace", "kubejs:copper_plate")
+  potting_furnaces("ironfurnaces:silver_furnace", "ironfurnaces:copper_furnace", "kubejs:silver_plate")
+  potting_furnaces("ironfurnaces:iron_furnace", "ironfurnaces:silver_furnace", "kubejs:iron_plate")
+  potting_furnaces("ironfurnaces:gold_furnace", "ironfurnaces:iron_furnace", "kubejs:gold_plate")
+  potting_furnaces("ironfurnaces:diamond_furnace", "ironfurnaces:gold_furnace", "kubejs:diamond_plate")
   potting_furnaces("ironfurnaces:obsidian_furnace", "ironfurnaces:diamond_furnace", "kubejs:obsidian_plate")
   potting_furnaces(
     "ironfurnaces:emerald_furnace",
     "ironfurnaces:obsidian_furnace",
-    "moreplates:emerald_plate"
+    "kubejs:emerald_plate"
   )
   potting_furnaces(
     "ironfurnaces:netherite_furnace",
     "ironfurnaces:emerald_furnace",
-    "moreplates:netherite_plate"
+    "kubejs:netherite_plate"
   )
   potting_furnaces(
     "ironfurnaces:million_furnace",

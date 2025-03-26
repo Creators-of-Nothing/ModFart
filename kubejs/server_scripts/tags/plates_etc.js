@@ -1,15 +1,15 @@
 // Gears/Plates/Rods
 ServerEvents.tags("item", e => {
-  e.add("forge:modfart/gears", [/moreplates:(.*)_gear/, /kubejs:(.*)_gear/])
-  e.add("forge:modfart/plates", [/moreplates:(.*)_plate/, /kubejs:(.*)_plate/])
-  e.add("forge:modfart/rods", [/moreplates:(.*)_rod/, /kubejs:(.*)_rod/])
-  e.add("forge:plates/copper", "moreplates:copper_plate")
-  e.add("forge:rods/copper", "moreplates:copper_rod")
-  e.add("forge:plates/brass", "moreplates:brass_plate")
-  e.add("forge:rods/gold", "moreplates:gold_rod")
-  e.add("forge:plates/gold", "moreplates:gold_plate")
-  e.add("forge:rods/electrum", "moreplates:electrum_rod")
-  e.add("forge:plates/zinc", "moreplates:zinc_plate")
+  e.add("forge:modfart/gears", [/kubejs:(.*)_gear/, /kubejs:(.*)_gear/])
+  e.add("forge:modfart/plates", [/kubejs:(.*)_plate/, /kubejs:(.*)_plate/])
+  e.add("forge:modfart/rods", [/kubejs:(.*)_rod/, /kubejs:(.*)_rod/])
+  e.add("forge:plates/copper", "kubejs:copper_plate")
+  e.add("forge:rods/copper", "kubejs:copper_rod")
+  e.add("forge:plates/brass", "kubejs:brass_plate")
+  e.add("forge:rods/gold", "kubejs:gold_rod")
+  e.add("forge:plates/gold", "kubejs:gold_plate")
+  e.add("forge:rods/electrum", "kubejs:electrum_rod")
+  e.add("forge:plates/zinc", "kubejs:zinc_plate")
 })
 
 // Raws

@@ -1,7 +1,7 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "moreplates:brass_plate"
+    "item": "kubejs:brass_plate"
   },
   "transitionalItem": {
     "item": "create_sa:incomplete_steam_engine"
@@ -78,7 +78,7 @@
       "chance": 120.0
     },
     {
-      "item": "moreplates:brass_plate",
+      "item": "kubejs:brass_plate",
       "chance": 8.0
     },
     {

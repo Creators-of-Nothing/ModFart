@@ -1,2 +1,14 @@
 type = user_variables
 
+variable {
+  name = changelog
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = changelog_show
+  value = 1
+  reset_on_launch = false
+}
+

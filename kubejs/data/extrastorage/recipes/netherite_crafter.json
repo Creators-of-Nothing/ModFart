@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "moreplates:netherite_plate"
+      "item": "kubejs:netherite_plate"
     },
     "b": {
       "item": "extrastorage:diamond_crafter"

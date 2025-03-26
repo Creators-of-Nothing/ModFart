@@ -4,9 +4,10 @@
 
 - Réfaction quasi-totale du code
 - Ajout d'un arbre de progression dans le livre de quêtes
+- Menu principal en cours de refonte totale
 - Rangement dans JEI
-- Suppression de Phantasmic
-- Ajout de Mekanism Covers
+- Suppression de Phantasmic et de MorePlates
+- Ajout de Mekanism Covers et Item Placer
 
 ### [Ajouts]
 
@@ -21,7 +22,7 @@
 - Ajout d'un craft permettant de faire de la Flux Dust avec le Farseer Arm d'Alex's Mobs
 - Ajout du tags "minecraft:boats" et "minecraft:chest_boats" pour les bateaux qui ne les avaient pas encore
 - Ajout d'un craft pour toutes les Templates (en plus de la duplication)
-- Commencer avec le livre de quêtes
+- Le livre de quêtes apparaît directement dans l'inventaire à la première connexion
 
 ### [Suppressions]
 
@@ -34,6 +35,7 @@
 - Suppression du Void Leviathan sur la Dreadful Dirt
 - Suppression des Lightning, Cooking et Arrow Upgrades de Caged Mobs
 - Suppression de l'annonce dans le chat du premier advancement de Zelda
+- Suppression de crafts permettant de faire des Block of Experience avec du Honey ou des Slimeballs
 
 ### [Changements]
 
@@ -42,6 +44,11 @@
 - Modification du craft de l'Irromolding
 - Modification des crafts utilisant des items/blocks de Phantasmic
 - Modifications des noms des mobs (rangement, retrait et ajouts divers)
+- Reprise temporaire des assets de l'ancien mod 'MorePlates' en attendant d'avoir les nôtres
+- Menu principal est en cours de refonte
+- Les onglets de advancements seront maintenant dans l'ordre alphabétique
+- Le craft du Carbon Powder a été simplifié
+- Augmentation du nombre de Pebbles quand on Crush de la Cobblestone
 
 ### [Bugfixes]
 
@@ -55,11 +62,15 @@
 - Block Tag "forge:modfart/ores" pour les blocs de minerais
 - Résolution de toutes les Errors/Warnings
 - Résolution de certains conflits de crafts
+- Re-suppression du Worn Notebook à la première connexion
+- Suppression de quelques résidus de crafts ne correspondant pas à la duplication des minerais
 
 ### [Mods]
 
+- **_Add_** - Ipla
 - **_Add_** - Mekanism Covers
 
+- **_Del_** - More Plates
 - **_Del_** - Phantasmic
 
 - **_MaJ_** - [Let's Do] Vinery (1.4.27 -> 1.4.28)
@@ -95,6 +106,7 @@
 - **_MaJ_** - Curios API (5.9.1 -> 5.10.0)
 - **_MaJ_** - Deeper and Darker (1.2.1 -> 1.3.2)
 - **_MaJ_** - Domum Ornamentum (1.0.196 -> 1.0.203)
+- **_MaJ_** - Drippy Loading Screen (3.0.1 -> 3.0.11)
 - **_MaJ_** - Easy NPC (5.5.1 -> 5.6.0)
 - **_MaJ_** - Easy Piglins (1.0.9 -> 1.0.13)
 - **_MaJ_** - Easy Villagers (1.1.16 -> 1.1.22)

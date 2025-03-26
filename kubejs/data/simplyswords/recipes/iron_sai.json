@@ -12,7 +12,7 @@
             "item": "minecraft:stick"
         },
         "C": {
-            "item": "moreplates:iron_rod"
+            "item": "kubejs:iron_rod"
         }
     },
     "result": {

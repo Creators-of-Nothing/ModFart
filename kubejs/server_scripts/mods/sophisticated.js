@@ -104,22 +104,22 @@ ServerEvents.recipes(e => {
   potting_backpacks_upgrades_plates(
     "sophisticatedbackpacks:stack_upgrade_tier_1",
     "sophisticatedbackpacks:upgrade_base",
-    "moreplates:iron_plate"
+    "kubejs:iron_plate"
   )
   potting_backpacks_upgrades_plates(
     "sophisticatedbackpacks:stack_upgrade_tier_2",
     "sophisticatedbackpacks:stack_upgrade_tier_1",
-    "moreplates:gold_plate"
+    "kubejs:gold_plate"
   )
   potting_backpacks_upgrades_plates(
     "sophisticatedbackpacks:stack_upgrade_tier_3",
     "sophisticatedbackpacks:stack_upgrade_tier_2",
-    "moreplates:diamond_plate"
+    "kubejs:diamond_plate"
   )
   potting_backpacks_upgrades_plates(
     "sophisticatedbackpacks:stack_upgrade_tier_4",
     "sophisticatedbackpacks:stack_upgrade_tier_3",
-    "moreplates:netherite_plate"
+    "kubejs:netherite_plate"
   )
   let potting_backpacks_upgrades_optimal = (output, input, plate) => {
     e.custom({
@@ -142,22 +142,22 @@ ServerEvents.recipes(e => {
   potting_backpacks_upgrades_optimal(
     "sophisticatedbackpacks:stack_upgrade_tier_1",
     "sophisticatedbackpacks:upgrade_base",
-    "moreplates:iron_plate"
+    "kubejs:iron_plate"
   )
   potting_backpacks_upgrades_optimal(
     "sophisticatedbackpacks:stack_upgrade_tier_2",
     "sophisticatedbackpacks:stack_upgrade_tier_1",
-    "moreplates:gold_plate"
+    "kubejs:gold_plate"
   )
   potting_backpacks_upgrades_optimal(
     "sophisticatedbackpacks:stack_upgrade_tier_3",
     "sophisticatedbackpacks:stack_upgrade_tier_2",
-    "moreplates:diamond_plate"
+    "kubejs:diamond_plate"
   )
   potting_backpacks_upgrades_optimal(
     "sophisticatedbackpacks:stack_upgrade_tier_4",
     "sophisticatedbackpacks:stack_upgrade_tier_3",
-    "moreplates:netherite_plate"
+    "kubejs:netherite_plate"
   )
   //#endregion
   //#region - Storages
@@ -196,22 +196,22 @@ ServerEvents.recipes(e => {
   potting_storages_upgrades_plates(
     "sophisticatedstorage:stack_upgrade_tier_1",
     "sophisticatedstorage:upgrade_base",
-    "moreplates:iron_plate"
+    "kubejs:iron_plate"
   )
   potting_storages_upgrades_plates(
     "sophisticatedstorage:stack_upgrade_tier_2",
     "sophisticatedstorage:stack_upgrade_tier_1",
-    "moreplates:gold_plate"
+    "kubejs:gold_plate"
   )
   potting_storages_upgrades_plates(
     "sophisticatedstorage:stack_upgrade_tier_3",
     "sophisticatedstorage:stack_upgrade_tier_2",
-    "moreplates:diamond_plate"
+    "kubejs:diamond_plate"
   )
   potting_storages_upgrades_plates(
     "sophisticatedstorage:stack_upgrade_tier_4",
     "sophisticatedstorage:stack_upgrade_tier_3",
-    "moreplates:netherite_plate"
+    "kubejs:netherite_plate"
   )
   let potting_storages_upgrades_optimal = (output, input, plate) => {
     e.custom({
@@ -234,22 +234,22 @@ ServerEvents.recipes(e => {
   potting_storages_upgrades_optimal(
     "sophisticatedstorage:stack_upgrade_tier_1",
     "sophisticatedstorage:upgrade_base",
-    "moreplates:iron_plate"
+    "kubejs:iron_plate"
   )
   potting_storages_upgrades_optimal(
     "sophisticatedstorage:stack_upgrade_tier_2",
     "sophisticatedstorage:stack_upgrade_tier_1",
-    "moreplates:gold_plate"
+    "kubejs:gold_plate"
   )
   potting_storages_upgrades_optimal(
     "sophisticatedstorage:stack_upgrade_tier_3",
     "sophisticatedstorage:stack_upgrade_tier_2",
-    "moreplates:diamond_plate"
+    "kubejs:diamond_plate"
   )
   potting_storages_upgrades_optimal(
     "sophisticatedstorage:stack_upgrade_tier_4",
     "sophisticatedstorage:stack_upgrade_tier_3",
-    "moreplates:netherite_plate"
+    "kubejs:netherite_plate"
   )
   //#endregion
   //#region - Pump Upgrades

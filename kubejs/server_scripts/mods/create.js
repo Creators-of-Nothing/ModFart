@@ -128,7 +128,9 @@ ServerEvents.recipes(e => {
     { id: "createchromaticreturn:bedrock_shard_crushing" },
     { id: "createchromaticreturn:multiplite_tube_recipe" },
     { id: "createchromaticreturn:refined_mixture_recipe" },
-    { id: "create:crafting/tree_fertilizer" }
+    { id: "create:crafting/tree_fertilizer" },
+    { id: /create:milling\/compat\/botania\// },
+    { id: /create_enchantment_industry:compacting\/experience_block_from_/ }
   ])
   //#endregion
   //#region - Emptying
@@ -271,7 +273,7 @@ ServerEvents.recipes(e => {
         item: "mekaweapons:mekatana"
       },
       F: {
-        item: "moreplates:steel_rod"
+        item: "kubejs:steel_rod"
       }
     },
     result: {
@@ -306,7 +308,7 @@ ServerEvents.recipes(e => {
   //#region - Creative Tube
   e.shaped("createchromaticreturn:multiplite_tube", ["A", "B"], {
     A: "kubejs:alloy_creative",
-    B: "moreplates:silver_plate"
+    B: "kubejs:silver_plate"
   })
   //#endregion
   //#region - Creative Contraptions
@@ -325,10 +327,10 @@ ServerEvents.recipes(e => {
       result: { item: output }
     })
   }
-  potting("create:creative_motor", "moreplates:brass_gear", "createaddition:electric_motor")
-  potting("create:creative_fluid_tank", "moreplates:copper_gear", "create:fluid_tank")
-  potting("createaddition:creative_energy", "moreplates:iron_gear", "createaddition:alternator")
-  potting("create:creative_crate", "moreplates:steel_gear", "mekanism:personal_barrel")
+  potting("create:creative_motor", "kubejs:brass_gear", "createaddition:electric_motor")
+  potting("create:creative_fluid_tank", "kubejs:copper_gear", "create:fluid_tank")
+  potting("createaddition:creative_energy", "kubejs:iron_gear", "createaddition:alternator")
+  potting("create:creative_crate", "kubejs:steel_gear", "mekanism:personal_barrel")
   potting("createcasing:creative_cogwheel", "kubejs:andesite_gear", "create:cogwheel")
   //#endregion
   //#region - Bedrock
@@ -353,7 +355,7 @@ ServerEvents.recipes(e => {
     ]
   })
   //#endregion
-  //#region - Bedrock Shard
+  //#region - Crushing Bedrock Shard
   e.custom({
     type: "create:crushing",
     ingredients: [
@@ -365,39 +367,39 @@ ServerEvents.recipes(e => {
     results: [
       {
         count: 64,
-        item: "extendedcrafting:the_ultimate_ingot"
+        item: "kubejs:basical_apparatus"
       },
       {
         count: 64,
-        item: "createchromaticreturn:multiplite_ingot"
+        item: "kubejs:magical_apparatus"
       },
       {
         count: 64,
-        item: "createchromaticreturn:refined_radiance"
+        item: "kubejs:mechanical_apparatus"
       },
       {
         count: 64,
-        item: "mekanism:pellet_antimatter"
+        item: "kubejs:vital_apparatus"
       },
       {
-        count: 64,
+        count: 128,
         item: "mekanism:enriched_carbon"
       },
       {
-        count: 64,
+        count: 128,
         item: "mekanism:enriched_redstone"
       },
       {
-        count: 64,
+        count: 128,
         item: "mekanism:enriched_diamond"
       },
       {
-        count: 64,
+        count: 128,
         item: "mekanism:enriched_refined_obsidian"
       },
       {
-        count: 64,
-        item: "fluxnetworks:flux_dust"
+        count: 256,
+        item: "create:experience_block"
       }
     ]
   })
@@ -532,6 +534,23 @@ ServerEvents.recipes(e => {
     transitionalItem: {
       item: "create_things_and_misc:vibration_mechanism"
     }
+  })
+  //#endregion
+  //#region - Carbon Powder
+  e.remove({ id: "createchromaticreturn:carbon_powder_recipe" })
+  e.custom({
+    type: "create:crushing",
+    ingredients: [
+      {
+        item: "minecraft:charcoal"
+      }
+    ],
+    processingTime: 1200,
+    results: [
+      {
+        item: "createchromaticreturn:carbon_powder"
+      }
+    ]
   })
   //#endregion
 })

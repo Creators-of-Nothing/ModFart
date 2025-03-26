@@ -99,7 +99,7 @@ ServerEvents.recipes(e => {
   e.shaped("solarpanels:creative_energy_tablet", ["ABA", "CDC", "ABA"], {
     A: "extendedcrafting:flux_star",
     B: "kubejs:antimatter_plate",
-    C: "moreplates:the_ultimate_gear",
+    C: "kubejs:the_ultimate_gear",
     D: "solarpanels:photonic_energy_tablet"
   })
   e.shaped("solarpanels:creative_solar_panel", ["AAA", "BCB", "DED"], {
@@ -205,19 +205,19 @@ ServerEvents.recipes(e => {
   potting(
     "mekanism:creative_fluid_tank",
     "mekanism:upgrade_filter",
-    "moreplates:osmium_gear",
+    "kubejs:osmium_gear",
     "kubejs:hdpe_gear",
     "mekanism:ultimate_mechanical_pipe",
-    "moreplates:tin_gear",
+    "kubejs:tin_gear",
     "twilightforest:giant_leaves",
     "mekanism:ultimate_fluid_tank",
     "kubejs:polonium_gear",
     "mekanism:ultimate_fluid_tank",
-    "moreplates:lead_gear",
+    "kubejs:lead_gear",
     "kubejs:plutonium_gear",
     "extradisks:infinite_fluid_storage_part",
-    "moreplates:the_ultimate_gear",
-    "moreplates:uranium_gear",
+    "kubejs:the_ultimate_gear",
+    "kubejs:uranium_gear",
     "twilightforest:giant_obsidian",
     "mekanism:ultimate_fluid_tank",
     "kubejs:antimatter_gear",
@@ -225,25 +225,25 @@ ServerEvents.recipes(e => {
     "mekanism:ultimate_fluid_tank",
     "twilightforest:giant_cobblestone",
     "mekanism:ultimate_fluid_tank",
-    "moreplates:bronze_gear",
+    "kubejs:bronze_gear",
     "twilightforest:giant_log"
   )
   potting(
     "mekanism:creative_bin",
     "mekanism:upgrade_filter",
-    "moreplates:osmium_gear",
+    "kubejs:osmium_gear",
     "kubejs:hdpe_gear",
     "mekanism:ultimate_logistical_transporter",
-    "moreplates:tin_gear",
+    "kubejs:tin_gear",
     "twilightforest:giant_leaves",
     "mekanism:ultimate_bin",
     "kubejs:polonium_gear",
     "solarpanels:creative_solar_panel",
-    "moreplates:lead_gear",
+    "kubejs:lead_gear",
     "kubejs:plutonium_gear",
     "extradisks:infinite_storage_part",
     "minecraft:bedrock",
-    "moreplates:uranium_gear",
+    "kubejs:uranium_gear",
     "twilightforest:giant_obsidian",
     "mekanism:creative_fluid_tank",
     "minecraft:bedrock",
@@ -251,25 +251,25 @@ ServerEvents.recipes(e => {
     "mekanism:creative_chemical_tank",
     "twilightforest:giant_cobblestone",
     "mekanism:creative_energy_cube",
-    "moreplates:bronze_gear",
+    "kubejs:bronze_gear",
     "twilightforest:giant_log"
   )
   potting(
     "mekanism:creative_chemical_tank",
     "mekanism:upgrade_filter",
-    "moreplates:osmium_gear",
+    "kubejs:osmium_gear",
     "kubejs:hdpe_gear",
     "mekanism:ultimate_pressurized_tube",
-    "moreplates:tin_gear",
+    "kubejs:tin_gear",
     "twilightforest:giant_leaves",
     "mekanism:ultimate_chemical_tank",
     "kubejs:polonium_gear",
     "mekanism:ultimate_chemical_tank",
-    "moreplates:lead_gear",
+    "kubejs:lead_gear",
     "kubejs:plutonium_gear",
     "create:netherite_backtank",
-    "moreplates:the_ultimate_gear",
-    "moreplates:uranium_gear",
+    "kubejs:the_ultimate_gear",
+    "kubejs:uranium_gear",
     "twilightforest:giant_obsidian",
     "mekanism:ultimate_chemical_tank",
     "kubejs:antimatter_gear",
@@ -277,7 +277,7 @@ ServerEvents.recipes(e => {
     "mekanism:ultimate_chemical_tank",
     "twilightforest:giant_cobblestone",
     "mekanism:ultimate_chemical_tank",
-    "moreplates:bronze_gear",
+    "kubejs:bronze_gear",
     "twilightforest:giant_log"
   )
   //#endregion
@@ -301,7 +301,7 @@ ServerEvents.recipes(e => {
         item: "mekanism:upgrade_filter"
       },
       B: {
-        item: "moreplates:osmium_gear"
+        item: "kubejs:osmium_gear"
       },
       C: {
         item: "kubejs:hdpe_gear"
@@ -310,7 +310,7 @@ ServerEvents.recipes(e => {
         item: "mekanism:ultimate_universal_cable"
       },
       E: {
-        item: "moreplates:tin_gear"
+        item: "kubejs:tin_gear"
       },
       F: {
         item: "twilightforest:giant_leaves"
@@ -325,7 +325,7 @@ ServerEvents.recipes(e => {
         item: "mekanism:ultimate_induction_provider"
       },
       J: {
-        item: "moreplates:lead_gear"
+        item: "kubejs:lead_gear"
       },
       K: {
         item: "kubejs:plutonium_gear"
@@ -334,10 +334,10 @@ ServerEvents.recipes(e => {
         item: "fluxnetworks:gargantuan_flux_storage"
       },
       M: {
-        item: "moreplates:the_ultimate_gear"
+        item: "kubejs:the_ultimate_gear"
       },
       N: {
-        item: "moreplates:uranium_gear"
+        item: "kubejs:uranium_gear"
       },
       O: {
         item: "twilightforest:giant_obsidian"
@@ -361,7 +361,7 @@ ServerEvents.recipes(e => {
         item: "wormhole:creative_energy_cell"
       },
       V: {
-        item: "moreplates:bronze_gear"
+        item: "kubejs:bronze_gear"
       },
       W: {
         item: "twilightforest:giant_log"

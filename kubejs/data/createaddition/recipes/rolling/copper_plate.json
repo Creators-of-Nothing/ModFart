@@ -1,7 +1,7 @@
 {
 	"type":"createaddition:rolling",
 	"input": {
-      	"item": "moreplates:copper_plate"
+      	"item": "kubejs:copper_plate"
 	},
 	"result": {
 		"item": "createaddition:copper_wire",

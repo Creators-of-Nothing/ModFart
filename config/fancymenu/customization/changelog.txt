@@ -1,0 +1,146 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1742958269628
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 20
+  [loading_requirement_container_meta:e4aa04fd-e570-4d34-b272-22bd77f5f692-1742958269639] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1009
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/scroller.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #000000
+  element_type = image
+  instance_identifier = e1efb7a5-f136-4c5a-a92a-e6b30534ecd3-1742942246009
+  custom_element_layer_name = Background_changelog
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 0.5
+  auto_sizing = false
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2056
+  sticky_anchor = false
+  anchor_point = mid-centered
+  x = 204
+  y = -222
+  width = 276
+  height = 445
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 97933153-fe46-4581-baeb-5d6d8b79c139-1742942246009
+  [loading_requirement_container_meta:97933153-fe46-4581-baeb-5d6d8b79c139-1742942246009] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+
+element {
+  interactable = true
+  source = # Changelog - ModFart-1.2.0%n%%n%## [Résumé]%n%%n%- Réfaction quasi-totale du code%n%- Ajout d'un arbre de progression dans le livre de quêtes%n%- Menu principal en cours de refonte totale%n%- Rangement dans JEI%n%- Suppression de Phantasmic et de MorePlates%n%- Ajout de Mekanism Covers et Item Placer%n%%n%### [Ajouts]%n%%n%- Ajout des Cocoa Beans dans le Market%n%- Nouvelle Plate en Shadow Steel (qui vient remplacer la Cyber Plating)%n%- Ajout des mobs et loot manquants dans les Mobs Cages%n%- Ajout des plantes manquantes dans les Botany Pots%n%- Ajout d'un décraft de la Depthrock%n%- Ajout d'un craft qui permet de Blast le Neptune Bounty pour récupérer un Neptunium Nugget%n%- Ajout des Wandering et Goblins Traders en mob interdits par la Dread Lamp%n%- Ajout des DNA dans les outils pouvant blesser le Slider de The Aether%n%- Ajout d'un craft permettant de faire de la Flux Dust avec le Farseer Arm d'Alex's Mobs%n%- Ajout du tags "minecraft:boats" et "minecraft:chest_boats" pour les bateaux qui ne les avaient pas encore%n%- Ajout d'un craft pour toutes les Templates (en plus de la duplication)%n%- Le livre de quêtes apparaît directement dans l'inventaire à la première connexion%n%%n%### [Suppressions]%n%%n%- Suppression des Fish Fillet d'Aquaculture (ainsi que les recettes se faisant avec)%n%- Suppression des crafts qui permettaient de faire du Coal Dust à partir de la Sawdust dans l'Enrichment Chamber%n%- Suppression des minerais de Create Unbreakable%n%- Suppression du Shattered Dimensional Carver et de la Transmutation Table d'Alex's Mobs%n%- Suppression du Flint Block de Supplementaries%n%- Suppression de tous les WIP et objets inutiles dans JEI%n%- Suppression du Void Leviathan sur la Dreadful Dirt%n%- Suppression des Lightning, Cooking et Arrow Upgrades de Caged Mobs%n%- Suppression de l'annonce dans le chat du premier advancement de Zelda%n%- Suppression de crafts permettant de faire des Block of Experience avec du Honey ou des Slimeballs%n%%n%### [Changements]%n%%n%- Modification du boss de fin de la Twilight%n%- Le logo du processus du modpack a été mise à jour%n%- Modification du craft de l'Irromolding%n%- Modification des crafts utilisant des items/blocks de Phantasmic%n%- Modifications des noms des mobs (rangement, retrait et ajouts divers)%n%- Reprise temporaire des assets de l'ancien mod 'MorePlates' en attendant d'avoir les nôtres%n%- Menu principal est en cours de refonte%n%- Les onglets de advancements seront maintenant dans l'ordre alphabétique%n%- Le craft du Carbon Powder a été simplifié%n%- Augmentation du nombre de Pebbles quand on Crush de la Cobblestone%n%%n%### [Bugfixes]%n%%n%- Ajout des Wireless Grid manquants en Curio%n%- Ajout des liquides/buckets/bottles manquant(e)s dans le Drain et dans le Spout%n%- Suppression de l'Experience Sheet qui faisait doublon avec l'Experience Plate%n%- La Coal Rod est de nouveau craftable%n%- Réparation du crafts des Pump Upgrades de Sophisticated Storage%n%- Suppression du doublon de Mustard Seeds Seed dans le Market%n%- La Creative Source Jar d'Ars Nouveau peut maintenant être récupérée%n%- Block Tag "forge:modfart/ores" pour les blocs de minerais%n%- Résolution de toutes les Errors/Warnings%n%- Résolution de certains conflits de crafts%n%- Re-suppression du Worn Notebook à la première connexion%n%- Suppression de quelques résidus de crafts ne correspondant pas à la duplication des minerais
+  source_mode = direct
+  shadow = true
+  scale = 0.9
+  base_color = #FFFFFFFF
+  text_border = 1
+  line_spacing = 1
+  grabber_texture_normal = [source:local]/config/fancymenu/assets/scroller.png
+  grabber_texture_hover = [source:local]/config/fancymenu/assets/scroller.png
+  horizontal_grabber_texture_normal = [source:local]/config/fancymenu/assets/scroller.png
+  horizontal_grabber_texture_hover = [source:local]/config/fancymenu/assets/scroller.png
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 32ed25a4-72a2-407c-8b9c-a1899f0439dd-1742701711746
+  custom_element_layer_name = Changelog
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = every_time
+  fade_in_speed = 1.0
+  fade_out = every_time
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 3840
+  auto_sizing_base_screen_height = 2056
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = e1efb7a5-f136-4c5a-a92a-e6b30534ecd3-1742942246009
+  x = 5
+  y = 5
+  width = 257
+  height = 435
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = f48c0a6b-1fde-493d-bcaa-3c98feb7f86a-1742701711745
+  [loading_requirement_container_meta:f48c0a6b-1fde-493d-bcaa-3c98feb7f86a-1742701711745] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+}
+

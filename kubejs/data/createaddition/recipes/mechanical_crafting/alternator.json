@@ -11,10 +11,10 @@
       "item": "createaddition:capacitor"
     },
     "I": {
-      "item": "moreplates:iron_plate"
+      "item": "kubejs:iron_plate"
     },
     "R": {
-      "item": "moreplates:iron_rod"
+      "item": "kubejs:iron_rod"
     },
     "S": {
       "item": "createaddition:copper_spool"

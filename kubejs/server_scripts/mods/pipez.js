@@ -34,7 +34,7 @@ ServerEvents.recipes(e => {
       B: element
     })
   }
-  potting_pipes_basic("pipez:basic_upgrade", "moreplates:redstone_plate", "minecraft:iron_ingot")
+  potting_pipes_basic("pipez:basic_upgrade", "kubejs:redstone_plate", "minecraft:iron_ingot")
   potting_pipes_basic("pipez:improved_upgrade", "pipez:basic_upgrade", "minecraft:gold_ingot")
   potting_pipes_basic("pipez:advanced_upgrade", "pipez:improved_upgrade", "minecraft:diamond")
   potting_pipes_basic("pipez:ultimate_upgrade", "pipez:advanced_upgrade", "minecraft:netherite_ingot")
@@ -49,10 +49,10 @@ ServerEvents.recipes(e => {
       B: plate
     })
   }
-  potting_pipes_plates("pipez:basic_upgrade", "moreplates:redstone_plate", "moreplates:iron_plate")
-  potting_pipes_plates("pipez:improved_upgrade", "pipez:basic_upgrade", "moreplates:gold_plate")
-  potting_pipes_plates("pipez:advanced_upgrade", "pipez:improved_upgrade", "moreplates:diamond_plate")
-  potting_pipes_plates("pipez:ultimate_upgrade", "pipez:advanced_upgrade", "moreplates:netherite_plate")
+  potting_pipes_plates("pipez:basic_upgrade", "kubejs:redstone_plate", "kubejs:iron_plate")
+  potting_pipes_plates("pipez:improved_upgrade", "pipez:basic_upgrade", "kubejs:gold_plate")
+  potting_pipes_plates("pipez:advanced_upgrade", "pipez:improved_upgrade", "kubejs:diamond_plate")
+  potting_pipes_plates("pipez:ultimate_upgrade", "pipez:advanced_upgrade", "kubejs:netherite_plate")
   potting_pipes_plates(
     "pipez:infinity_upgrade",
     "pipez:ultimate_upgrade",
@@ -76,10 +76,10 @@ ServerEvents.recipes(e => {
       ]
     })
   }
-  potting_pipes_deploying("pipez:basic_upgrade", "moreplates:redstone_plate", "moreplates:iron_plate")
-  potting_pipes_deploying("pipez:improved_upgrade", "pipez:basic_upgrade", "moreplates:gold_plate")
-  potting_pipes_deploying("pipez:advanced_upgrade", "pipez:improved_upgrade", "moreplates:diamond_plate")
-  potting_pipes_deploying("pipez:ultimate_upgrade", "pipez:advanced_upgrade", "moreplates:netherite_plate")
+  potting_pipes_deploying("pipez:basic_upgrade", "kubejs:redstone_plate", "kubejs:iron_plate")
+  potting_pipes_deploying("pipez:improved_upgrade", "pipez:basic_upgrade", "kubejs:gold_plate")
+  potting_pipes_deploying("pipez:advanced_upgrade", "pipez:improved_upgrade", "kubejs:diamond_plate")
+  potting_pipes_deploying("pipez:ultimate_upgrade", "pipez:advanced_upgrade", "kubejs:netherite_plate")
   potting_pipes_deploying(
     "pipez:infinity_upgrade",
     "pipez:ultimate_upgrade",

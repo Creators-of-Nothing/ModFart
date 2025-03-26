@@ -25,7 +25,9 @@ ServerEvents.recipes(e => {
     { id: "deeperdarker:copper_ingot_from_smelting_sculk_stone_copper_ore" },
     { id: "deeperdarker:copper_ingot_from_blasting_sculk_stone_copper_ore" },
     { id: "deeperdarker:iron_ingot_from_smelting_sculk_stone_iron_ore" },
-    { id: "deeperdarker:iron_ingot_from_blasting_sculk_stone_iron_ore" }
+    { id: "deeperdarker:iron_ingot_from_blasting_sculk_stone_iron_ore" },
+    { id: /create:crushing\/compat\/aether\// },
+    { id: "create:crushing/gilded_blackstone" }
   ])
 })
 //#endregion

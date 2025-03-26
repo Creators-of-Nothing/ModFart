@@ -158,7 +158,7 @@ ServerEvents.recipes(e => {
               item: "kubejs:blank_template_trim"
             },
             {
-              item: "moreplates:diamond_plate"
+              item: "kubejs:diamond_plate"
             }
           ],
           results: [
@@ -281,7 +281,7 @@ ServerEvents.recipes(e => {
               item: "kubejs:blank_template_upgrade"
             },
             {
-              item: "moreplates:diamond_plate"
+              item: "kubejs:diamond_plate"
             }
           ],
           results: [

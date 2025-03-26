@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
     B: "extendedcrafting:the_ultimate_catalyst",
     C: "ars_elemental:necrotic_focus",
     D: "kubejs:nether_star_plate",
-    E: "moreplates:diamond_plate",
+    E: "kubejs:diamond_plate",
     F: "ars_nouveau:thread_undying"
   })
   //#endregion

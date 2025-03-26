@@ -62,7 +62,7 @@ ServerEvents.recipes(e => {
       input: { item: "extendedcrafting:the_ultimate_catalyst" },
       ingredients: [
         { item: "extradisks:withering_processor" },
-        { item: "moreplates:quartz_enriched_gear" },
+        { item: "kubejs:quartz_enriched_gear" },
         { item: "extradisks:withering_processor" },
         { item: "mekanism:qio_drive_supermassive" },
         { item: A },
@@ -89,7 +89,7 @@ ServerEvents.recipes(e => {
       input: { item: "extendedcrafting:the_ultimate_catalyst" },
       ingredients: [
         { item: "extradisks:withering_processor" },
-        { item: "moreplates:quartz_enriched_gear" },
+        { item: "kubejs:quartz_enriched_gear" },
         { item: "extradisks:withering_processor" },
         { item: B },
         { item: "extradisks:advanced_machine_casing" },
@@ -129,17 +129,17 @@ ServerEvents.recipes(e => {
       input: { item: "extendedcrafting:the_ultimate_catalyst" },
       ingredients: [
         { item: "extradisks:withering_processor" },
-        { item: "moreplates:quartz_enriched_gear" },
+        { item: "kubejs:quartz_enriched_gear" },
         { item: "extradisks:withering_processor" },
-        { item: "moreplates:silicon_plate" },
-        { item: "moreplates:ender_plate" },
-        { item: "moreplates:silicon_plate" },
+        { item: "kubejs:silicon_plate" },
+        { item: "kubejs:ender_plate" },
+        { item: "kubejs:silicon_plate" },
         { item: "extradisks:withering_processor" },
         { item: A },
         { item: "extradisks:withering_processor" },
-        { item: "moreplates:silicon_plate" },
-        { item: "moreplates:ender_plate" },
-        { item: "moreplates:silicon_plate" }
+        { item: "kubejs:silicon_plate" },
+        { item: "kubejs:ender_plate" },
+        { item: "kubejs:silicon_plate" }
       ],
       result: { item: output }
     })
@@ -165,7 +165,7 @@ ServerEvents.recipes(e => {
     pattern: ["AAABAAA", "A  A  A", "C DED C", "FEEGEEF", "C DED C", "A  H  A", "AACFCAA"],
     key: {
       A: {
-        item: "moreplates:silicon_plate"
+        item: "kubejs:silicon_plate"
       },
       B: {
         item: "kubejs:deep_gear"
@@ -174,10 +174,10 @@ ServerEvents.recipes(e => {
         item: "extradisks:withering_processor"
       },
       D: {
-        item: "moreplates:diamond_plate"
+        item: "kubejs:diamond_plate"
       },
       E: {
-        item: "moreplates:ender_plate"
+        item: "kubejs:ender_plate"
       },
       F: {
         item: "extendedcrafting:the_ultimate_catalyst"
@@ -186,7 +186,7 @@ ServerEvents.recipes(e => {
         item: "universalgrid:wireless_universal_grid"
       },
       H: {
-        item: "moreplates:crystaltine_gear"
+        item: "kubejs:crystaltine_gear"
       }
     },
     result: {
@@ -199,7 +199,7 @@ ServerEvents.recipes(e => {
     pattern: ["ABA", "CDE", "AFA"],
     key: {
       A: {
-        item: "moreplates:diamond_plate"
+        item: "kubejs:diamond_plate"
       },
       B: {
         item: "kubejs:deep_gear"
@@ -208,7 +208,7 @@ ServerEvents.recipes(e => {
         item: "refinedstorage:creative_wireless_fluid_grid"
       },
       D: {
-        item: "moreplates:crystaltine_gear"
+        item: "kubejs:crystaltine_gear"
       },
       E: {
         item: "refinedstorageaddons:creative_wireless_crafting_grid"
