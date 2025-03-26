@@ -1,0 +1,651 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "3CA4B0CAAB94EE6B"
+	icon: "refinedstorage:creative_controller"
+	id: "62F70B4B1E06DE57"
+	images: [{
+		height: 8.0d
+		image: "kubejs:textures/ftbquests/refined.png"
+		rotation: 0.0d
+		width: 14.48d
+		x: -0.25d
+		y: -8.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["C'est littéralement le coeur de Refined, sans lui, rien ne fonctionne. C'est le seul bloc qui nécessite de l'énergie pour fonctionner. Toutes les autres machines de Refined qui sont liés à ce controller fonctionneront si ce dernier est alimenté."]
+			id: "1533F1C288682A1F"
+			rewards: [{
+				count: 4
+				id: "7249221E5D3C3399"
+				item: "minecraft:iron_ingot"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1BD6DB0DF06BE11E"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Un coeur pour un coeur"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Permet de faire des crafts automatiquement."]
+			id: "35459D7D2205AAC6"
+			rewards: [{
+				id: "4C736FC03C524B49"
+				item: "minecraft:quartz"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FA6216E2EA1FD92"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35459D7D2205AAC6"]
+			id: "4D184E22A98059E4"
+			rewards: [{
+				id: "103D88039B8F4094"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "622D3DDFBC8213B8"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D184E22A98059E4"]
+			id: "4FB2731EF2AECAD5"
+			rewards: [{
+				id: "04817C125B534C30"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6375BB326F4F4016"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4FB2731EF2AECAD5"]
+			id: "47FA5563FABB63D1"
+			rewards: [{
+				id: "3EC79FE2C731C774"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB133AF853A7F80"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47FA5563FABB63D1"]
+			id: "0A6EFB728EFCB628"
+			rewards: [{
+				id: "1AE4800BA82F96EA"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50746DAC9137A6B4"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"39FFD46F6C703FB0"
+				"0DA58DABB3FD815C"
+			]
+			description: ["Une télécommande tout en un ! Il vous faudra de l'énergie (je vous conseille d'utiliser le mod Flux Network pour avoir de l'énergie en wifi). Pour la setup, faites un shift clic droit avec la télécommande sur le controller."]
+			id: "697E1AD03F3B4C06"
+			rewards: [{
+				id: "07B96B7FF6E82F4A"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "16B18B403F53AAE3"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Permet de meilleures interactions entre les machines d'autres mods et Refined."]
+			id: "7D4809DBDA508FF3"
+			rewards: [{
+				id: "3A59C5EE44E4B379"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DEE9B229812A81C"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["025E028C2CE6AE79"]
+			description: ["Le constructor permet de poser les blocs qu'on lui demande de poser. Le destructor les détruit. On peut placer des upgrades Silk Touch ou Fortune 3 sur le destructor."]
+			id: "25A4E57D7819AA75"
+			rewards: [{
+				id: "7A80205A30963B9A"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DDBB8D14D037A0B"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			id: "025E028C2CE6AE79"
+			rewards: [{
+				count: 12
+				id: "4B468C7081E6D853"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "05E384B0DD8FDC79"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Permet de créer des sous réseaux, même interdimension, sans avoir besoin de recréer un système au complet. Le Transmitter doit être lié au système principal et accueillera la Network Card. Utilisez cette dernière sur le Receiver pour lié le sous réseau."]
+			id: "03BE8B51D2CC2A08"
+			rewards: [{
+				id: "1468875001F35317"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4E414847EBFE7C7C"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "12B0B892315306D7"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+			]
+			title: "Network"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			id: "2C3538C18AE7A3D9"
+			rewards: [{
+				id: "3E02F95D04525935"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0311DE4490333A8B"
+					item: "refinedstorage:speed_upgrade"
+					type: "item"
+				}
+				{
+					id: "2815B78C019A360E"
+					item: "refinedstorage:stack_upgrade"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Une antenne à qui on peut lui donner des upgrades pour utiliser sa télécommande loin et interdimension."]
+			id: "1EB29B928FB14FBC"
+			rewards: [{
+				id: "74883915D4646E17"
+				item: "minecraft:ender_pearl"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B445683FF569F46"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1EB29B928FB14FBC"]
+			description: ["La meilleure upgrade de distance, mais qui coûte&4 8.000 RF/t&r pour l'utiliser !"]
+			id: "5DA70298474694C7"
+			rewards: [{
+				id: "6A4DD26A556A0165"
+				item: "minecraft:netherite_ingot"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "57801235BF37F739"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Permet de voir et d'utiliser les fluides du réseau."]
+			id: "39FFD46F6C703FB0"
+			rewards: [{
+				id: "446E24F18410204B"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09F0ACEADD1120BF"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Permet d'utiliser des patterns à placer dans vos crafters pour qu'ils craftent vos items sur demande."]
+			id: "68AF62439DBF1558"
+			rewards: [{
+				id: "521A20E0D154F9A8"
+				item: "refinedstorage:pattern"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B9EFFB0AAFEEBC6"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Pour voir les crafts se dérouler devant vos yeux (et voir si il y a un soucis)."]
+			id: "23353F96C45F63B2"
+			rewards: [{
+				id: "6FA4060EE7AB2019"
+				item: "refinedstorage:pattern"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "25CD0569E1439829"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35459D7D2205AAC6"]
+			description: ["Permet de voir tout les crafters qui sont liés à une machine."]
+			id: "08FC2787B7BEB7B9"
+			rewards: [{
+				id: "3AD0300BDE7A008D"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6913F454529A4A96"
+				item: "refinedstorage:crafter_manager"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Permet de voir les items du réseau et de faire des crafts avec."]
+			id: "0DA58DABB3FD815C"
+			rewards: [{
+				id: "6803A49479B721F4"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08E855C1617C3DC2"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["025E028C2CE6AE79"]
+			description: [
+				"L'Exporter permet d'envoyer des items de Refined à un autre inventaire."
+				"L'Importer permet de recevoir des items d'un inventaire à Refined."
+				"L'External Storage permet de créer des stockages hors disquette, mais toujours accessibles."
+			]
+			id: "63E419BD73466A83"
+			rewards: [{
+				id: "412A860852A77096"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7493B5F30A81911E"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "23C42DB0BA453D79"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["63E419BD73466A83"]
+			description: ["Permet plus de filtres"]
+			id: "1F81E5C7F23F7FF1"
+			rewards: [{
+				id: "2A92EED2FFCD33E4"
+				item: "extrastorage:advanced_exporter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "241B044567875BEA"
+				item: "extrastorage:advanced_importer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1533F1C288682A1F"]
+			description: ["Il permet d'accueillir les disquettes de stockage."]
+			id: "15D631FA69368ABB"
+			rewards: [{
+				id: "696E08385FBFBBCD"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			tasks: [{
+				id: "775D07EBBAADB6D7"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15D631FA69368ABB"]
+			id: "3D53EBE17B824D7A"
+			rewards: [{
+				id: "029B568CF1BBA493"
+				item: "minecraft:redstone"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "01AC6651008181E0"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D53EBE17B824D7A"]
+			id: "0DB572208EB79D31"
+			rewards: [{
+				id: "757B1EBB5E612708"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FC74DCED8E0B6B7"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0DB572208EB79D31"]
+			id: "544A8A255EEE625B"
+			rewards: [{
+				id: "53F071E6249DD299"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27407E3BC17BF929"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["544A8A255EEE625B"]
+			id: "62E79B23123D4594"
+			rewards: [{
+				id: "73201EAE8C035BFD"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D126E7947CB9B4A"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62E79B23123D4594"]
+			id: "741F402A61D6B252"
+			rewards: [{
+				id: "4BE537624A7D8E89"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3239A97B8EBE35B2"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["741F402A61D6B252"]
+			id: "2E4EABE39D62C561"
+			rewards: [{
+				id: "06DEE01B632FDC3A"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "068DE3B10668F959"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2E4EABE39D62C561"]
+			id: "743C350FD24A22C4"
+			rewards: [{
+				id: "0EDB157466218140"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4172A7A481B22B27"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["15D631FA69368ABB"]
+			id: "0BECF120E352DE08"
+			rewards: [{
+				id: "4E575DA6CAA41751"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "650ACCDAB22C2C9A"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BECF120E352DE08"]
+			id: "23CCFF0EE10AE39C"
+			rewards: [{
+				id: "6DC47EA2936E822E"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AAF08F17F85FB08"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23CCFF0EE10AE39C"]
+			id: "7F3138825A03B536"
+			rewards: [{
+				id: "529EDDACA21959D8"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5383259FDA4308B6"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7F3138825A03B536"]
+			id: "40435063ED5A28AE"
+			rewards: [{
+				id: "0E7E5DA32C92E77C"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B00E1402A33A4D8"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"40435063ED5A28AE"
+				"743C350FD24A22C4"
+				"0A6EFB728EFCB628"
+				"1F81E5C7F23F7FF1"
+				"25A4E57D7819AA75"
+				"697E1AD03F3B4C06"
+				"68AF62439DBF1558"
+				"08FC2787B7BEB7B9"
+				"7D4809DBDA508FF3"
+				"23353F96C45F63B2"
+				"2C3538C18AE7A3D9"
+				"03BE8B51D2CC2A08"
+				"5DA70298474694C7"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "5DE3BC5FD22C52AC"
+			rewards: [{
+				id: "306ABFA301DF9C53"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:refined"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "51BA6937600B3FD0"
+				title: "Refined finie !"
+				type: "checkmark"
+			}]
+			title: "Refined complété !"
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	title: "Refined Storage"
+}

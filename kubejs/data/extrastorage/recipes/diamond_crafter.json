@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "moreplates:diamond_plate"
+      "item": "kubejs:diamond_plate"
     },
     "b": {
       "item": "extrastorage:gold_crafter"

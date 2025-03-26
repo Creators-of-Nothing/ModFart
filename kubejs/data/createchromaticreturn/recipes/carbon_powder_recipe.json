@@ -2,7 +2,7 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "moreplates:charcoal_plate"
+      "item": "kubejs:charcoal_plate"
     }
   ],
   "results": [

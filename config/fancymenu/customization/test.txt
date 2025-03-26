@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = title_screen
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1722293618882
-  is_enabled = true
+  last_edited_time = 1742695975345
+  is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = Menu Principal
-  [loading_requirement_container_meta:321db1ce-a9bf-4950-b6b4-ed3062ed9baa-1722287656017] = [groups:][instances:]
+  [loading_requirement_container_meta:720c400d-e9f2-4462-b44a-a49897c788bf-1742940966632] = [groups:][instances:]
 }
 
 customization {
@@ -28,6 +28,9 @@ menu_background {
   image_path = [source:local]kubejs/assets/gui/menu_screenshots.png
   slide = false
   repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
   background_type = image
 }
 
@@ -43,6 +46,11 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 
 element {

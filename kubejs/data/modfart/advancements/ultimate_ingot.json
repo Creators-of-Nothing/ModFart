@@ -1,33 +1,27 @@
 {
-    "parent": "modfart:rainbow_jelly",
-    "criteria": {
-        "0": {
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "extendedcrafting:the_ultimate_ingot"
-                        ]
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
-        }
-    },
-    "display": {
-        "icon": {
-            "item": "extendedcrafting:the_ultimate_ingot"
-        },
-        "title": "Ultimate Ingot",
-        "description": "Vous avez créé un Ultimate Ingot",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "requirements": [
-        [
-            "0"
+  "parent": "modfart:rainbow_jelly",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["extendedcrafting:the_ultimate_ingot"]
+          }
         ]
-    ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "extendedcrafting:the_ultimate_ingot"
+    },
+    "title": "Ultimate Ingot",
+    "description": "Vous avez créé un Ultimate Ingot",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["0"]]
 }

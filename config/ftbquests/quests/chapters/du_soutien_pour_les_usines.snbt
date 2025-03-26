@@ -274,11 +274,13 @@
 		}
 		{
 			description: [
-				"Ce mod permet de créer des tours à mob personnalisées. Le GM Chicken Feed permet d'obtenir un oeuf de mob. Pour l'obtenir, faites un clic droit avec un coton tige sur le mob souhaité., puis craftez le GM Chicken Feed et donnez le à un poulet."
+				"Ce mod permet de créer des tours à mob personnalisées. Le &4GM Chicken Feed&r permet d'obtenir un oeuf de mob. Pour l'obtenir, faites un clic droit avec un coton tige (&4Mob Swab&r) sur le mob souhaité, puis craftez le &4GM Chicken Feed&r et donnez le à un poulet."
 				""
-				"Le GM Chicken Feed Cursed permet d'obtenir un oeuf spécial qui, lorsqu'un clic est effectué sur de la terre, de l'herbe ou du mycelium, la convertie en terre maudite sur 5*5 blocs, ce qui fera spawn en continu des mobs agressifs liés à la dimension dans laquelle vous vous trouvez."
+				"Le &4GM Chicken Feed Cursed&r permet d'obtenir un oeuf spécial qui, lorsqu'un clic est effectué sur de la terre, de l'herbe ou du mycelium, la convertie en terre maudite sur 5*5 blocs, ce qui fera spawn en continu des mobs agressifs liés à la dimension et au biome dans lesquels vous vous trouvez."
 				""
-				"L'Ender Inhibitor permet, quand à lui, d'empêcher les téléportations dans un certain rayon."
+				"Le &4Nutritious Chicken Feed&r agit pareil que la version &4Curse&r, mais invoquera à la place des monstres et animaux passifs comme les créatures du mod &4Mythic Mount&r par exemple, ainsi que de l'herbe. Pensez à enlever l'herbe sur la Grass Convertie, sinon, elle n'invoquera plus rien."
+				""
+				"L'&4Ender Inhibitor&r permet, quand à lui, d'empêcher les téléportations dans un certain rayon."
 			]
 			id: "4D68067906944EC9"
 			rewards: [{
@@ -304,6 +306,16 @@
 					item: "mob_grinding_utils:ender_inhibitor_on"
 					type: "item"
 				}
+				{
+					id: "27CF29B99486B449"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "01A134A4834D1F55"
+					item: "mob_grinding_utils:mob_swab"
+					type: "item"
+				}
 			]
 			title: "Mob Grinding Utils"
 			x: -6.5d
@@ -313,9 +325,9 @@
 			description: [
 				"Des fours qui vont vite et qui sont upgradables. "
 				""
-				"Le \"Cooktime\" inscrit sur le four indique le temps qu'il prend à cuir un item. Cette valeur est indiquée en tick, soit 20 ticks = 1 sec."
+				"Le \"&4Cooktime&r\" inscrit sur le four indique le temps qu'il prend à cuir un item. Cette valeur est indiquée en tick, soit 20 ticks = 1 sec."
 				""
-				"Avec l'Upgrade Generator, il pourra produire de l'énergie avec du combustible, mais ne pourra plus cuir d'items."
+				"Avec l'&4Upgrade Generator&r, il pourra produire de l'énergie avec du combustible, mais ne pourra plus cuir d'items."
 			]
 			id: "3D4CA50A72A5AFD7"
 			rewards: [{
@@ -536,9 +548,9 @@
 		}
 		{
 			description: [
-				"Permet de gérer l'énergie en Wifi. Utilisez le controller pour créer votre propre network. Avec lui, vous pourrez décider si l'énergie peut se transmettre à votre personnage ou non, et dans quel partie de l'inventaire."
+				"Permet de gérer l'énergie en Wifi. Utilisez le controller pour créer votre propre network. Avec lui, vous pourrez décider si l'énergie peut se transmettre à votre personnage ou non, et dans quelle partie de l'inventaire."
 				""
-				"Le Plug envoie l'énergie depuis votre source (comme par exemple les éoliennes de Mekanism), le Point la réceptionne et la transmet à la machine ou au cable à laquel il est lié."
+				"Le &4Plug&r envoie l'énergie depuis votre source (comme par exemple les éoliennes de Mekanism), le &4Point&r la réceptionne et la transmet à la machine ou au cable à laquel il est lié."
 			]
 			id: "11D9AEA65CF56FF8"
 			rewards: [{
@@ -548,6 +560,7 @@
 				random_bonus: 8
 				type: "item"
 			}]
+			subtitle: "Energie en WIFI"
 			tasks: [
 				{
 					id: "151A98F420C94414"
@@ -605,7 +618,11 @@
 			y: 1.5d
 		}
 		{
-			description: [""]
+			description: [
+				"Le Block Placer permet de poser un bloc qui se trouve devant lui, sans conditions. Pareil pour le Fluid Placer, mais avec un liquide comme de l'eau ou de la lave."
+				""
+				"Le Block Breaker permet de casser automatiquement un bloc qui se trouve devant lui."
+			]
 			id: "50C7867DD0528A7F"
 			rewards: [{
 				id: "0F721ECC8F39970B"
@@ -683,7 +700,7 @@
 			id: "032411FBA0FE5E2F"
 			rewards: [{
 				id: "6953A2C40E0D62FF"
-				item: "cagedmobs:cooking_upgrade"
+				item: "cagedmobs:experience_upgrade"
 				type: "item"
 			}]
 			tasks: [
@@ -784,7 +801,11 @@
 				"4CCDE498FB683140"
 				"50C7867DD0528A7F"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"

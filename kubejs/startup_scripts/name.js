@@ -1,1 +1,1 @@
-Platform.mods.kubejs.name = 'ModFart'
+Platform.mods.kubejs.name = "ModFart"

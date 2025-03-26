@@ -10,7 +10,7 @@
             "item": "minecraft:iron_ingot"
         },
         "S": {
-            "item": "moreplates:flint_rod"
+            "item": "kubejs:flint_rod"
         }
     },
     "result": {

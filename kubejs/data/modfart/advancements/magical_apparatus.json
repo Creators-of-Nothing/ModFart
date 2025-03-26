@@ -1,33 +1,27 @@
 {
-    "parent": "modfart:root",
-    "criteria": {
-        "0": {
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "kubejs:magical_apparatus"
-                        ]
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
-        }
-    },
-    "display": {
-        "icon": {
-            "item": "kubejs:magical_apparatus"
-        },
-        "title": "Magical Apparatus",
-        "description": "Vous avez créé un Magical Apparatus",
-        "frame": "goal",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "requirements": [
-        [
-            "0"
+  "parent": "modfart:root",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["kubejs:magical_apparatus"]
+          }
         ]
-    ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "kubejs:magical_apparatus"
+    },
+    "title": "Magical Apparatus",
+    "description": "Vous avez créé un Magical Apparatus",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["0"]]
 }

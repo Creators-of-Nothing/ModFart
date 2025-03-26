@@ -409,7 +409,11 @@
 		}
 		{
 			dependencies: ["1533F1C288682A1F"]
-			description: ["Il permet d'accueillir les disquettes de stockage."]
+			description: [
+				"Il permet d'accueillir les disquettes de stockage."
+				""
+				"&4Attention&r : Evitez d'y ranger les items qui possèdent beaucoup de TAG sur eux, comme les spawners."
+			]
 			id: "15D631FA69368ABB"
 			rewards: [{
 				id: "696E08385FBFBBCD"
@@ -617,7 +621,11 @@
 				"03BE8B51D2CC2A08"
 				"5DA70298474694C7"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"

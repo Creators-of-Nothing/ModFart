@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bienvenue__d"
-	group: ""
+	group: "520987ECA1C88A3B"
 	icon: "paraglider:heart_container"
 	id: "1BC4F0BE553BFA35"
 	images: [{
@@ -134,6 +134,15 @@
 				"- appuyez sur &l&4R&r ou &l&4clic gauche&r pour voir la recette de l'objet si il y a."
 				"- appuyez sur &l&4U&r ou &l&4clic droit&r pour voir l'utilisation de l'objet si il y a."
 				"- appuyez sur &l&4A&r pour placer l'objet en bookmark sur la gauche de votre inventaire."
+				""
+				"Lorsque vous souhaiterez voir comment se craft un objet, vous remarquerez qu'il y a des onglets en haut de l'interface. Chaque onglet correspond à une table de craft, un four, ou plus globalement, à une machine différente. Parfois, un objet se craft ou s'obtient plus facilement via une autre machine."
+				""
+				"Egalement, vous pourrez constater que des objets \"clignottent\" dans l'interface de craft. C'est normal, cela veut dire que l'item que vous désirez crafter peut se réaliser de plusieurs façons."
+				""
+				"Si vous vous sentez perdu : "
+				""
+				"- Lorsque vous regarder un objet dans votre inventaire, il possède un nom, une description, et en bas de l'interface : le nom du mod."
+				"- Dans la barre de recherche de JEI, vous pouvez taper : &4@NomDuMod&r. Cela vous montrera tout les objets liés à ce mod. Par exemple : @Minecraft vous montrera tout les objets Vanilla."
 			]
 			icon: "itemfilters:weak_nbt"
 			id: "05FD702600B8C791"
@@ -151,7 +160,7 @@
 				"Il s'agit de notre &4&npremier&r modpack ! N'hésitez pas à nous faire des  retours !"
 				""
 				""
-				"Ce modpack est un kitchen sink, vous pouvez donc faire à peu près tout dans l'ordre que vous voulez. Cependant, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure :p N'hésitez pas à consulter ce livre de quête et JEI pour vous aider !"
+				"Ce modpack est un &4kitchen sink&r, vous pouvez donc faire à peu près tout dans l'ordre que vous voulez. Cependant, certains crafts ont été modifié pour apporter un peu plus de piquant à votre aventure :p N'hésitez pas à consulter ce livre de quête et JEI pour vous aider !"
 				""
 				"Egalement, des mises à jour régulières surviendront, n'hésitez donc pas à lire le &4changelog&r et à réaliser une &4sauvegarde&r de votre monde avant chaque mise à jour."
 			]
@@ -167,7 +176,7 @@
 		}
 		{
 			dependencies: ["690E751CEE0EE273"]
-			description: ["Vous êtes un habitant du village Graduprout. Par besoin d'aventure, par ennui, ou pour éviter la corvée de patate, vous décidez de quitter le village. Mais dehors, le monde sera sans pitié avec vos nerfs ! Vous mourrez.. souvent, mais n'ayez crainte, votre cadavre vous attendra toujours avec vos items à l'intérieur :)"]
+			description: ["Vous êtes un habitant du village Graduprout. Par besoin d'aventure, par ennui, ou pour éviter la corvée de patate, vous décidez de quitter le village. Mais dehors, le monde sera sans pitié avec vos nerfs ! Vous mourrez.. souvent, mais n'ayez crainte, votre &4cadavre&r vous attendra toujours avec vos items à l'intérieur :) Même si vous tombez dans le &4vide&r !"]
 			icon: "fantasyfurniture:decorations/bone_skeleton_pile"
 			id: "1672232E77007B5F"
 			tasks: [{
@@ -203,7 +212,7 @@
 				title: "Quête à engrenage"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -2.25d
 			y: 3.0d
 		}
 		{
@@ -221,16 +230,22 @@
 				"6F5E6255C287938E"
 				"6A0E7A7CE252E086"
 				"00DEA1892E788E39"
+				"03EE5F5F01D746A8"
+				"5B10B3822722E441"
+				"410C1DAACB4C2E64"
+				"0870E6F2F5C3759D"
+				"7E8F5FDC2370D200"
 			]
 			description: [
-				"Vous avez réussi à aller jusque là ! Toute l'équipe vous félicite et espère que vous avez passé un agréable moment sur ce modpack. Il s'agissait pour nous de notre première expérience en tant que Créateurs, et espérons que vous le recommanderez à vos amis ! "
+				"Vous avez réussi à aller jusque là ! Toute l'équipe vous félicite et espère que vous avez passé un agréable moment sur ce modpack. Il s'agissait pour nous de notre &4première expérience&r en tant que &4Créateurs&r, et espérons que vous le recommanderez à vos amis ! "
 				""
 				"A très bientôt, pour un prochain modpack !"
 				""
 				""
-				"Creators of Nothing."
+				"&5Creators of Nothing&r."
 			]
 			hide: true
+			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "543088258D2EA27A"
 			rewards: [
@@ -314,7 +329,7 @@
 			description: [
 				"Ce type de quête n'apparaît que lorsque vous complétez un chapitre. Une petite récompense vous y attend !"
 				""
-				"Si vous complétez tout les chapitres, alors une ULTIME récompense vous attendra dans ce chapitre !"
+				"Si vous complétez tout les chapitres, alors une &4ULTIME&r récompense vous attendra dans ce chapitre !"
 			]
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "0870E6F2F5C3759D"
@@ -330,8 +345,41 @@
 				title: "Complétions"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 2.25d
 			y: 3.0d
+		}
+		{
+			description: [
+				"Si vous débutez, vous risquez de vous sentir perdu en ce qui concerne les contrôles du jeu. N'ayez crainte, elles sont personnalisables dans l'onglet \"&4Contrôles&r\". Lorsque vous êtes dans cet onglet, vous pouvez cliquer sur la touche que vous souhaitez changer, et soit changer la touche en appuyant dessus, soit en appuyant sur la touche &4Echap&r pour enlever la touche. Je vous conseille de n'utiliser que les contrôles importants. En voici une liste non-exhaustive :"
+				""
+				"- &4Mouvement&r"
+				"- &4Gameplay&r"
+				"- &4Inventaire&r"
+				"- &4Multiplayer&r"
+				"- &4Create&r -> garder la touche Ponder active, elle vous donnera un tuto sur le fonctionne du mod."
+				"- &4FTB Quests&r -> vous permet d'ouvrir ce livre de quête avec une touche"
+				"- &4FTB Ultimine&r -> permet de miner jusqu'à 64 blocs identiques dans un certain rayon autour de vous. Il faut pour cela rester appuyer sur la touche pendant que vous cassez le bloc que vous visez. Pratique pour casser un arbre d'un coup !"
+				"- &4JEI&r (Hovering with Mouse)"
+				"- &4Jade&r -> c'est le petit carré qui affiche le nom de ce que vous regardez dans un cadre. Il est personnalisable."
+				"- &4JourneyMap&r -> c'est la minimap. Ne gardez que le fait de créer des Waypoints et de montrer la map entière. Les Waypoints sont des balises qui vous permettent de ne plus vous perdre !"
+				"- &4Mekanism&r : laisser juste le Show Description et le Show Details"
+				"- &4Sophisticated Backpacks&r -> quand vous aurez votre sac à dos, vous pourrez l'ouvrir en une seule touche"
+				"- &4Voice Chat&r -> si vous jouez en multijoueur"
+			]
+			id: "410C1DAACB4C2E64"
+			rewards: [{
+				id: "14C8FDD07BD8B24C"
+				item: "moa_decor_electronics:c_playstation_1"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "117EF463D79A80DE"
+				title: "Les contrôles"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.375d
 		}
 	]
 	title: "Bienvenue ! :D"

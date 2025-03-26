@@ -148,7 +148,11 @@
 		}
 		{
 			dependencies: ["27B68158D18F8BC9"]
-			description: ["Tu ne peux le vaincre qu'en le tapant avec une pioche."]
+			description: [
+				"Il se trouve quelque part sous terre. L'entrée est partiellement visible."
+				""
+				"Tu ne peux le vaincre qu'en le tapant avec une pioche."
+			]
 			icon: "aether:slider_spawn_egg"
 			id: "2F0BE54F49E6505A"
 			rewards: [{
@@ -157,39 +161,46 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			subtitle: "Tuer le Slider"
 			tasks: [{
-				entity: "aether:slider"
-				icon: "aether:slider_spawn_egg"
-				id: "653C24C39239CACA"
-				type: "kill"
-				value: 1L
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "1ED2035D1E4300F8"
+				type: "advancement"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 1.25d
+			y: 2.5d
 		}
 		{
 			dependencies: ["27B68158D18F8BC9"]
-			description: ["Pour pouvoir lui parler et la vaincre, tu dois lui ramener 10 médailles que tu récupères sur les autres Valkyries."]
+			description: [
+				"Elle se trouve dans un temple gigantesque."
+				""
+				"Pour pouvoir lui parler et la vaincre, tu dois lui ramener 10 médailles que tu récupères sur les autres Valkyries."
+			]
 			id: "537CAD231AA69727"
 			rewards: [{
-				id: "2F7663E0BD7F8857"
-				item: "minecraft:diamond"
-				random_bonus: 3
+				id: "384A683D6D87BDCA"
+				item: "aether:invisibility_cloak"
 				type: "item"
 			}]
+			subtitle: "Tuer la Valkyrie Queen"
 			tasks: [{
-				entity: "aether:valkyrie_queen"
-				icon: "aether:valkyrie_spawn_egg"
-				id: "0E3848EDE0332B18"
-				type: "kill"
-				value: 1L
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "0FE5D7ADADE5DA42"
+				type: "advancement"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: 1.25d
+			y: -2.25d
 		}
 		{
 			dependencies: ["27B68158D18F8BC9"]
-			description: ["Après l'avoir ennuyé avec des banalités, tu dois lui renvoyer ses boules sur lui."]
+			description: [
+				"Il se trouve dans une île surmontée de beaucoup de Golden Oaks. L'entrée est partiellement visible."
+				""
+				"Après l'avoir ennuyé avec des banalités, tu dois lui renvoyer ses boules bleues sur lui."
+			]
 			id: "798EBFBF52C2974D"
 			rewards: [{
 				id: "36DD4E7E05372854"
@@ -197,15 +208,15 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			subtitle: "Tuer le Sun Spirit"
 			tasks: [{
-				entity: "aether:sun_spirit"
-				icon: "aether:sun_spirit_spawn_egg"
-				id: "32F379EC358C2C4B"
-				type: "kill"
-				value: 1L
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "09D61FA874C32B18"
+				type: "advancement"
 			}]
 			x: 2.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["67BB99D58054E451"]
@@ -277,7 +288,7 @@
 		}
 		{
 			dependencies: ["67BB99D58054E451"]
-			description: ["Visiter tout les biomes Vanilla du Nether."]
+			description: ["Visiter tout les biomes &4Vanilla&r du Nether."]
 			id: "5C96F2D3B60E2692"
 			rewards: [{
 				id: "490BD909E6BDD787"
@@ -368,6 +379,7 @@
 		}
 		{
 			dependencies: ["3A58E2FE8C566938"]
+			description: ["C'est un boss qui se promène dans les structures du mod Enlightend."]
 			id: "124DCC1A1FCD9CBA"
 			rewards: [{
 				id: "7762AA39E468067E"
@@ -387,6 +399,7 @@
 		}
 		{
 			dependencies: ["67BB99D58054E451"]
+			description: ["Pour l'invoquer, il faudra trouver une structure du mod &4Stalwart Dungeon&r qui se trouve dans les biomes &4Nether Wastes&r et &4Crimson Forest&r. Il faudra faire un clic droit sur le bloc central pour créer le donjon. Une fois fait, cherchez le &4Nether Keeper Altar&r. Faites un clic droit avec une &4Nether Star&r pour invoquer le boss."]
 			id: "5513E5C6CD22AF09"
 			rewards: [{
 				id: "5F8D9296A3E53CD4"
@@ -411,6 +424,7 @@
 		}
 		{
 			dependencies: ["67BB99D58054E451"]
+			description: ["Pour l'invoquer, il faudra trouver une structure du mod &4Stalwart Dungeon&r qui se trouve dans les biomes &4Soul Sand Valley&r et &4Warped Forest&r. Une fois fait, cherchez l'&4Awful Ghast Altar&r. Faites un clic droit avec une &4Nether Star&r pour invoquer le boss."]
 			id: "6FA631077CEEC570"
 			rewards: [{
 				id: "50C5143125DEAFE5"
@@ -606,7 +620,7 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.75d
 			y: -6.0d
 		}
 		{
@@ -627,8 +641,8 @@
 				item: "twilightforest:magic_beans"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -6.25d
+			x: 5.25d
+			y: -6.5d
 		}
 		{
 			dependencies: ["032302AB68FE9853"]
@@ -656,8 +670,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.5d
+			x: 3.75d
+			y: -5.75d
 		}
 		{
 			dependencies: ["4875CFC8DEA30A6D"]
@@ -678,11 +692,12 @@
 		}
 		{
 			dependencies: ["3CD42F5A3B54B19E"]
-			description: ["Cette lampe permet de cramer les vignes qui vous bloqueront le chemin pour le chateau final."]
+			description: ["Cette lampe permet de brûler les vignes qui vous bloqueront le chemin pour le chateau final. Elle se trouve dans le &4Cube d'Obsienne Géant&r, sous terre, sous l'&4île des Géants&r."]
 			id: "1B39E76FBF60DE52"
 			rewards: [{
-				id: "161C689238735A7F"
-				item: "twilightforest:twilight_portal_miniature_structure"
+				count: 64
+				id: "7BAB270191E34D09"
+				item: "supplementaries:ash"
 				type: "item"
 			}]
 			tasks: [{
@@ -696,8 +711,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 5.0d
+			y: -4.75d
 		}
 		{
 			dependencies: ["25C1A2DA316A1D34"]
@@ -1048,6 +1063,7 @@
 		}
 		{
 			dependencies: ["27B68158D18F8BC9"]
+			description: ["Pour récupérer les blocs du Mod Ancient Aether, vous avez besoin de crafter un &4outils du Mod Aether&r. Une pioche pour les minerais et la pierre, une Hoe pour les nuages, etc ..."]
 			id: "3E2325728707E342"
 			rewards: [{
 				id: "764E767804C6567B"
@@ -1121,7 +1137,7 @@
 			description: [
 				"Un donjon qui vous mènera à un donjon, qui vous mènera à un donjon ..."
 				""
-				"Lorsque vous avez votre clef, il faut l'utiliser sur un End Portal vide. Si le votre est ouvert, vous pouvez utiliser la clef sur un End Portal plein : cela enlèvera l'oeil, mais n'éteindra pas le portail."
+				"Lorsque vous avez votre clef, il faut l'utiliser sur un &4End Portal vide&r. Si le votre est ouvert, vous pouvez utiliser la clef sur un &4End Portal plein&r : cela enlèvera l'oeil, mais n'éteindra pas le portail."
 				"{image:kubejs:textures/ftbquests/donjon.png width:160 height:100 align:1}"
 			]
 			id: "69D83891C3CDD8D4"
@@ -1435,7 +1451,7 @@
 				"- Donnez à manger aux abeilles 48 fois"
 				"- Donnes naissance à 16 bébés abeilles"
 				"- Tues 4 Endermites"
-				"- Tues l'enderdragon en portant une armure complète du mod (Helmet, Chestplate, Legging et Boots)"
+				"- Tues l'enderdragon en portant une armure complète du mod (Helmet, Chestplate, Legging et Boots). Le Chesplate se trouve un peu partout, les autres parties se trouvent dans l'un des quatre coffres chez la Reine. Aussi, il existe plusieurs variantes des armures, elles sont toutes valable pour la quête."
 				"- Échanges 256 fois avec la reine des abeilles"
 				""
 				"Vous pouvez retrouver cette liste dans la page Succès, catégorie Bumblezone."
@@ -1500,8 +1516,14 @@
 				"21542C0BBE0F243D"
 				"1E5BB1CEF0757AF6"
 				"395CD0576023F021"
+				"69A9A39AD3C6B21E"
+				"15FDDF45C0825287"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
@@ -1528,6 +1550,69 @@
 			}]
 			x: 6.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: ["Ce boss se situe dans une grande tour. Au sommet, se trouve le boss, une baleine géante. Pour activer le combat, il faut cliquer sur le bloc &4SongStone&r, au sommet."]
+			id: "69A9A39AD3C6B21E"
+			rewards: [{
+				id: "7C26AB037F9EE290"
+				item: {
+					Count: 1
+					id: "lost_aether_content:agility_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Tuer l'Aerwhale King"
+			tasks: [{
+				advancement: "lost_aether_content:platinum_dungeon"
+				criterion: ""
+				id: "3D8958E417BAED4E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B39E76FBF60DE52"]
+			description: [
+				"Vous vous attendiez à ce que ce soit fini ?! Nop ! Nous vous avons rajouter un petit boss de fin. Rendez-vous dans le château final ..."
+				""
+				"Bonne chance !"
+			]
+			icon: "alexsmobs:spawn_egg_farseer"
+			id: "15FDDF45C0825287"
+			rewards: [
+				{
+					id: "10F04CCAABB79574"
+					item: "twilightforest:twilight_portal_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "76A39F37E123458D"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+					type: "item"
+				}
+				{
+					id: "0FB78B4AA357E2B9"
+					item: "twilightforest:lich_tower_miniature_structure"
+					type: "item"
+				}
+			]
+			subtitle: "Je n'ai pas fini !"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "alexsmobs:spawn_egg_farseer"
+				id: "44C89B0744F42469"
+				title: "Tuer le dernier boss de la Twilight"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.25d
+			y: -3.25d
 		}
 	]
 	title: "Dimensions"

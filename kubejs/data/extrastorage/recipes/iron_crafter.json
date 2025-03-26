@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "moreplates:iron_plate"
+      "item": "kubejs:iron_plate"
     },
     "b": {
       "tag": "refinedstorage:crafter"

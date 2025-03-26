@@ -11,16 +11,16 @@
 			image: "kubejs:textures/ftbquests/table.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 5.75d
-			y: -4.75d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/spawner.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -6.0d
-			y: 1.5d
+			x: -12.5d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -47,7 +47,7 @@
 				type: "checkmark"
 			}]
 			title: "Spawner"
-			x: 0.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -69,8 +69,8 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["77BC8A845F25EA92"]
@@ -117,8 +117,8 @@
 				}
 			]
 			title: "Puissance maximale !"
-			x: 0.0d
-			y: -2.625d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2D13FFF9024B7993"]
@@ -136,8 +136,8 @@
 				item: "apotheosis:salvaging_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.375d
+			x: -9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3C91A000741ADF08"]
@@ -162,8 +162,8 @@
 				item: "apotheosis:reforging_table"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.875d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -184,8 +184,8 @@
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.875d
+			x: -8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["77BC8A845F25EA92"]
@@ -203,16 +203,14 @@
 				item: "cyclic:disenchanter"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.5d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			description: [
 				"Une petite table d'enchantement, parfait pour être mieux équipé !"
 				""
-				"&nAstuce&r : La plupart des enchantements possèdent une description, regardez les dans JEI."
-				""
-				"&nAstuce 2&r : L'enchantement &4&lIndestructility&r&r rendra vos objets Incassables ! Mais pour cela, il vous faudra une table d'enchantement avec une puissance maximale, donc lvl 200."
+				"&n&4Astuce&r&r : La plupart des enchantements possèdent une description, regardez les dans JEI."
 			]
 			id: "77BC8A845F25EA92"
 			rewards: [{
@@ -228,8 +226,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.875d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -238,8 +236,18 @@
 				"62DADAA12BE5D319"
 				"5FD97281F8C6C964"
 				"6F76EC6447329F85"
+				"1D6819ED98A741CF"
+				"5F51999D2756097D"
+				"1C3C636D8CA318C4"
+				"772D7CAD5EF365DA"
+				"1D18B87B1F1B9048"
+				"710E41BBC398A4ED"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
@@ -264,10 +272,247 @@
 				title: "Apotheosis fini !"
 				type: "checkmark"
 			}]
-			title: "Apotheosis complété !"
-			x: 5.5d
+			title: "Enchantement complété !"
+			x: 0.0d
 			y: 0.0d
 		}
+		{
+			description: ["Ce staff est important : il permet de lier les machines du mod &4Cognition&r à l'&4Experience Obelisk&r. Pour se faire, il faut s'accroupir et faire un clic droit sur l'&4Expérience Obelisk&r, puis réitérer l'opération sur une des machines qui nécessite l'&4Obelisk&r pour fonctionner."]
+			id: "3F2A397FB681C972"
+			rewards: [{
+				id: "62F04034F95443B3"
+				item: "minecraft:lapis_lazuli"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "6A220FC66F58398E"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F2A397FB681C972"]
+			description: ["Permet de collecter l'xp dans un rayon autour de lui et de le stocker. Le rayon d'absorbtion est configurable ainsi que son activation à la redstone ou non."]
+			id: "1981990FB11CD11C"
+			rewards: [{
+				id: "526C47534299AACC"
+				item: "minecraft:experience_bottle"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "106FD73E6C6CB028"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1981990FB11CD11C"]
+			description: [
+				"Il s'agit d'une machine comportant 3 entrées et une sortie, et fonctionnant avec de l'xp. "
+				""
+				"Dans un premier temps, il faut lier la machine à un &4Experience Obelisk&r avec le &4Staff of Attunement&r."
+				""
+				"Ensuite, placez l'objet à transformer dans l'entrée le plus à droite de l'interface de la machine."
+				""
+				"Enfin, placez les objets secondaires dans les deux autres entrées. "
+			]
+			id: "710E41BBC398A4ED"
+			rewards: [{
+				id: "7841C9787CBD8003"
+				item: "minecraft:name_tag"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "07281A4948BB7333"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Ce petit être va infecter une bibliothèque (Vanilla ou du mod &4Cognition&r) pour que cette dernière délivre de l'xp sous forme de bille. "
+				""
+				"&4&nAttention&r&r : Il infectera les bibliothèques à porter."
+			]
+			id: "1C3C636D8CA318C4"
+			rewards: [{
+				id: "3203EDF89C62C9E9"
+				item: "minecraft:emerald"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "258DF0B7E23F2798"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: ["Permet d'absorber plus vite et de téléporter l'xp directement à l'utilisateur."]
+			id: "1D18B87B1F1B9048"
+			rewards: [{
+				id: "5D1F8F9D55B1797F"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "471573E0ADCCFF26"
+				item: {
+					Count: 1
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			description: ["L'&4Experience Fountain&r permet d'éjecter de l'xp provenant d'un &4Experience Obelisk&r sous forme de bille. Il a besoin d'un signal de redstone comme un levier pour fonctionner. Vous pouvez faire un clic droit sur lui pour spécifier la vitesse de sortie de l'xp."]
+			id: "5F51999D2756097D"
+			rewards: [
+				{
+					id: "0E9BC32857EBD731"
+					item: "experienceobelisk:accelerator"
+					type: "item"
+				}
+				{
+					id: "25D7ABA00789E79E"
+					item: "experienceobelisk:linear_accelerator"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4B31EEBB1B9B7C8E"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"C'est comme un &4Grindstone&r, sauf qu'au lieu de supprimer tout les enchantements d'un item, vous pouvez sélectionner quel enchantement vous souhaitez retirer. Même les malédictions ! "
+				""
+				"Essayez :)"
+			]
+			id: "1D6819ED98A741CF"
+			rewards: [{
+				id: "521A3D8086071DC6"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:vanishing_curse"
+								lvl: 1s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+						]
+						RepairCost: 0
+						display: {
+							Name: "{\"translate\":\"item.minecraft.netherite_sword\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "798433D6A5F2A062"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Cet élément est créé à l'aide de Mekanism."]
+			id: "400335CC951A933C"
+			rewards: [{
+				id: "7F55812D9E46BDA9"
+				item: "create_unbreakable:luminarchy"
+				random_bonus: 1
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "21790FBE6552A225"
+				item: "create_unbreakable:luminarchy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Cet élément est créé à l'aide de Mekanism."]
+			id: "25326630B42E6411"
+			rewards: [{
+				id: "571265AF20A5A3BA"
+				item: "create_unbreakable:philolite"
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "48C6313859D32EAB"
+				item: "create_unbreakable:philolite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"400335CC951A933C"
+				"25326630B42E6411"
+			]
+			description: ["Cet objet permet de donner un effet &4Indestructible&r à n'importe lequel de vos outils / armures. Pour cela, il faut le placer dans une enclume avec l'objet à rendre invincible."]
+			id: "772D7CAD5EF365DA"
+			rewards: [{
+				id: "3A5917316B4143E3"
+				item: "minecraft:damaged_anvil"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Outils incassables"
+			tasks: [{
+				id: "7A70A7DF9D6DA77B"
+				item: "create_unbreakable:irromolding"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
 	]
-	title: "Apotheosis"
+	title: "Enchantement"
 }

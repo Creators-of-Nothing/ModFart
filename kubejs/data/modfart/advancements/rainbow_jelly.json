@@ -1,33 +1,27 @@
 {
-    "parent": "modfart:root",
-    "criteria": {
-        "0": {
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "alexsmobs:rainbow_jelly"
-                        ]
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
-        }
-    },
-    "display": {
-        "icon": {
-            "item": "alexsmobs:rainbow_jelly"
-        },
-        "title": "Rainbow Jelly",
-        "description": "Vous avez créé un Rainbow Jelly",
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
-    },
-    "requirements": [
-        [
-            "0"
+  "parent": "modfart:root",
+  "criteria": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["alexsmobs:rainbow_jelly"]
+          }
         ]
-    ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "alexsmobs:rainbow_jelly"
+    },
+    "title": "Rainbow Jelly",
+    "description": "Vous avez récupéré une Rainbow Jelly",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["0"]]
 }

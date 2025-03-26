@@ -1,7 +1,7 @@
 {
 	"type":"createaddition:rolling",
 	"input": {
-      	"item": "moreplates:iron_plate"
+      	"item": "kubejs:iron_plate"
 	},
 	"result": {
 		"item": "createaddition:iron_wire",

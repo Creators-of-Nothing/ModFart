@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aventure"
+	group: "7B8630C608C42520"
+	icon: {
+		Count: 1
+		id: "everlastingabilities:ability_bottle"
+		tag: {
+			"everlastingabilities:abilityStoreStack": [ ]
+		}
+	}
+	id: "10BE70FF8569C51A"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/anvil.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -4.0d
+			y: -1.25d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/ftbquests/wand.png"
+			rotation: 0.0d
+			width: 3.45d
+			x: 2.25d
+			y: -6.0d
+		}
+		{
+			height: 5.5d
+			image: "kubejs:textures/ftbquests/villager.png"
+			rotation: 0.0d
+			width: 3.7d
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Permet d'accumuler autant de pouvoir différents au détriment d'une consommation de nourriture. Sur ce pack, les effets néfastes qui affectent les autres ont été enlevé, ainsi que le flight pour des raisons d'équilibrages."]
+			id: "0EC9680E91930C3E"
+			rewards: [{
+				id: "34169B811595DD79"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "0A3F2FCAAE63032A"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_bottle"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -3.25d
+		}
+		{
+			description: ["Des éponges inépuisables. Une pour l'eau, l'autre pour la lave."]
+			id: "7B3FA67EA5888E95"
+			rewards: [{
+				id: "6DF8B3E4B56415B6"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EC0FA0F96FDB42A"
+					item: "permanentsponges:aqueous_sponge"
+					type: "item"
+				}
+				{
+					id: "0DC34766009C08AF"
+					item: "permanentsponges:magmatic_sponge"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.25d
+		}
+		{
+			description: [
+				"Accroupissez-vous et clic droit sur un villageois et sur un Piglin. Ensuite, regardez toutes les belles choses possibles à faire avec dans JEI en tapant : @easy."
+				""
+				"Vous pourrez ainsi y placer vos PNJ."
+			]
+			id: "6F2671D1818FA24B"
+			rewards: [{
+				id: "194464FCE4C18C91"
+				item: "minecraft:emerald"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2802A3DF7C76AD21"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "5CBA1ACDFDE65092"
+					item: "easy_piglins:piglin"
+					type: "item"
+				}
+			]
+			title: "Easy Villager"
+			x: -1.75d
+			y: -3.25d
+		}
+		{
+			description: ["Un Magnet pour attirer les choses de plus loin."]
+			id: "261DCE49E3922679"
+			rewards: [{
+				id: "7273F8A4EA9BE639"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5D6FAD2B90918B3A"
+				item: {
+					Count: 1
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.25d
+		}
+		{
+			description: ["Un moyen de gagner des coeurs et de la stamina supplémentaire. Le paraglider ou la feuille ont la même utilité : tenue en main, c'est un parachute. Les statues vous échangeront des coeurs et de la stamina contre des Spirits Orbs, que vous obtenez en cassant des spawners."]
+			id: "1ADE002FF1A2811B"
+			rewards: [{
+				id: "754B078F27F17E5A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "5DCD86158AF9A277"
+					item: "paraglider:goddess_statue"
+					type: "item"
+				}
+				{
+					id: "2E961EBCA90B68C1"
+					item: "paraglider:deku_leaf"
+					type: "item"
+				}
+			]
+			title: "Paraglider"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			description: ["Un moyen de trouver les biomes que vous voulez."]
+			id: "4B5B81DF4334B4A5"
+			rewards: [{
+				id: "4AF67F2C40EB6B5D"
+				item: "minecraft:oak_sapling"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3682F71083016DCC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B5B81DF4334B4A5"]
+			description: ["Permet de trouver des structures."]
+			id: "268C4D813699ECC7"
+			rewards: [{
+				id: "1CF334607B961495"
+				item: "lootr:trophy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CFCA472A3449F1C"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Le Neptunium est un lingot qui se pêche. Il existe tout un tas d'équipements et de nourriture lié à ce mod. Pour upgrader votre canne à pêche, il faut poser puis utiliser la Tackle Box. Cette dernière servira de stockage pour tout vos équipements de pêche ! "
+				""
+				"Le Bobber et la Fishing Line sont deux items cosmétiques, que vous pouvez colorer dans une table de craft avec un colorant, et qui changera l'aspect respectivement du bouchon et de la ligne de votre canne à pêche."
+				""
+				"Selon le crochet utilisé, vous gagnerez des effets supplémentaires."
+				""
+				"Si vous souhaitez farmer les poissons, vous pouvez vous faire une ferme à vers en mettant des végétaux dans la Worm Farm. Lorsqu'arrivé à maturation, faites clic droit dessus pour les récupérer."
+			]
+			id: "02CAD17DA73B67C6"
+			rewards: [{
+				id: "5FD19A95251E6D1D"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			subtitle: "Pêcher comme un Dieu !"
+			tasks: [{
+				id: "1DE73CA0E9E52CD3"
+				item: "aquaculture:tackle_box"
+				type: "item"
+			}]
+			title: "Aquaculture 2"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			description: ["Cette cage permet de kidnapper n'importe quelle entité et de la mettre en cage ! Vous pouvez la libérer avec un simple clic droit, ou poser la cage au sol avec un shift - clic droit."]
+			id: "1B8BED215FB7A447"
+			rewards: [{
+				id: "7B187B4A5A9D86D4"
+				item: "moa_decor_holidays:esqueleto_enjaulado"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34889483E56EC0FD"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"La Magma Anvil permet de réparer vos équipements avec de la lave."
+				""
+				"La Powered Diamond Anvil permet de réparer vos équipements avec de l'énergie."
+			]
+			id: "5D73015443A6E5FF"
+			rewards: [{
+				id: "2D22CA324718DB75"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D73A0203ECCB86B"
+					item: "cyclic:anvil_magma"
+					type: "item"
+				}
+				{
+					id: "2F750FBDEFDF5714"
+					item: "cyclic:anvil"
+					type: "item"
+				}
+			]
+			title: "Réparation"
+			x: -3.0d
+			y: -4.25d
+		}
+		{
+			description: ["C'est un bloc qui, si vous faites clic droit dessus avec de la redstone, devient de la bedrock. Un autre clic droit avec de la redstone le retransforme en bloc minable."]
+			id: "7EEC96E20047589E"
+			rewards: [{
+				count: 4
+				id: "7E3597D0046FF7A0"
+				item: "cyclic:unbreakable_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "08BBA270164CE7D7"
+				item: "cyclic:unbreakable_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.25d
+		}
+		{
+			description: ["Cette baguette te permet de poser des blocs à la chaîne sur une grande surface : idéale pour build ! Pour annuler un coup de baguette malencontreux, appuyes sur &4Alt + Control&r. Attention : ne fonctionne que deux fois."]
+			id: "341EAB267F91C70B"
+			rewards: [{
+				count: 64
+				id: "4073816B271BB5B9"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FAD2C3B4F2E92CB"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1BCC0B53CAC227"
+					item: "constructionwand:core_angel"
+					type: "item"
+				}
+				{
+					id: "252785244CA47CD4"
+					item: "constructionwand:core_destruction"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.25d
+		}
+		{
+			dependencies: [
+				"341EAB267F91C70B"
+				"02CAD17DA73B67C6"
+				"1ADE002FF1A2811B"
+				"5D73015443A6E5FF"
+				"1B8BED215FB7A447"
+				"7EEC96E20047589E"
+				"6F2671D1818FA24B"
+				"0EC9680E91930C3E"
+				"268C4D813699ECC7"
+				"7B3FA67EA5888E95"
+				"261DCE49E3922679"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "ars_elemental:glyph_conjure_terrain"
+			id: "300C409F8D74BDA2"
+			rewards: [{
+				id: "722BB7726318CCE5"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:equipements"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "4FB01A4652554257"
+				title: "Equipements complété !"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+	]
+	title: "Equipements"
+}

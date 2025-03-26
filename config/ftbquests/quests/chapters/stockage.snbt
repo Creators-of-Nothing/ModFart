@@ -27,7 +27,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Un simple sac."]
+			description: ["Un simple sac que vous pouvez placer dans vos Curios, et ouvrir avec une touche. Il peut également être posé dans le monde, en s'accroupissant, puis clic droit sur le sol."]
 			id: "2020F3EDEB55246E"
 			rewards: [{
 				id: "218649AFBF043B74"
@@ -638,7 +638,11 @@
 				"207BE6DA7699CF77"
 				"39BE83A9946B3DEF"
 			]
-			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
 			hide: true
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"

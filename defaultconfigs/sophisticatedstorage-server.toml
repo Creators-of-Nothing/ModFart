@@ -29,7 +29,7 @@
 	[server.GoldBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 85
+		inventorySlotCount = 100
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 6
@@ -38,7 +38,7 @@
 	[server.DiamondBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 120
+		inventorySlotCount = 140
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 8
@@ -47,7 +47,7 @@
 	[server.NetheriteBarrel]
 		#Number of inventory slots in the storage
 		#Range: 1 ~ 180
-		inventorySlotCount = 144
+		inventorySlotCount = 180
 		#Number of upgrade slots in the storage
 		#Range: 0 ~ 10
 		upgradeSlotCount = 10

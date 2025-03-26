@@ -1,5 +1,6 @@
 {
 	chapter_groups: [
+		{ id: "520987ECA1C88A3B", title: "Modfart" }
 		{ id: "7B8630C608C42520", title: "Aventures" }
 		{ id: "7798244B59ABC64D", title: "Techniques" }
 		{ id: "6FCD3535E8BFAB91", title: "Magies" }
