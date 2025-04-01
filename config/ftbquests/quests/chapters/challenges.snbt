@@ -7,28 +7,28 @@
 	id: "2679C9FE65696F7B"
 	images: [
 		{
-			height: 7.0d
+			height: 6.041095890410959d
 			image: "kubejs:textures/ftbquests/abeille.png"
 			rotation: 0.0d
-			width: 12.39d
-			x: -14.25d
-			y: -5.25d
+			width: 7.0d
+			x: -14.5d
+			y: -6.0d
 		}
 		{
 			height: 10.0d
 			image: "kubejs:textures/ftbquests/warden.png"
 			rotation: 0.0d
-			width: 6.7d
-			x: 20.0d
-			y: -3.25d
+			width: 5.308219178082192d
+			x: 20.5d
+			y: -3.0d
 		}
 		{
-			height: 20.0d
+			height: 13.513513513513512d
 			image: "kubejs:textures/ftbquests/worm.png"
 			rotation: 0.0d
-			width: 35.5555d
-			x: 4.0d
-			y: 12.25d
+			width: 50.0d
+			x: 2.75d
+			y: 11.75d
 		}
 	]
 	order_index: 1
@@ -1456,6 +1456,8 @@
 				"70C995C59CD6464D"
 				"6375843F4F3B6930"
 				"1201A9C7A0B403F8"
+				"4F5CA2714BD5C73A"
+				"4B429A7EC8797AD2"
 			]
 			description: [
 				"Vous avez vaincu tout les challenges de cette page, félicitations !"
@@ -1611,12 +1613,12 @@
 		}
 		{
 			description: [
-				"Pour avoir cet oeil, tu peux t'aider du livre du mod &4Alex's Mobs&r, et sinon, voici les explications :"
+				"Pour avoir ce succès, tu peux t'aider du livre du mod &4Alex's Mobs&r, et sinon, voici les explications :"
 				""
 				"- Tuez des mouches (&4Fly&r) pour avoir des maggots."
 				"- Craftez un &4Crimson Moskito Larva&r"
 				"- Posez un bloc de &4Capsid&r (trouvable sur les &4Enderiophages&r dans l'&4End&r) et placez y la &4Larva&r, puis patientez."
-				"- Vous obtiendrez un &4Void Worm&r, que vous devrez jetez dans le &4Void&r de l'&4End&r, puis affrontez le &4Void Worm&r."
+				"- Vous obtiendrez un &4Mysterious Worm&r, que vous devrez jetez dans le &4Void&r de l'&4End&r, puis affrontez le &4Void Worm&r."
 				"- Lorsque vous l'aurez vaincu, il y aura une zone où il fera spawn son loot."
 			]
 			id: "5C57D2B3CC112476"
@@ -1625,12 +1627,13 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Tuer le Void Worm"
 			tasks: [{
-				id: "1CBF588C5CA4C010"
-				item: "alexsmobs:void_worm_eye"
-				type: "item"
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "26A4ACEBE9D7E69F"
+				type: "advancement"
 			}]
+			title: "Tuer le Void Worm"
 			x: 7.25d
 			y: 4.0d
 		}

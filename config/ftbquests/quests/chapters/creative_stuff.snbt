@@ -10,17 +10,17 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/claws.png"
 			rotation: 0.0d
-			width: 6.4d
-			x: 3.0d
-			y: -17.5d
+			width: 6.448275862068965d
+			x: 4.5d
+			y: -17.75d
 		}
 		{
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/saber.png"
 			rotation: 180.0d
-			width: 5.0d
-			x: -2.75d
-			y: -15.25d
+			width: 3.950617283950617d
+			x: -3.5d
+			y: -15.75d
 		}
 		{
 			height: 3.0d
@@ -444,7 +444,10 @@
 		}
 		{
 			dependencies: ["164B095AA0EAFE38"]
-			description: ["L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."]
+			description: [
+				"L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."
+				"Si vous voulez vider votre &4Bin&r, vous pouvez la passer dans la première table d'Extended Crafting."
+			]
 			id: "6012E7A8122073DF"
 			rewards: [{
 				id: "06076F547B40AAFA"
@@ -725,7 +728,11 @@
 		}
 		{
 			dependencies: ["2E0A85C9392B1910"]
-			description: ["Permet de One Shot absolument tout."]
+			description: [
+				"Permet de One Shot absolument tout, sauf certains boss."
+				""
+				"&4&nAttention&r :&r si vous souhaitez compléter les quêtes qui vous demandent de tuer des entités, n'utiliser pas cette arme, ils ne seront pas comptés."
+			]
 			id: "57B025AEDF9D25FD"
 			rewards: [{
 				id: "3A8C482474A8CEF7"
@@ -742,7 +749,11 @@
 		}
 		{
 			dependencies: ["57B025AEDF9D25FD"]
-			description: ["Permet de One Shot n'importe quoi, et de miner instantanément n'importe quel bloc. De plus, en faisant un clic droit avec sur de la Bedrock, vous pourrez récupérer des Bedrock Shards qui serviront pour le craft final du modpack, et obtenir de grandes quantités de ressources."]
+			description: [
+				"Permet de &4One Shot&r n'importe quoi, et de miner &4instantanément&r n'importe quel bloc. De plus, en faisant un &4clic droit&r avec sur de la &4Bedrock&r, vous pourrez récupérer des &4Bedrock Shards&r qui serviront pour le craft final du modpack, et obtenir de grandes quantités de ressources."
+				""
+				"&4&nAttention&r :&r si vous souhaitez compléter les quêtes qui vous demandent de tuer des entités, n'utiliser pas cette arme, ils ne seront pas comptés."
+			]
 			id: "2641FB96F7E3060D"
 			rewards: [{
 				id: "525196B46F3CA7A0"
@@ -792,7 +803,6 @@
 			hide_dependency_lines: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "10D11C9AF21F216A"
-			invisible: true
 			rewards: [{
 				id: "495B30F5E8678372"
 				item: {

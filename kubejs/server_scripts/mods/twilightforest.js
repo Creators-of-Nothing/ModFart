@@ -1,3 +1,29 @@
+//#region - Tags
+ServerEvents.tags(["item", "block"], e => {
+  e.remove("modfart/planks/mangrove", /twilightforest:/)
+  e.remove("modfart/planks/other", [
+    "twilightforest:canopy_planks",
+    "twilightforest:dark_planks",
+    "twilightforest:mangrove_planks",
+    "twilightforest:mining_planks",
+    "twilightforest:sorting_planks",
+    "twilightforest:time_planks",
+    "twilightforest:transformation_planks",
+    "twilightforest:twilight_oak_planks"
+  ])
+})
+//#endregion
+
+//#region - Crafts
+ServerEvents.recipes(e => {
+  //#region - Giant Decompression
+  e.remove({ id: "twilightforest:giant_log_to_oak_planks" })
+  e.shapeless("64x minecraft:oak_log", "twilightforest:giant_log")
+  e.shapeless("64x minecraft:obsidian", "twilightforest:giant_obsidian")
+  //#endregion
+})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function twilightforest() {
   // Mise en place des Eléments à supprimer ou à cacher
@@ -33,24 +59,4 @@ function twilightforest() {
   ServerEvents.recipes(handle_Recipes)
 }
 twilightforest()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {
-  e.remove("modfart/planks/mangrove", /twilightforest:/)
-  e.remove("modfart/planks/other", [
-    "twilightforest:canopy_planks",
-    "twilightforest:dark_planks",
-    "twilightforest:mangrove_planks",
-    "twilightforest:mining_planks",
-    "twilightforest:sorting_planks",
-    "twilightforest:time_planks",
-    "twilightforest:transformation_planks",
-    "twilightforest:twilight_oak_planks"
-  ])
-})
 //#endregion

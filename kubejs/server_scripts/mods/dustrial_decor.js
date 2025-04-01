@@ -16,11 +16,3 @@ function dustrial_decor() {
 }
 dustrial_decor()
 //#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
-//#endregion

@@ -14,7 +14,7 @@ function eidolon() {
     "eidolon:silver_nugget",
     "eidolon:scriptorium"
   ]
-  let hiding = [/eidolon:spawn_/]
+  let hiding = []
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
     e.removeAllTagsFrom(unused)
@@ -27,12 +27,4 @@ function eidolon() {
   ServerEvents.recipes(handle_Recipes)
 }
 eidolon()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

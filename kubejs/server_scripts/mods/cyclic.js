@@ -1,3 +1,9 @@
+//#region - Crafts
+ServerEvents.recipes(e => {
+  e.remove([{ id: "cyclic:netherite_ingot" }, { id: "cyclic:crafting/amethyst" }])
+})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function cyclic() {
   // Mise en place des Eléments à supprimer ou à cacher
@@ -145,14 +151,4 @@ function cyclic() {
   ServerEvents.recipes(handle_Recipes)
 }
 cyclic()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {
-  e.remove([{ id: "cyclic:netherite_ingot" }, { id: "cyclic:crafting/amethyst" }])
-})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

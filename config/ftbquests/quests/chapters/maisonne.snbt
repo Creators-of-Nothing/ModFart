@@ -10,7 +10,7 @@
 			height: 3.0d
 			image: "kubejs:textures/ftbquests/ame.png"
 			rotation: 0.0d
-			width: 1.83d
+			width: 1.6715867158671587d
 			x: -0.75d
 			y: -3.5d
 		}
@@ -18,17 +18,17 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/bed.png"
 			rotation: 0.0d
-			width: 5.95d
-			x: -4.75d
-			y: 2.0d
+			width: 6.197916666666666d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/dum.png"
 			rotation: 0.0d
-			width: 3.7d
-			x: 3.25d
-			y: -2.75d
+			width: 3.384615384615385d
+			x: 3.75d
+			y: -3.0d
 		}
 	]
 	order_index: 0
@@ -36,31 +36,35 @@
 	quests: [
 		{
 			description: [
-				"&4Pensez à scroll vers le bas !&r Il existe pleins de mods de décoration sur ce pack :"
+				"&4Pensez à scroll vers le bas !&r Il existe pleins de mods de décoration sur ce pack, n'hésites donc pas à taper dans la barre de recherche de &4JEI&r : &4@NomDuMod&r. Cette liste nomme les mods principaux de décoration, mais parfois, certains mods qui ne sont pas centrés sur la décoration rajoutent des objets décoratifs, n'hésites pas à vérifier :"
 				""
 				"- Additional Lanterns"
 				"- Additionl Lights"
 				"- Alex's Caves"
 				"- Amendments"
 				"- AntiBlocksReChiseled"
-				"- Arcane Lanterns"
 				"- Better Archeology"
-				"- Candlelight"
+				"- Biomes O' Plenty"
 				"- Chipped"
 				"- Connected Glass"
 				"- Create"
+				"- Decorative Railings"
+				"- Delight"
 				"- Domum Ornamentum"
 				"- 'Dustrial Decor"
 				"- Enlightend"
+				"- Endless Biomes"
 				"- Even Better Amethyst"
 				"- Fantasy's Furniture -> tout se craft dans la &4Furniture Station&r avec des planches, de la Cobblestone, et de la Clay"
 				"- Floral Enchantment"
-				"- Forbidden and Arcanus"
 				"- FramedBlocks"
 				"- Furnish"
 				"- Gardens of the Dead"
+				"- Glassential Renewed"
 				"- Handcrafted"
+				"- [Let's Do]"
 				"- Macaw's"
+				"- Magic Vibe Decorations"
 				"- ManyIdeas"
 				"- Meadow"
 				"- MOA DECOR"
@@ -70,7 +74,6 @@
 				"- NiftyBlocks"
 				"- Night Lights"
 				"- Nosiphus Furniture Mod"
-				"- Phantasmic"
 				"- Platforms"
 				"- Rechiseled"
 				"- Skinned Lanterns"
@@ -98,12 +101,12 @@
 		}
 		{
 			description: [
-				"Ce pack contient le mod Spice of Life : Carrot Edition. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
+				"Ce pack contient le mod &4&4Spice of Life&r &4: Carrot Edition&r&r. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
 				""
 				"- Il vous faudra 10 nourritures différentes pour gagner un coeur les 100 premiers coeurs (1000 nourritures)"
 				"- Puis il vous faudra 20 nourritures pour gagner 1 coeur."
 				""
-				"Si vous faites #yet dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
+				"Si vous faites &4#yet&r dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
 				""
 				"Vous pouvez manger même si vous n'avez pas faim !"
 			]

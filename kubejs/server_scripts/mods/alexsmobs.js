@@ -16,11 +16,3 @@ function alexsmobs() {
 }
 alexsmobs()
 //#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
-//#endregion

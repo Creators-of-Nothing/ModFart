@@ -1,3 +1,20 @@
+//#region - Crafts
+ServerEvents.recipes(e => {
+  //#region - Aquaculture Bounty
+  e.remove({ mod: "aquaculture:neptunes_bounty" })
+  e.shaped("aquaculture:neptunes_bounty", ["AAA", "ABA", "AAA"], {
+    A: "#minecraft:planks",
+    B: "aquaculture:neptunium_nugget"
+  })
+  e.remove({ id: "aquaculture:fish_fillet" })
+  //#endregion
+  //#region - Neptune's Bounty
+  e.remove({ id: "aquaculture:neptunes_bounty" })
+  e.blasting("aquaculture:neptunium_nugget", "aquaculture:neptunes_bounty")
+  //#endregion
+})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function aquaculture() {
   // Mise en place des Eléments à supprimer ou à cacher
@@ -24,25 +41,4 @@ function aquaculture() {
   ServerEvents.recipes(handle_Recipes)
 }
 aquaculture()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {
-  //#region - Aquaculture Bounty
-  e.remove({ mod: "aquaculture:neptunes_bounty" })
-  e.shaped("aquaculture:neptunes_bounty", ["AAA", "ABA", "AAA"], {
-    A: "#minecraft:planks",
-    B: "aquaculture:neptunium_nugget"
-  })
-  e.remove({ id: "aquaculture:fish_fillet" })
-  //#endregion
-  //#region - Neptune's Bounty
-  e.remove({ id: "aquaculture:neptunes_bounty" })
-  e.blasting("aquaculture:neptunium_nugget", "aquaculture:neptunes_bounty")
-  //#endregion
-})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

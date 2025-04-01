@@ -2,14 +2,7 @@
 function trofers() {
   // Mise en place des Eléments à supprimer ou à cacher
   let unused = []
-  let hiding = [
-    "trofers:large_pillar",
-    "trofers:large_plate",
-    "trofers:medium_pillar",
-    "trofers:medium_plate",
-    "trofers:small_pillar",
-    "trofers:small_plate"
-  ]
+  let hiding = ["trofers:large_pillar", "trofers:large_plate", "trofers:medium_pillar", "trofers:medium_plate", "trofers:small_pillar", "trofers:small_plate"]
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
     e.removeAllTagsFrom(unused)
@@ -22,12 +15,4 @@ function trofers() {
   ServerEvents.recipes(handle_Recipes)
 }
 trofers()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

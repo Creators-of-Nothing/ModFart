@@ -1,3 +1,15 @@
+//#region - Tags
+ServerEvents.tags(["item", "block"], e => {})
+//#endregion
+
+//#region - Crafts
+ServerEvents.recipes(e => {})
+//#endregion
+
+//#region - Loot Tables
+ServerEvents.blockLootTables(e => {})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function exemple() {
   // Mise en place des Eléments à supprimer ou à cacher
@@ -15,12 +27,4 @@ function exemple() {
   ServerEvents.recipes(handle_Recipes)
 }
 exemple()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

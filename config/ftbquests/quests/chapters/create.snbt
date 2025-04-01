@@ -34,7 +34,7 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/blaze.png"
 			rotation: 15.0d
-			width: 8.85d
+			width: 5.1098901098901095d
 			x: 6.25d
 			y: 5.75d
 		}

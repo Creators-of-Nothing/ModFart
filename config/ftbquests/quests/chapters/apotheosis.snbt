@@ -10,7 +10,7 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/table.png"
 			rotation: 0.0d
-			width: 10.0d
+			width: 11.866666666666667d
 			x: 0.0d
 			y: -6.0d
 		}
@@ -18,7 +18,7 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/spawner.png"
 			rotation: 0.0d
-			width: 5.0d
+			width: 4.9222222222222225d
 			x: -12.5d
 			y: 0.0d
 		}
@@ -253,13 +253,13 @@
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "5071C07F4B71FB31"
 			rewards: [{
-				id: "45A23115012CC442"
+				id: "786937F1D25E7713"
 				item: {
 					Count: 1
 					id: "trofers:large_pillar"
 					tag: {
 						BlockEntityTag: {
-							Trophy: "modfart:apotheosis"
+							Trophy: "modfart:enchantement"
 						}
 					}
 				}
@@ -351,7 +351,7 @@
 			description: [
 				"Ce petit être va infecter une bibliothèque (Vanilla ou du mod &4Cognition&r) pour que cette dernière délivre de l'xp sous forme de bille. "
 				""
-				"&4&nAttention&r&r : Il infectera les bibliothèques à porter."
+				"&4&nAttention&r&r : Il infectera les bibliothèques à porter. De plus, elles finiront pas se détruire au bout d'un certains temps."
 			]
 			id: "1C3C636D8CA318C4"
 			rewards: [{

@@ -10,12 +10,12 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/chest.png"
 			rotation: 0.0d
-			width: 5.0d
-			x: 3.5d
-			y: 2.5d
+			width: 5.289473684210526d
+			x: 4.25d
+			y: 3.5d
 		}
 		{
-			height: 5.0d
+			height: 5.317365269461078d
 			image: "kubejs:textures/ftbquests/back.png"
 			rotation: 0.0d
 			width: 4.0d

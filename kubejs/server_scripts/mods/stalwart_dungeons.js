@@ -1,11 +1,7 @@
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function stalwart_dungeons() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [
-    "stalwart_dungeons:awful_dungeon_spawner",
-    "stalwart_dungeons:end_dungeon_spawner",
-    "stalwart_dungeons:keeping_castle_spawner"
-  ]
+  let unused = ["stalwart_dungeons:awful_dungeon_spawner", "stalwart_dungeons:end_dungeon_spawner", "stalwart_dungeons:keeping_castle_spawner"]
   let hiding = []
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
@@ -19,12 +15,4 @@ function stalwart_dungeons() {
   ServerEvents.recipes(handle_Recipes)
 }
 stalwart_dungeons()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

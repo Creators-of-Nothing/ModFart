@@ -15,28 +15,28 @@
 	id: "235AB90CD226C9B0"
 	images: [
 		{
-			height: 5.0d
+			height: 4.848866498740554d
 			image: "kubejs:textures/ftbquests/furnace.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: -11.75d
-			y: 3.75d
+			x: -12.25d
+			y: 4.5d
 		}
 		{
-			height: 5.0d
+			height: 4.015748031496063d
 			image: "kubejs:textures/ftbquests/seed.png"
 			rotation: 0.0d
-			width: 8.85d
-			x: -7.0d
-			y: -8.75d
+			width: 4.0d
+			x: -6.5d
+			y: -6.75d
 		}
 		{
-			height: 5.0d
+			height: 5.88628762541806d
 			image: "kubejs:textures/ftbquests/chicken.png"
 			rotation: 0.0d
-			width: 8.85d
-			x: -2.5d
-			y: -6.0d
+			width: 5.0d
+			x: -1.75d
+			y: -6.75d
 		}
 	]
 	order_index: 1
@@ -685,17 +685,19 @@
 		}
 		{
 			description: [
-				"Les Mobs Caged sont des blocs qui permettent de farmer passivement et virtuellement toutes les entités. Vous pouvez savoir ce que vous donnera une entité en appuyant sur la touche U sur la Mob Caged par exemple. "
+				"Les &4Mobs Caged&r sont des blocs qui permettent de farmer passivement et virtuellement toutes les entités. Vous pouvez savoir ce que vous donnera une entité en appuyant sur la touche U sur la Mob Caged par exemple. "
 				""
 				"Pour insérer un mob dans une Caged Mob, il vous faudra une seringue. Selon le mob, il vous faudra une seringue plus ou moins puissante :"
 				""
 				"- La blanche sert pour les animaux passifs"
-				"- La Diamond sert pour quasi tout les mobs sauf boss"
-				"- La Netherite sert à capturer les boss"
+				"- La Diamond sert pour quasi tout les mobs sauf boss, et les animaux passifs"
+				"- La Netherite sert à capturer les boss, et tout les autres mobs"
 				""
 				"Un simple coup sur le mob avec la seringue vous permettra d'obtenir son ADN. Ensuite, placez le bloc qu'il aime bien à l'intérieur. Selon le bloc utilisé, la croissance du mob sera plus ou moins rapide."
 				""
 				"Il existe également des upgrades. Vous pouvez en mettre jusqu'à trois, et certaines sont cumulables !"
+				""
+				"&4Note&r : Si un mob est dans une mob cage, vous devez récupérer le mob avec la seringue en faisant un clic droit. Si vous cassez la mob cage avec un mob à l'intérieur, vous perdrez le mob."
 			]
 			id: "032411FBA0FE5E2F"
 			rewards: [{

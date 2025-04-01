@@ -1,12 +1,24 @@
+//#region - Crafts
+ServerEvents.recipes(e => {
+  //#region - Smooth Bone Block
+  e.remove({ id: "alexscaves:furnace/smooth_bone_smelting" })
+  e.custom({
+    type: "minecraft:blasting",
+    ingredient: {
+      item: "minecraft:bone_block"
+    },
+    result: "alexscaves:smooth_bone",
+    experience: 0.1,
+    cookingtime: 100
+  })
+  //#endregion
+})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function alexscaves() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [
-    "alexscaves:block_of_uranium",
-    "alexscaves:nuclear_furnace_component",
-    "alexscaves:uranium_shard",
-    "alexscaves:uranium"
-  ]
+  let unused = ["alexscaves:block_of_uranium", "alexscaves:nuclear_furnace_component", "alexscaves:uranium_shard", "alexscaves:uranium"]
   let hiding = []
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
@@ -20,12 +32,4 @@ function alexscaves() {
   ServerEvents.recipes(handle_Recipes)
 }
 alexscaves()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

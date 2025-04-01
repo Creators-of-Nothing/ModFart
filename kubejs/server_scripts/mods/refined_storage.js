@@ -1,46 +1,3 @@
-//#region - Définition/Suppression/Masquage d'éléments dans JEI
-function refined_storage() {
-  // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [
-    /extradisks:16384k_/,
-    /extradisks:65536k_/,
-    /extradisks:262144k_/,
-    /extradisks:1048576k_/,
-    /extrastorage:storagepart_/,
-    /refinedstorage:creative_fluid_storage/,
-    /refinedstorage:creative_storage/
-  ]
-  let hiding = [
-    /refinedstorage:black_/,
-    /refinedstorage:blue_/,
-    /refinedstorage:brown_/,
-    /refinedstorage:cyan_/,
-    /refinedstorage:gray_/,
-    /refinedstorage:green_/,
-    /refinedstorage:light_gray_/,
-    /refinedstorage:lime_/,
-    /refinedstorage:magenta_/,
-    /refinedstorage:orange_/,
-    /refinedstorage:pink_/,
-    /refinedstorage:purple_/,
-    /refinedstorage:red_/,
-    /refinedstorage:white_/,
-    /refinedstorage:yellow_/
-  ]
-  // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
-  function handle_Tags(e) {
-    e.removeAllTagsFrom(unused)
-    e.add("forge:hiding", [unused, hiding])
-  }
-  function handle_Recipes(e) {
-    e.remove([{ input: unused }, { output: unused }])
-  }
-  ServerEvents.tags(["item", "block"], handle_Tags)
-  ServerEvents.recipes(handle_Recipes)
-}
-refined_storage()
-//#endregion
-
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Removed Crafts
@@ -104,21 +61,9 @@ ServerEvents.recipes(e => {
       result: { item: output }
     })
   }
-  potting_creative_contraptions(
-    "extrastorage:netherite_crafter",
-    "sophisticatedstorage:crafting_upgrade",
-    "creativecrafter:creative_crafter"
-  )
-  potting_creative_contraptions(
-    "refinedstorage:controller",
-    "kubejs:deep_plate",
-    "refinedstorage:creative_controller"
-  )
-  potting_creative_contraptions(
-    "refinedstorage:portable_grid",
-    "sophisticatedstorage:stack_upgrade_tier_4",
-    "refinedstorage:creative_portable_grid"
-  )
+  potting_creative_contraptions("extrastorage:netherite_crafter", "sophisticatedstorage:crafting_upgrade", "creativecrafter:creative_crafter")
+  potting_creative_contraptions("refinedstorage:controller", "kubejs:deep_plate", "refinedstorage:creative_controller")
+  potting_creative_contraptions("refinedstorage:portable_grid", "sophisticatedstorage:stack_upgrade_tier_4", "refinedstorage:creative_portable_grid")
   //#endregion
   //#region - Creative Wireless Grids
   let potting_creative_wireless_grids = (A, output) => {
@@ -145,18 +90,9 @@ ServerEvents.recipes(e => {
     })
   }
   potting_creative_wireless_grids("refinedstorage:wireless_grid", "refinedstorage:creative_wireless_grid")
-  potting_creative_wireless_grids(
-    "refinedstorage:wireless_fluid_grid",
-    "refinedstorage:creative_wireless_fluid_grid"
-  )
-  potting_creative_wireless_grids(
-    "refinedstorageaddons:wireless_crafting_grid",
-    "refinedstorageaddons:creative_wireless_crafting_grid"
-  )
-  potting_creative_wireless_grids(
-    "refinedstorage:wireless_crafting_monitor",
-    "refinedstorage:creative_wireless_crafting_monitor"
-  )
+  potting_creative_wireless_grids("refinedstorage:wireless_fluid_grid", "refinedstorage:creative_wireless_fluid_grid")
+  potting_creative_wireless_grids("refinedstorageaddons:wireless_crafting_grid", "refinedstorageaddons:creative_wireless_crafting_grid")
+  potting_creative_wireless_grids("refinedstorage:wireless_crafting_monitor", "refinedstorage:creative_wireless_crafting_monitor")
   //#endregion
   //#region - Creative Wireless Universal Grid
   e.custom({
@@ -222,9 +158,81 @@ ServerEvents.recipes(e => {
     }
   })
   //#endregion
+  //#region - Controller
+  e.remove({ id: "refinedstorage:controller" })
+  e.custom({
+    type: "minecraft:crafting_shaped",
+    pattern: ["ABC", "DED", "FGF"],
+    key: {
+      A: {
+        item: "refinedstorage:advanced_processor"
+      },
+      B: {
+        item: "deeperdarker:heart_of_the_deep"
+      },
+      C: {
+        item: "refinedstorage:improved_processor"
+      },
+      D: {
+        item: "refinedstorage:silicon"
+      },
+      E: {
+        item: "refinedstorage:machine_casing"
+      },
+      F: {
+        item: "refinedstorage:quartz_enriched_iron"
+      },
+      G: {
+        item: "extradisks:withering_processor"
+      }
+    },
+    result: {
+      item: "refinedstorage:controller"
+    }
+  })
+  //#endregion
 })
 //#endregion
 
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
+//#region - Définition/Suppression/Masquage d'éléments dans JEI
+function refined_storage() {
+  // Mise en place des Eléments à supprimer ou à cacher
+  let unused = [
+    /extradisks:16384k_/,
+    /extradisks:65536k_/,
+    /extradisks:262144k_/,
+    /extradisks:1048576k_/,
+    /extrastorage:storagepart_/,
+    /refinedstorage:creative_fluid_storage/,
+    /refinedstorage:creative_storage/
+  ]
+  let hiding = [
+    /refinedstorage:black_/,
+    /refinedstorage:blue_/,
+    /refinedstorage:brown_/,
+    /refinedstorage:cyan_/,
+    /refinedstorage:gray_/,
+    /refinedstorage:green_/,
+    /refinedstorage:light_gray_/,
+    /refinedstorage:lime_/,
+    /refinedstorage:magenta_/,
+    /refinedstorage:orange_/,
+    /refinedstorage:pink_/,
+    /refinedstorage:purple_/,
+    /refinedstorage:red_/,
+    /refinedstorage:white_/,
+    /refinedstorage:yellow_/
+  ]
+  // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
+  function handle_Tags(e) {
+    e.removeAllTagsFrom(unused)
+    e.add("forge:hiding", [unused, hiding])
+  }
+  function handle_Recipes(e) {
+    e.remove([{ input: unused }, { output: unused }])
+  }
+  ServerEvents.tags(["item", "block"], handle_Tags)
+  ServerEvents.recipes(handle_Recipes)
+}
+refined_storage()
 //#endregion

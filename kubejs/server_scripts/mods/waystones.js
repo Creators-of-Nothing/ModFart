@@ -1,3 +1,15 @@
+//#region - Crafts
+ServerEvents.recipes(e => {
+  e.remove([{ id: /waystones:.*_waystone/ }, { id: "waystones:warp_stone" }])
+  let potting_waystones = (material, waystone) => {
+    e.shaped(waystone, [" A ", "ABA", "CCC"], { A: material, B: "waystones:warp_dust", C: "minecraft:obsidian" })
+  }
+  potting_waystones("minecraft:stone_bricks", "waystones:waystone")
+  potting_waystones("minecraft:mossy_stone_bricks", "waystones:mossy_waystone")
+  potting_waystones("minecraft:chiseled_sandstone", "waystones:sandy_waystone")
+})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function waystones() {
   // Mise en place des Eléments à supprimer ou à cacher
@@ -15,12 +27,4 @@ function waystones() {
   ServerEvents.recipes(handle_Recipes)
 }
 waystones()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

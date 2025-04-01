@@ -18,7 +18,7 @@
 	id: "5FC69B5B2DA36977"
 	images: [
 		{
-			height: 4.0d
+			height: 1.3813813813813813d
 			image: "kubejs:textures/ftbquests/outils.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -26,23 +26,23 @@
 			y: -4.75d
 		}
 		{
-			height: 12.0d
+			height: 0.8648648648648649d
 			image: "kubejs:textures/ftbquests/dupli.png"
 			rotation: 0.0d
 			width: 18.0d
-			x: -10.75d
-			y: -8.25d
+			x: -11.0d
+			y: -7.5d
 		}
 		{
-			height: 4.0d
+			height: 1.4564564564564566d
 			image: "kubejs:textures/ftbquests/energie.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: 1.0d
-			y: 4.25d
+			y: 4.5d
 		}
 		{
-			height: 4.0d
+			height: 1.2162162162162162d
 			image: "kubejs:textures/ftbquests/machines.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -50,7 +50,7 @@
 			y: -3.75d
 		}
 		{
-			height: 5.0d
+			height: 4.592901878914405d
 			image: "kubejs:textures/ftbquests/solar.png"
 			rotation: 0.0d
 			width: 5.5d
@@ -58,7 +58,7 @@
 			y: 6.0d
 		}
 		{
-			height: 7.0d
+			height: 7.617999999999999d
 			image: "kubejs:textures/ftbquests/armor.png"
 			rotation: 0.0d
 			width: 4.55d
@@ -532,8 +532,8 @@
 			id: "00211C90AB5057D1"
 			rewards: [{
 				count: 8
-				id: "30DD383D1C905B66"
-				item: "mekanism:ultimate_universal_cable"
+				id: "60F2189C8C8DE032"
+				item: "mekanismcovers:empty_cover"
 				type: "item"
 			}]
 			tasks: [

@@ -1,12 +1,18 @@
+//#region - Crafts
+ServerEvents.recipes(e => {
+  //#region - Replace Inputs
+  e.replaceInput({ input: "manyideas_core:plate_copper" }, "manyideas_core:plate_copper", "kubejs:copper_plate")
+  e.replaceInput({ input: "manyideas_core:plate_gold" }, "manyideas_core:plate_gold", "kubejs:gold_plate")
+  e.replaceInput({ input: "manyideas_core:plate_iron" }, "manyideas_core:plate_iron", "kubejs:iron_plate")
+  e.replaceInput({ input: "manyideas_core:plate_quartz" }, "manyideas_core:plate_quartz", "kubejs:nether_quartz_plate")
+  //#endregion
+})
+//#endregion
+
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
 function manyideas() {
   // Mise en place des Eléments à supprimer ou à cacher
-  let unused = [
-    "manyideas_core:plate_copper",
-    "manyideas_core:plate_gold",
-    "manyideas_core:plate_iron",
-    "manyideas_core:plate_quartz"
-  ]
+  let unused = ["manyideas_core:plate_copper", "manyideas_core:plate_gold", "manyideas_core:plate_iron", "manyideas_core:plate_quartz"]
   let hiding = []
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
@@ -20,12 +26,4 @@ function manyideas() {
   ServerEvents.recipes(handle_Recipes)
 }
 manyideas()
-//#endregion
-
-//#region - Crafts
-ServerEvents.recipes(e => {})
-//#endregion
-
-//#region - Tags
-ServerEvents.tags(["item", "block"], e => {})
 //#endregion

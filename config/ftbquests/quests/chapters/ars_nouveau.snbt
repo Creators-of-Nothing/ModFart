@@ -10,7 +10,7 @@
 			height: 7.0d
 			image: "kubejs:textures/ftbquests/familiers.png"
 			rotation: 0.0d
-			width: 20.0d
+			width: 15.0d
 			x: -3.25d
 			y: -5.75d
 		}
@@ -19,56 +19,56 @@
 			image: "kubejs:textures/ftbquests/nature.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: -9.0d
+			x: -9.5d
 			y: -0.25d
 		}
 		{
-			height: 14.0d
+			height: 13.0d
 			image: "kubejs:textures/ftbquests/nature.png"
 			rotation: 0.0d
-			width: 14.5d
-			x: -9.0d
-			y: 7.25d
+			width: 15.0d
+			x: -9.25d
+			y: 6.75d
 		}
 		{
 			height: 7.0d
 			image: "kubejs:textures/ftbquests/nature.png"
 			rotation: 0.0d
 			width: 14.0d
-			x: 1.75d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
-			height: 3.0d
+			height: 1.0150375939849623d
 			image: "kubejs:textures/ftbquests/monstre.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: -9.75d
-			y: -0.5d
+			x: -10.25d
+			y: -1.0d
 		}
 		{
-			height: 3.0d
+			height: 1.0d
 			image: "kubejs:textures/ftbquests/grimoire.png"
 			rotation: 0.0d
-			width: 7.0d
-			x: 4.25d
-			y: -1.25d
+			width: 5.629213483146067d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
-			height: 7.0d
+			height: 0.9906191369606004d
 			image: "kubejs:textures/ftbquests/source.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: -8.25d
-			y: 11.75d
+			x: -8.75d
+			y: 3.5d
 		}
 		{
-			height: 5.0d
+			height: 1.7363344051446945d
 			image: "kubejs:textures/ftbquests/machine.png"
 			rotation: 0.0d
 			width: 10.0d
-			x: 6.75d
-			y: 3.75d
+			x: 6.5d
+			y: 4.0d
 		}
 	]
 	order_index: 1
@@ -1482,6 +1482,11 @@
 			dependencies: ["44979AFBF49F2FDF"]
 			description: ["Permet de capturer la Source depuis une Source Jar pour la condenser en un liquide que vous pouvez utiliser pour créer votre future &4Creative Source Jar&r. Vous n'aurez plus qu'à extraire le liquide via des Fluids Pipes par exemple."]
 			id: "635E5AFD6CDA7521"
+			rewards: [{
+				id: "04AB353ED8CD8F66"
+				item: "starbunclemania:fluid_jar"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02AEE0E89D7CC214"
 				item: "starbunclemania:source_condenser"
