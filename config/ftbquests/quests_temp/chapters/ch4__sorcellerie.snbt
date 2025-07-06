@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch4__sorcellerie"
+	group: "520987ECA1C88A3B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "chipped:block/carved_pumpkin/tiny_smug_carved_pumpkin"
+		}
+	}
+	id: "0ACAF2E9A1B67F0D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ch.4 - Sorcellerie"
+}

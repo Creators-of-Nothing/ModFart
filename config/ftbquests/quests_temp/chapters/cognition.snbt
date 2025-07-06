@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cognition"
+	group: "6FCD3535E8BFAB91"
+	id: "0A23757D4A93C67F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Cognition"
+}

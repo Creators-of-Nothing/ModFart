@@ -6,7 +6,7 @@ ServerEvents.recipes(e => {
     B: "create:rose_quartz",
     C: "create:pulse_repeater",
     D: "wormhole:advanced_energy_cell"
-  })
+  });
   //#endregion
-})
+});
 //#endregion

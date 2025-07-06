@@ -6,12 +6,11 @@ ServerEvents.recipes(e => {
     { id: "extendedcrafting:advanced_table" },
     { id: "extendedcrafting:elite_table" },
     { id: "extendedcrafting:ultimate_table" },
-    { id: "extendedcrafting:enhanced_redstone_ingot" },
-    { id: "extendedcrafting:flux_star" }
-  ])
+    { id: "extendedcrafting:enhanced_redstone_ingot" }
+  ]);
   //#endregion
   //#region - Crystaltine Ingot
-  e.remove({ id: "extendedcrafting:crystaltine_ingot" })
+  e.remove({ id: "extendedcrafting:crystaltine_ingot" });
   e.custom({
     type: "cyclic:solidifier",
     ingredients: [
@@ -37,7 +36,7 @@ ServerEvents.recipes(e => {
       item: "extendedcrafting:crystaltine_ingot",
       count: 1
     }
-  })
+  });
   //#endregion
   //#region - The Ultimate Ingot
   e.custom({
@@ -52,7 +51,7 @@ ServerEvents.recipes(e => {
     ],
     output: { item: "extendedcrafting:the_ultimate_ingot" },
     sourceCost: 2000
-  })
+  });
   //#endregion
   //#region - Catalysts
   let potting_catalysts = (rod, output) => {
@@ -88,18 +87,15 @@ ServerEvents.recipes(e => {
       transitionalItem: {
         item: "kubejs:black_iron_plate"
       }
-    })
-  }
-  potting_catalysts("kubejs:iron_rod", "extendedcrafting:basic_catalyst")
-  potting_catalysts("kubejs:gold_rod", "extendedcrafting:advanced_catalyst")
-  potting_catalysts("kubejs:diamond_rod", "extendedcrafting:elite_catalyst")
-  potting_catalysts("kubejs:emerald_rod", "extendedcrafting:ultimate_catalyst")
-  potting_catalysts("kubejs:redstone_ingot_rod", "extendedcrafting:redstone_catalyst")
-  potting_catalysts("kubejs:enhanced_redstone_rod", "extendedcrafting:enhanced_redstone_catalyst")
-  potting_catalysts("kubejs:ender_rod", "extendedcrafting:ender_catalyst")
-  potting_catalysts("kubejs:enhanced_ender_rod", "extendedcrafting:enhanced_ender_catalyst")
-  potting_catalysts("kubejs:crystaltine_rod", "extendedcrafting:crystaltine_catalyst")
-  potting_catalysts("kubejs:the_ultimate_rod", "extendedcrafting:the_ultimate_catalyst")
+    });
+  };
+  potting_catalysts("kubejs:iron_rod", "extendedcrafting:basic_catalyst");
+  potting_catalysts("kubejs:gold_rod", "extendedcrafting:advanced_catalyst");
+  potting_catalysts("kubejs:diamond_rod", "extendedcrafting:elite_catalyst");
+  potting_catalysts("kubejs:emerald_rod", "extendedcrafting:ultimate_catalyst");
+  potting_catalysts("kubejs:enhanced_redstone_rod", "extendedcrafting:enhanced_redstone_catalyst");
+  potting_catalysts("kubejs:crystaltine_rod", "extendedcrafting:crystaltine_catalyst");
+  potting_catalysts("kubejs:the_ultimate_rod", "extendedcrafting:the_ultimate_catalyst");
   //#endregion
   //#region - Crafting Tables
   e.custom({
@@ -117,7 +113,7 @@ ServerEvents.recipes(e => {
         item: "extendedcrafting:basic_table"
       }
     ]
-  })
+  });
   let potting_crafting_tables = (input, catalyst, output) => {
     e.custom({
       type: "create:item_application",
@@ -134,11 +130,11 @@ ServerEvents.recipes(e => {
           item: output
         }
       ]
-    })
-  }
-  potting_crafting_tables("extendedcrafting:basic_table", "extendedcrafting:advanced_catalyst", "extendedcrafting:advanced_table")
-  potting_crafting_tables("extendedcrafting:advanced_table", "extendedcrafting:elite_catalyst", "extendedcrafting:elite_table")
-  potting_crafting_tables("extendedcrafting:elite_table", "extendedcrafting:ultimate_catalyst", "extendedcrafting:ultimate_table")
+    });
+  };
+  potting_crafting_tables("extendedcrafting:basic_table", "extendedcrafting:advanced_catalyst", "extendedcrafting:advanced_table");
+  potting_crafting_tables("extendedcrafting:advanced_table", "extendedcrafting:elite_catalyst", "extendedcrafting:elite_table");
+  potting_crafting_tables("extendedcrafting:elite_table", "extendedcrafting:ultimate_catalyst", "extendedcrafting:ultimate_table");
   //#endregion
   //#region - Charging
   let potting_charging = (input, output) => {
@@ -152,12 +148,53 @@ ServerEvents.recipes(e => {
       },
       energy: 10000,
       maxChargeRate: 1000
-    })
-  }
-  potting_charging("minecraft:nether_star", "extendedcrafting:flux_star")
-  potting_charging("extendedcrafting:redstone_ingot", "extendedcrafting:enhanced_redstone_ingot")
+    });
+  };
+  potting_charging("extendedcrafting:redstone_ingot", "extendedcrafting:enhanced_redstone_ingot");
   //#endregion
-})
+  //#region - Crafting Core
+  e.remove({ id: "extendedcrafting:crafting_core" });
+  e.custom({
+    type: "create:item_application",
+    ingredients: [
+      {
+        item: "extendedcrafting:frame"
+      },
+      {
+        item: "extendedcrafting:elite_catalyst"
+      }
+    ],
+    results: [
+      {
+        item: "extendedcrafting:crafting_core"
+      }
+    ]
+  });
+  //#endregion
+  //#region - Auto Ender Crafter
+  e.remove({ id: "extendedcrafting:auto_ender_crafter" });
+  e.shaped("extendedcrafting:auto_ender_crafter", ["ABA", "CDC", "ABA"], {
+    A: "extendedcrafting:black_iron_ingot",
+    B: "extendedcrafting:enhanced_redstone_catalyst",
+    C: "extendedcrafting:crystaltine_catalyst",
+    D: "extendedcrafting:ender_crafter"
+  });
+  //#endregion
+  //#region - Black Iron
+  e.remove({ id: "extendedcrafting:black_iron_ingot" });
+  let potting_black_iron = (result, base) => {
+    e.custom({
+      type: "create:mixing",
+      heatRequirement: "superheated",
+      ingredients: [{ item: base }],
+      results: [{ item: result }]
+    });
+  };
+  potting_black_iron("extendedcrafting:black_iron_block", "minecraft:iron_block");
+  potting_black_iron("extendedcrafting:black_iron_ingot", "minecraft:iron_ingot");
+  potting_black_iron("extendedcrafting:black_iron_nugget", "minecraft:iron_nugget");
+  //#endregion
+});
 //#endregion
 
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
@@ -168,26 +205,33 @@ function extendedcrafting() {
     "extendedcrafting:basic_component",
     "extendedcrafting:crystaltine_component",
     "extendedcrafting:elite_component",
+    "extendedcrafting:ender_catalyst",
     "extendedcrafting:ender_component",
+    "extendedcrafting:enhanced_ender_catalyst",
     "extendedcrafting:enhanced_ender_component",
     "extendedcrafting:enhanced_redstone_component",
     "extendedcrafting:flux_alternator",
     "extendedcrafting:flux_crafter",
+    "extendedcrafting:flux_star_block",
+    "extendedcrafting:flux_star",
+    "extendedcrafting:luminessence_block",
+    "extendedcrafting:luminessence",
+    "extendedcrafting:redstone_catalyst",
     "extendedcrafting:redstone_component",
     "extendedcrafting:the_ultimate_component",
     "extendedcrafting:ultimate_component"
-  ]
-  let hiding = []
+  ];
+  let hiding = [];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
-    e.removeAllTagsFrom(unused)
-    e.add("forge:hiding", [unused, hiding])
+    e.removeAllTagsFrom(unused);
+    e.add("forge:hiding", [unused, hiding]);
   }
   function handle_Recipes(e) {
-    e.remove([{ input: unused }, { output: unused }])
+    e.remove([{ input: unused }, { output: unused }]);
   }
-  ServerEvents.tags(["item", "block"], handle_Tags)
-  ServerEvents.recipes(handle_Recipes)
+  ServerEvents.tags(["item", "block"], handle_Tags);
+  ServerEvents.recipes(handle_Recipes);
 }
-extendedcrafting()
+extendedcrafting();
 //#endregion

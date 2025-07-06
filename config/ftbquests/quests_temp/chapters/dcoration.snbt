@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dcoration"
+	group: "59E3973EFDDF4BE1"
+	id: "6C89C51135A8E0D4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Décoration"
+}

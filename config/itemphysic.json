@@ -1,6 +1,5 @@
 {
   "general": {
-    "customThrow": false,
     "fallSounds": true,
     "disableCactusDamage": false,
     "swimmingItems": {
@@ -8,11 +7,17 @@
       "isWhitelist": false
     },
     "burningItems": {
-      "entries": [],
-      "isWhitelist": true
+      "entries": [
+        "{id:\"blocktag\",tag:\"forge:modfart/fireproof\"}",
+        "{id:\"itemtag\",tag:\"forge:modfart/fireproof\"}"
+      ],
+      "isWhitelist": false
     },
     "undestroyableItems": {
-      "entries": [],
+      "entries": [
+        "{id:\"blocktag\",tag:\"forge:modfart/undestroyable\"}",
+        "{id:\"itemtag\",tag:\"forge:modfart/fireproof\"}"
+      ],
       "isWhitelist": true
     }
   },
@@ -20,10 +25,17 @@
     "customPickup": false,
     "pickupWhenSneaking": true,
     "pickupNormally": false,
-    "maximumPickupRange": 5.0,
+    "maximumPickupRange": 5,
+    "hitboxIncrease": 0.2,
     "alwaysPickup": {
       "entries": [],
       "isWhitelist": true
     }
+  },
+  "throw": {
+    "enabled": false,
+    "maxStages": 6,
+    "multiplierPerStage": 1,
+    "stageChargeTime": 10
   }
 }

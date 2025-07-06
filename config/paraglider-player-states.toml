@@ -72,3 +72,77 @@
 		#Range: > 0
 		recoveryDelay = 0
 
+[parcool]
+
+	[parcool.breakfallready]
+		#Range: > -2147483648
+		staminaDelta = 0
+		#Range: > 0
+		recoveryDelay = 0
+
+	[parcool.catleap]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.chargejump]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.climbup]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.clingtocliff]
+		#Range: > -2147483648
+		staminaDelta = -2
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.dodge]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.fastrun]
+		#Range: > -2147483648
+		staminaDelta = -2
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.fastswim]
+		#Range: > -2147483648
+		staminaDelta = -3
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.horizontalwallrun]
+		#Range: > -2147483648
+		staminaDelta = -2
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.roll]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.vault]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+
+	[parcool.verticalwallrun]
+		#Range: > -2147483648
+		staminaDelta = -15
+		#Range: > 0
+		recoveryDelay = 10
+

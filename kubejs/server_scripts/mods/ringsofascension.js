@@ -39,8 +39,8 @@ ServerEvents.recipes(e => {
         }
       ],
       sourceCost: 10000
-    })
-  }
+    });
+  };
   potting_rings(
     "ringsofascension:ring_dolphin",
     "beachparty:beach_hat",
@@ -51,7 +51,7 @@ ServerEvents.recipes(e => {
     "beachparty:rubber_ring_pink",
     "alexsmobs:crocodile_chestplate",
     "moa_decor_toys:delfin"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_experience",
     "vinery:cristel_wine",
@@ -62,7 +62,7 @@ ServerEvents.recipes(e => {
     "create:experience_block",
     "create_enchantment_industry:experience_rotor",
     "sophisticatedstorage:xp_pump_upgrade"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_fire_resistance",
     "twilightdelight:tear_drink",
@@ -73,7 +73,7 @@ ServerEvents.recipes(e => {
     "alexsmobs:lava_bottle",
     "ars_nouveau:fire_essence",
     "additional_lights:fire_for_standing_torch_s"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_flight",
     "alexsmobs:void_worm_eye",
@@ -82,9 +82,9 @@ ServerEvents.recipes(e => {
     "the_bumblezone:pollen_puff",
     "eidolon:raven_cloak",
     "ars_nouveau:ritual_flight",
-    "lolenderite:enderite_plated_elytra",
+    "alexsmobs:tarantula_hawk_elytra",
     "mekanism:jetpack_armored"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_growth",
     "vinery:straw_hat",
@@ -95,7 +95,7 @@ ServerEvents.recipes(e => {
     "meadow:watering_can",
     "vinery:winemaker_apron",
     "arcanelanterns:life_lantern"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_health",
     "paraglider:heart_container",
@@ -106,7 +106,7 @@ ServerEvents.recipes(e => {
     "alexsmobs:soul_heart",
     "ars_elemental:anima_essence",
     "candlelight:hearth"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_hungerless",
     "candlelight:cooking_hat",
@@ -117,7 +117,7 @@ ServerEvents.recipes(e => {
     "pamhc2foodextended:cookoutmealitem",
     "candlelight:chefs_jacket",
     "sophisticatedstorage:advanced_feeding_upgrade"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_invisibility",
     "ars_nouveau:glyph_invisibility",
@@ -128,18 +128,18 @@ ServerEvents.recipes(e => {
     "moa_decor_holidays:fantasma",
     "moa_decor_toys:vex",
     "skinnedlanterns:ghost_lantern_block"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_jump_boost",
     "minecraft:white_bed",
-    "minecraft:rabbit_foot",
-    "create_things_and_misc:sticky_launcher",
+    "twilightdelight:aurora_pie_slice",
+    "farlanders:nightfall_leggings",
     "alexsmobs:flying_fish_boots",
     "farmersdelight:horse_feed",
-    "create_things_and_misc:sticky_boots_boots",
-    "create_things_and_misc:brass_sticky_launcher",
+    "minecraft:rabbit_foot",
+    "cyclic:apple_bone",
     "vinery:clark_wine"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_knockback_resistance",
     "enlightened_end:adamantite_armor_helmet",
@@ -150,18 +150,18 @@ ServerEvents.recipes(e => {
     "arcanelanterns:warding_lantern",
     "enlightened_end:adamantite_armor_chestplate",
     "ars_nouveau:glyph_gust"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_lava_sponge",
     "moa_decor_bath:esponjadebano",
     "minecraft:blackstone",
-    "create_things_and_misc:spout_gun_lava",
+    "alexsmobs:lava_bottle",
     "trashcans:liquid_trash_can",
     "ars_nouveau:fire_essence",
     "minecraft:lava_bucket",
     "permanentsponges:magmatic_sponge_on_a_stick",
     "minecraft:netherrack"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_luck",
     "betterarcheology:villager_fossil",
@@ -172,7 +172,7 @@ ServerEvents.recipes(e => {
     "mcwpaths:dark_prismarine_clover_paving",
     "candlelight:gold_ring",
     "vinery:bolvar_wine"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_magnetism",
     "vinery:magnetic_wine",
@@ -183,7 +183,7 @@ ServerEvents.recipes(e => {
     "moa_decor_science:brujula",
     "simplemagnets:advancedmagnet",
     "sophisticatedstorage:advanced_magnet_upgrade"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_mining",
     "twilightforest:mining_leaves",
@@ -194,7 +194,7 @@ ServerEvents.recipes(e => {
     "apotheosis:iron_mining_arrow",
     "create_confectionery:candy_cane",
     "beachparty:honey_cocktail"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_night_vision",
     "vinery:aegis_wine",
@@ -205,7 +205,7 @@ ServerEvents.recipes(e => {
     "cataclysm:mech_eye",
     "minecraft:ender_eye",
     "cataclysm:abyss_eye"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_poison_resistance",
     "minecraft:spider_eye",
@@ -216,7 +216,7 @@ ServerEvents.recipes(e => {
     "minecraft:poisonous_potato",
     "chipped:ivy_vine",
     "moa_decor_science:veneno"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_regeneration",
     "minecraft:ghast_tear",
@@ -227,7 +227,7 @@ ServerEvents.recipes(e => {
     "create_confectionery:soothing_hot_chocolate",
     "vinery:cherry_wine",
     "drinkbeer:beer_mug_sweet_berry_kriek"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_slow_falling",
     "endlessbiomes:loaded_core",
@@ -238,18 +238,18 @@ ServerEvents.recipes(e => {
     "twilightforest:fluffy_cloud",
     "arcanelanterns:cloud_lantern",
     "endlessbiomes:void_touched_boots_boots"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_slow_resistance",
     "undergarden:goo_ball",
-    "create_things_and_misc:spout_gun_honey",
+    "cyclic:honey_bucket",
     "moa_decor_toys:abeja",
     "minecraft:honey_block",
     "undergarden:cloggrum_boots",
     "minecraft:slime_block",
     "moa_decor_toys:slime",
-    "create_things_and_misc:spout_gun_slime"
-  )
+    "cyclic:slime_bucket"
+  );
   potting_rings(
     "ringsofascension:ring_speed",
     "mob_grinding_utils:xp_solidifier_upgrade",
@@ -260,18 +260,18 @@ ServerEvents.recipes(e => {
     "create_confectionery:white_chocolate_candy",
     "create_confectionery:caramel_glazed_berries",
     "create_confectionery:chocolate_candy"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_sponge",
     "moa_decor_bath:esponjadebano",
     "minecraft:prismarine",
-    "create_things_and_misc:spout_gun_water",
+    "the_bumblezone:sugar_water_bottle",
     "trashcans:liquid_trash_can",
     "ars_nouveau:water_essence",
     "minecraft:water_bucket",
     "permanentsponges:aqueous_sponge_on_a_stick",
     "minecraft:sand"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_steadfast_steps",
     "beachparty:sunglasses",
@@ -282,7 +282,7 @@ ServerEvents.recipes(e => {
     "framedblocks:framed_stairs",
     "pizzacraft:pizza_delivery_boots",
     "meadow:climbing_rope_topmount"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_strength",
     "ars_nouveau:wilden_horn",
@@ -293,7 +293,7 @@ ServerEvents.recipes(e => {
     "vinery:bottle_mojang_noir",
     "farmersdelight:dog_food",
     "pamhc2foodextended:rootbeersodaitem"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_undying",
     "fantasyfurniture:decorations/gravestone",
@@ -304,7 +304,7 @@ ServerEvents.recipes(e => {
     "alexsmobs:soul_heart",
     "ars_nouveau:thread_undying",
     "minecraft:respawn_anchor"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_water_breathing",
     "supplementaries:wind_vane",
@@ -315,7 +315,7 @@ ServerEvents.recipes(e => {
     "chimes:bamboo_chimes",
     "ars_nouveau:air_essence",
     "vinery:kelp_cider"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_water_walking",
     "moa_decor_art:esculturajesuscrucificado",
@@ -326,7 +326,7 @@ ServerEvents.recipes(e => {
     "minecraft:blue_ice",
     "undergarden:veil_mushroom",
     "moa_decor_toys:ajolotedorado"
-  )
+  );
   potting_rings(
     "ringsofascension:ring_wither",
     "stalwart_dungeons:tungsten_helmet",
@@ -337,6 +337,6 @@ ServerEvents.recipes(e => {
     "ars_nouveau:glyph_wither",
     "stalwart_dungeons:tungsten_chestplate",
     "skinnedlanterns:wither_skeleton_lantern_block"
-  )
-})
+  );
+});
 //#endregion

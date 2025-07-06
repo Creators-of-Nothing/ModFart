@@ -1,7 +1,7 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Portal
-  e.remove({ id: "javd:portal_block" })
+  e.remove({ id: "javd:portal_block" });
   e.custom({
     type: "create:sequenced_assembly",
     ingredient: {
@@ -82,7 +82,7 @@ ServerEvents.recipes(e => {
     transitionalItem: {
       item: "wormhole:portal_frame"
     }
-  })
+  });
   //#endregion
-})
+});
 //#endregion

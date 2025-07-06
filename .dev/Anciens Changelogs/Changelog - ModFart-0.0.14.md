@@ -1,27 +1,34 @@
 # Changelog - ModFart-0.0.14
 
 ## [A venir]
-- 
+
+-
 
 ### [Mods]
-- 
+
+-
 
 ### [Ajouts]
-- 
+
+-
 
 ### [Suppressions]
-- 
+
+-
 
 ### [Changements]
-- 
+
+-
 
 Mods retirés :
+
 - Botany Pots Tiers
 - Create: Liquid Fuel
 - Immersive Melodies
 - Primal Magick
 
 Mods ajoutés :
+
 - Avaritia:Reforged
 - Ars Nouveau
 - Ars Ocultas
@@ -45,12 +52,14 @@ Mods ajoutés :
 - XNet
 
 Mods mis à jour :
-- 
+
+-
 
 Changements :
+
 - Désactivation des mods suivants :
- - Journey Into the Light
- - Macaw's Windows
+- Journey Into the Light
+- Macaw's Windows
 - Retrait du livre de Simply Swords au lancement d'un monde
 - Déplacement du bouton d'accès aux Waystones depuis l'inventaire
 - Modification des Abilities activées sur le modpack

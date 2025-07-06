@@ -1,21 +1,27 @@
 # Changelog - ModFart-0.0.16
 
 ## [A venir]
-- 
+
+-
 
 ### [Mods]
-- 
+
+-
 
 ### [Ajouts]
-- 
+
+-
 
 ### [Suppressions]
-- 
+
+-
 
 ### [Changements]
-- 
+
+-
 
 Mods retirés :
+
 - Allay in a Bottle
 - Ars Ocultas
 - Blood Magic
@@ -27,6 +33,7 @@ Mods retirés :
 - Tome of Blood: Rebirth
 
 Mods ajoutés :
+
 - Create Utilities
 - Loot Beams
 - MOA DECOR: BATH
@@ -34,6 +41,7 @@ Mods ajoutés :
 - MOA DECOR: TOYS
 
 Mods mis à jour :
+
 - Ars Nouveau (4.2.4 -> 4.3.0)
 - Balm (7.0.7 -> 7.1.1)
 - Building Gadgets (0.3.0 -> 1.0.0)
@@ -43,4 +51,5 @@ Mods mis à jour :
 - Nosiphus Furniture Mod (2023.08.15 -> 2023.09.14)
 
 Changements :
+
 - Mise en place du fichier de Default Options (raccourcis clavier, options, serveurs)

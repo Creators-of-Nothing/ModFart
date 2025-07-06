@@ -1,0 +1,296 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "undergarden"
+	group: "1BF794ED3A9B4457"
+	icon: {
+		Count: 1
+		id: "undergarden:depthrock"
+		tag: { }
+	}
+	id: "2B02D96B7FF74141"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "42EFD8706DCAC44E"
+			rewards: [{
+				count: 16
+				id: "4F7CFF487141A75F"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "56B0C5A0D809EFC1"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "71CBBA25CACC4E17"
+			rewards: [{
+				count: 16
+				id: "5669E933A33A5569"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4DB24956D8E74C30"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "30DFDA27659EA4CB"
+			rewards: [{
+				id: "6EE4FA6899ACEA8D"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "050E8056868086C3"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "57977CAE14FF7CC4"
+			rewards: [{
+				count: 4
+				id: "7733EF9FBDA0BF9E"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_nugget"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_guardian_spawn_egg"
+					tag: { }
+				}
+				id: "42387F21C15CDFD9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Pour aller dans l'UnderGarden, tu dois faire un portail en StoneBrick de la même taille qu'un portail du Nether classique, puis faire un clic droit avec le Catalyst dessus, comme si tu utilisais un briquet."
+				""
+				"Pour obtenir les ressources demandés et les mobs à tuer, il faut trouver un donjon. Vous ne pouvez pas le louper, c'est la seule structure du mod."
+			]
+			icon: {
+				Count: 1
+				id: "undergarden:catalyst"
+				tag: { }
+			}
+			id: "50160ECE83FBC2D0"
+			rewards: [{
+				count: 16
+				id: "64B7AC61216D6D4B"
+				item: {
+					Count: 1
+					id: "undergarden:shard_torch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: {
+					Count: 1
+					id: "undergarden:catalyst"
+					tag: { }
+				}
+				id: "599A938BFC804ED1"
+				type: "dimension"
+			}]
+			title: "L'Undergarden !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "53F43B68C5582B7E"
+			rewards: [{
+				id: "258B0CABB49D362E"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: {
+					Count: 1
+					id: "undergarden:rotling_spawn_egg"
+					tag: { }
+				}
+				id: "478D7DF587F7714D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "2A7383A6D8EB9665"
+			rewards: [{
+				id: "016CDE3EAEFC776F"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:nargoyle"
+				icon: {
+					Count: 1
+					id: "undergarden:nargoyle_spawn_egg"
+					tag: { }
+				}
+				id: "1F956F382F8B8E25"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "21542C0BBE0F243D"
+			rewards: [{
+				count: 4
+				id: "39511DB6EEFA5770"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotwalker"
+				icon: {
+					Count: 1
+					id: "undergarden:rotwalker_spawn_egg"
+					tag: { }
+				}
+				id: "03C67EC165DD38A6"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "1E5BB1CEF0757AF6"
+			rewards: [{
+				count: 4
+				id: "7ED1CA826799E475"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				icon: {
+					Count: 1
+					id: "undergarden:rotbeast_spawn_egg"
+					tag: { }
+				}
+				id: "2DEDDFB4FC6C4927"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "395CD0576023F021"
+			rewards: [{
+				id: "09251E975DB72E89"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_nugget"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:muncher"
+				icon: {
+					Count: 1
+					id: "undergarden:muncher_spawn_egg"
+					tag: { }
+				}
+				id: "3C48FD79219B6161"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "Undergarden"
+}

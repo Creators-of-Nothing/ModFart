@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: "0E3E4C79623BF7D0"
+	id: "17332C488BD856AF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7760035DD9447DFF"
+			tasks: [{
+				id: "04F9FA3F1F044B2E"
+				item: {
+					Count: 1
+					id: "undergarden:shiverstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -1.25d
+		}
+		{
+			id: "15B1FBB671459992"
+			tasks: [{
+				id: "3350259FFA40FA3C"
+				item: {
+					Count: 1
+					id: "kubejs:raw_coal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: -1.25d
+		}
+		{
+			description: [
+				""
+				"{ \"text\": \"EDIT HERE\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"189D2C3618765111\" } }"
+			]
+			id: "16D44CF53DFDA381"
+			tasks: [{
+				id: "7166EAE2E708EBDA"
+				title: "Mob Cages"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -2.5d
+		}
+		{
+			id: "7FA615C8D8D5B923"
+			tasks: [{
+				id: "75377F789926A3A4"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: -3.75d
+			y: -0.25d
+		}
+	]
+	title: "Test"
+}

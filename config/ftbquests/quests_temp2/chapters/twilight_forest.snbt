@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "1BF794ED3A9B4457"
+	icon: {
+		Count: 1
+		id: "twilightforest:mazestone_brick"
+		tag: { }
+	}
+	id: "6D2EDEFB79C60CB6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D1F0AB51031D500"]
+			description: [
+				"Pour les obtenir, tu dois tuer des Trolls. Pour les trouver, repère une grande île volante, puis creuse en dessous. Tu tomberas sur un cube d'obsidienne géant au centre d'une grotte. Les Trolls s'y trouvent."
+				""
+				"Utilises ensuite les Beans sur de l'Uberous Soil pour faire pousser un haricot magique et accéder à l'île volante."
+			]
+			id: "032302AB68FE9853"
+			rewards: [{
+				id: "1E752C63DB203ED0"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_beans"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ABD04A2E9B401A7"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_beans"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["032302AB68FE9853"]
+			description: ["Tues un Géant en armure. Ils se trouvent sur l'île volante."]
+			id: "3CD42F5A3B54B19E"
+			rewards: [{
+				id: "32F8910A4A488FDD"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15241F6A7CB744AE"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["3CD42F5A3B54B19E"]
+			description: ["Cette lampe permet de cramer les vignes qui vous bloqueront le chemin pour le chateau final."]
+			id: "1B39E76FBF60DE52"
+			rewards: [{
+				id: "161C689238735A7F"
+				item: {
+					Count: 1
+					id: "twilightforest:twilight_portal_miniature_structure"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E1159188AF931C"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.25d
+		}
+		{
+			description: [
+				"Pour se rendre dans la Twilight Forest, tu dois créer un trou de un de profond et de 2x2 minimum. Tu dois ensuite le remplir d'eau, puis entourer ce trou de fleurs. Enfin, pour ouvrir le portail, jette un diamant dans l'eau."
+				""
+				"Deux particularités à ce monde : il est très bas, donc vous trouverez des minerais de basse couche assez haut dans le monde."
+				""
+				"Le but est de faire les boss dans l'ordre, sinon, vous ne pourrez pas avancer dans les zones suivantes."
+				""
+				"Une fois les boss vaincus, les loots sont obtenus dans un coffre au niveau de la zone de spawn du jeu."
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:twilight_portal_miniature_structure"
+				tag: { }
+			}
+			id: "05FC127CCB18ED3F"
+			rewards: [{
+				id: "10AF697102AAA911"
+				item: {
+					Count: 1
+					id: "minecraft:sunflower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					Count: 1
+					id: "twilightforest:twilight_portal_miniature_structure"
+					tag: { }
+				}
+				id: "11B1BB2F83376DF7"
+				type: "dimension"
+			}]
+			title: "La Twilight Forest !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48DF185C4B80BD42"]
+			description: ["La Reine des neiges se trouve dans son château, au centre de la zone de neige, au dessus d'un immense glacier."]
+			id: "7D1F0AB51031D500"
+			rewards: [{
+				id: "1E16BD3A794B06CA"
+				item: {
+					Count: 1
+					id: "minecraft:snow_golem_spawn_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40D9DB96807103CC"
+				item: {
+					Count: 1
+					id: "twilightforest:snow_queen_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["28E71946063A13DB"]
+			description: ["L'Alpha Yeti se trouve dans la zone de neige."]
+			id: "48DF185C4B80BD42"
+			rewards: [{
+				id: "2B2236344030BA4A"
+				item: {
+					Count: 1
+					id: "twilightforest:alpha_yeti_fur"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EED8D76DC5B7FD1"
+				item: {
+					Count: 1
+					id: "twilightforest:alpha_yeti_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Donnes lui les 16 laines de couleur en cliquant droit avec sur lui."]
+			id: "489698E694DDE098"
+			rewards: [{
+				id: "2B1FE13955FD866E"
+				item: {
+					Count: 1
+					id: "manyideas_core:rainbow_wool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22D4940A8133EBC5"
+				item: {
+					Count: 1
+					id: "twilightforest:quest_ram_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BE20FB0F8335C2C"]
+			description: [
+				"Le Ur'Ghast se trouve au centre de la forêt noire. Il faut se rendre tout en haut. Pour le vaincre, vous devez tuer les petits ghasts que le boss fait spawner à proximiter des Ghasts Traps. Lorsqu'il est plein, et que le Ur'Ghast est proche, activez le avec la plaque de pression ! Il attirera le boss et là vous pourrez le taper ! Répétez l'opération jusqu'à sa mort."
+				""
+				"Si vous ne faites pas cela, le boss est immortel."
+			]
+			id: "28E71946063A13DB"
+			rewards: [{
+				id: "2AAB57643DE29B99"
+				item: {
+					Count: 1
+					id: "minecraft:ghast_tear"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EC6229902E935FB"
+				item: {
+					Count: 1
+					id: "twilightforest:ur_ghast_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.25d
+		}
+		{
+			dependencies: ["7CE8B362CF0ED206"]
+			description: ["Cette fois-ci, vous allez devoir trouver une forêt noire, très dense. A l'intérieur, se trouve un labyrinthe sous terrain. Pour y accéder, posez un des trophées sur le pedestal (vous pourrez le récupérer après avoir ouvert l'entrée). Les Phantom Knights se trouvent dans une salle dont l'entrée se trouvent derrière une grille cerclée d'obsidiennes."]
+			id: "0BE20FB0F8335C2C"
+			rewards: [{
+				id: "2B0CA013516DEA91"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6395E6C87EAC43B8"
+				item: {
+					Count: 1
+					id: "twilightforest:knight_phantom_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B9BC42F4B9526DD"]
+			description: ["L'hydre se trouve au centre du marais, sous une grosse colline ! Pour la tuer, l'idéal est de détruire ses têtes."]
+			id: "7CE8B362CF0ED206"
+			rewards: [{
+				id: "3B53F875694CEBD6"
+				item: {
+					Count: 1
+					id: "twilightdelight:hydra_piece"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC1129E1FDCE7C6"
+				item: {
+					Count: 1
+					id: "twilightforest:hydra_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7420F1E14689A899"]
+			description: ["Le Minoshroom se trouve dans un marais, au second sous-sol d'un labyrinthe. Lorsque vous l'aurez tué, manger le Meef Stroganoff pour pouvoir accéder à la zone suivante."]
+			id: "2B9BC42F4B9526DD"
+			rewards: [{
+				id: "3BA20C9D5796861F"
+				item: {
+					Count: 1
+					id: "minecraft:pufferfish"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D5428E225AD6462"
+				item: {
+					Count: 1
+					id: "twilightforest:minoshroom_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["2B9BC42F4B9526DD"]
+			description: [
+				"Le MazeBreacker se trouve au même étage que le boss, derrière le seul mur qui n'a, ni moisissure, ni craquelures. Vous pouvez également vous faire une map avec le Maze Focus. Attention, la salle est piégée."
+				""
+				"Pour la désarmer, creusez un cran dans le sol, puis creusez le mur tout droit. Attention, ne faites pas de Veinmine. Lorsque vous aurez atteint les TNT, là vous pouvez les Veinmines. "
+				""
+				"Vous avez ensuite accès aux coffres secrets. "
+				""
+				"Dernier attention : le loot n'est pas de 100% !"
+			]
+			id: "70163F1C9E463C30"
+			rewards: [{
+				id: "21D30F25802AAEBC"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_ore"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5026045B8AB90EC4"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["1A754DB70F8E0479"]
+			description: ["Trouvez un château, et accéder au plus haut. La Lich s'y trouve. Renvoyez les projectiles qu'elle vous envoie pour casser ses boucliers, puis cassez lui la goule !"]
+			id: "7420F1E14689A899"
+			rewards: [{
+				id: "3BF3E59E5D9E0E54"
+				item: {
+					Count: 1
+					id: "twilightforest:torchberries"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DBCD86FED1251DA"
+				item: {
+					Count: 1
+					id: "twilightforest:lich_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Trouvez un labyrinthe et tuez le !"]
+			id: "1A754DB70F8E0479"
+			rewards: [{
+				id: "44EBF72DCBB82F39"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_scale"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B3225F3C083469"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["05FC127CCB18ED3F"]
+			description: ["Cette map vous permettra de découvrir les différents biomes autour de vous et donc de trouver les différents boss à affronter."]
+			id: "4875CFC8DEA30A6D"
+			rewards: [{
+				id: "220C4CAF97507592"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_map"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "523A13B9F3B31EAB"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_map"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"28E71946063A13DB"
+				"48DF185C4B80BD42"
+				"7CE8B362CF0ED206"
+				"1B39E76FBF60DE52"
+				"3CD42F5A3B54B19E"
+				"032302AB68FE9853"
+				"05FC127CCB18ED3F"
+				"0BE20FB0F8335C2C"
+				"7420F1E14689A899"
+				"4875CFC8DEA30A6D"
+				"489698E694DDE098"
+				"1A754DB70F8E0479"
+				"7D1F0AB51031D500"
+				"70163F1C9E463C30"
+				"2B9BC42F4B9526DD"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
+			id: "4BAE8105E427FBF1"
+			rewards: [{
+				id: "4ECD2A31270EB94D"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:dimensions"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
+			tasks: [{
+				id: "246BC20725A681AA"
+				type: "checkmark"
+			}]
+			title: "Twilight Forest terminée !"
+			x: 0.0d
+			y: 8.0d
+		}
+	]
+	title: "Twilight Forest"
+}

@@ -1,7 +1,7 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Removed Crafts
-  e.remove([{ id: "twigs:cobblestone_from_pebble" }, { id: "twigs:rocky_dirt" }])
+  e.remove([{ id: "twigs:cobblestone_from_pebble" }, { id: "twigs:rocky_dirt" }]);
   //#endregion
   //#region - Pebble
   e.custom({
@@ -18,7 +18,7 @@ ServerEvents.recipes(e => {
         item: "twigs:pebble"
       }
     ]
-  })
+  });
   //#endregion
-})
+});
 //#endregion

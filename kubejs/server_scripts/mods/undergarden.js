@@ -1,8 +1,8 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Depthrock Pebble
-  e.remove({ id: "undergarden:depthrock_pebble_stonecutting" })
-  e.shapeless("9x undergarden:depthrock_pebble", "undergarden:depthrock")
+  e.remove({ id: "undergarden:depthrock_pebble_stonecutting" });
+  e.shapeless("9x undergarden:depthrock_pebble", "undergarden:depthrock");
   //#endregion
   //#region - Emptying
   e.custom({
@@ -21,7 +21,7 @@ ServerEvents.recipes(e => {
         item: "minecraft:bucket"
       }
     ]
-  })
+  });
   //#endregion
-})
+});
 //#endregion

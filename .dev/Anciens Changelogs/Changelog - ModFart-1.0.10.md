@@ -1,9 +1,11 @@
 # Changelog - ModFart-1.0.10
 
 ## [Résumé]
+
 - Hotfix
 
 ## [A_venir]
+
 - Conflits de craft (Pam's HarvestCraft)
 - Ajout d'objet dans les emplacement Curios
 - Unification des ingots
@@ -12,15 +14,19 @@
 - Crafting Table pour la Crafting Grid
 
 ### [Mods]
-- ***Add*** - Unbreakable Enchantment
 
-- ***Del*** - Actually Unbreaking
+- **_Add_** - Unbreakable Enchantment
+
+- **_Del_** - Actually Unbreaking
 
 ### [Ajouts]
-- 
+
+-
 
 ### [Suppressions]
-- 
+
+-
 
 ### [Changements]
-- 
+
+-

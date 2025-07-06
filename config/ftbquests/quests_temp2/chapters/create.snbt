@@ -1,0 +1,1572 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "7798244B59ABC64D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "create:block/brass_casing"
+		}
+	}
+	id: "3D71719278E5606A"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:item/arcane_gold_gear"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.25d
+			y: -4.25d
+		}
+		{
+			height: 3.0d
+			image: "create:item/blaze_cake"
+			rotation: 20.0d
+			width: 3.0d
+			x: -5.75d
+			y: 4.25d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/potato.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.75d
+			y: -4.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/blaze.png"
+			rotation: 15.0d
+			width: 8.85d
+			x: 6.25d
+			y: 5.75d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: [
+				""
+				""
+				"Le Clipboard est juste un bloc note où tu pourras afficher les tâches à réaliser. Il peut être posé sur toutes surfaces."
+			]
+			id: "33560AAD94EE5A55"
+			rewards: [{
+				id: "55A9510C71E407AB"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C0030663C74A6C"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Clipboard"
+			x: -1.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Create utilise l'énergie mécanique pour activer ses machineries. Si tu es désespéré, ou que tu veux faire un craft rapide sans t'embêter, cet objet est fait pour toi !"]
+			id: "30FE9B8E85F5C991"
+			rewards: [{
+				id: "55D4E07CCFC8C58C"
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: { }
+				}
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "46C26AC8CA6BACE0"
+				item: {
+					Count: 1
+					id: "create:hand_crank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Manuel ?!"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Ceci te permettra d'utiliser, déplacer, et accélerer ou réduire la vitesse d'une machine. Tout comme IRL, si tu enchaines un petit cogwheel, puis un grand, cela accélerera la machine, et inversement dans le cas contraire."]
+			id: "03D8746ACE4DF78A"
+			rewards: [{
+				count: 8
+				id: "08254479E237C1AE"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "3A5121F7985E1EBB"
+					item: {
+						Count: 1
+						id: "create:cogwheel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "583DF4EE000311DF"
+					item: {
+						Count: 1
+						id: "create:large_cogwheel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "351681A582215B10"
+					item: {
+						Count: 1
+						id: "create:shaft"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Les bases"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Les gearbox te permettent un meilleur contrôle tes usines."]
+			id: "63AF0964A44899CD"
+			rewards: [{
+				id: "1294F77341A6FC6D"
+				item: {
+					Count: 1
+					id: "create:gearbox"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "TOP GEAR !"
+			tasks: [
+				{
+					id: "7B6DDF9C6F464555"
+					item: {
+						Count: 1
+						id: "create:gearbox"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "007A4FF14FF877C2"
+					item: {
+						Count: 1
+						id: "create:vertical_gearbox"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: [
+				"Les Water Wheels sont une bonne énergie mécanique de base. La version large tourne plus lentement, mais supporte mieux le stress. Si tu mets de la Soul Sand sous la Water Wheel, les bulles qui remonteront accéleront la roue !"
+				"{image:kubejs:textures/ftbquests/waterwheel.png width:100 height:100 align:1}"
+			]
+			id: "7E51EE75825ED530"
+			rewards: [{
+				id: "63B5CA81C30E2F18"
+				item: {
+					Count: 1
+					id: "create:water_wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1B759D90EC5AA342"
+					item: {
+						Count: 1
+						id: "create:water_wheel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "19774113D230CE69"
+					item: {
+						Count: 1
+						id: "create:large_water_wheel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Un bon début"
+			x: -5.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Les moulins à vent sont l'énergie la plus puissante en début de jeu. Ils ont une grande force et sont modulaires. Plus tu ajouteras de voiles, et plus le moulin tournera vite et subira moins le stress. Tu peux ajouter jusqu'à 128 voiles !"]
+			id: "0A5BA5686ADD6AD0"
+			rewards: [{
+				count: 4
+				id: "72C4B054DA45A085"
+				item: {
+					Count: 1
+					id: "create:white_sail"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Don Quichotte"
+			tasks: [
+				{
+					count: 8L
+					id: "56D33961EF357ECF"
+					item: {
+						Count: 1
+						id: "create:white_sail"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3307A7F3FC3DB1C4"
+					item: {
+						Count: 1
+						id: "create:windmill_bearing"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Des moulins à vent"
+			x: -6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Cet objet te permettra de contrôler la vitesse de tes usines sans avoir besoin d'ajouter des engrenages superflus."]
+			id: "1A98268B9FBDE257"
+			rewards: [{
+				id: "3365C58C88643399"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Gota go fast !"
+			tasks: [{
+				id: "65E67856EBAB0A72"
+				item: {
+					Count: 1
+					id: "create:rotation_speed_controller"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Un bon moteur qui peut remplacer tes Water Wheels ou tes Moulins. Attention, il supporte très mal le stress, mais ils sont cumulables."]
+			id: "5F64CCE2106FEA61"
+			rewards: [{
+				id: "3E5FE799DDC49063"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D54DCAA6B52A548"
+				item: {
+					Count: 1
+					id: "createaddition:electric_motor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Permet d'écraser des ressources en d'autres."]
+			id: "1873C0E0BEDDC008"
+			rewards: [{
+				id: "13FBAC33522B5E40"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E2599C26710AE6D"
+				item: {
+					Count: 1
+					id: "create:millstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Si vous êtes à côté de la plaque, ou que vous en ayez besoin, cet objet est fait pour vous !"]
+			id: "3C1868D46F599D2D"
+			rewards: [{
+				id: "0BA9C52EDB603EE6"
+				item: "moreplates:iron_plate"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CE0392EEA6D206"
+				item: {
+					Count: 1
+					id: "create:mechanical_press"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Parfois, on a besoin d'allonger certaines choses : le rolling mill vous permettra de créer des rods et des wires."]
+			id: "24AB33D36230AFD1"
+			rewards: [{
+				id: "3B714B64E1C549A8"
+				item: "moreplates:iron_rod"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E8EDB4559D0819"
+				item: {
+					Count: 1
+					id: "createaddition:rolling_mill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Le Mixer permet de mélanger des items entre eux dans le Basin. Attention, selon les mélanges, il vous faudra une certaine température apportée par le Blaze Burner. Pour le remplir, il suffit de clic droit sur un Blaze ou sur un spawner à blaze avec le Blaze Burner vide."
+				""
+				"Le Blaze Burner mange toute sorte de combustibles, mais si vous voulez le Super Heated, il faudra lui donner des Blazes Cake."
+			]
+			id: "4E6AAC128C410184"
+			rewards: [{
+				id: "1F69AE2474DAFD5D"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:blaze"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "21C48526C8E4BD41"
+					item: {
+						Count: 1
+						id: "create:mechanical_mixer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "164252B696770396"
+					item: {
+						Count: 1
+						id: "create:basin"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1C8D3B5560D08A69"
+					item: {
+						Count: 1
+						id: "create:blaze_burner"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Vous réviez d'une ferme automatique ? C'est chose faite ! Le Harvester permet de récolter et de planter vos cultures. Il peut même être mis dans l'eau pour, par exemple, récolter automatiquement du Kelp."
+				""
+				"La Saw permet de scier le bois. Pratique dans une usine, mais peut-être utilisé également pour farmer automatiquement les arbres dans une ferme. Attention qu'il ne replantera pas, il faut utiliser des deployers pour cela."
+				""
+				"Le Portable Storage Interface permet de lier deux machines entre elles, pour qu'elles se transfèrent les items entre elles."
+			]
+			id: "2C4EB289C5FECE47"
+			rewards: [{
+				id: "1949FF2D709C491F"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6122DAF82111613C"
+					item: {
+						Count: 1
+						id: "create:mechanical_harvester"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5B7881CB9E255952"
+					item: {
+						Count: 1
+						id: "create:mechanical_saw"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "19EBB8A46796A755"
+					item: {
+						Count: 1
+						id: "create:portable_storage_interface"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Champs automatisés"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Le Deployer permet de :"
+				""
+				"- poser des items"
+				"- faire certains crafts"
+				"- utiliser des items si vous lui donnez l'item en question"
+				"- attaquer si vous lui donnez une épée"
+			]
+			id: "5C1DF396430009E4"
+			rewards: [{
+				id: "20CFFD9745A4007D"
+				item: {
+					Count: 1
+					id: "create:brass_hand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Juste un doigt"
+			tasks: [{
+				id: "23A1B4285D53233B"
+				item: {
+					Count: 1
+					id: "create:deployer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Les crafters sont une sorte de table de craft, à assembler soi-même. Les formes à réaliser sont indiqués grâce à JEI. A noter que chaque crafter possède un sens, et que pour valider un craft, toutes les flèches doivent se diriger vers une sortie principale."]
+			id: "0991F1702983203E"
+			rewards: [{
+				id: "1D4C857E5E9169E6"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				count: 21L
+				id: "5C6C191C25C7CF43"
+				item: {
+					Count: 1
+					id: "create:mechanical_crafter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0991F1702983203E"]
+			description: ["Permet de concasser des objets encore plus fort !"]
+			id: "326D2ACE50925864"
+			rewards: [{
+				id: "14E50967C17988ED"
+				item: {
+					Count: 1
+					id: "create:experience_nugget"
+					tag: { }
+				}
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0F28A508393160E7"
+				item: {
+					Count: 1
+					id: "create:crushing_wheel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["De la colle pour lier les blocs entre eux ! "]
+			id: "7BEB742299606DC1"
+			rewards: [{
+				id: "576EF3C77A177840"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DCD1A907E5AD10D"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Pratique pour poser un item sans avoir à le jeter au sol. Un depot peut accueillir un stack d'un même item."]
+			id: "67C52B580FF8229C"
+			rewards: [{
+				id: "2F706D5509F16C0E"
+				item: {
+					Count: 1
+					id: "create:depot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "486F26E2055710BB"
+				item: {
+					Count: 1
+					id: "create:depot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Permet de transférer les items verticalement d'un inventaire à un autre. Si tu utilises la Wrench dessus, elle deviendra transparente, ce qui te permettra de voir les items passer à travers."]
+			id: "4DF4BF839C774278"
+			rewards: [{
+				id: "168D6405C09A0D5D"
+				item: {
+					Count: 1
+					id: "create:chute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Chute dans le peloton !"
+			tasks: [{
+				id: "70C414362653A91F"
+				item: {
+					Count: 1
+					id: "create:chute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Permet de sortir les items d'un inventaire horizontalement."]
+			id: "2D1338443588FD6A"
+			rewards: [{
+				id: "00C11CBDC22A77A4"
+				item: {
+					Count: 1
+					id: "create:andesite_funnel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B2B06B1D9C67435"
+				item: {
+					Count: 1
+					id: "create:andesite_funnel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: [
+				"Les belts sont utilisées pour deux choses : "
+				""
+				"- comme tapis roulant pour amener les items d'un point A à un point B."
+				"- pour transférer la rotation entre deux shafts."
+				""
+				"Si vous faites clic droit avec un Casing en main sur vos Belts, elles gagneront un petit support purement décoratif sans le consommer !"
+			]
+			id: "4753123B6345601C"
+			rewards: [{
+				count: 4
+				id: "0270479B8832BF09"
+				item: {
+					Count: 1
+					id: "create:belt_connector"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6769CB7F52C3453A"
+				item: {
+					Count: 1
+					id: "create:belt_connector"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B75B51AD1DE7D9D"]
+			description: ["Quand vous n'avez pas assez de vos deux bras, créez en un troisième ! Il transférera les objets d'un point A à un point B de façon plus souple que les Belts."]
+			id: "02372505F3A5574D"
+			rewards: [{
+				id: "7678E622EF2868ED"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8DB259F22475A9"
+				item: {
+					Count: 1
+					id: "create:mechanical_arm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Depuis la 1.18, Create permet la conception de trains ! Que vous souhaitiez traverser le monde, ou transporter des items depuis l'autre bout de base, les trains sont vos amis !"]
+			id: "169485A6CE91F6B5"
+			rewards: [{
+				id: "6ED41674C1594F06"
+				item: {
+					Count: 1
+					id: "minecraft:crying_obsidian"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "59A584FE45EA6798"
+				item: {
+					Count: 1
+					id: "create:track_station"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Le Rope Pulley te permet de pomper n'importe quel fluide. Pour se faire, il faut descendre la pompe avec une hand crank par exemple jusqu'à atteindre le fluide. Dans le cas de l'eau, elle sera pompée à l'infini, car elle se régénère, mais pour la lave, si la pompe se trouve dans un lac de lave contenant plus de 10 000 buckets de lave, le jeu considèrera qu'il y en a à l'infini. Pour en être sûr, vous aurez un succès si cela arrive !"]
+			id: "6DD5F2B95CCE54E6"
+			rewards: [{
+				id: "6A9F7CBD5FCA3279"
+				item: {
+					Count: 1
+					id: "minecraft:lava_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "De la lave à l'infini ?!"
+			tasks: [{
+				id: "090B4D492DE15BFA"
+				item: {
+					Count: 1
+					id: "create:hose_pulley"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"De base, il permet d'attirer ou d'expulser des items devant lui. Plus il a d'énergie cinétique, plus il est puissant."
+				""
+				"De plus, selon ce qui se trouve devant lui, le Fan aura un comportement différent. Vous pouvez ainsi placer devant lui (ou sur lui) :"
+				""
+				"- un Campfire"
+				"- un Soul Campfire"
+				"- de la lave"
+				"- de l'eau"
+				""
+				"Utilisez JEI sur le Fan pour voir toutes les recettes possibles !"
+			]
+			id: "2FE5B07B3D72E1B3"
+			rewards: [{
+				id: "688C87283C7155FA"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Votre plus grand Fan"
+			tasks: [{
+				id: "0DF3AB73DC001B86"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Le Spout permet de verser des liquides sur des items qui passe en dessous de lui, via les belts ou via un depot. Il n'a pas besoin d'énergie cinétique pour fonctionner."]
+			id: "5FE3791ABC495B30"
+			rewards: [{
+				id: "59954AC8A490D883"
+				item: {
+					Count: 1
+					id: "minecraft:water_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EDCB9E5BD8C367B"
+				item: {
+					Count: 1
+					id: "create:spout"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Je s'appelle Spout"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["En choissant la fréquence, tu peux transmettre un signal redstone jusqu'à 128 blocs de distance !"]
+			id: "3CCB0B40B7272B28"
+			rewards: [{
+				count: 8
+				id: "78756B22B5589824"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1060739E52BF5E92"
+				item: {
+					Count: 1
+					id: "create:redstone_link"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: [
+				"Un jetpack qui se recharge en énergie cinétique par le dessus lorsque posé au sol. Il a une faible autonomie, mais c'est un bon début ! "
+				""
+				"Les slimes boots te permettront de ne pas prendre de dégâts de chute, et le grappin est ce qu'il est."
+			]
+			id: "2680653B5BBF4CDC"
+			rewards: [{
+				id: "2C04EEFD63592EFC"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:slime"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Monte moi en l'air !"
+			tasks: [
+				{
+					id: "163271669202EAC4"
+					item: {
+						Count: 1
+						id: "create_jetpack:jetpack"
+						tag: {
+							Air: 900.0f
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D705991159597F3"
+					item: {
+						Count: 1
+						id: "create_sa:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA34AFED6EB0548"
+					item: {
+						Count: 1
+						id: "create_sa:grapplin_whisk"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Une foreuse qui fonctionne avec de la lave et de l'eau."]
+			id: "76B5A6667B09CF5C"
+			rewards: [{
+				id: "1EC9DBCD5B76F406"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "J'aime les trous"
+			tasks: [
+				{
+					id: "1EB2A3ADF8B46D87"
+					item: {
+						Count: 1
+						id: "create_sa:portable_drill"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "071ACD5366282C1E"
+					item: {
+						Count: 1
+						id: "create_sa:large_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2263E053DE6DAB2D"
+					item: {
+						Count: 1
+						id: "create_sa:large_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Permet de transférer de l'énergie électrique dans des items."]
+			id: "4C1664069B886599"
+			rewards: [{
+				id: "4031DDECBE15C162"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "MORE POWAH !!"
+			tasks: [{
+				id: "4F0C0BD9CAFA8091"
+				item: {
+					Count: 1
+					id: "createaddition:tesla_coil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: [
+				"Le Printer permet de dupliquer ou d'imprimer des livres enchantés, entre autre."
+				""
+				"Le Disenchanter permet de &4&lSUPPRIMER&r&r un enchantement d'un item pour récupérer de l'expérience."
+			]
+			id: "5625B06235EE3EDC"
+			rewards: [{
+				id: "292C5A39A6DD6E23"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "create:potato_recovery"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6AC0035DE25BF5F2"
+					item: {
+						Count: 1
+						id: "create_enchantment_industry:printer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "743A63BAEEECD720"
+					item: {
+						Count: 1
+						id: "create_enchantment_industry:disenchanter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Enchantement avec Create"
+			x: 2.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["La Wrench de Create permet de modifier le comportement de certains blocs du mod, ainsi que leur rotation !"]
+			id: "02F97B175F30CDB0"
+			rewards: [{
+				id: "327F6446BC225BFC"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E2A290F24AE1158"
+				item: {
+					Count: 1
+					id: "create:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["6827E33B6A9C1252"]
+			description: ["Les Google Glass te permettront de voir la consommation et le stress de tes machines."]
+			id: "22788C9FBCA5F376"
+			rewards: [{
+				id: "64D0B6001225B212"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5501E300AD726E08"
+				item: {
+					Count: 1
+					id: "create:goggles"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Create est un mod Low Tech, dont les machines fonctionnent à l'énergie cinétique."
+				""
+				"N'oublies pas qu'en passant ta souris sur un objet, et en restant appuyé sur la &4touche Z&r, tu auras une vidéo explicative de chaque item !"
+				""
+				"L'Andesite est le bloc de base de Create, récoltes en beaucoup, tu vas en avoir besoin !"
+			]
+			id: "4CC96CF7BECB4DC9"
+			rewards: [{
+				count: 8
+				id: "2D8BE7AE183275BB"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				count: 8L
+				id: "13E004A8D2795B14"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Ca commence toujours comme ça !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: [
+				"Voici une sélection basique de machines Create. Lorsque tu regarderas le craft de ces machines, certaines d'entre elles sont en version Brass. Au delà d'être plus chères, elles te permettront d'ajouter des filtres ! Idéal pour pouvoir sélectionner les opérations que tu veux faire."
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "044A732DB52C6B8C"
+			rewards: [{
+				id: "38FB55891D5E104C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "2EC4184110CD295E"
+				title: "Des machines"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Create, c'est aussi envoyer des items, de la force cinétique, des animaux, ... D'un point A à un point B. Voici différents outils qui pourront t'aider."]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "3B75B51AD1DE7D9D"
+			rewards: [{
+				id: "523E7941D7770A54"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7F35A85251C42965"
+				title: "Du mouvement"
+				type: "checkmark"
+			}]
+			title: "En avant !"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Juste une série d'outils qui pourront t'être utile dans ta découverte de Create."]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "6827E33B6A9C1252"
+			rewards: [{
+				id: "4D7D7046076D5AFC"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "008B14C5DCFCD868"
+				title: "Des outils"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CC96CF7BECB4DC9"]
+			description: ["Pour fonctionner, les machines et outils de Create ont besoin d'énergie cinétique, que tu peux produire grâce à divers outils proposés dans ce chapitre. "]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "59B7D5A631C63F72"
+			rewards: [{
+				id: "008ADC281F845978"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "24BC29DB18DEAF55"
+				title: "De l'énergie cinétique"
+				type: "checkmark"
+			}]
+			title: "De l'énergie cinétique ?!"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E6AAC128C410184"]
+			description: ["Pour pouvoir activer ton Blaze Burner en mode Super Heated."]
+			id: "2C023A27F5760468"
+			rewards: [{
+				id: "7092B4E694CB4F45"
+				item: {
+					Count: 1
+					id: "create:blaze_cake"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "09694E87E086C9A4"
+				item: {
+					Count: 1
+					id: "create:blaze_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["044A732DB52C6B8C"]
+			description: ["Les Sifters sont une machines qui permettent d'obtenir tout un tas de minerais entre autre ! Certains crafts nécessitent la version Brass pour fonctionner."]
+			id: "189D2C3618765111"
+			rewards: [{
+				id: "3E920AA7C6E73D84"
+				item: {
+					Count: 1
+					id: "createsifter:sifter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Une façon d'obtenir des ressources infinies"
+			tasks: [
+				{
+					id: "19133219A503286E"
+					item: {
+						Count: 1
+						id: "createsifter:sifter"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "34DEBD6B09A94048"
+					item: {
+						Count: 1
+						id: "createsifter:brass_sifter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["189D2C3618765111"]
+			description: ["Pour faire fonctionner vos sifters, il vous faudra leur donner une mesh. Plus la mesh est de haut tier, plus vous obtiendrez des ressources !"]
+			id: "106E9AE98490FB3A"
+			rewards: [{
+				id: "73571FB838BFC196"
+				item: {
+					Count: 1
+					id: "minecraft:string"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "79EA6253AF4E6D31"
+				item: {
+					Count: 1
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["106E9AE98490FB3A"]
+			id: "3BD718F47EB5A7E2"
+			rewards: [{
+				id: "19401DCAB152AAF4"
+				item: {
+					Count: 1
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15B1402CACABBF2C"
+				item: {
+					Count: 1
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3BD718F47EB5A7E2"]
+			id: "05B0760D91EC9ACC"
+			rewards: [{
+				id: "24900376044ABC70"
+				item: {
+					Count: 1
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62ED8323DA628D19"
+				item: {
+					Count: 1
+					id: "createsifter:zinc_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.75d
+		}
+		{
+			dependencies: ["05B0760D91EC9ACC"]
+			id: "6904E15B5BB03347"
+			rewards: [{
+				id: "2D04AA67FF7C21A8"
+				item: {
+					Count: 1
+					id: "createsifter:zinc_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "244629120C4A0D43"
+				item: {
+					Count: 1
+					id: "createsifter:brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6904E15B5BB03347"]
+			description: ["Les Advanced Mesh ne peuvent être placé que sur les Brass Sifters."]
+			id: "34BEBBD8E21C2D8F"
+			rewards: [{
+				id: "3D381A02651D28BA"
+				item: {
+					Count: 1
+					id: "createsifter:brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F1EC893B039CF6"
+				item: {
+					Count: 1
+					id: "createsifter:advanced_brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["59B7D5A631C63F72"]
+			description: ["Le Void Motor est, comme les Enders Chests / Tanks, définissable par une fréquence. Il permet, si vous le reliez à une source d'énergie mécanique, de transmettre cette même énergie depuis un autre Void Motor. Un même Void Motor peut accumuler l'énergie mécanique de plusieurs autres Void Motors."]
+			id: "1AB10E85D15C7E1E"
+			rewards: [{
+				id: "3FC58759250B238C"
+				item: {
+					Count: 1
+					id: "createutilities:void_steel_ingot"
+					tag: { }
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "79CF2B93C84DC193"
+				item: {
+					Count: 1
+					id: "createutilities:void_motor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"30FE9B8E85F5C991"
+				"7E51EE75825ED530"
+				"0A5BA5686ADD6AD0"
+				"1A98268B9FBDE257"
+				"5F64CCE2106FEA61"
+				"1AB10E85D15C7E1E"
+				"33560AAD94EE5A55"
+				"03D8746ACE4DF78A"
+				"3CCB0B40B7272B28"
+				"76B5A6667B09CF5C"
+				"22788C9FBCA5F376"
+				"7BEB742299606DC1"
+				"63AF0964A44899CD"
+				"2680653B5BBF4CDC"
+				"02F97B175F30CDB0"
+				"4DF4BF839C774278"
+				"2D1338443588FD6A"
+				"4753123B6345601C"
+				"67C52B580FF8229C"
+				"02372505F3A5574D"
+				"2FE5B07B3D72E1B3"
+				"1873C0E0BEDDC008"
+				"6DD5F2B95CCE54E6"
+				"24AB33D36230AFD1"
+				"2C4EB289C5FECE47"
+				"2C023A27F5760468"
+				"6AEAEA8B9CF60C4C"
+				"326D2ACE50925864"
+				"4C1664069B886599"
+				"5625B06235EE3EDC"
+				"3C1868D46F599D2D"
+				"5C1DF396430009E4"
+				"169485A6CE91F6B5"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
+			id: "0A494C9B538D82F4"
+			rewards: [{
+				id: "4F66DBF0AE5BC953"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:create"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
+			tasks: [{
+				id: "5355F4B231C45CF9"
+				type: "checkmark"
+			}]
+			title: "Create terminé !"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34BEBBD8E21C2D8F"]
+			id: "2EDAD0BB0913EAE0"
+			tasks: [{
+				id: "0160DE0432F6CDF6"
+				item: {
+					Count: 1
+					id: "createsifter:custom_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2EDAD0BB0913EAE0"]
+			id: "6AEAEA8B9CF60C4C"
+			tasks: [{
+				id: "18E7D123D8149663"
+				item: {
+					Count: 1
+					id: "createsifter:advanced_custom_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.75d
+		}
+	]
+	title: "Create"
+}

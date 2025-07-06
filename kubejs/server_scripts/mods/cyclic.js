@@ -1,7 +1,37 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
-  e.remove([{ id: "cyclic:netherite_ingot" }, { id: "cyclic:crafting/amethyst" }])
-})
+  //#region - Removed Crafts
+  e.remove([{ id: "cyclic:netherite_ingot" }, { id: "cyclic:crafting/amethyst" }, { id: "cyclic:eye_teleport_rev" }, { id: "cyclic:dark_glass" }]);
+  //#endregion
+  //#region - Magma Anvil
+  e.shaped("cyclic:anvil_magma", ["AAA", " B ", "CDC"], { A: "minecraft:magma_block", B: "cyclic:compressed_cobblestone", C: "minecraft:obsidian", D: "cyclic:fireball" });
+  //#endregion
+  //#region - Disenchanter
+  e.shaped("cyclic:disenchanter", [" A ", "BCB", "DED"], {
+    A: "cyclic:gem_obsidian",
+    B: "kubejs:brass_plate",
+    C: "minecraft:enchanting_table",
+    D: "minecraft:crying_obsidian",
+    E: "mob_grinding_utils:tank"
+  });
+  //#endregion
+  //#region - Alchemical Veil
+  e.remove({ id: "cyclic:charm_antipotion" });
+  e.shaped("cyclic:charm_antipotion", ["AAA", "BCB", "ADA"], { A: "minecraft:gold_nugget", B: "minecraft:fermented_spider_eye", C: "minecraft:amethyst_shard", D: "minecraft:ender_pearl" });
+  //#endregion
+  //#region - Solidification Chamber
+  e.shaped("cyclic:solidifier", ["ABA", "CDC", "AEA"], {
+    A: "minecraft:quartz",
+    B: "#forge:storage_blocks/lapis",
+    C: "#forge:glass",
+    D: "mob_grinding_utils:tank",
+    E: "#forge:storage_blocks/redstone"
+  });
+  //#endregion
+  //#region - Netherite Nugget to Ingot
+  e.shaped("minecraft:netherite_ingot", ["AAA", "AAA", "AAA"], { A: "cyclic:netherite_nugget" });
+  //#endregion
+});
 //#endregion
 
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
@@ -136,19 +166,20 @@ function cyclic() {
     "cyclic:wireless_item",
     "cyclic:wireless_receiver",
     "cyclic:wireless_transmitter",
-    "cyclic:workbench"
-  ]
-  let hiding = []
+    "cyclic:workbench",
+    "cyclic:storage_bag"
+  ];
+  let hiding = [];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
-    e.removeAllTagsFrom(unused)
-    e.add("forge:hiding", [unused, hiding])
+    e.removeAllTagsFrom(unused);
+    e.add("forge:hiding", [unused, hiding]);
   }
   function handle_Recipes(e) {
-    e.remove([{ input: unused }, { output: unused }])
+    e.remove([{ input: unused }, { output: unused }]);
   }
-  ServerEvents.tags(["item", "block"], handle_Tags)
-  ServerEvents.recipes(handle_Recipes)
+  ServerEvents.tags(["item", "block"], handle_Tags);
+  ServerEvents.recipes(handle_Recipes);
 }
-cyclic()
+cyclic();
 //#endregion

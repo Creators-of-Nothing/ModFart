@@ -1,8 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "cyclic:quiver_damage",
-    "cyclic:quiver_lightning",
-    "supplementaries:quiver"
-  ]
-}

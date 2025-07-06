@@ -1,0 +1,346 @@
+# Changelog - ModFart-1.3.0
+
+## [FORGE] MaJ de la version : 47.3.0 -> 47.4.1
+
+## [Résumé]
+
+- Changement de la version de Forge
+- Résolution globale des soucis de tags (comme les iron plates par exemple)
+- Vérification et ajout de TOUS les mobs dans les Caged Mobs
+- Ajout de quelques quêtes Creative
+- Mise à jour des mods
+- Retrait et ajout de mods
+
+### [Ajouts]
+
+- Les minerais de Valkyrum et d'Adamantite peuvent maintenant aussi être sextuplés
+- La valeur d'un rubis est maintenant indiquée dans son tooltip
+- Ajout d'un craft pour le Creative Vendor de Create et pour le Creative Module de Modular Routers
+- Ajout d'un craft pour le Centennial Trophy
+- Ajout dans les Caged Mobs :
+  - Allay -> Green Rupee
+  - Le Spawn Egg du Chicken a été ajouté dans les loots pour simplifier la création de Spawn Egg
+  - Vérification et ajout de tous les mobs
+- Ajout d'éléments :
+  - Flint Plate
+  - Obsidian Plate
+  - Ender Rod
+  - Ender Gear
+
+### [Suppressions]
+
+- Suppression du formattage des noms avec Cognition
+- Suppression de la page "Enchantments" dans JEI
+- Suppression de l'echo de notre propre voix
+- Suppression du salvaging des éléments n'ayant pas de rapport avec Apotheosis
+- Suppression du craft du Dimensional Shard dans la Crafting Table
+- Suppression de crafts superflus dans Sophisticated Backpacks
+- Suppression du stockage QIO de Mekanism (Hormis les Supermassive QIO Drive qui servent pour des crafts)
+- Suppression d'un message de remerciement
+- Suppression de l'icone d'épée en haut à droite du personnage (Apothic Attributes)
+- Retrait d'items non-utilisés :
+  - Extended Crafting :
+    - Ender Catalyst
+    - Enhanced Ender Catalyst
+    - Redstone Catalyst
+    - Flux Star + Flux Star Block
+    - Luminessence + Luminessence Block
+  - Modfart :
+    - Redstone Ingot Rod
+
+### [Changements]
+
+- Adaptation de tous les crafts comprenant des éléments venant des mods retirés
+- Réorganisation de l'ordre des mods dans JEI pour mettre les addons avec les mods auxquels ils correspondent
+- Rangement dans la page "Informations" de JEI
+- Remplacement de l'Amethyst Dust de ModFart par celle de Ars Technica
+- Modifications de la manière dont le nom de la fenêtre est définie (FancyMenu -> KubeJS)
+- Retrait du Recipe Book dans le Storage Lectern et dans le Cooking Pot
+- Rangement des datas de KubeJS
+- Les gardes des villages ne s'infligeront plus de dégats entre eux
+- Reprise globale du code pour le remettre au propre
+- Changement du craft de l'Iron Crafter pour le rendre similaire aux autres crafters
+- Changement du craft des Supermassive QIO Drive
+- Ajustement du nombre maximum de nourritures
+- Modifications de l'énergie pouvant être stockée dans les Flux Storage
+- Changement de la manière dont les Curios sont gérés
+- Déplacement de l'icone des Waystones dans l'inventaire
+- Vérification des Global Gamerules
+- Désactivation de l'option pour lancer plus loin des objets
+- Modification globale des objets qui sont brulés par la lave et détruits par les Cactus/Block of Knightmetal
+- Le jeu se lancera automatiquement en plein-écran fenêtré
+- Le Magnetron ne peut plus détruire le terrain
+- Augmentation du Cap de dégats max sur les boss de Cataclysm
+- Les Bombes de la Wilden Chimera ne détruiront plus le terrain
+- Quêtes :
+  - Catégorie "Creative Stuff" :
+    - Réarrangement global de la page pour s'adapter aux nouvelles quêtes
+    - Changement global des récompenses de quêtes
+    - Déplacement des quêtes "Ultimate Mesh" et "Advanced Ultimate Mesh" vers la catégorie "Creative Stuff"
+    - Ajout de la quête "Creative Energy Cell"
+    - Ajout de la quête "Creative Wireless Fluid Grid"
+    - Ajout de la quête "Creative Wireless Grid"
+    - Ajout de la quête "Creative Wireless Crafting Grid"
+    - Ajout de la quête "Survival Infinity Upgrade"
+    - Ajout de la quête "Creative Module"
+  - Catégorie "Create" :
+    - Remplacement des récompenses pour les quêtes "Rolling Mill" et "Enchantement avec Create"
+  - Changement de description :
+    - "Spawner" dans la catégorie "Enchantement"
+    - "Nourriture" dans la catégorie "Maisonnée"
+    - "Nourriture" dans la catégorie "Arbre de progression"
+
+### [Bugfixes]
+
+- Résolution du manque d'un craft pour les Wood Rod dans les machines de Mekanism
+- Résolution de quelques soucis de crafts lié à un mauvais ordre du code
+- Résolution d'un reste d'affichage dans JEI de crafts retirés
+- Résolution de l'affichage de la page de craft des Gem d'Apotheosis dans JEI
+- Résolution des Cristaux qui poussent sur les Blocks de Minerais
+- Résolution d'un problème de tag qui faisait spawn le Void Leviathan sur la Dreadful Dirt même après suppression
+- Résolution d'un souci de tags pour les Dark Cherry de Vinery
+- Résolution et modification des crafts liés aux Solar Panels
+- Suppression des Turbine Valve de Mekanism Generators
+- Suppression d'un doublon pour l'Antimatter Pellet
+- Résolution de "tous" les conflits de crafts
+- Résolution d'une config qui annulait la gamerule autorisant la progression de la journée (doDaylightCycle)
+- Résolution des soucis de tags pour les éléments suivants :
+  - Lapis Lazuli Ore
+  - Dimensional Ore
+  - Iron Plates
+  - Iron Rods
+
+### [Mods]
+
+- **_Del_** - Angel Block Renewed
+- **_Del_** - Botarium
+- **_Del_** - Bow Infinity Fix
+- **_Del_** - Caelus API
+- **_Del_** - Canary
+- **_Del_** - Client Tweaks
+- **_Del_** - CraterLib
+- **_Del_** - Create : Misc & Things
+- **_Del_** - Cristel Lib
+- **_Del_** - Dimensional Dungeons
+- **_Del_** - Distant Horizons
+- **_Del_** - Easy NPC
+- **_Del_** - Even Better Amethyst
+- **_Del_** - Fisherman's Trap
+- **_Del_** - Fix Experience Bug
+- **_Del_** - Forge Config Screens
+- **_Del_** - LieOnLion's Enderite
+- **_Del_** - Load My Resources
+- **_Del_** - Loot Beams: Relooted!
+- **_Del_** - LootJS
+- **_Del_** - Macaw's TerraformersMC
+- **_Del_** - Max Health Fix
+- **_Del_** - MidnightLib
+- **_Del_** - OctoLib
+- **_Del_** - Pig Pen Cipher
+- **_Del_** - Structure Essentials
+- **_Del_** - Target Dummy
+- **_Del_** - Town and Towers
+- **_Del_** - TxniLib
+- **_Del_** - Valhelsia Core
+- **_Del_** - Wabi-Sabi Structures
+- **_Del_** - Yeetus Experimentus
+
+- **_Add_** - Aether Delight
+- **_Add_** - Aether No Nerf
+- **_Add_** - Aether Villages
+- **_Add_** - Alex's Caves Delight
+- **_Add_** - Ars Technica
+- **_Add_** - Ben's Sharks
+- **_Add_** - Chisel Chipped Integration
+- **_Add_** - Configured
+- **_Add_** - Create: Escalated
+- **_Add_** - Create: Structure Arise
+- **_Add_** - Create: Vault Terminal
+- **_Add_** - Elliemore's Deep waters
+- **_Add_** - Emojiful
+- **_Add_** - Fancy Block Particles - Renewed
+- **_Add_** - FastBoot
+- **_Add_** - Fzzy Config
+- **_Add_** - Guard Ribbits
+- **_Add_** - Integrated Villages
+- **_Add_** - Little Joys
+- **_Add_** - Loot Beams: Refork
+- **_Add_** - Nirvana Library
+- **_Add_** - Plenty of Golems
+- **_Add_** - Radium Reforged
+- **_Add_** - Ribbits
+- **_Add_** - Twilight Treehouses
+- **_Add_** - Undergarden Delight
+- **_Add_** - Useful Luck
+- **_Add_** - Wakes Reforged
+
+- **_MaJ_** - [Let's Do] Beachparty (1.1.5 -> 2.0.2)
+- **_MaJ_** - [Let's Do] Meadow (1.3.19 -> 1.3.25)
+- **_MaJ_** - [Let's Do] Vinery (1.4.28 -> 1.4.39)
+- **_MaJ_** - Advancement Plaques (1.5.1 -> 1.6.9)
+- **_MaJ_** - Alex's Caves (1.1.5 -> 2.0.2)
+- **_MaJ_** - AmbientSounds 6 (6.0.6 -> 6.1.11)
+- **_MaJ_** - Amendments (1.2.11 -> 1.2.19)
+- **_MaJ_** - Ancient Aether (0.9.7 -> 0.9.10)
+- **_MaJ_** - AntiBlocksReChiseled (0.4.4 -> 0.4.6)
+- **_MaJ_** - Anvian's Lib (1.1 -> 1.2)
+- **_MaJ_** - Apotheosis (7.4.2 -> 7.4.8)
+- **_MaJ_** - Apotheotic Additions (2.0.2 -> 2.2.2)
+- **_MaJ_** - Ars Elemental (0.6.5.0.1 -> 0.6.7.8)
+- **_MaJ_** - Ars Nouveau (4.12.4 -> 4.12.7)
+- **_MaJ_** - AzureLib (2.0.34 -> 3.0.8)
+- **_MaJ_** - Balm (7.3.9 -> 7.3.31)
+- **_MaJ_** - Better Advancements (0.4.2.10 -> 0.4.2.25)
+- **_MaJ_** - Better Villages (3.2.0 -> 3.3.1)
+- **_MaJ_** - Biomes O' Plenty (18.0.0.598 -> 19.0.0.96)
+- **_MaJ_** - Botany Pots (13.0.38 -> 13.0.41)
+- **_MaJ_** - Camera Mod (1.0.14 -> 1.0.20)
+- **_MaJ_** - Chat Heads (0.13.0 -> 0.13.18)
+- **_MaJ_** - Chipped (3.0.6 -> 3.0.7)
+- **_MaJ_** - Citadel (2.6.0 -> 2.6.2)
+- **_MaJ_** - Client Tweaks (11.1.0 -> 11.1.3)
+- **_MaJ_** - Cloth Config API (11.1.118 -> 11.1.136)
+- **_MaJ_** - Cognition (2.2.4 -> 2.4.6)
+- **_MaJ_** - Collective (7.84 -> 8.3)
+- **_MaJ_** - Colorful Hearts (4.3.15 -> 4.3.16)
+- **_MaJ_** - Connected Glass (1.1.12 -> 1.1.13)
+- **_MaJ_** - Connectivity (5.6 -> 7.1)
+- **_MaJ_** - Cooking for Blockheads (16.0.6 -> 16.0.13)
+- **_MaJ_** - Corn Delight (1.0.4 -> 1.1.8)
+- **_MaJ_** - Corpse (1.0.14 -> 1.0.21)
+- **_MaJ_** - CraftPresence (2.5.0 -> 2.6.1)
+- **_MaJ_** - CraterLib (2.1.0 -> 2.1.5)
+- **_MaJ_** - Create (0.5.1.h -> 0.5.1.j)
+- **_MaJ_** - Create Chromatic Return (1.5.2 -> 1.0.2)
+- **_MaJ_** - Create Crafts & Additions (1.2.4e -> 1.2.5)
+- **_MaJ_** - Create Encased (1.6.1-fix3 -> 1.6.2-fix3)
+- **_MaJ_** - Create Jetpack (4.3.0 -> 4.3.2)
+- **_MaJ_** - Create Sifting (1.8.2.h -> 1.8.2.j)
+- **_MaJ_** - Create Slice & Dice (3.2.1 -> 3.3.0)
+- **_MaJ_** - Create Stuff 'N Additions (2.0.4a -> 2.0.8)
+- **_MaJ_** - Create: Central Kitchen (1.3.12 -> 1.3.13)
+- **_MaJ_** - Create: Numismatics (1.0.6 -> 1.0.11)
+- **_MaJ_** - Create: Steam 'n' Rails (1.6.5 -> 1.6.7)
+- **_MaJ_** - Create: Unbreakable Tools (1.2 -> 1.7)
+- **_MaJ_** - CreativeCore (2.11.37 -> 2.12.32)
+- **_MaJ_** - Cristel Lib (1.1.5 -> 1.1.6)
+- **_MaJ_** - Cucumber Library (7.0.12 -> 7.0.14)
+- **_MaJ_** - Curios API (5.10.0 -> 5.14.1)
+- **_MaJ_** - Cyclic (1.12.11 -> 1.13.6)
+- **_MaJ_** - Cyclops Core (1.19.5 -> 1.20.1)
+- **_MaJ_** - Deeper and Darker (1.3.2 -> 1.3.3)
+- **_MaJ_** - Domum Ornamentum (1.0.203 -> 1.0.290)
+- **_MaJ_** - Double Doors (5.9 -> 7.1)
+- **_MaJ_** - Drink Beer Refill (1.0.4.b -> 1.0.5)
+- **_MaJ_** - Drippy Loading Screen (3.0.11 -> 3.0.12)
+- **_MaJ_** - Dungeon Crawl (2.3.14 -> 2.3.15)
+- **_MaJ_** - Easy Piglins (1.0.13 -> 1.1.0)
+- **_MaJ_** - Easy Villagers (1.1.22 -> 1.1.33)
+- **_MaJ_** - Eccentric Tome (1.10.2 -> 1.10.3)
+- **_MaJ_** - Eidolon : Repraised (0.3.8.13 -> 0.3.8.15)
+- **_MaJ_** - Enchantment Descriptions (17.1.18 -> 17.1.19)
+- **_MaJ_** - End's Delight (2.4 -> 2.5.1)
+- **_MaJ_** - Ender's Delight (1.0.3 -> 1.1.3)
+- **_MaJ_** - EnderChests (1.2 -> 1.3)
+- **_MaJ_** - EnderTanks (1.3 -> 1.4)
+- **_MaJ_** - Entangled (1.3.19 -> 1.3.20)
+- **_MaJ_** - Entity Culling (1.7.0 -> 1.8.0)
+- **_MaJ_** - EverlastingAbilities (2.1.2 -> 2.3.1)
+- **_MaJ_** - Extended Crafting (6.0.7 -> 6.0.9)
+- **_MaJ_** - Extra Disks (3.0.2 -> 3.0.3)
+- **_MaJ_** - Extreme sound muffler (3.48 -> 3.49.1)
+- **_MaJ_** - FancyMenu (3.4.6 -> 3.6.2)
+- **_MaJ_** - Farmer's Delight (1.2.4 -> 1.2.7)
+- **_MaJ_** - FastSuite (5.0.1 -> 5.1.0)
+- **_MaJ_** - Fish of Thieves (3.0.7 -> 3.1.2)
+- **_MaJ_** - FLIB (0.0.14 -> 0.0.15)
+- **_MaJ_** - Forgified Fabric API (0.92.2+1.11.8 -> 0.92.2+1.11.12)
+- **_MaJ_** - FramedBlocks (9.3.1 -> 9.4.1)
+- **_MaJ_** - Framework (0.7.8 -> 0.7.15)
+- **_MaJ_** - FTB Chunks (2001.3.1 -> 2001.3.6)
+- **_MaJ_** - FTB Essentials (2001.2.2 -> 2001.2.3)
+- **_MaJ_** - FTB Library (2001.2.4 -> 2001.2.9)
+- **_MaJ_** - FTB Quests (2001.4.12 -> 2001.4.12)
+- **_MaJ_** - FTB Teams (2001.3.0 -> 2001.3.1)
+- **_MaJ_** - FTB Ultimine (2001.1.5 -> 2001.1.6)
+- **_MaJ_** - FTB XMod Compat (2.1.1 -> 2.1.3)
+- **_MaJ_** - Fusion (1.1.1 -> 1.2.7b)
+- **_MaJ_** - GeckoLib (4.4.9 -> 4.7.2)
+- **_MaJ_** - Glassential Renewed (2.4.1 -> 2.4.4)
+- **_MaJ_** - Guard Villager (1.6.7 -> 1.6.10)
+- **_MaJ_** - Iceberg (1.1.21 -> 1.1.25)
+- **_MaJ_** - ImmediatelyFast (1.2.21 -> 1.5.0)
+- **_MaJ_** - Item Borders (1.2.1 -> 1.2.2)
+- **_MaJ_** - ItemPhysic Full (1.7.1 -> 1.8.7)
+- **_MaJ_** - Jade (11.11.1 -> 11.13.1)
+- **_MaJ_** - JourneyMap (5.10.2 -> 5.10.3)
+- **_MaJ_** - Just Enough Items (15.18.0.79 -> 15.20.0.112)
+- **_MaJ_** - L_Ender 's Cataclysm (1.99.6 -> 3.0.6)
+- **_MaJ_** - Lionfish API (1.9 -> 2.4-Fix)
+- **_MaJ_** - Lootr (0.7.34.89 -> 0.7.35.91)
+- **_MaJ_** - Macaw's Biomes O' Plenty (1.3 -> 1.2.1)
+- **_MaJ_** - Macaw's Bridges (3.0.0 -> 3.1.0)
+- **_MaJ_** - Macaw's Doors (1.1.1 -> 1.1.2)
+- **_MaJ_** - Macaw's Fences and Walls (1.1.2 -> 1.2.0)
+- **_MaJ_** - Macaw's Lights and Lamps (1.1.0 -> 1.1.2)
+- **_MaJ_** - Macaw's Paths and Pavings (1.0.5 -> 1.1.0)
+- **_MaJ_** - Macaw's Roofs (2.3.1 -> 2.3.2)
+- **_MaJ_** - Macaw's Trapdoors (1.1.3 -> 1.1.4)
+- **_MaJ_** - McJtyLib (8.0.6 -> 8.0.7)
+- **_MaJ_** - Mekanism (10.4.15.75 -> 10.4.16.80)
+- **_MaJ_** - Mekanism Generators (10.4.15.75 -> 10.4.16.80)
+- **_MaJ_** - Mekanism: Weapons (1.5 -> 2.5)
+- **_MaJ_** - MES - Moog's End Structures (1.3.1 -> 1.3.4)
+- **_MaJ_** - Mighty Mail (1.0.14 -> 1.1.2)
+- **_MaJ_** - Mini Effects (7.0.1 -> 7.1.0)
+- **_MaJ_** - ModernFix (5.19.4 -> 5.24.1)
+- **_MaJ_** - Moonlight Lib (2.12.20 -> 2.14.11)
+- **_MaJ_** - Mysterious Mountain Lib (1.4.7 -> 1.5.22)
+- **_MaJ_** - Naturalist (4.0.3 -> 5.0pre3)
+- **_MaJ_** - Nether Skeletons (4.9.1 -> 5.0)
+- **_MaJ_** - NiftyBlocks (1.31 -> 1.34)
+- **_MaJ_** - Nosiphus Furniture Mod (2024.09.09 -> 2025.02.07)
+- **_MaJ_** - OctoLib (0.4.2 -> 0.5.0.1)
+- **_MaJ_** - OpenBlocks Elevator (1.9 -> 1.9.1)
+- **_MaJ_** - Ore Growth (1.1.0 -> 1.1.5)
+- **_MaJ_** - ParCool (3.3.0.1 -> 3.4.0.7)
+- **_MaJ_** - Particular (1.1.0 -> 1.2.4)
+- **_MaJ_** - Patchouli (84 -> 84.1)
+- **_MaJ_** - Pineapple Delight (1.0.8-Fix2 -> 1.0.13)
+- **_MaJ_** - Pipez (1.2.16 -> 1.2.21)
+- **_MaJ_** - Placebo (8.6.2 -> 8.6.3)
+- **_MaJ_** - Polymorph (0.49.5 -> 0.49.10)
+- **_MaJ_** - Puzzles Lib (8.1.23 -> 8.1.32)
+- **_MaJ_** - Resourceful Config (2.1.2 -> 2.1.3)
+- **_MaJ_** - RFTools Base (5.0.5 -> 5.0.6)
+- **_MaJ_** - Rhino (2001.2.3-build.6 -> 2001.2.3-build.10)
+- **_MaJ_** - RSInfinityBooster (1.0+32 -> 1.0+41)
+- **_MaJ_** - Samurai Dynasty (0.0.48 -> 0.0.49)
+- **_MaJ_** - ShetiPhianCore (1.3 -> 1.4)
+- **_MaJ_** - Simple Backups (3.1.11 -> 3.1.12)
+- **_MaJ_** - Simple Magnets (1.1.11 -> 1.1.12)
+- **_MaJ_** - Simple Voice Chat (2.5.21 -> 2.5.33)
+- **_MaJ_** - Sinytra Connector (45 -> 46)
+- **_MaJ_** - Sophisticated Backpacks (1.3.20.6.1064 -> 3.23.19.1263)
+- **_MaJ_** - Sophisticated Core (0.6.25.632 -> 1.2.71.1022)
+- **_MaJ_** - Sophisticated Storage (0.10.26.817 -> 1.3.53.1189)
+- **_MaJ_** - Sound Physics Remastered (1.4.5 -> 1.4.13)
+- **_MaJ_** - StarbuncleMania (1.2.2.0 -> 1.2.3.0)
+- **_MaJ_** - Stardew Fishing (2.2 -> 2.3)
+- **_MaJ_** - SuperMartijn642's Core Lib (1.1.17a -> 1.1.18)
+- **_MaJ_** - Supplementaries (2.8.17 -> 3.0.7)
+- **_MaJ_** - Supplementaries Squared (1.1.15 -> 1.1.21)
+- **_MaJ_** - TACT - Tiny Alex's Caves Tweaks (1.1.10 -> 1.3.0)
+- **_MaJ_** - TerraBlender (3.0.1.7 -> 3.0.1.10)
+- **_MaJ_** - The Aether (1.4.2 -> 1.5.2)
+- **_MaJ_** - The Bumblezone (7.4.18 -> 7.8.0)
+- **_MaJ_** - Torchmaster (20.1.6 -> 20.1.9)
+- **_MaJ_** - Towers of the Wild Modded (1.0.5 -> 1.0.6)
+- **_MaJ_** - TsniLib (1.0.23 -> 1.0.24)
+- **_MaJ_** - Twilight's Flavors & Delight (2.0.12 -> 2.0.15)
+- **_MaJ_** - UniLib (1.0.2 -> 1.1.0)
+- **_MaJ_** - Vegan Delight (1.3.2 -> 1.4.0)
+- **_MaJ_** - Villager Names (8.1 -> 8.2)
+- **_MaJ_** - Waystones (14.1.5 -> 14.1.13)
+- **_MaJ_** - YUNG's API (4.0.5 -> 4.0.6)
+- **_MaJ_** - Zelda, Legend of the Master Sword (2.1 -> 2.3.1)

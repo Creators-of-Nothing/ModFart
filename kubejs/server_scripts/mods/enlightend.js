@@ -1,13 +1,7 @@
-//#region - Tags
-ServerEvents.tags(["entity_type"], e => {
-  e.add("no_dreadful_spawn", "enlightened_end:void_leviathan")
-})
-//#endregion
-
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Removed Crafts
-  e.remove({ id: "enlightened_end:cerulean_planks" })
+  e.remove({ id: "enlightened_end:cerulean_planks" });
   //#endregion
   //#region - Emptying
   let potting_emptying = (recipient, liquid, amount, empty_recipient) => {
@@ -27,10 +21,10 @@ ServerEvents.recipes(e => {
           item: empty_recipient
         }
       ]
-    })
-  }
-  potting_emptying("enlightened_end:ooze_fluid_bucket", "enlightened_end:ooze_fluid", 1000, "minecraft:bucket")
-  potting_emptying("enlightened_end:ooze_bottle", "enlightened_end:ooze_fluid", 100, "minecraft:glass_bottle")
+    });
+  };
+  potting_emptying("enlightened_end:ooze_fluid_bucket", "enlightened_end:ooze_fluid", 1000, "minecraft:bucket");
+  potting_emptying("enlightened_end:ooze_bottle", "enlightened_end:ooze_fluid", 100, "minecraft:glass_bottle");
   //#endregion
   //#region - Filling
   let potting_filling = (empty_recipient, liquid, amount, recipient) => {
@@ -50,9 +44,9 @@ ServerEvents.recipes(e => {
           item: recipient
         }
       ]
-    })
-  }
-  potting_filling("minecraft:glass_bottle", "enlightened_end:ooze_fluid", 100, "enlightened_end:ooze_bottle")
+    });
+  };
+  potting_filling("minecraft:glass_bottle", "enlightened_end:ooze_fluid", 100, "enlightened_end:ooze_bottle");
   //#endregion
-})
+});
 //#endregion

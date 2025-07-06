@@ -1143,48 +1143,6 @@
 			y: 6.5d
 		}
 		{
-			description: [
-				"Un donjon qui vous mènera à un donjon, qui vous mènera à un donjon ..."
-				""
-				"Lorsque vous avez votre clef, il faut l'utiliser sur un &4End Portal vide&r. Si le votre est ouvert, vous pouvez utiliser la clef sur un &4End Portal plein&r : cela enlèvera l'oeil, mais n'éteindra pas le portail."
-				"{image:kubejs:textures/ftbquests/donjon.png width:160 height:100 align:1}"
-			]
-			id: "69D83891C3CDD8D4"
-			rewards: [{
-				id: "296AC9C0737B7AA5"
-				type: "xp"
-				xp: 200
-			}]
-			size: 2.0d
-			tasks: [
-				{
-					id: "7127D8E57E29A64F"
-					item: "dimdungeons:block_portal_keyhole"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "1D3EC534BC2B4302"
-					item: "minecraft:stone_bricks"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4583613D6A6829F5"
-					item: "dimdungeons:block_gilded_portal"
-					type: "item"
-				}
-				{
-					id: "43507BD411705AF5"
-					item: "dimdungeons:item_portal_key"
-					type: "item"
-				}
-			]
-			title: "Dimensional Dungeon"
-			x: 4.5d
-			y: 7.0d
-		}
-		{
 			description: ["Un moyen d'aller dans le void, où il fait éternellement jour."]
 			id: "2551113A8C70F913"
 			rewards: [{
@@ -1511,7 +1469,6 @@
 				"37A4B7655F1F2685"
 				"263AA57BCAD4DBE0"
 				"2551113A8C70F913"
-				"69D83891C3CDD8D4"
 				"42EFD8706DCAC44E"
 				"71CBBA25CACC4E17"
 				"30DFDA27659EA4CB"
@@ -1534,8 +1491,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "4BAE8105E427FBF1"
 			rewards: [{

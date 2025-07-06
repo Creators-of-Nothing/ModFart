@@ -26,7 +26,7 @@
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a mob explosion (e.g. Creeper explosion).
 		mob_explosion_drop_decay = true
 		#Whether block loot is dropped by all blocks (false) or randomly (true) depending on how far the block is from the center of a TNT explosion.
-		tnt_explosion_drop_decay = false
+		tnt_explosion_drop_decay = true
 
 	[gamerules.misc]
 		#Controls the maximum number of blocks changed when using /clone, /fill, or /fillbiome.
@@ -80,10 +80,12 @@
 		mob_griefing = true
 		#Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if forgiveDeadPlayers is disabled.
 		universal_anger = false
+		#Non Vanilla gamerule: 'aggressiveSharks'
+		aggressive_sharks = true
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
-		do_daylight_cycle = false
+		do_daylight_cycle = true
 		#Whether fire should spread and naturally extinguish
 		do_fire_tick = false
 		#Whether vines can spread to other blocks. Cave vines, weeping vines, and twisting vines are not affected.

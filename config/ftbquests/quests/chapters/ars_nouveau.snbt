@@ -1433,8 +1433,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "68C46241A23C03D9"
 			rewards: [{

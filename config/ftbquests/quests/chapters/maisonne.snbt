@@ -46,6 +46,7 @@
 				"- Better Archeology"
 				"- Biomes O' Plenty"
 				"- Chipped"
+				"- Chisel"
 				"- Connected Glass"
 				"- Create"
 				"- Decorative Railings"
@@ -54,12 +55,10 @@
 				"- 'Dustrial Decor"
 				"- Enlightend"
 				"- Endless Biomes"
-				"- Even Better Amethyst"
-				"- Fantasy's Furniture -> tout se craft dans la &4Furniture Station&r avec des planches, de la Cobblestone, et de la Clay"
+				"- Fantasy's Furniture"
 				"- Floral Enchantment"
 				"- FramedBlocks"
 				"- Furnish"
-				"- Gardens of the Dead"
 				"- Glassential Renewed"
 				"- Handcrafted"
 				"- [Let's Do]"
@@ -104,7 +103,6 @@
 				"Ce pack contient le mod &4&4Spice of Life&r &4: Carrot Edition&r&r. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
 				""
 				"- Il vous faudra 10 nourritures différentes pour gagner un coeur les 100 premiers coeurs (1000 nourritures)"
-				"- Puis il vous faudra 20 nourritures pour gagner 1 coeur."
 				""
 				"Si vous faites &4#yet&r dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
 				""
@@ -416,22 +414,6 @@
 			y: 2.0d
 		}
 		{
-			description: ["Un moyen de pécher automatiquement des objets. Si vous lui mettez un appat, il pêchera un type spécifique de poisson selon l'appat utilisé. Si vous ne lui mettez pas d'appat, il pêchera des \"déchets\". Cet outil ne pêche pas de \"trésors\"."]
-			id: "6C0A31162D1F5832"
-			rewards: [{
-				id: "56B675C0D82F7D36"
-				item: "minecraft:cod_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "656E903994293150"
-				item: "fishermens_trap:fishtrap"
-				type: "item"
-			}]
-			x: 3.75d
-			y: 2.0d
-		}
-		{
 			description: ["La Postbox vous permettra d'envoyer des objets ou des messages à toutes personnes qui possèdent une Mailbox. Le destinataire n'aura qu'à ouvrir sa Mailbox pour voir votre message et recevoir ses cadeaux !"]
 			id: "4CD97A9F6DD0BF6B"
 			rewards: [{
@@ -448,33 +430,15 @@
 			y: -2.0d
 		}
 		{
-			description: ["Un bloc que vous pouvez poser dans les airs. Idéal pour construire une base volante par exemple !"]
-			id: "5C7A4A40F0C1C0BE"
-			rewards: [{
-				id: "049C5B877AE56854"
-				item: "moa_decor_toys:gallinayzombie"
-				type: "item"
-			}]
-			tasks: [{
-				id: "302C93DB815ECAC6"
-				item: "angelblockrenewed:angel_block"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -0.75d
-		}
-		{
 			dependencies: [
 				"4CD97A9F6DD0BF6B"
 				"2655A092B94CC321"
 				"1C153A9705DF6EC5"
 				"2D3AB5E2D9D753EA"
 				"266845707E978BD1"
-				"6C0A31162D1F5832"
 				"6B27CB3F6A4CAEE6"
 				"33D071362877DCA7"
 				"2D6CD92D46483B29"
-				"5C7A4A40F0C1C0BE"
 				"5E276DFF3E4A4FE5"
 				"698FF2B2C0249395"
 				"74F49B8BE298582A"
@@ -486,8 +450,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "2B9069629B5A6ABA"
 			rewards: [{

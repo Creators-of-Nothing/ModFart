@@ -1,6 +1,6 @@
 //#region - Tags
 ServerEvents.tags(["item", "block"], e => {
-  e.remove("modfart/planks/mangrove", /twilightforest:/)
+  e.remove("modfart/planks/mangrove", /twilightforest:/);
   e.remove("modfart/planks/other", [
     "twilightforest:canopy_planks",
     "twilightforest:dark_planks",
@@ -10,18 +10,18 @@ ServerEvents.tags(["item", "block"], e => {
     "twilightforest:time_planks",
     "twilightforest:transformation_planks",
     "twilightforest:twilight_oak_planks"
-  ])
-})
+  ]);
+});
 //#endregion
 
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Giant Decompression
-  e.remove({ id: "twilightforest:giant_log_to_oak_planks" })
-  e.shapeless("64x minecraft:oak_log", "twilightforest:giant_log")
-  e.shapeless("64x minecraft:obsidian", "twilightforest:giant_obsidian")
+  e.remove({ id: "twilightforest:giant_log_to_oak_planks" });
+  e.shapeless("64x minecraft:oak_log", "twilightforest:giant_log");
+  e.shapeless("64x minecraft:obsidian", "twilightforest:giant_obsidian");
   //#endregion
-})
+});
 //#endregion
 
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
@@ -45,18 +45,18 @@ function twilightforest() {
     "twilightforest:brittle_potion_flask",
     "twilightforest:greater_potion_flask",
     "twilightforest:cube_of_annihilation"
-  ]
-  let hiding = []
+  ];
+  let hiding = [];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
-    e.removeAllTagsFrom(unused)
-    e.add("forge:hiding", [unused, hiding])
+    e.removeAllTagsFrom(unused);
+    e.add("forge:hiding", [unused, hiding]);
   }
   function handle_Recipes(e) {
-    e.remove([{ input: unused }, { output: unused }])
+    e.remove([{ input: unused }, { output: unused }]);
   }
-  ServerEvents.tags(["item", "block"], handle_Tags)
-  ServerEvents.recipes(handle_Recipes)
+  ServerEvents.tags(["item", "block"], handle_Tags);
+  ServerEvents.recipes(handle_Recipes);
 }
-twilightforest()
+twilightforest();
 //#endregion

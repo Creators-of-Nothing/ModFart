@@ -1,0 +1,749 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "maisonne"
+	group: "587CFB9EC8FABF15"
+	icon: {
+		Count: 1
+		id: "fantasyfurniture:venthyr/bed_single"
+		tag: { }
+	}
+	id: "40B633D69B85E403"
+	images: [
+		{
+			height: 3.0d
+			image: "kubejs:textures/ftbquests/ame.png"
+			rotation: 0.0d
+			width: 1.6715867158671587d
+			x: -0.75d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/bed.png"
+			rotation: 0.0d
+			width: 6.197916666666666d
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/dum.png"
+			rotation: 0.0d
+			width: 3.384615384615385d
+			x: 3.75d
+			y: -3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4Pensez à scroll vers le bas !&r Il existe pleins de mods de décoration sur ce pack, n'hésites donc pas à taper dans la barre de recherche de &4JEI&r : &4@NomDuMod&r. Cette liste nomme les mods principaux de décoration, mais parfois, certains mods qui ne sont pas centrés sur la décoration rajoutent des objets décoratifs, n'hésites pas à vérifier :"
+				""
+				"- Additional Lanterns"
+				"- Additionl Lights"
+				"- Alex's Caves"
+				"- Amendments"
+				"- AntiBlocksReChiseled"
+				"- Better Archeology"
+				"- Biomes O' Plenty"
+				"- Chipped"
+				"- Connected Glass"
+				"- Create"
+				"- Decorative Railings"
+				"- Delight"
+				"- Domum Ornamentum"
+				"- 'Dustrial Decor"
+				"- Enlightend"
+				"- Endless Biomes"
+				"- Even Better Amethyst"
+				"- Fantasy's Furniture -> tout se craft dans la &4Furniture Station&r avec des planches, de la Cobblestone, et de la Clay"
+				"- Floral Enchantment"
+				"- FramedBlocks"
+				"- Furnish"
+				"- Gardens of the Dead"
+				"- Glassential Renewed"
+				"- Handcrafted"
+				"- [Let's Do]"
+				"- Macaw's"
+				"- Magic Vibe Decorations"
+				"- ManyIdeas"
+				"- Meadow"
+				"- MOA DECOR"
+				"- More Concrete"
+				"- MrCrayfish's Furniture Mod"
+				"- Naturalist"
+				"- NiftyBlocks"
+				"- Night Lights"
+				"- Nosiphus Furniture Mod"
+				"- Platforms"
+				"- Rechiseled"
+				"- Skinned Lanterns"
+				"- Stoneworks"
+				"- Straw Statues"
+				"- Supplementaries"
+				"- Twigs"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "2276E6E36CE4E6D3"
+			rewards: [{
+				id: "41FA978C6EB391BB"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7913DD041752DC78"
+				title: "Décoration"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Ce pack contient le mod &4&4Spice of Life&r &4: Carrot Edition&r&r. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
+				""
+				"- Il vous faudra 10 nourritures différentes pour gagner un coeur les 100 premiers coeurs (1000 nourritures)"
+				"- Puis il vous faudra 20 nourritures pour gagner 1 coeur."
+				""
+				"Si vous faites &4#yet&r dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
+				""
+				"Vous pouvez manger même si vous n'avez pas faim !"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "2AB324048647901F"
+			rewards: [{
+				id: "4109287EE6D290DB"
+				item: {
+					Count: 1
+					id: "solcarrot:food_book"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5FA118AE0B76F1B2"
+				title: "Nourriture"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AB324048647901F"]
+			description: [
+				"Un mod de cuisine. Pour avoir la Cow in a Jar, placez une Jar sous une vache, et écrasez la avec une enclume. Vous aurez une production de lait infinie qui peut être extrait via un câble."
+				""
+				"Le sink permet d'avoir de l'eau à l'infini. Peut être extrait via un câble."
+			]
+			id: "1C153A9705DF6EC5"
+			rewards: [{
+				id: "4AE903A242EE1FE4"
+				item: {
+					Count: 1
+					id: "minecraft:milk_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Du lait et de l'eau à l'infini"
+			tasks: [
+				{
+					id: "713FDD059F86A3D3"
+					item: {
+						Count: 1
+						id: "cookingforblockheads:cow_jar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0945BD88C7DDC4BA"
+					item: {
+						Count: 1
+						id: "cookingforblockheads:sink"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "CookingForBlockheads"
+			x: 0.25d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2276E6E36CE4E6D3"]
+			description: ["Un bon moyen de construire. Consomme de l'énergie."]
+			id: "33D071362877DCA7"
+			rewards: [
+				{
+					count: 64
+					id: "3183104BC65B228D"
+					item: {
+						Count: 1
+						id: "minecraft:stone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "18C7B5914BA37EF7"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D94D30CAE8B46C7"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "711611EB8782E067"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "044F1F6F99275E62"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_copy_paste"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5FB99F0BC762F310"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_cut_paste"
+						tag: {
+							pastereplace: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C5B969D6BABA2E1"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Building Gadgets"
+			x: -0.25d
+			y: 2.0d
+		}
+		{
+			description: ["Empêche les monstres de spawner. Existe pour d'autres créatures : voir JEI avec &4@Torchmaster&r."]
+			id: "2D3AB5E2D9D753EA"
+			rewards: [
+				{
+					id: "6A654C89AE119C7F"
+					item: {
+						Count: 1
+						id: "minecraft:torch"
+						tag: { }
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "5F19FA5BCB3F0F4C"
+					item: {
+						Count: 1
+						id: "torchmaster:dreadlamp"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "695247E050B0E9BF"
+				item: {
+					Count: 1
+					id: "torchmaster:megatorch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn, mais passe quand même la nuit."
+				""
+				"Le Hammoc permet de passer le jour."
+			]
+			id: "2655A092B94CC321"
+			rewards: [{
+				count: 2
+				id: "4855051EEBC19939"
+				item: {
+					Count: 1
+					id: "comforts:rope_and_nail"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "640BDC3609F3AEFB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "05BC39EFC963EE27"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+			]
+			title: "Nous rompichâmes"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["Juste une cible que l'on peut taper pour tester nos dégâts, c'est amusant."]
+			id: "5E276DFF3E4A4FE5"
+			rewards: [{
+				id: "5C17A63A53F0ECD5"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED499467C9C119E"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			description: ["Les Chimes font fuir les Phantoms !"]
+			id: "2D6CD92D46483B29"
+			rewards: [{
+				id: "351D40592D441E3E"
+				item: {
+					Count: 1
+					id: "chimes:bamboo_chimes"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6516E1E1E96466E6"
+				item: {
+					Count: 1
+					id: "chimes:amethyst_chimes"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: ["Un moyen de téléportation verticale."]
+			id: "266845707E978BD1"
+			rewards: [{
+				id: "5CC960FA2B3D3420"
+				item: {
+					Count: 1
+					id: "elevatorid:elevator_white"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D0FE276C3F99DCF"
+				item: {
+					Count: 1
+					id: "elevatorid:elevator_white"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			description: ["Un moyen de se téléporter sur de courtes distances et à travers les murs grâce au travel staff ou grâce à un équipement qui possède l'enchantement Teleportation."]
+			id: "698FF2B2C0249395"
+			rewards: [{
+				id: "262158C2D7040343"
+				item: {
+					Count: 1
+					id: "travelanchors:travel_staff"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B221B1FD9B2996A"
+				item: {
+					Count: 1
+					id: "travelanchors:travel_anchor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Vous réviez d'un portail personnalisé pour traverser les dimensions, de la forme, qu'il soit vertical ou horizontal, et de la couleur de votre choix ? C'est parfait, ce mod est fait pour vous ! Il nécessite de l'énergie à l'utilisation. "
+				""
+				"Le &4Target Device&r permet de sélectionner l'endroit où vous voulez vous téléporter. Il suffit de vous accroupir et de faire un clic droit pour le configurer. Donnez un nom à votre point de téléportation puis ajouter le à votre &4Device&r."
+				""
+				"Créez ensuite votre portail comme vous le souhaitez (forcément en 2 dimensions), avec une &4Cell&r pour l'énergie, un &4Stabilizer&r qui servira de centre de contrôle, des &4Frames&r et d'une &4Target Cell&r."
+				""
+				"Faites un clic droit sur le &4Stabilizer&r pour l'allumer une première fois. Puis, faites un clic droit avec votre &4Device&r en main sur le &4Stabilizer&r pour configurer le portail. Ajoutez le(s) point(s) de téléportation qui vous intéresse."
+				""
+				"Enfin, activez le portail en faisant un clic droit sur le &4Stabilizer&r. Si vous souhaitez changer de destination sur un portail qui en contient plusieurs, il suffit de cliquer sur le &4Stabilizer&r et de faire &4\"Change Target\"&r. Sélectionnez la destination voulue, et c'est fini."
+				""
+				"&4Note :&r lorsque vous aurez allumé votre portail, allez dans l'onglet \"Change Target\". Cliquez sur le petit carré de couleur (à côté du mot &4\"Random\"&r) pour sélectionner la couleur de votre portail. Vous pouvez également faire un clic droit avec un colorant pour colorer le portail. "
+			]
+			id: "6B27CB3F6A4CAEE6"
+			rewards: [{
+				id: "1DFBA411850B688A"
+				item: {
+					Count: 1
+					id: "minecraft:ender_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "568DE313526E0A29"
+					item: {
+						Count: 1
+						id: "wormhole:portal_frame"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4265C992237A4197"
+					item: {
+						Count: 1
+						id: "wormhole:portal_stabilizer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5C383EA866A13DD8"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_target_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4E48593B3369AB65"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "03D98931B805E1CB"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_target_device"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Wormhole"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["La Postbox vous permettra d'envoyer des objets ou des messages à toutes personnes qui possèdent une Mailbox. Le destinataire n'aura qu'à ouvrir sa Mailbox pour voir votre message et recevoir ses cadeaux !"]
+			id: "4CD97A9F6DD0BF6B"
+			rewards: [{
+				id: "1F1CAF5EF142383F"
+				item: {
+					Count: 1
+					id: "mighty_mail:spruce_mail_box"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37404B15ECA39249"
+				item: {
+					Count: 1
+					id: "mighty_mail:post_box"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -2.0d
+		}
+		{
+			description: ["Un bloc que vous pouvez poser dans les airs. Idéal pour construire une base volante par exemple !"]
+			id: "5C7A4A40F0C1C0BE"
+			rewards: [{
+				id: "049C5B877AE56854"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:gallinayzombie"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "302C93DB815ECAC6"
+				item: {
+					Count: 1
+					id: "angelblockrenewed:angel_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"4CD97A9F6DD0BF6B"
+				"2655A092B94CC321"
+				"1C153A9705DF6EC5"
+				"2D3AB5E2D9D753EA"
+				"266845707E978BD1"
+				"6B27CB3F6A4CAEE6"
+				"33D071362877DCA7"
+				"2D6CD92D46483B29"
+				"5C7A4A40F0C1C0BE"
+				"5E276DFF3E4A4FE5"
+				"698FF2B2C0249395"
+				"74F49B8BE298582A"
+				"4AF91724424BF371"
+				"781CB2A7EF44EF44"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
+			id: "2B9069629B5A6ABA"
+			rewards: [{
+				id: "0AA697A056D13EC4"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:maison"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "11ADB523C0235E5E"
+				title: "Maisonnées complété !"
+				type: "checkmark"
+			}]
+			title: "Maisonnée complété !"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Vous rêvez d'avoir votre propre vignoble ? Et bien c'est possible ! "
+				""
+				"Pour commencer, vous devrez trouver des graines : vous pouvez les avoir, soit en explorant, soit avec un PNJ qui viendra vous rendre visite de temps en temps. "
+				""
+				"Avec ce résin, vous pourrez le jeter dans le Grapvine Pot, puis l'écraser en sautant dessus. Utilisez une Vine Bottle lorsque cela est fait. Voilà, vous avez votre premier vin ! Vous pouvez le transformer en le plaçant dans un Agin Barrel (voir JEI). "
+				""
+				"La Apple Press permet d'avoir du Apple Mash."
+			]
+			id: "74F49B8BE298582A"
+			rewards: [{
+				id: "7A21CE3C9BB8FCA9"
+				item: "vinery:calendar"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "536E613273B89504"
+					item: {
+						Count: 1
+						id: "vinery:grapevine_pot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4A7C605417D20DEA"
+					item: {
+						Count: 1
+						id: "vinery:fermentation_barrel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2EA66340AF2BA95E"
+					item: {
+						Count: 1
+						id: "vinery:apple_press"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "17F252D5383AF39D"
+					item: {
+						Count: 1
+						id: "vinery:wine_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Vinery"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["Il s'agit d'un magasin. Vous pouvez y obtenir toutes les graines et pousses d'arbre du jeu contre des émeraudes."]
+			id: "781CB2A7EF44EF44"
+			rewards: [{
+				id: "4216F0EB1AC4F7A0"
+				item: {
+					Count: 1
+					id: "minecraft:emerald"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Avoir toutes les plantes"
+			tasks: [{
+				id: "41AF70CDC2A3F009"
+				item: {
+					Count: 1
+					id: "farmingforblockheads:market"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Ce mod permet d'avoir des lanternes qui possèdent différents effets magiques."
+				""
+				"Pour obtenir une lanterne spéciale, il faut cliquer sur le &4Lantern Maker&r avec les ingrédients demandés, puis poser une &4Lantern&r sur la table. Les lanternes possèdent différents effets :"
+				""
+				"- &4La Life Lantern&r : Accélère la pousse des plantes autour de la lanterne."
+				"- &4La Feral Lantern&r : Eclaire une très grande zone avec des étincelles. Une fois la zone éclairée, la lanterne disparaît."
+				"- &4La Love Lantern&r : Rend les créatures proches amoureuses."
+				"- &4La Wailing Lantern&r : Pleure si vous vous approchez, et hurle si vous vous approchez encore plus."
+				"- &4La Boreal Lantern&r : Ralentis les créatures et joueurs à proximité, et éteint également les créatures en feu."
+				"- &4La Brillant Lantern&r : Tues les animaux pour ne donner que de l'xp."
+				"- &4La Warding Lantern&r : Repousse toutes les entités vivantes, sauf les joueurs."
+				"- &4La Containment Lantern&r : Confine toutes les entités vivantes dans une zone, sauf les joueurs."
+				"- &4La Withering Lantern&r : Applique l'effet Wither dans une zone autour de la lantern."
+				"- &4La Cloud Lantern&r : Applique l'effet Chute Lente dans une zone."
+			]
+			id: "4AF91724424BF371"
+			rewards: [{
+				id: "4EDAA11D86BB5CBC"
+				item: {
+					Count: 1
+					id: "minecraft:lantern"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41C99A8475B0994A"
+				item: {
+					Count: 1
+					id: "arcanelanterns:lantern_maker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	title: "Maisonnée"
+}

@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extra__utilitaires"
+	group: "3CA4B0CAAB94EE6B"
+	id: "134BF48C4217AB43"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Extra - Utilitaires"
+}

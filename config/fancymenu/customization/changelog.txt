@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1742958269628
+  last_edited_time = 1751771367046
   is_enabled = false
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 20
-  [loading_requirement_container_meta:e1025562-dbf7-4171-bb1f-0f93c9ef537b-1743137738792] = [groups:][instances:]
+  [loading_requirement_container_meta:222eccde-3d55-43b7-8d34-bcda1cf8a426-1751771367057] = [groups:][instances:]
 }
 
 customization {
@@ -74,17 +74,18 @@ element {
   element_loading_requirement_container_identifier = 97933153-fe46-4581-baeb-5d6d8b79c139-1742942246009
   [loading_requirement_container_meta:97933153-fe46-4581-baeb-5d6d8b79c139-1742942246009] = [groups:][instances:]
   enable_parallax = false
-  parallax_intensity = 0.5
+  parallax_intensity_v2 = 0.5
   invert_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0
   load_once_per_session = false
   in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
 }
 
 element {
   interactable = true
-  source = # Changelog - ModFart-1.2.0%n%%n%## [Résumé]%n%%n%- Réfaction quasi-totale du code%n%- Ajout d'un arbre de progression dans le livre de quêtes%n%- Menu principal en cours de refonte totale%n%- Rangement dans JEI%n%- Suppression de Phantasmic et de MorePlates%n%- Ajout de Mekanism Covers et Item Placer%n%%n%### [Ajouts]%n%%n%- Ajout des Cocoa Beans dans le Market%n%- Nouvelle Plate en Shadow Steel (qui vient remplacer la Cyber Plating)%n%- Ajout des mobs et loot manquants dans les Mobs Cages%n%- Ajout des plantes manquantes dans les Botany Pots%n%- Ajout d'un décraft de la Depthrock%n%- Ajout d'un craft qui permet de Blast le Neptune Bounty pour récupérer un Neptunium Nugget%n%- Ajout des Wandering et Goblins Traders en mob interdits par la Dread Lamp%n%- Ajout des DNA dans les outils pouvant blesser le Slider de The Aether%n%- Ajout d'un craft permettant de faire de la Flux Dust avec le Farseer Arm d'Alex's Mobs%n%- Ajout du tags "minecraft:boats" et "minecraft:chest_boats" pour les bateaux qui ne les avaient pas encore%n%- Ajout d'un craft pour toutes les Templates (en plus de la duplication)%n%- Le livre de quêtes apparaît directement dans l'inventaire à la première connexion%n%%n%### [Suppressions]%n%%n%- Suppression des Fish Fillet d'Aquaculture (ainsi que les recettes se faisant avec)%n%- Suppression des crafts qui permettaient de faire du Coal Dust à partir de la Sawdust dans l'Enrichment Chamber%n%- Suppression des minerais de Create Unbreakable%n%- Suppression du Shattered Dimensional Carver et de la Transmutation Table d'Alex's Mobs%n%- Suppression du Flint Block de Supplementaries%n%- Suppression de tous les WIP et objets inutiles dans JEI%n%- Suppression du Void Leviathan sur la Dreadful Dirt%n%- Suppression des Lightning, Cooking et Arrow Upgrades de Caged Mobs%n%- Suppression de l'annonce dans le chat du premier advancement de Zelda%n%- Suppression de crafts permettant de faire des Block of Experience avec du Honey ou des Slimeballs%n%%n%### [Changements]%n%%n%- Modification du boss de fin de la Twilight%n%- Le logo du processus du modpack a été mise à jour%n%- Modification du craft de l'Irromolding%n%- Modification des crafts utilisant des items/blocks de Phantasmic%n%- Modifications des noms des mobs (rangement, retrait et ajouts divers)%n%- Reprise temporaire des assets de l'ancien mod 'MorePlates' en attendant d'avoir les nôtres%n%- Menu principal est en cours de refonte%n%- Les onglets de advancements seront maintenant dans l'ordre alphabétique%n%- Le craft du Carbon Powder a été simplifié%n%- Augmentation du nombre de Pebbles quand on Crush de la Cobblestone%n%%n%### [Bugfixes]%n%%n%- Ajout des Wireless Grid manquants en Curio%n%- Ajout des liquides/buckets/bottles manquant(e)s dans le Drain et dans le Spout%n%- Suppression de l'Experience Sheet qui faisait doublon avec l'Experience Plate%n%- La Coal Rod est de nouveau craftable%n%- Réparation du crafts des Pump Upgrades de Sophisticated Storage%n%- Suppression du doublon de Mustard Seeds Seed dans le Market%n%- La Creative Source Jar d'Ars Nouveau peut maintenant être récupérée%n%- Block Tag "forge:modfart/ores" pour les blocs de minerais%n%- Résolution de toutes les Errors/Warnings%n%- Résolution de certains conflits de crafts%n%- Re-suppression du Worn Notebook à la première connexion%n%- Suppression de quelques résidus de crafts ne correspondant pas à la duplication des minerais
+  source = # Changelog - ModFart-1.3.0%n%%n%## [FORGE] MaJ de la version : 47.3.0 -> 47.4.1%n%%n%## [Résumé]%n%%n%- Mise à jour des mods%n%- Retrait et ajout de mods%n%%n%### [Ajouts]%n%%n%- Les minerais de Valkyrum et d'Adamantite peuvent maintenant aussi être sextuplés%n%- Une ligne indique maintenant la "Route Principale" dans l'Arbre de Progression des quêtes%n%- Une nouvelle quête a été ajoutée tout à la fin de la page "Creative Stuff"%n%- La valeur d'un rubis est maintenant indiquée dans son tooltip%n%- Ajout d'un craft pour le Creative Vendor de Create et pour le Creative Module de Modular Routers%n%- Ajout d'un craft pour le Centennial Trophy%n%- Ajout dans les Caged Mobs :%n%  - Allay -> Green Rupee%n%  - Le Spawn Egg du Chicken a été ajouté pour simplifier la création de Spawn Egg%n%  - Vérification et ajout de tous les mobs%n%- Ajout d'éléments :%n%  - Flint Plate%n%  - Obsidian Plate%n%  - Ender Rod%n%  - Ender Gear%n%%n%### [Suppressions]%n%%n%- Suppression du formattage des noms avec Cognition%n%- Suppression de la page "Enchantments" dans JEI%n%- Suppression de l'echo de notre propre voix%n%- Suppression du salvaging des éléments n'ayant pas de rapport avec Apotheosis%n%- Suppression du craft du Dimensional Shard dans la Crafting Table%n%- Suppression de crafts superflus dans Sophisticated Backpacks%n%- Suppression du stockage QIO de Mekanism (Hormis les Supermassive QIO Drive qui servent pour des crafts)%n%- Suppression d'un message de remerciement%n%- Suppression de l'icone d'épée en haut à droite du personnage (Apothic Attributes)%n%- Retrait d'items non-utilisés :%n%  - Extended Crafting :%n%    - Ender Catalyst%n%    - Enhanced Ender Catalyst%n%    - Redstone Catalyst%n%    - Flux Star + Flux Star Block%n%    - Luminessence + Luminessence Block%n%  - Modfart :%n%    - Redstone Ingot Rod%n%%n%### [Changements]%n%%n%- Adaptation de tous les crafts comprenant des éléments venant des mods retirés%n%- Réorganisation de l'ordre des mods dans JEI pour mettre les addons avec les mods auxquels ils correspondent%n%- Rangement dans la page "Informations" de JEI%n%- Remplacement de l'Amethyst Dust de ModFart par celle de Ars Technica%n%- Modifications de la manière dont le nom de la fenêtre est définie (FancyMenu -> KubeJS)%n%- Retrait du Recipe Book dans le Storage Lectern et dans le Cooking Pot%n%- Rangement des datas de KubeJS%n%- Les gardes des villages ne s'infligeront plus de dégats entre eux%n%- Reprise globale du code pour le remettre au propre%n%- Changement du craft de l'Iron Crafter pour le rendre similaire aux autres crafters%n%- Changement du craft des Supermassive QIO Drive%n%- Ajustement du nombre maximum de nourritures%n%- Modifications de l'énergie pouvant être stockée dans les Flux Storage%n%- Changement de la manière dont les Curios sont gérés%n%- Déplacement de l'icone des Waystones dans l'inventaire%n%- Vérification des Global Gamerules%n%- Désactivation de l'option pour lancer plus loin des objets%n%- Modification globale des objets qui sont brulés par la lave et détruits par les Cactus/Block of Knightmetal%n%- Le jeu se lancera automatiquement en plein-écran fenêtré%n%- Le Magnetron ne peut plus détruire le terrain%n%- Augmentation du Cap de dégats max sur les boss de Cataclysm%n%- Les Bombes de la Wilden Chimera ne détruiront plus le terrain%n%- Quêtes :%n%  - Catégorie "Creative Stuff" :%n%    - Réarrangement global de la page pour s'adapter aux nouvelles quêtes%n%    - Changement global des récompenses de quêtes%n%    - Déplacement des quêtes "Ultimate Mesh" et "Advanced Ultimate Mesh" vers la catégorie "Creative Stuff"%n%    - Ajout de la quête "Creative Energy Cell"%n%    - Ajout de la quête "Creative Wireless Fluid Grid"%n%    - Ajout de la quête "Creative Wireless Grid"%n%    - Ajout de la quête "Creative Wireless Crafting Grid"%n%    - Ajout de la quête "Survival Infinity Upgrade"%n%    - Ajout de la quête "Creative Module"%n%  - Catégorie "Create" :%n%    - Remplacement des récompenses pour les quêtes "Rolling Mill" et "Enchantement avec Create"%n%  - Changement de description :%n%    - "Spawner" dans la catégorie "Enchantement"%n%    - "Nourriture" dans la catégorie "Maisonnée"%n%    - "Nourriture" dans la catégorie "Arbre de progression"%n%%n%### [Bugfixes]%n%%n%- Résolution du manque d'un craft pour les Wood Rod dans les machines de Mekanism%n%- Résolution de quelques soucis de crafts lié à un mauvais ordre du code%n%- Résolution d'un reste d'affichage dans JEI de crafts retirés%n%- Résolution de l'affichage de la page de craft des Gem d'Apotheosis dans JEI%n%- Résolution des Cristaux qui poussent sur les Blocks de Minerais%n%- Résolution d'un problème de tag qui faisait spawn le Void Leviathan sur la Dreadful Dirt même après suppression%n%- Résolution d'un souci de tags pour les Dark Cherry de Vinery%n%- Résolution et modification des crafts liés aux Solar Panels%n%- Suppression des Turbine Valve de Mekanism Generators%n%- Suppression d'un doublon pour l'Antimatter Pellet%n%- Résolution de "tous" les conflits de crafts%n%- Résolution d'une config qui annulait la gamerule autorisant la progression de la journée (doDaylightCycle)%n%- Résolution des soucis de tags pour les éléments suivants :%n%  - Lapis Lazuli Ore%n%  - Dimensional Ore%n%  - Iron Plates%n%  - Iron Rods
   source_mode = direct
   shadow = true
   scale = 0.9
@@ -110,6 +111,15 @@ element {
   bullet_list_indent = 8.0
   bullet_list_spacing = 3.0
   parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
   element_type = text_v2
   instance_identifier = 32ed25a4-72a2-407c-8b9c-a1899f0439dd-1742701711746
   custom_element_layer_name = Changelog
@@ -136,11 +146,12 @@ element {
   element_loading_requirement_container_identifier = f48c0a6b-1fde-493d-bcaa-3c98feb7f86a-1742701711745
   [loading_requirement_container_meta:f48c0a6b-1fde-493d-bcaa-3c98feb7f86a-1742701711745] = [groups:][instances:]
   enable_parallax = false
-  parallax_intensity = 0.5
+  parallax_intensity_v2 = 0.5
   invert_parallax = false
   animated_offset_x = 0
   animated_offset_y = 0
   load_once_per_session = false
   in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
 }
 

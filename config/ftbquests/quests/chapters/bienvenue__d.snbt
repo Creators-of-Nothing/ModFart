@@ -244,8 +244,8 @@
 				""
 				"&5Creators of Nothing&r."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "543088258D2EA27A"
 			rewards: [

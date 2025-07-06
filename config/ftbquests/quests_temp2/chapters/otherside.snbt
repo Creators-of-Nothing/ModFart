@@ -1,0 +1,266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "otherside"
+	group: "1BF794ED3A9B4457"
+	icon: {
+		Count: 1
+		id: "deeperdarker:sculk_stone"
+		tag: { }
+	}
+	id: "2E1E54CFF89C70E3"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["Obtient une paire de Soul Elytra."]
+			id: "3110C06656AAB88A"
+			rewards: [{
+				id: "0CFA206066C35920"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7175195743AED661"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["Obtient une armure complète de Warden."]
+			id: "258F93FE86EDF127"
+			rewards: [{
+				id: "064A3CE08D776FD6"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "deeperdarker:long_sculk_affinity"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/warden_armor"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2D539122F068CE4E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["Il suffit d'allumer le portail qui se trouve dans le Deep Dark avec le coeur de Warden."]
+			id: "25C1A2DA316A1D34"
+			rewards: [{
+				id: "72217458A61CACE6"
+				item: {
+					Count: 1
+					id: "deeperdarker:ancient_vase"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_tendrils"
+					tag: { }
+				}
+				id: "28C51021D492A645"
+				type: "dimension"
+			}]
+			title: "L'Otherside !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["Se trouve en cassant l'Infested Sculk."]
+			id: "1D1557F8AB5AB248"
+			rewards: [{
+				id: "5733C6EC23F6A105"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_dust"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_leech_spawn_egg"
+					tag: { }
+				}
+				id: "56724D4AC9EB518A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			id: "2AEEF806598FE4FD"
+			rewards: [{
+				id: "4FD94A76353B8364"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_centipede_spawn_egg"
+					tag: { }
+				}
+				id: "4ACB5DA2AF8CD607"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			id: "0F3548B65EA5EC31"
+			rewards: [{
+				id: "0681EF080A44651A"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_dust"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_snapper_spawn_egg"
+					tag: { }
+				}
+				id: "39421CC314942E6B"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			id: "539BE1CD89DE92A3"
+			rewards: [{
+				id: "4AEC1F06C2F41D3E"
+				item: {
+					Count: 1
+					id: "deeperdarker:sculk_bone"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					Count: 1
+					id: "deeperdarker:shattered_spawn_egg"
+					tag: { }
+				}
+				id: "408FB31B5C327481"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["On en trouve en marchant sur de l'Infested Sculk."]
+			id: "029E028D7FE92FC7"
+			rewards: [{
+				id: "5975B5B49D0C5322"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1
+					id: "deeperdarker:shriek_worm_spawn_egg"
+					tag: { }
+				}
+				id: "625D72FFF4901676"
+				type: "kill"
+				value: 2L
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: [
+				"Il faut tuer des Stalkers. Il faut casser des pots et, de temps en temps, un Stalker spawnera."
+				""
+				"Les pots se trouvent dans un temple, seule structure du mod."
+			]
+			id: "37A4B7655F1F2685"
+			rewards: [{
+				id: "590229120D10B9ED"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_crystal"
+					tag: { }
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				icon: {
+					Count: 1
+					id: "deeperdarker:soul_crystal"
+					tag: { }
+				}
+				id: "378380426AB7380E"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+	title: "Otherside"
+}

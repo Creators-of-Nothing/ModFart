@@ -8,7 +8,7 @@ ServerEvents.recipes(e => {
     { id: /extrastorage:storage_block\// },
     { id: /extrastorage:part\// },
     { id: "creativecrafter:creative_crafter" }
-  ])
+  ]);
   //#endregion
   //#region - Infinite Storage Parts
   let potting_infinite_parts = (A, output) => {
@@ -32,10 +32,10 @@ ServerEvents.recipes(e => {
         { item: "mekanism:qio_drive_supermassive" }
       ],
       result: { item: output }
-    })
-  }
-  potting_infinite_parts("extradisks:4096k_storage_part", "extradisks:infinite_storage_part")
-  potting_infinite_parts("refinedstorage:4096k_fluid_storage_part", "extradisks:infinite_fluid_storage_part")
+    });
+  };
+  potting_infinite_parts("extradisks:4096k_storage_part", "extradisks:infinite_storage_part");
+  potting_infinite_parts("refinedstorage:4096k_fluid_storage_part", "extradisks:infinite_fluid_storage_part");
   //#endregion
   //#region - Creative Contraptions
   let potting_creative_contraptions = (A, B, output) => {
@@ -59,11 +59,11 @@ ServerEvents.recipes(e => {
         { item: B }
       ],
       result: { item: output }
-    })
-  }
-  potting_creative_contraptions("extrastorage:netherite_crafter", "sophisticatedstorage:crafting_upgrade", "creativecrafter:creative_crafter")
-  potting_creative_contraptions("refinedstorage:controller", "kubejs:deep_plate", "refinedstorage:creative_controller")
-  potting_creative_contraptions("refinedstorage:portable_grid", "sophisticatedstorage:stack_upgrade_tier_4", "refinedstorage:creative_portable_grid")
+    });
+  };
+  potting_creative_contraptions("extrastorage:netherite_crafter", "sophisticatedstorage:crafting_upgrade", "creativecrafter:creative_crafter");
+  potting_creative_contraptions("refinedstorage:controller", "kubejs:deep_plate", "refinedstorage:creative_controller");
+  potting_creative_contraptions("refinedstorage:portable_grid", "sophisticatedstorage:stack_upgrade_tier_4", "refinedstorage:creative_portable_grid");
   //#endregion
   //#region - Creative Wireless Grids
   let potting_creative_wireless_grids = (A, output) => {
@@ -87,12 +87,12 @@ ServerEvents.recipes(e => {
         { item: "kubejs:silicon_plate" }
       ],
       result: { item: output }
-    })
-  }
-  potting_creative_wireless_grids("refinedstorage:wireless_grid", "refinedstorage:creative_wireless_grid")
-  potting_creative_wireless_grids("refinedstorage:wireless_fluid_grid", "refinedstorage:creative_wireless_fluid_grid")
-  potting_creative_wireless_grids("refinedstorageaddons:wireless_crafting_grid", "refinedstorageaddons:creative_wireless_crafting_grid")
-  potting_creative_wireless_grids("refinedstorage:wireless_crafting_monitor", "refinedstorage:creative_wireless_crafting_monitor")
+    });
+  };
+  potting_creative_wireless_grids("refinedstorage:wireless_grid", "refinedstorage:creative_wireless_grid");
+  potting_creative_wireless_grids("refinedstorage:wireless_fluid_grid", "refinedstorage:creative_wireless_fluid_grid");
+  potting_creative_wireless_grids("refinedstorageaddons:wireless_crafting_grid", "refinedstorageaddons:creative_wireless_crafting_grid");
+  potting_creative_wireless_grids("refinedstorage:wireless_crafting_monitor", "refinedstorage:creative_wireless_crafting_monitor");
   //#endregion
   //#region - Creative Wireless Universal Grid
   e.custom({
@@ -128,7 +128,7 @@ ServerEvents.recipes(e => {
     result: {
       item: "universalgrid:creative_wireless_universal_grid"
     }
-  })
+  });
   e.custom({
     type: "extendedcrafting:shaped_table",
     tier: 1,
@@ -156,10 +156,10 @@ ServerEvents.recipes(e => {
     result: {
       item: "universalgrid:creative_wireless_universal_grid"
     }
-  })
+  });
   //#endregion
   //#region - Controller
-  e.remove({ id: "refinedstorage:controller" })
+  e.remove({ id: "refinedstorage:controller" });
   e.custom({
     type: "minecraft:crafting_shaped",
     pattern: ["ABC", "DED", "FGF"],
@@ -189,9 +189,19 @@ ServerEvents.recipes(e => {
     result: {
       item: "refinedstorage:controller"
     }
-  })
+  });
   //#endregion
-})
+  //#region - Crafters
+  e.remove({ id: /extrastorage:.*_crafter/ });
+  let potting_crafters = (result, crafter, plate) => {
+    e.shaped(result, ["ABA", "CDC", "A A"], { A: plate, B: "#forge:chests/wooden", C: "extrastorage:neural_processor", D: crafter });
+  };
+  potting_crafters("extrastorage:iron_crafter", "#refinedstorage:crafter", "kubejs:iron_plate");
+  potting_crafters("extrastorage:gold_crafter", "extrastorage:iron_crafter", "kubejs:gold_plate");
+  potting_crafters("extrastorage:diamond_crafter", "extrastorage:gold_crafter", "kubejs:diamond_plate");
+  potting_crafters("extrastorage:netherite_crafter", "extrastorage:diamond_crafter", "kubejs:netherite_plate");
+  //#endregion
+});
 //#endregion
 
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
@@ -205,7 +215,7 @@ function refined_storage() {
     /extrastorage:storagepart_/,
     /refinedstorage:creative_fluid_storage/,
     /refinedstorage:creative_storage/
-  ]
+  ];
   let hiding = [
     /refinedstorage:black_/,
     /refinedstorage:blue_/,
@@ -222,17 +232,17 @@ function refined_storage() {
     /refinedstorage:red_/,
     /refinedstorage:white_/,
     /refinedstorage:yellow_/
-  ]
+  ];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
-    e.removeAllTagsFrom(unused)
-    e.add("forge:hiding", [unused, hiding])
+    e.removeAllTagsFrom(unused);
+    e.add("forge:hiding", [unused, hiding]);
   }
   function handle_Recipes(e) {
-    e.remove([{ input: unused }, { output: unused }])
+    e.remove([{ input: unused }, { output: unused }]);
   }
-  ServerEvents.tags(["item", "block"], handle_Tags)
-  ServerEvents.recipes(handle_Recipes)
+  ServerEvents.tags(["item", "block"], handle_Tags);
+  ServerEvents.recipes(handle_Recipes);
 }
-refined_storage()
+refined_storage();
 //#endregion

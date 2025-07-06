@@ -1,7 +1,7 @@
 //#region - Crafts
 ServerEvents.recipes(e => {
   //#region - Removed Crafts
-  e.remove([{ id: "farmersdelight:cutting/amethyst_block" }, { id: "farmersdelight:cake_from_milk_bottle" }, { id: "festive_delight:cinnamon_craft_fabric" }])
+  e.remove([{ id: "farmersdelight:cutting/amethyst_block" }, { id: "farmersdelight:cake_from_milk_bottle" }, { id: "festive_delight:cinnamon_craft_fabric" }]);
   //#endregion
   //#region - Rich Soil
   e.custom({
@@ -20,7 +20,7 @@ ServerEvents.recipes(e => {
         item: "farmersdelight:rich_soil"
       }
     ]
-  })
+  });
   //#endregion
-})
+});
 //#endregion

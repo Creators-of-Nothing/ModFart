@@ -1,0 +1,1116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "du_soutien_pour_les_usines"
+	group: "7798244B59ABC64D"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ironfurnaces:block/million_furnace_front_on_smoke"
+		}
+	}
+	id: "235AB90CD226C9B0"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/furnace.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -11.75d
+			y: 3.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/seed.png"
+			rotation: 0.0d
+			width: 8.85d
+			x: -7.0d
+			y: -8.75d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/chicken.png"
+			rotation: 0.0d
+			width: 8.85d
+			x: -2.5d
+			y: -6.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Une poubelle à item. Existe pour les fluides, l'énergie, et la version ultimate fait tout."]
+			id: "00DDE2EAFB75E375"
+			rewards: [{
+				id: "5FAE8A14C518BF5F"
+				item: {
+					Count: 1
+					id: "trashcans:liquid_trash_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72D91E51CC1CE968"
+				item: {
+					Count: 1
+					id: "trashcans:item_trash_can"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.25d
+		}
+		{
+			description: ["Cette Wrench permet d'interagir avec les tuyaux du mod &4PipeZ&r. Accroupissez vous et clic droit avec la Wrench pour interagir avec les Pipes."]
+			id: "48DDC874760C4CDA"
+			rewards: [{
+				id: "549B2E35091D745D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "2C7DF2806AEFA1D8"
+				item: {
+					Count: 1
+					id: "pipez:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48DDC874760C4CDA"]
+			description: ["Des tuyaux qui peuvent transporter des items."]
+			id: "5902A7F64BD072B3"
+			rewards: [{
+				count: 16
+				id: "73ADDE0388B0DEEF"
+				item: {
+					Count: 1
+					id: "pipez:item_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7B0DAACFDF66D0C3"
+				item: {
+					Count: 1
+					id: "pipez:item_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48DDC874760C4CDA"]
+			description: ["Des tuyaux qui peuvent transporter des fluides comme l'eau ou la lave."]
+			id: "06EB473DF45B959D"
+			rewards: [{
+				count: 16
+				id: "257627CE73FADE13"
+				item: {
+					Count: 1
+					id: "pipez:fluid_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0F9469EFB85EB766"
+				item: {
+					Count: 1
+					id: "pipez:fluid_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48DDC874760C4CDA"]
+			description: ["Des tuyaux qui peuvent transporter de l'énergie."]
+			id: "208DF3AA56D4F805"
+			rewards: [{
+				count: 16
+				id: "63BCAE4606FB1160"
+				item: {
+					Count: 1
+					id: "pipez:energy_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "6977F2DC1A19D4EB"
+				item: {
+					Count: 1
+					id: "pipez:energy_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["48DDC874760C4CDA"]
+			description: ["Des tuyaux qui peuvent transporter du gaz."]
+			id: "4423C69CB70005D6"
+			rewards: [{
+				count: 16
+				id: "4D5A98B6CC1C3206"
+				item: {
+					Count: 1
+					id: "pipez:gas_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1361E32329049726"
+				item: {
+					Count: 1
+					id: "pipez:gas_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"208DF3AA56D4F805"
+				"06EB473DF45B959D"
+				"4423C69CB70005D6"
+				"5902A7F64BD072B3"
+			]
+			description: ["Ces tuyaux transportent tout ce que l'on veut. Pour les configurer au mieux, il vaut mieux utiliser des upgrades."]
+			id: "68782FB8C9E045EC"
+			rewards: [{
+				count: 6
+				id: "562110467BA64A53"
+				item: {
+					Count: 1
+					id: "pipez:universal_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "0DA20383B28D86F8"
+				item: {
+					Count: 1
+					id: "pipez:universal_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48DDC874760C4CDA"]
+			description: [
+				"Des upgrades pour vos cables :"
+				""
+				"- Le basic permet un contrôle avec la redstone"
+				"- L'improved permet en plus de choisir le mode de distribution"
+				"- L'advanced permet en plus des deux précédents d'intégrer une whitelist ou une blacklist"
+				"- L'ultimate permet en plus des trois précédents un transfert extrêment rapide."
+			]
+			id: "609152026FB10BB6"
+			rewards: [{
+				id: "6D6E509CACAE3DF7"
+				item: {
+					Count: 1
+					id: "pipez:ultimate_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FF526C154DF845F"
+					item: {
+						Count: 1
+						id: "pipez:basic_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21EF45CECE6CF780"
+					item: {
+						Count: 1
+						id: "pipez:improved_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1133584A2B06E907"
+					item: {
+						Count: 1
+						id: "pipez:advanced_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "638BFE8CBE79AF7D"
+					item: {
+						Count: 1
+						id: "pipez:ultimate_upgrade"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Pipe Upgrade"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Permet de lié un bloc à l'Entangled block, même interdimension."
+				""
+				"Pour se faire, faites un clic droit avec l'Entangled Binder (ou shift clic droit si pas possible) sur le bloc / machine / ce que vous voulez. Puis posez l'Entangled block à l'endroit que vous voulez, et faites un clic droit dessus avec votre Binder. Et voilà, l'Entangled Block est \"devenu\" l'équivalent du premier bloc sur lequel vous aviez cliqué. Pratique pour avoir accès à du stockage interdimension par exemple !"
+			]
+			id: "43162806F60C5AD0"
+			rewards: [{
+				id: "52B4E818D4BD0A16"
+				item: {
+					Count: 1
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "036A503A1DCA9D97"
+					item: {
+						Count: 1
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69131AA0D85A1DD2"
+					item: {
+						Count: 1
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Entangled"
+			x: -1.25d
+			y: 1.5d
+		}
+		{
+			description: ["Un bête autoclicker réglable."]
+			id: "60331D3EC5C0E535"
+			rewards: [{
+				id: "0B0647499093CB31"
+				item: {
+					Count: 1
+					id: "clickmachine:auto_clicker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "46693E581A1BE7B9"
+				item: {
+					Count: 1
+					id: "clickmachine:auto_clicker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.25d
+		}
+		{
+			description: [
+				"Ce mod permet de créer des tours à mob personnalisées. Le GM Chicken Feed permet d'obtenir un oeuf de mob. Pour l'obtenir, faites un clic droit avec un coton tige sur le mob souhaité., puis craftez le GM Chicken Feed et donnez le à un poulet."
+				""
+				"Le GM Chicken Feed Cursed permet d'obtenir un oeuf spécial qui, lorsqu'un clic est effectué sur de la terre, de l'herbe ou du mycelium, la convertie en terre maudite sur 5*5 blocs, ce qui fera spawn en continu des mobs agressifs liés à la dimension dans laquelle vous vous trouvez."
+				""
+				"L'Ender Inhibitor permet, quand à lui, d'empêcher les téléportations dans un certain rayon."
+			]
+			id: "4D68067906944EC9"
+			rewards: [{
+				count: 4
+				id: "353B6076B9E075DC"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EE52E289EC718E4"
+					item: {
+						Count: 1
+						id: "mob_grinding_utils:gm_chicken_feed"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6C6AA15F2A9DBCA3"
+					item: {
+						Count: 1
+						id: "mob_grinding_utils:gm_chicken_feed_cursed"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3CF2359DFA03192F"
+					item: {
+						Count: 1
+						id: "mob_grinding_utils:ender_inhibitor_on"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Mob Grinding Utils"
+			x: -6.5d
+			y: -3.25d
+		}
+		{
+			description: [
+				"Des fours qui vont vite et qui sont upgradables. "
+				""
+				"Le \"Cooktime\" inscrit sur le four indique le temps qu'il prend à cuir un item. Cette valeur est indiquée en tick, soit 20 ticks = 1 sec."
+				""
+				"Avec l'Upgrade Generator, il pourra produire de l'énergie avec du combustible, mais ne pourra plus cuir d'items."
+			]
+			id: "3D4CA50A72A5AFD7"
+			rewards: [{
+				id: "4AB36EAA0CDBC963"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A74E4F5572EF452"
+				item: {
+					Count: 1
+					id: "ironfurnaces:copper_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			id: "2DD4FA4D77F87660"
+			rewards: [{
+				count: 4
+				id: "0F2720B28B5671DF"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E98B641D2518620"
+				item: {
+					Count: 1
+					id: "ironfurnaces:silver_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2DD4FA4D77F87660"]
+			id: "1F5F5CB999D7E32C"
+			rewards: [{
+				count: 8
+				id: "6BFC4F9DE2717313"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1456BBEDDB785807"
+				item: {
+					Count: 1
+					id: "ironfurnaces:iron_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F5F5CB999D7E32C"]
+			id: "6CFBF0B71B4C42EF"
+			rewards: [{
+				count: 16
+				id: "56352CF7EA9E07CF"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E1C95D3036D72A"
+				item: {
+					Count: 1
+					id: "ironfurnaces:gold_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6CFBF0B71B4C42EF"]
+			id: "11B721239FE2BEF3"
+			rewards: [{
+				count: 32
+				id: "0ED70D595CE1E94E"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				random_bonus: 32
+				type: "item"
+			}]
+			tasks: [{
+				id: "43213ED9C4341913"
+				item: {
+					Count: 1
+					id: "ironfurnaces:diamond_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B721239FE2BEF3"]
+			id: "61137F37F39794EC"
+			rewards: [{
+				count: 64
+				id: "10E900141572402F"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EF07DB41B136A2"
+				item: {
+					Count: 1
+					id: "ironfurnaces:obsidian_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61137F37F39794EC"]
+			id: "6336E6168B09B260"
+			rewards: [{
+				count: 8
+				id: "3C7520111D6B3EFF"
+				item: {
+					Count: 1
+					id: "minecraft:coal_block"
+					tag: { }
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "1140B9897C25E241"
+				item: {
+					Count: 1
+					id: "ironfurnaces:emerald_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6336E6168B09B260"]
+			id: "22508E1E980CF54D"
+			rewards: [{
+				count: 16
+				id: "31148370B0AE6DF3"
+				item: {
+					Count: 1
+					id: "minecraft:coal_block"
+					tag: { }
+				}
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DE5957E2553AD5C"
+				item: {
+					Count: 1
+					id: "ironfurnaces:netherite_furnace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			description: ["Différentes augments qui transforment vos fours en machines plus complexes. L'augment Generator transforme vos fours en générateur électrique."]
+			id: "5E1934E1199BD9B5"
+			rewards: [{
+				count: 4
+				id: "36A89960BF2C6188"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "29BA49419EDA94E3"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_blasting"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2B969C4559D9833D"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_smoking"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2BF95ADF99D0CDAD"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_factory"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4C2F9E76E6F975A8"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_generator"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7DAFC3923DB11882"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_speed"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2C562C1113368D10"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_fuel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Augments"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			description: [
+				"Permet à vos fours de fonctionner avec de l'énergie en wifi. Pour cela, posez le Transmitter et alimentez le en énergie. Faites un clic droit avec le Receiver dessus, puis mettez le dans votre four."
+				""
+				"Attention, cela ne fonctionne pas avec l'upgrade factory !"
+			]
+			id: "3DB9ED12D1FF7F7B"
+			rewards: [{
+				count: 4
+				id: "6C52B6541F8EB7A6"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5035A521075AD5B1"
+					item: {
+						Count: 1
+						id: "ironfurnaces:heater"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "42449ECE84105754"
+					item: {
+						Count: 1
+						id: "ironfurnaces:item_heater"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Permet de gérer l'énergie en Wifi. Utilisez le controller pour créer votre propre network. Avec lui, vous pourrez décider si l'énergie peut se transmettre à votre personnage ou non, et dans quel partie de l'inventaire."
+				""
+				"Le Plug envoie l'énergie depuis votre source (comme par exemple les éoliennes de Mekanism), le Point la réceptionne et la transmet à la machine ou au cable à laquel il est lié."
+			]
+			id: "11D9AEA65CF56FF8"
+			rewards: [{
+				count: 8
+				id: "0A97FF2C5A9B0255"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "151A98F420C94414"
+					item: {
+						Count: 1
+						id: "fluxnetworks:flux_plug"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5DDAFE84C77C9DCD"
+					item: {
+						Count: 1
+						id: "fluxnetworks:flux_point"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5582315498BAF225"
+					item: {
+						Count: 1
+						id: "fluxnetworks:flux_controller"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Flux Network"
+			x: -2.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["11D9AEA65CF56FF8"]
+			description: ["C'est un très gros stockage d'énergie."]
+			id: "7BD5C98F43E5BE5D"
+			rewards: [{
+				id: "00C1EC2106BACF73"
+				item: {
+					Count: 1
+					id: "minecraft:redstone_block"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "148AB3C16E75C577"
+				item: {
+					Count: 1
+					id: "fluxnetworks:gargantuan_flux_storage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["3D4CA50A72A5AFD7"]
+			description: ["Le meilleur de tout les charbons ! Il s'agit du plus haut tier qui permet de cuir un grand nombre d'item."]
+			id: "6973D3E1F2496A0B"
+			rewards: [{
+				id: "0F5AE62BF07F553A"
+				item: {
+					Count: 1
+					id: "morecoal:omni_coal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01D7318F4044E13A"
+				item: {
+					Count: 1
+					id: "morecoal:omni_coal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			id: "50C7867DD0528A7F"
+			rewards: [{
+				id: "0F721ECC8F39970B"
+				item: {
+					Count: 1
+					id: "cyclic:placer_fluid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0E80C716BDC5A175"
+					item: {
+						Count: 1
+						id: "cyclic:placer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B36C012C7A7247E"
+					item: {
+						Count: 1
+						id: "cyclic:breaker"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.25d
+		}
+		{
+			description: ["L'item user permet de simuler le clic d'un joueur."]
+			id: "5673FDBAF14778E1"
+			rewards: [{
+				id: "5052A059FCC736AD"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A474D5E5B173576"
+				item: {
+					Count: 1
+					id: "cyclic:user"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.25d
+		}
+		{
+			description: ["Un clock pour répéter des signals redstone en boucle."]
+			id: "4CCDE498FB683140"
+			rewards: [{
+				id: "477C3D515C522932"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "664542C478649752"
+				item: {
+					Count: 1
+					id: "cyclic:clock"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.25d
+		}
+		{
+			description: [
+				"Les Mobs Caged sont des blocs qui permettent de farmer passivement et virtuellement toutes les entités. Vous pouvez savoir ce que vous donnera une entité en appuyant sur la touche U sur la Mob Caged par exemple. "
+				""
+				"Pour insérer un mob dans une Caged Mob, il vous faudra une seringue. Selon le mob, il vous faudra une seringue plus ou moins puissante :"
+				""
+				"- La blanche sert pour les animaux passifs"
+				"- La Diamond sert pour quasi tout les mobs sauf boss"
+				"- La Netherite sert à capturer les boss"
+				""
+				"Un simple coup sur le mob avec la seringue vous permettra d'obtenir son ADN. Ensuite, placez le bloc qu'il aime bien à l'intérieur. Selon le bloc utilisé, la croissance du mob sera plus ou moins rapide."
+				""
+				"Il existe également des upgrades. Vous pouvez en mettre jusqu'à trois, et certaines sont cumulables !"
+			]
+			id: "032411FBA0FE5E2F"
+			rewards: [{
+				id: "6953A2C40E0D62FF"
+				item: {
+					Count: 1
+					id: "cagedmobs:cooking_upgrade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75A505C39DB79257"
+					item: {
+						Count: 1
+						id: "cagedmobs:hopping_mob_cage"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "261AEC8AD6E4F926"
+					item: {
+						Count: 1
+						id: "cagedmobs:netherite_dna_sampler"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -3.25d
+		}
+		{
+			description: ["Un moyen de récupérer les items qui trainent au sol. Il est configurable !"]
+			id: "035D6332C94A32F8"
+			rewards: [{
+				id: "73003AC31A70DA2F"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "57C39CEA66BADAF0"
+				item: {
+					Count: 1
+					id: "itemcollectors:advanced_collector"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.25d
+		}
+		{
+			description: [
+				"Littéralement un moyen d'automatiser tout ce qui concerne les plantes. Selon le terreau utilisé, cela peut produire plus ou moins vite. La version avec hopper permet de transmettre la production automatiquement dans l'inventaire en dessous de lui."
+				""
+				"Peut être coloré avec un colorant en cliquant dessus."
+				""
+				"Le &4Rich Soil&r, quant à lui, est la meilleure terre utilisable (hors créatif). Pour obtenir la version farmland, faites un clic droit avec une hoe sur le Rich Soil dans le Botany Pot."
+			]
+			id: "1DEA45302E47535C"
+			rewards: [{
+				id: "326E9C039830CDCB"
+				item: {
+					Count: 1
+					id: "botanypots:terracotta_hopper_botany_pot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42BD8DD312A9B501"
+					item: {
+						Count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "702B4AFE788E6381"
+					item: {
+						Count: 1
+						id: "farmersdelight:rich_soil"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -3.25d
+		}
+		{
+			description: ["Si vous avez de Chunk Load votre base gigantesque, vous pouvez utiliser les chunk loads de ce mod. Un clic droit dessus vous ouvrira une interface."]
+			id: "40EB7601B8019E09"
+			rewards: [{
+				id: "210D4168D6157B45"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A9F5EA7003D9C2"
+				item: {
+					Count: 1
+					id: "chunkloaders:ultimate_chunk_loader"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1DEA45302E47535C"
+				"032411FBA0FE5E2F"
+				"4D68067906944EC9"
+				"035D6332C94A32F8"
+				"7BD5C98F43E5BE5D"
+				"68782FB8C9E045EC"
+				"609152026FB10BB6"
+				"43162806F60C5AD0"
+				"3DB9ED12D1FF7F7B"
+				"6973D3E1F2496A0B"
+				"5E1934E1199BD9B5"
+				"22508E1E980CF54D"
+				"60331D3EC5C0E535"
+				"00DDE2EAFB75E375"
+				"5673FDBAF14778E1"
+				"4CCDE498FB683140"
+				"50C7867DD0528A7F"
+			]
+			description: ["Vous avez vaincu ce chapitre, félicitations !"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
+			id: "6A0E7A7CE252E086"
+			rewards: [{
+				id: "7915D7E30D243B39"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:support"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
+			tasks: [{
+				id: "02F27E689B0F4D62"
+				type: "checkmark"
+			}]
+			title: "Usines terminées !"
+			x: -9.5d
+			y: -5.5d
+		}
+	]
+	title: "Soutien pour usines"
+}

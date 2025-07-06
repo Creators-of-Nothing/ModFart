@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_bumblezone"
+	group: "7B8630C608C42520"
+	id: "09CA8EC9A5C363F7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Bumblezone"
+}

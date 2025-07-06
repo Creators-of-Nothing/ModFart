@@ -10,6 +10,9 @@
     "enableFishItemWithAllVariant": false,
     "displayTrophySpawnEggInCreativeTab": false
   },
+  "biome": {
+    "tropicalIslandRegionWeight": 8
+  },
   "spawnRate": {
     "trophyProbability": 0.15,
     "variant": {

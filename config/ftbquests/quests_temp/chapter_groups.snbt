@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "520987ECA1C88A3B", title: "Modfart" }
+		{ id: "7B8630C608C42520", title: "Exploration" }
+		{ id: "59E3973EFDDF4BE1", title: "Alimentation et Décoration" }
+		{ id: "3CA4B0CAAB94EE6B", title: "Stockage" }
+		{ id: "6FCD3535E8BFAB91", title: "Sorcellerie" }
+		{ id: "7798244B59ABC64D", title: "Tech" }
+		{ id: "4D5260B6E2D8CC8E", title: "Automatisation" }
+		{ id: "587CFB9EC8FABF15", title: "A déplacer" }
+	]
+}

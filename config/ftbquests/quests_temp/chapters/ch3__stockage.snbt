@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch3__stockage"
+	group: "520987ECA1C88A3B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "mekanism:block/cardboard_box_side_storage"
+		}
+	}
+	id: "1E96E2BC386A3559"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ch.3 - Stockage"
+}

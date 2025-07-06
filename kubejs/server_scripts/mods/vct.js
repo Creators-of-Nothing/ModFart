@@ -12,26 +12,26 @@ ServerEvents.recipes(e => {
     { id: "vct:bamboo_crafting_table" },
     { id: "vct:crimson_crafting_table" },
     { id: "vct:warped_crafting_table" }
-  ])
+  ]);
   //#endregion
   //#region - Crafting Tables
   let potting_crafting_tables = (element, output) => {
     e.shaped(output, ["AA", "AA"], {
       A: element
-    })
-  }
-  potting_crafting_tables("#modfart/planks/spruce", "vct:spruce_crafting_table")
-  potting_crafting_tables("#modfart/planks/birch", "vct:birch_crafting_table")
-  potting_crafting_tables("#modfart/planks/jungle", "vct:jungle_crafting_table")
-  potting_crafting_tables("#modfart/planks/acacia", "vct:acacia_crafting_table")
-  potting_crafting_tables("#modfart/planks/dark_oak", "vct:dark_oak_crafting_table")
-  potting_crafting_tables("#modfart/planks/mangrove", "vct:mangrove_crafting_table")
-  potting_crafting_tables("#modfart/planks/bamboo", "vct:bamboo_crafting_table")
-  potting_crafting_tables("#modfart/planks/cherry", "vct:cherry_crafting_table")
-  potting_crafting_tables("#modfart/planks/crimson", "vct:crimson_crafting_table")
-  potting_crafting_tables("#modfart/planks/warped", "vct:warped_crafting_table")
+    });
+  };
+  potting_crafting_tables("#modfart/planks/spruce", "vct:spruce_crafting_table");
+  potting_crafting_tables("#modfart/planks/birch", "vct:birch_crafting_table");
+  potting_crafting_tables("#modfart/planks/jungle", "vct:jungle_crafting_table");
+  potting_crafting_tables("#modfart/planks/acacia", "vct:acacia_crafting_table");
+  potting_crafting_tables("#modfart/planks/dark_oak", "vct:dark_oak_crafting_table");
+  potting_crafting_tables("#modfart/planks/mangrove", "vct:mangrove_crafting_table");
+  potting_crafting_tables("#modfart/planks/bamboo", "vct:bamboo_crafting_table");
+  potting_crafting_tables("#modfart/planks/cherry", "vct:cherry_crafting_table");
+  potting_crafting_tables("#modfart/planks/crimson", "vct:crimson_crafting_table");
+  potting_crafting_tables("#modfart/planks/warped", "vct:warped_crafting_table");
   //#endregion
-})
+});
 //#endregion
 
 //#region - Définition/Suppression/Masquage d'éléments dans JEI
@@ -145,7 +145,7 @@ function vct() {
     /vct:wisteria/,
     /vct:yucca/,
     /vct:zamites/
-  ]
+  ];
   let hiding = [
     "vct:acacia_crafting_table_minecart",
     "vct:aeronos_crafting_table_minecart",
@@ -187,17 +187,17 @@ function vct() {
     "vct:warped_crafting_table_minecart",
     "vct:whistlecane_crafting_table_minecart",
     "vct:wigglewood_crafting_table_minecart"
-  ]
+  ];
   // Fonctions pour supprimer les tags et les crafts des éléments définis juste au dessus
   function handle_Tags(e) {
-    e.removeAllTagsFrom(unused)
-    e.add("forge:hiding", [unused, hiding])
+    e.removeAllTagsFrom(unused);
+    e.add("forge:hiding", [unused, hiding]);
   }
   function handle_Recipes(e) {
-    e.remove([{ input: unused }, { output: unused }])
+    e.remove([{ input: unused }, { output: unused }]);
   }
-  ServerEvents.tags(["item", "block"], handle_Tags)
-  ServerEvents.recipes(handle_Recipes)
+  ServerEvents.tags(["item", "block"], handle_Tags);
+  ServerEvents.recipes(handle_Recipes);
 }
-vct()
+vct();
 //#endregion

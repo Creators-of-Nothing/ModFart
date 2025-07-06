@@ -1317,7 +1317,7 @@
 		}
 		{
 			dependencies: ["2C637CDAFCC6EBC8"]
-			description: ["L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."]
+			description: ["Les items &4ultimes&r du jeu. Vous pourrez retrouver plus d'infos sur ces objets dans les quêtes Creative."]
 			id: "59DDEA26787009D9"
 			rewards: [{
 				id: "3A6A39AEB4D3C793"
@@ -1326,12 +1326,29 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "L'item ULTIME"
-			tasks: [{
-				id: "5BE1C466D1EB7B9F"
-				item: "mekanism:creative_bin"
-				type: "item"
-			}]
+			subtitle: "Les items ULTIMES"
+			tasks: [
+				{
+					id: "5BE1C466D1EB7B9F"
+					item: "mekanism:creative_bin"
+					type: "item"
+				}
+				{
+					id: "0B9DAE36C9CF4D86"
+					item: "sophisticatedstorage:survival_infinity_upgrade"
+					type: "item"
+				}
+				{
+					id: "0F54DD6DE789378A"
+					item: "sophisticatedbackpacks:survival_infinity_upgrade"
+					type: "item"
+				}
+				{
+					id: "6663890DE7B7F7FF"
+					item: "modularrouters:creative_module"
+					type: "item"
+				}
+			]
 			x: 9.375d
 			y: 7.5d
 		}
@@ -1480,9 +1497,9 @@
 					id: "585EA64E08FF630E"
 					item: {
 						Count: 1
-						id: "vinery:knulp_wine"
+						id: "vinery:jellie_wine"
 						tag: {
-							Year: 1
+							Year: 0
 						}
 					}
 					type: "item"
@@ -1548,8 +1565,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "7E8F5FDC2370D200"
 			rewards: [{
