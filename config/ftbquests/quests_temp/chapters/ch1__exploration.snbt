@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch1__exploration"
+	group: "520987ECA1C88A3B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/compass"
+		}
+	}
+	id: "352B9797E9BBA9EA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ch.1 - Exploration"
+}

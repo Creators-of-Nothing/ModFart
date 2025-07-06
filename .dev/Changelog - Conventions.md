@@ -1,9 +1,17 @@
-#### [Conventions]
-- ***Add*** - Ajout d'un mod
-- ***Del*** - Suppression d'un mod
-- ***MaJ*** - Mise à Jour d'un mod
-- ***Dow*** - Downgrade d'un mod
-- ***V*** - Réactivation d'un mod
-- ***X*** - Désactivation d'un mod
-- ***Feature*** - Modification d'une fonction du jeu
-- ***Bug*** - Bug visuel ou fonctionnel
+### [Versioning]
+
+- Pour une version donnée "X.Y.Z", voici la manière de fonctionner :
+  - X : Numéro de version MAJEUR -> Changement important dans la phase de déploiement (Ex. : Passage de la Beta à la Release)
+  - Y : Numéro de version MINEUR -> Changement, ajout ou retrait de grosses fonctionnalités (Ex. : Ajout des crafts Créa, Mise à jour de la version du ModLoader)
+  - Z : Numéro de version CORRECTIF -> Correctifs (Ex. : Mise à jour de mods, réglages de problèmes de crafts)
+
+### [Conventions]
+
+- **_Add_** - Ajout d'un mod
+- **_Del_** - Suppression d'un mod
+- **_MaJ_** - Mise à Jour d'un mod
+- **_Dow_** - Downgrade d'un mod
+- **_V_** - Réactivation d'un mod
+- **_X_** - Désactivation d'un mod
+- **_Feature_** - Modification d'une fonction du jeu
+- **_Bug_** - Bug visuel ou fonctionnel

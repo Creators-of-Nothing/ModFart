@@ -1,9 +1,11 @@
 # Changelog - ModFart-0.1.5
 
 ## [Résumé]
+
 - Suppression du Starter Kit et désactivation temporaire de Rubidium
 
 ## [A_venir]
+
 - Suppression de crafts
 - Ajout d'un mod de Presence Discord
 - Objets destructible dans la lave (ItemPhysics)
@@ -16,15 +18,19 @@
 - Summoner Apotheosis
 
 ### [Mods]
-- ***Del*** - Starter Kit
 
-- ***X*** - Rubidium
+- **_Del_** - Starter Kit
+
+- **_X_** - Rubidium
 
 ### [Ajouts]
-- 
+
+-
 
 ### [Suppressions]
-- 
+
+-
 
 ### [Changements]
-- 
+
+-

@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "1BF794ED3A9B4457"
+	icon: {
+		Count: 1
+		id: "minecraft:end_stone"
+		tag: { }
+	}
+	id: "6F77CEAF9768BE93"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			description: ["Trouves une paire d'Elytra."]
+			id: "101EFE607C8C32A9"
+			rewards: [{
+				id: "2B0AB7DE72735E04"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3CF7731F9B523EAA"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -0.75d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:end_portal_frame"
+				tag: { }
+			}
+			id: "3A58E2FE8C566938"
+			rewards: [{
+				id: "3F71D1E257D1A69A"
+				item: {
+					Count: 1
+					id: "enderchests:ender_pouch"
+					tag: {
+						open: 0b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1
+					id: "minecraft:end_portal_frame"
+					tag: { }
+				}
+				id: "476F61D8DBD721FA"
+				type: "dimension"
+			}]
+			title: "L'End !"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			id: "124DCC1A1FCD9CBA"
+			rewards: [{
+				id: "7762AA39E468067E"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				entity: "enlightened_end:void_leviathan"
+				icon: {
+					Count: 1
+					id: "enlightened_end:void_leviathan_spawn_egg"
+					tag: { }
+				}
+				id: "6F97736A15152BDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			description: [
+				"Pour les obtenir, il faut tuer le Shelterer. Lorsque vous l'aurez trouvé, il faut l'invoquer en donnant une Nether Star à l'Altar qui se trouve au centre de la structure en obsidienne."
+				""
+				"Ensuite, faites un clic droit avec des TNTs sur les TNTs noires pour casser le bouclier du boss. Lorsque cela est fait, vous n'avez plus qu'à tuer le boss pour obtenir les cristaux."
+				""
+				"Le Chorudum est un minerais qui se trouve sur les murs de la structure."
+			]
+			id: "773EF5E50A2FCE0B"
+			rewards: [{
+				count: 4
+				id: "5E376C65CC60D242"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1493E7B43DBED6AA"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:void_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6E801D9817A17B33"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:chorundum"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Shelterer"
+			x: 1.5d
+			y: 0.75d
+		}
+	]
+	title: "End"
+}

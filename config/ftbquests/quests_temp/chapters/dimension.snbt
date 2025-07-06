@@ -1,0 +1,2046 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimension"
+	group: "587CFB9EC8FABF15"
+	icon: {
+		Count: 1
+		id: "minecraft:end_portal_frame"
+		tag: { }
+	}
+	id: "69134C09A36EFA96"
+	images: [
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/portal.png"
+			rotation: 0.0d
+			width: 3.6944444444444446d
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/ftbquests/twilight.png"
+			rotation: 0.0d
+			width: 4.645308924485126d
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			height: 5.8579881656804735d
+			image: "kubejs:textures/ftbquests/bee.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 12.5d
+			y: -7.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Pour se rendre dans l'Aether, tu dois créer un portail de la taille d'un portail du Nether classique, mais en blocs de glowstone. Ensuite, clic droit avec un sceau d'eau sur le portail comme si tu utilisais un briquet."]
+			id: "27B68158D18F8BC9"
+			rewards: [{
+				id: "4897199A8D525333"
+				item: {
+					Count: 1
+					id: "aether:book_of_lore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "aether:the_aether"
+				icon: {
+					Count: 1
+					id: "minecraft:glowstone"
+					tag: { }
+				}
+				id: "749A435AF197D96F"
+				type: "dimension"
+			}]
+			title: "Visite l'Aether"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Pour se rendre dans la Twilight Forest, tu dois créer un trou de un de profond et de 2x2 minimum. Tu dois ensuite le remplir d'eau, puis entourer ce trou de fleurs. Enfin, pour ouvrir le portail, jette un diamant dans l'eau."
+				""
+				"&4Deux particularités à ce monde&r : il est très bas, donc vous trouverez des minerais de basse couche assez haut dans le monde."
+				""
+				"La seconde, c'est que &4NORMALEMENT&r, vous devez faire les boss dans un certain ordre. Nous avons enlevé cette limitation. Vous pouvez les faire dans &4n'importe quel ordre&r."
+				""
+				"Le but est de faire les boss dans l'ordre, sinon, vous ne pourrez pas avancer dans les zones suivantes."
+				""
+				"Une fois les boss vaincus, les loots sont obtenus dans un coffre au niveau de la zone de spawn du jeu."
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:twilight_portal_miniature_structure"
+				tag: { }
+			}
+			id: "05FC127CCB18ED3F"
+			rewards: [{
+				id: "10AF697102AAA911"
+				item: {
+					Count: 1
+					id: "minecraft:sunflower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					Count: 1
+					id: "twilightforest:twilight_portal_miniature_structure"
+					tag: { }
+				}
+				id: "11B1BB2F83376DF7"
+				type: "dimension"
+			}]
+			title: "Visite la Twilight Forest"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Pour aller dans l'UnderGarden, tu dois faire un portail en StoneBrick de la même taille qu'un portail du Nether classique, puis faire un clic droit avec le Catalyst dessus, comme si tu utilisais un briquet."
+				""
+				"Pour obtenir les ressources demandés et les mobs à tuer, il faut trouver un donjon. Vous ne pouvez pas le louper, c'est la seule structure du mod."
+			]
+			icon: {
+				Count: 1
+				id: "undergarden:catalyst"
+				tag: { }
+			}
+			id: "50160ECE83FBC2D0"
+			rewards: [{
+				count: 16
+				id: "64B7AC61216D6D4B"
+				item: {
+					Count: 1
+					id: "undergarden:shard_torch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: {
+					Count: 1
+					id: "undergarden:catalyst"
+					tag: { }
+				}
+				id: "599A938BFC804ED1"
+				type: "dimension"
+			}]
+			title: "Visite l'UnderGarden"
+			x: 9.0d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:obsidian"
+				tag: { }
+			}
+			id: "67BB99D58054E451"
+			rewards: [{
+				id: "39125152746E19E3"
+				item: {
+					Count: 1
+					id: "minecraft:obsidian"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1
+					id: "minecraft:obsidian"
+					tag: { }
+				}
+				id: "4C5FA009E6235F5A"
+				type: "dimension"
+			}]
+			title: "Visite le Nether"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:end_portal_frame"
+				tag: { }
+			}
+			id: "3A58E2FE8C566938"
+			rewards: [{
+				id: "3F71D1E257D1A69A"
+				item: {
+					Count: 1
+					id: "enderchests:ender_pouch"
+					tag: {
+						open: 0b
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1
+					id: "minecraft:end_portal_frame"
+					tag: { }
+				}
+				id: "476F61D8DBD721FA"
+				type: "dimension"
+			}]
+			title: "Visite l'End"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: [
+				"Il se trouve quelque part sous terre. L'entrée est partiellement visible."
+				""
+				"Tu ne peux le vaincre qu'en le tapant avec une pioche."
+			]
+			icon: {
+				Count: 1
+				id: "aether:slider_spawn_egg"
+				tag: { }
+			}
+			id: "2F0BE54F49E6505A"
+			rewards: [{
+				id: "47DCA2A8D47A3CD5"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Tuer le Slider"
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "1ED2035D1E4300F8"
+				type: "advancement"
+			}]
+			x: 1.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: [
+				"Elle se trouve dans un temple gigantesque."
+				""
+				"Pour pouvoir lui parler et la vaincre, tu dois lui ramener 10 médailles que tu récupères sur les autres Valkyries."
+			]
+			id: "537CAD231AA69727"
+			rewards: [{
+				id: "384A683D6D87BDCA"
+				item: {
+					Count: 1
+					id: "aether:invisibility_cloak"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Tuer la Valkyrie Queen"
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "0FE5D7ADADE5DA42"
+				type: "advancement"
+			}]
+			x: 1.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: [
+				"Il se trouve dans une île surmontée de beaucoup de Golden Oaks. L'entrée est partiellement visible."
+				""
+				"Après l'avoir ennuyé avec des banalités, tu dois lui renvoyer ses boules bleues sur lui."
+			]
+			id: "798EBFBF52C2974D"
+			rewards: [{
+				id: "36DD4E7E05372854"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Tuer le Sun Spirit"
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "09D61FA874C32B18"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Trouver une forteresse du Nether."]
+			id: "5189A0FD522ED5F9"
+			rewards: [{
+				id: "4C5677013DCDC6C6"
+				item: {
+					Count: 1
+					id: "minecraft:nether_wart"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "53E4421093797255"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: [
+				"S'équiper avec une full armure en Netherite. "
+				""
+				"&4Attention :&r les Templates sont consommés à l'utilisation, mais sont duplicables !!"
+			]
+			id: "01EFD5A1FC58FFF5"
+			rewards: [{
+				id: "30B80830CB5E967F"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6178B1D42008C0F0"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Renvoyez une boule de Ghast à un Ghast."]
+			id: "1815F8A8224185E7"
+			rewards: [{
+				id: "7E3D7AA531E31BD7"
+				item: {
+					Count: 1
+					id: "minecraft:ghast_tear"
+					tag: { }
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:ghast_tear"
+					tag: { }
+				}
+				id: "7C98934CD23685A7"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Visiter tout les biomes &4Vanilla&r du Nether."]
+			id: "5C96F2D3B60E2692"
+			rewards: [{
+				id: "490BD909E6BDD787"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:soul_speed"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "0F044F0C916B6851"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			description: ["Trouves une paire d'Elytra."]
+			id: "101EFE607C8C32A9"
+			rewards: [{
+				id: "2B0AB7DE72735E04"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3CF7731F9B523EAA"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			description: [
+				"Pour les obtenir, il faut tuer le Shelterer. Lorsque vous l'aurez trouvé, il faut l'invoquer en donnant une Nether Star à l'Altar qui se trouve au centre de la structure en obsidienne."
+				""
+				"Ensuite, faites un clic droit avec des TNTs sur les TNTs noires pour casser le bouclier du boss. Lorsque cela est fait, vous n'avez plus qu'à tuer le boss pour obtenir les cristaux."
+				""
+				"Le Chorudum est un minerais qui se trouve sur les murs de la structure."
+			]
+			id: "773EF5E50A2FCE0B"
+			rewards: [{
+				count: 4
+				id: "5E376C65CC60D242"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1493E7B43DBED6AA"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:void_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6E801D9817A17B33"
+					item: {
+						Count: 1
+						id: "stalwart_dungeons:chorundum"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Shelterer"
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A58E2FE8C566938"]
+			description: ["C'est un boss qui se promène dans les structures du mod Enlightend."]
+			id: "124DCC1A1FCD9CBA"
+			rewards: [{
+				id: "7762AA39E468067E"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				entity: "enlightened_end:void_leviathan"
+				icon: {
+					Count: 1
+					id: "enlightened_end:void_leviathan_spawn_egg"
+					tag: { }
+				}
+				id: "6F97736A15152BDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Pour l'invoquer, il faudra trouver une structure du mod &4Stalwart Dungeon&r qui se trouve dans les biomes &4Nether Wastes&r et &4Crimson Forest&r. Il faudra faire un clic droit sur le bloc central pour créer le donjon. Une fois fait, cherchez le &4Nether Keeper Altar&r. Faites un clic droit avec une &4Nether Star&r pour invoquer le boss."]
+			id: "5513E5C6CD22AF09"
+			rewards: [{
+				id: "5F8D9296A3E53CD4"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "stalwart_dungeons:nether_keeper"
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:nether_keeper_spawn_egg"
+					tag: { }
+				}
+				id: "7EC702E190DCC7C5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["67BB99D58054E451"]
+			description: ["Pour l'invoquer, il faudra trouver une structure du mod &4Stalwart Dungeon&r qui se trouve dans les biomes &4Soul Sand Valley&r et &4Warped Forest&r. Une fois fait, cherchez l'&4Awful Ghast Altar&r. Faites un clic droit avec une &4Nether Star&r pour invoquer le boss."]
+			id: "6FA631077CEEC570"
+			rewards: [{
+				id: "50C5143125DEAFE5"
+				item: {
+					Count: 1
+					id: "minecraft:ghast_tear"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "stalwart_dungeons:awful_ghast"
+				icon: {
+					Count: 1
+					id: "stalwart_dungeons:awful_ghast_spawn_egg"
+					tag: { }
+				}
+				id: "2595053E295D12F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			description: ["Il suffit d'allumer le portail qui se trouve dans le Deep Dark avec le coeur de Warden."]
+			id: "25C1A2DA316A1D34"
+			rewards: [{
+				id: "72217458A61CACE6"
+				item: {
+					Count: 1
+					id: "deeperdarker:ancient_vase"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_tendrils"
+					tag: { }
+				}
+				id: "28C51021D492A645"
+				type: "dimension"
+			}]
+			title: "Visite the Otherside"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["05FC127CCB18ED3F"]
+			description: ["Cette map vous permettra de découvrir les différents biomes autour de vous et donc de trouver les différents boss à affronter."]
+			id: "4875CFC8DEA30A6D"
+			rewards: [{
+				id: "220C4CAF97507592"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_map"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "523A13B9F3B31EAB"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_map"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Trouvez un labyrinthe et tuez le !"]
+			id: "1A754DB70F8E0479"
+			rewards: [{
+				id: "44EBF72DCBB82F39"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_scale"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B3225F3C083469"
+				item: {
+					Count: 1
+					id: "twilightforest:naga_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Trouvez un château, et accéder au plus haut. La Lich s'y trouve. Renvoyez les projectiles qu'elle vous envoie pour casser ses boucliers, puis cassez lui la goule !"]
+			id: "7420F1E14689A899"
+			rewards: [{
+				id: "3BF3E59E5D9E0E54"
+				item: {
+					Count: 1
+					id: "twilightforest:torchberries"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DBCD86FED1251DA"
+				item: {
+					Count: 1
+					id: "twilightforest:lich_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Le Minoshroom se trouve dans un marais, au second sous-sol d'un labyrinthe. Lorsque vous l'aurez tué, manger le Meef Stroganoff pour pouvoir accéder à la zone suivante."]
+			id: "2B9BC42F4B9526DD"
+			rewards: [{
+				id: "3BA20C9D5796861F"
+				item: {
+					Count: 1
+					id: "minecraft:pufferfish"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D5428E225AD6462"
+				item: {
+					Count: 1
+					id: "twilightforest:minoshroom_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["L'hydre se trouve au centre du marais, sous une grosse colline ! Pour la tuer, l'idéal est de détruire ses têtes."]
+			id: "7CE8B362CF0ED206"
+			rewards: [{
+				id: "3B53F875694CEBD6"
+				item: {
+					Count: 1
+					id: "twilightdelight:hydra_piece"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC1129E1FDCE7C6"
+				item: {
+					Count: 1
+					id: "twilightforest:hydra_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Cette fois-ci, vous allez devoir trouver une forêt noire, très dense. A l'intérieur, se trouve un labyrinthe sous terrain. Pour y accéder, posez un des trophées sur le pedestal (vous pourrez le récupérer après avoir ouvert l'entrée). Les Phantom Knights se trouvent dans une salle dont l'entrée se trouvent derrière une grille cerclée d'obsidiennes."]
+			id: "0BE20FB0F8335C2C"
+			rewards: [{
+				id: "2B0CA013516DEA91"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6395E6C87EAC43B8"
+				item: {
+					Count: 1
+					id: "twilightforest:knight_phantom_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: [
+				"Le Ur'Ghast se trouve au centre de la forêt noire. Il faut se rendre tout en haut. Pour le vaincre, vous devez tuer les petits ghasts que le boss fait spawner à proximiter des Ghasts Traps. Lorsqu'il est plein, et que le Ur'Ghast est proche, activez le avec la plaque de pression ! Il attirera le boss et là vous pourrez le taper ! Répétez l'opération jusqu'à sa mort."
+				""
+				"Si vous ne faites pas cela, le boss est immortel."
+			]
+			id: "28E71946063A13DB"
+			rewards: [{
+				id: "2AAB57643DE29B99"
+				item: {
+					Count: 1
+					id: "minecraft:ghast_tear"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "2EC6229902E935FB"
+				item: {
+					Count: 1
+					id: "twilightforest:ur_ghast_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["L'Alpha Yeti se trouve dans la zone de neige."]
+			id: "48DF185C4B80BD42"
+			rewards: [{
+				id: "2B2236344030BA4A"
+				item: {
+					Count: 1
+					id: "twilightforest:alpha_yeti_fur"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EED8D76DC5B7FD1"
+				item: {
+					Count: 1
+					id: "twilightforest:alpha_yeti_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["La Reine des neiges se trouve dans son château, au centre de la zone de neige, au dessus d'un immense glacier."]
+			id: "7D1F0AB51031D500"
+			rewards: [{
+				id: "1E16BD3A794B06CA"
+				item: {
+					Count: 1
+					id: "minecraft:snow_golem_spawn_egg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40D9DB96807103CC"
+				item: {
+					Count: 1
+					id: "twilightforest:snow_queen_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: [
+				"Pour les obtenir, tu dois tuer des Trolls. Pour les trouver, repère une grande île volante, puis creuse en dessous. Tu tomberas sur un cube d'obsidienne géant au centre d'une grotte. Les Trolls s'y trouvent."
+				""
+				"Utilises ensuite les Beans sur de l'Uberous Soil pour faire pousser un haricot magique et accéder à l'île volante."
+			]
+			id: "032302AB68FE9853"
+			rewards: [{
+				id: "1E752C63DB203ED0"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_beans"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7ABD04A2E9B401A7"
+				item: {
+					Count: 1
+					id: "twilightforest:magic_beans"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["032302AB68FE9853"]
+			description: ["Tues un Géant en armure. Ils se trouvent sur l'île volante."]
+			id: "3CD42F5A3B54B19E"
+			rewards: [{
+				id: "32F8910A4A488FDD"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "15241F6A7CB744AE"
+				item: {
+					Count: 1
+					id: "twilightforest:giant_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: ["Donnes lui les 16 laines de couleur en cliquant droit avec sur lui."]
+			id: "489698E694DDE098"
+			rewards: [{
+				id: "2B1FE13955FD866E"
+				item: {
+					Count: 1
+					id: "manyideas_core:rainbow_wool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22D4940A8133EBC5"
+				item: {
+					Count: 1
+					id: "twilightforest:quest_ram_trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CD42F5A3B54B19E"]
+			description: ["Cette lampe permet de brûler les vignes qui vous bloqueront le chemin pour le chateau final. Elle se trouve dans le &4Cube d'Obsienne Géant&r, sous terre, sous l'&4île des Géants&r."]
+			id: "1B39E76FBF60DE52"
+			rewards: [{
+				count: 64
+				id: "7BAB270191E34D09"
+				item: {
+					Count: 1
+					id: "supplementaries:ash"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E1159188AF931C"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["Se trouve en cassant l'Infested Sculk."]
+			id: "1D1557F8AB5AB248"
+			rewards: [{
+				id: "5733C6EC23F6A105"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_dust"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_leech_spawn_egg"
+					tag: { }
+				}
+				id: "56724D4AC9EB518A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			id: "2AEEF806598FE4FD"
+			rewards: [{
+				id: "4FD94A76353B8364"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_centipede_spawn_egg"
+					tag: { }
+				}
+				id: "4ACB5DA2AF8CD607"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			id: "0F3548B65EA5EC31"
+			rewards: [{
+				id: "0681EF080A44651A"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_dust"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				icon: {
+					Count: 1
+					id: "deeperdarker:sculk_snapper_spawn_egg"
+					tag: { }
+				}
+				id: "39421CC314942E6B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			id: "539BE1CD89DE92A3"
+			rewards: [{
+				id: "4AEC1F06C2F41D3E"
+				item: {
+					Count: 1
+					id: "deeperdarker:sculk_bone"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					Count: 1
+					id: "deeperdarker:shattered_spawn_egg"
+					tag: { }
+				}
+				id: "408FB31B5C327481"
+				type: "kill"
+				value: 5L
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["On en trouve en marchant sur de l'Infested Sculk."]
+			id: "029E028D7FE92FC7"
+			rewards: [{
+				id: "5975B5B49D0C5322"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1
+					id: "deeperdarker:shriek_worm_spawn_egg"
+					tag: { }
+				}
+				id: "625D72FFF4901676"
+				type: "kill"
+				value: 2L
+			}]
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: [
+				"Il faut tuer des Stalkers. Il faut casser des pots et, de temps en temps, un Stalker spawnera."
+				""
+				"Les pots se trouvent dans un temple, seule structure du mod."
+			]
+			id: "37A4B7655F1F2685"
+			rewards: [{
+				id: "590229120D10B9ED"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_crystal"
+					tag: { }
+				}
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				icon: {
+					Count: 1
+					id: "deeperdarker:soul_crystal"
+					tag: { }
+				}
+				id: "378380426AB7380E"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_crystal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "53F43B68C5582B7E"
+			rewards: [{
+				id: "258B0CABB49D362E"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotling"
+				icon: {
+					Count: 1
+					id: "undergarden:rotling_spawn_egg"
+					tag: { }
+				}
+				id: "478D7DF587F7714D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "21542C0BBE0F243D"
+			rewards: [{
+				count: 4
+				id: "39511DB6EEFA5770"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotwalker"
+				icon: {
+					Count: 1
+					id: "undergarden:rotwalker_spawn_egg"
+					tag: { }
+				}
+				id: "03C67EC165DD38A6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "1E5BB1CEF0757AF6"
+			rewards: [{
+				count: 4
+				id: "7ED1CA826799E475"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				icon: {
+					Count: 1
+					id: "undergarden:rotbeast_spawn_egg"
+					tag: { }
+				}
+				id: "2DEDDFB4FC6C4927"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "2A7383A6D8EB9665"
+			rewards: [{
+				id: "016CDE3EAEFC776F"
+				item: {
+					Count: 1
+					id: "undergarden:utheric_shard"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:nargoyle"
+				icon: {
+					Count: 1
+					id: "undergarden:nargoyle_spawn_egg"
+					tag: { }
+				}
+				id: "1F956F382F8B8E25"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "395CD0576023F021"
+			rewards: [{
+				id: "09251E975DB72E89"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_nugget"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:muncher"
+				icon: {
+					Count: 1
+					id: "undergarden:muncher_spawn_egg"
+					tag: { }
+				}
+				id: "3C48FD79219B6161"
+				type: "kill"
+				value: 10L
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "57977CAE14FF7CC4"
+			rewards: [{
+				count: 4
+				id: "7733EF9FBDA0BF9E"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_nugget"
+					tag: { }
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: {
+					Count: 1
+					id: "undergarden:forgotten_guardian_spawn_egg"
+					tag: { }
+				}
+				id: "42387F21C15CDFD9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["Obtient une paire de Soul Elytra."]
+			id: "3110C06656AAB88A"
+			rewards: [{
+				id: "0CFA206066C35920"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7175195743AED661"
+				item: {
+					Count: 1
+					id: "deeperdarker:soul_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25C1A2DA316A1D34"]
+			description: ["Obtient une armure complète de Warden."]
+			id: "258F93FE86EDF127"
+			rewards: [{
+				id: "064A3CE08D776FD6"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "deeperdarker:long_sculk_affinity"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/warden_armor"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2D539122F068CE4E"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "1E20644C2835B418"
+			rewards: [{
+				id: "384B3346F49007DD"
+				item: {
+					Count: 1
+					id: "aether:ambrosium_ore"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "7916422B9DDBFF24"
+				item: {
+					Count: 1
+					id: "aether:ambrosium_ore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "2F8A9AE6648BC0A4"
+			rewards: [{
+				id: "293878D25D9989C0"
+				item: {
+					Count: 1
+					id: "aether:zanite_ore"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "71226C33A01A4463"
+				item: {
+					Count: 1
+					id: "aether:zanite_ore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			id: "6BF7BF307D879B27"
+			rewards: [{
+				id: "0F4895E76193DB47"
+				item: {
+					Count: 1
+					id: "aether:gravitite_ore"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "30C9CF754C23867F"
+				item: {
+					Count: 1
+					id: "aether:gravitite_ore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: ["Pour récupérer les blocs du Mod Ancient Aether, vous avez besoin de crafter un &4outils du Mod Aether&r. Une pioche pour les minerais et la pierre, une Hoe pour les nuages, etc ..."]
+			id: "3E2325728707E342"
+			rewards: [{
+				id: "764E767804C6567B"
+				item: {
+					Count: 1
+					id: "ancient_aether:aether_quartz_ore"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E2140B10B5BD558"
+				item: {
+					Count: 1
+					id: "ancient_aether:aether_quartz_ore"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "42EFD8706DCAC44E"
+			rewards: [{
+				count: 16
+				id: "4F7CFF487141A75F"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "56B0C5A0D809EFC1"
+				item: {
+					Count: 1
+					id: "undergarden:cloggrum_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "71CBBA25CACC4E17"
+			rewards: [{
+				count: 16
+				id: "5669E933A33A5569"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4DB24956D8E74C30"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["50160ECE83FBC2D0"]
+			id: "30DFDA27659EA4CB"
+			rewards: [{
+				id: "6EE4FA6899ACEA8D"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_ingot"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "050E8056868086C3"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			description: ["Un moyen d'aller dans le void, où il fait éternellement jour."]
+			id: "2551113A8C70F913"
+			rewards: [{
+				id: "66106C61AE788BCA"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "64962B58952F7660"
+				item: {
+					Count: 1
+					id: "javd:portal_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: ["Différents mondes de minage en éternal day, pour éviter d'abimer votre jolie base !"]
+			id: "263AA57BCAD4DBE0"
+			rewards: [{
+				id: "53D61351823FE9ED"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5C2A528FE186D258"
+					item: {
+						Count: 1
+						id: "jamd:portal_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "458AEBD797302E34"
+					item: {
+						Count: 1
+						id: "jamd:nether_portal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "030263E9E89A194F"
+					item: {
+						Count: 1
+						id: "jamd:end_portal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B9BC42F4B9526DD"]
+			description: [
+				"Le MazeBreacker se trouve au même étage que le boss, derrière le seul mur qui n'a, ni moisissure, ni craquelures. Vous pouvez également vous faire une map avec le Maze Focus. Attention, la salle est piégée."
+				""
+				"Pour la désarmer, creusez un cran dans le sol, puis creusez le mur tout droit. Attention, ne faites pas de Veinmine. Lorsque vous aurez atteint les TNT, là vous pouvez les Veinmines. "
+				""
+				"Vous avez ensuite accès aux coffres secrets. "
+				""
+				"Dernier attention : le loot n'est pas de 100% !"
+			]
+			id: "70163F1C9E463C30"
+			rewards: [{
+				id: "21D30F25802AAEBC"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_ore"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				id: "5026045B8AB90EC4"
+				item: {
+					Count: 1
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			description: ["Pour entrer dans cette dimension, tu dois jeter une ender pearl dans une ruche, comme pour les petits portails de l'End ! A l'intérieur se trouve des structures, pleins d'abeilles, et une Reine !"]
+			id: "4E50245930CB138C"
+			rewards: [{
+				id: "557056F3EA70FCDD"
+				item: {
+					Count: 1
+					id: "minecraft:honeycomb"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: {
+					Count: 1
+					id: "minecraft:bee_nest"
+					tag: { }
+				}
+				id: "7EEA37ECBD4861A6"
+				type: "dimension"
+			}]
+			title: "Visite Bumblezone"
+			x: 14.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["4E50245930CB138C"]
+			description: [
+				"Attention, si vous entrez dans une structure ou que vous faites quoi que ce soit que vous baladez sagement, les abeilles vous attaqueront ! Pour éviter cela, et gagner l'effet Protection de la Ruche, vous devez donner à manger aux abeilles avant :"
+				""
+				"Bouteille d'eau sucré = 7% de chance de gagner l'effet"
+				"Bouteille de miel = 30% de chance de gagner l'effet"
+				"Sceau de miel = 80% de chance de gagner l'effet"
+				"Bouteille et sceau de gelée royale = 100% de chance de gagner l'effet"
+				""
+				"Les autres objets ont 10% de chance, sauf ceux où c'est écrit miel dans le nom, dans ce cas, c'est 20%."
+				""
+				"L'effet Protection de la Ruche est limitée dans le temps, mais vous pouvez obtenir une Essence of the Bee qui vous protégera de manière permanante."
+				""
+				"La Flower Headwear se porte sur la tête et vous prémunisera de leur colère."
+			]
+			id: "464B7A7AC2E1FE4F"
+			rewards: [{
+				id: "604CA34D0DF22181"
+				item: {
+					Count: 1
+					id: "the_bumblezone:sugar_water_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "79752FC2CE6FB42F"
+					item: {
+						Count: 1
+						id: "the_bumblezone:sugar_water_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74EF8493C835A028"
+					item: {
+						Count: 1
+						id: "the_bumblezone:flower_headwear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "La Colère des Abeilles"
+			x: 16.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E50245930CB138C"]
+			description: ["Ce mod possède énormément d'explication sur les différents items. N'hésitez pas à utiliser la touche R sur les différents objets pour les obtenir!"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "699975256EE9607D"
+			rewards: [{
+				id: "1C746518DE5579C8"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3CDB618C945F6160"
+				title: "La touche R"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["4E50245930CB138C"]
+			description: [
+				"&4&n&lSECTION IMPORTANTE :&r&r&r"
+				""
+				"Si vous souffrez de Trypophobie (= peur des trous, bosses, ou aspérités en forme de grappe), il existe un pack de texture que vous pouvez ajouter à votre jeu. Pour cela, rendez-vous dans les options Ressource Pack, et ajouter sur la colonne de droite le pack de Texture :"
+				""
+				"Anti-Trypophobia resourcepack"
+				""
+				"Voilà, cet ajout a été créé par le créateur du mod, merci à lui ! :)"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
+			id: "4ADEC7E7E543BA32"
+			rewards: [{
+				id: "22CBB46E9E288557"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7BC1EC90F8A17BEC"
+				title: "La Trypophobie"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4E50245930CB138C"]
+			description: [
+				"A la base, il a deux utilités :"
+				""
+				"- un clic droit dans les airs, et il vous mènera vers la structure la plus proche"
+				"- un clic sur une Beehive ou une Bee nest, et il vous mènera vers elle !"
+				""
+				"Cependant, les Honey Compass qui se trouvent dans les Honey Cocoon peuvent avoir trois autres utilités :"
+				""
+				"- une qui vous mènera vers les structures classiques -> Cell Maze, Battle Cubes, et Honitel Structures"
+				"- une qui vous mènera vers le Throne Pillar -> c'est là où la reine vit !"
+				"- une qui vous indiquera \"Mystery Structure\""
+				""
+				"Pour savoir à quelle structure il vous mènera, il faut que vous l'ayez sur vous."
+			]
+			id: "53545C81C3A00A64"
+			rewards: [{
+				id: "48C51A9480267C70"
+				item: {
+					Count: 1
+					id: "createaddition:honey_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "128D9D1D66F8F119"
+				item: {
+					Count: 1
+					id: "the_bumblezone:honey_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["4E50245930CB138C"]
+			description: ["Pour obtenir cet advancement, il vous faudra échanger avec la Reine des Abeilles elle-même ! A vous de tester ce que vous pensez qu'elle pourrait aimer. Toutes les 20min, et pour une durée de 20min, elle demande un objet en particulier, et si vous lui donnez, elle vous donnera trois fois plus de récompense."]
+			id: "4BA7A52A50BCBD21"
+			rewards: [{
+				id: "790A952E0B714ECB"
+				item: {
+					Count: 1
+					id: "the_bumblezone:super_candle"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_beginning"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "the_bumblezone:bee_queen_spawn_egg"
+					tag: { }
+				}
+				id: "35990C12EC295979"
+				type: "advancement"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BA7A52A50BCBD21"]
+			description: [
+				"Pour accomplir cet advancement, vous devrez en accomplir 16 autres, les voici :"
+				""
+				"- Craft 12 Bee Nests ou Beehives dans une &n&l&4table de craft&r&r&r !"
+				"- Tues 64 Spiders"
+				"- Bois 16 bouteilles de miel"
+				"- Projette sur une (ou plusieurs) entités 48 fois du Pollen Puff"
+				"- Tues 16 Silverfish"
+				"- Tire 64 Bee Stingers avec un arc ou une arbalète"
+				"- Reproduit 6 Honeyslime (ils aiment le sucre)"
+				"- Tues 32 Caves Spiders"
+				"- Sauves 24 abeilles en leur redonnant un dard (clic droit avec un Bee Stinger sur une abeille sans dard)"
+				"- Spawn 16 fleurs avec du Pollen Puff (jetez en sur fleur de 2 haut et priez, ça peut prendre du temps)"
+				"- Tuez un Wither avec la Stinger Spear"
+				"- Donnez à manger aux abeilles 48 fois"
+				"- Donnes naissance à 16 bébés abeilles"
+				"- Tues 4 Endermites"
+				"- Tues l'enderdragon en portant une armure complète du mod (Helmet, Chestplate, Legging et Boots). Le Chesplate se trouve un peu partout, les autres parties se trouvent dans l'un des quatre coffres chez la Reine. Aussi, il existe plusieurs variantes des armures, elles sont toutes valable pour la quête."
+				"- Échanges 256 fois avec la reine des abeilles"
+				""
+				"Vous pouvez retrouver cette liste dans la page Succès, catégorie Bumblezone."
+			]
+			id: "55A26A7EF3CF4706"
+			rewards: [{
+				id: "2F2DD8C195C03BDD"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/journeys_end"
+				criterion: ""
+				id: "727EAD71E9A38E7E"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6BF7BF307D879B27"
+				"3E2325728707E342"
+				"2F8A9AE6648BC0A4"
+				"1E20644C2835B418"
+				"2F0BE54F49E6505A"
+				"798EBFBF52C2974D"
+				"537CAD231AA69727"
+				"101EFE607C8C32A9"
+				"124DCC1A1FCD9CBA"
+				"773EF5E50A2FCE0B"
+				"1B39E76FBF60DE52"
+				"489698E694DDE098"
+				"70163F1C9E463C30"
+				"699975256EE9607D"
+				"4ADEC7E7E543BA32"
+				"53545C81C3A00A64"
+				"464B7A7AC2E1FE4F"
+				"55A26A7EF3CF4706"
+				"3110C06656AAB88A"
+				"258F93FE86EDF127"
+				"1D1557F8AB5AB248"
+				"2AEEF806598FE4FD"
+				"0F3548B65EA5EC31"
+				"539BE1CD89DE92A3"
+				"029E028D7FE92FC7"
+				"37A4B7655F1F2685"
+				"263AA57BCAD4DBE0"
+				"2551113A8C70F913"
+				"42EFD8706DCAC44E"
+				"71CBBA25CACC4E17"
+				"30DFDA27659EA4CB"
+				"5189A0FD522ED5F9"
+				"1815F8A8224185E7"
+				"5C96F2D3B60E2692"
+				"01EFD5A1FC58FFF5"
+				"5513E5C6CD22AF09"
+				"6FA631077CEEC570"
+				"53F43B68C5582B7E"
+				"2A7383A6D8EB9665"
+				"21542C0BBE0F243D"
+				"1E5BB1CEF0757AF6"
+				"395CD0576023F021"
+				"69A9A39AD3C6B21E"
+				"15FDDF45C0825287"
+			]
+			description: [
+				"Vous avez vaincu ce chapitre, félicitations !"
+				""
+				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
+			id: "4BAE8105E427FBF1"
+			rewards: [{
+				id: "4ECD2A31270EB94D"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:dimensions"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "246BC20725A681AA"
+				title: "Dimensions complété !"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27B68158D18F8BC9"]
+			description: ["Ce boss se situe dans une grande tour. Au sommet, se trouve le boss, une baleine géante. Pour activer le combat, il faut cliquer sur le bloc &4SongStone&r, au sommet."]
+			id: "69A9A39AD3C6B21E"
+			rewards: [{
+				id: "7C26AB037F9EE290"
+				item: {
+					Count: 1
+					id: "lost_aether_content:agility_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Tuer l'Aerwhale King"
+			tasks: [{
+				advancement: "lost_aether_content:platinum_dungeon"
+				criterion: ""
+				id: "3D8958E417BAED4E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4875CFC8DEA30A6D"]
+			description: [
+				"Vous vous attendiez à ce que ce soit fini ?! Nop ! Nous vous avons rajouter un petit boss de fin. Rendez-vous dans le château final ..."
+				""
+				"Bonne chance !"
+			]
+			icon: {
+				Count: 1
+				id: "alexsmobs:spawn_egg_farseer"
+				tag: { }
+			}
+			id: "15FDDF45C0825287"
+			rewards: [
+				{
+					id: "10F04CCAABB79574"
+					item: {
+						Count: 1
+						id: "twilightforest:twilight_portal_miniature_structure"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "76A39F37E123458D"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_courtyard_miniature_structure"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0FB78B4AA357E2B9"
+					item: {
+						Count: 1
+						id: "twilightforest:lich_tower_miniature_structure"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Je n'ai pas fini !"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_farseer"
+					tag: { }
+				}
+				id: "44C89B0744F42469"
+				title: "Tuer le dernier boss de la Twilight"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -6.25d
+		}
+	]
+	title: "Dimensions"
+}

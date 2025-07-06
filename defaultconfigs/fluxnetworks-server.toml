@@ -30,19 +30,19 @@
 	defaultLimit = 800000
 	#The maximum energy storage of a Basic Flux Storage
 	#Range: 0 ~ 9223372036854775807
-	basicCapacity = 2000000
+	basicCapacity = 1000000000
 	#The default transfer limit of a Basic Flux Storage
 	#Range: 0 ~ 9223372036854775807
 	basicTransfer = 20000
 	#The maximum energy storage of a Herculean Flux Storage
 	#Range: 0 ~ 9223372036854775807
-	herculeanCapacity = 16000000
+	herculeanCapacity = 1000000000000
 	#The default transfer limit of a Herculean Flux Storage
 	#Range: 0 ~ 9223372036854775807
 	herculeanTransfer = 120000
 	#The maximum energy storage of a Gargantuan Flux Storage
 	#Range: 0 ~ 9223372036854775807
-	gargantuanCapacity = 128000000
+	gargantuanCapacity = 1000000000000000
 	#The default transfer limit of a Gargantuan Flux Storage
 	#Range: 0 ~ 9223372036854775807
 	gargantuanTransfer = 720000

@@ -1,8 +1,8 @@
 disableLootManagerReloading = false
-hiddenTabs = ["plant", "worldgen"]
+hiddenTabs = ["plant", "worldgen", "enchantments"]
 #Range: 1 ~ 4
 itemsPerRow = 4
-enchantsBlacklist = ["flimflam", "soulBound", "binding_curse", "vanishing_curse"]
+enchantsBlacklist = []
 showDevData = false
 dimensionsBlacklist = [-11]
 diyData = true

@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch2__alimentation_et_dcoration"
+	group: "520987ECA1C88A3B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "pizzacraft:block/pizza_oven_front_lit"
+		}
+	}
+	id: "1602EE8111F256B1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ch.2 - Alimentation et Décoration"
+}

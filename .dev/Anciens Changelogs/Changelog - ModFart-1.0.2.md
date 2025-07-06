@@ -1,9 +1,11 @@
 # Changelog - ModFart-1.0.2
 
 ## [Résumé]
+
 - Hotfix - Réglages des crashs à la mort d'un joueur
 
 ## [A_venir]
+
 - Ajout d'un mod de Presence Discord
 - Objets destructible dans la lave (ItemPhysics)
 - Optimisation générale du modpack
@@ -13,14 +15,18 @@
 - Summoner Apotheosis
 
 ### [Mods]
-- ***Del*** - Better Combat
-- ***Del*** - Zelda, Legend of the Master Sword
+
+- **_Del_** - Better Combat
+- **_Del_** - Zelda, Legend of the Master Sword
 
 ### [Ajouts]
-- 
+
+-
 
 ### [Suppressions]
-- 
+
+-
 
 ### [Changements]
-- 
+
+-

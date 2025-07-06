@@ -1,9 +1,11 @@
 # Changelog - ModFart-1.0.8
 
 ## [Résumé]
+
 - Ajout et Mise à jour de mods et retour en arrière concernant la génération de Nipa (bug qui empêche la création de monde)
 
 ## [A_venir]
+
 - Changer les loots des Sifters
 - Conflits de craft (Pam's HarvestCraft)
 - Mobs qui se désactive trop loin du joueur
@@ -14,34 +16,38 @@
 - Crafting Table pour
 
 ### [Mods]
-- ***Add*** - AlwaysEat
-- ***Add*** - DisenchantingForge
-- ***Add*** - MOA DECOR: HOLIDAYS
-- ***Add*** - Reroll Enchants
-- ***Add*** - Trofers
-- ***Add*** - Umbral Skies
 
-- ***Del*** - DoesPotatoTick?
-- ***Del*** - Easy Anvils
-- ***Del*** - Enchanting Infuser
-- ***Del*** - Plenty Plates
+- **_Add_** - AlwaysEat
+- **_Add_** - DisenchantingForge
+- **_Add_** - MOA DECOR: HOLIDAYS
+- **_Add_** - Reroll Enchants
+- **_Add_** - Trofers
+- **_Add_** - Umbral Skies
 
-- ***MaJ*** - Ars Nouveau (4.7.1 -> 4.7.2)
-- ***MaJ*** - Colorful Hearts (4.0.2 -> 4.0.3)
-- ***MaJ*** - Cupboard (2.0 -> 2.1)
-- ***MaJ*** - Easy Villagers (1.0.12 -> 1.0.13)
-- ***MaJ*** - FramedBlocks (9.1.5 -> 9.1.6)
-- ***MaJ*** - Iron Furnaces (4.1.0 -> 4.1.1)
-- ***MaJ*** - LibX (5.0.5 -> 5.0.7)
-- ***MaJ*** - Moonlight Lib (2.8.47 -> 2.8.48)
-- ***MaJ*** - Simple Magnets (1.1.9 -> 1.1.10)
-- ***MaJ*** - Supplementaries (2.6.1 -> 2.6.12)
+- **_Del_** - DoesPotatoTick?
+- **_Del_** - Easy Anvils
+- **_Del_** - Enchanting Infuser
+- **_Del_** - Plenty Plates
+
+- **_MaJ_** - Ars Nouveau (4.7.1 -> 4.7.2)
+- **_MaJ_** - Colorful Hearts (4.0.2 -> 4.0.3)
+- **_MaJ_** - Cupboard (2.0 -> 2.1)
+- **_MaJ_** - Easy Villagers (1.0.12 -> 1.0.13)
+- **_MaJ_** - FramedBlocks (9.1.5 -> 9.1.6)
+- **_MaJ_** - Iron Furnaces (4.1.0 -> 4.1.1)
+- **_MaJ_** - LibX (5.0.5 -> 5.0.7)
+- **_MaJ_** - Moonlight Lib (2.8.47 -> 2.8.48)
+- **_MaJ_** - Simple Magnets (1.1.9 -> 1.1.10)
+- **_MaJ_** - Supplementaries (2.6.1 -> 2.6.12)
 
 ### [Ajouts]
-- 
+
+-
 
 ### [Suppressions]
-- 
+
+-
 
 ### [Changements]
-- 
+
+-

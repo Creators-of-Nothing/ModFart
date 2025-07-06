@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "perfectionnement"
+	group: "4D5260B6E2D8CC8E"
+	id: "6BA7C9F17FC9727B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Perfectionnement"
+}

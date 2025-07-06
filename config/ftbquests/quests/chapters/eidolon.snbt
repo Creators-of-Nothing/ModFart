@@ -10,7 +10,7 @@
 			height: 7.0d
 			image: "kubejs:textures/ftbquests/necro.png"
 			rotation: 0.0d
-			width: 12.39d
+			width: 3.3259668508287294d
 			x: -9.0d
 			y: -1.5d
 		}
@@ -18,7 +18,7 @@
 			height: 7.0d
 			image: "kubejs:textures/ftbquests/wraith.png"
 			rotation: 0.0d
-			width: 4.76d
+			width: 4.221212121212121d
 			x: 10.0d
 			y: -1.25d
 		}
@@ -920,8 +920,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "63D0CA801B0BA5E6"
 			rewards: [{

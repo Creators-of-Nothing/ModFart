@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "7B8630C608C42520"
+	id: "4D5B94534B3F0CAD"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "The Undergarden"
+}

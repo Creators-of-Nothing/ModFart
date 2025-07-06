@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch_2__decoration"
+	group: "3CA4B0CAAB94EE6B"
+	id: "353BE0CFE9B789AE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Extra - Decoration"
+}

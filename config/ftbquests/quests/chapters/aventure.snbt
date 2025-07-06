@@ -13,28 +13,28 @@
 	id: "10BE70FF8569C51A"
 	images: [
 		{
-			height: 5.0d
+			height: 4.729838709677419d
 			image: "kubejs:textures/ftbquests/anvil.png"
 			rotation: 0.0d
 			width: 4.5d
-			x: -4.0d
-			y: -1.25d
+			x: -4.25d
+			y: -1.5d
 		}
 		{
-			height: 3.0d
+			height: 2.7654761904761904d
 			image: "kubejs:textures/ftbquests/wand.png"
 			rotation: 0.0d
 			width: 3.45d
-			x: 2.25d
-			y: -6.0d
+			x: 2.5d
+			y: -6.5d
 		}
 		{
-			height: 5.5d
+			height: 6.0d
 			image: "kubejs:textures/ftbquests/villager.png"
 			rotation: 0.0d
-			width: 3.7d
-			x: 3.5d
-			y: -1.5d
+			width: 3.4939759036144578d
+			x: 3.75d
+			y: -1.25d
 		}
 	]
 	order_index: 1
@@ -359,8 +359,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "300C409F8D74BDA2"
 			rewards: [{

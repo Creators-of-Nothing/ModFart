@@ -10,7 +10,7 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/portal.png"
 			rotation: 0.0d
-			width: 4.0d
+			width: 3.6944444444444446d
 			x: -3.5d
 			y: 5.5d
 		}
@@ -18,17 +18,17 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/twilight.png"
 			rotation: 0.0d
-			width: 4.45d
+			width: 4.645308924485126d
 			x: 14.5d
 			y: 7.0d
 		}
 		{
-			height: 7.0d
+			height: 5.8579881656804735d
 			image: "kubejs:textures/ftbquests/bee.png"
 			rotation: 0.0d
-			width: 12.39d
-			x: 12.0d
-			y: -6.5d
+			width: 5.0d
+			x: 12.5d
+			y: -7.0d
 		}
 	]
 	order_index: 2
@@ -42,6 +42,7 @@
 				item: "aether:book_of_lore"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "aether:the_aether"
 				icon: "minecraft:glowstone"
@@ -56,7 +57,9 @@
 			description: [
 				"Pour se rendre dans la Twilight Forest, tu dois créer un trou de un de profond et de 2x2 minimum. Tu dois ensuite le remplir d'eau, puis entourer ce trou de fleurs. Enfin, pour ouvrir le portail, jette un diamant dans l'eau."
 				""
-				"Deux particularités à ce monde : il est très bas, donc vous trouverez des minerais de basse couche assez haut dans le monde."
+				"&4Deux particularités à ce monde&r : il est très bas, donc vous trouverez des minerais de basse couche assez haut dans le monde."
+				""
+				"La seconde, c'est que &4NORMALEMENT&r, vous devez faire les boss dans un certain ordre. Nous avons enlevé cette limitation. Vous pouvez les faire dans &4n'importe quel ordre&r."
 				""
 				"Le but est de faire les boss dans l'ordre, sinon, vous ne pourrez pas avancer dans les zones suivantes."
 				""
@@ -69,6 +72,7 @@
 				item: "minecraft:sunflower"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: "twilightforest:twilight_portal_miniature_structure"
@@ -76,8 +80,8 @@
 				type: "dimension"
 			}]
 			title: "Visite la Twilight Forest"
-			x: 6.5d
-			y: -4.75d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -93,6 +97,7 @@
 				item: "undergarden:shard_torch"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "undergarden:undergarden"
 				icon: "undergarden:catalyst"
@@ -112,6 +117,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:obsidian"
@@ -136,6 +142,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_portal_frame"
@@ -450,6 +457,7 @@
 				item: "deeperdarker:ancient_vase"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:sculk_tendrils"
@@ -469,12 +477,13 @@
 				item: "twilightforest:magic_map"
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				id: "523A13B9F3B31EAB"
 				item: "twilightforest:magic_map"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -492,11 +501,11 @@
 				item: "twilightforest:naga_trophy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 7.25d
+			y: -4.5d
 		}
 		{
-			dependencies: ["1A754DB70F8E0479"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: ["Trouvez un château, et accéder au plus haut. La Lich s'y trouve. Renvoyez les projectiles qu'elle vous envoie pour casser ses boucliers, puis cassez lui la goule !"]
 			id: "7420F1E14689A899"
 			rewards: [{
@@ -510,11 +519,11 @@
 				item: "twilightforest:lich_trophy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 6.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["7420F1E14689A899"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: ["Le Minoshroom se trouve dans un marais, au second sous-sol d'un labyrinthe. Lorsque vous l'aurez tué, manger le Meef Stroganoff pour pouvoir accéder à la zone suivante."]
 			id: "2B9BC42F4B9526DD"
 			rewards: [{
@@ -527,11 +536,11 @@
 				item: "twilightforest:minoshroom_trophy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.0d
+			x: 6.25d
+			y: -1.75d
 		}
 		{
-			dependencies: ["2B9BC42F4B9526DD"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: ["L'hydre se trouve au centre du marais, sous une grosse colline ! Pour la tuer, l'idéal est de détruire ses têtes."]
 			id: "7CE8B362CF0ED206"
 			rewards: [{
@@ -545,11 +554,11 @@
 				item: "twilightforest:hydra_trophy"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: 7.25d
+			y: -1.0d
 		}
 		{
-			dependencies: ["7CE8B362CF0ED206"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: ["Cette fois-ci, vous allez devoir trouver une forêt noire, très dense. A l'intérieur, se trouve un labyrinthe sous terrain. Pour y accéder, posez un des trophées sur le pedestal (vous pourrez le récupérer après avoir ouvert l'entrée). Les Phantom Knights se trouvent dans une salle dont l'entrée se trouvent derrière une grille cerclée d'obsidiennes."]
 			id: "0BE20FB0F8335C2C"
 			rewards: [{
@@ -564,10 +573,10 @@
 				type: "item"
 			}]
 			x: 10.75d
-			y: -3.25d
+			y: -4.5d
 		}
 		{
-			dependencies: ["0BE20FB0F8335C2C"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: [
 				"Le Ur'Ghast se trouve au centre de la forêt noire. Il faut se rendre tout en haut. Pour le vaincre, vous devez tuer les petits ghasts que le boss fait spawner à proximiter des Ghasts Traps. Lorsqu'il est plein, et que le Ur'Ghast est proche, activez le avec la plaque de pression ! Il attirera le boss et là vous pourrez le taper ! Répétez l'opération jusqu'à sa mort."
 				""
@@ -585,11 +594,11 @@
 				item: "twilightforest:ur_ghast_trophy"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.0d
+			x: 11.75d
+			y: -3.75d
 		}
 		{
-			dependencies: ["28E71946063A13DB"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: ["L'Alpha Yeti se trouve dans la zone de neige."]
 			id: "48DF185C4B80BD42"
 			rewards: [{
@@ -603,11 +612,11 @@
 				item: "twilightforest:alpha_yeti_trophy"
 				type: "item"
 			}]
-			x: 8.75d
-			y: -6.25d
+			x: 11.75d
+			y: -1.75d
 		}
 		{
-			dependencies: ["48DF185C4B80BD42"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: ["La Reine des neiges se trouve dans son château, au centre de la zone de neige, au dessus d'un immense glacier."]
 			id: "7D1F0AB51031D500"
 			rewards: [{
@@ -620,11 +629,11 @@
 				item: "twilightforest:snow_queen_trophy"
 				type: "item"
 			}]
-			x: 6.75d
-			y: -6.0d
+			x: 10.75d
+			y: -1.0d
 		}
 		{
-			dependencies: ["7D1F0AB51031D500"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: [
 				"Pour les obtenir, tu dois tuer des Trolls. Pour les trouver, repère une grande île volante, puis creuse en dessous. Tu tomberas sur un cube d'obsidienne géant au centre d'une grotte. Les Trolls s'y trouvent."
 				""
@@ -641,8 +650,8 @@
 				item: "twilightforest:magic_beans"
 				type: "item"
 			}]
-			x: 5.25d
-			y: -6.5d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["032302AB68FE9853"]
@@ -670,8 +679,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.75d
-			y: -5.75d
+			x: 6.25d
+			y: -6.25d
 		}
 		{
 			dependencies: ["4875CFC8DEA30A6D"]
@@ -687,8 +696,8 @@
 				item: "twilightforest:quest_ram_trophy"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.75d
+			x: 10.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3CD42F5A3B54B19E"]
@@ -1134,48 +1143,6 @@
 			y: 6.5d
 		}
 		{
-			description: [
-				"Un donjon qui vous mènera à un donjon, qui vous mènera à un donjon ..."
-				""
-				"Lorsque vous avez votre clef, il faut l'utiliser sur un &4End Portal vide&r. Si le votre est ouvert, vous pouvez utiliser la clef sur un &4End Portal plein&r : cela enlèvera l'oeil, mais n'éteindra pas le portail."
-				"{image:kubejs:textures/ftbquests/donjon.png width:160 height:100 align:1}"
-			]
-			id: "69D83891C3CDD8D4"
-			rewards: [{
-				id: "296AC9C0737B7AA5"
-				type: "xp"
-				xp: 200
-			}]
-			size: 2.0d
-			tasks: [
-				{
-					id: "7127D8E57E29A64F"
-					item: "dimdungeons:block_portal_keyhole"
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "1D3EC534BC2B4302"
-					item: "minecraft:stone_bricks"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "4583613D6A6829F5"
-					item: "dimdungeons:block_gilded_portal"
-					type: "item"
-				}
-				{
-					id: "43507BD411705AF5"
-					item: "dimdungeons:item_portal_key"
-					type: "item"
-				}
-			]
-			title: "Dimensional Dungeon"
-			x: 4.5d
-			y: 7.0d
-		}
-		{
 			description: ["Un moyen d'aller dans le void, où il fait éternellement jour."]
 			id: "2551113A8C70F913"
 			rewards: [{
@@ -1266,8 +1233,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.5d
+			x: 5.0d
+			y: -3.0d
 		}
 		{
 			description: ["Pour entrer dans cette dimension, tu dois jeter une ender pearl dans une ruche, comme pour les petits portails de l'End ! A l'intérieur se trouve des structures, pleins d'abeilles, et une Reine !"]
@@ -1278,6 +1245,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
+			size: 1.5d
 			tasks: [{
 				dimension: "the_bumblezone:the_bumblezone"
 				icon: "minecraft:bee_nest"
@@ -1501,7 +1469,6 @@
 				"37A4B7655F1F2685"
 				"263AA57BCAD4DBE0"
 				"2551113A8C70F913"
-				"69D83891C3CDD8D4"
 				"42EFD8706DCAC44E"
 				"71CBBA25CACC4E17"
 				"30DFDA27659EA4CB"
@@ -1524,8 +1491,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "4BAE8105E427FBF1"
 			rewards: [{
@@ -1577,7 +1544,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1B39E76FBF60DE52"]
+			dependencies: ["4875CFC8DEA30A6D"]
 			description: [
 				"Vous vous attendiez à ce que ce soit fini ?! Nop ! Nous vous avons rajouter un petit boss de fin. Rendez-vous dans le château final ..."
 				""
@@ -1611,8 +1578,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.25d
-			y: -3.25d
+			x: 9.0d
+			y: -6.25d
 		}
 	]
 	title: "Dimensions"

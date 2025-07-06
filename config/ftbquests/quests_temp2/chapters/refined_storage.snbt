@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "refined_storage"
 	group: "3CA4B0CAAB94EE6B"
-	icon: "refinedstorage:creative_controller"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "refinedstorage:block/disk_drive"
+		}
+	}
 	id: "62F70B4B1E06DE57"
 	images: [{
 		height: 8.0d
@@ -17,19 +23,28 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0D722592845B82D9"]
 			description: ["C'est littéralement le coeur de Refined, sans lui, rien ne fonctionne. C'est le seul bloc qui nécessite de l'énergie pour fonctionner. Toutes les autres machines de Refined qui sont liés à ce controller fonctionneront si ce dernier est alimenté."]
 			id: "1533F1C288682A1F"
 			rewards: [{
 				count: 4
 				id: "7249221E5D3C3399"
-				item: "minecraft:iron_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			size: 2.0d
 			tasks: [{
 				id: "1BD6DB0DF06BE11E"
-				item: "refinedstorage:controller"
+				item: {
+					Count: 1
+					id: "refinedstorage:controller"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Un coeur pour un coeur"
@@ -42,13 +57,21 @@
 			id: "35459D7D2205AAC6"
 			rewards: [{
 				id: "4C736FC03C524B49"
-				item: "minecraft:quartz"
+				item: {
+					Count: 1
+					id: "minecraft:quartz"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "3FA6216E2EA1FD92"
-				item: "refinedstorage:crafter"
+				item: {
+					Count: 1
+					id: "refinedstorage:crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -59,12 +82,20 @@
 			id: "4D184E22A98059E4"
 			rewards: [{
 				id: "103D88039B8F4094"
-				item: "refinedstorage:crafter"
+				item: {
+					Count: 1
+					id: "refinedstorage:crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "622D3DDFBC8213B8"
-				item: "extrastorage:iron_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:iron_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -75,12 +106,20 @@
 			id: "4FB2731EF2AECAD5"
 			rewards: [{
 				id: "04817C125B534C30"
-				item: "extrastorage:iron_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:iron_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6375BB326F4F4016"
-				item: "extrastorage:gold_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:gold_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -91,12 +130,20 @@
 			id: "47FA5563FABB63D1"
 			rewards: [{
 				id: "3EC79FE2C731C774"
-				item: "extrastorage:gold_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:gold_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3EB133AF853A7F80"
-				item: "extrastorage:diamond_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:diamond_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -107,12 +154,20 @@
 			id: "0A6EFB728EFCB628"
 			rewards: [{
 				id: "1AE4800BA82F96EA"
-				item: "extrastorage:diamond_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:diamond_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "50746DAC9137A6B4"
-				item: "extrastorage:netherite_crafter"
+				item: {
+					Count: 1
+					id: "extrastorage:netherite_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -127,13 +182,21 @@
 			id: "697E1AD03F3B4C06"
 			rewards: [{
 				id: "07B96B7FF6E82F4A"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "16B18B403F53AAE3"
-				item: "universalgrid:wireless_universal_grid"
+				item: {
+					Count: 1
+					id: "universalgrid:wireless_universal_grid"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -145,12 +208,20 @@
 			id: "7D4809DBDA508FF3"
 			rewards: [{
 				id: "3A59C5EE44E4B379"
-				item: "refinedstorage:fluid_interface"
+				item: {
+					Count: 1
+					id: "refinedstorage:fluid_interface"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7DEE9B229812A81C"
-				item: "refinedstorage:interface"
+				item: {
+					Count: 1
+					id: "refinedstorage:interface"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -162,12 +233,20 @@
 			id: "25A4E57D7819AA75"
 			rewards: [{
 				id: "7A80205A30963B9A"
-				item: "refinedstorage:destructor"
+				item: {
+					Count: 1
+					id: "refinedstorage:destructor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2DDBB8D14D037A0B"
-				item: "refinedstorage:constructor"
+				item: {
+					Count: 1
+					id: "refinedstorage:constructor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -179,13 +258,21 @@
 			rewards: [{
 				count: 12
 				id: "4B468C7081E6D853"
-				item: "refinedstorage:cable"
+				item: {
+					Count: 1
+					id: "refinedstorage:cable"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 12L
 				id: "05E384B0DD8FDC79"
-				item: "refinedstorage:cable"
+				item: {
+					Count: 1
+					id: "refinedstorage:cable"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -197,18 +284,30 @@
 			id: "03BE8B51D2CC2A08"
 			rewards: [{
 				id: "1468875001F35317"
-				item: "refinedstorage:network_card"
+				item: {
+					Count: 1
+					id: "refinedstorage:network_card"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "4E414847EBFE7C7C"
-					item: "refinedstorage:network_receiver"
+					item: {
+						Count: 1
+						id: "refinedstorage:network_receiver"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "12B0B892315306D7"
-					item: "refinedstorage:network_transmitter"
+					item: {
+						Count: 1
+						id: "refinedstorage:network_transmitter"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -221,18 +320,30 @@
 			id: "2C3538C18AE7A3D9"
 			rewards: [{
 				id: "3E02F95D04525935"
-				item: "refinedstorage:speed_upgrade"
+				item: {
+					Count: 1
+					id: "refinedstorage:speed_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "0311DE4490333A8B"
-					item: "refinedstorage:speed_upgrade"
+					item: {
+						Count: 1
+						id: "refinedstorage:speed_upgrade"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2815B78C019A360E"
-					item: "refinedstorage:stack_upgrade"
+					item: {
+						Count: 1
+						id: "refinedstorage:stack_upgrade"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -245,13 +356,21 @@
 			id: "1EB29B928FB14FBC"
 			rewards: [{
 				id: "74883915D4646E17"
-				item: "minecraft:ender_pearl"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "0B445683FF569F46"
-				item: "refinedstorage:wireless_transmitter"
+				item: {
+					Count: 1
+					id: "refinedstorage:wireless_transmitter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -263,13 +382,21 @@
 			id: "5DA70298474694C7"
 			rewards: [{
 				id: "6A4DD26A556A0165"
-				item: "minecraft:netherite_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_ingot"
+					tag: { }
+				}
 				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
 				id: "57801235BF37F739"
-				item: "rsinfinitybooster:dimension_card"
+				item: {
+					Count: 1
+					id: "rsinfinitybooster:dimension_card"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -281,12 +408,20 @@
 			id: "39FFD46F6C703FB0"
 			rewards: [{
 				id: "446E24F18410204B"
-				item: "minecraft:bucket"
+				item: {
+					Count: 1
+					id: "minecraft:bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "09F0ACEADD1120BF"
-				item: "refinedstorage:fluid_grid"
+				item: {
+					Count: 1
+					id: "refinedstorage:fluid_grid"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.25d
@@ -298,13 +433,21 @@
 			id: "68AF62439DBF1558"
 			rewards: [{
 				id: "521A20E0D154F9A8"
-				item: "refinedstorage:pattern"
+				item: {
+					Count: 1
+					id: "refinedstorage:pattern"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "2B9EFFB0AAFEEBC6"
-				item: "refinedstorage:pattern_grid"
+				item: {
+					Count: 1
+					id: "refinedstorage:pattern_grid"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -316,13 +459,21 @@
 			id: "23353F96C45F63B2"
 			rewards: [{
 				id: "6FA4060EE7AB2019"
-				item: "refinedstorage:pattern"
+				item: {
+					Count: 1
+					id: "refinedstorage:pattern"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "25CD0569E1439829"
-				item: "refinedstorage:crafting_monitor"
+				item: {
+					Count: 1
+					id: "refinedstorage:crafting_monitor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.0d
@@ -334,12 +485,20 @@
 			id: "08FC2787B7BEB7B9"
 			rewards: [{
 				id: "3AD0300BDE7A008D"
-				item: "refinedstorage:crafter"
+				item: {
+					Count: 1
+					id: "refinedstorage:crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6913F454529A4A96"
-				item: "refinedstorage:crafter_manager"
+				item: {
+					Count: 1
+					id: "refinedstorage:crafter_manager"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.5d
@@ -351,12 +510,20 @@
 			id: "0DA58DABB3FD815C"
 			rewards: [{
 				id: "6803A49479B721F4"
-				item: "minecraft:crafting_table"
+				item: {
+					Count: 1
+					id: "minecraft:crafting_table"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "08E855C1617C3DC2"
-				item: "refinedstorage:crafting_grid"
+				item: {
+					Count: 1
+					id: "refinedstorage:crafting_grid"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.25d
@@ -372,18 +539,30 @@
 			id: "63E419BD73466A83"
 			rewards: [{
 				id: "412A860852A77096"
-				item: "refinedstorage:external_storage"
+				item: {
+					Count: 1
+					id: "refinedstorage:external_storage"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "7493B5F30A81911E"
-					item: "refinedstorage:importer"
+					item: {
+						Count: 1
+						id: "refinedstorage:importer"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "23C42DB0BA453D79"
-					item: "refinedstorage:exporter"
+					item: {
+						Count: 1
+						id: "refinedstorage:exporter"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -396,12 +575,20 @@
 			id: "1F81E5C7F23F7FF1"
 			rewards: [{
 				id: "2A92EED2FFCD33E4"
-				item: "extrastorage:advanced_exporter"
+				item: {
+					Count: 1
+					id: "extrastorage:advanced_exporter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "241B044567875BEA"
-				item: "extrastorage:advanced_importer"
+				item: {
+					Count: 1
+					id: "extrastorage:advanced_importer"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -413,12 +600,20 @@
 			id: "15D631FA69368ABB"
 			rewards: [{
 				id: "696E08385FBFBBCD"
-				item: "refinedstorage:disk_drive"
+				item: {
+					Count: 1
+					id: "refinedstorage:disk_drive"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "775D07EBBAADB6D7"
-				item: "refinedstorage:disk_drive"
+				item: {
+					Count: 1
+					id: "refinedstorage:disk_drive"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.5d
@@ -429,13 +624,21 @@
 			id: "3D53EBE17B824D7A"
 			rewards: [{
 				id: "029B568CF1BBA493"
-				item: "minecraft:redstone"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "01AC6651008181E0"
-				item: "refinedstorage:1k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:1k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -446,12 +649,20 @@
 			id: "0DB572208EB79D31"
 			rewards: [{
 				id: "757B1EBB5E612708"
-				item: "refinedstorage:1k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:1k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4FC74DCED8E0B6B7"
-				item: "refinedstorage:4k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:4k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 6.5d
@@ -462,12 +673,20 @@
 			id: "544A8A255EEE625B"
 			rewards: [{
 				id: "53F071E6249DD299"
-				item: "refinedstorage:4k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:4k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "27407E3BC17BF929"
-				item: "refinedstorage:16k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:16k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -478,12 +697,20 @@
 			id: "62E79B23123D4594"
 			rewards: [{
 				id: "73201EAE8C035BFD"
-				item: "refinedstorage:16k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:16k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4D126E7947CB9B4A"
-				item: "refinedstorage:64k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:64k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.5d
@@ -494,12 +721,20 @@
 			id: "741F402A61D6B252"
 			rewards: [{
 				id: "4BE537624A7D8E89"
-				item: "refinedstorage:64k_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:64k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3239A97B8EBE35B2"
-				item: "extradisks:256k_storage_part"
+				item: {
+					Count: 1
+					id: "extradisks:256k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -510,12 +745,20 @@
 			id: "2E4EABE39D62C561"
 			rewards: [{
 				id: "06DEE01B632FDC3A"
-				item: "extradisks:256k_storage_part"
+				item: {
+					Count: 1
+					id: "extradisks:256k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "068DE3B10668F959"
-				item: "extradisks:1024k_storage_part"
+				item: {
+					Count: 1
+					id: "extradisks:1024k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -526,12 +769,20 @@
 			id: "743C350FD24A22C4"
 			rewards: [{
 				id: "0EDB157466218140"
-				item: "extradisks:1024k_storage_part"
+				item: {
+					Count: 1
+					id: "extradisks:1024k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4172A7A481B22B27"
-				item: "extradisks:4096k_storage_part"
+				item: {
+					Count: 1
+					id: "extradisks:4096k_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -542,12 +793,20 @@
 			id: "0BECF120E352DE08"
 			rewards: [{
 				id: "4E575DA6CAA41751"
-				item: "minecraft:bucket"
+				item: {
+					Count: 1
+					id: "minecraft:bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "650ACCDAB22C2C9A"
-				item: "refinedstorage:64k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:64k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.5d
@@ -558,12 +817,20 @@
 			id: "23CCFF0EE10AE39C"
 			rewards: [{
 				id: "6DC47EA2936E822E"
-				item: "refinedstorage:64k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:64k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1AAF08F17F85FB08"
-				item: "refinedstorage:256k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:256k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -574,12 +841,20 @@
 			id: "7F3138825A03B536"
 			rewards: [{
 				id: "529EDDACA21959D8"
-				item: "refinedstorage:256k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:256k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5383259FDA4308B6"
-				item: "refinedstorage:1024k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:1024k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.5d
@@ -590,12 +865,20 @@
 			id: "40435063ED5A28AE"
 			rewards: [{
 				id: "0E7E5DA32C92E77C"
-				item: "refinedstorage:1024k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:1024k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5B00E1402A33A4D8"
-				item: "refinedstorage:4096k_fluid_storage_part"
+				item: {
+					Count: 1
+					id: "refinedstorage:4096k_fluid_storage_part"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -618,9 +901,13 @@
 				"5DA70298474694C7"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "5DE3BC5FD22C52AC"
 			rewards: [{
 				id: "306ABFA301DF9C53"
@@ -637,9 +924,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "51BA6937600B3FD0"
-				title: "Refined finie !"
 				type: "checkmark"
 			}]
 			title: "Refined complété !"

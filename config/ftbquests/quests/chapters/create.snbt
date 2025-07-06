@@ -34,7 +34,7 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/blaze.png"
 			rotation: 15.0d
-			width: 8.85d
+			width: 5.1098901098901095d
 			x: 6.25d
 			y: 5.75d
 		}
@@ -264,7 +264,7 @@
 			id: "3C1868D46F599D2D"
 			rewards: [{
 				id: "0BA9C52EDB603EE6"
-				item: "moreplates:iron_plate"
+				item: "kubejs:iron_plate"
 				random_bonus: 3
 				type: "item"
 			}]
@@ -282,7 +282,7 @@
 			id: "24AB33D36230AFD1"
 			rewards: [{
 				id: "3B714B64E1C549A8"
-				item: "moreplates:iron_rod"
+				item: "kubejs:iron_rod"
 				random_bonus: 3
 				type: "item"
 			}]
@@ -1168,8 +1168,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "0A494C9B538D82F4"
 			rewards: [{
@@ -1194,46 +1194,6 @@
 			}]
 			x: -5.0d
 			y: 6.5d
-		}
-		{
-			dependencies: ["34BEBBD8E21C2D8F"]
-			id: "2EDAD0BB0913EAE0"
-			rewards: [{
-				id: "29BE3F3385665475"
-				item: "createsifter:advanced_brass_mesh"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0160DE0432F6CDF6"
-				item: {
-					Count: 1
-					id: "createsifter:custom_mesh"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 0.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["2EDAD0BB0913EAE0"]
-			id: "6AEAEA8B9CF60C4C"
-			rewards: [{
-				id: "0B552E5A3121E991"
-				item: {
-					Count: 1
-					id: "createsifter:custom_mesh"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "18E7D123D8149663"
-				item: "createsifter:advanced_custom_mesh"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 12.75d
 		}
 		{
 			dependencies: ["4E6AAC128C410184"]

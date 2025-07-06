@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mobs"
+	group: "4D5260B6E2D8CC8E"
+	id: "3A3A698EAED538A4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mobs"
+}

@@ -10,17 +10,17 @@
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/claws.png"
 			rotation: 0.0d
-			width: 6.4d
-			x: 3.0d
-			y: -17.5d
+			width: 6.448275862068965d
+			x: 4.5d
+			y: -17.75d
 		}
 		{
 			height: 5.0d
 			image: "kubejs:textures/ftbquests/saber.png"
 			rotation: 180.0d
-			width: 5.0d
-			x: -2.75d
-			y: -15.25d
+			width: 3.950617283950617d
+			x: -3.5d
+			y: -15.75d
 		}
 		{
 			height: 3.0d
@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 3.0d
 			x: -4.5d
-			y: -9.0d
+			y: -9.5d
 		}
 		{
 			height: 3.0d
@@ -66,34 +66,34 @@
 			description: ["Permet de crafter une disquette qui peut contenir une infinité d'items."]
 			id: "0D853F4EC0684BBC"
 			rewards: [{
-				id: "0C2831944B7ED50B"
-				type: "xp"
-				xp: 500
+				id: "3C9A62C3A6994007"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "4BEC5AA23335FA66"
 				item: "extradisks:infinite_storage_part"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.5d
+			x: -2.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Permet de crafter une disquette qui peut contenir une infinité de fluides."]
 			id: "04CFEE49932154E8"
 			rewards: [{
-				id: "527373D98DE7653F"
-				type: "xp"
-				xp: 500
+				id: "1F10D3A364932B56"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "60189CE4FA2BC110"
 				item: "extradisks:infinite_fluid_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.5d
+			x: -2.5d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -117,7 +117,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
@@ -143,7 +143,6 @@
 			description: ["Un bloc de bedrock, idéal pour les pranks ou pour crafter le dernier item du modpack. Il vous suffit d'en avoir un seul pour le dupliquer à l'aide de Create."]
 			id: "164B095AA0EAFE38"
 			rewards: [{
-				count: 9
 				id: "5A76CE9BD10A8F82"
 				item: "createchromaticreturn:bedrock_shard"
 				type: "item"
@@ -175,8 +174,8 @@
 				item: "kubejs:basical_apparatus"
 				type: "item"
 			}]
-			x: -1.25d
-			y: -2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -197,8 +196,8 @@
 				item: "kubejs:magical_apparatus"
 				type: "item"
 			}]
-			x: 1.25d
-			y: -2.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -217,8 +216,8 @@
 				item: "kubejs:mechanical_apparatus"
 				type: "item"
 			}]
-			x: -2.25d
-			y: -3.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -237,7 +236,7 @@
 				item: "kubejs:vital_apparatus"
 				type: "item"
 			}]
-			x: 2.25d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -254,33 +253,33 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Permet le transfert instantannés des ressources avec les câbles du mod Pipez."]
 			id: "57FC72CDEF958644"
 			rewards: [{
-				id: "6C67BEE4DBF6539F"
-				type: "xp"
-				xp: 500
+				id: "0D633EA32B357280"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "6D915460727E55E8"
 				item: "pipez:infinity_upgrade"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -1.75d
+			y: -8.75d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Ce livre, de tier maximum, contient tout les sorts possibles. Attention : il ne contient pas les familiers !"]
 			id: "29EC4631D74869C4"
 			rewards: [{
-				id: "3E8F764E154DDE7C"
-				type: "xp"
-				xp: 500
+				id: "5BCC5752675B32A8"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "477235EC16E2A7B2"
@@ -295,26 +294,26 @@
 			description: ["Produit jusqu'à 3.52 millions de RF par tick."]
 			id: "3880CEAC873F56E4"
 			rewards: [{
-				id: "48D714D15974D169"
-				type: "xp"
-				xp: 500
+				id: "197A3CA7BF86B462"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "1E9CE44B8564279D"
 				item: "solarpanels:creative_solar_panel"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.5d
+			x: -3.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Le plus puissant des fours : il peut cuir un stack d'items en un tick. Permet de générer également beaucoup de RF."]
 			id: "2342531D5D226FFE"
 			rewards: [{
-				id: "32A5D9D860B96F83"
-				type: "xp"
-				xp: 500
+				id: "18762085F32A5359"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "388E8BD73CD6A2B3"
@@ -329,8 +328,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: -0.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
@@ -341,43 +340,47 @@
 			]
 			id: "58DD1CF2BB6D7A2A"
 			rewards: [{
-				id: "1923674DD1083E6D"
-				type: "xp"
-				xp: 500
+				id: "6CCE2CD9B4965D68"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "7A0DA1CED9D8679B"
 				item: "ars_nouveau:creative_source_jar"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -1.75d
+			y: -5.25d
 		}
 		{
-			dependencies: ["71A65EC3DCA7252B"]
+			dependencies: [
+				"235910419F21B458"
+				"01A32D5374452AE1"
+				"51549D7B055269F1"
+			]
 			description: ["La télécommande ultime du mod Refined Storage. N'a pas besoin d'énergie pour fonctionner."]
 			id: "617DED9427A6E3B5"
 			rewards: [{
-				id: "26E0F826205EADC2"
-				type: "xp"
-				xp: 500
+				id: "4331C2C6ABCDEE26"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "67099D3AC5D7F855"
 				item: "universalgrid:creative_wireless_universal_grid"
 				type: "item"
 			}]
-			x: 0.75d
-			y: -9.0d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Permet d'accéder à une disquette à distance. Pour se faire, il faut lui donner la dite disquette. N'a pas besoin d'énergie pour fonctionner."]
 			id: "3C6C4547FDE77A95"
 			rewards: [{
-				id: "00A7EB3297186D3D"
-				type: "xp"
-				xp: 500
+				id: "19CA9A9498BB23C1"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "505653B516CA80A2"
@@ -396,70 +399,73 @@
 			description: ["Le Monitor ultime du mod Refined Storage, version télécommande. Permet de voir vos crafts s'opérer. N'a pas besoin d'énergie pour fonctionner."]
 			id: "72B95F3739D99181"
 			rewards: [{
-				id: "3A012D52D9359522"
-				type: "xp"
-				xp: 500
+				id: "305E53498690FC95"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2212D7B410C25AE2"
 				item: "refinedstorage:creative_wireless_crafting_monitor"
 				type: "item"
 			}]
-			x: -0.75d
-			y: -9.0d
+			x: 1.75d
+			y: -8.75d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["Ce Crafter ne consomme pas d'énergie, et possède plus de slots d'inventaire."]
 			id: "3404603520EEBBBB"
 			rewards: [{
-				id: "28687D33CCD05AE2"
-				type: "xp"
-				xp: 500
+				id: "26ADD0C3A0D8268D"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "78D7C4AB5ECEAF94"
 				item: "creativecrafter:creative_crafter"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -5.5d
+			x: 1.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["71A65EC3DCA7252B"]
 			description: ["C'est comme le Controller de base, mais lui n'a pas besoin d'énergie pour fonctionner."]
 			id: "117E4AD3A699F205"
 			rewards: [{
-				id: "0832BC8EFF66B207"
-				type: "xp"
-				xp: 500
+				id: "782F5B83E447239C"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
 			}]
 			tasks: [{
 				id: "03553F85D2085373"
 				item: "refinedstorage:creative_controller"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 0.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["164B095AA0EAFE38"]
-			description: ["L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."]
+			description: [
+				"Un des items &4ultimes&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."
+				"Si vous voulez vider votre &4Bin&r, vous pouvez la passer dans la première table d'Extended Crafting."
+			]
 			id: "6012E7A8122073DF"
 			rewards: [{
-				id: "06076F547B40AAFA"
-				type: "xp_levels"
-				xp_levels: 1000
+				id: "7CF981A3311086D2"
+				item: "createchromaticreturn:bedrock_shard"
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.75d
-			subtitle: "ENFIN !"
+			subtitle: "PRESQUE V1!"
 			tasks: [{
 				id: "45F8DB0366184E2A"
 				item: "mekanism:creative_bin"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.875d
 			y: -20.125d
 		}
 		{
@@ -467,33 +473,33 @@
 			description: ["Ce Cake permet de configurer les Blazes Burners simplement. Cliquez dessus avec votre Creative Blaze Cake permettra de faire chauffer à la température souhaiter votre Blaze Burner. Le Cake n'est pas consommé à l'utilisation, et le Blaze Burner fonctionnera à l'infini."]
 			id: "73AED7AC8D52BABB"
 			rewards: [{
-				id: "535FC9DA6CE9D226"
-				type: "xp"
-				xp: 500
+				id: "16B255EF9A48372E"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "717254E7D15657CD"
 				item: "create:creative_blaze_cake"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -12.75d
+			x: 2.25d
+			y: -10.75d
 		}
 		{
 			dependencies: ["436F92AF12A490E3"]
 			description: ["Permet de recharger les items Create en Fuel et en eau automatiquement et à l'infini."]
 			id: "3F9FF62EFC1CA52E"
 			rewards: [{
-				id: "72AD4684A11298AF"
-				type: "xp"
-				xp: 500
+				id: "104603896B66722E"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "743716CBB016E691"
 				item: "create_sa:creative_filling_tank"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.75d
 			y: -11.75d
 		}
 		{
@@ -501,9 +507,9 @@
 			description: ["Un charbon qui brûle PRESQUE éternellement."]
 			id: "54E4880085DE8D3C"
 			rewards: [{
-				id: "67795FDDA11837F5"
-				type: "xp"
-				xp: 500
+				id: "155CAB4E325E59EB"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "329E481F8CC809CB"
@@ -518,16 +524,16 @@
 			description: ["Comme son nom ne l'indique pas vraiment, il s'agit d'un stockage infini de RF."]
 			id: "5B2D2A76EB2B8644"
 			rewards: [{
-				id: "68D768C5E979E38A"
-				type: "xp"
-				xp: 500
+				id: "77E544F54AE9F581"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "6D6B8E580732C843"
 				item: "createaddition:creative_energy"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.75d
 			y: -11.75d
 		}
 		{
@@ -535,26 +541,26 @@
 			description: ["Permet de dupliquer les items à l'infini. Pour cela, cliquez dessus avec l'item à dupliquer, et placer un câble pour en sortir les copies."]
 			id: "6AE6DD17BE76F40D"
 			rewards: [{
-				id: "66B480C13FE8A211"
-				type: "xp"
-				xp: 500
+				id: "7542685D50C3D31B"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "23ECA96D8A5C37CD"
 				item: "create:creative_crate"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -10.25d
+			x: 2.25d
+			y: -12.75d
 		}
 		{
 			dependencies: ["436F92AF12A490E3"]
 			description: ["Un moteur de Create qui n'a pas besoin d'énergie pour fonctionner. Il peut monter à un très haut niveau de SU. Sa vitesse est, comme le motor classique, configurable."]
 			id: "763D34E08C845716"
 			rewards: [{
-				id: "7115B11AF618611D"
-				type: "xp"
-				xp: 500
+				id: "5CF746923E82F073"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "350FD952B79B0E27"
@@ -569,26 +575,26 @@
 			description: ["Permet de contenir une infinité d'un fluide. Pour le configurer, il faut faire un clic droit dessus avec un bucket rempli du fluide souhaité."]
 			id: "78C449B4FFDC4704"
 			rewards: [{
-				id: "57B8C54823218EAD"
-				type: "xp"
-				xp: 500
+				id: "49D2B0260FCB016F"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "41FC2DC03CDB1FC9"
 				item: "create:creative_fluid_tank"
 				type: "item"
 			}]
-			x: 2.25d
-			y: -10.75d
+			x: -2.25d
+			y: -12.75d
 		}
 		{
 			dependencies: ["436F92AF12A490E3"]
 			description: ["Un Cogwheel qui tourne tout seul. Sa vitesse peut être configurée."]
 			id: "73BB77A26ECCD421"
 			rewards: [{
-				id: "55C561013EA856DF"
-				type: "xp"
-				xp: 500
+				id: "7305824A36BB12A4"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "048933EB685EBBC7"
@@ -603,26 +609,26 @@
 			description: ["Permet de générer les ressources des Mobs Caged à très grande vitesse."]
 			id: "7AD2CF2C9FB5E6F8"
 			rewards: [{
-				id: "7D3AA0CC71C557CC"
-				type: "xp"
-				xp: 500
+				id: "5720BC6E87B3B1A6"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "35F59942DACA6EF6"
 				item: "cagedmobs:creative_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -12.75d
+			x: 1.0d
+			y: -10.25d
 		}
 		{
 			dependencies: ["436F92AF12A490E3"]
 			description: ["Le meilleur arc du modpack. Vous pouvez lui ajouter des addons pour le renforcer. A besoin d'énergie pour fonctionner."]
 			id: "22B9F4BD1A0DE36A"
 			rewards: [{
-				id: "72E23B7B36CAEA37"
-				type: "xp"
-				xp: 500
+				id: "4CFDB9BE84A16C35"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "59C4E694CBD00ABF"
@@ -637,9 +643,9 @@
 			description: ["Un Katana très puissant. Vous pouvez lui ajouter des addons pour le renforcer. A besoin d'énergie pour fonctionner."]
 			id: "2E0A85C9392B1910"
 			rewards: [{
-				id: "49E1FB699AB11173"
-				type: "xp"
-				xp: 500
+				id: "2F203A335A799969"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			shape: "hexagon"
 			size: 1.75d
@@ -656,43 +662,43 @@
 			description: ["Permet de contenir une infinité d'un fluide, mais version Mekanism."]
 			id: "251AC6D544AF2F36"
 			rewards: [{
-				id: "2F362C61453BE59F"
-				type: "xp"
-				xp: 500
+				id: "52D8C855CB96DB81"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "0BAB4CD8AC4F049A"
 				item: "mekanism:creative_fluid_tank"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -9.75d
+			x: -3.25d
+			y: -13.75d
 		}
 		{
 			dependencies: ["3F9FF62EFC1CA52E"]
 			description: ["Permet de contenir une infinité d'un gaz."]
 			id: "2873D6E7D0C3F782"
 			rewards: [{
-				id: "2057971212DCD458"
-				type: "xp"
-				xp: 500
+				id: "007A9B8D99A1E230"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "634D1B49D43C8DB8"
 				item: "mekanism:creative_chemical_tank"
 				type: "item"
 			}]
-			x: 4.25d
-			y: -11.0d
+			x: 4.0d
+			y: -12.25d
 		}
 		{
 			dependencies: ["5B2D2A76EB2B8644"]
 			description: ["Un bloc qui contient un stockage infini d'énergie, mais version Mekanism."]
 			id: "3AF3E4FF42F2B5F5"
 			rewards: [{
-				id: "615EA832B36C66C8"
-				type: "xp"
-				xp: 500
+				id: "0CB99B5FFE4CF7F1"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "56DFF4AF5C348B4E"
@@ -720,17 +726,21 @@
 				}
 				type: "item"
 			}]
-			x: -4.25d
-			y: -11.0d
+			x: -4.0d
+			y: -12.25d
 		}
 		{
 			dependencies: ["2E0A85C9392B1910"]
-			description: ["Permet de One Shot absolument tout."]
+			description: [
+				"Permet de One Shot absolument tout, sauf certains boss."
+				""
+				"&4&nAttention&r :&r si vous souhaitez compléter les quêtes qui vous demandent de tuer des entités, n'utiliser pas cette arme, ils ne seront pas comptés."
+			]
 			id: "57B025AEDF9D25FD"
 			rewards: [{
-				id: "3A8C482474A8CEF7"
-				type: "xp"
-				xp: 1000
+				id: "2FC10A1E9DC2A38E"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "2473A28FBD99F515"
@@ -742,12 +752,16 @@
 		}
 		{
 			dependencies: ["57B025AEDF9D25FD"]
-			description: ["Permet de One Shot n'importe quoi, et de miner instantanément n'importe quel bloc. De plus, en faisant un clic droit avec sur de la Bedrock, vous pourrez récupérer des Bedrock Shards qui serviront pour le craft final du modpack, et obtenir de grandes quantités de ressources."]
+			description: [
+				"Permet de &4One Shot&r n'importe quoi, et de miner &4instantanément&r n'importe quel bloc. De plus, en faisant un &4clic droit&r avec sur de la &4Bedrock&r, vous pourrez récupérer des &4Bedrock Shards&r qui serviront pour le craft final du modpack, et obtenir de grandes quantités de ressources."
+				""
+				"&4&nAttention&r :&r si vous souhaitez compléter les quêtes qui vous demandent de tuer des entités, n'utiliser pas cette arme, ils ne seront pas comptés."
+			]
 			id: "2641FB96F7E3060D"
 			rewards: [{
-				id: "525196B46F3CA7A0"
-				type: "xp"
-				xp: 2000
+				id: "033CFC5359E7B373"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
 			}]
 			tasks: [{
 				id: "37D2CC790C9EF6CE"
@@ -759,40 +773,40 @@
 		}
 		{
 			dependencies: [
-				"6012E7A8122073DF"
-				"54E4880085DE8D3C"
-				"73AED7AC8D52BABB"
-				"3AF3E4FF42F2B5F5"
-				"73BB77A26ECCD421"
-				"763D34E08C845716"
-				"6AE6DD17BE76F40D"
-				"251AC6D544AF2F36"
-				"2873D6E7D0C3F782"
-				"7AD2CF2C9FB5E6F8"
-				"22B9F4BD1A0DE36A"
-				"72B95F3739D99181"
-				"3880CEAC873F56E4"
 				"57FC72CDEF958644"
 				"2342531D5D226FFE"
-				"58DD1CF2BB6D7A2A"
-				"29EC4631D74869C4"
-				"3C6C4547FDE77A95"
+				"22B9F4BD1A0DE36A"
 				"3404603520EEBBBB"
-				"117E4AD3A699F205"
-				"0D853F4EC0684BBC"
+				"54E4880085DE8D3C"
+				"58DD1CF2BB6D7A2A"
+				"3AF3E4FF42F2B5F5"
+				"73AED7AC8D52BABB"
 				"04CFEE49932154E8"
+				"763D34E08C845716"
+				"29EC4631D74869C4"
+				"117E4AD3A699F205"
+				"0CF21FA104493A68"
+				"7AD2CF2C9FB5E6F8"
+				"73BB77A26ECCD421"
+				"2873D6E7D0C3F782"
+				"72B95F3739D99181"
+				"251AC6D544AF2F36"
+				"3880CEAC873F56E4"
+				"3C6C4547FDE77A95"
+				"30212B104736075E"
 				"617DED9427A6E3B5"
+				"6AEAEA8B9CF60C4C"
+				"0D853F4EC0684BBC"
 			]
 			description: [
 				"Vous avez vaincu ce chapitre, félicitations !"
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "10D11C9AF21F216A"
-			invisible: true
 			rewards: [{
 				id: "495B30F5E8678372"
 				item: {
@@ -814,7 +828,196 @@
 			}]
 			title: "Creative complété !"
 			x: 0.0d
-			y: -22.5d
+			y: -24.75d
+		}
+		{
+			dependencies: ["164B095AA0EAFE38"]
+			description: ["Deux des items &4ultimes&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire mettre l'upgrade dans un sac à dos ou un stockage puis d'y mettre des items. Vous pourrez alors sortir les items à dupliquer avec un câble. Malheureusement, avec cette upgrade l'emplacement avec l'item infini sera considéré comme plein, vous ne pourrez donc plus insérer d'objets dedans."]
+			id: "7A3E9C9E2690351E"
+			rewards: [{
+				id: "2D07D92F4ACF217A"
+				item: "createchromaticreturn:bedrock_shard"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.75d
+			subtitle: "PRESQUE V2!"
+			tasks: [
+				{
+					id: "7036DEE22D132034"
+					item: "sophisticatedstorage:survival_infinity_upgrade"
+					type: "item"
+				}
+				{
+					id: "2B0FAFD0FA07BD9E"
+					item: "sophisticatedbackpacks:survival_infinity_upgrade"
+					type: "item"
+				}
+			]
+			x: 0.875d
+			y: -20.125d
+		}
+		{
+			dependencies: [
+				"6012E7A8122073DF"
+				"7A3E9C9E2690351E"
+			]
+			description: [
+				"L'item &4ultime&r du modpack. Permet de créer et de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec le module en main, vous pourrez alors ajouter des objets à gauche pour dire à l'upgrade de créer ces items. (Vous pouvez prendre n'importe quel items ou liquide directement depuis JEI, même si vous n'avez jamais créer cet objet avant où que celui-ci n'est pas réellement récupérable). Ensuite vous insérez le module dans un Modular Router et vous pourrez extraire les items."
+				"Vous pouvez également dupliquer les liquides mais c'est un peu plus complexe. Pour cela il vous faudra une Creative Module avec le Bucket de liquide désiré, suivi d'un Fluid Module qui va désigner le tank qui récupèrera le liquide. Pour finir il vous faudra un Void Module pour jeter les sceaux vides."
+			]
+			id: "0CF21FA104493A68"
+			rewards: [{
+				id: "3589033258FD8F49"
+				item: "createchromaticreturn:bedrock_shard"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.75d
+			subtitle: "ENFIN !"
+			tasks: [{
+				id: "3A51E99E096D8795"
+				item: "modularrouters:creative_module"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -21.875d
+		}
+		{
+			dependencies: ["6AE6DD17BE76F40D"]
+			id: "30212B104736075E"
+			rewards: [{
+				id: "65619BB480CA4782"
+				item: "createchromaticreturn:multiplite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68B5661B61236B79"
+				item: "numismatics:creative_vendor"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -13.75d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			id: "2EDAD0BB0913EAE0"
+			rewards: [{
+				id: "752F89F4C7A25AF1"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0160DE0432F6CDF6"
+				item: {
+					Count: 1
+					id: "createsifter:custom_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2EDAD0BB0913EAE0"]
+			id: "6AEAEA8B9CF60C4C"
+			rewards: [{
+				id: "6F17B9E33EFB5EF1"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18E7D123D8149663"
+				item: "createsifter:advanced_custom_mesh"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			id: "01A32D5374452AE1"
+			rewards: [{
+				id: "3A881B4DC69B4B7C"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "563C3E3864A0A7C2"
+				item: "refinedstorage:creative_wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			id: "51549D7B055269F1"
+			rewards: [{
+				id: "3B92A7B636077BBF"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CB5ECD58137A238"
+				item: "refinedstorage:creative_wireless_grid"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71A65EC3DCA7252B"]
+			id: "235910419F21B458"
+			rewards: [{
+				id: "6F0F50ACA6E5A509"
+				item: "extendedcrafting:the_ultimate_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2356FDD5F2D0A670"
+				item: "refinedstorageaddons:creative_wireless_crafting_grid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B5A9074FC3C8D8A"]
+			id: "03ADF5B9C9AEA01E"
+			rewards: [{
+				id: "31AB69731DEB0379"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "422A10BEF0677D75"
+				item: {
+					Count: 1
+					id: "wormhole:creative_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B5A9074FC3C8D8A"]
+			id: "4C13053DB394A790"
+			rewards: [{
+				id: "370DCE7713A95FD3"
+				item: "extendedcrafting:the_ultimate_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "223C6E3C3F1FA4F2"
+				item: "kubejs:giant_ultimate_obsidian"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -4.0d
 		}
 	]
 	title: "Creative Stuff"

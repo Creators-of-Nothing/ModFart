@@ -2,8 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "maisonne"
-	group: "7B8630C608C42520"
-	icon: "fantasyfurniture:venthyr/bed_single"
+	group: "7B4A59D3B1EC7332"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "the_bumblezone:block/essence/blue_backup"
+		}
+	}
 	id: "40B633D69B85E403"
 	images: [
 		{
@@ -31,7 +37,7 @@
 			y: -2.75d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -79,7 +85,11 @@
 				"- Supplementaries"
 				"- Twigs"
 			]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "2276E6E36CE4E6D3"
 			rewards: [{
 				id: "41FA978C6EB391BB"
@@ -100,18 +110,25 @@
 			description: [
 				"Ce pack contient le mod Spice of Life : Carrot Edition. Ainsi, vous gagnerez des coeurs supplémentaires définitivement si vous variez votre nourriture :"
 				""
-				"- Il vous faudra 10 nourritures différentes pour gagner un coeur les 100 premiers coeurs (1000 nourritures)"
-				"- Puis il vous faudra 20 nourritures pour gagner 1 coeur."
+				"- Il vous faudra 10 nourritures différentes pour gagner un coeur !"
 				""
 				"Si vous faites #yet dans JEI ou sur un stockage comme Refined, vous verrez tout ce que vous n'avez pas encore mangé !"
 				""
 				"Vous pouvez manger même si vous n'avez pas faim !"
 			]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "2AB324048647901F"
 			rewards: [{
 				id: "4109287EE6D290DB"
-				item: "solcarrot:food_book"
+				item: {
+					Count: 1
+					id: "solcarrot:food_book"
+					tag: { }
+				}
 				type: "item"
 			}]
 			shape: "gear"
@@ -134,18 +151,30 @@
 			id: "1C153A9705DF6EC5"
 			rewards: [{
 				id: "4AE903A242EE1FE4"
-				item: "minecraft:milk_bucket"
+				item: {
+					Count: 1
+					id: "minecraft:milk_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "713FDD059F86A3D3"
-					item: "cookingforblockheads:cow_jar"
+					item: {
+						Count: 1
+						id: "cookingforblockheads:cow_jar"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0945BD88C7DDC4BA"
-					item: "cookingforblockheads:sink"
+					item: {
+						Count: 1
+						id: "cookingforblockheads:sink"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -161,7 +190,11 @@
 				{
 					count: 64
 					id: "3183104BC65B228D"
-					item: "minecraft:stone"
+					item: {
+						Count: 1
+						id: "minecraft:stone"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -179,12 +212,20 @@
 			tasks: [
 				{
 					id: "3D94D30CAE8B46C7"
-					item: "buildinggadgets2:gadget_building"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "711611EB8782E067"
-					item: "buildinggadgets2:gadget_exchanging"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_exchanging"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -209,7 +250,11 @@
 				}
 				{
 					id: "2C5B969D6BABA2E1"
-					item: "buildinggadgets2:gadget_destruction"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_destruction"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -222,59 +267,24 @@
 			id: "2D3AB5E2D9D753EA"
 			rewards: [{
 				id: "6A654C89AE119C7F"
-				item: "minecraft:torch"
+				item: {
+					Count: 1
+					id: "minecraft:torch"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "695247E050B0E9BF"
-				item: "torchmaster:megatorch"
+				item: {
+					Count: 1
+					id: "torchmaster:megatorch"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn."
-				""
-				"Le Hammoc permet de passer le jour."
-			]
-			id: "2655A092B94CC321"
-			rewards: [{
-				count: 2
-				id: "4855051EEBC19939"
-				item: "comforts:rope_and_nail"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "640BDC3609F3AEFB"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "comforts:sleeping_bags"
-						}
-					}
-					title: "Any #comforts:sleeping_bags"
-					type: "item"
-				}
-				{
-					id: "05BC39EFC963EE27"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "comforts:hammocks"
-						}
-					}
-					title: "Any #comforts:hammocks"
-					type: "item"
-				}
-			]
-			title: "Nous rompichâmes"
-			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -282,12 +292,20 @@
 			id: "5E276DFF3E4A4FE5"
 			rewards: [{
 				id: "5C17A63A53F0ECD5"
-				item: "dummmmmmy:target_dummy"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3ED499467C9C119E"
-				item: "dummmmmmy:target_dummy"
+				item: {
+					Count: 1
+					id: "dummmmmmy:target_dummy"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.75d
@@ -298,12 +316,20 @@
 			id: "2D6CD92D46483B29"
 			rewards: [{
 				id: "351D40592D441E3E"
-				item: "chimes:bamboo_chimes"
+				item: {
+					Count: 1
+					id: "chimes:bamboo_chimes"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6516E1E1E96466E6"
-				item: "chimes:amethyst_chimes"
+				item: {
+					Count: 1
+					id: "chimes:amethyst_chimes"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -314,12 +340,20 @@
 			id: "266845707E978BD1"
 			rewards: [{
 				id: "5CC960FA2B3D3420"
-				item: "elevatorid:elevator_white"
+				item: {
+					Count: 1
+					id: "elevatorid:elevator_white"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7D0FE276C3F99DCF"
-				item: "elevatorid:elevator_white"
+				item: {
+					Count: 1
+					id: "elevatorid:elevator_white"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.75d
@@ -330,12 +364,20 @@
 			id: "698FF2B2C0249395"
 			rewards: [{
 				id: "262158C2D7040343"
-				item: "travelanchors:travel_staff"
+				item: {
+					Count: 1
+					id: "travelanchors:travel_staff"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4B221B1FD9B2996A"
-				item: "travelanchors:travel_anchor"
+				item: {
+					Count: 1
+					id: "travelanchors:travel_anchor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.0d
@@ -346,13 +388,21 @@
 			id: "6B27CB3F6A4CAEE6"
 			rewards: [{
 				id: "1DFBA411850B688A"
-				item: "minecraft:ender_chest"
+				item: {
+					Count: 1
+					id: "minecraft:ender_chest"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "568DE313526E0A29"
-					item: "wormhole:portal_frame"
+					item: {
+						Count: 1
+						id: "wormhole:portal_frame"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -366,7 +416,11 @@
 				}
 				{
 					id: "5C383EA866A13DD8"
-					item: "wormhole:advanced_target_cell"
+					item: {
+						Count: 1
+						id: "wormhole:advanced_target_cell"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -397,7 +451,11 @@
 			id: "6C0A31162D1F5832"
 			rewards: [{
 				id: "56B675C0D82F7D36"
-				item: "minecraft:cod_bucket"
+				item: {
+					Count: 1
+					id: "minecraft:cod_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -413,12 +471,20 @@
 			id: "4CD97A9F6DD0BF6B"
 			rewards: [{
 				id: "1F1CAF5EF142383F"
-				item: "mighty_mail:spruce_mail_box"
+				item: {
+					Count: 1
+					id: "mighty_mail:spruce_mail_box"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "37404B15ECA39249"
-				item: "mighty_mail:post_box"
+				item: {
+					Count: 1
+					id: "mighty_mail:post_box"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.75d
@@ -429,12 +495,20 @@
 			id: "5C7A4A40F0C1C0BE"
 			rewards: [{
 				id: "049C5B877AE56854"
-				item: "moa_decor_toys:gallinayzombie"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:gallinayzombie"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "302C93DB815ECAC6"
-				item: "angelblockrenewed:angel_block"
+				item: {
+					Count: 1
+					id: "angelblockrenewed:angel_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -442,24 +516,34 @@
 		}
 		{
 			dependencies: [
-				"4CD97A9F6DD0BF6B"
-				"2655A092B94CC321"
-				"1C153A9705DF6EC5"
+				"2D6CD92D46483B29"
+				"2276E6E36CE4E6D3"
+				"341EAB267F91C70B"
+				"5C7A4A40F0C1C0BE"
 				"2D3AB5E2D9D753EA"
-				"266845707E978BD1"
+				"02CAD17DA73B67C6"
+				"698FF2B2C0249395"
+				"74F49B8BE298582A"
+				"2AB324048647901F"
 				"6C0A31162D1F5832"
 				"6B27CB3F6A4CAEE6"
 				"33D071362877DCA7"
-				"2D6CD92D46483B29"
-				"5C7A4A40F0C1C0BE"
 				"5E276DFF3E4A4FE5"
-				"698FF2B2C0249395"
-				"74F49B8BE298582A"
+				"7EEC96E20047589E"
+				"1C153A9705DF6EC5"
+				"7B3FA67EA5888E95"
+				"4CD97A9F6DD0BF6B"
+				"5D73015443A6E5FF"
+				"266845707E978BD1"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "2B9069629B5A6ABA"
 			rewards: [{
 				id: "0AA697A056D13EC4"
@@ -476,12 +560,13 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette Méta-Quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "11ADB523C0235E5E"
 				title: "Maisonnées complété !"
 				type: "checkmark"
 			}]
-			title: "Maisonnée complété !"
+			title: "Chapitre 2 terminé !"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -504,22 +589,38 @@
 			tasks: [
 				{
 					id: "536E613273B89504"
-					item: "vinery:grapevine_pot"
+					item: {
+						Count: 1
+						id: "vinery:grapevine_pot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "4A7C605417D20DEA"
-					item: "vinery:fermentation_barrel"
+					item: {
+						Count: 1
+						id: "vinery:fermentation_barrel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2EA66340AF2BA95E"
-					item: "vinery:apple_press"
+					item: {
+						Count: 1
+						id: "vinery:apple_press"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "17F252D5383AF39D"
-					item: "vinery:wine_bottle"
+					item: {
+						Count: 1
+						id: "vinery:wine_bottle"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -527,6 +628,198 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			description: [
+				"La Magma Anvil permet de réparer vos équipements avec de la lave."
+				""
+				"La Powered Diamond Anvil permet de réparer vos équipements avec de l'énergie."
+			]
+			id: "5D73015443A6E5FF"
+			rewards: [{
+				id: "2D22CA324718DB75"
+				item: {
+					Count: 1
+					id: "minecraft:anvil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D73A0203ECCB86B"
+					item: {
+						Count: 1
+						id: "cyclic:anvil_magma"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2F750FBDEFDF5714"
+					item: {
+						Count: 1
+						id: "cyclic:anvil"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Réparation"
+			x: -0.25d
+			y: 3.75d
+		}
+		{
+			description: ["Des éponges inépuisables. Une pour l'eau, l'autre pour la lave."]
+			id: "7B3FA67EA5888E95"
+			rewards: [{
+				id: "6DF8B3E4B56415B6"
+				item: {
+					Count: 1
+					id: "minecraft:water_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6EC0FA0F96FDB42A"
+					item: {
+						Count: 1
+						id: "permanentsponges:aqueous_sponge"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DC34766009C08AF"
+					item: {
+						Count: 1
+						id: "permanentsponges:magmatic_sponge"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Le Neptunium est un lingot qui se pêche. Il existe tout un tas d'équipements et de nourriture lié à ce mod. Pour upgrader votre canne à pêche, il faut poser puis utiliser la Tackle Box. Cette dernière servira de stockage pour tout vos équipements de pêche ! "
+				""
+				"Le Bobber et la Fishing Line sont deux items cosmétiques, que vous pouvez colorer dans une table de craft avec un colorant, et qui changera l'aspect respectivement du bouchon et de la ligne de votre canne à pêche."
+				""
+				"Selon le crochet utilisé, vous gagnerez des effets supplémentaires."
+				""
+				"Si vous souhaitez farmer les poissons, vous pouvez vous faire une ferme à vers en mettant des végétaux dans la Worm Farm. Lorsqu'arrivé à maturation, faites clic droit dessus pour les récupérer."
+			]
+			id: "02CAD17DA73B67C6"
+			rewards: [{
+				id: "5FD19A95251E6D1D"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunes_bounty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Pêcher comme un Dieu !"
+			tasks: [{
+				id: "1DE73CA0E9E52CD3"
+				item: {
+					Count: 1
+					id: "aquaculture:tackle_box"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Aquaculture 2"
+			x: 2.25d
+			y: 4.25d
+		}
+		{
+			description: ["C'est un bloc qui, si vous faites clic droit dessus avec de la redstone, devient de la bedrock. Un autre clic droit avec de la redstone le retransforme en bloc minable."]
+			id: "7EEC96E20047589E"
+			rewards: [{
+				count: 4
+				id: "7E3597D0046FF7A0"
+				item: {
+					Count: 1
+					id: "cyclic:unbreakable_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "08BBA270164CE7D7"
+				item: {
+					Count: 1
+					id: "cyclic:unbreakable_block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			description: ["Cette baguette te permet de poser des blocs à la chaîne sur une grande surface : idéale pour build ! Pour annuler un coup de baguette malencontreux, appuyes sur &4Alt + Control&r. Attention : ne fonctionne que deux fois."]
+			id: "341EAB267F91C70B"
+			rewards: [{
+				count: 64
+				id: "4073816B271BB5B9"
+				item: {
+					Count: 1
+					id: "minecraft:cobblestone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4FAD2C3B4F2E92CB"
+					item: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C1BCC0B53CAC227"
+					item: {
+						Count: 1
+						id: "constructionwand:core_angel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "252785244CA47CD4"
+					item: {
+						Count: 1
+						id: "constructionwand:core_destruction"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			id: "2BE9849C18598B7D"
+			tasks: [{
+				id: "0D722592845B82D9"
+				title: "Refined Storage"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: -6.5d
+		}
 	]
-	title: "Maisonnée"
+	title: "Ch. 2 - Maison"
 }

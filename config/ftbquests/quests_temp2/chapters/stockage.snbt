@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "stockage"
 	group: "3CA4B0CAAB94EE6B"
-	icon: "minecraft:chest"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "sophisticatedstorage:block/controller_side"
+		}
+	}
 	id: "4B660318AEF02264"
 	images: [
 		{
@@ -31,13 +37,21 @@
 			id: "2020F3EDEB55246E"
 			rewards: [{
 				id: "218649AFBF043B74"
-				item: "minecraft:leather"
+				item: {
+					Count: 1
+					id: "minecraft:leather"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "0EB549451FC37711"
-				item: "sophisticatedbackpacks:backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.75d
@@ -49,13 +63,21 @@
 			id: "7BE2E91F338D5955"
 			rewards: [{
 				id: "202AC416CB0F392D"
-				item: "minecraft:iron_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "2A940099BB03C881"
-				item: "sophisticatedbackpacks:iron_backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -67,13 +89,21 @@
 			id: "4736485F5315CC07"
 			rewards: [{
 				id: "267628AFA2B3192E"
-				item: "minecraft:gold_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:gold_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "5DC42F32E534F735"
-				item: "sophisticatedbackpacks:gold_backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -85,13 +115,21 @@
 			id: "0C79D89B9CFD48C3"
 			rewards: [{
 				id: "56D10E6DFDB6E923"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "12731587B4510507"
-				item: "sophisticatedbackpacks:diamond_backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.0d
@@ -103,13 +141,21 @@
 			id: "39BE83A9946B3DEF"
 			rewards: [{
 				id: "4126D66094C6A148"
-				item: "minecraft:netherite_scrap"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_scrap"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "111BF80037FEEFFF"
-				item: "sophisticatedbackpacks:netherite_backpack"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -121,12 +167,20 @@
 			id: "609C88D69A3DED6E"
 			rewards: [{
 				id: "40A1CA60F4DBD10F"
-				item: "sophisticatedbackpacks:upgrade_base"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3B93C6DEDB274D70"
-				item: "sophisticatedbackpacks:upgrade_base"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:upgrade_base"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.0d
@@ -138,12 +192,20 @@
 			id: "04C120BBB3133C6B"
 			rewards: [{
 				id: "291467B5E6F634C8"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "45A27931AB394C4B"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.25d
@@ -155,12 +217,20 @@
 			id: "0772214563E91BC1"
 			rewards: [{
 				id: "18AA1D95E1F00934"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0DC478CB4CA35650"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.75d
@@ -172,12 +242,20 @@
 			id: "29ADA981B113B1F8"
 			rewards: [{
 				id: "5397D25CCEE5DF49"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6126D90B960A2538"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.25d
@@ -189,12 +267,20 @@
 			id: "08487397C34A3DF6"
 			rewards: [{
 				id: "22F3B8509F338FC6"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "083C2F33BE627FD1"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.75d
@@ -205,7 +291,11 @@
 			id: "4D9F7A3E4E7B434A"
 			rewards: [{
 				id: "4B998A5AF9AF587A"
-				item: "minecraft:barrel"
+				item: {
+					Count: 1
+					id: "minecraft:barrel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -273,7 +363,11 @@
 			id: "2D356FB87AD32152"
 			rewards: [{
 				id: "7D4889CA7E9A7A96"
-				item: "minecraft:iron_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -296,7 +390,11 @@
 			id: "19CD5F53A9FC8971"
 			rewards: [{
 				id: "796110FCACFFA57D"
-				item: "minecraft:gold_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:gold_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -319,7 +417,11 @@
 			id: "7DA54DAB4AC3D402"
 			rewards: [{
 				id: "57343C765295FC31"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -342,7 +444,11 @@
 			id: "207BE6DA7699CF77"
 			rewards: [{
 				id: "617DC63DD3692894"
-				item: "minecraft:netherite_scrap"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_scrap"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -362,7 +468,11 @@
 		}
 		{
 			description: ["Ars Nouveau possède un système de stockage similaire à Refined Storage, mais qui arrive plus tôt en jeu. Je vous invite à aller voir le chapitre Ars Nouveau, partie Storage Lectern pour en savoir plus, et à consulter le livre de Ars Nouveau."]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "19F198E6CD85EEA1"
 			rewards: [{
 				id: "306F139077F20E21"
@@ -385,23 +495,39 @@
 			id: "3688A0670E4B581A"
 			rewards: [{
 				id: "63081C858461BDBF"
-				item: "sophisticatedstorage:storage_link"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:storage_link"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "02454F8F8408766A"
-					item: "sophisticatedstorage:controller"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:controller"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "436C6415B41A93F8"
-					item: "sophisticatedstorage:storage_tool"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:storage_tool"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "14EE7646B10BAAEA"
-					item: "sophisticatedstorage:storage_link"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:storage_link"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -414,12 +540,20 @@
 			id: "6AF04F01DC2D3C66"
 			rewards: [{
 				id: "4CA22FBF06851029"
-				item: "sophisticatedstorage:upgrade_base"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:upgrade_base"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "73160CF5BE2E1DF8"
-				item: "sophisticatedstorage:upgrade_base"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:upgrade_base"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -490,13 +624,21 @@
 			id: "7EF5312119536AD0"
 			rewards: [{
 				id: "71EB8B74244B82B6"
-				item: "minecraft:iron_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:iron_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "130C742BF5AD18B0"
-				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:stack_upgrade_tier_1"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.75d
@@ -507,13 +649,21 @@
 			id: "0A7ACE8C206BD73E"
 			rewards: [{
 				id: "6DE1365B99494AFB"
-				item: "minecraft:gold_ingot"
+				item: {
+					Count: 1
+					id: "minecraft:gold_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "2ED25AD025F411A2"
-				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:stack_upgrade_tier_2"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -524,13 +674,21 @@
 			id: "54A1EBF53738934F"
 			rewards: [{
 				id: "68259909B4189073"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "3B243EB1788050CE"
-				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:stack_upgrade_tier_3"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.75d
@@ -541,13 +699,21 @@
 			id: "136D3E13AEC47642"
 			rewards: [{
 				id: "244A72DCAC6F83E9"
-				item: "minecraft:netherite_scrap"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_scrap"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "0F876A74E3722373"
-				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:stack_upgrade_tier_4"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -559,12 +725,20 @@
 			id: "6AD9DE7B5EBB032C"
 			rewards: [{
 				id: "1E37B91A4E03B266"
-				item: "sophisticatedstorage:compression_upgrade"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:compression_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "60AF9C979D341538"
-				item: "sophisticatedstorage:compression_upgrade"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:compression_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -576,13 +750,21 @@
 			id: "152A7E3B71EBCA57"
 			rewards: [{
 				id: "0E013206A3EC9B7B"
-				item: "minecraft:obsidian"
+				item: {
+					Count: 1
+					id: "minecraft:obsidian"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "26A7EC963167BC95"
-				item: "sophisticatedstorage:void_upgrade"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:void_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -594,13 +776,21 @@
 			id: "661401765F8D4699"
 			rewards: [{
 				id: "2E4F9D79B3BC33A1"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "583A2B6FD1A980EC"
-				item: "sophisticatedbackpacks:inception_upgrade"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:inception_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -612,12 +802,20 @@
 			id: "77D0CD6057550E0B"
 			rewards: [{
 				id: "0A3949AC3F85F710"
-				item: "minecraft:chest"
+				item: {
+					Count: 1
+					id: "minecraft:chest"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "04FFE7291820CCCE"
-				item: "sophisticatedbackpacks:crafting_upgrade"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -639,9 +837,13 @@
 				"39BE83A9946B3DEF"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "00DEA1892E788E39"
 			rewards: [{
 				id: "2CCB088CC69A8A1A"
@@ -658,9 +860,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "6523B9CB5B79C4C5"
-				title: "Storage fini !"
 				type: "checkmark"
 			}]
 			title: "Storage complété !"

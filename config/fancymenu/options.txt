@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'false';
 S:custom_window_icon_macos = '';
 S:custom_window_icon_32 = '';
-S:custom_window_title = 'ModFart';
+S:custom_window_title = '';
 S:custom_window_icon_16 = '';
 
 
@@ -43,14 +43,17 @@ B:show_singleplayer_screen_world_icons = 'true';
 
 ##[layout_editor]
 
+B:layout_editor_grid_snapping = 'true';
 B:anchor_overlay_change_anchor_on_area_hover = 'false';
 B:show_layout_editor_grid = 'false';
 B:anchor_overlay_change_anchor_on_element_hover = 'false';
 S:anchor_overlay_visibility_mode = 'keybind';
 B:anchor_overlay_show_all_connection_lines = 'true';
 S:anchor_overlay_color_base_override = '';
+F:layout_editor_grid_snapping_strength = '1.0';
 I:layout_editor_grid_size = '40';
 B:invert_anchor_overlay_color = 'false';
+B:enable_buddy = 'true';
 S:anchor_overlay_color_border_override = '';
 F:anchor_overlay_opacity_normal = '0.5';
 F:anchor_overlay_opacity_busy = '0.7';

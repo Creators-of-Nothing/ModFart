@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "apotheosis"
 	group: "6FCD3535E8BFAB91"
-	icon: "apotheosis:ender_library"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "apotheosis:blocks/augmenting/top"
+		}
+	}
 	id: "45D523E39BAB6C92"
 	images: [
 		{
@@ -34,7 +40,11 @@
 				""
 				"&4&nP.S.&r :&r Pour avoir Silk Touch, il vous faut une table d'enchantement de niveau 150 ! Il n'est pas non plus trouvable dans les coffres !!"
 			]
-			icon: "minecraft:spawner"
+			icon: {
+				Count: 1
+				id: "minecraft:spawner"
+				tag: { }
+			}
 			id: "5FD97281F8C6C964"
 			rewards: [{
 				id: "45465ABD77228E02"
@@ -60,13 +70,21 @@
 			id: "62DADAA12BE5D319"
 			rewards: [{
 				id: "16FB23E226807EAA"
-				item: "minecraft:chiseled_bookshelf"
+				item: {
+					Count: 1
+					id: "minecraft:chiseled_bookshelf"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "102E79A6A9B7388B"
-				item: "apotheosis:ender_library"
+				item: {
+					Count: 1
+					id: "apotheosis:ender_library"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -86,7 +104,11 @@
 			id: "502AA55EC4B9198F"
 			rewards: [{
 				id: "4FB04052D4EB9612"
-				item: "minecraft:book"
+				item: {
+					Count: 1
+					id: "minecraft:book"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -94,25 +116,41 @@
 			tasks: [
 				{
 					id: "1B3AB4E7DD4062FE"
-					item: "apotheosis:beeshelf"
+					item: {
+						Count: 1
+						id: "apotheosis:beeshelf"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "0B6180E428D62729"
-					item: "apotheosis:rectifier_t3"
+					item: {
+						Count: 1
+						id: "apotheosis:rectifier_t3"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "1DB9730869017068"
-					item: "apotheosis:draconic_endshelf"
+					item: {
+						Count: 1
+						id: "apotheosis:draconic_endshelf"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 7L
 					id: "7EA2E3785D265A48"
-					item: "apotheosis:echoing_sculkshelf"
+					item: {
+						Count: 1
+						id: "apotheosis:echoing_sculkshelf"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -126,14 +164,22 @@
 			id: "3C91A000741ADF08"
 			rewards: [{
 				id: "48E1FBE66D0F0E76"
-				item: "apotheosis:gem_dust"
+				item: {
+					Count: 1
+					id: "apotheosis:gem_dust"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "24CBD7EF8FB345D6"
-				item: "apotheosis:salvaging_table"
+				item: {
+					Count: 1
+					id: "apotheosis:salvaging_table"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -153,13 +199,21 @@
 			id: "6F76EC6447329F85"
 			rewards: [{
 				id: "287D6F6A69CC9815"
-				item: "apotheosis:rare_material"
+				item: {
+					Count: 1
+					id: "apotheosis:rare_material"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "1D501F960B84FA0C"
-				item: "apotheosis:reforging_table"
+				item: {
+					Count: 1
+					id: "apotheosis:reforging_table"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -173,7 +227,11 @@
 			id: "2D13FFF9024B7993"
 			rewards: [{
 				id: "704871A649B9445A"
-				item: "apotheosis:explosive_arrow"
+				item: {
+					Count: 1
+					id: "apotheosis:explosive_arrow"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -181,7 +239,11 @@
 			subtitle: "Mettez un GEM et un Poce Bleu"
 			tasks: [{
 				id: "0F48352E2627972A"
-				item: "minecraft:smithing_table"
+				item: {
+					Count: 1
+					id: "minecraft:smithing_table"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -193,14 +255,22 @@
 			id: "3CA285E77AC6CC75"
 			rewards: [{
 				id: "0C8A1E28618A7E54"
-				item: "minecraft:book"
+				item: {
+					Count: 1
+					id: "minecraft:book"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "27DA281002FD6271"
-				item: "cyclic:disenchanter"
+				item: {
+					Count: 1
+					id: "cyclic:disenchanter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -218,14 +288,22 @@
 			rewards: [{
 				count: 4
 				id: "0E5CD5467956E9BD"
-				item: "minecraft:lapis_lazuli"
+				item: {
+					Count: 1
+					id: "minecraft:lapis_lazuli"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "43717CA5ED0671F1"
-				item: "minecraft:enchanting_table"
+				item: {
+					Count: 1
+					id: "minecraft:enchanting_table"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -240,9 +318,13 @@
 				"6F76EC6447329F85"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "5071C07F4B71FB31"
 			rewards: [{
 				id: "45A23115012CC442"
@@ -259,9 +341,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "578052F0B1C98274"
-				title: "Apotheosis fini !"
 				type: "checkmark"
 			}]
 			title: "Apotheosis complété !"

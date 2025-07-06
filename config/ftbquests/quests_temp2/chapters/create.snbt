@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "create"
 	group: "7798244B59ABC64D"
-	icon: "create:wrench"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "create:block/brass_casing"
+		}
+	}
 	id: "3D71719278E5606A"
 	images: [
 		{
@@ -52,13 +58,21 @@
 			id: "33560AAD94EE5A55"
 			rewards: [{
 				id: "55A9510C71E407AB"
-				item: "create:andesite_alloy"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "62C0030663C74A6C"
-				item: "create:clipboard"
+				item: {
+					Count: 1
+					id: "create:clipboard"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Clipboard"
@@ -71,13 +85,21 @@
 			id: "30FE9B8E85F5C991"
 			rewards: [{
 				id: "55D4E07CCFC8C58C"
-				item: "minecraft:oak_log"
+				item: {
+					Count: 1
+					id: "minecraft:oak_log"
+					tag: { }
+				}
 				random_bonus: 7
 				type: "item"
 			}]
 			tasks: [{
 				id: "46C26AC8CA6BACE0"
-				item: "create:hand_crank"
+				item: {
+					Count: 1
+					id: "create:hand_crank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Manuel ?!"
@@ -91,26 +113,42 @@
 			rewards: [{
 				count: 8
 				id: "08254479E237C1AE"
-				item: "create:cogwheel"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					count: 8L
 					id: "3A5121F7985E1EBB"
-					item: "create:cogwheel"
+					item: {
+						Count: 1
+						id: "create:cogwheel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "583DF4EE000311DF"
-					item: "create:large_cogwheel"
+					item: {
+						Count: 1
+						id: "create:large_cogwheel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "351681A582215B10"
-					item: "create:shaft"
+					item: {
+						Count: 1
+						id: "create:shaft"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -124,19 +162,31 @@
 			id: "63AF0964A44899CD"
 			rewards: [{
 				id: "1294F77341A6FC6D"
-				item: "create:gearbox"
+				item: {
+					Count: 1
+					id: "create:gearbox"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "TOP GEAR !"
 			tasks: [
 				{
 					id: "7B6DDF9C6F464555"
-					item: "create:gearbox"
+					item: {
+						Count: 1
+						id: "create:gearbox"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "007A4FF14FF877C2"
-					item: "create:vertical_gearbox"
+					item: {
+						Count: 1
+						id: "create:vertical_gearbox"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -152,18 +202,30 @@
 			id: "7E51EE75825ED530"
 			rewards: [{
 				id: "63B5CA81C30E2F18"
-				item: "create:water_wheel"
+				item: {
+					Count: 1
+					id: "create:water_wheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "1B759D90EC5AA342"
-					item: "create:water_wheel"
+					item: {
+						Count: 1
+						id: "create:water_wheel"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "19774113D230CE69"
-					item: "create:large_water_wheel"
+					item: {
+						Count: 1
+						id: "create:large_water_wheel"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -178,7 +240,11 @@
 			rewards: [{
 				count: 4
 				id: "72C4B054DA45A085"
-				item: "create:white_sail"
+				item: {
+					Count: 1
+					id: "create:white_sail"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "Don Quichotte"
@@ -186,12 +252,20 @@
 				{
 					count: 8L
 					id: "56D33961EF357ECF"
-					item: "create:white_sail"
+					item: {
+						Count: 1
+						id: "create:white_sail"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "3307A7F3FC3DB1C4"
-					item: "create:windmill_bearing"
+					item: {
+						Count: 1
+						id: "create:windmill_bearing"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -205,14 +279,22 @@
 			id: "1A98268B9FBDE257"
 			rewards: [{
 				id: "3365C58C88643399"
-				item: "create:brass_ingot"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			subtitle: "Gota go fast !"
 			tasks: [{
 				id: "65E67856EBAB0A72"
-				item: "create:rotation_speed_controller"
+				item: {
+					Count: 1
+					id: "create:rotation_speed_controller"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -6.0d
@@ -224,13 +306,21 @@
 			id: "5F64CCE2106FEA61"
 			rewards: [{
 				id: "3E5FE799DDC49063"
-				item: "create:brass_ingot"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "3D54DCAA6B52A548"
-				item: "createaddition:electric_motor"
+				item: {
+					Count: 1
+					id: "createaddition:electric_motor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.0d
@@ -242,13 +332,21 @@
 			id: "1873C0E0BEDDC008"
 			rewards: [{
 				id: "13FBAC33522B5E40"
-				item: "create:cogwheel"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "2E2599C26710AE6D"
-				item: "create:millstone"
+				item: {
+					Count: 1
+					id: "create:millstone"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.0d
@@ -266,7 +364,11 @@
 			}]
 			tasks: [{
 				id: "61CE0392EEA6D206"
-				item: "create:mechanical_press"
+				item: {
+					Count: 1
+					id: "create:mechanical_press"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -284,7 +386,11 @@
 			}]
 			tasks: [{
 				id: "23E8EDB4559D0819"
-				item: "createaddition:rolling_mill"
+				item: {
+					Count: 1
+					id: "createaddition:rolling_mill"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.75d
@@ -300,23 +406,39 @@
 			id: "4E6AAC128C410184"
 			rewards: [{
 				id: "1F69AE2474DAFD5D"
-				item: "moa_decor_toys:blaze"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:blaze"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "21C48526C8E4BD41"
-					item: "create:mechanical_mixer"
+					item: {
+						Count: 1
+						id: "create:mechanical_mixer"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "164252B696770396"
-					item: "create:basin"
+					item: {
+						Count: 1
+						id: "create:basin"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "1C8D3B5560D08A69"
-					item: "create:blaze_burner"
+					item: {
+						Count: 1
+						id: "create:blaze_burner"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -335,24 +457,40 @@
 			id: "2C4EB289C5FECE47"
 			rewards: [{
 				id: "1949FF2D709C491F"
-				item: "minecraft:wheat_seeds"
+				item: {
+					Count: 1
+					id: "minecraft:wheat_seeds"
+					tag: { }
+				}
 				random_bonus: 7
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "6122DAF82111613C"
-					item: "create:mechanical_harvester"
+					item: {
+						Count: 1
+						id: "create:mechanical_harvester"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "5B7881CB9E255952"
-					item: "create:mechanical_saw"
+					item: {
+						Count: 1
+						id: "create:mechanical_saw"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "19EBB8A46796A755"
-					item: "create:portable_storage_interface"
+					item: {
+						Count: 1
+						id: "create:portable_storage_interface"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -373,13 +511,21 @@
 			id: "5C1DF396430009E4"
 			rewards: [{
 				id: "20CFFD9745A4007D"
-				item: "create:brass_hand"
+				item: {
+					Count: 1
+					id: "create:brass_hand"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "Juste un doigt"
 			tasks: [{
 				id: "23A1B4285D53233B"
-				item: "create:deployer"
+				item: {
+					Count: 1
+					id: "create:deployer"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -391,14 +537,22 @@
 			id: "0991F1702983203E"
 			rewards: [{
 				id: "1D4C857E5E9169E6"
-				item: "create:brass_ingot"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
 				random_bonus: 7
 				type: "item"
 			}]
 			tasks: [{
 				count: 21L
 				id: "5C6C191C25C7CF43"
-				item: "create:mechanical_crafter"
+				item: {
+					Count: 1
+					id: "create:mechanical_crafter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -410,14 +564,22 @@
 			id: "326D2ACE50925864"
 			rewards: [{
 				id: "14E50967C17988ED"
-				item: "create:experience_nugget"
+				item: {
+					Count: 1
+					id: "create:experience_nugget"
+					tag: { }
+				}
 				random_bonus: 7
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "0F28A508393160E7"
-				item: "create:crushing_wheel"
+				item: {
+					Count: 1
+					id: "create:crushing_wheel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -458,12 +620,20 @@
 			id: "67C52B580FF8229C"
 			rewards: [{
 				id: "2F706D5509F16C0E"
-				item: "create:depot"
+				item: {
+					Count: 1
+					id: "create:depot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "486F26E2055710BB"
-				item: "create:depot"
+				item: {
+					Count: 1
+					id: "create:depot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -475,13 +645,21 @@
 			id: "4DF4BF839C774278"
 			rewards: [{
 				id: "168D6405C09A0D5D"
-				item: "create:chute"
+				item: {
+					Count: 1
+					id: "create:chute"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "Chute dans le peloton !"
 			tasks: [{
 				id: "70C414362653A91F"
-				item: "create:chute"
+				item: {
+					Count: 1
+					id: "create:chute"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -493,12 +671,20 @@
 			id: "2D1338443588FD6A"
 			rewards: [{
 				id: "00C11CBDC22A77A4"
-				item: "create:andesite_funnel"
+				item: {
+					Count: 1
+					id: "create:andesite_funnel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5B2B06B1D9C67435"
-				item: "create:andesite_funnel"
+				item: {
+					Count: 1
+					id: "create:andesite_funnel"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -518,14 +704,22 @@
 			rewards: [{
 				count: 4
 				id: "0270479B8832BF09"
-				item: "create:belt_connector"
+				item: {
+					Count: 1
+					id: "create:belt_connector"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
 				id: "6769CB7F52C3453A"
-				item: "create:belt_connector"
+				item: {
+					Count: 1
+					id: "create:belt_connector"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 6.0d
@@ -537,13 +731,21 @@
 			id: "02372505F3A5574D"
 			rewards: [{
 				id: "7678E622EF2868ED"
-				item: "create:brass_ingot"
+				item: {
+					Count: 1
+					id: "create:brass_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "3E8DB259F22475A9"
-				item: "create:mechanical_arm"
+				item: {
+					Count: 1
+					id: "create:mechanical_arm"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -555,14 +757,22 @@
 			id: "169485A6CE91F6B5"
 			rewards: [{
 				id: "6ED41674C1594F06"
-				item: "minecraft:crying_obsidian"
+				item: {
+					Count: 1
+					id: "minecraft:crying_obsidian"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "59A584FE45EA6798"
-				item: "create:track_station"
+				item: {
+					Count: 1
+					id: "create:track_station"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.5d
@@ -574,13 +784,21 @@
 			id: "6DD5F2B95CCE54E6"
 			rewards: [{
 				id: "6A9F7CBD5FCA3279"
-				item: "minecraft:lava_bucket"
+				item: {
+					Count: 1
+					id: "minecraft:lava_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "De la lave à l'infini ?!"
 			tasks: [{
 				id: "090B4D492DE15BFA"
-				item: "create:hose_pulley"
+				item: {
+					Count: 1
+					id: "create:hose_pulley"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.0d
@@ -603,13 +821,21 @@
 			id: "2FE5B07B3D72E1B3"
 			rewards: [{
 				id: "688C87283C7155FA"
-				item: "create:encased_fan"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "Votre plus grand Fan"
 			tasks: [{
 				id: "0DF3AB73DC001B86"
-				item: "create:encased_fan"
+				item: {
+					Count: 1
+					id: "create:encased_fan"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -621,12 +847,20 @@
 			id: "5FE3791ABC495B30"
 			rewards: [{
 				id: "59954AC8A490D883"
-				item: "minecraft:water_bucket"
+				item: {
+					Count: 1
+					id: "minecraft:water_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3EDCB9E5BD8C367B"
-				item: "create:spout"
+				item: {
+					Count: 1
+					id: "create:spout"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Je s'appelle Spout"
@@ -640,13 +874,21 @@
 			rewards: [{
 				count: 8
 				id: "78756B22B5589824"
-				item: "minecraft:redstone"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "1060739E52BF5E92"
-				item: "create:redstone_link"
+				item: {
+					Count: 1
+					id: "create:redstone_link"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.0d
@@ -662,7 +904,11 @@
 			id: "2680653B5BBF4CDC"
 			rewards: [{
 				id: "2C04EEFD63592EFC"
-				item: "moa_decor_toys:slime"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:slime"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "Monte moi en l'air !"
@@ -708,7 +954,11 @@
 			id: "76B5A6667B09CF5C"
 			rewards: [{
 				id: "1EC9DBCD5B76F406"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 7
 				type: "item"
 			}]
@@ -751,14 +1001,22 @@
 			id: "4C1664069B886599"
 			rewards: [{
 				id: "4031DDECBE15C162"
-				item: "create:andesite_alloy"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			subtitle: "MORE POWAH !!"
 			tasks: [{
 				id: "4F0C0BD9CAFA8091"
-				item: "createaddition:tesla_coil"
+				item: {
+					Count: 1
+					id: "createaddition:tesla_coil"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.0d
@@ -789,12 +1047,20 @@
 			tasks: [
 				{
 					id: "6AC0035DE25BF5F2"
-					item: "create_enchantment_industry:printer"
+					item: {
+						Count: 1
+						id: "create_enchantment_industry:printer"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "743A63BAEEECD720"
-					item: "create_enchantment_industry:disenchanter"
+					item: {
+						Count: 1
+						id: "create_enchantment_industry:disenchanter"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -808,13 +1074,21 @@
 			id: "02F97B175F30CDB0"
 			rewards: [{
 				id: "327F6446BC225BFC"
-				item: "create:cogwheel"
+				item: {
+					Count: 1
+					id: "create:cogwheel"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "7E2A290F24AE1158"
-				item: "create:wrench"
+				item: {
+					Count: 1
+					id: "create:wrench"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.75d
@@ -826,13 +1100,21 @@
 			id: "22788C9FBCA5F376"
 			rewards: [{
 				id: "64D0B6001225B212"
-				item: "create:andesite_alloy"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "5501E300AD726E08"
-				item: "create:goggles"
+				item: {
+					Count: 1
+					id: "create:goggles"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -850,14 +1132,22 @@
 			rewards: [{
 				count: 8
 				id: "2D8BE7AE183275BB"
-				item: "create:andesite_alloy"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 2.0d
 			tasks: [{
 				count: 8L
 				id: "13E004A8D2795B14"
-				item: "create:andesite_alloy"
+				item: {
+					Count: 1
+					id: "create:andesite_alloy"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Ca commence toujours comme ça !"
@@ -866,8 +1156,16 @@
 		}
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
-			description: ["Voici une sélection basique de machines Create. Lorsque tu regarderas le craft de ces machines, certaines d'entre elles sont en version Brass. Au delà d'être plus chères, elles te permettront d'ajouter des filtres ! Idéal pour pouvoir sélectionner les opérations que tu veux faire."]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			description: [
+				"Voici une sélection basique de machines Create. Lorsque tu regarderas le craft de ces machines, certaines d'entre elles sont en version Brass. Au delà d'être plus chères, elles te permettront d'ajouter des filtres ! Idéal pour pouvoir sélectionner les opérations que tu veux faire."
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "044A732DB52C6B8C"
 			rewards: [{
 				id: "38FB55891D5E104C"
@@ -887,7 +1185,11 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Create, c'est aussi envoyer des items, de la force cinétique, des animaux, ... D'un point A à un point B. Voici différents outils qui pourront t'aider."]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "3B75B51AD1DE7D9D"
 			rewards: [{
 				id: "523E7941D7770A54"
@@ -908,7 +1210,11 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Juste une série d'outils qui pourront t'être utile dans ta découverte de Create."]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "6827E33B6A9C1252"
 			rewards: [{
 				id: "4D7D7046076D5AFC"
@@ -928,7 +1234,11 @@
 		{
 			dependencies: ["4CC96CF7BECB4DC9"]
 			description: ["Pour fonctionner, les machines et outils de Create ont besoin d'énergie cinétique, que tu peux produire grâce à divers outils proposés dans ce chapitre. "]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "59B7D5A631C63F72"
 			rewards: [{
 				id: "008ADC281F845978"
@@ -952,13 +1262,21 @@
 			id: "2C023A27F5760468"
 			rewards: [{
 				id: "7092B4E694CB4F45"
-				item: "create:blaze_cake"
+				item: {
+					Count: 1
+					id: "create:blaze_cake"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "09694E87E086C9A4"
-				item: "create:blaze_cake"
+				item: {
+					Count: 1
+					id: "create:blaze_cake"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -970,19 +1288,31 @@
 			id: "189D2C3618765111"
 			rewards: [{
 				id: "3E920AA7C6E73D84"
-				item: "createsifter:sifter"
+				item: {
+					Count: 1
+					id: "createsifter:sifter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "Une façon d'obtenir des ressources infinies"
 			tasks: [
 				{
 					id: "19133219A503286E"
-					item: "createsifter:sifter"
+					item: {
+						Count: 1
+						id: "createsifter:sifter"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "34DEBD6B09A94048"
-					item: "createsifter:brass_sifter"
+					item: {
+						Count: 1
+						id: "createsifter:brass_sifter"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -995,7 +1325,11 @@
 			id: "106E9AE98490FB3A"
 			rewards: [{
 				id: "73571FB838BFC196"
-				item: "minecraft:string"
+				item: {
+					Count: 1
+					id: "minecraft:string"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -1098,7 +1432,11 @@
 			}]
 			tasks: [{
 				id: "29F1EC893B039CF6"
-				item: "createsifter:advanced_brass_mesh"
+				item: {
+					Count: 1
+					id: "createsifter:advanced_brass_mesh"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -1110,13 +1448,21 @@
 			id: "1AB10E85D15C7E1E"
 			rewards: [{
 				id: "3FC58759250B238C"
-				item: "createutilities:void_steel_ingot"
+				item: {
+					Count: 1
+					id: "createutilities:void_steel_ingot"
+					tag: { }
+				}
 				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [{
 				id: "79CF2B93C84DC193"
-				item: "createutilities:void_motor"
+				item: {
+					Count: 1
+					id: "createutilities:void_motor"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.5d
@@ -1159,9 +1505,13 @@
 				"169485A6CE91F6B5"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "0A494C9B538D82F4"
 			rewards: [{
 				id: "4F66DBF0AE5BC953"
@@ -1178,11 +1528,12 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "5355F4B231C45CF9"
-				title: "Create complété !"
 				type: "checkmark"
 			}]
+			title: "Create terminé !"
 			x: -5.0d
 			y: 6.5d
 		}
@@ -1206,7 +1557,11 @@
 			id: "6AEAEA8B9CF60C4C"
 			tasks: [{
 				id: "18E7D123D8149663"
-				item: "createsifter:advanced_custom_mesh"
+				item: {
+					Count: 1
+					id: "createsifter:advanced_custom_mesh"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d

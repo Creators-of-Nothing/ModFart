@@ -1,0 +1,1102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "7B4A59D3B1EC7332"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:block/nether_portal"
+		}
+	}
+	id: "7BC2EBDFA01D2486"
+	images: [
+		{
+			height: 2.5d
+			image: "deeperdarker:block/otherside_portal"
+			rotation: 0.0d
+			width: 2.5d
+			x: -5.42d
+			y: 2.98d
+		}
+		{
+			height: 2.5d
+			image: "undergarden:block/undergarden_portal"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.98d
+			y: 5.42d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.98d
+			y: 5.42d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:textures/entity/end_portal.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 2.98d
+			y: -5.42d
+		}
+		{
+			height: 2.5d
+			image: "aether:block/miscellaneous/aether_portal"
+			rotation: 0.0d
+			width: 2.5d
+			x: -2.98d
+			y: -5.42d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 2.5d
+			x: 5.42d
+			y: -2.98d
+		}
+		{
+			height: 2.5d
+			image: "the_bumblezone:block/honey_fluid_flow"
+			rotation: 0.0d
+			width: 2.5d
+			x: -5.42d
+			y: -2.98d
+		}
+		{
+			height: 2.5d
+			image: "wormhole:portal/portal_lime"
+			rotation: 0.0d
+			width: 2.5d
+			x: 5.42d
+			y: 2.98d
+		}
+		{
+			height: 15.5d
+			image: "kubejs:textures/ftbquests/dimensions.png"
+			rotation: 0.0d
+			width: 15.5d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4DDDB97281264CA2"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 10L
+				id: "057D31C60412133D"
+				item: {
+					Count: 10
+					id: "minecraft:obsidian"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.98d
+			y: 5.42d
+		}
+		{
+			id: "53321940DDB8BA0E"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 10L
+				id: "7ED4FA4D9F7A943E"
+				item: {
+					Count: 10
+					id: "minecraft:glowstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.98d
+			y: -5.42d
+		}
+		{
+			id: "3B5DD87BAEB6986B"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				count: 12L
+				id: "223438A24C67742F"
+				item: {
+					Count: 12
+					id: "minecraft:ender_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.98d
+			y: -5.42d
+		}
+		{
+			id: "3EB0F91E389C5300"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "526568CC944B3AC7"
+				item: {
+					Count: 1
+					id: "undergarden:catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.98d
+			y: 5.42d
+		}
+		{
+			id: "27041A6C524C8E1D"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "7816274B553C55EF"
+				item: {
+					Count: 1
+					id: "minecraft:water_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.42d
+			y: -2.98d
+		}
+		{
+			id: "59C76EF1F27AE95B"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "43A87C992692BE36"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.42d
+			y: -2.98d
+		}
+		{
+			id: "0BD06DB0B413F625"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "184E4EFEABDA14E5"
+				item: {
+					Count: 1
+					id: "deeperdarker:heart_of_the_deep"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.42d
+			y: 2.98d
+		}
+		{
+			id: "31C075106CD56EB0"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "0361CF74DC715C0E"
+				item: {
+					Count: 1
+					id: "wormhole:portal_frame"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.42d
+			y: 2.98d
+		}
+		{
+			description: [
+				"Accroupissez-vous et clic droit sur un villageois et sur un Piglin. Ensuite, regardez toutes les belles choses possibles à faire avec dans JEI en tapant : @easy."
+				""
+				"Vous pourrez ainsi y placer vos PNJ."
+			]
+			id: "6F2671D1818FA24B"
+			rewards: [{
+				id: "194464FCE4C18C91"
+				item: {
+					Count: 1
+					id: "minecraft:emerald"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2802A3DF7C76AD21"
+					item: {
+						Count: 1
+						id: "easy_villagers:villager"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5CBA1ACDFDE65092"
+					item: {
+						Count: 1
+						id: "easy_piglins:piglin"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Easy Villager"
+			x: 2.25d
+			y: -2.25d
+		}
+		{
+			description: ["Cette cage permet de kidnapper n'importe quelle entité et de la mettre en cage ! Vous pouvez la libérer avec un simple clic droit, ou poser la cage au sol avec un shift - clic droit."]
+			id: "1B8BED215FB7A447"
+			rewards: [{
+				id: "7B187B4A5A9D86D4"
+				item: {
+					Count: 1
+					id: "moa_decor_holidays:esqueleto_enjaulado"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34889483E56EC0FD"
+				item: {
+					Count: 1
+					id: "supplementaries:cage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Pour l'utiliser, faites clic droit avec l'objet en main, puis sélectionnez le biome que vous cherchez. Validez et le compas va tenter de chercher cette structure autour de vous."
+				""
+				"Une fois qu'il l'aura trouvé, vous aurez les coordonnées sur votre écran et le compas pointera vers cette direction !"
+			]
+			id: "268C4D813699ECC7"
+			rewards: [{
+				id: "1CF334607B961495"
+				item: {
+					Count: 1
+					id: "lootr:trophy"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Trouve facilement des structures !"
+			tasks: [{
+				id: "6CFCA472A3449F1C"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 2.25d
+		}
+		{
+			description: [
+				"Pour l'utiliser, faites clic droit avec l'objet en main, puis sélectionnez le biome que vous cherchez. Validez et le compas va tenter de chercher ce biome autour de vous."
+				""
+				"Une fois qu'il l'aura trouvé, vous aurez les coordonnées sur votre écran et le compas pointera vers cette direction !"
+			]
+			id: "4B5B81DF4334B4A5"
+			rewards: [{
+				id: "4AF67F2C40EB6B5D"
+				item: {
+					Count: 1
+					id: "minecraft:oak_sapling"
+					tag: { }
+				}
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "Trouve facilement des biomes !"
+			tasks: [{
+				id: "3682F71083016DCC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			description: ["Un Magnet pour attirer les choses de plus loin."]
+			id: "261DCE49E3922679"
+			rewards: [{
+				id: "7273F8A4EA9BE639"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "5D6FAD2B90918B3A"
+				item: {
+					Count: 1
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: -2.25d
+		}
+		{
+			description: ["Permet d'accumuler autant de pouvoir différents au détriment d'une consommation de nourriture. Sur ce pack, les effets néfastes qui affectent les autres ont été enlevé, ainsi que le flight pour des raisons d'équilibrages."]
+			id: "0EC9680E91930C3E"
+			rewards: [{
+				id: "34169B811595DD79"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0A3F2FCAAE63032A"
+				item: {
+					Count: 1
+					id: "everlastingabilities:ability_bottle"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Un moyen de gagner des coeurs et de la stamina supplémentaire. Le paraglider ou la feuille ont la même utilité : tenue en main, c'est un parachute. Les statues vous échangeront des coeurs et de la stamina contre des Spirits Orbs, que vous obtenez en cassant des spawners."]
+			id: "1ADE002FF1A2811B"
+			rewards: [{
+				id: "754B078F27F17E5A"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "5DCD86158AF9A277"
+					item: {
+						Count: 1
+						id: "paraglider:goddess_statue"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2E961EBCA90B68C1"
+					item: {
+						Count: 1
+						id: "paraglider:deku_leaf"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Paraglider"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: ["Cet anneau vous permet de résister au feu ainsi qu'à la lave."]
+			id: "26D39E06E8465892"
+			rewards: [{
+				id: "032077752AA4C43A"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Sushi Hou-Ha-Ha !"
+			tasks: [{
+				id: "1A5404F027174B94"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_fire_resistance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			description: ["Cet anneau vous permet de devenir invisible."]
+			id: "099D0FE0FAA03003"
+			rewards: [{
+				id: "162F8B8070F3212E"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "L'Homme Invisible !"
+			tasks: [{
+				id: "409AB022C455A484"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_invisibility"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			description: ["Cet anneau vous permet de régénérer continuellement votre vie."]
+			id: "4868ED2E31D3176D"
+			rewards: [{
+				id: "35C2489B34D4A23F"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Yeah, Science !"
+			tasks: [{
+				id: "3D6CA0E466CCF576"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_regeneration"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			description: ["Cet anneau vous permet de tomber plus doucement."]
+			id: "6271296096BCCA9E"
+			rewards: [{
+				id: "5EEF4CA4D3C18FFD"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "J'appelle pas ça voler !"
+			tasks: [{
+				id: "27D4968F369665E4"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_slow_falling"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: ["Cet anneau vous permet de faire plus de dégats avec vos attaques."]
+			id: "2EFF282A128795B7"
+			rewards: [{
+				id: "27228BF9D181D04A"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Claymore !"
+			tasks: [{
+				id: "55364AEE119AC993"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_strength"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			description: ["Cet anneau vous permet de respirer sous l'eau."]
+			id: "6EC732A089E5CD17"
+			rewards: [{
+				id: "71FE8B8434C8D969"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Vingt Mille Lieues sous les mers !"
+			tasks: [{
+				id: "05E857787839F6CB"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_water_breathing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			description: ["Cet anneau vous permet de vous déplacer plus vite."]
+			id: "20195D0EA93EBC9D"
+			rewards: [{
+				id: "33B15845832495EC"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "SANIC HEGEHOG !"
+			tasks: [{
+				id: "17B5D911F021F9A6"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_speed"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			description: ["Cet anneau vous permet de voir dans le noir."]
+			id: "424DB1F193535D62"
+			rewards: [{
+				id: "61206E68471E1D45"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "J'ai pas besoin de torche, je suis nyctalope !"
+			tasks: [{
+				id: "382FECD6A1C0C5DB"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_night_vision"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			description: ["Cet anneau vous permet de sauter plus haut."]
+			id: "383B04404B89D590"
+			rewards: [{
+				id: "651F33074BC2B056"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Roger Rabbit !"
+			tasks: [{
+				id: "301B77972BEBAD24"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_jump_boost"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: -2.0d
+		}
+		{
+			description: ["Cet anneau vous permet de miner plus vite."]
+			id: "1AD67F2DA6567C4B"
+			rewards: [{
+				id: "488EB6254E3D29B9"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Diggy Diggy Hole !"
+			tasks: [{
+				id: "033BDDFC4A2CF219"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_mining"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 2.0d
+		}
+		{
+			description: ["Cet anneau vous permet d'avoir plus de chance quand vous tuez des monstres ou ouvrez des coffres."]
+			id: "37D2C5346F1E2268"
+			rewards: [{
+				id: "343309FD19AE201E"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Bon chance !"
+			tasks: [{
+				id: "3295B854EE77D76A"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_luck"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			description: ["Cet anneau vous permet de vous déplacer très vite lorque vous nagez."]
+			id: "068C7694CEE6F3A9"
+			rewards: [{
+				id: "0E2E800FB8B93179"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Flipper !"
+			tasks: [{
+				id: "74AAE32F7465AF69"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_dolphin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.75d
+		}
+		{
+			description: ["Cet anneau vous permet d'attirer les objets à vous."]
+			id: "24E1735F38706CB8"
+			rewards: [{
+				id: "7DFB9CAEACD941BE"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Aspirateur à objets !"
+			tasks: [{
+				id: "23E497DC7C65DC1A"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_magnetism"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"Cet anneau vous permet de voler. Quand il est équipé vous n'avez qu'à appuyer deux fois sur votre touche de saut très rapidement pour voler."
+				""
+				"Une fois que vous volez, faites votre touche de saut pour monter et votre touche pour vous accroupir pour descendre. Egalement, vous ne subirez plus de dégats de chute."
+				""
+				"Pour désactiver le vol vous n'avez qu'à \"double sauter\" à nouveau ou bien vous poser au sol."
+			]
+			id: "4F0B54F99C1BCE13"
+			rewards: [{
+				id: "01E4C9751C507A6C"
+				type: "xp"
+				xp: 1000
+			}]
+			size: 2.0d
+			subtitle: "Vole !"
+			tags: ["complete_ring"]
+			tasks: [{
+				id: "535003189AEF45F5"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_flight"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			description: ["Cet anneau vous permet de résister aux poisons."]
+			id: "5DF0C2F68E697CE0"
+			rewards: [{
+				id: "57845998EE75F5E0"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Tu dois confondre poisson et poison !"
+			tasks: [{
+				id: "0269536117F43E1D"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_poison_resistance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: 2.0d
+		}
+		{
+			description: ["Cet anneau vous permet de garder votre barre de nourriture pleine."]
+			id: "12E57F1F1A098459"
+			rewards: [{
+				id: "670AD51A38806CF8"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "J'ai déjà mangé !"
+			tasks: [{
+				id: "7239B46AB4E259DF"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_hungerless"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			description: ["Cet anneau vous permet de faire pousser plus vite les plantations autour de vous."]
+			id: "1E4A0D9CD15A7A76"
+			rewards: [{
+				id: "64C6C3A1E11865E6"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "La main verte !"
+			tasks: [{
+				id: "094218CC11D10CB5"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_growth"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			description: ["Cet anneau vous permet de résister aux reculs."]
+			id: "0D6D491F39548B2B"
+			rewards: [{
+				id: "1C09CB235DB25E64"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Comme un roc !"
+			tasks: [{
+				id: "6C70A5013F6CC1D5"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_knockback_resistance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -2.0d
+		}
+		{
+			description: ["Cet anneau vous permet d'augmenter vos PV maximum de 10 coeurs."]
+			id: "0925D630B3664052"
+			rewards: [{
+				id: "5D3E633E589D553A"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "PV Max !"
+			tasks: [{
+				id: "7D2BA61F9F6C266A"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_health"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			description: ["Cet anneau vous permet de retirer l'eau autour de vous."]
+			id: "5F7E9B912BECF808"
+			rewards: [{
+				id: "31F58F745ED0CE12"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Dans 20-30 ans y'en aura plus !"
+			tasks: [{
+				id: "1D6775C7D8453856"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_sponge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			description: ["Cet anneau vous permet de retirer la lave autour de vous."]
+			id: "2356585E6A5D9F40"
+			rewards: [{
+				id: "6DDC9835668C45CB"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "De la lave en fusion qui tue !"
+			tasks: [{
+				id: "118DCDB8AFF2FE6F"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_lava_sponge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			description: ["Cet anneau vous permet d'attirer les orbes d'XP à vous."]
+			id: "2DD6870878DD4EB9"
+			rewards: [{
+				id: "5240551B119C4BA0"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Aspirateur à XP !"
+			tasks: [{
+				id: "1C1424EC61AD7FFA"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_experience"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.75d
+		}
+		{
+			description: ["Cet anneau vous permet de marcher sur l'eau."]
+			id: "3FC2670D3737E0C1"
+			rewards: [{
+				id: "57E96AB84E00E732"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Jésus-Christ !"
+			tasks: [{
+				id: "4CB1C09D9626A847"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_water_walking"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			description: ["Cet anneau vous permet de résister aux effets de Wither."]
+			id: "4079C7932F157ED3"
+			rewards: [{
+				id: "02267FEC11BA44DB"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Flowey !"
+			tasks: [{
+				id: "3C0CE0B943EAD0E5"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_wither"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.75d
+		}
+		{
+			description: [
+				"Cet anneau vous permet de rester en vie alors que vous deviez mourir."
+				""
+				"Cet effet ne peut se produire qu'une fois toutes les 20 minutes."
+			]
+			id: "4BA79256D302E8C9"
+			rewards: [{
+				id: "0BAA0D67C42F3589"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "La Pierre Philosophale !"
+			tasks: [{
+				id: "670EFFCAC3DBB5F9"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_undying"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			description: ["Cet anneau vous permet de résister aux ralentissements."]
+			id: "43E7C7C45777EEC8"
+			rewards: [{
+				id: "0F3961BD0AF31624"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Pas fatigué !"
+			tasks: [{
+				id: "36B856F2EEACC817"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_slow_resistance"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.75d
+		}
+		{
+			description: ["Cet anneau vous permet de monter les blocs automatiquement sans avoir à sauter, comme si c'était des escaliers."]
+			id: "059BEB58FB3FC0BE"
+			rewards: [{
+				id: "5F6BC69D17AE734E"
+				type: "xp"
+				xp: 1000
+			}]
+			subtitle: "Squats !"
+			tasks: [{
+				id: "5CDE7935262AA528"
+				item: {
+					Count: 1
+					id: "ringsofascension:ring_steadfast_steps"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "3ECFA6450C05F360"
+			size: 2.0d
+			tasks: [
+				{
+					id: "630934511DC7240D"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48E6F55791F853D5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "waystones:waystones"
+						}
+					}
+					title: "Any #waystones:waystones"
+					type: "item"
+				}
+				{
+					id: "6C0A33F212711C80"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "waystones:sharestones"
+						}
+					}
+					title: "Any #waystones:sharestones"
+					type: "item"
+				}
+			]
+			title: "Téléportation"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Le Sleeping Bag est un lit portatif qui ne set pas votre spawn."
+				""
+				"Le Hammoc permet de passer le jour."
+			]
+			id: "2655A092B94CC321"
+			rewards: [{
+				count: 2
+				id: "4855051EEBC19939"
+				item: {
+					Count: 1
+					id: "comforts:rope_and_nail"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "640BDC3609F3AEFB"
+					item: {
+						Count: 1
+						id: "comforts:sleeping_bag_white"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "05BC39EFC963EE27"
+					item: {
+						Count: 1
+						id: "comforts:hammock_white"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Nous rompichâmes"
+			x: 1.75d
+			y: -0.75d
+		}
+		{
+			id: "731170DAE2DFAE81"
+			size: 2.0d
+			tasks: [{
+				id: "5E7027473FDC7B21"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+	title: "Ch. 1 - Exploration"
+}

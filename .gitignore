@@ -6,7 +6,6 @@
 # Exceptions
 !/.dev
 !/config
-!/data
 !/defaultconfigs
 !/kubejs
 !/resources

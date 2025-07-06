@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch6__automatisation"
+	group: "520987ECA1C88A3B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+		}
+	}
+	id: "73DCA8D4ABBB0538"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ch.6 - Automatisation"
+}

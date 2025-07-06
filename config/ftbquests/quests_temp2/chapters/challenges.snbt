@@ -2,8 +2,14 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "challenges"
-	group: "330F5450D49BBA54"
-	icon: "minecraft:wither_skeleton_skull"
+	group: "7B4A59D3B1EC7332"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "alexscaves:block/hazmat_skull_block"
+		}
+	}
 	id: "2679C9FE65696F7B"
 	images: [
 		{
@@ -30,8 +36,16 @@
 			x: 4.0d
 			y: 12.25d
 		}
+		{
+			height: 2.0d
+			image: "ringsofascension:item/ring_flight"
+			rotation: 0.0d
+			width: 2.0d
+			x: -14.0d
+			y: -11.25d
+		}
 	]
-	order_index: 1
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -139,7 +153,11 @@
 			}]
 			tasks: [{
 				entity: "mutantmonsters:mutant_creeper"
-				icon: "mutantmonsters:mutant_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "275EA9CAE6C800B9"
 				type: "kill"
 				value: 5L
@@ -156,7 +174,11 @@
 			}]
 			tasks: [{
 				entity: "mutantmonsters:mutant_enderman"
-				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_enderman_spawn_egg"
+					tag: { }
+				}
 				id: "67C857C2AF91D5A9"
 				type: "kill"
 				value: 5L
@@ -173,7 +195,11 @@
 			}]
 			tasks: [{
 				entity: "mutantmonsters:mutant_skeleton"
-				icon: "mutantmonsters:mutant_skeleton_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_spawn_egg"
+					tag: { }
+				}
 				id: "657C3DD73CA9EB26"
 				type: "kill"
 				value: 5L
@@ -190,7 +216,11 @@
 			}]
 			tasks: [{
 				entity: "mutantmonsters:mutant_zombie"
-				icon: "mutantmonsters:mutant_zombie_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_zombie_spawn_egg"
+					tag: { }
+				}
 				id: "72828DEEB3DF7C22"
 				type: "kill"
 				value: 5L
@@ -208,7 +238,11 @@
 			}]
 			tasks: [{
 				entity: "mutantmonsters:mutant_snow_golem"
-				icon: "mutantmonsters:mutant_snow_golem_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_snow_golem_spawn_egg"
+					tag: { }
+				}
 				id: "6B6A5D4013D177DB"
 				type: "kill"
 				value: 5L
@@ -225,7 +259,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:badlands_creeper"
-				icon: "creeperoverhaul:badlands_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:badlands_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "5AE7746829AA8BE8"
 				type: "kill"
 				value: 1L
@@ -242,7 +280,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:bamboo_creeper"
-				icon: "creeperoverhaul:bamboo_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:bamboo_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "4A86FE7199942DA3"
 				type: "kill"
 				value: 1L
@@ -259,7 +301,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:beach_creeper"
-				icon: "creeperoverhaul:beach_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:beach_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "0ECBA9EDB59DA326"
 				type: "kill"
 				value: 1L
@@ -276,7 +322,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:cave_creeper"
-				icon: "creeperoverhaul:cave_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:cave_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "66B609BB364FEA52"
 				type: "kill"
 				value: 1L
@@ -293,7 +343,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:dark_oak_creeper"
-				icon: "creeperoverhaul:dark_oak_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:dark_oak_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "5E53D5C9850D7A90"
 				type: "kill"
 				value: 1L
@@ -315,7 +369,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:desert_creeper"
-				icon: "creeperoverhaul:desert_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:desert_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "0DA5C61CF96B9B8A"
 				type: "kill"
 				value: 1L
@@ -332,7 +390,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:dripstone_creeper"
-				icon: "creeperoverhaul:dripstone_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:dripstone_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "7E2CC300227366CE"
 				type: "kill"
 				value: 1L
@@ -341,7 +403,11 @@
 			y: -3.25d
 		}
 		{
-			icon: "creeperoverhaul:hills_creeper_spawn_egg"
+			icon: {
+				Count: 1
+				id: "creeperoverhaul:hills_creeper_spawn_egg"
+				tag: { }
+			}
 			id: "0AEBC2087C0A90FD"
 			rewards: [{
 				id: "4B0B28E98CCCD856"
@@ -350,7 +416,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:hills_creeper"
-				icon: "creeperoverhaul:hills_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:hills_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "29C547E4CFAC8781"
 				type: "kill"
 				value: 1L
@@ -367,7 +437,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:jungle_creeper"
-				icon: "creeperoverhaul:jungle_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:jungle_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "12B897FF8D84C8C2"
 				type: "kill"
 				value: 1L
@@ -384,7 +458,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:mushroom_creeper"
-				icon: "creeperoverhaul:mushroom_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:mushroom_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "4E3720A2049A9EDF"
 				type: "kill"
 				value: 1L
@@ -401,7 +479,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:ocean_creeper"
-				icon: "creeperoverhaul:ocean_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:ocean_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "4CC92555FE27973A"
 				type: "kill"
 				value: 1L
@@ -418,7 +500,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:savannah_creeper"
-				icon: "creeperoverhaul:savannah_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:savannah_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "127891BD1F2A5AF9"
 				type: "kill"
 				value: 1L
@@ -435,7 +521,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:snowy_creeper"
-				icon: "creeperoverhaul:snowy_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:snowy_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "33B772D5A9414F90"
 				type: "kill"
 				value: 1L
@@ -452,7 +542,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:spruce_creeper"
-				icon: "creeperoverhaul:spruce_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:spruce_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "0042D402B2F358B1"
 				type: "kill"
 				value: 1L
@@ -469,7 +563,11 @@
 			}]
 			tasks: [{
 				entity: "creeperoverhaul:swamp_creeper"
-				icon: "creeperoverhaul:swamp_creeper_spawn_egg"
+				icon: {
+					Count: 1
+					id: "creeperoverhaul:swamp_creeper_spawn_egg"
+					tag: { }
+				}
 				id: "4D7F5ABF8E1EDB8C"
 				type: "kill"
 				value: 1L
@@ -512,7 +610,11 @@
 				"25BC8B23C93C097B"
 				"334B8F4F3E54E525"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "5CBD70AD79940EA5"
 			rewards: [{
 				id: "3F2744DA9902DC7D"
@@ -550,7 +652,11 @@
 				"66143128B65A1E41"
 				"69B3D608CE068A9A"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "45052C8138D36392"
 			rewards: [{
 				id: "7ECAAEAAEDBA041A"
@@ -583,7 +689,11 @@
 				"5F85BA796A387101"
 				"69D0F6CD3B7AF70E"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "53E4AF44DAFC5D84"
 			rewards: [{
 				id: "7CC1595779B94C40"
@@ -617,7 +727,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:clock"
+				icon: {
+					Count: 1
+					id: "minecraft:clock"
+					tag: { }
+				}
 				id: "3CD607E6B7A5FC8D"
 				stat: "minecraft:play_time"
 				type: "stat"
@@ -636,7 +750,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:bell"
+				icon: {
+					Count: 1
+					id: "minecraft:bell"
+					tag: { }
+				}
 				id: "0306D0D0429614DB"
 				stat: "minecraft:bell_ring"
 				type: "stat"
@@ -655,7 +773,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:cod"
+				icon: {
+					Count: 1
+					id: "minecraft:cod"
+					tag: { }
+				}
 				id: "1B0F4F1AF7D04379"
 				stat: "minecraft:fish_caught"
 				type: "stat"
@@ -673,7 +795,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:wheat"
+				icon: {
+					Count: 1
+					id: "minecraft:wheat"
+					tag: { }
+				}
 				id: "1CFCC53E2B85440B"
 				stat: "minecraft:animals_bred"
 				type: "stat"
@@ -691,7 +817,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "moa_decor_toys:conejodorado"
+				icon: {
+					Count: 1
+					id: "moa_decor_toys:conejodorado"
+					tag: { }
+				}
 				id: "4EFA0715AF976A66"
 				stat: "minecraft:jump"
 				type: "stat"
@@ -733,7 +863,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "manyideas_halloween:gravestone"
+				icon: {
+					Count: 1
+					id: "manyideas_halloween:gravestone"
+					tag: { }
+				}
 				id: "78E7AFF982A471C6"
 				stat: "minecraft:time_since_death"
 				type: "stat"
@@ -751,7 +885,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "fantasyfurniture:decorations/venthyr_banner"
+				icon: {
+					Count: 1
+					id: "fantasyfurniture:decorations/venthyr_banner"
+					tag: { }
+				}
 				id: "5E4D8ED60EBD9757"
 				stat: "minecraft:raid_win"
 				type: "stat"
@@ -771,7 +909,11 @@
 				"79784CDDD678F116"
 				"1D1C938C5A0CA4B1"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "033211D20B09E80F"
 			rewards: [{
 				id: "15D22B14B6228DB7"
@@ -858,7 +1000,11 @@
 			}]
 			tasks: [{
 				entity: "netherite_warden:netheritewarden"
-				icon: "netherite_warden:netheritewarden_spawn_egg"
+				icon: {
+					Count: 1
+					id: "netherite_warden:netheritewarden_spawn_egg"
+					tag: { }
+				}
 				id: "46E522B7EBC74967"
 				type: "kill"
 				value: 1L
@@ -872,7 +1018,11 @@
 				""
 				"C'est un mob de Alex's Mobs : aide toi du livre du mod !"
 			]
-			icon: "alexsmobs:spawn_egg_sunbird"
+			icon: {
+				Count: 1
+				id: "alexsmobs:spawn_egg_sunbird"
+				tag: { }
+			}
 			id: "312A27B70CA3D8F5"
 			rewards: [{
 				id: "33FBC8471B0F55C1"
@@ -880,7 +1030,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "alexsmobs:spawn_egg_sunbird"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_sunbird"
+					tag: { }
+				}
 				id: "5AFCC507AC1C43A9"
 				observe_type: 5
 				timer: 0L
@@ -899,7 +1053,11 @@
 				"2316B0B134E239A0"
 				"163A8FD79B8EF495"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "5C2CF905C87DDC4D"
 			rewards: [{
 				id: "167BD422A5A4963C"
@@ -937,7 +1095,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "alexsmobs:spawn_egg_laviathan"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_laviathan"
+					tag: { }
+				}
 				id: "5FEA8F9268B2F2B6"
 				observe_type: 5
 				timer: 0L
@@ -961,7 +1123,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "alexsmobs:spawn_egg_comb_jelly"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_comb_jelly"
+					tag: { }
+				}
 				id: "3AA1CC1FB6604A09"
 				observe_type: 5
 				timer: 0L
@@ -985,7 +1151,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:netherbat_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:netherbat_spawn_egg"
+					tag: { }
+				}
 				id: "4CA5E05A5A951545"
 				observe_type: 5
 				timer: 0L
@@ -1009,7 +1179,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:acencia_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:acencia_spawn_egg"
+					tag: { }
+				}
 				id: "62A01A386E18E237"
 				observe_type: 5
 				timer: 0L
@@ -1033,7 +1207,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:direwolf_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:direwolf_spawn_egg"
+					tag: { }
+				}
 				id: "22957CBF08DC6CEF"
 				observe_type: 5
 				timer: 0L
@@ -1057,7 +1235,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:geckotoalizard_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:geckotoalizard_spawn_egg"
+					tag: { }
+				}
 				id: "193D507B4F78AFD9"
 				observe_type: 5
 				timer: 0L
@@ -1081,7 +1263,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:nudibranch_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:nudibranch_spawn_egg"
+					tag: { }
+				}
 				id: "40C593A850E52562"
 				observe_type: 5
 				timer: 0L
@@ -1105,7 +1291,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:archelon_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:archelon_spawn_egg"
+					tag: { }
+				}
 				id: "3C534130FEC22134"
 				observe_type: 5
 				timer: 0L
@@ -1129,7 +1319,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:dragon_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:dragon_spawn_egg"
+					tag: { }
+				}
 				id: "19CEAC3875861E3F"
 				observe_type: 5
 				timer: 0L
@@ -1153,7 +1347,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:griffon_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:griffon_spawn_egg"
+					tag: { }
+				}
 				id: "711DFC43E9577761"
 				observe_type: 5
 				timer: 0L
@@ -1178,7 +1376,11 @@
 			}]
 			subtitle: "As-tu vu ma grosse mite ???"
 			tasks: [{
-				icon: "mythicmounts:moth_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:moth_spawn_egg"
+					tag: { }
+				}
 				id: "75107D63DDF1D89C"
 				observe_type: 5
 				timer: 0L
@@ -1202,7 +1404,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:colelytra_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:colelytra_spawn_egg"
+					tag: { }
+				}
 				id: "4992F8F240FE4D37"
 				observe_type: 5
 				timer: 0L
@@ -1226,7 +1432,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:firebird_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:firebird_spawn_egg"
+					tag: { }
+				}
 				id: "61E274B9C3B3BDFD"
 				observe_type: 5
 				timer: 0L
@@ -1250,7 +1460,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:courierbird_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:courierbird_spawn_egg"
+					tag: { }
+				}
 				id: "276E73C214CD4949"
 				observe_type: 5
 				timer: 0L
@@ -1274,7 +1488,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "mythicmounts:nightmare_spawn_egg"
+				icon: {
+					Count: 1
+					id: "mythicmounts:nightmare_spawn_egg"
+					tag: { }
+				}
 				id: "59816DE861C441CE"
 				observe_type: 5
 				timer: 0L
@@ -1304,7 +1522,11 @@
 				"342CCCB6C46ACC0E"
 				"0DEAD4296A4BF3E3"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "37FA06C893269367"
 			rewards: [{
 				id: "3FEA9CC733B6A834"
@@ -1335,7 +1557,11 @@
 				"516311292ADE209F"
 				"0C4A894C5F5DE9E0"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "0EAF3BCFDBB219C3"
 			rewards: [{
 				id: "0E27A9ED8EA02286"
@@ -1426,10 +1652,18 @@
 				"691B08559A86147F"
 			]
 			description: ["Vous avez vaincu tout les challenges de cette page, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "modfart:challenges"
+					}
+				}
+			}
 			id: "037C630630DCBD36"
 			rewards: [{
 				id: "0EC6DAE002BD5AA8"
@@ -1464,7 +1698,11 @@
 			}]
 			tasks: [{
 				entity: "alexsmobs:dropbear"
-				icon: "alexsmobs:spawn_egg_dropbear"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_dropbear"
+					tag: { }
+				}
 				id: "458D4DD704C20CF6"
 				type: "kill"
 				value: 1L
@@ -1482,7 +1720,11 @@
 			}]
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
-				icon: "alexsmobs:spawn_egg_warped_mosco"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_warped_mosco"
+					tag: { }
+				}
 				id: "3077FD44C16C6A82"
 				type: "kill"
 				value: 1L
@@ -1500,7 +1742,11 @@
 			}]
 			tasks: [{
 				entity: "alexsmobs:froststalker"
-				icon: "alexsmobs:spawn_egg_froststalker"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_froststalker"
+					tag: { }
+				}
 				id: "7D24C73DE4D1799F"
 				type: "kill"
 				value: 1L
@@ -1518,7 +1764,11 @@
 			}]
 			tasks: [{
 				entity: "alexsmobs:skelewag"
-				icon: "alexsmobs:spawn_egg_skelewag"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_skelewag"
+					tag: { }
+				}
 				id: "69FF24F973185384"
 				type: "kill"
 				value: 1L
@@ -1536,7 +1786,11 @@
 			}]
 			tasks: [{
 				entity: "alexsmobs:soul_vulture"
-				icon: "alexsmobs:spawn_egg_soul_vulture"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_soul_vulture"
+					tag: { }
+				}
 				id: "270E3D2451ED3CC5"
 				type: "kill"
 				value: 1L
@@ -1554,7 +1808,11 @@
 			}]
 			tasks: [{
 				entity: "alexsmobs:straddler"
-				icon: "alexsmobs:spawn_egg_straddler"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_straddler"
+					tag: { }
+				}
 				id: "063294450248A9CF"
 				type: "kill"
 				value: 1L
@@ -1604,7 +1862,11 @@
 				"58E544C6EEEC746D"
 				"27D6D63776DEF23A"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "70C995C59CD6464D"
 			rewards: [{
 				id: "3A285DE6C73CB1D3"
@@ -1638,7 +1900,11 @@
 			}]
 			tasks: [{
 				entity: "cataclysm:ignis"
-				icon: "cataclysm:ignis_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignis_spawn_egg"
+					tag: { }
+				}
 				id: "6B156E48DB739FB5"
 				type: "kill"
 				value: 1L
@@ -1655,7 +1921,11 @@
 			}]
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
-				icon: "cataclysm:the_harbinger_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:the_harbinger_spawn_egg"
+					tag: { }
+				}
 				id: "69C6B3FC9A3063D0"
 				type: "kill"
 				value: 1L
@@ -1672,7 +1942,11 @@
 			}]
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:the_leviathan_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:the_leviathan_spawn_egg"
+					tag: { }
+				}
 				id: "2950621B26F7EB7F"
 				type: "kill"
 				value: 1L
@@ -1689,7 +1963,11 @@
 			}]
 			tasks: [{
 				entity: "cataclysm:ender_golem"
-				icon: "cataclysm:ender_golem_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:ender_golem_spawn_egg"
+					tag: { }
+				}
 				id: "4E33A2190C886DFF"
 				type: "kill"
 				value: 1L
@@ -1706,7 +1984,11 @@
 			}]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
-				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:netherite_monstrosity_spawn_egg"
+					tag: { }
+				}
 				id: "584A93F97D5F2A27"
 				type: "kill"
 				value: 1L
@@ -1723,7 +2005,11 @@
 			}]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
-				icon: "cataclysm:ender_guardian_spawn_egg"
+				icon: {
+					Count: 1
+					id: "cataclysm:ender_guardian_spawn_egg"
+					tag: { }
+				}
 				id: "47944962B2C8E234"
 				type: "kill"
 				value: 1L
@@ -1740,7 +2026,11 @@
 			}]
 			tasks: [{
 				entity: "minecraft:elder_guardian"
-				icon: "minecraft:elder_guardian_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:elder_guardian_spawn_egg"
+					tag: { }
+				}
 				id: "0965181A68192CA6"
 				type: "kill"
 				value: 1L
@@ -1757,7 +2047,11 @@
 				"46319736BE60D669"
 				"579E442B72717AA9"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "24F4C7D8E36DA731"
 			rewards: [{
 				id: "1450005CA2C1A091"
@@ -1791,12 +2085,20 @@
 			id: "6ED202D409F56C17"
 			rewards: [{
 				id: "0EB3CF5AC5980416"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3259403511C42FD9"
-				item: "minecraft:netherite_upgrade_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_upgrade_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -14.25d
@@ -1811,7 +2113,11 @@
 			id: "0E450A6F80F367BF"
 			rewards: [{
 				id: "09B816F08208ED16"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -1831,12 +2137,20 @@
 			id: "60EBB617FA5BC728"
 			rewards: [{
 				id: "5476C9F50B5EA13B"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "355B282C9D225EEC"
-				item: "cataclysm:ignitium_upgrade_smithing_template"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_upgrade_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -10.0d
@@ -1851,12 +2165,20 @@
 			id: "19E7C2651910B421"
 			rewards: [{
 				id: "2383ED20C200268A"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "633CBF80568AFE26"
-				item: "deeperdarker:warden_upgrade_smithing_template"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_upgrade_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -15.0d
@@ -1871,12 +2193,20 @@
 			id: "7750FA6FB525FF22"
 			rewards: [{
 				id: "2C5AE671BD87A7E4"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "445994814DCCDF9A"
-				item: "undergarden:forgotten_upgrade_smithing_template"
+				item: {
+					Count: 1
+					id: "undergarden:forgotten_upgrade_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -10.75d
@@ -1893,7 +2223,11 @@
 				"42C411E4D4BF1D4B"
 				"70B16BAFB8FC38B6"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "6375843F4F3B6930"
 			rewards: [{
 				id: "0BF93E785A1307FE"
@@ -1927,12 +2261,20 @@
 			id: "2A817959EE93B5C4"
 			rewards: [{
 				id: "3581DDB5DC81D55B"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2B933C1999E7893E"
-				item: "minecraft:sentry_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:sentry_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 19.75d
@@ -1947,12 +2289,20 @@
 			id: "545A59265DFBE479"
 			rewards: [{
 				id: "6F008E97C45DE7DD"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4A4787A2344AB4BB"
-				item: "minecraft:vex_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:vex_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 19.0d
@@ -1967,12 +2317,20 @@
 			id: "238AB378DEBBD67B"
 			rewards: [{
 				id: "4456C42C76BEFE56"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "339D14F80B36FF6A"
-				item: "minecraft:wild_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:wild_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 10.25d
@@ -1987,12 +2345,20 @@
 			id: "13F15642CC361DF9"
 			rewards: [{
 				id: "1495E6A158EBFF5F"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2BD092FB407D4009"
-				item: "minecraft:coast_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:coast_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 13.5d
@@ -2007,12 +2373,20 @@
 			id: "4E9012CDD90910A7"
 			rewards: [{
 				id: "35B855B0B77B8B07"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3A28A8D6708E53D7"
-				item: "minecraft:dune_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:dune_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 17.0d
@@ -2027,12 +2401,20 @@
 			id: "3BB26317CF267253"
 			rewards: [{
 				id: "4A71BAED23355D6E"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "16AD2A4120D7F0AF"
-				item: "minecraft:wayfinder_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:wayfinder_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 12.0d
@@ -2047,12 +2429,20 @@
 			id: "6D78EB5AD15FCA50"
 			rewards: [{
 				id: "33E3E69FD92A992D"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "649B05D56A4B8B72"
-				item: "minecraft:raiser_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:raiser_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 16.5d
@@ -2067,12 +2457,20 @@
 			id: "66E08B3723D1EFF9"
 			rewards: [{
 				id: "5C4FED2370E9D1C7"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4E18CE8A5C83DE42"
-				item: "minecraft:shaper_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:shaper_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 14.0d
@@ -2087,12 +2485,20 @@
 			id: "57B661D7B4FA0855"
 			rewards: [{
 				id: "74D99FF99DD32ECB"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "69CC9EE781852EB3"
-				item: "minecraft:host_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:host_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 11.0d
@@ -2107,12 +2513,20 @@
 			id: "0A6E6401C7D23DF4"
 			rewards: [{
 				id: "02E286501B177192"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3D5E6BCA5AC372B1"
-				item: "minecraft:ward_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:ward_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 18.0d
@@ -2127,12 +2541,20 @@
 			id: "258F6423267E2D27"
 			rewards: [{
 				id: "272891CDEB338FF1"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "69477CF5C64BAB40"
-				item: "minecraft:silence_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:silence_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 19.0d
@@ -2147,12 +2569,20 @@
 			id: "5C6BD07D09B30029"
 			rewards: [{
 				id: "197FE0C36A18F538"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "12BC95E7291CAA4C"
-				item: "minecraft:tide_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:tide_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 11.75d
@@ -2167,12 +2597,20 @@
 			id: "171311274564A725"
 			rewards: [{
 				id: "00DFB931CF0ED91B"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3A112389E8AF0597"
-				item: "minecraft:snout_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:snout_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 18.0d
@@ -2187,12 +2625,20 @@
 			id: "6A93DC468A2C4CEC"
 			rewards: [{
 				id: "4B5C504AE8618468"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7C61AC77A7C36905"
-				item: "minecraft:rib_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:rib_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 15.0d
@@ -2207,12 +2653,20 @@
 			id: "5E78683D3406FE58"
 			rewards: [{
 				id: "783ED80A9364F1FD"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "20AA24CD3415F26D"
-				item: "minecraft:eye_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:eye_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 16.0d
@@ -2227,12 +2681,20 @@
 			id: "2076B31BBA5E0E7B"
 			rewards: [{
 				id: "082E67A2AC645F06"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "457D97508169D479"
-				item: "minecraft:spire_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "minecraft:spire_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 13.0d
@@ -2247,12 +2709,20 @@
 			id: "18064F4A29A31627"
 			rewards: [{
 				id: "18FE743E9253B2E1"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "37A0AB13C3B9DBE9"
-				item: "lost_aether_content:noble_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "lost_aether_content:noble_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 11.0d
@@ -2288,7 +2758,11 @@
 				"50D41572C0B7338B"
 				"0140993875763B1B"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "691B08559A86147F"
 			rewards: [{
 				id: "5352D2B852531180"
@@ -2386,7 +2860,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:allay_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:allay_spawn_egg"
+					tag: { }
+				}
 				id: "0FB95DB4CB41789B"
 				observe_type: 5
 				timer: 0L
@@ -2406,7 +2884,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:axolotl_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:axolotl_spawn_egg"
+					tag: { }
+				}
 				id: "712256E25410CE87"
 				observe_type: 5
 				timer: 0L
@@ -2426,7 +2908,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:bee_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:bee_spawn_egg"
+					tag: { }
+				}
 				id: "3B26EE4C665CFE40"
 				observe_type: 5
 				timer: 0L
@@ -2446,7 +2932,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:camel_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:camel_spawn_egg"
+					tag: { }
+				}
 				id: "1578F433784E836B"
 				observe_type: 5
 				timer: 0L
@@ -2466,7 +2956,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:fox_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:fox_spawn_egg"
+					tag: { }
+				}
 				id: "390EC5CB72B8E3AF"
 				observe_type: 5
 				timer: 0L
@@ -2486,7 +2980,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:frog_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:frog_spawn_egg"
+					tag: { }
+				}
 				id: "6D74A2F371A6CAB1"
 				observe_type: 5
 				timer: 0L
@@ -2506,7 +3004,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:goat_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:goat_spawn_egg"
+					tag: { }
+				}
 				id: "212807F57E9F8DD1"
 				observe_type: 5
 				timer: 0L
@@ -2526,7 +3028,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:mooshroom_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:mooshroom_spawn_egg"
+					tag: { }
+				}
 				id: "739DE6358B3DD62A"
 				observe_type: 5
 				timer: 0L
@@ -2550,7 +3056,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:mule_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:mule_spawn_egg"
+					tag: { }
+				}
 				id: "07189E728BBF9055"
 				observe_type: 5
 				timer: 0L
@@ -2570,7 +3080,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:panda_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:panda_spawn_egg"
+					tag: { }
+				}
 				id: "2878B201097FBE29"
 				observe_type: 5
 				timer: 0L
@@ -2590,7 +3104,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:parrot_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:parrot_spawn_egg"
+					tag: { }
+				}
 				id: "4A2FED7D73682286"
 				observe_type: 5
 				timer: 0L
@@ -2610,7 +3128,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:polar_bear_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:polar_bear_spawn_egg"
+					tag: { }
+				}
 				id: "10E69806F7B8E34E"
 				observe_type: 5
 				timer: 0L
@@ -2634,7 +3156,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:sniffer_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:sniffer_spawn_egg"
+					tag: { }
+				}
 				id: "02C94640D38992A3"
 				observe_type: 5
 				timer: 0L
@@ -2664,7 +3190,11 @@
 				"60EA0434B7635560"
 				"00488E8EFB4B5870"
 			]
-			icon: "ars_elemental:glyph_conjure_terrain"
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "4F5CA2714BD5C73A"
 			rewards: [{
 				id: "11E7F794A8494865"
@@ -2698,7 +3228,11 @@
 				xp: 200
 			}]
 			tasks: [{
-				icon: "minecraft:strider_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:strider_spawn_egg"
+					tag: { }
+				}
 				id: "03924A648174D497"
 				observe_type: 5
 				timer: 0L
@@ -2713,7 +3247,11 @@
 			description: ["Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"]
 			id: "00488E8EFB4B5870"
 			tasks: [{
-				icon: "minecraft:bat_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:bat_spawn_egg"
+					tag: { }
+				}
 				id: "0CBA24E277F8F1DE"
 				observe_type: 3
 				timer: 0L
@@ -2728,7 +3266,11 @@
 			description: ["Pour cette quête, il vous faudra trouver la créature en question et vous en approcher de très près !"]
 			id: "60EA0434B7635560"
 			tasks: [{
-				icon: "minecraft:dolphin_spawn_egg"
+				icon: {
+					Count: 1
+					id: "minecraft:dolphin_spawn_egg"
+					tag: { }
+				}
 				id: "1FC0D5172909392C"
 				observe_type: 3
 				timer: 0L
@@ -2748,12 +3290,20 @@
 			id: "70B16BAFB8FC38B6"
 			rewards: [{
 				id: "35071ACE7E3F7F05"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "2933F547C949A54F"
-				item: "endlessbiomes:anklor_upgrade_template"
+				item: {
+					Count: 1
+					id: "endlessbiomes:anklor_upgrade_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -12.5d
@@ -2768,7 +3318,11 @@
 			id: "71435DC3EE7431F0"
 			rewards: [{
 				id: "08B0C52887B67CFA"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -2788,12 +3342,20 @@
 			id: "42C411E4D4BF1D4B"
 			rewards: [{
 				id: "6C45F453CE92BDD0"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "102A8102E4E9B234"
-				item: "enlightened_end:adamantite_smithing_template"
+				item: {
+					Count: 1
+					id: "enlightened_end:adamantite_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -14.25d
@@ -2808,12 +3370,20 @@
 			id: "2565B5621136B39E"
 			rewards: [{
 				id: "1338116BABB96098"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "3AE5F0CADBB577A2"
-				item: "ancient_aether:wynd_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:wynd_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2829,12 +3399,20 @@
 			id: "7CA9B9AE977DC82D"
 			rewards: [{
 				id: "2C3BE905A9247E0F"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "348F8C372F18479F"
-				item: "ancient_aether:whale_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:whale_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2850,12 +3428,20 @@
 			id: "50D41572C0B7338B"
 			rewards: [{
 				id: "382CA005B26556CA"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0247E4A21EE74F96"
-				item: "ancient_aether:ascended_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:ascended_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2871,12 +3457,20 @@
 			id: "0140993875763B1B"
 			rewards: [{
 				id: "3B5CE836C3E665C4"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5F752A2C00CC57E4"
-				item: "ancient_aether:mysterious_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:mysterious_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2892,12 +3486,20 @@
 			id: "05570ADE7D9B2F16"
 			rewards: [{
 				id: "7ACF4BC1697B294D"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1EA0FF5BDFC0F6AB"
-				item: "ancient_aether:mechanical_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:mechanical_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2913,12 +3515,20 @@
 			id: "331C8BEDDCF95A05"
 			rewards: [{
 				id: "68BB86AF7892BEE8"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "0AAE35E8C89F1233"
-				item: "ancient_aether:mosaic_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:mosaic_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2934,12 +3544,20 @@
 			id: "5972093ED69C2F63"
 			rewards: [{
 				id: "470D2DDC8B0A5237"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1251075B18B40D10"
-				item: "ancient_aether:royal_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:royal_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2955,12 +3573,20 @@
 			id: "603BB34530DF2133"
 			rewards: [{
 				id: "4771176383E75C3A"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "443322204156EB94"
-				item: "ancient_aether:solar_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:solar_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2976,12 +3602,20 @@
 			id: "4F4793FF86FA066F"
 			rewards: [{
 				id: "2E40341076F939F1"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1B4BCE973CC6C418"
-				item: "ancient_aether:ancient_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "ancient_aether:ancient_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
@@ -2997,18 +3631,91 @@
 			id: "08F4FF5534F21140"
 			rewards: [{
 				id: "5EEF21DEF192D6C2"
-				item: "minecraft:diamond_block"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "081C2E74A222639F"
-				item: "alexscaves:polarity_armor_trim_smithing_template"
+				item: {
+					Count: 1
+					id: "alexscaves:polarity_armor_trim_smithing_template"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Smithing Template"
 			x: 18.5d
 			y: 3.0d
 		}
+		{
+			dependencies: [
+				"4F0B54F99C1BCE13"
+				"059BEB58FB3FC0BE"
+				"383B04404B89D590"
+				"099D0FE0FAA03003"
+				"6EC732A089E5CD17"
+				"4079C7932F157ED3"
+				"2EFF282A128795B7"
+				"4868ED2E31D3176D"
+				"0D6D491F39548B2B"
+				"6271296096BCCA9E"
+				"5DF0C2F68E697CE0"
+				"26D39E06E8465892"
+				"0925D630B3664052"
+				"43E7C7C45777EEC8"
+				"2356585E6A5D9F40"
+				"5F7E9B912BECF808"
+				"1AD67F2DA6567C4B"
+				"2DD6870878DD4EB9"
+				"3FC2670D3737E0C1"
+				"068C7694CEE6F3A9"
+				"37D2C5346F1E2268"
+				"4BA79256D302E8C9"
+				"20195D0EA93EBC9D"
+				"424DB1F193535D62"
+				"1E4A0D9CD15A7A76"
+				"24E1735F38706CB8"
+				"12E57F1F1A098459"
+			]
+			description: ["Vous avez créé tous les rings, félicitations !"]
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/ftbquests/modfart.png"
+				}
+			}
+			id: "6F5E6255C287938E"
+			rewards: [{
+				id: "4004B3523B77719A"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "modfart:rings"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes des rings complétées !"
+			tasks: [{
+				id: "24521D4CCB671272"
+				type: "checkmark"
+			}]
+			title: "Rings terminé !"
+			x: -11.5d
+			y: -12.0d
+		}
 	]
-	title: "Challenges"
+	title: "Extra - Défis"
 }

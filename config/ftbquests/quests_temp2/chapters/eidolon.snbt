@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "eidolon"
 	group: "6FCD3535E8BFAB91"
-	icon: "eidolon:research_table"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "eidolon:block/worktable_top"
+		}
+	}
 	id: "733ED6B00434BF56"
 	images: [
 		{
@@ -31,14 +37,22 @@
 			id: "2E0209CAD5489350"
 			rewards: [{
 				id: "4BCF4ABCBBA73182"
-				item: "minecraft:rotten_flesh"
+				item: {
+					Count: 1
+					id: "minecraft:rotten_flesh"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "283D02588D6F989D"
-				item: "eidolon:codex"
+				item: {
+					Count: 1
+					id: "eidolon:codex"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -50,13 +64,21 @@
 			id: "20FB2B0FEDBA1FB1"
 			rewards: [{
 				id: "4C2A9AF794019B1B"
-				item: "eidolon:pewter_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:pewter_ingot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "5BD69C91F8FE88DA"
-				item: "eidolon:pewter_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:pewter_ingot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -64,7 +86,11 @@
 		}
 		{
 			description: ["Eidolon est un mod de magie qui utilise les morts vivants pour fonctionner. &l&4&nPrécision&r :&r&r ce mod est en Work in Progress, mais est suffisament complet déjà pour vous proposer une bonne expérience :) Des majs seront faites régulièrement, donc cette section changera probablement à l'avenir !"]
-			icon: "ars_nouveau:glyph_redstone_signal"
+			icon: {
+				Count: 1
+				id: "ars_nouveau:glyph_redstone_signal"
+				tag: { }
+			}
 			id: "14CCDBB76C3D0623"
 			rewards: [{
 				id: "4386AB4360CE0872"
@@ -95,13 +121,21 @@
 			id: "0C320D6E7D493E7E"
 			rewards: [{
 				id: "3CD6DF372280E6CA"
-				item: "minecraft:water_bucket"
+				item: {
+					Count: 1
+					id: "minecraft:water_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "289B6553EC934796"
-				item: "eidolon:crucible"
+				item: {
+					Count: 1
+					id: "eidolon:crucible"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 1.75d
@@ -125,25 +159,41 @@
 			id: "3668FAE7C03A0424"
 			rewards: [{
 				id: "7CF58A75C32E9D93"
-				item: "moa_decor_toys:piglin"
+				item: {
+					Count: 1
+					id: "moa_decor_toys:piglin"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [
 				{
 					id: "4B6647FED22EFCF1"
-					item: "eidolon:brazier"
+					item: {
+						Count: 1
+						id: "eidolon:brazier"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "2F039CEEA0438609"
-					item: "eidolon:stone_hand"
+					item: {
+						Count: 1
+						id: "eidolon:stone_hand"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0696A645DAA86AEE"
-					item: "eidolon:necrotic_focus"
+					item: {
+						Count: 1
+						id: "eidolon:necrotic_focus"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -157,13 +207,21 @@
 			rewards: [{
 				count: 2
 				id: "7FA7214E0025569F"
-				item: "eidolon:arcane_gold_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:arcane_gold_ingot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "51A49C1980753B63"
-				item: "eidolon:arcane_gold_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:arcane_gold_ingot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.75d
@@ -174,12 +232,20 @@
 			id: "6A6D995D5B05B0EA"
 			rewards: [{
 				id: "2C7D06C5B6528C41"
-				item: "eidolon:zombie_heart"
+				item: {
+					Count: 1
+					id: "eidolon:zombie_heart"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1D7BB4896E3983B7"
-				item: "eidolon:zombie_heart"
+				item: {
+					Count: 1
+					id: "eidolon:zombie_heart"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.25d
@@ -190,12 +256,20 @@
 			id: "523696BEF0B2A7F2"
 			rewards: [{
 				id: "298D72B0A6A51C40"
-				item: "eidolon:imbued_bones"
+				item: {
+					Count: 1
+					id: "eidolon:imbued_bones"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7111BFB716065F03"
-				item: "eidolon:imbued_bones"
+				item: {
+					Count: 1
+					id: "eidolon:imbued_bones"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.25d
@@ -206,12 +280,20 @@
 			id: "380F9FB68C68CB1A"
 			rewards: [{
 				id: "711A0FEB3EE3F50A"
-				item: "eidolon:wraith_heart"
+				item: {
+					Count: 1
+					id: "eidolon:wraith_heart"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7255FA1E3E24B58B"
-				item: "eidolon:wraith_heart"
+				item: {
+					Count: 1
+					id: "eidolon:wraith_heart"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.25d
@@ -226,7 +308,11 @@
 			id: "36E8FBC562A3152B"
 			rewards: [{
 				id: "50EB5A306B00C3AE"
-				item: "eidolon:illwood_sapling"
+				item: {
+					Count: 1
+					id: "eidolon:illwood_sapling"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -248,12 +334,20 @@
 			id: "111D0BF551B13648"
 			rewards: [{
 				id: "2AD6283A8008107F"
-				item: "minecraft:beetroot_seeds"
+				item: {
+					Count: 1
+					id: "minecraft:beetroot_seeds"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "313EE2C49E4BD3EE"
-				item: "eidolon:raven_feather"
+				item: {
+					Count: 1
+					id: "eidolon:raven_feather"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.25d
@@ -265,13 +359,21 @@
 			rewards: [{
 				count: 16
 				id: "1942A6216566BFFB"
-				item: "eidolon:enchanted_ash"
+				item: {
+					Count: 1
+					id: "eidolon:enchanted_ash"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "122CAA614B9E4AFB"
-				item: "eidolon:enchanted_ash"
+				item: {
+					Count: 1
+					id: "eidolon:enchanted_ash"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -284,13 +386,21 @@
 			rewards: [{
 				count: 4
 				id: "46ABE6F979E78F50"
-				item: "eidolon:elder_bricks"
+				item: {
+					Count: 1
+					id: "eidolon:elder_bricks"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 4L
 				id: "25BDBAA13C4A74AD"
-				item: "eidolon:elder_bricks"
+				item: {
+					Count: 1
+					id: "eidolon:elder_bricks"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 3.25d
@@ -301,12 +411,20 @@
 			id: "0F43B376D52632C4"
 			rewards: [{
 				id: "4709CC31BC17FC08"
-				item: "eidolon:tallow"
+				item: {
+					Count: 1
+					id: "eidolon:tallow"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4F54F025BFDE6DF4"
-				item: "eidolon:tallow"
+				item: {
+					Count: 1
+					id: "eidolon:tallow"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -318,14 +436,22 @@
 			id: "3C400BA0BCB37A8C"
 			rewards: [{
 				id: "28F2ABB268CAD3AA"
-				item: "eidolon:pewter_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:pewter_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "28288F14659E558C"
-				item: "eidolon:worktable"
+				item: {
+					Count: 1
+					id: "eidolon:worktable"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.5d
@@ -346,7 +472,11 @@
 			id: "53630E47923BFBE9"
 			rewards: [{
 				id: "464B4418284CB6A9"
-				item: "eidolon:pewter_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:pewter_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -370,29 +500,49 @@
 			id: "3C555FCF91A35FE0"
 			rewards: [{
 				id: "1F9FDE2250E1B925"
-				item: "bakery:strawberry_seeds"
+				item: {
+					Count: 1
+					id: "bakery:strawberry_seeds"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "4AAFFB61E009664A"
-					item: "eidolon:sildrian_seed"
+					item: {
+						Count: 1
+						id: "eidolon:sildrian_seed"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "7463F05B63BDC96A"
-					item: "eidolon:oanna_bloom"
+					item: {
+						Count: 1
+						id: "eidolon:oanna_bloom"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "6161D06D258635D5"
-					item: "eidolon:avennian_sprig"
+					item: {
+						Count: 1
+						id: "eidolon:avennian_sprig"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2E9916862E15BFEB"
-					item: "eidolon:merammer_root"
+					item: {
+						Count: 1
+						id: "eidolon:merammer_root"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -406,13 +556,21 @@
 			id: "0A4CCC56FD0A80E4"
 			rewards: [{
 				id: "3EC602A5A0BE6C9A"
-				item: "eidolon:planter"
+				item: {
+					Count: 1
+					id: "eidolon:planter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			subtitle: "C'est moi qui les ai planté ! Planté !!"
 			tasks: [{
 				id: "5E8D8EC7B4E61F41"
-				item: "eidolon:planter"
+				item: {
+					Count: 1
+					id: "eidolon:planter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -7.25d
@@ -453,7 +611,11 @@
 			id: "7CEB343BD90109FF"
 			rewards: [{
 				id: "7D43A835C6EA7E5E"
-				item: "minecraft:blue_ice"
+				item: {
+					Count: 1
+					id: "minecraft:blue_ice"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -490,7 +652,11 @@
 			id: "7AA771134AF0145E"
 			rewards: [{
 				id: "142D7BBC8CB83820"
-				item: "eidolon:pewter_ingot"
+				item: {
+					Count: 1
+					id: "eidolon:pewter_ingot"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -546,7 +712,11 @@
 			id: "317F7BBD34AFD810"
 			rewards: [{
 				id: "372156B63E50CA54"
-				item: "minecraft:creeper_head"
+				item: {
+					Count: 1
+					id: "minecraft:creeper_head"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
@@ -569,13 +739,21 @@
 			id: "0A075A71FA5F7FE7"
 			rewards: [{
 				id: "3E2F7A47BB7E2D66"
-				item: "eidolon:soul_shard"
+				item: {
+					Count: 1
+					id: "eidolon:soul_shard"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "280FBE7768574411"
-				item: "eidolon:prestigious_palm"
+				item: {
+					Count: 1
+					id: "eidolon:prestigious_palm"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.75d
@@ -599,7 +777,11 @@
 			}]
 			tasks: [{
 				id: "51750465A2BA7E48"
-				item: "eidolon:angels_sight"
+				item: {
+					Count: 1
+					id: "eidolon:angels_sight"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.25d
@@ -615,13 +797,21 @@
 			id: "05B7A2CF9E87E928"
 			rewards: [{
 				id: "5C2FD43869CA0E08"
-				item: "eidolon:pewter_inlay"
+				item: {
+					Count: 1
+					id: "eidolon:pewter_inlay"
+					tag: { }
+				}
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				id: "5E6993C9C39550F2"
-				item: "eidolon:unholy_symbol"
+				item: {
+					Count: 1
+					id: "eidolon:unholy_symbol"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -639,7 +829,11 @@
 			id: "0867D34E600BDEDA"
 			rewards: [{
 				id: "0B39608C77E1A5C9"
-				item: "minecraft:purple_dye"
+				item: {
+					Count: 1
+					id: "minecraft:purple_dye"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
@@ -688,13 +882,21 @@
 			id: "5F20886483DF1D6F"
 			rewards: [{
 				id: "33BFD43C55C34C2B"
-				item: "mob_grinding_utils:solid_xp_baby"
+				item: {
+					Count: 1
+					id: "mob_grinding_utils:solid_xp_baby"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "21D53F762011FE1E"
-				item: "eidolon:mind_shielding_plate"
+				item: {
+					Count: 1
+					id: "eidolon:mind_shielding_plate"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -706,12 +908,20 @@
 			id: "480141C6B970672E"
 			rewards: [{
 				id: "30142C3A5B9076E2"
-				item: "supplementaries:feather_block"
+				item: {
+					Count: 1
+					id: "supplementaries:feather_block"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "6D5FFD2FD9279C16"
-				item: "eidolon:gravity_belt"
+				item: {
+					Count: 1
+					id: "eidolon:gravity_belt"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -734,7 +944,11 @@
 			}]
 			tasks: [{
 				id: "4CBC9C89E231B717"
-				item: "eidolon:resolute_belt"
+				item: {
+					Count: 1
+					id: "eidolon:resolute_belt"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.75d
@@ -746,13 +960,21 @@
 			id: "19D1203A792EADCF"
 			rewards: [{
 				id: "2487EF6CCDFC7EB6"
-				item: "monsterplus:crystal_arrow"
+				item: {
+					Count: 1
+					id: "monsterplus:crystal_arrow"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "5EB9198FA74BDAE8"
-				item: "eidolon:void_amulet"
+				item: {
+					Count: 1
+					id: "eidolon:void_amulet"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -6.25d
@@ -764,12 +986,20 @@
 			id: "53192DD8FF157CB2"
 			rewards: [{
 				id: "47EFEED6607A1026"
-				item: "candlelight:hearth"
+				item: {
+					Count: 1
+					id: "candlelight:hearth"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "4A36B0A7D0C585C5"
-				item: "eidolon:soulbone_amulet"
+				item: {
+					Count: 1
+					id: "eidolon:soulbone_amulet"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -792,7 +1022,11 @@
 			}]
 			tasks: [{
 				id: "23F030C291B65D12"
-				item: "eidolon:glass_hand"
+				item: {
+					Count: 1
+					id: "eidolon:glass_hand"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.25d
@@ -815,7 +1049,11 @@
 			}]
 			tasks: [{
 				id: "7E9EBDCA670EFEF9"
-				item: "eidolon:sanguine_amulet"
+				item: {
+					Count: 1
+					id: "eidolon:sanguine_amulet"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.75d
@@ -827,13 +1065,21 @@
 			id: "33ED17964C649450"
 			rewards: [{
 				id: "02A6A64B7E3AF4DA"
-				item: "minecraft:phantom_membrane"
+				item: {
+					Count: 1
+					id: "minecraft:phantom_membrane"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "00C240A77CC010E9"
-				item: "eidolon:raven_cloak"
+				item: {
+					Count: 1
+					id: "eidolon:raven_cloak"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.25d
@@ -854,12 +1100,20 @@
 			rewards: [
 				{
 					id: "5F18B8744E100615"
-					item: "eidolon:obelisk"
+					item: {
+						Count: 1
+						id: "eidolon:obelisk"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "78EDF9412DDB5173"
-					item: "eidolon:plinth"
+					item: {
+						Count: 1
+						id: "eidolon:plinth"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -868,17 +1122,29 @@
 				{
 					count: 6L
 					id: "38107AE228069F25"
-					item: "eidolon:stone_altar"
+					item: {
+						Count: 1
+						id: "eidolon:stone_altar"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2DB8D7E2FBAC6DA6"
-					item: "eidolon:goblet"
+					item: {
+						Count: 1
+						id: "eidolon:goblet"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "6268B29E200FE1A6"
-					item: "eidolon:straw_effigy"
+					item: {
+						Count: 1
+						id: "eidolon:straw_effigy"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -914,9 +1180,13 @@
 				"0A075A71FA5F7FE7"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "63D0CA801B0BA5E6"
 			rewards: [{
 				id: "4D5087FD1231B7D5"
@@ -933,9 +1203,9 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "4D4276B18572EBAA"
-				title: "Eidolon fini !"
 				type: "checkmark"
 			}]
 			title: "Eidolon complété !"

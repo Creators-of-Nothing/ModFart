@@ -112,16 +112,18 @@
 		}
 		{
 			description: [
-				"Ce livre de quête m'a pris plusieurs dizaines d'heures à réaliser. De nombreuses informations s'y trouvent. Egalement, certains mods ont réalisé leur propre livre d'explication (cependant, ils sont en anglais)."
+				"Ce livre de quête m'a pris &4plusieurs dizaines&r d'heures à réaliser. De nombreuses informations s'y trouvent. Egalement, certains mods ont réalisé leur propre livre d'explication (cependant, ils sont en anglais)."
 				""
 				"N'hésitez pas à jeter un oeil aux différentes quêtes. La &4curiosité&r sera votre meilleure arme pour venir à bout de ce modpack."
 				""
 				"Je vous offre un livre qui contient tout les livres que les moddeurs ont créé pour leur mod. Vous pouvez faire un clic droit puis sélectionner un des livres pour le lire en faisant un clic droit. Un clic gauche, et vous récupérerez l'&4Eccentric Tome&r."
+				""
+				"Si vous souhaitez y ajouter le &4livre de quête&r, vous devez placer l'&4Eccentric Tome&r et le livre de quête dans une table de craft."
 			]
 			icon: "ars_nouveau:glyph_redstone_signal"
 			id: "58BD74FB35B5D80F"
 			rewards: [{
-				id: "2A3BD6BD1E3AE65D"
+				id: "1328CC5C276BB956"
 				item: {
 					Count: 1
 					id: "eccentrictome:tome"
@@ -169,16 +171,6 @@
 									}
 								}
 							}
-							cookingforblockheads: {
-								0: {
-									Count: 1b
-									id: "cookingforblockheads:crafting_book"
-								}
-								1: {
-									Count: 1b
-									id: "cookingforblockheads:recipe_book"
-								}
-							}
 							cyclic: {
 								0: {
 									Count: 1b
@@ -212,6 +204,15 @@
 									}
 								}
 							}
+							modularrouters: {
+								0: {
+									Count: 1b
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
 							parcool: {
 								0: {
 									Count: 1b
@@ -219,6 +220,12 @@
 									tag: {
 										"patchouli:book": "parcool:parcool_guide"
 									}
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1b
+									id: "rftoolsbase:manual"
 								}
 							}
 							sebastrnlib: {
@@ -1310,7 +1317,7 @@
 		}
 		{
 			dependencies: ["2C637CDAFCC6EBC8"]
-			description: ["L'item &4ultime&r du jeu. Permet de dupliquer tout et n'importe quoi. Il suffit de faire un clic droit avec l'item sur la &4Bin&r, puis de sortir les items à dupliquer avec un câble. Si vous envoyez un item dans une &4Creative Bin&r vide, elle le jetera."]
+			description: ["Les items &4ultimes&r du jeu. Vous pourrez retrouver plus d'infos sur ces objets dans les quêtes Creative."]
 			id: "59DDEA26787009D9"
 			rewards: [{
 				id: "3A6A39AEB4D3C793"
@@ -1319,12 +1326,29 @@
 			}]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "L'item ULTIME"
-			tasks: [{
-				id: "5BE1C466D1EB7B9F"
-				item: "mekanism:creative_bin"
-				type: "item"
-			}]
+			subtitle: "Les items ULTIMES"
+			tasks: [
+				{
+					id: "5BE1C466D1EB7B9F"
+					item: "mekanism:creative_bin"
+					type: "item"
+				}
+				{
+					id: "0B9DAE36C9CF4D86"
+					item: "sophisticatedstorage:survival_infinity_upgrade"
+					type: "item"
+				}
+				{
+					id: "0F54DD6DE789378A"
+					item: "sophisticatedbackpacks:survival_infinity_upgrade"
+					type: "item"
+				}
+				{
+					id: "6663890DE7B7F7FF"
+					item: "modularrouters:creative_module"
+					type: "item"
+				}
+			]
 			x: 9.375d
 			y: 7.5d
 		}
@@ -1443,6 +1467,8 @@
 			description: [
 				"Il existe pleins de mods de nourriture ! N'hésitez pas à en manger un maximum ! Vous pouvez voir celles que vous avez mangés ou non grâce au &4Food Book&r !"
 				""
+				"&4Note&r : Pour faire la Mousse au chocolat, tu dois poser le &4Cooking Pot&r sur un &4Stove&r du mod &2Candlelight&r."
+				""
 				"&n&4Rappel&r&r : Toutes les 10 nourritures, tu gagnes un coeur."
 			]
 			id: "30A56ACFEF93654D"
@@ -1471,9 +1497,9 @@
 					id: "585EA64E08FF630E"
 					item: {
 						Count: 1
-						id: "vinery:knulp_wine"
+						id: "vinery:jellie_wine"
 						tag: {
-							Year: 1
+							Year: 0
 						}
 					}
 					type: "item"
@@ -1484,24 +1510,8 @@
 					type: "item"
 				}
 				{
-					id: "5AE08C1388A8796A"
-					item: {
-						Count: 1
-						id: "create_confectionery:full_black_chocolate_bar"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "7DF346B32D5B41AA"
 					item: "ends_delight:ender_noodle"
-					type: "item"
-				}
-				{
-					id: "13FDCD86815984F7"
-					item: "nifty:cheese"
 					type: "item"
 				}
 				{
@@ -1512,6 +1522,16 @@
 				{
 					id: "011DC909F4BA40E8"
 					item: "drinkbeer:beer_mug_pumpkin_kvass"
+					type: "item"
+				}
+				{
+					id: "7D8FF246D1C6F5A3"
+					item: "nifty:applepie"
+					type: "item"
+				}
+				{
+					id: "12E804DC0FE4C857"
+					item: "create_central_kitchen:chocolate_cake_slice"
 					type: "item"
 				}
 			]
@@ -1545,8 +1565,8 @@
 				""
 				"Si vous avez accompli tout les chapitres, pensez à vous rendre dans le chapitre &4\"Bienvenue\"&r pour recevoir votre ultime récompense."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_elemental:glyph_conjure_terrain"
 			id: "7E8F5FDC2370D200"
 			rewards: [{

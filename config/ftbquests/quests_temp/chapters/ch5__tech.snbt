@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ch5__tech"
+	group: "520987ECA1C88A3B"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "chisel_chipped_integration:block/technical_transparent_fan_side"
+		}
+	}
+	id: "3BAC8B1AB854C345"
+	order_index: 5
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ch.5 - Tech"
+}

@@ -5,11 +5,9 @@
 	group: "7798244B59ABC64D"
 	icon: {
 		Count: 1
-		id: "ironfurnaces:million_furnace"
+		id: "ftbquests:custom_icon"
 		tag: {
-			display: {
-				Name: "{\"extra\":[{\"color\":\"blue\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"yellow\",\"text\":\"b\"},{\"color\":\"green\",\"text\":\"o\"},{\"color\":\"light_purple\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"red\",\"text\":\"e\"}],\"text\":\"\"}"
-			}
+			Icon: "ironfurnaces:block/million_furnace_front_on_smoke"
 		}
 	}
 	id: "235AB90CD226C9B0"
@@ -47,12 +45,20 @@
 			id: "00DDE2EAFB75E375"
 			rewards: [{
 				id: "5FAE8A14C518BF5F"
-				item: "trashcans:liquid_trash_can"
+				item: {
+					Count: 1
+					id: "trashcans:liquid_trash_can"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "72D91E51CC1CE968"
-				item: "trashcans:item_trash_can"
+				item: {
+					Count: 1
+					id: "trashcans:item_trash_can"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -2.5d
@@ -68,7 +74,11 @@
 			}]
 			tasks: [{
 				id: "2C7DF2806AEFA1D8"
-				item: "pipez:wrench"
+				item: {
+					Count: 1
+					id: "pipez:wrench"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -81,13 +91,21 @@
 			rewards: [{
 				count: 16
 				id: "73ADDE0388B0DEEF"
-				item: "pipez:item_pipe"
+				item: {
+					Count: 1
+					id: "pipez:item_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "7B0DAACFDF66D0C3"
-				item: "pipez:item_pipe"
+				item: {
+					Count: 1
+					id: "pipez:item_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -100,13 +118,21 @@
 			rewards: [{
 				count: 16
 				id: "257627CE73FADE13"
-				item: "pipez:fluid_pipe"
+				item: {
+					Count: 1
+					id: "pipez:fluid_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "0F9469EFB85EB766"
-				item: "pipez:fluid_pipe"
+				item: {
+					Count: 1
+					id: "pipez:fluid_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -119,13 +145,21 @@
 			rewards: [{
 				count: 16
 				id: "63BCAE4606FB1160"
-				item: "pipez:energy_pipe"
+				item: {
+					Count: 1
+					id: "pipez:energy_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "6977F2DC1A19D4EB"
-				item: "pipez:energy_pipe"
+				item: {
+					Count: 1
+					id: "pipez:energy_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -138,13 +172,21 @@
 			rewards: [{
 				count: 16
 				id: "4D5A98B6CC1C3206"
-				item: "pipez:gas_pipe"
+				item: {
+					Count: 1
+					id: "pipez:gas_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 16L
 				id: "1361E32329049726"
-				item: "pipez:gas_pipe"
+				item: {
+					Count: 1
+					id: "pipez:gas_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.25d
@@ -162,13 +204,21 @@
 			rewards: [{
 				count: 6
 				id: "562110467BA64A53"
-				item: "pipez:universal_pipe"
+				item: {
+					Count: 1
+					id: "pipez:universal_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				count: 6L
 				id: "0DA20383B28D86F8"
-				item: "pipez:universal_pipe"
+				item: {
+					Count: 1
+					id: "pipez:universal_pipe"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.75d
@@ -187,28 +237,48 @@
 			id: "609152026FB10BB6"
 			rewards: [{
 				id: "6D6E509CACAE3DF7"
-				item: "pipez:ultimate_upgrade"
+				item: {
+					Count: 1
+					id: "pipez:ultimate_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "4FF526C154DF845F"
-					item: "pipez:basic_upgrade"
+					item: {
+						Count: 1
+						id: "pipez:basic_upgrade"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "21EF45CECE6CF780"
-					item: "pipez:improved_upgrade"
+					item: {
+						Count: 1
+						id: "pipez:improved_upgrade"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "1133584A2B06E907"
-					item: "pipez:advanced_upgrade"
+					item: {
+						Count: 1
+						id: "pipez:advanced_upgrade"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "638BFE8CBE79AF7D"
-					item: "pipez:ultimate_upgrade"
+					item: {
+						Count: 1
+						id: "pipez:ultimate_upgrade"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -261,12 +331,20 @@
 			id: "60331D3EC5C0E535"
 			rewards: [{
 				id: "0B0647499093CB31"
-				item: "clickmachine:auto_clicker"
+				item: {
+					Count: 1
+					id: "clickmachine:auto_clicker"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "46693E581A1BE7B9"
-				item: "clickmachine:auto_clicker"
+				item: {
+					Count: 1
+					id: "clickmachine:auto_clicker"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -284,24 +362,40 @@
 			rewards: [{
 				count: 4
 				id: "353B6076B9E075DC"
-				item: "minecraft:egg"
+				item: {
+					Count: 1
+					id: "minecraft:egg"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "1EE52E289EC718E4"
-					item: "mob_grinding_utils:gm_chicken_feed"
+					item: {
+						Count: 1
+						id: "mob_grinding_utils:gm_chicken_feed"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "6C6AA15F2A9DBCA3"
-					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					item: {
+						Count: 1
+						id: "mob_grinding_utils:gm_chicken_feed_cursed"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "3CF2359DFA03192F"
-					item: "mob_grinding_utils:ender_inhibitor_on"
+					item: {
+						Count: 1
+						id: "mob_grinding_utils:ender_inhibitor_on"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -320,13 +414,21 @@
 			id: "3D4CA50A72A5AFD7"
 			rewards: [{
 				id: "4AB36EAA0CDBC963"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "6A74E4F5572EF452"
-				item: "ironfurnaces:copper_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:copper_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -5.0d
@@ -338,13 +440,21 @@
 			rewards: [{
 				count: 4
 				id: "0F2720B28B5671DF"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [{
 				id: "2E98B641D2518620"
-				item: "ironfurnaces:silver_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:silver_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -6.5d
@@ -356,13 +466,21 @@
 			rewards: [{
 				count: 8
 				id: "6BFC4F9DE2717313"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				random_bonus: 8
 				type: "item"
 			}]
 			tasks: [{
 				id: "1456BBEDDB785807"
-				item: "ironfurnaces:iron_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:iron_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -374,13 +492,21 @@
 			rewards: [{
 				count: 16
 				id: "56352CF7EA9E07CF"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				random_bonus: 16
 				type: "item"
 			}]
 			tasks: [{
 				id: "34E1C95D3036D72A"
-				item: "ironfurnaces:gold_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:gold_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -9.5d
@@ -392,13 +518,21 @@
 			rewards: [{
 				count: 32
 				id: "0ED70D595CE1E94E"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				random_bonus: 32
 				type: "item"
 			}]
 			tasks: [{
 				id: "43213ED9C4341913"
-				item: "ironfurnaces:diamond_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:diamond_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -11.0d
@@ -410,12 +544,20 @@
 			rewards: [{
 				count: 64
 				id: "10E900141572402F"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "14EF07DB41B136A2"
-				item: "ironfurnaces:obsidian_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:obsidian_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -12.5d
@@ -427,13 +569,21 @@
 			rewards: [{
 				count: 8
 				id: "3C7520111D6B3EFF"
-				item: "minecraft:coal_block"
+				item: {
+					Count: 1
+					id: "minecraft:coal_block"
+					tag: { }
+				}
 				random_bonus: 8
 				type: "item"
 			}]
 			tasks: [{
 				id: "1140B9897C25E241"
-				item: "ironfurnaces:emerald_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:emerald_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -14.0d
@@ -445,13 +595,21 @@
 			rewards: [{
 				count: 16
 				id: "31148370B0AE6DF3"
-				item: "minecraft:coal_block"
+				item: {
+					Count: 1
+					id: "minecraft:coal_block"
+					tag: { }
+				}
 				random_bonus: 16
 				type: "item"
 			}]
 			tasks: [{
 				id: "5DE5957E2553AD5C"
-				item: "ironfurnaces:netherite_furnace"
+				item: {
+					Count: 1
+					id: "ironfurnaces:netherite_furnace"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -12.5d
@@ -464,39 +622,67 @@
 			rewards: [{
 				count: 4
 				id: "36A89960BF2C6188"
-				item: "minecraft:coal"
+				item: {
+					Count: 1
+					id: "minecraft:coal"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "29BA49419EDA94E3"
-					item: "ironfurnaces:augment_blasting"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_blasting"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2B969C4559D9833D"
-					item: "ironfurnaces:augment_smoking"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_smoking"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2BF95ADF99D0CDAD"
-					item: "ironfurnaces:augment_factory"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_factory"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "4C2F9E76E6F975A8"
-					item: "ironfurnaces:augment_generator"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_generator"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "7DAFC3923DB11882"
-					item: "ironfurnaces:augment_speed"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_speed"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "2C562C1113368D10"
-					item: "ironfurnaces:augment_fuel"
+					item: {
+						Count: 1
+						id: "ironfurnaces:augment_fuel"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -515,19 +701,31 @@
 			rewards: [{
 				count: 4
 				id: "6C52B6541F8EB7A6"
-				item: "minecraft:redstone"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
 				random_bonus: 4
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "5035A521075AD5B1"
-					item: "ironfurnaces:heater"
+					item: {
+						Count: 1
+						id: "ironfurnaces:heater"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "42449ECE84105754"
-					item: "ironfurnaces:item_heater"
+					item: {
+						Count: 1
+						id: "ironfurnaces:item_heater"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -544,24 +742,40 @@
 			rewards: [{
 				count: 8
 				id: "0A97FF2C5A9B0255"
-				item: "minecraft:redstone"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
 				random_bonus: 8
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "151A98F420C94414"
-					item: "fluxnetworks:flux_plug"
+					item: {
+						Count: 1
+						id: "fluxnetworks:flux_plug"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "5DDAFE84C77C9DCD"
-					item: "fluxnetworks:flux_point"
+					item: {
+						Count: 1
+						id: "fluxnetworks:flux_point"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "5582315498BAF225"
-					item: "fluxnetworks:flux_controller"
+					item: {
+						Count: 1
+						id: "fluxnetworks:flux_controller"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -575,13 +789,21 @@
 			id: "7BD5C98F43E5BE5D"
 			rewards: [{
 				id: "00C1EC2106BACF73"
-				item: "minecraft:redstone_block"
+				item: {
+					Count: 1
+					id: "minecraft:redstone_block"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "148AB3C16E75C577"
-				item: "fluxnetworks:gargantuan_flux_storage"
+				item: {
+					Count: 1
+					id: "fluxnetworks:gargantuan_flux_storage"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -0.5d
@@ -593,12 +815,20 @@
 			id: "6973D3E1F2496A0B"
 			rewards: [{
 				id: "0F5AE62BF07F553A"
-				item: "morecoal:omni_coal"
+				item: {
+					Count: 1
+					id: "morecoal:omni_coal"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "01D7318F4044E13A"
-				item: "morecoal:omni_coal"
+				item: {
+					Count: 1
+					id: "morecoal:omni_coal"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.5d
@@ -609,18 +839,30 @@
 			id: "50C7867DD0528A7F"
 			rewards: [{
 				id: "0F721ECC8F39970B"
-				item: "cyclic:placer_fluid"
+				item: {
+					Count: 1
+					id: "cyclic:placer_fluid"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "0E80C716BDC5A175"
-					item: "cyclic:placer"
+					item: {
+						Count: 1
+						id: "cyclic:placer"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "0B36C012C7A7247E"
-					item: "cyclic:breaker"
+					item: {
+						Count: 1
+						id: "cyclic:breaker"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -643,7 +885,11 @@
 			}]
 			tasks: [{
 				id: "6A474D5E5B173576"
-				item: "cyclic:user"
+				item: {
+					Count: 1
+					id: "cyclic:user"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -654,13 +900,21 @@
 			id: "4CCDE498FB683140"
 			rewards: [{
 				id: "477C3D515C522932"
-				item: "minecraft:redstone"
+				item: {
+					Count: 1
+					id: "minecraft:redstone"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "664542C478649752"
-				item: "cyclic:clock"
+				item: {
+					Count: 1
+					id: "cyclic:clock"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -6.5d
@@ -683,18 +937,30 @@
 			id: "032411FBA0FE5E2F"
 			rewards: [{
 				id: "6953A2C40E0D62FF"
-				item: "cagedmobs:cooking_upgrade"
+				item: {
+					Count: 1
+					id: "cagedmobs:cooking_upgrade"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "75A505C39DB79257"
-					item: "cagedmobs:hopping_mob_cage"
+					item: {
+						Count: 1
+						id: "cagedmobs:hopping_mob_cage"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "261AEC8AD6E4F926"
-					item: "cagedmobs:netherite_dna_sampler"
+					item: {
+						Count: 1
+						id: "cagedmobs:netherite_dna_sampler"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -706,13 +972,21 @@
 			id: "035D6332C94A32F8"
 			rewards: [{
 				id: "73003AC31A70DA2F"
-				item: "minecraft:ender_pearl"
+				item: {
+					Count: 1
+					id: "minecraft:ender_pearl"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "57C39CEA66BADAF0"
-				item: "itemcollectors:advanced_collector"
+				item: {
+					Count: 1
+					id: "itemcollectors:advanced_collector"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -4.5d
@@ -729,18 +1003,30 @@
 			id: "1DEA45302E47535C"
 			rewards: [{
 				id: "326E9C039830CDCB"
-				item: "botanypots:terracotta_hopper_botany_pot"
+				item: {
+					Count: 1
+					id: "botanypots:terracotta_hopper_botany_pot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "42BD8DD312A9B501"
-					item: "botanypots:terracotta_hopper_botany_pot"
+					item: {
+						Count: 1
+						id: "botanypots:terracotta_hopper_botany_pot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
 					id: "702B4AFE788E6381"
-					item: "farmersdelight:rich_soil"
+					item: {
+						Count: 1
+						id: "farmersdelight:rich_soil"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
@@ -752,13 +1038,21 @@
 			id: "40EB7601B8019E09"
 			rewards: [{
 				id: "210D4168D6157B45"
-				item: "minecraft:diamond"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+					tag: { }
+				}
 				random_bonus: 3
 				type: "item"
 			}]
 			tasks: [{
 				id: "74A9F5EA7003D9C2"
-				item: "chunkloaders:ultimate_chunk_loader"
+				item: {
+					Count: 1
+					id: "chunkloaders:ultimate_chunk_loader"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -1.25d
@@ -785,9 +1079,13 @@
 				"50C7867DD0528A7F"
 			]
 			description: ["Vous avez vaincu ce chapitre, félicitations !"]
-			hide: true
 			hide_dependency_lines: true
-			icon: "ars_elemental:glyph_conjure_terrain"
+			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				id: "ars_elemental:glyph_conjure_terrain"
+				tag: { }
+			}
 			id: "6A0E7A7CE252E086"
 			rewards: [{
 				id: "7915D7E30D243B39"
@@ -804,11 +1102,12 @@
 			}]
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "Cette quête se débloque une fois toutes les quêtes de cette page complétées !"
 			tasks: [{
 				id: "02F27E689B0F4D62"
-				title: "Soutien complété !"
 				type: "checkmark"
 			}]
+			title: "Usines terminées !"
 			x: -9.5d
 			y: -5.5d
 		}
